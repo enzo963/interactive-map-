@@ -1,7 +1,15 @@
-import Explore from "./pages/Explore"
+import Navbar from "./components/layout/Navbar"
+import Footer from "./components/layout/Footer"
+import Home from "./pages/Home"
 
 function App() {
-  return <Explore />
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  )
 }
 
 export default App

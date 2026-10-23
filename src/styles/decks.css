@@ -1,0 +1,44 @@
+/* Deck: top card back + visible card edges for thickness */
+.hb-deck {
+  --edge: 0.18rem;
+  position: relative;
+  width: var(--card-w, 100%);
+  aspect-ratio: var(--hb-card-ratio, 5 / 7.4);
+}
+.hb-deck__top { position: relative; z-index: 1; --card-w: 100%; }
+.hb-deck__edge {
+  position: absolute;
+  inset: 0;
+  background: var(--hb-green);
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  border-radius: 3px;
+  transform: translate(calc(var(--d) * var(--edge) * -1), calc(var(--d) * var(--edge)));
+}
+.hb-deck__edge:nth-child(odd) { background: var(--hb-ink); }
+.hb-deck__edge[data-depth='1'] { --d: 1; }
+.hb-deck__edge[data-depth='2'] { --d: 2; }
+.hb-deck__edge[data-depth='3'] { --d: 3; }
+.hb-deck__edge[data-depth='4'] { --d: 4; }
+.hb-deck__edge[data-depth='5'] { --d: 5; }
+.hb-deck__edge[data-depth='6'] { --d: 6; }
+
+/* Shuffle: the pile is cut and riffled, then squared up again */
+.hb-deck.is-shuffling .hb-deck__edge {
+  animation: hb-riffle-a 0.7s ease-in-out both;
+  animation-delay: calc(var(--d) * 35ms);
+}
+.hb-deck.is-shuffling .hb-deck__edge:nth-child(even) { animation-name: hb-riffle-b; }
+.hb-deck.is-shuffling .hb-deck__top { animation: hb-nudge 0.7s ease-in-out both; }
+
+@keyframes hb-riffle-a {
+  0%, 100% { transform: translate(calc(var(--d) * var(--edge) * -1), calc(var(--d) * var(--edge))); }
+  40%      { transform: translate(calc(var(--d) * var(--edge) * -1 + 2.4rem), calc(var(--d) * var(--edge) - 0.3rem)) rotate(3deg); }
+}
+@keyframes hb-riffle-b {
+  0%, 100% { transform: translate(calc(var(--d) * var(--edge) * -1), calc(var(--d) * var(--edge))); }
+  40%      { transform: translate(calc(var(--d) * var(--edge) * -1 - 2.4rem), calc(var(--d) * var(--edge) - 0.3rem)) rotate(-3deg); }
+}
+@keyframes hb-nudge {
+  0%, 100% { transform: none; }
+  50%      { transform: translateY(-0.4rem); }
+}
