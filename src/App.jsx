@@ -1,15 +1,15 @@
-import Navbar from "./components/layout/Navbar"
-import Footer from "./components/layout/Footer"
-import Home from "./pages/Home"
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import NotFound from './pages/NotFound';
+import { RouterProvider, Routes } from './router/Router';
+import { routes } from "./routes";
 
-function App() {
+export default function App() {
   return (
-    <>
+    <RouterProvider>
       <Navbar />
-      <Home />
+      <Routes routes={routes} notFound={NotFound} />
       <Footer />
-    </>
-  )
+    </RouterProvider>
+  );
 }
-
-export default App

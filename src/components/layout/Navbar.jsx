@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import { useLocation } from '../../router/RouterContext';
 import { PRIMARY_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
 
@@ -17,7 +18,11 @@ function BrandMark() {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+  const { pathname } = useLocation();
+  const isCurrent = (href) => {
+    const here = pathname.startsWith('/sites/') ? '/explore' : pathname; // a site belongs to Explore
+    return here === href || here.startsWith(`${href}/`);
+  };
 
   useEffect(() => {
     if (!open) return undefined;
@@ -56,7 +61,7 @@ export default function Navbar() {
                 <SmartLink
                   className="hb-nav__link"
                   href={item.href}
-                  aria-current={pathname === item.href ? 'page' : undefined}
+                  aria-current={isCurrent(item.href) ? 'page' : undefined}
                 >
                   {item.label}
                 </SmartLink>

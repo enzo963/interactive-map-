@@ -25,7 +25,7 @@ export default function Home() {
   );
 
   return (
-    <main id="main" className="hb-home">
+    <main id="main" tabIndex={-1} className="hb-home">
       <Hero stackSites={stackSites} stats={stats} />
       <FeaturedSites sites={featured} total={sites.length} />
       <DrawCard sites={sites} />

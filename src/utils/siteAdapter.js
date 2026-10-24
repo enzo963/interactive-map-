@@ -32,6 +32,57 @@ function normalizeDeckIds(decks) {
     .filter(Boolean);
 }
 
+const safeUrl = (url, { allowRelative = false } = {}) => {
+  const value = String(url ?? '').trim();
+  if (/^https?:\/\//i.test(value)) return value;
+  return allowRelative && value.startsWith('/') && !value.startsWith('//') ? value : '';
+};
+
+function normalizeGallery(gallery, name) {
+  return gallery
+    .map((item, i) => {
+      const src = resolveImage(item);
+      if (!src) return null;
+      const isObject = typeof item === 'object' && item !== null;
+      const caption = isObject ? item.caption ?? '' : '';
+      return { src, caption, alt: (isObject && item.alt) || caption || `${name} — image ${i + 1}` };
+    })
+    .filter(Boolean);
+}
+
+function normalizeSources(sources) {
+  if (!sources) return [];
+  const list = Array.isArray(sources) ? sources : [sources];
+  return list
+    .map((item) => {
+      if (typeof item === 'string') {
+        const text = item.trim();
+        return text ? { title: text, url: safeUrl(text), detail: '' } : null;
+      }
+      if (item && typeof item === 'object') {
+        const title = item.title ?? item.name ?? item.citation ?? item.text ?? item.url ?? '';
+        const detail = [item.author, item.publisher, item.year].filter(Boolean).join(', ');
+        return title ? { title: String(title), url: safeUrl(item.url ?? item.link), detail } : null;
+      }
+      return null;
+    })
+    .filter(Boolean);
+}
+
+/** Optional. Only renders if sites.json actually has a `timeline` array. */
+function normalizeTimeline(timeline) {
+  if (!Array.isArray(timeline)) return [];
+  return timeline
+    .map((item) => {
+      if (!item || typeof item !== 'object') return null;
+      const when = item.year ?? item.date ?? item.period ?? '';
+      const title = item.title ?? item.label ?? item.event ?? '';
+      if (!title && !when) return null;
+      return { when: String(when), title: String(title), description: item.description ?? '' };
+    })
+    .filter(Boolean);
+}
+
 const pad = (n, length = 4) => String(n).padStart(length, '0');
 
 /** Normalizes the whole dataset. Accepts [..] or { sites: [..] }. */
@@ -83,6 +134,22 @@ export function normalizeSites(input) {
       image: resolveImage(raw.main_image ?? gallery[0]),
       imageAlt: raw.main_image_alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
       deckIds,
+      civilization: raw.civilization ?? '',
+      shortDescription: raw.short_description ?? '',
+      description: raw.full_description ?? raw.short_description ?? '',
+      gallery: normalizeGallery(gallery, raw.name ?? 'Heritage site'),
+      modelUrl: safeUrl(raw.model_3d_url, { allowRelative: true }),
+      videoUrl: safeUrl(raw.video_url, { allowRelative: true }),
+      ourWorkTypes: Array.isArray(raw.our_work_types) ? raw.our_work_types.map(String).filter(Boolean) : [],
+      ourWorkNote:
+        typeof raw.our_work === 'string' && !['true', 'yes', 'false', 'no', ''].includes(raw.our_work.trim().toLowerCase())
+          ? raw.our_work.trim()
+          : '',
+      sources: normalizeSources(raw.sources),
+      timeline: normalizeTimeline(raw.timeline),
+      verificationStatus: raw.verification_status ?? '',
+      heritageStatus: raw.heritage_status ?? '',
+      unescoStatus: typeof raw.unesco_status === 'string' ? raw.unesco_status : '',
       isUnesco,
       isLost,
       hasModel: hasValue(raw.has_3d),
