@@ -2,6 +2,7 @@ import { getCardType } from './getCardType';
 import { formatYearLabel, getSiteAgeYears } from './siteYears';
 import { getGovernorateCode } from '../data/governorates';
 import { resolveImage } from './resolveImage';
+import slugify from './slugify';
 
 /**
  * The ONLY place that knows the raw sites.json field names.
@@ -18,8 +19,11 @@ const hasValue = (v) => {
   return Boolean(v);
 };
 
-const slugify = (v) =>
-  String(v ?? '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+const toCoordinate = (v) => {
+  if (v === null || v === undefined || v === '') return null;
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+};
 
 function normalizeDeckIds(decks) {
   if (!Array.isArray(decks)) return [];
@@ -67,6 +71,8 @@ export function normalizeSites(input) {
       name: raw.name ?? 'Untitled record',
       governorate: raw.governorate ?? '',
       city: raw.city ?? '',
+      latitude: toCoordinate(raw.latitude),
+      longitude: toCoordinate(raw.longitude),
       country: raw.country ?? 'Iraq',
       siteType,
       period: raw.historical_period ?? raw.civilization ?? '',

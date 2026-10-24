@@ -1,8 +1,8 @@
 /* =========================================================
-  Heritage Card system
-  Cards scale with their own width (container query units),
-  so one card works at 9rem in a hero stack or 30rem on a page.
-  Width comes from --card-w (default: fill the parent).
+   Heritage Card system
+   Cards scale with their own width (container query units),
+   so one card works at 9rem in a hero stack or 30rem on a page.
+   Width comes from --card-w (default: fill the parent).
    ========================================================= */
 
 :root {

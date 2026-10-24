@@ -38,7 +38,7 @@ const ALIASES = {
   sulaymaniya: 'sulaymaniyah',
 };
 
-function normalizeKey(name) {
+export function getGovernorateKey(name) {
   const key = String(name ?? '')
     .toLowerCase()
     .replace(/\bgovernorate\b/g, '')
@@ -47,7 +47,7 @@ function normalizeKey(name) {
 }
 
 export function getGovernorateCode(name) {
-  const key = normalizeKey(name);
+  const key = getGovernorateKey(name);
   if (GOVERNORATE_CODES[key]) return GOVERNORATE_CODES[key];
   return key.slice(0, 2).toUpperCase() || 'XX';
 }

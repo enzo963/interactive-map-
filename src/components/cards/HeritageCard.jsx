@@ -14,14 +14,16 @@ import '../../styles/heritage-card.css';
  *  - headingLevel  2–6 to fit the page's heading outline, or null to render a <p>
  *  - showCta       show the "View card" hover/focus label
  *  - priority      load the image eagerly (above-the-fold cards)
+ *  - interactive   false renders a plain, non-linked card (specimens, decorative peeks)
  */
-export default function HeritageCard({ site, headingLevel = 3, showCta = false, priority = false }) {
+export default function HeritageCard({ site, headingLevel = 3, showCta = false, priority = false, interactive = true }) {
   const [imageFailed, setImageFailed] = useState(false);
   const Heading = headingLevel ? `h${headingLevel}` : 'p';
   const { cardType } = site;
 
   const place = [site.governorate, site.country].filter(Boolean).join(' · ');
   const hasImage = Boolean(site.image) && !imageFailed;
+  const linked = interactive && Boolean(site.href);
 
   return (
     <article className="hb-card" data-tier={cardType.tier} data-type={cardType.id}>
@@ -60,7 +62,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
             </ul>
           )}
 
-          {showCta && (
+          {showCta && linked && (
             <span className="hb-card__cta" aria-hidden="true">
               View card ↗
             </span>
@@ -69,12 +71,16 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
 
         <div className="hb-card__body">
           <Heading className="hb-card__title">
-            <SmartLink className="hb-card__link" href={site.href}>
-              {site.name}
-            </SmartLink>
+            {linked ? (
+              <SmartLink className="hb-card__link" href={site.href}>
+                {site.name}
+              </SmartLink>
+            ) : (
+              site.name
+            )}
           </Heading>
           {site.siteType && <p className="hb-card__category">{site.siteType}</p>}
-          <p className="hb-card__place">{place}</p>
+          {place && <p className="hb-card__place">{place}</p>}
           {site.period && <p className="hb-card__period">{site.period}</p>}
         </div>
 

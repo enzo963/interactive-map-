@@ -32,3 +32,13 @@ export function selectFeaturedSites(sites, count = 3, excludeIds = []) {
   const pool = fresh.length >= count ? fresh : sites;
   return [...pool].sort(byScore).slice(0, count);
 }
+
+/** Best real site for each card tier: { [tier]: site }. Missing tiers are simply absent. */
+export function selectOnePerType(sites) {
+  const byTier = {};
+  for (const site of [...sites].sort(byScore)) {
+    const tier = site.cardType.tier;
+    if (tier > 0 && !byTier[tier]) byTier[tier] = site;
+  }
+  return byTier;
+}
