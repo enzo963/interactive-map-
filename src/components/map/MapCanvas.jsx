@@ -1,182 +1,172 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { buildMapFrame } from '../../utils/mapFrame';
+import { useEffect, useRef } from 'react';
+import L from '../../lib/leaflet';
 import { getGovernorateKey } from '../../data/governorates';
+import { cardsLabel } from '../../utils/archiveStats';
 import '../../styles/map-explorer.css';
 
-const MIN_Z = 1;
-const MAX_Z = 12;
-const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+const IRAQ_BOUNDS = [[29.0, 38.7], [37.4, 48.6]];
+// Free OpenStreetMap tiles: no key, attribution required (https://operations.osmfoundation.org/policies/tiles/).
+const TILE_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+const LABEL_MAX_ZOOM = 9;
+
+const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
+const escapeHtml = (text) =>
+  String(text ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+
+const pinIcon = (site, selected) =>
+  L.divIcon({
+    className: 'hb-pin-wrap',
+    html: `<span class="hb-pin" data-tier="${site.cardType.tier}" data-selected="${selected}"></span>`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+  });
+
+const draftIcon = L.divIcon({ className: 'hb-pin-wrap', html: '<span class="hb-pin hb-pin--draft"></span>', iconSize: [28, 28], iconAnchor: [14, 14] });
+
+const clusterIcon = (cluster) =>
+  L.divIcon({
+    className: 'hb-cluster-wrap',
+    html: `<span class="hb-cluster">${cluster.getChildCount()}</span>`,
+    iconSize: [38, 38],
+  });
 
 /**
- * Pan / zoom plot of card positions (no basemap: only recorded coordinates).
- *  - drag to pan, Ctrl/⌘ + scroll or the buttons to zoom, arrow keys + / - / 0 from the keyboard
- *  - dots are a pointer convenience; the results list next to the map is the accessible equivalent
- *  - the frame is fitted to ALL sites, so filtering never makes the map jump
+ * Leaflet map of card positions on a free OpenStreetMap basemap.
+ *  - one diamond pin per card, coloured by card type; nearby pins cluster when zoomed out
+ *  - governorate labels show live card counts (computed from the data, never typed in)
+ *  - `picking` turns map clicks into `onPick({ lat, lng })`; `draft` shows a draggable pin for that position
+ *  - the view is fitted to ALL sites once, so filtering never makes the map jump
  */
-export default function MapCanvas({ allSites, visibleSites, selectedSite, onSelect }) {
-  const frame = useMemo(() => buildMapFrame(allSites, 0.1), [allSites]);
-  const plotRef = useRef(null);
-  const drag = useRef(null);
-  const moved = useRef(false);
-  const [view, setView] = useState({ z: 1, x: 0, y: 0 });
+export default function MapCanvas({ allSites, visibleSites, selectedSite, onSelect, picking = false, draft = null, onPick }) {
+  const containerRef = useRef(null);
+  const mapRef = useRef(null);
+  const layersRef = useRef(null);
+  const markersRef = useRef(new Map());
+  const draftRef = useRef(null);
+  const handlers = useRef({ onSelect, onPick, picking });
+  useEffect(() => { handlers.current = { onSelect, onPick, picking }; });
 
-  const measure = () => {
-    const rect = plotRef.current.getBoundingClientRect();
-    return { w: rect.width, h: rect.height };
-  };
-  const constrain = (z, x, y, w, h) => ({ z, x: clamp(x, w * (1 - z), 0), y: clamp(y, h * (1 - z), 0) });
+  // Create the map once.
+  useEffect(() => {
+    const map = L.map(containerRef.current, { minZoom: 5, maxZoom: 18, worldCopyJump: false, zoomSnap: 0.5 });
+    L.tileLayer(TILE_URL, { attribution: ATTRIBUTION, maxZoom: 19 }).addTo(map);
 
-  const zoomAt = useCallback((factor, cx, cy) => {
-    if (!plotRef.current) return;
-    const { w, h } = measure();
-    setView((v) => {
-      const z = clamp(v.z * factor, MIN_Z, MAX_Z);
-      const k = z / v.z;
-      return constrain(z, cx - (cx - v.x) * k, cy - (cy - v.y) * k, w, h);
+    const clusters = L.markerClusterGroup({ iconCreateFunction: clusterIcon, showCoverageOnHover: false, maxClusterRadius: 45 }).addTo(map);
+    const labels = L.layerGroup().addTo(map);
+    layersRef.current = { clusters, labels };
+
+    const positioned = allSites.filter(hasPosition);
+    if (positioned.length > 1) map.fitBounds(L.latLngBounds(positioned.map((s) => [s.latitude, s.longitude])).pad(0.25), { maxZoom: 11 });
+    else if (positioned.length === 1) map.setView([positioned[0].latitude, positioned[0].longitude], 9);
+    else map.fitBounds(IRAQ_BOUNDS);
+
+    const toggleLabels = () => containerRef.current?.toggleAttribute('data-labels-hidden', map.getZoom() > LABEL_MAX_ZOOM);
+    map.on('zoomend', toggleLabels);
+    toggleLabels();
+    map.on('click', (event) => {
+      if (handlers.current.picking) handlers.current.onPick?.({ lat: event.latlng.lat, lng: event.latlng.lng });
     });
+
+    const resize = new ResizeObserver(() => map.invalidateSize());
+    resize.observe(containerRef.current);
+    mapRef.current = map;
+    return () => {
+      resize.disconnect();
+      map.remove();
+      mapRef.current = null;
+    };
+    // The initial view is fitted once on purpose; later data changes must not move the map.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const zoomCentre = (factor) => {
-    const { w, h } = measure();
-    zoomAt(factor, w / 2, h / 2);
-  };
-
-  // Ctrl/⌘ + wheel zooms at the cursor; plain wheel still scrolls the page.
+  // Pins + governorate count labels for the filtered cards.
   useEffect(() => {
-    const el = plotRef.current;
-    if (!el) return undefined;
-    const onWheel = (event) => {
-      if (!event.ctrlKey && !event.metaKey) return;
-      event.preventDefault();
-      const rect = el.getBoundingClientRect();
-      zoomAt(event.deltaY < 0 ? 1.25 : 0.8, event.clientX - rect.left, event.clientY - rect.top);
-    };
-    el.addEventListener('wheel', onWheel, { passive: false });
-    return () => el.removeEventListener('wheel', onWheel);
-  }, [zoomAt, frame]);
+    const { clusters, labels } = layersRef.current;
+    clusters.clearLayers();
+    labels.clearLayers();
+    markersRef.current.clear();
 
-  // Bring a newly selected card into view when zoomed in.
+    const groups = new Map();
+    const pins = [];
+    for (const site of visibleSites) {
+      if (!hasPosition(site)) continue;
+      const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false), keyboard: false, title: site.name });
+      marker.bindTooltip(
+        `<strong>${escapeHtml(site.name)}</strong><br><span>${escapeHtml([site.cardType.shortLabel, site.siteType].filter(Boolean).join(' · '))}</span>`,
+        { direction: 'top', offset: [0, -10], className: 'hb-map-tip' },
+      );
+      marker.on('click', () => { if (!handlers.current.picking) handlers.current.onSelect(site); });
+      markersRef.current.set(site.id, marker);
+      pins.push(marker);
+
+      const key = getGovernorateKey(site.governorate) || 'unknown';
+      const group = groups.get(key) ?? { name: site.governorate || 'Unknown', lat: 0, lng: 0, n: 0 };
+      group.lat += site.latitude; group.lng += site.longitude; group.n += 1;
+      groups.set(key, group);
+    }
+    clusters.addLayers(pins);
+
+    groups.forEach((group) => {
+      L.marker([group.lat / group.n, group.lng / group.n], {
+        interactive: false,
+        keyboard: false,
+        icon: L.divIcon({
+          className: 'hb-gov-wrap',
+          html: `<span class="hb-gov"><span class="hb-gov__name">${escapeHtml(group.name)}</span><span class="hb-gov__count">${cardsLabel(group.n)}</span></span>`,
+          iconSize: null,
+        }),
+      }).addTo(labels);
+    });
+  }, [visibleSites]);
+
+  // Highlight the selected card and bring it into view.
   useEffect(() => {
-    if (!frame || !selectedSite || !plotRef.current) return;
-    if (!Number.isFinite(selectedSite.latitude) || !Number.isFinite(selectedSite.longitude)) return;
-    const { x, y } = frame.project(selectedSite);
-    const { w, h } = measure();
-    setView((v) => (v.z > 1 ? constrain(v.z, w / 2 - ((x / 100) * w) * v.z, h / 2 - ((y / 100) * h) * v.z, w, h) : v));
-  }, [selectedSite, frame]);
-
-  if (!frame) {
-    return <p className="hb-mapx__none">No card in the archive has recorded coordinates yet.</p>;
-  }
-
-  const onPointerDown = (event) => {
-    if (event.button !== 0) return;
-    drag.current = { x: event.clientX, y: event.clientY, vx: view.x, vy: view.y, id: event.pointerId };
-    moved.current = false;
-  };
-  const onPointerMove = (event) => {
-    const d = drag.current;
-    if (!d || view.z === 1) return;
-    const dx = event.clientX - d.x;
-    const dy = event.clientY - d.y;
-    if (!moved.current && Math.hypot(dx, dy) < 4) return;
-    if (!moved.current) {
-      moved.current = true;
-      plotRef.current.setPointerCapture(d.id);
+    markersRef.current.forEach((marker, id) => {
+      const site = visibleSites.find((s) => s.id === id);
+      if (site) marker.setIcon(pinIcon(site, selectedSite?.id === id));
+      marker.setZIndexOffset(selectedSite?.id === id ? 1000 : 0);
+    });
+    const marker = selectedSite && markersRef.current.get(selectedSite.id);
+    if (marker && !mapRef.current.getBounds().contains(marker.getLatLng())) {
+      layersRef.current.clusters.zoomToShowLayer(marker);
     }
-    const { w, h } = measure();
-    setView((v) => constrain(v.z, d.vx + dx, d.vy + dy, w, h));
-  };
-  const endDrag = () => {
-    drag.current = null;
-    setTimeout(() => { moved.current = false; }, 0); // lets the click handler see "moved" first
-  };
+  }, [selectedSite, visibleSites]);
 
-  const onKeyDown = (event) => {
-    const { w, h } = measure();
-    const pan = (dx, dy) => setView((v) => constrain(v.z, v.x + dx, v.y + dy, w, h));
-    switch (event.key) {
-      case 'ArrowLeft': pan(48, 0); break;
-      case 'ArrowRight': pan(-48, 0); break;
-      case 'ArrowUp': pan(0, 48); break;
-      case 'ArrowDown': pan(0, -48); break;
-      case '+': case '=': zoomCentre(1.4); break;
-      case '-': case '_': zoomCentre(1 / 1.4); break;
-      case '0': setView({ z: 1, x: 0, y: 0 }); break;
-      default: return;
+  // Draft pin for the place being added / moved.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!draft) {
+      draftRef.current?.remove();
+      draftRef.current = null;
+      return;
     }
-    event.preventDefault();
-  };
+    if (!draftRef.current) {
+      draftRef.current = L.marker([draft.lat, draft.lng], { icon: draftIcon, draggable: true, zIndexOffset: 2000, keyboard: false }).addTo(map);
+      draftRef.current.on('dragend', (event) => {
+        const { lat, lng } = event.target.getLatLng();
+        handlers.current.onPick?.({ lat, lng });
+      });
+    } else {
+      draftRef.current.setLatLng([draft.lat, draft.lng]);
+    }
+    if (!map.getBounds().contains([draft.lat, draft.lng])) map.panTo([draft.lat, draft.lng]);
+  }, [draft]);
 
-  const labels = [];
-  const seen = new Map();
-  for (const site of visibleSites) {
-    if (!Number.isFinite(site.latitude) || !Number.isFinite(site.longitude)) continue;
-    const key = getGovernorateKey(site.governorate);
-    const { x, y } = frame.project(site);
-    const entry = seen.get(key) ?? { key, name: site.governorate, x: 0, y: 0, n: 0 };
-    entry.x += x; entry.y += y; entry.n += 1;
-    seen.set(key, entry);
-  }
-  seen.forEach((entry) => labels.push({ ...entry, x: entry.x / entry.n, y: entry.y / entry.n }));
+  useEffect(() => () => draftRef.current?.remove(), []);
 
   return (
     <div className="hb-mapx">
-      <div className="hb-mapx__toolbar">
-        <div role="group" aria-label="Map zoom">
-          <button type="button" onClick={() => zoomCentre(1.4)} aria-label="Zoom in" disabled={view.z >= MAX_Z}>+</button>
-          <button type="button" onClick={() => zoomCentre(1 / 1.4)} aria-label="Zoom out" disabled={view.z <= MIN_Z}>−</button>
-          <button type="button" onClick={() => setView({ z: 1, x: 0, y: 0 })} disabled={view.z === 1}>Reset</button>
-        </div>
-        <p className="hb-mapx__hint">Drag to pan when zoomed. Ctrl or ⌘ + scroll to zoom.</p>
-      </div>
-
       <div
-        ref={plotRef}
-        className="hb-mapx__plot"
-        data-zoomed={view.z > 1}
-        tabIndex={0}
-        role="group"
-        aria-label="Map of card positions. Arrow keys pan, plus and minus zoom, 0 resets. The list of cards beside the map offers the same information."
-        style={{ '--ratio': frame.ratio }}
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={endDrag}
-        onPointerCancel={endDrag}
-        onKeyDown={onKeyDown}
-      >
-        <div className="hb-mapx__layer" style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.z})`, '--z': view.z }}>
-          <svg className="hb-mapx__grid" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-            {frame.latTicks.map((t) => <line key={`la${t.value}`} x1="0" x2="100" y1={t.at} y2={t.at} vectorEffect="non-scaling-stroke" />)}
-            {frame.lonTicks.map((t) => <line key={`lo${t.value}`} y1="0" y2="100" x1={t.at} x2={t.at} vectorEffect="non-scaling-stroke" />)}
-          </svg>
-          {frame.latTicks.map((t) => (
-            <span className="hb-mapx__tick hb-mapx__tick--lat" style={{ '--y': `${t.at}%` }} key={`tl${t.value}`} aria-hidden="true">{Math.abs(t.value)}°{t.value >= 0 ? 'N' : 'S'}</span>
-          ))}
-          {frame.lonTicks.map((t) => (
-            <span className="hb-mapx__tick hb-mapx__tick--lon" style={{ '--x': `${t.at}%` }} key={`tn${t.value}`} aria-hidden="true">{Math.abs(t.value)}°{t.value >= 0 ? 'E' : 'W'}</span>
-          ))}
-          {view.z <= 2.5 && labels.map((label) => (
-            <span className="hb-mapx__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.key} aria-hidden="true">{label.name}</span>
-          ))}
-          {visibleSites.map((site) => {
-            if (!Number.isFinite(site.latitude) || !Number.isFinite(site.longitude)) return null;
-            const { x, y } = frame.project(site);
-            return (
-              <button
-                type="button"
-                tabIndex={-1}
-                aria-hidden="true"
-                className="hb-mapx__dot"
-                data-selected={selectedSite?.id === site.id}
-                style={{ '--x': `${x}%`, '--y': `${y}%` }}
-                onClick={() => { if (!moved.current) onSelect(site); }}
-                key={site.id}
-              />
-            );
-          })}
-        </div>
-      </div>
-      <p className="hb-map__caption">Positions are plotted from recorded coordinates. Boundaries are not shown.</p>
+        ref={containerRef}
+        className="hb-mapx__leaflet"
+        data-picking={picking}
+        role="region"
+        aria-label="Map of card positions. The list of cards beside the map offers the same information."
+      />
+      <p className="hb-map__caption">
+        {picking ? 'Click the map to place the pin, then drag it to fine-tune.' : 'Pins are plotted from recorded coordinates. Colour shows the card type.'}
+      </p>
     </div>
   );
 }

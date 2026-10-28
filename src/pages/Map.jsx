@@ -4,6 +4,7 @@ import SearchField from '../components/common/SearchField';
 import SmartLink from '../components/common/SmartLink';
 import HeritageCard from '../components/cards/HeritageCard';
 import MapCanvas from '../components/map/MapCanvas';
+import PlaceForm from '../components/map/PlaceForm';
 import FilterPanel from '../components/explore/FilterPanel';
 import ActiveFilters from '../components/explore/ActiveFilters';
 import useSiteFilters from '../hooks/useSiteFilters';
@@ -15,6 +16,8 @@ import { cardsLabel } from '../utils/archiveStats';
 import '../styles/map-explorer.css';
 
 const LIST_PAGE = 30;
+// Editing writes to src/data/sites.json through the Vite dev server, so it only exists in development.
+const CAN_EDIT = import.meta.env.DEV;
 
 export default function MapPage() {
   useDocumentTitle('Map — Heritage Bridge');
@@ -23,6 +26,8 @@ export default function MapPage() {
   const [params, setParams] = useSearchParams();
   const [panelOpen, setPanelOpen] = useState(false);
   const [listSize, setListSize] = useState(LIST_PAGE);
+  const [editing, setEditing] = useState(null); // null | { target: 'new' | site id }
+  const [draft, setDraft] = useState(null);
 
   const facets = useMemo(() => getFacets(sites, filters), [sites, filters]);
   const results = useMemo(() => sortSites(applyFilters(sites, filters), { ...filters, sort: filters.sort || 'name' }), [sites, filters]);
@@ -37,12 +42,26 @@ export default function MapPage() {
       return next;
     });
 
+  const startEditing = (site) => {
+    setEditing({ target: site?.id ?? 'new' });
+    setDraft(site && Number.isFinite(site.latitude) ? { lat: site.latitude, lng: site.longitude } : null);
+  };
+  const stopEditing = () => { setEditing(null); setDraft(null); };
+  const onSaved = (raw) => {
+    stopEditing();
+    setParams((current) => {
+      const next = new URLSearchParams(current);
+      next.set('site', raw.slug);
+      return next;
+    });
+  };
+
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
         eyebrow="Map"
         title="Cards on the map"
-        lede="Each diamond is a card. Filter the archive, then select a point or a name to open its card."
+        lede="Each diamond is a card. Filter the archive, then select a pin or a name to open its card."
       />
 
       <div className="hb-container hb-mapx__page">
@@ -52,6 +71,9 @@ export default function MapPage() {
             <button type="button" className="hb-explore__toggle hb-mapx__filterbtn" aria-expanded={panelOpen} aria-controls="map-filters" onClick={() => setPanelOpen((o) => !o)}>
               Filters{activeCount > 0 ? ` (${activeCount})` : ''}
             </button>
+            {CAN_EDIT && !editing && (
+              <button type="button" className="hb-btn hb-btn--ink hb-mapx__addbtn" onClick={() => startEditing(null)}>+ Add a place</button>
+            )}
           </div>
           <div id="map-filters" className={`hb-mapx__panel ${panelOpen ? 'is-open' : ''}`.trim()}>
             <FilterPanel layout="wide" facets={facets} filters={filters} onChange={setFilters} onClear={clear} activeCount={activeCount} />
@@ -60,15 +82,37 @@ export default function MapPage() {
         </div>
 
         <div className="hb-mapx__grid-layout">
-          <MapCanvas allSites={sites} visibleSites={results} selectedSite={selected} onSelect={select} />
+          <MapCanvas
+            allSites={sites}
+            visibleSites={results}
+            selectedSite={selected}
+            onSelect={select}
+            picking={Boolean(editing)}
+            draft={draft}
+            onPick={setDraft}
+          />
 
           <aside className="hb-mapx__side" aria-label="Selected card and results">
-            {selected && (
+            {editing && (
+              <PlaceForm
+                key={editing.target}
+                sites={sites}
+                initialTarget={editing.target}
+                draft={draft}
+                onDraftChange={setDraft}
+                onCancel={stopEditing}
+                onSaved={onSaved}
+              />
+            )}
+            {!editing && selected && (
               <div className="hb-mapx__selected">
                 <div className="hb-mapx__selected-card">
                   <HeritageCard site={selected} headingLevel={2} showCta />
                 </div>
-                <button type="button" className="hb-link hb-mapx__deselect" onClick={() => select(null)}>Clear selection</button>
+                <div className="hb-mapx__selected-actions">
+                  <button type="button" className="hb-link hb-mapx__deselect" onClick={() => select(null)}>Clear selection</button>
+                  {CAN_EDIT && <button type="button" className="hb-link hb-mapx__deselect" onClick={() => startEditing(selected)}>Move this pin</button>}
+                </div>
               </div>
             )}
 
