@@ -1,53 +1,35 @@
 import { useMemo, useState } from 'react';
 import HeritageCard from '../cards/HeritageCard';
+import MapCanvas from './MapCanvas';
 import SmartLink from '../common/SmartLink';
 import { getGovernorateKey } from '../../data/governorates';
 import { cardsLabel } from '../../utils/archiveStats';
 import { groupByGovernorate } from '../../utils/groupDecks';
-import { buildMapFrame } from '../../utils/mapFrame';
 import { selectFeaturedSites } from '../../utils/selectSites';
 import '../../styles/home-sections.css';
 
-const formatLat = (v) => `${Math.abs(v)}°${v >= 0 ? 'N' : 'S'}`;
-const formatLon = (v) => `${Math.abs(v)}°${v >= 0 ? 'E' : 'W'}`;
-
 /**
- * Map preview, part of the card system: a point = a card, a governorate = a deck.
- * Points come from recorded coordinates only. No country outline is drawn
- * because none is in the dataset (real boundaries arrive with the full map, Phase 3).
+ * Map preview, part of the card system: a pin = a card, a governorate = a deck.
+ * Uses the same Leaflet map as the Map page; selecting a pin opens that card's governorate deck.
  *
  * Accessibility: the governorate list is the keyboard / screen-reader control;
- * the plot is a pointer convenience and is hidden from assistive tech.
+ * the map is a pointer convenience.
  */
 export default function MapPreview({ sites }) {
   const decks = useMemo(() => groupByGovernorate(sites), [sites]);
-  const frame = useMemo(() => buildMapFrame(sites), [sites]);
   const [selectedId, setSelectedId] = useState(null);
+  const [pinned, setPinned] = useState(null);
 
   const selected = decks.find((deck) => deck.id === selectedId) ?? decks[0];
-
-  const markers = useMemo(() => {
-    if (!frame) return [];
-    return sites
-      .filter((s) => Number.isFinite(s.latitude) && Number.isFinite(s.longitude))
-      .map((site) => ({ site, deckId: getGovernorateKey(site.governorate), ...frame.project(site) }));
-  }, [sites, frame]);
-
-  const labels = useMemo(
-    () =>
-      decks
-        .map((deck) => {
-          const own = markers.filter((m) => m.deckId === deck.id);
-          if (own.length === 0) return null;
-          const avg = (key) => own.reduce((sum, m) => sum + m[key], 0) / own.length;
-          return { id: deck.id, name: deck.name, x: avg('x'), y: avg('y') };
-        })
-        .filter(Boolean),
-    [decks, markers],
-  );
+  const positioned = sites.filter((s) => Number.isFinite(s.latitude) && Number.isFinite(s.longitude)).length;
+  const hasPositions = positioned > 0;
 
   if (!selected) return null;
-  const preview = selectFeaturedSites(selected.sites, 3);
+  // A selected pin leads its deck's preview, followed by the deck's featured cards.
+  const featured = selectFeaturedSites(selected.sites, 3);
+  const preview = pinned && selected.sites.some((s) => s.id === pinned.id)
+    ? [pinned, ...featured.filter((s) => s.id !== pinned.id)].slice(0, 3)
+    : featured;
 
   return (
     <section className="hb-map" aria-labelledby="map-title">
@@ -57,41 +39,17 @@ export default function MapPreview({ sites }) {
           <SmartLink href="/map" className="hb-link">Open the map</SmartLink>
         </header>
 
-        <div className={`hb-map__grid ${frame ? '' : 'hb-map__grid--list'}`.trim()}>
-          {frame && (
+        <div className={`hb-map__grid ${hasPositions ? '' : 'hb-map__grid--list'}`.trim()}>
+          {hasPositions && (
             <figure className="hb-map__figure">
-              <div className="hb-map__plot" aria-hidden="true" style={{ '--ratio': frame.ratio }}>
-                {frame.latTicks.map((t) => (
-                  <span className="hb-map__line hb-map__line--lat" style={{ '--at': `${t.at}%` }} key={`lat${t.value}`}>
-                    <span>{formatLat(t.value)}</span>
-                  </span>
-                ))}
-                {frame.lonTicks.map((t) => (
-                  <span className="hb-map__line hb-map__line--lon" style={{ '--at': `${t.at}%` }} key={`lon${t.value}`}>
-                    <span>{formatLon(t.value)}</span>
-                  </span>
-                ))}
-                {labels.map((label) => (
-                  <span className="hb-map__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.id}>
-                    {label.name}
-                  </span>
-                ))}
-                {markers.map((m) => (
-                  <button
-                    type="button"
-                    tabIndex={-1}
-                    className="hb-map__dot"
-                    data-selected={m.deckId === selected.id}
-                    style={{ '--x': `${m.x}%`, '--y': `${m.y}%` }}
-                    onClick={() => setSelectedId(m.deckId)}
-                    key={m.site.id}
-                  />
-                ))}
-              </div>
-              <figcaption className="hb-map__caption">
-                {markers.length} of {sites.length} cards plotted from recorded coordinates. Boundaries are not
-                shown. Use the list to browse by governorate.
-              </figcaption>
+              <MapCanvas
+                allSites={sites}
+                visibleSites={sites}
+                selectedSite={pinned}
+                onSelect={(site) => { setPinned(site); setSelectedId(getGovernorateKey(site.governorate)); }}
+                size="compact"
+                caption={`${positioned} of ${sites.length} cards plotted from recorded coordinates. Select a pin to open its governorate deck.`}
+              />
             </figure>
           )}
 
@@ -102,7 +60,7 @@ export default function MapPreview({ sites }) {
                   type="button"
                   className="hb-map__option"
                   aria-pressed={deck.id === selected.id}
-                  onClick={() => setSelectedId(deck.id)}
+                  onClick={() => { setSelectedId(deck.id); setPinned(null); }}
                   key={deck.id}
                 >
                   <span>{deck.name}</span>

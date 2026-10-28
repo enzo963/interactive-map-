@@ -37,8 +37,9 @@ const clusterIcon = (cluster) =>
  *  - governorate labels show live card counts (computed from the data, never typed in)
  *  - `picking` turns map clicks into `onPick({ lat, lng })`; `draft` shows a draggable pin for that position
  *  - the view is fitted to ALL sites once, so filtering never makes the map jump
+ *  - `size="compact"` is the shorter map used on the home page and site pages; `caption` replaces the default note
  */
-export default function MapCanvas({ allSites, visibleSites, selectedSite, onSelect, picking = false, draft = null, onPick }) {
+export default function MapCanvas({ allSites, visibleSites, selectedSite, onSelect, picking = false, draft = null, onPick, size = 'full', caption }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const layersRef = useRef(null);
@@ -101,14 +102,15 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
       pins.push(marker);
 
       const key = getGovernorateKey(site.governorate) || 'unknown';
-      const group = groups.get(key) ?? { name: site.governorate || 'Unknown', lat: 0, lng: 0, n: 0 };
-      group.lat += site.latitude; group.lng += site.longitude; group.n += 1;
+      const group = groups.get(key) ?? { name: site.governorate || 'Unknown', north: -90, lng: 0, n: 0 };
+      group.north = Math.max(group.north, site.latitude); group.lng += site.longitude; group.n += 1;
       groups.set(key, group);
     }
     clusters.addLayers(pins);
 
     groups.forEach((group) => {
-      L.marker([group.lat / group.n, group.lng / group.n], {
+      // Above the governorate's northern-most pin, so the label does not cover pins or clusters.
+      L.marker([group.north, group.lng / group.n], {
         interactive: false,
         keyboard: false,
         icon: L.divIcon({
@@ -127,10 +129,18 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
       if (site) marker.setIcon(pinIcon(site, selectedSite?.id === id));
       marker.setZIndexOffset(selectedSite?.id === id ? 1000 : 0);
     });
+    // Zoom in when the selected pin is off-screen or hidden inside a cluster.
+    // Deferred a tick: clusters are only laid out after the pins are added.
     const marker = selectedSite && markersRef.current.get(selectedSite.id);
-    if (marker && !mapRef.current.getBounds().contains(marker.getLatLng())) {
-      layersRef.current.clusters.zoomToShowLayer(marker);
-    }
+    if (!marker) return undefined;
+    const map = mapRef.current;
+    const { clusters } = layersRef.current;
+    const timer = setTimeout(() => {
+      if (!map.getBounds().contains(marker.getLatLng()) || clusters.getVisibleParent(marker) !== marker) {
+        clusters.zoomToShowLayer(marker);
+      }
+    }, 0);
+    return () => clearTimeout(timer);
   }, [selectedSite, visibleSites]);
 
   // Draft pin for the place being added / moved.
@@ -161,11 +171,14 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
         ref={containerRef}
         className="hb-mapx__leaflet"
         data-picking={picking}
+        data-size={size}
         role="region"
         aria-label="Map of card positions. The list of cards beside the map offers the same information."
       />
       <p className="hb-map__caption">
-        {picking ? 'Click the map to place the pin, then drag it to fine-tune.' : 'Pins are plotted from recorded coordinates. Colour shows the card type.'}
+        {picking
+          ? 'Click the map to place the pin, then drag it to fine-tune.'
+          : caption ?? 'Pins are plotted from recorded coordinates. Colour shows the card type.'}
       </p>
     </div>
   );

@@ -14,61 +14,6 @@
   gap: clamp(1.5rem, 4vw, 4rem);
   align-items: start;
 }
-.hb-map__plot {
-  position: relative;
-  aspect-ratio: var(--ratio, 1.2);
-  overflow: hidden;
-  background: var(--hb-paper-raised);
-  border: 1px solid var(--hb-rule-strong);
-}
-.hb-map__line {
-  position: absolute;
-  pointer-events: none;
-  font-family: var(--hb-font-mono);
-  font-size: 0.7rem;
-  color: var(--hb-earth-text);
-}
-.hb-map__line--lat { left: 0; right: 0; top: var(--at); border-top: 1px solid var(--hb-rule); }
-.hb-map__line--lat > span { position: absolute; left: 0.5rem; top: 0.25rem; }
-.hb-map__line--lon { top: 0; bottom: 0; left: var(--at); border-left: 1px solid var(--hb-rule); }
-.hb-map__line--lon > span { position: absolute; left: 0.4rem; bottom: 0.4rem; }
-
-.hb-map__label {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  padding: 0.1rem 0.35rem;
-  transform: translate(-50%, 0.9rem);
-  background: var(--hb-paper-raised);
-  font-family: var(--hb-font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  pointer-events: none;
-}
-.hb-map__dot {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  width: 0.75rem;
-  height: 0.75rem;
-  margin: -0.375rem 0 0 -0.375rem;
-  padding: 0;
-  background: var(--hb-ink);
-  border: 1px solid var(--hb-paper-raised);
-  transform: rotate(45deg);
-  cursor: pointer;
-  transition: background-color 0.2s var(--hb-ease), width 0.2s var(--hb-ease), height 0.2s var(--hb-ease), margin 0.2s var(--hb-ease);
-}
-.hb-map__dot::before { content: ''; position: absolute; inset: -0.6rem; } /* larger hit area */
-.hb-map__dot[data-selected='true'] {
-  z-index: 2;
-  width: 0.95rem;
-  height: 0.95rem;
-  margin: -0.475rem 0 0 -0.475rem;
-  background: var(--hb-terracotta);
-}
 .hb-map__caption { margin-top: 0.75rem; max-width: 52ch; font-size: 0.82rem; color: var(--hb-earth-text); }
 
 .hb-map__list { display: flex; flex-direction: column; border-top: 1px solid var(--hb-rule-strong); }
@@ -104,6 +49,12 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   margin-block: 1rem 0.75rem;
+}
+/* Three cards need ~27rem; a narrower side column shows two. */
+.hb-map__side { container-type: inline-size; }
+@container (max-width: 27rem) {
+  .hb-map__preview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hb-map__preview > li:nth-child(3) { display: none; }
 }
 
 /* ---------- Governorate decks ---------- */
