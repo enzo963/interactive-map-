@@ -3,7 +3,7 @@ import HeritageCard from '../components/cards/HeritageCard';
 import SmartLink from '../components/common/SmartLink';
 import Gallery from '../components/site/Gallery';
 import SiteLocation from '../components/site/SiteLocation';
-import { Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
+import { Documentation, ImageCredit, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
 import NotFound from './NotFound';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
@@ -62,6 +62,7 @@ export default function SiteDetails({ params }) {
         <header className="hb-site__hero">
           <div className="hb-site__card">
             <HeritageCard site={site} headingLevel={null} interactive={false} priority />
+            {site.image && site.imageCredit && <ImageCredit credit={site.imageCredit} />}
           </div>
           <div className="hb-site__intro">
             <p className="hb-eyebrow">{[site.siteType, site.archiveNo].filter(Boolean).join(' · ')}</p>

@@ -3,6 +3,9 @@
    ========================================================= */
 .hb-site__hero { display: grid; grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); gap: clamp(1.5rem, 5vw, 4.5rem); align-items: start; padding-block: 2rem clamp(2.5rem, 6vw, 4rem); }
 .hb-site__card { --card-w: 100%; position: sticky; top: calc(var(--hb-header-h) + 1.5rem); }
+.hb-site__credit { margin-top: 0.6rem; font-family: var(--hb-font-mono); font-size: 0.7rem; line-height: 1.5; color: var(--hb-earth-text); }
+.hb-site__credit a { color: inherit; text-underline-offset: 0.2em; }
+.hb-site__credit a:hover { color: var(--hb-terracotta-deep); }
 .hb-site__title { margin-top: 0.9rem; font-family: var(--hb-font-serif); font-size: clamp(2.4rem, 5.5vw, 4.25rem); font-weight: 400; line-height: 1.02; letter-spacing: -0.028em; text-wrap: balance; }
 .hb-site__lede { max-width: 56ch; margin-top: 1rem; font-size: 1.15rem; line-height: 1.6; }
 

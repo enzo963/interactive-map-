@@ -69,6 +69,19 @@ function normalizeSources(sources) {
     .filter(Boolean);
 }
 
+/** Photo credit for main_image: { author, license, license_url, source_url, year, modified }. */
+function normalizeCredit(credit) {
+  if (!credit || typeof credit !== 'object' || !credit.author) return null;
+  return {
+    author: String(credit.author),
+    license: String(credit.license ?? ''),
+    licenseUrl: safeUrl(credit.license_url),
+    sourceUrl: safeUrl(credit.source_url),
+    year: credit.year ? String(credit.year) : '',
+    modified: credit.modified ? String(credit.modified) : '',
+  };
+}
+
 /** Optional. Only renders if sites.json actually has a `timeline` array. */
 function normalizeTimeline(timeline) {
   if (!Array.isArray(timeline)) return [];
@@ -133,6 +146,7 @@ export function normalizeSites(input) {
       archiveNo,
       image: resolveImage(raw.main_image ?? gallery[0]),
       imageAlt: raw.main_image_alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
+      imageCredit: normalizeCredit(raw.main_image_credit),
       deckIds,
       civilization: raw.civilization ?? '',
       shortDescription: raw.short_description ?? '',

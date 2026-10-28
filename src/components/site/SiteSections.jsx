@@ -125,3 +125,16 @@ export function Sources({ items }) {
     </ol>
   );
 }
+
+/** Attribution for the card photo (required by CC BY / BY-SA licences). */
+export function ImageCredit({ credit }) {
+  const link = (url, text) => (url ? <a href={url} target="_blank" rel="noreferrer">{text}</a> : text);
+  return (
+    <p className="hb-site__credit">
+      Photo: {link(credit.sourceUrl, credit.author)}
+      {credit.year && `, ${credit.year}`}
+      {credit.license && <>{' · '}{link(credit.licenseUrl, credit.license)}</>}
+      {credit.modified && ` · ${credit.modified}`}
+    </p>
+  );
+}

@@ -13,7 +13,16 @@
     "estimated_year": -100,
     "short_description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "hatra.webp",
+    "main_image_alt": "Ruins of the temples at Hatra",
+    "main_image_credit": {
+      "author": "Husseinal-mauktar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D8%A7%D8%AB%D8%A7%D8%B1_%D8%A7%D9%84%D8%AD%D8%B6%D8%B1.jpg",
+      "year": "2019",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh",
@@ -44,7 +53,16 @@
     "estimated_year": 1870,
     "short_description": "A Latin church in Mosul's old city, named for the clock tower given in the 1880s; damaged in 2017 and restored.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "clock-church.webp",
+    "main_image_alt": "The Clock Church and its bell tower in Mosul's old city",
+    "main_image_credit": {
+      "author": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_the_Hour_Church.jpg",
+      "year": "2024",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -74,7 +92,16 @@
     "estimated_year": 1172,
     "short_description": "Great mosque of Mosul and its leaning 'Hunchback' minaret, destroyed in 2017 and rebuilt.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "al-nuri-mosque.webp",
+    "main_image_alt": "The rebuilt Al-Hadba minaret and arcade of the Al-Nuri Mosque",
+    "main_image_credit": {
+      "author": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_al-Nuri_Feb_2025_2.jpg",
+      "year": "2025",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -104,7 +131,16 @@
     "estimated_year": -700,
     "short_description": "Citadel mound of ancient Nineveh, capital of the Assyrian empire under Sennacherib.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "nineveh-kuyunjik.webp",
+    "main_image_alt": "The reconstructed Mashki Gate of Nineveh",
+    "main_image_credit": {
+      "author": "Omar Siddeeq Yousif",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nineveh_-_Mashki_Gate.jpg",
+      "year": "2014",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -134,7 +170,16 @@
     "estimated_year": null,
     "short_description": "Shrine associated with the prophet Jonah on the Nebi Yunus mound; destroyed in 2014.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "nabi-yunus.webp",
+    "main_image_alt": "The Nabi Yunus shrine and minaret before their destruction in 2014",
+    "main_image_credit": {
+      "author": "Roland Unger",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NiniveNabiYunisOutside.jpg",
+      "year": "1999",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -164,7 +209,16 @@
     "estimated_year": -879,
     "short_description": "Assyrian royal city of Ashurnasirpal II, known for its palaces and winged guardian figures.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "nimrud.webp",
+    "main_image_alt": "Lamassu guarding an entrance of the North-West Palace at Nimrud",
+    "main_image_credit": {
+      "author": "M.chohan",
+      "license": "Public domain",
+      "license_url": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Iraq;_Nimrud_-_Assyria,_Lamassu%27s_Guarding_Palace_Entrance.jpg",
+      "year": "2007",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -194,7 +248,16 @@
     "estimated_year": -717,
     "short_description": "Capital founded by Sargon II, the source of many Assyrian lamassu now in museums.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "khorsabad.webp",
+    "main_image_alt": "Engraving of the Khorsabad mound and village, 1849",
+    "main_image_credit": {
+      "author": "Eugène Flandin (scan: New York Public Library)",
+      "license": "Public domain",
+      "license_url": "",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vue_du_monticule_et_du_village_de_Khorsabad_(NYPL_b14308483-1534693).jpg",
+      "year": "1849",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -224,7 +287,16 @@
     "estimated_year": 350,
     "short_description": "Syriac monastery linked to the legend of Saint Behnam and his sister Sarah; damaged in 2015 and restored.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "mar-behnam-monastery.webp",
+    "main_image_alt": "The tomb of Saint Behnam at Mar Behnam Monastery, 1927",
+    "main_image_credit": {
+      "author": "Frédéric Gadmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tombeau_de_Saint-Behnam_-_A54182S.jpg",
+      "year": "1927",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -254,7 +326,16 @@
     "estimated_year": 363,
     "short_description": "One of the oldest Christian monasteries still in use, set high on Mount Alfaf.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "mar-mattai-monastery.webp",
+    "main_image_alt": "Courtyard and terraces of Mar Mattai Monastery",
+    "main_image_credit": {
+      "author": "Levi Clancy",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Views_around_the_Syriac_Orthodox_Monastery_of_Saint_Matthew_04.jpg",
+      "year": "2018",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
@@ -284,7 +365,16 @@
     "estimated_year": 1948,
     "short_description": "The great Syriac Catholic church of Qaraqosh, burned in 2014 and restored.",
     "full_description": "",
-    "main_image": "",
+    "main_image": "al-tahira-church-qaraqosh.webp",
+    "main_image_alt": "The restored nave of Al-Tahira Church in Qaraqosh",
+    "main_image_credit": {
+      "author": "Alli Khalil",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Immaculate_Church_in_Bakhdida_8.jpg",
+      "year": "2023",
+      "modified": "cropped and resized"
+    },
     "gallery": [],
     "decks": [
       "nineveh"
