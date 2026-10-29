@@ -17,12 +17,12 @@ import '../../styles/heritage-card.css';
  *  - interactive   false renders a plain, non-linked card (specimens, decorative peeks)
  */
 export default function HeritageCard({ site, headingLevel = 3, showCta = false, priority = false, interactive = true }) {
-  const [imageFailed, setImageFailed] = useState(false);
+  const [failedSrc, setFailedSrc] = useState(null); // the image that failed, so a new site gets a fresh try
   const Heading = headingLevel ? `h${headingLevel}` : 'p';
   const { cardType } = site;
 
   const place = [site.governorate, site.country].filter(Boolean).join(' · ');
-  const hasImage = Boolean(site.image) && !imageFailed;
+  const hasImage = Boolean(site.image) && failedSrc !== site.image;
   const linked = interactive && Boolean(site.href);
 
   return (
@@ -47,7 +47,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
               alt={site.imageAlt}
               loading={priority ? 'eager' : 'lazy'}
               decoding="async"
-              onError={() => setImageFailed(true)}
+              onError={() => setFailedSrc(site.image)}
             />
           ) : (
             <div className="hb-card__placeholder">

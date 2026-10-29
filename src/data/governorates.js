@@ -24,6 +24,31 @@ export const GOVERNORATE_CODES = {
   wasit: 'WA',
 };
 
+/**
+ * Display names for the governorate selector on the Map. Governorates that appear in the
+ * data but not here are added automatically. Edit this list if the administrative divisions change.
+ */
+export const GOVERNORATE_NAMES = {
+  anbar: 'Anbar',
+  babylon: 'Babylon',
+  baghdad: 'Baghdad',
+  basra: 'Basra',
+  dhiqar: 'Dhi Qar',
+  diyala: 'Diyala',
+  duhok: 'Duhok',
+  erbil: 'Erbil',
+  karbala: 'Karbala',
+  kirkuk: 'Kirkuk',
+  maysan: 'Maysan',
+  muthanna: 'Muthanna',
+  najaf: 'Najaf',
+  nineveh: 'Nineveh',
+  qadisiyyah: 'Qadisiyyah',
+  salahaldin: 'Salah al-Din',
+  sulaymaniyah: 'Sulaymaniyah',
+  wasit: 'Wasit',
+};
+
 /** Spelling variants -> canonical key above. */
 const ALIASES = {
   ninawa: 'nineveh',

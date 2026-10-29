@@ -4,7 +4,8 @@ import CardBack from '../cards/CardBack';
 import FlipCard from '../cards/FlipCard';
 import DeckPile from '../decks/DeckPile';
 import SmartLink from '../common/SmartLink';
-import { DRAW_FILTERS } from '../../data/drawFilters';
+import { getDrawPools } from '../../utils/decks';
+import { pickRandom } from '../../utils/random';
 import { formatCount } from '../../utils/archiveStats';
 import usePrefersReducedMotion from '../../hooks/usePrefersReducedMotion';
 import '../../styles/home.css';
@@ -15,6 +16,7 @@ const DEAL_DELAY_MS = 90;
 /**
  * Draw a Card — deck → shuffle → card → flip → site.
  * Heritage discovery, not a game: no odds, no rewards, no scarcity.
+ * Pools come from the collection system (utils/decks.js), so new thematic decks appear here automatically.
  */
 export default function DrawCard({ sites }) {
   const [filterId, setFilterId] = useState('all');
@@ -25,10 +27,7 @@ export default function DrawCard({ sites }) {
   const timers = useRef([]);
   const lastId = useRef(null);
 
-  const pools = useMemo(
-    () => DRAW_FILTERS.map((filter) => ({ ...filter, cards: sites.filter(filter.test) })),
-    [sites],
-  );
+  const pools = useMemo(() => getDrawPools(sites), [sites]);
   const active = pools.find((pool) => pool.id === filterId) ?? pools[0];
 
   const clearTimers = () => {
@@ -36,6 +35,7 @@ export default function DrawCard({ sites }) {
     timers.current = [];
   };
   const later = (fn, ms) => timers.current.push(setTimeout(fn, ms));
+
   useEffect(
     () => () => {
       timers.current.forEach(clearTimeout);
@@ -43,15 +43,10 @@ export default function DrawCard({ sites }) {
     [],
   );
 
-  const pickRandom = (cards) => {
-    const choices = cards.length > 1 ? cards.filter((c) => c.id !== lastId.current) : cards;
-    return choices[Math.floor(Math.random() * choices.length)];
-  };
-
   const draw = () => {
     if (phase === 'shuffling' || active.cards.length === 0) return;
     clearTimers();
-    const next = pickRandom(active.cards);
+    const next = pickRandom(active.cards, lastId.current);
     lastId.current = next.id;
 
     if (reduced) {

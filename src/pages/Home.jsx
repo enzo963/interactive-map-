@@ -5,15 +5,17 @@ import DrawCard from '../components/home/DrawCard';
 import GovernorateDecks from '../components/home/GovernorateDecks';
 import CardTypes from '../components/home/CardTypes';
 import SpecialDecks from '../components/home/SpecialDecks';
+import OurDocumentation from '../components/home/OurDocumentation';
+import AboutArchive from '../components/home/AboutArchive';
 import MapPreview from '../components/map/MapPreview';
 import { getAllSites } from '../services/siteService';
 import { selectFeaturedSites, selectStackSites } from '../utils/selectSites';
 import { getArchiveStats } from '../utils/archiveStats';
 
 /**
- * Home V2 — Phase 1 + 2.
- * Navbar and Footer are rendered once by App.jsx.
- * Still to come: Our Work, About the Archive (Phase 3 content pass).
+ * Home. Navbar and Footer are rendered once by App.jsx.
+ * Sections: Hero, Featured, Draw a Card, Map preview, Governorate Decks, Card Types,
+ * Special Decks, Our Documentation (only with data), About the Archive.
  */
 export default function Home() {
   const sites = useMemo(() => getAllSites(), []);
@@ -33,6 +35,8 @@ export default function Home() {
       <GovernorateDecks sites={sites} />
       <CardTypes sites={sites} />
       <SpecialDecks sites={sites} />
+      <OurDocumentation sites={sites} />
+      <AboutArchive />
     </main>
   );
 }

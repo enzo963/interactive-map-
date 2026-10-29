@@ -3,7 +3,8 @@ import HeritageCard from '../components/cards/HeritageCard';
 import SmartLink from '../components/common/SmartLink';
 import Gallery from '../components/site/Gallery';
 import SiteLocation from '../components/site/SiteLocation';
-import { Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
+import SectionNav from '../components/site/SectionNav';
+import { Credits, Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
 import NotFound from './NotFound';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
@@ -11,10 +12,13 @@ import { getDecksForSite } from '../utils/decks';
 import { getRelatedSites } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
 import '../styles/site-details.css';
+import '../styles/phase4.css';
 
 /**
  * /sites/:slug — ONE template for every site.
- * Every optional section appears only when the record has data for it.
+ * `sections` is built first, with a section only when the record has data for it.
+ * The page renders it, and the "On this page" list is generated from the same array,
+ * so neither can drift out of sync.
  */
 export default function SiteDetails({ params }) {
   const sites = useMemo(() => getAllSites(), []);
@@ -31,6 +35,9 @@ export default function SiteDetails({ params }) {
   const { cardType } = site;
   const decks = getDecksForSite(site);
   const hasLocation = Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
+  const hasDocumentation =
+    site.ourWorkTypes.length > 0 || site.ourWorkNote || site.documentationMeta || site.digitalAssets.length > 0;
+  const hasCredits = site.imageCredit || site.mediaLicense || site.gallery.some((image) => image.credit || image.license);
 
   const facts = [
     ['Archive number', site.archiveNo],
@@ -42,11 +49,46 @@ export default function SiteDetails({ params }) {
     ['Governorate', site.governorate],
     ['City', site.city],
     ['Heritage status', site.heritageStatus],
+    ['Preservation', site.preservationStatus],
     ['UNESCO status', site.unescoStatus || (site.isUnesco ? 'Yes' : '')],
     ['Verification', site.verificationStatus],
+    ['Last verified', site.lastVerified],
   ].filter(([, value]) => value);
 
-  const firstGov = decks[0];
+  const sections = [
+    (site.description || site.historicalBackground) && {
+      id: 'overview', title: 'Historical overview', body: <Overview text={site.description} background={site.historicalBackground} />,
+    },
+    site.timeline.length > 0 && { id: 'timeline', title: 'Historical timeline', body: <Timeline items={site.timeline} /> },
+    site.gallery.length > 0 && { id: 'gallery', title: 'Gallery', body: <Gallery images={site.gallery} /> },
+    hasLocation && { id: 'location', title: 'Location', body: <SiteLocation site={site} neighbours={neighbours} /> },
+    site.modelUrl && { id: 'model', title: '3D model', body: <ModelViewer url={site.modelUrl} name={site.name} /> },
+    site.videoUrl && { id: 'video', title: 'Video', body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
+    hasDocumentation && {
+      id: 'documentation',
+      title: 'Digital documentation',
+      body: <Documentation types={site.ourWorkTypes} note={site.ourWorkNote} meta={site.documentationMeta} assets={site.digitalAssets} />,
+    },
+    site.sources.length > 0 && { id: 'sources', title: 'Sources and references', body: <Sources items={site.sources} /> },
+    hasCredits && {
+      id: 'credits',
+      title: 'Credits and licensing',
+      body: <Credits imageCredit={site.imageCredit} mediaLicense={site.mediaLicense} gallery={site.gallery} />,
+    },
+    related.length > 0 && {
+      id: 'related',
+      title: 'Related cards',
+      body: (
+        <ul className="hb-related">
+          {related.map((other) => (
+            <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /></li>
+          ))}
+        </ul>
+      ),
+    },
+  ].filter(Boolean);
+
+  const firstDeck = decks[0];
 
   return (
     <main id="main" tabIndex={-1} className="hb-page hb-site">
@@ -54,7 +96,7 @@ export default function SiteDetails({ params }) {
         <nav className="hb-crumbs" aria-label="Breadcrumb">
           <ol>
             <li><SmartLink href="/explore">Explore Cards</SmartLink></li>
-            {firstGov && <li><SmartLink href={firstGov.href}>{firstGov.title}</SmartLink></li>}
+            {firstDeck && <li><SmartLink href={firstDeck.href}>{firstDeck.title}</SmartLink></li>}
             <li aria-current="page">{site.name}</li>
           </ol>
         </nav>
@@ -90,41 +132,11 @@ export default function SiteDetails({ params }) {
           </div>
         </header>
 
-        {site.description && (
-          <SiteSection id="overview" title="Historical overview"><Overview text={site.description} /></SiteSection>
-        )}
-        {site.timeline.length > 0 && (
-          <SiteSection id="timeline" title="Historical timeline"><Timeline items={site.timeline} /></SiteSection>
-        )}
-        {site.gallery.length > 0 && (
-          <SiteSection id="gallery" title="Gallery"><Gallery images={site.gallery} /></SiteSection>
-        )}
-        {hasLocation && (
-          <SiteSection id="location" title="Location"><SiteLocation site={site} neighbours={neighbours} /></SiteSection>
-        )}
-        {site.modelUrl && (
-          <SiteSection id="model" title="3D model"><ModelViewer url={site.modelUrl} name={site.name} /></SiteSection>
-        )}
-        {site.videoUrl && (
-          <SiteSection id="video" title="Video"><VideoPlayer url={site.videoUrl} name={site.name} /></SiteSection>
-        )}
-        {(site.ourWorkTypes.length > 0 || site.ourWorkNote) && (
-          <SiteSection id="documentation" title="Digital documentation">
-            <Documentation types={site.ourWorkTypes} note={site.ourWorkNote} />
-          </SiteSection>
-        )}
-        {site.sources.length > 0 && (
-          <SiteSection id="sources" title="Sources and references"><Sources items={site.sources} /></SiteSection>
-        )}
-        {related.length > 0 && (
-          <SiteSection id="related" title="Related cards">
-            <ul className="hb-related">
-              {related.map((other) => (
-                <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /></li>
-              ))}
-            </ul>
-          </SiteSection>
-        )}
+        <SectionNav items={sections} />
+
+        {sections.map((section) => (
+          <SiteSection id={section.id} title={section.title} key={section.id}>{section.body}</SiteSection>
+        ))}
       </div>
     </main>
   );

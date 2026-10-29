@@ -10,8 +10,11 @@ import { getAllSites } from '../services/siteService';
 import { getDeckById } from '../utils/decks';
 import { cardsLabel, formatCount } from '../utils/archiveStats';
 import { deckThickness } from '../utils/groupDecks';
+import { pickRandom } from '../utils/random';
 import { SORTS } from '../utils/filterSites';
 import '../styles/pages.css';
+
+const DECK_KIND_LABEL = { governorate: 'Governorate Deck', special: 'Special Deck', thematic: 'Thematic Deck' };
 
 const SORT_FNS = {
   archive: (a, b) => a.archiveNo.localeCompare(b.archiveNo, undefined, { numeric: true }),
@@ -45,9 +48,8 @@ export default function DeckPage({ params, deckId }) {
   if (!deck) return <NotFound title="Deck not found" message="That deck is not in the archive." />;
 
   const drawFromDeck = () => {
-    if (deck.sites.length === 0) return;
-    const pick = deck.sites[Math.floor(Math.random() * deck.sites.length)];
-    navigate(pick.href);
+    const pick = pickRandom(deck.sites);
+    if (pick) navigate(pick.href);
   };
 
   return (
@@ -65,7 +67,7 @@ export default function DeckPage({ params, deckId }) {
             <DeckPile variant={deck.back} label={deck.kind === 'governorate' ? deck.name : deck.title} thickness={deckThickness(deck.count)} />
           </div>
           <div className="hb-deckhead__text">
-            <p className="hb-eyebrow">{deck.kind === 'governorate' ? 'Governorate Deck' : 'Special Deck'}</p>
+            <p className="hb-eyebrow">{DECK_KIND_LABEL[deck.kind] ?? 'Deck'}</p>
             <h1 className="hb-pagehead__title">{deck.title}</h1>
             <p className="hb-pagehead__lede">{deck.blurb}</p>
             <p className="hb-deckhead__count">{cardsLabel(deck.count)}</p>

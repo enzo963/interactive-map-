@@ -1,5 +1,5 @@
 import { CARD_TYPES } from '../data/cardTypes';
-import { DRAW_FILTERS } from '../data/drawFilters';
+import { SPECIAL_COLLECTIONS, isCollectionMember } from '../data/collections';
 import { getGovernorateKey } from '../data/governorates';
 import slugify from './slugify';
 
@@ -13,10 +13,11 @@ import slugify from './slugify';
  * "Must have" flags are AND (UNESCO and 3D).
  */
 export const FLAG_FILTERS = [
-  ...['unesco', 'lost', '3d', 'our-work']
-    .map((id) => DRAW_FILTERS.find((f) => f.id === id))
-    .filter(Boolean)
-    .map(({ id, label, test }) => ({ id, label, test })),
+  ...SPECIAL_COLLECTIONS.filter((c) => c.flag).map((c) => ({
+    id: c.id,
+    label: c.shortTitle ?? c.title,
+    test: (site) => isCollectionMember(site, c),
+  })),
   { id: 'video', label: 'Has video', test: (s) => s.hasVideo },
 ];
 

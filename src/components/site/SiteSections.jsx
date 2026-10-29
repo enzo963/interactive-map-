@@ -1,21 +1,29 @@
 import { getModelEmbed, getVideoEmbed } from '../../utils/media';
 import '../../styles/site-details.css';
+import '../../styles/phase4.css';
 
-/** Wrapper: every optional section uses it, and the page only renders it when data exists. */
+/** Wrapper used by every section. The id makes #hash links and the section list work. */
 export function SiteSection({ id, title, children }) {
   return (
-    <section className="hb-site__section" aria-labelledby={`${id}-title`}>
+    <section id={id} className="hb-site__section" aria-labelledby={`${id}-title`}>
       <h2 id={`${id}-title`} className="hb-site__h2">{title}</h2>
       {children}
     </section>
   );
 }
 
-export function Overview({ text }) {
-  const paragraphs = text.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+const paragraphs = (value) => value.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+
+export function Overview({ text, background }) {
   return (
     <div className="hb-prose">
-      {paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+      {paragraphs(text).map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+      {background && (
+        <>
+          <h3 className="hb-site__h3">Historical background</h3>
+          {paragraphs(background).map((paragraph, i) => <p key={`b${i}`}>{paragraph}</p>)}
+        </>
+      )}
     </div>
   );
 }
@@ -94,13 +102,76 @@ export function VideoPlayer({ url, name }) {
   );
 }
 
-export function Documentation({ types, note }) {
+const isExternal = (url) => /^https?:\/\//i.test(url);
+
+/** Documentation: methods, project metadata (date, team, equipment, notes) and structured digital assets. */
+export function Documentation({ types, note, meta, assets }) {
+  const rows = meta
+    ? [
+        ['Documented', meta.date],
+        ['Team', meta.team],
+        ['Equipment', meta.equipment.join(', ')],
+        ['Notes', meta.notes],
+      ].filter(([, value]) => value)
+    : [];
+
   return (
     <div className="hb-prose">
       {note && <p>{note}</p>}
       {types.length > 0 && (
         <ul className="hb-chips hb-chips--row" aria-label="Types of documentation">
           {types.map((type) => <li className="hb-tag hb-tag--static" key={type}>{type}</li>)}
+        </ul>
+      )}
+      {rows.length > 0 && (
+        <dl className="hb-facts hb-facts--compact">
+          {rows.map(([label, value]) => (
+            <div className="hb-facts__row" key={label}><dt>{label}</dt><dd>{value}</dd></div>
+          ))}
+        </dl>
+      )}
+      {assets.length > 0 && (
+        <ul className="hb-assets" aria-label="Digital assets">
+          {assets.map((asset, i) => (
+            <li key={`${asset.url}${asset.title}${i}`}>
+              <p className="hb-assets__title">
+                {asset.url ? (
+                  <a href={asset.url} {...(isExternal(asset.url) ? { target: '_blank', rel: 'noopener noreferrer' } : { download: true })}>
+                    {asset.title || asset.type || 'Digital asset'}
+                    {isExternal(asset.url) && <span className="sr-only"> (opens in a new tab)</span>}
+                  </a>
+                ) : (
+                  asset.title
+                )}
+              </p>
+              <p className="hb-assets__meta">
+                {[asset.type, asset.format, asset.credit && `Credit: ${asset.credit}`, asset.license && `Licence: ${asset.license}`].filter(Boolean).join(' · ')}
+              </p>
+              {asset.description && <p className="hb-assets__text">{asset.description}</p>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+/** Image credits and media licensing: shown only when the record carries any. */
+export function Credits({ imageCredit, mediaLicense, gallery }) {
+  const items = gallery.filter((image) => image.credit || image.license);
+  return (
+    <div className="hb-prose">
+      {imageCredit && <p>Main image: {imageCredit}</p>}
+      {mediaLicense && <p>Media licence: {mediaLicense}</p>}
+      {items.length > 0 && (
+        <ul className="hb-credits">
+          {items.map((image) => (
+            <li key={image.src}>
+              {image.alt}
+              {image.credit && <>. Credit: {image.credit}</>}
+              {image.license && <>. Licence: {image.license}</>}
+            </li>
+          ))}
         </ul>
       )}
     </div>
