@@ -2,75 +2,66 @@ import PageHeader from '../components/common/PageHeader';
 import HeritageCard from '../components/cards/HeritageCard';
 import SmartLink from '../components/common/SmartLink';
 import useDocumentTitle from '../hooks/useDocumentTitle';
+import Rich from '../i18n/Rich';
+import { useI18n } from '../i18n/I18nContext';
 import { CARD_TYPES } from '../data/cardTypes';
-import { CARD_TYPE_NOTES } from '../data/cardTypeNotes';
 import { makeSpecimen } from '../utils/specimen';
 import '../styles/pages.css';
 
-const LEGEND = [
-  ['Archive number', 'A catalogue identifier. “HB” is Heritage Bridge, then a two-letter governorate code, then the record number.'],
-  ['Card type', 'The age class of the site, from Type I to Type V.'],
-  ['Image', 'The main image of the site, when one is available.'],
-  ['Name and category', 'What the site is called and what kind of site it is.'],
-  ['Place and period', 'The governorate, and the historical period recorded for the site.'],
-  ['Date', 'The approximate date recorded for the site.'],
-];
+const LEGEND_KEYS = ['archive', 'type', 'image', 'name', 'place', 'date'];
 
 export default function About() {
-  useDocumentTitle('About the archive — Heritage Bridge');
+  const { t, localize, pageTitle } = useI18n();
+  useDocumentTitle(pageTitle(t('title.about')));
   const specimen = makeSpecimen(CARD_TYPES[CARD_TYPES.length - 1]);
 
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
-        eyebrow="About the archive"
-        title="A digital heritage archive, one card at a time"
-        lede="Heritage Bridge is an interactive archive of historical, archaeological, architectural and cultural heritage sites in Iraq, beginning with the north."
+        eyebrow={t('about.eyebrow')}
+        title={t('about.title')}
+        lede={t('about.lede')}
       />
 
       <div className="hb-container hb-about">
         <section className="hb-about__block" aria-labelledby="about-cards">
-          <h2 id="about-cards" className="hb-section-title">How to read a card</h2>
+          <h2 id="about-cards" className="hb-section-title">{t('about.readTitle')}</h2>
           <div className="hb-about__split">
             <div className="hb-about__card"><HeritageCard site={specimen} headingLevel={null} /></div>
             <dl className="hb-about__legend">
-              {LEGEND.map(([term, text]) => (
-                <div key={term}><dt>{term}</dt><dd>{text}</dd></div>
+              {LEGEND_KEYS.map((key) => (
+                <div key={key}><dt>{t(`about.legend.${key}.term`)}</dt><dd>{t(`about.legend.${key}.text`)}</dd></div>
               ))}
             </dl>
           </div>
-          <p className="hb-about__note">The card above is a specimen, shown only to explain the layout. It is not a real record.</p>
+          <p className="hb-about__note">{t('about.specimenNote')}</p>
         </section>
 
         <section className="hb-about__block" aria-labelledby="about-types">
-          <h2 id="about-types" className="hb-section-title">Card type and deck are different things</h2>
-          <p className="hb-about__text">
-            A card has exactly one <strong>type</strong>, set by the approximate age of the site. A card can belong to
-            many <strong>decks</strong>: collections such as a governorate, UNESCO, Lost Heritage, Our Documentation or
-            the 3D Archive.
-          </p>
+          <h2 id="about-types" className="hb-section-title">{t('about.typesTitle')}</h2>
+          <p className="hb-about__text"><Rich text={t('about.typesText')} /></p>
           <ul className="hb-about__types">
-            {CARD_TYPES.map((type) => (
-              <li key={type.id}>
-                <span className="hb-about__type-name">{type.shortLabel}{type.rankLabel ? ` · ${type.rankLabel}` : ''}</span>
-                <span className="hb-about__type-range">{type.rangeLabel}</span>
-                <span className="hb-about__type-note">{CARD_TYPE_NOTES[type.tier]}</span>
-              </li>
-            ))}
+            {CARD_TYPES.map((type) => {
+              const label = localize.cardType(type);
+              return (
+                <li key={type.id}>
+                  <span className="hb-about__type-name">{label.shortLabel}{label.rankLabel ? ` · ${label.rankLabel}` : ''}</span>
+                  <span className="hb-about__type-range">{label.rangeLabel}</span>
+                  <span className="hb-about__type-note">{t(`cardNote.${type.tier}`)}</span>
+                </li>
+              );
+            })}
           </ul>
         </section>
 
         <section className="hb-about__block" aria-labelledby="about-accuracy">
-          <h2 id="about-accuracy" className="hb-section-title">Accuracy and sources</h2>
-          <p className="hb-about__text">
-            Each record shows its verification status and its sources where they are available. The patterns on card
-            backs are original decoration. They are not archaeological evidence and do not reproduce historical symbols.
-          </p>
+          <h2 id="about-accuracy" className="hb-section-title">{t('about.accuracyTitle')}</h2>
+          <p className="hb-about__text">{t('about.accuracyText')}</p>
         </section>
 
         <p className="hb-about__cta">
-          <SmartLink className="hb-btn hb-btn--ink" href="/explore">Explore Cards</SmartLink>
-          <SmartLink className="hb-link" href="/map">Open the map</SmartLink>
+          <SmartLink className="hb-btn hb-btn--ink" href="/explore">{t('nav.explore')}</SmartLink>
+          <SmartLink className="hb-link" href="/map">{t('mapPreview.open')}</SmartLink>
         </p>
       </div>
     </main>

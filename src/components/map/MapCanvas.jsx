@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import L from '../../lib/leaflet';
 import { getGovernorateKey } from '../../data/governorates';
-import { cardsLabel } from '../../utils/archiveStats';
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/map-explorer.css';
 
 const IRAQ_BOUNDS = [[29.0, 38.7], [37.4, 48.6]];
@@ -40,6 +40,7 @@ const clusterIcon = (cluster) =>
  *  - `size="compact"` is the shorter map used on the home page and site pages; `caption` replaces the default note
  */
 export default function MapCanvas({ allSites, visibleSites, selectedSite, onSelect, picking = false, draft = null, onPick, size = 'full', caption }) {
+  const { t, ls, localize, cardsLabel } = useI18n();
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const layersRef = useRef(null);
@@ -92,9 +93,10 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
     const pins = [];
     for (const site of visibleSites) {
       if (!hasPosition(site)) continue;
-      const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false), keyboard: false, title: site.name });
+      const text = ls(site);
+      const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false), keyboard: false, title: ls(site).name });
       marker.bindTooltip(
-        `<strong>${escapeHtml(site.name)}</strong><br><span>${escapeHtml([site.cardType.shortLabel, site.siteType].filter(Boolean).join(' · '))}</span>`,
+        `<strong>${escapeHtml(text.name)}</strong><br><span>${escapeHtml([text.cardType.shortLabel, text.siteType].filter(Boolean).join(' · '))}</span>`,
         { direction: 'top', offset: [0, -10], className: 'hb-map-tip' },
       );
       marker.on('click', () => { if (!handlers.current.picking) handlers.current.onSelect(site); });
@@ -102,7 +104,7 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
       pins.push(marker);
 
       const key = getGovernorateKey(site.governorate) || 'unknown';
-      const group = groups.get(key) ?? { name: site.governorate || 'Unknown', north: -90, lng: 0, n: 0 };
+      const group = groups.get(key) ?? { name: site.governorate, north: -90, lng: 0, n: 0 };
       group.north = Math.max(group.north, site.latitude); group.lng += site.longitude; group.n += 1;
       groups.set(key, group);
     }
@@ -115,12 +117,12 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
         keyboard: false,
         icon: L.divIcon({
           className: 'hb-gov-wrap',
-          html: `<span class="hb-gov"><span class="hb-gov__name">${escapeHtml(group.name)}</span><span class="hb-gov__count">${cardsLabel(group.n)}</span></span>`,
+          html: `<span class="hb-gov"><span class="hb-gov__name">${escapeHtml(group.name ? localize.governorate(group.name) : t('common.unknown'))}</span><span class="hb-gov__count">${cardsLabel(group.n)}</span></span>`,
           iconSize: null,
         }),
       }).addTo(labels);
     });
-  }, [visibleSites]);
+  }, [visibleSites, ls, localize, cardsLabel, t]);
 
   // Highlight the selected card and bring it into view.
   useEffect(() => {
@@ -173,12 +175,12 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, onSele
         data-picking={picking}
         data-size={size}
         role="region"
-        aria-label="Map of card positions. The list of cards beside the map offers the same information."
+        aria-label={t('mapCanvas.aria')}
       />
       <p className="hb-map__caption">
         {picking
-          ? 'Click the map to place the pin, then drag it to fine-tune.'
-          : caption ?? 'Pins are plotted from recorded coordinates. Colour shows the card type.'}
+          ? t('mapCanvas.pick')
+          : caption ?? t('mapCanvas.caption')}
       </p>
     </div>
   );

@@ -1,7 +1,8 @@
+/** `id` selects the translated label (nav.<id>); `label` is the English fallback. */
 export const PRIMARY_NAV = [
-  { label: 'Explore Cards', href: '/explore' },
-  { label: 'Map', href: '/map' },
-  { label: 'Decks', href: '/decks' },
-  { label: '3D Archive', href: '/3d-archive' }, // route not built yet (Phase 3)
-  { label: 'About', href: '/about' },           // route not built yet
+  { id: 'explore', label: 'Explore Cards', href: '/explore' },
+  { id: 'map', label: 'Map', href: '/map' },
+  { id: 'decks', label: 'Decks', href: '/decks' },
+  { id: 'archive3d', label: '3D Archive', href: '/3d-archive' },
+  { id: 'about', label: 'About', href: '/about' },
 ];

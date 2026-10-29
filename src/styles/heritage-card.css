@@ -49,7 +49,7 @@
 }
 .hb-card__archive,
 .hb-card__type { display: flex; flex-direction: column; gap: 0.5cqw; line-height: 1.15; }
-.hb-card__type { align-items: flex-end; text-align: right; }
+.hb-card__type { align-items: flex-end; text-align: end; }
 .hb-card__label {
   font-family: var(--hb-font-sans);
   font-size: max(0.5625rem, 2.6cqw);
@@ -410,3 +410,7 @@
   /* touch: keep the stack slightly spread, no hover required */
   .hb-stack { --spread: 0.42; }
 }
+
+/* Longer translated dates (e.g. "ca. 100 v. Chr.") stay on one line; the brand name wraps instead. */
+.hb-card__date { white-space: nowrap; }
+.hb-card__brand { text-align: end; }

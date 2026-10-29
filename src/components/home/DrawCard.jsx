@@ -5,6 +5,7 @@ import FlipCard from '../cards/FlipCard';
 import DeckPile from '../decks/DeckPile';
 import SmartLink from '../common/SmartLink';
 import { DRAW_FILTERS } from '../../data/drawFilters';
+import { useI18n } from '../../i18n/I18nContext';
 import { formatCount } from '../../utils/archiveStats';
 import usePrefersReducedMotion from '../../hooks/usePrefersReducedMotion';
 import '../../styles/home.css';
@@ -17,6 +18,7 @@ const DEAL_DELAY_MS = 90;
  * Heritage discovery, not a game: no odds, no rewards, no scarcity.
  */
 export default function DrawCard({ sites }) {
+  const { t, ls, cardsLabel } = useI18n();
   const [filterId, setFilterId] = useState('all');
   const [phase, setPhase] = useState('idle'); // idle | shuffling | revealed
   const [drawn, setDrawn] = useState(null);
@@ -79,17 +81,18 @@ export default function DrawCard({ sites }) {
   };
 
   const announcement =
-    phase === 'revealed' && drawn ? `Card drawn: ${drawn.name}. Archive number ${drawn.archiveNo}.` : '';
+    phase === 'revealed' && drawn ? t('draw.announce', { name: ls(drawn).name, no: drawn.archiveNo }) : '';
+  const poolLabel = (pool) => t(`drawFilter.${pool.id}`);
 
   return (
     <section className="hb-draw" id="draw" aria-labelledby="draw-title">
       <div className="hb-container hb-draw__grid">
         <div className="hb-draw__intro">
-          <p className="hb-eyebrow">Not sure where to start?</p>
-          <h2 id="draw-title" className="hb-draw__title">Draw a card</h2>
-          <p className="hb-draw__lede">Discover a random heritage site from the archive.</p>
+          <p className="hb-eyebrow">{t('draw.eyebrow')}</p>
+          <h2 id="draw-title" className="hb-draw__title">{t('draw.title')}</h2>
+          <p className="hb-draw__lede">{t('draw.lede')}</p>
 
-          <div className="hb-draw__filters" role="group" aria-label="Choose a deck to draw from">
+          <div className="hb-draw__filters" role="group" aria-label={t('draw.filters')}>
             {pools.map((pool) => (
               <button
                 type="button"
@@ -99,7 +102,7 @@ export default function DrawCard({ sites }) {
                 disabled={pool.cards.length === 0}
                 onClick={() => chooseFilter(pool.id)}
               >
-                {pool.label}
+                {poolLabel(pool)}
                 <span className="hb-chip__count">{formatCount(pool.cards.length)}</span>
               </button>
             ))}
@@ -112,11 +115,11 @@ export default function DrawCard({ sites }) {
               onClick={draw}
               aria-disabled={phase === 'shuffling' || active.cards.length === 0}
             >
-              {phase === 'revealed' ? 'Draw another card' : 'Draw a card'}
+              {phase === 'revealed' ? t('draw.another') : t('draw.action')}
             </button>
             {phase === 'revealed' && drawn && (
               <SmartLink className="hb-link" href={drawn.href}>
-                Open site record
+                {t('draw.open')}
               </SmartLink>
             )}
           </div>
@@ -128,24 +131,24 @@ export default function DrawCard({ sites }) {
           <div className="hb-draw__spot hb-draw__spot--deck">
             <DeckPile
               variant={active.back}
-              label={active.label}
-              caption={`${active.cards.length} cards`}
+              label={poolLabel(active)}
+              caption={cardsLabel(active.cards.length)}
               shuffling={phase === 'shuffling'}
             />
-            <p className="hb-draw__tag">Deck</p>
+            <p className="hb-draw__tag">{t('draw.deck')}</p>
           </div>
 
           <div className="hb-draw__spot hb-draw__spot--drawn">
             {drawn ? (
               <FlipCard
                 flipped={faceUp}
-                back={<CardBack variant={active.back} label={active.label} />}
+                back={<CardBack variant={active.back} label={poolLabel(active)} />}
                 front={<HeritageCard site={drawn} headingLevel={3} showCta />}
               />
             ) : (
               <div className="hb-draw__empty" aria-hidden="true" />
             )}
-            <p className="hb-draw__tag">Drawn card</p>
+            <p className="hb-draw__tag">{t('draw.drawn')}</p>
           </div>
         </div>
       </div>

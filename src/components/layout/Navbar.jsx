@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import LanguageSwitcher from './LanguageSwitcher';
+import ThemeToggle from './ThemeToggle';
+import { useI18n } from '../../i18n/I18nContext';
 import { useLocation } from '../../router/RouterContext';
 import { PRIMARY_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
@@ -19,6 +22,7 @@ function BrandMark() {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
+  const { t } = useI18n();
   const isCurrent = (href) => {
     const here = pathname.startsWith('/sites/') ? '/explore' : pathname; // a site belongs to Explore
     return here === href || here.startsWith(`${href}/`);
@@ -37,11 +41,11 @@ export default function Navbar() {
 
   return (
     <header className={`hb-header ${open ? 'is-open' : ''}`.trim()}>
-      <a className="hb-skip" href="#main">Skip to content</a>
+      <a className="hb-skip" href="#main">{t('common.skip')}</a>
       <div className="hb-container hb-header__bar">
         <SmartLink href="/" className="hb-brand">
           <BrandMark />
-          <span className="hb-brand__name">Heritage Bridge</span>
+          <span className="hb-brand__name">{t('brand.name')}</span>
         </SmartLink>
 
         <button
@@ -51,10 +55,10 @@ export default function Navbar() {
           aria-controls="primary-nav"
           onClick={() => setOpen((value) => !value)}
         >
-          {open ? 'Close' : 'Menu'}
+          {open ? t('common.close') : t('nav.menu')}
         </button>
 
-        <nav id="primary-nav" className="hb-nav" aria-label="Primary" onClick={closeOnLink}>
+        <nav id="primary-nav" className="hb-nav" aria-label={t('nav.primary')} onClick={closeOnLink}>
           <ul className="hb-nav__list">
             {PRIMARY_NAV.map((item) => (
               <li key={item.href}>
@@ -63,14 +67,18 @@ export default function Navbar() {
                   href={item.href}
                   aria-current={isCurrent(item.href) ? 'page' : undefined}
                 >
-                  {item.label}
+                  {t(`nav.${item.id}`)}
                 </SmartLink>
               </li>
             ))}
           </ul>
           <SmartLink href="/#draw" className="hb-btn hb-btn--ink hb-nav__cta">
-            Draw a Card
+            {t('nav.draw')}
           </SmartLink>
+          <div className="hb-tools">
+            <LanguageSwitcher />
+            <ThemeToggle />
+          </div>
         </nav>
       </div>
     </header>

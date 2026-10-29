@@ -23,10 +23,10 @@
 
 /* timeline */
 .hb-timeline { position: relative; max-width: 50rem; list-style: none; }
-.hb-timeline::before { content: ''; position: absolute; left: 7.4rem; top: 0.4rem; bottom: 0.4rem; width: 1px; background: var(--hb-rule-strong); }
+.hb-timeline::before { content: ''; position: absolute; inset-inline-start: 7.4rem; top: 0.4rem; bottom: 0.4rem; width: 1px; background: var(--hb-rule-strong); }
 .hb-timeline__item { position: relative; display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 2rem; padding-bottom: 1.5rem; }
-.hb-timeline__item::before { content: ''; position: absolute; left: 7.4rem; top: 0.45rem; width: 0.55rem; height: 0.55rem; margin-left: -0.275rem; background: var(--hb-terracotta); transform: rotate(45deg); }
-.hb-timeline__when { font-family: var(--hb-font-mono); font-size: 0.85rem; text-align: right; }
+.hb-timeline__item::before { content: ''; position: absolute; inset-inline-start: 7.4rem; top: 0.45rem; width: 0.55rem; height: 0.55rem; margin-inline-start: -0.275rem; background: var(--hb-terracotta); transform: rotate(45deg); }
+.hb-timeline__when { font-family: var(--hb-font-mono); font-size: 0.85rem; text-align: end; }
 .hb-timeline__title { font-family: var(--hb-font-serif); font-size: 1.2rem; }
 .hb-timeline__text { margin-top: 0.25rem; color: var(--hb-earth-text); }
 
@@ -63,7 +63,7 @@
 .hb-embed iframe, .hb-embed video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
 /* sources */
-.hb-sources { max-width: 66ch; padding-left: 1.5rem; }
+.hb-sources { max-width: 66ch; padding-inline-start: 1.5rem; }
 .hb-sources li { padding: 0.35rem 0 0.35rem 0.4rem; line-height: 1.5; }
 .hb-sources a { text-underline-offset: 0.25em; text-decoration-color: var(--hb-terracotta); }
 .hb-sources__detail { color: var(--hb-earth-text); }
@@ -78,8 +78,8 @@
 }
 @media (max-width: 40rem) {
   .hb-facts__row { grid-template-columns: minmax(0, 1fr); gap: 0.1rem; }
-  .hb-timeline::before, .hb-timeline__item::before { left: 0.275rem; }
-  .hb-timeline__item { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; padding-left: 1.5rem; }
-  .hb-timeline__when { text-align: left; }
+  .hb-timeline::before, .hb-timeline__item::before { inset-inline-start: 0.275rem; }
+  .hb-timeline__item { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; padding-inline-start: 1.5rem; }
+  .hb-timeline__when { text-align: start; }
   .hb-related { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 0.9rem; }
 }

@@ -1,3 +1,4 @@
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/pages.css';
 
 const toggle = (list, id) => (list.includes(id) ? list.filter((item) => item !== id) : [...list, id]);
@@ -31,15 +32,16 @@ function Group({ legend, options, selected, onToggle }) {
 
 /** Shared by Explore (sidebar) and the Map (wide). Counts reflect the other active filters. */
 export default function FilterPanel({ facets, filters, onChange, onClear, activeCount, layout = 'column' }) {
+  const { t } = useI18n();
   return (
     <div className={`hb-filters hb-filters--${layout}`}>
-      <Group legend="Card type" options={facets.types} selected={filters.types} onToggle={(id) => onChange({ types: toggle(filters.types, id) })} />
-      <Group legend="Governorate" options={facets.governorates} selected={filters.governorates} onToggle={(id) => onChange({ governorates: toggle(filters.governorates, id) })} />
-      <Group legend="Site type" options={facets.kinds} selected={filters.kinds} onToggle={(id) => onChange({ kinds: toggle(filters.kinds, id) })} />
-      <Group legend="Must have" options={facets.flags} selected={filters.flags} onToggle={(id) => onChange({ flags: toggle(filters.flags, id) })} />
+      <Group legend={t('filters.type')} options={facets.types} selected={filters.types} onToggle={(id) => onChange({ types: toggle(filters.types, id) })} />
+      <Group legend={t('filters.governorate')} options={facets.governorates} selected={filters.governorates} onToggle={(id) => onChange({ governorates: toggle(filters.governorates, id) })} />
+      <Group legend={t('filters.kind')} options={facets.kinds} selected={filters.kinds} onToggle={(id) => onChange({ kinds: toggle(filters.kinds, id) })} />
+      <Group legend={t('filters.mustHave')} options={facets.flags} selected={filters.flags} onToggle={(id) => onChange({ flags: toggle(filters.flags, id) })} />
       {activeCount > 0 && (
         <button type="button" className="hb-filters__clear" onClick={onClear}>
-          Clear all filters
+          {t('filters.clear')}
         </button>
       )}
     </div>

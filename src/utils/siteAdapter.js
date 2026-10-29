@@ -45,7 +45,8 @@ function normalizeGallery(gallery, name) {
       if (!src) return null;
       const isObject = typeof item === 'object' && item !== null;
       const caption = isObject ? item.caption ?? '' : '';
-      return { src, caption, alt: (isObject && item.alt) || caption || `${name} — image ${i + 1}` };
+      const alt = (isObject && item.alt) || caption || '';
+      return { src, caption, alt: alt || `${name} — image ${i + 1}`, autoAlt: !alt };
     })
     .filter(Boolean);
 }
@@ -96,6 +97,37 @@ function normalizeTimeline(timeline) {
     .filter(Boolean);
 }
 
+/**
+ * Optional per-record translations:
+ *   "translations": { "ar": { "name": "...", "short_description": "...", "full_description": "...", "city": "..." }, "de": { ... } }
+ * Only the fields present are used; everything else falls back to the English record.
+ */
+const TRANSLATABLE = {
+  name: 'name',
+  short_description: 'shortDescription',
+  full_description: 'description',
+  city: 'city',
+  site_type: 'siteType',
+  historical_period: 'period',
+  civilization: 'civilization',
+  main_image_alt: 'imageAlt',
+};
+
+function normalizeTranslations(translations) {
+  if (!translations || typeof translations !== 'object') return {};
+  const out = {};
+  for (const [lang, fields] of Object.entries(translations)) {
+    if (!fields || typeof fields !== 'object') continue;
+    const clean = {};
+    for (const [rawKey, key] of Object.entries(TRANSLATABLE)) {
+      const value = fields[rawKey];
+      if (typeof value === 'string' && value.trim()) clean[key] = value.trim();
+    }
+    out[lang] = clean;
+  }
+  return out;
+}
+
 const pad = (n, length = 4) => String(n).padStart(length, '0');
 
 /** Normalizes the whole dataset. Accepts [..] or { sites: [..] }. */
@@ -141,12 +173,15 @@ export function normalizeSites(input) {
       siteType,
       period: raw.historical_period ?? raw.civilization ?? '',
       dateLabel: formatYearLabel(raw.estimated_year),
+      dateYear: typeof raw.estimated_year === 'number' && Number.isFinite(raw.estimated_year) ? raw.estimated_year : null,
       ageYears,
       cardType: getCardType(ageYears),
       archiveNo,
       image: resolveImage(raw.main_image ?? gallery[0]),
       imageAlt: raw.main_image_alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
       imageCredit: normalizeCredit(raw.main_image_credit),
+      hasCustomImageAlt: Boolean(raw.main_image_alt),
+      translations: normalizeTranslations(raw.translations),
       deckIds,
       civilization: raw.civilization ?? '',
       shortDescription: raw.short_description ?? '',

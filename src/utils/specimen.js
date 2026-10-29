@@ -5,6 +5,9 @@
 export function makeSpecimen(cardType) {
   return {
     id: `specimen-${cardType.id}`,
+    isSpecimen: true,
+    translations: {},
+    dateYear: null,
     slug: null,
     href: null,
     name: 'Specimen',

@@ -1,3 +1,4 @@
+import { useI18n } from '../../i18n/I18nContext';
 import { getModelEmbed, getVideoEmbed } from '../../utils/media';
 import '../../styles/site-details.css';
 
@@ -37,6 +38,7 @@ export function Timeline({ items }) {
 }
 
 export function ModelViewer({ url, name }) {
+  const { t } = useI18n();
   const embed = getModelEmbed(url);
   if (!embed) return null;
   if (embed.type === 'iframe') {
@@ -44,7 +46,7 @@ export function ModelViewer({ url, name }) {
       <div className="hb-embed">
         <iframe
           src={embed.src}
-          title={`3D model of ${name}`}
+          title={t('model.title', { name })}
           loading="lazy"
           allow="fullscreen; xr-spatial-tracking"
           referrerPolicy="no-referrer"
@@ -55,13 +57,14 @@ export function ModelViewer({ url, name }) {
   }
   return (
     <p className="hb-prose">
-      A {embed.format} model is available for this site.{' '}
-      <a className="hb-link" href={embed.src} download>Download the model</a>
+      {t('model.available', { format: embed.format })}{' '}
+      <a className="hb-link" href={embed.src} download>{t('model.download')}</a>
     </p>
   );
 }
 
 export function VideoPlayer({ url, name }) {
+  const { t } = useI18n();
   const embed = getVideoEmbed(url);
   if (!embed) return null;
   if (embed.type === 'iframe') {
@@ -69,7 +72,7 @@ export function VideoPlayer({ url, name }) {
       <div className="hb-embed">
         <iframe
           src={embed.src}
-          title={`Video about ${name} (${embed.provider})`}
+          title={t('video.title', { name, provider: embed.provider })}
           loading="lazy"
           allow="fullscreen; picture-in-picture"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -82,24 +85,25 @@ export function VideoPlayer({ url, name }) {
     return (
       <div className="hb-embed hb-embed--video">
         <video controls preload="metadata" src={embed.src}>
-          <a href={embed.src}>Download the video</a>
+          <a href={embed.src}>{t('video.download')}</a>
         </video>
       </div>
     );
   }
   return (
     <p className="hb-prose">
-      <a className="hb-link" href={embed.src} target="_blank" rel="noopener noreferrer">Watch the video<span className="sr-only"> (opens in a new tab)</span></a>
+      <a className="hb-link" href={embed.src} target="_blank" rel="noopener noreferrer">{t('video.watch')}<span className="sr-only"> {t('common.newTab')}</span></a>
     </p>
   );
 }
 
 export function Documentation({ types, note }) {
+  const { t } = useI18n();
   return (
     <div className="hb-prose">
       {note && <p>{note}</p>}
       {types.length > 0 && (
-        <ul className="hb-chips hb-chips--row" aria-label="Types of documentation">
+        <ul className="hb-chips hb-chips--row" aria-label={t('docs.types')}>
           {types.map((type) => <li className="hb-tag hb-tag--static" key={type}>{type}</li>)}
         </ul>
       )}
@@ -108,13 +112,14 @@ export function Documentation({ types, note }) {
 }
 
 export function Sources({ items }) {
+  const { t } = useI18n();
   return (
     <ol className="hb-sources">
       {items.map((source, i) => (
         <li key={i}>
           {source.url ? (
             <a href={source.url} target="_blank" rel="noopener noreferrer">
-              {source.title}<span className="sr-only"> (opens in a new tab)</span>
+              {source.title}<span className="sr-only"> {t('common.newTab')}</span>
             </a>
           ) : (
             source.title

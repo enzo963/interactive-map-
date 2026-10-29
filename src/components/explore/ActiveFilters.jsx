@@ -1,7 +1,9 @@
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/pages.css';
 
 /** Removable chips for every active filter. */
 export default function ActiveFilters({ filters, facets, onChange }) {
+  const { t } = useI18n();
   const label = (group, id) => facets[group].find((o) => o.id === id)?.label ?? id;
   const chips = [
     ...(filters.q.trim() ? [{ key: 'q', text: `“${filters.q.trim()}”`, remove: () => onChange({ q: '' }) }] : []),
@@ -13,10 +15,10 @@ export default function ActiveFilters({ filters, facets, onChange }) {
   if (chips.length === 0) return null;
 
   return (
-    <ul className="hb-chips" aria-label="Active filters">
+    <ul className="hb-chips" aria-label={t('filters.active')}>
       {chips.map((chip) => (
         <li key={chip.key}>
-          <button type="button" className="hb-tag" onClick={chip.remove} aria-label={`Remove filter: ${chip.text}`}>
+          <button type="button" className="hb-tag" onClick={chip.remove} aria-label={t('filters.remove', { text: chip.text })}>
             {chip.text}
             <span aria-hidden="true">×</span>
           </button>

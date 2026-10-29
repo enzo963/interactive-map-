@@ -1,6 +1,7 @@
-import { CARD_TYPES } from '../data/cardTypes';
+import { CARD_TYPES, UNCLASSIFIED_TYPE } from '../data/cardTypes';
 import { DRAW_FILTERS } from '../data/drawFilters';
 import { getGovernorateKey } from '../data/governorates';
+import { searchAliases } from '../i18n/localize';
 import slugify from './slugify';
 
 /**
@@ -66,15 +67,23 @@ export const countActive = (f) =>
 
 /* ---------- matching ---------- */
 
+/** Case, accent and Arabic-spelling insensitive (أ/إ/آ = ا, ى = ي, ة = ه, no tashkeel), ß = ss. */
 const fold = (text) =>
-  String(text ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  String(text ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f\u064B-\u065F\u0670\u0640]/g, '')
+    .replace(/[أإآٱ]/g, 'ا')
+    .replace(/ى/g, 'ي')
+    .replace(/ة/g, 'ه')
+    .replace(/ß/g, 'ss')
+    .toLowerCase();
 
 const haystacks = new WeakMap();
 function haystack(site) {
   let text = haystacks.get(site);
   if (!text) {
     text = fold(
-      [site.name, site.city, site.governorate, site.siteType, site.period, site.civilization, site.archiveNo, site.dateLabel]
+      [site.name, site.city, site.governorate, site.siteType, site.period, site.civilization, site.archiveNo, site.dateLabel, searchAliases(site)]
         .filter(Boolean)
         .join(' '),
     );
@@ -101,9 +110,13 @@ export function applyFilters(sites, filters, omit) {
   return sites.filter((site) => Object.entries(MATCHERS).every(([key, test]) => key === omit || test(site, filters)));
 }
 
-export function sortSites(sites, filters) {
+/**
+ * `nameOf` and `compare` let the caller sort by the name the visitor actually reads
+ * (translated, with the language's own alphabet order). Defaults: English names.
+ */
+export function sortSites(sites, filters, { nameOf = (s) => s.name, compare = (a, b) => a.localeCompare(b) } = {}) {
   const mode = filters.sort || (filters.q.trim() ? 'relevance' : 'archive');
-  const byName = (a, b) => a.name.localeCompare(b.name);
+  const byName = (a, b) => compare(nameOf(a), nameOf(b));
   const out = [...sites];
 
   switch (mode) {
@@ -121,12 +134,13 @@ export function sortSites(sites, filters) {
       break;
     case 'relevance': {
       const q = fold(filters.q).trim();
-      const rank = (s) => {
-        const name = fold(s.name);
+      const rankOf = (text) => {
+        const name = fold(text);
         if (name === q) return 0;
         if (name.startsWith(q)) return 1;
         return name.includes(q) ? 2 : 3;
       };
+      const rank = (s) => Math.min(rankOf(nameOf(s)), rankOf(s.name));
       out.sort((a, b) => rank(a) - rank(b) || byName(a, b));
       break;
     }
@@ -147,8 +161,20 @@ function tally(sites, keyOf) {
   return counts;
 }
 
-/** Options for every filter group, with live counts given the OTHER active filters. */
-export function getFacets(sites, filters) {
+const DEFAULT_LABELS = {
+  governorate: (name) => name,
+  kind: (name) => name,
+  cardType: (type) => type,
+  flag: (id, label) => label,
+  compare: (a, b) => a.localeCompare(b),
+};
+
+/**
+ * Options for every filter group, with live counts given the OTHER active filters.
+ * `labels` turns the data values into the words shown (see i18n); ids stay the same.
+ */
+export function getFacets(sites, filters, labels = {}) {
+  const L = { ...DEFAULT_LABELS, ...labels };
   const govCounts = tally(applyFilters(sites, filters, 'governorates'), (s) => getGovernorateKey(s.governorate));
   const typeCounts = tally(applyFilters(sites, filters, 'types'), (s) => String(s.cardType.tier));
   const kindCounts = tally(applyFilters(sites, filters, 'kinds'), (s) => slugify(s.siteType));
@@ -159,23 +185,27 @@ export function getFacets(sites, filters) {
     if (s.governorate && !names.has(getGovernorateKey(s.governorate))) names.set(getGovernorateKey(s.governorate), s.governorate);
     if (s.siteType && !kindLabels.has(slugify(s.siteType))) kindLabels.set(slugify(s.siteType), s.siteType);
   }
-  const byLabel = (a, b) => a.label.localeCompare(b.label);
+  const byLabel = (a, b) => L.compare(a.label, b.label);
 
-  const types = CARD_TYPES.map((t) => ({
-    id: String(t.tier),
-    label: t.shortLabel + (t.rankLabel ? ` · ${t.rankLabel}` : ''),
-    hint: t.rangeLabel,
-    count: typeCounts.get(String(t.tier)) ?? 0,
-  }));
+  const types = CARD_TYPES.map((type) => {
+    const t = L.cardType(type);
+    return {
+      id: String(t.tier),
+      label: t.shortLabel + (t.rankLabel ? ` · ${t.rankLabel}` : ''),
+      hint: t.rangeLabel,
+      count: typeCounts.get(String(t.tier)) ?? 0,
+    };
+  });
   if (sites.some((s) => s.cardType.tier === 0)) {
-    types.push({ id: '0', label: 'Unclassified', hint: 'Date not recorded', count: typeCounts.get('0') ?? 0 });
+    const t = L.cardType(UNCLASSIFIED_TYPE);
+    types.push({ id: '0', label: t.shortLabel, hint: t.rangeLabel, count: typeCounts.get('0') ?? 0 });
   }
 
   const flagBase = applyFilters(sites, filters, 'flags');
   return {
-    governorates: [...names].map(([id, label]) => ({ id, label, count: govCounts.get(id) ?? 0 })).sort(byLabel),
+    governorates: [...names].map(([id, label]) => ({ id, label: L.governorate(label), count: govCounts.get(id) ?? 0 })).sort(byLabel),
     types,
-    kinds: [...kindLabels].map(([id, label]) => ({ id, label, count: kindCounts.get(id) ?? 0 })).sort(byLabel),
-    flags: FLAG_FILTERS.map((f) => ({ id: f.id, label: f.label, count: flagBase.filter(f.test).length })),
+    kinds: [...kindLabels].map(([id, label]) => ({ id, label: L.kind(label), count: kindCounts.get(id) ?? 0 })).sort(byLabel),
+    flags: FLAG_FILTERS.map((f) => ({ id: f.id, label: L.flag(f.id, f.label), count: flagBase.filter(f.test).length })),
   };
 }

@@ -1,5 +1,6 @@
 import HeritageCard from './HeritageCard';
 import CardBack from './CardBack';
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/heritage-card.css';
 
 /**
@@ -9,11 +10,12 @@ import '../../styles/heritage-card.css';
  *
  * Falls back to card backs if the dataset is empty, so the hero never breaks.
  */
-export default function CardStack({ sites, label = 'Selected heritage cards', max = 5 }) {
+export default function CardStack({ sites, label, max = 5 }) {
+  const { t } = useI18n();
   const items = sites.slice(0, max);
 
   return (
-    <div className="hb-stack" role="group" aria-label={label} data-count={items.length || 3}>
+    <div className="hb-stack" role="group" aria-label={label ?? t('hero.stackLabel')} data-count={items.length || 3}>
       {items.length > 0
         ? items.map((site, index) => (
             <div className="hb-stack__slot" data-slot={index} key={site.id}>
@@ -22,7 +24,7 @@ export default function CardStack({ sites, label = 'Selected heritage cards', ma
           ))
         : ['geometric', 'arches', 'plain'].map((variant, index) => (
             <div className="hb-stack__slot" data-slot={index} key={variant}>
-              <CardBack variant={variant} label="Archive" />
+              <CardBack variant={variant} label={t('card.archive')} />
             </div>
           ))}
     </div>

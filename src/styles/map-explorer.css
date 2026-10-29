@@ -127,11 +127,12 @@
   background: none;
   border: 0;
   border-bottom: 1px solid var(--hb-rule);
-  text-align: left;
+  text-align: start;
   cursor: pointer;
 }
 .hb-mapx__item:hover .hb-mapx__item-name { text-decoration: underline; text-decoration-color: var(--hb-terracotta); text-underline-offset: 0.25em; }
-.hb-mapx__item[aria-pressed='true'] { padding-left: 0.75rem; box-shadow: inset 3px 0 0 var(--hb-terracotta); }
+.hb-mapx__item[aria-pressed='true'] { padding-inline-start: 0.75rem; box-shadow: inset 3px 0 0 var(--hb-terracotta); }
+:root[dir='rtl'] .hb-mapx__item[aria-pressed='true'] { box-shadow: inset -3px 0 0 var(--hb-terracotta); }
 .hb-mapx__item-name { font-family: var(--hb-font-serif); font-size: 1.1rem; }
 .hb-mapx__item-meta { font-family: var(--hb-font-mono); font-size: 0.75rem; color: var(--hb-earth-text); }
 
@@ -139,3 +140,11 @@
   .hb-mapx__grid-layout { grid-template-columns: minmax(0, 1fr); }
   .hb-mapx__list { max-height: 20rem; }
 }
+
+/* Small screens: let the Filters button drop below the search box instead of overflowing the page. */
+.hb-mapx__searchrow { flex-wrap: wrap; }
+.hb-mapx__searchrow > .hb-search { flex: 1 1 14rem; min-width: 0; }
+
+/* Leaflet lays out with physical coordinates: keep the map itself left-to-right in Arabic. */
+.hb-mapx__leaflet { direction: ltr; }
+.hb-mapx__leaflet .hb-map-tip, .hb-mapx__leaflet .hb-gov { direction: inherit; }

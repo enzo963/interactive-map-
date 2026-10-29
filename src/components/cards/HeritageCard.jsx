@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/heritage-card.css';
 
 /**
@@ -8,6 +9,7 @@ import '../../styles/heritage-card.css';
  * Takes ONE normalized site (see utils/siteAdapter.js). It never reads raw
  * JSON fields and never hard-codes classification: the age-based type arrives
  * as `site.cardType`, and the ornament level is driven by `data-tier` in CSS.
+ * Words come from the current language (i18n `ls`), never from the record directly.
  *
  * Props
  *  - site          normalized site record
@@ -18,20 +20,22 @@ import '../../styles/heritage-card.css';
  */
 export default function HeritageCard({ site, headingLevel = 3, showCta = false, priority = false, interactive = true }) {
   const [imageFailed, setImageFailed] = useState(false);
+  const { t, ls } = useI18n();
   const Heading = headingLevel ? `h${headingLevel}` : 'p';
-  const { cardType } = site;
+  const text = ls(site);
+  const { cardType } = text;
 
-  const place = [site.governorate, site.country].filter(Boolean).join(' · ');
+  const place = [text.governorate, text.country].filter(Boolean).join(' · ');
   const hasImage = Boolean(site.image) && !imageFailed;
   const linked = interactive && Boolean(site.href);
 
   return (
-    <article className="hb-card" data-tier={cardType.tier} data-type={cardType.id}>
+    <article className="hb-card" data-tier={site.cardType.tier} data-type={site.cardType.id}>
       <div className="hb-card__frame">
         <header className="hb-card__top">
           <p className="hb-card__archive">
-            <span className="hb-card__label">Archive No.</span>
-            <span className="hb-card__code">{site.archiveNo}</span>
+            <span className="hb-card__label">{t('card.archiveNo')}</span>
+            <span className="hb-card__code" dir="ltr">{site.archiveNo}</span>
           </p>
           <p className="hb-card__type">
             <span className="hb-card__type-name">{cardType.shortLabel}</span>
@@ -44,27 +48,27 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
             <img
               className="hb-card__image"
               src={site.image}
-              alt={site.imageAlt}
+              alt={text.imageAlt}
               loading={priority ? 'eager' : 'lazy'}
               decoding="async"
               onError={() => setImageFailed(true)}
             />
           ) : (
             <div className="hb-card__placeholder">
-              <span>Image pending</span>
+              <span>{t('card.imagePending')}</span>
             </div>
           )}
 
           {(site.isUnesco || site.hasModel) && (
-            <ul className="hb-card__badges" aria-label="Digital and designation indicators">
-              {site.isUnesco && <li>UNESCO</li>}
-              {site.hasModel && <li>3D</li>}
+            <ul className="hb-card__badges" aria-label={t('card.indicators')}>
+              {site.isUnesco && <li>{t('card.unesco')}</li>}
+              {site.hasModel && <li>{t('card.model3d')}</li>}
             </ul>
           )}
 
           {showCta && linked && (
             <span className="hb-card__cta" aria-hidden="true">
-              View card ↗
+              {t('card.view')}
             </span>
           )}
         </figure>
@@ -73,20 +77,20 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
           <Heading className="hb-card__title">
             {linked ? (
               <SmartLink className="hb-card__link" href={site.href}>
-                {site.name}
+                {text.name}
               </SmartLink>
             ) : (
-              site.name
+              text.name
             )}
           </Heading>
-          {site.siteType && <p className="hb-card__category">{site.siteType}</p>}
+          {text.siteType && <p className="hb-card__category">{text.siteType}</p>}
           {place && <p className="hb-card__place">{place}</p>}
-          {site.period && <p className="hb-card__period">{site.period}</p>}
+          {text.period && <p className="hb-card__period">{text.period}</p>}
         </div>
 
         <footer className="hb-card__foot">
-          <span className="hb-card__date">{site.dateLabel}</span>
-          <span className="hb-card__brand">Heritage Bridge</span>
+          <span className="hb-card__date">{text.dateLabel}</span>
+          <span className="hb-card__brand">{t('brand.name')}</span>
         </footer>
       </div>
     </article>

@@ -29,11 +29,11 @@ export function getDeckById(sites, id) {
 export function getDecksForSite(site) {
   const decks = [];
   if (site.governorate) {
-    decks.push({ id: getGovernorateKey(site.governorate), title: `${site.governorate} Deck`, href: `/decks/${getGovernorateKey(site.governorate)}` });
+    decks.push({ id: getGovernorateKey(site.governorate), kind: 'governorate', name: site.governorate, title: `${site.governorate} Deck`, href: `/decks/${getGovernorateKey(site.governorate)}` });
   }
   for (const def of SPECIAL_DECKS) {
     const filter = DRAW_FILTERS.find((f) => f.id === def.filterId);
-    if (filter?.test(site)) decks.push({ id: def.id, title: def.title, href: `/decks/${def.id}` });
+    if (filter?.test(site)) decks.push({ id: def.id, kind: 'special', title: def.title, href: `/decks/${def.id}` });
   }
   return decks;
 }

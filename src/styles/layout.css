@@ -2,7 +2,7 @@
 
 .hb-skip {
   position: absolute;
-  left: 1rem; top: -4rem;
+  inset-inline-start: 1rem; top: -4rem;
   z-index: 100;
   padding: 0.6rem 1rem;
   background: var(--hb-ink);
@@ -35,6 +35,7 @@
 }
 .hb-brand__mark { width: 1.75rem; height: 1.75rem; color: var(--hb-terracotta-deep); }
 .hb-brand__name {
+  white-space: nowrap;
   font-family: var(--hb-font-serif);
   font-size: 1.3rem;
   font-weight: 500;
@@ -55,6 +56,52 @@
 .hb-nav__link[aria-current='page'] { border-bottom-color: var(--hb-terracotta); }
 .hb-nav__cta { min-height: 2.5rem; padding-block: 0.5rem; }
 
+/* Language + theme controls */
+.hb-tools { display: flex; align-items: center; gap: 0.5rem; }
+.hb-lang { position: relative; display: inline-flex; align-items: center; }
+.hb-lang__icon {
+  position: absolute;
+  inset-inline-start: 0.65rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--hb-earth-text);
+  pointer-events: none;
+}
+.hb-lang__select {
+  appearance: none;
+  min-height: 2.5rem;
+  padding-block: 0;
+  padding-inline: 2.15rem 2rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%23908570' stroke-width='1.6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 0.65rem;
+  background-position: right 0.8rem center;
+  background: transparent;
+  border: 1px solid var(--hb-rule-strong);
+  border-radius: 2px;
+  color: var(--hb-ink);
+  font-family: var(--hb-font-sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hb-lang__select:hover { border-color: var(--hb-ink); }
+:root[dir='rtl'] .hb-lang__select { background-position: left 0.8rem center; }
+.hb-theme {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--hb-rule-strong);
+  border-radius: 2px;
+  color: var(--hb-ink);
+  cursor: pointer;
+}
+.hb-theme:hover { border-color: var(--hb-ink); }
+.hb-theme__icon { width: 1.2rem; height: 1.2rem; }
+
 .hb-header__toggle {
   display: none;
   min-height: 2.75rem;
@@ -67,8 +114,9 @@
   cursor: pointer;
 }
 
-@media (max-width: 62rem) {
+@media (max-width: 72rem) {
   .hb-header__toggle { display: inline-flex; align-items: center; }
+  .hb-tools { align-self: flex-start; }
   .hb-nav {
     display: none;
     position: absolute;

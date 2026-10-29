@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import HeritageCard from '../cards/HeritageCard';
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/pages.css';
 
 /**
@@ -7,6 +8,7 @@ import '../../styles/pages.css';
  * Give it a `key` that changes with the filters so the page size resets.
  */
 export default function CardGrid({ sites, pageSize = 24, headingLevel = 3 }) {
+  const { t } = useI18n();
   const [visible, setVisible] = useState(pageSize);
   const shown = sites.slice(0, visible);
   const remaining = sites.length - shown.length;
@@ -23,10 +25,10 @@ export default function CardGrid({ sites, pageSize = 24, headingLevel = 3 }) {
       {remaining > 0 && (
         <div className="hb-grid__more">
           <button type="button" className="hb-btn hb-btn--ink" onClick={() => setVisible((n) => n + pageSize)}>
-            Show {Math.min(pageSize, remaining)} more
+            {t('grid.showMore', { n: Math.min(pageSize, remaining) })}
           </button>
           <p className="hb-grid__progress" role="status">
-            Showing {shown.length} of {sites.length}
+            {t('grid.progress', { shown: shown.length, total: sites.length })}
           </p>
         </div>
       )}

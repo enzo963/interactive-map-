@@ -1,27 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Naskh+Arabic:wght@400;500;600&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
-  /* Palette (Heritage Bridge) */
-  --hb-ink: #1d211e;
+  color-scheme: light;
+
+  /* Base palette (Heritage Bridge) — the original colours, never themed.
+     The themed tokens below point at these; cards and the always-dark bands reset to them. */
+  --p-ink: #1d211e;
+  --p-sand: #ded3c0;
+  --p-paper: #f1ede4;
+  --p-paper-raised: #f8f5ee;
+  --p-earth-text: #5f5646;           /* earth, darkened for AA text on paper */
+  --p-terracotta-deep: #a8482a;      /* terracotta for text/links on paper (AA) */
+  --p-rule: rgba(29, 33, 30, 0.2);
+  --p-rule-strong: rgba(29, 33, 30, 0.55);
+  --p-desk: #e6dcc9;
+  --p-desk-line: rgba(29, 33, 30, 0.06);
+
+  /* Not themed */
   --hb-green: #394238;
   --hb-earth: #756b59;
   --hb-brown: #a68b68;
-  --hb-sand: #ded3c0;
   --hb-terracotta: #c65f3b;
 
-  /* Derived */
-  --hb-paper: #f1ede4;
-  --hb-paper-raised: #f8f5ee;
-  --hb-earth-text: #5f5646;          /* earth, darkened for AA text on paper */
-  --hb-terracotta-deep: #a8482a;     /* terracotta for text/links on paper (AA) */
-  --hb-rule: rgba(29, 33, 30, 0.2);
-  --hb-rule-strong: rgba(29, 33, 30, 0.55);
+  /* Themed (light is the default) */
+  --hb-ink: var(--p-ink);
+  --hb-sand: var(--p-sand);
+  --hb-paper: var(--p-paper);
+  --hb-paper-raised: var(--p-paper-raised);
+  --hb-earth-text: var(--p-earth-text);
+  --hb-terracotta-deep: var(--p-terracotta-deep);
+  --hb-rule: var(--p-rule);
+  --hb-rule-strong: var(--p-rule-strong);
+  --hb-desk: var(--p-desk);
+  --hb-desk-line: var(--p-desk-line);
 
-  /* Type */
-  --hb-font-serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
-  --hb-font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --hb-font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  /* Type (Arabic glyphs fall through to the Arabic faces automatically) */
+  --hb-font-serif: 'Newsreader', 'Noto Naskh Arabic', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --hb-font-sans: 'IBM Plex Sans', 'IBM Plex Sans Arabic', system-ui, -apple-system, 'Segoe UI', Tahoma, sans-serif;
+  --hb-font-mono: 'IBM Plex Mono', 'IBM Plex Sans Arabic', ui-monospace, 'Cascadia Mono', Consolas, monospace;
 
   /* Layout */
   --hb-gutter: clamp(1.25rem, 4vw, 3rem);
@@ -30,6 +47,34 @@
 
   /* Motion */
   --hb-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ---------- Dark theme ----------
+   Switched with <html data-theme="dark"> (see src/theme). Only the tokens change. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --hb-ink: #ece6d6;
+  --hb-sand: #2a302a;
+  --hb-paper: #151815;
+  --hb-paper-raised: #1d221d;
+  --hb-earth-text: #b5a98f;
+  --hb-terracotta-deep: #e8906b;
+  --hb-rule: rgba(236, 230, 214, 0.18);
+  --hb-rule-strong: rgba(236, 230, 214, 0.5);
+  --hb-desk: #1f251f;
+  --hb-desk-line: rgba(236, 230, 214, 0.06);
+}
+
+/* Physical objects (cards, decks) and the bands that are dark in both themes keep the base palette. */
+:root[data-theme='dark'] :is(.hb-card, .hb-cardback, .hb-deck, .hb-draw, .hb-footer, .hb-lightbox, .hb-embed, .hb-skip) {
+  --hb-ink: var(--p-ink);
+  --hb-sand: var(--p-sand);
+  --hb-paper: var(--p-paper);
+  --hb-paper-raised: var(--p-paper-raised);
+  --hb-earth-text: var(--p-earth-text);
+  --hb-terracotta-deep: var(--p-terracotta-deep);
+  --hb-rule: var(--p-rule);
+  --hb-rule-strong: var(--p-rule-strong);
 }
 
 /* ---------- Base ---------- */
@@ -128,6 +173,8 @@ button { font: inherit; color: inherit; }
 }
 .hb-link::after { content: '→'; transition: transform 0.2s var(--hb-ease); }
 .hb-link:hover::after { transform: translateX(3px); }
+:root[dir='rtl'] .hb-link::after { content: '←'; }
+:root[dir='rtl'] .hb-link:hover::after { transform: translateX(-3px); }
 
 /* ---------- Motion preferences ---------- */
 @media (prefers-reduced-motion: reduce) {
@@ -151,3 +198,15 @@ button { font: inherit; color: inherit; }
 }
 :root[data-motion='off'] .hb-card:hover,
 :root[data-motion='off'] .hb-card:focus-within { transform: none !important; }
+
+
+/* ---------- Right-to-left (Arabic) ---------- */
+/* Letter-spacing breaks the joined letters of Arabic script, so it is switched off. */
+:root[lang='ar'] *,
+:root[lang='ar'] *::before,
+:root[lang='ar'] *::after { letter-spacing: normal !important; }
+:root[lang='ar'] body { line-height: 1.7; }
+
+/* Geographic plots are never mirrored: east stays on the right whatever the page direction. */
+.hb-map__plot,
+.hb-mapx__plot { direction: ltr; }

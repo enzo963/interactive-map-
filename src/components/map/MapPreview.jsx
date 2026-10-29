@@ -3,7 +3,7 @@ import HeritageCard from '../cards/HeritageCard';
 import MapCanvas from './MapCanvas';
 import SmartLink from '../common/SmartLink';
 import { getGovernorateKey } from '../../data/governorates';
-import { cardsLabel } from '../../utils/archiveStats';
+import { useI18n } from '../../i18n/I18nContext';
 import { groupByGovernorate } from '../../utils/groupDecks';
 import { selectFeaturedSites } from '../../utils/selectSites';
 import '../../styles/home-sections.css';
@@ -16,6 +16,7 @@ import '../../styles/home-sections.css';
  * the map is a pointer convenience.
  */
 export default function MapPreview({ sites }) {
+  const { t, ld, cardsLabel, localize } = useI18n();
   const decks = useMemo(() => groupByGovernorate(sites), [sites]);
   const [selectedId, setSelectedId] = useState(null);
   const [pinned, setPinned] = useState(null);
@@ -25,6 +26,7 @@ export default function MapPreview({ sites }) {
   const hasPositions = positioned > 0;
 
   if (!selected) return null;
+  const selectedText = ld({ ...selected, kind: 'governorate' });
   // A selected pin leads its deck's preview, followed by the deck's featured cards.
   const featured = selectFeaturedSites(selected.sites, 3);
   const preview = pinned && selected.sites.some((s) => s.id === pinned.id)
@@ -35,8 +37,8 @@ export default function MapPreview({ sites }) {
     <section className="hb-map" aria-labelledby="map-title">
       <div className="hb-container">
         <header className="hb-section-head">
-          <h2 id="map-title" className="hb-section-title">Cards on the map</h2>
-          <SmartLink href="/map" className="hb-link">Open the map</SmartLink>
+          <h2 id="map-title" className="hb-section-title">{t('mapPreview.title')}</h2>
+          <SmartLink href="/map" className="hb-link">{t('mapPreview.open')}</SmartLink>
         </header>
 
         <div className={`hb-map__grid ${hasPositions ? '' : 'hb-map__grid--list'}`.trim()}>
@@ -48,13 +50,13 @@ export default function MapPreview({ sites }) {
                 selectedSite={pinned}
                 onSelect={(site) => { setPinned(site); setSelectedId(getGovernorateKey(site.governorate)); }}
                 size="compact"
-                caption={`${positioned} of ${sites.length} cards plotted from recorded coordinates. Select a pin to open its governorate deck.`}
+                caption={t('mapPreview.caption', { plotted: positioned, total: sites.length })}
               />
             </figure>
           )}
 
           <div className="hb-map__side">
-            <div className="hb-map__list" role="group" aria-label="Governorates">
+            <div className="hb-map__list" role="group" aria-label={t('mapPreview.govs')}>
               {decks.map((deck) => (
                 <button
                   type="button"
@@ -63,16 +65,16 @@ export default function MapPreview({ sites }) {
                   onClick={() => { setSelectedId(deck.id); setPinned(null); }}
                   key={deck.id}
                 >
-                  <span>{deck.name}</span>
+                  <span>{localize.governorate(deck.name)}</span>
                   <span>{cardsLabel(deck.count)}</span>
                 </button>
               ))}
             </div>
 
             <div className="hb-map__panel">
-              <h3 className="hb-map__panel-title">{selected.name} Deck</h3>
+              <h3 className="hb-map__panel-title">{selectedText.title}</h3>
               <p className="sr-only" role="status">
-                {selected.name} deck selected. {cardsLabel(selected.count)}.
+                {t('mapPreview.selected', { name: selectedText.name, cards: cardsLabel(selected.count) })}
               </p>
               <ul className="hb-map__preview">
                 {preview.map((site) => (
@@ -82,7 +84,7 @@ export default function MapPreview({ sites }) {
                 ))}
               </ul>
               <SmartLink href={selected.href} className="hb-link">
-                Explore {selected.name} Deck
+                {t('mapPreview.explore', { title: selectedText.title })}
               </SmartLink>
             </div>
           </div>

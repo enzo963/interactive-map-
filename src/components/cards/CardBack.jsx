@@ -1,4 +1,5 @@
 import { useId } from 'react';
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/heritage-card.css';
 
 /**
@@ -153,6 +154,7 @@ const PATTERNS = {
  */
 export default function CardBack({ variant = 'plain', label, caption, className = '' }) {
   const uid = useId().replace(/:/g, '');
+  const { t } = useI18n();
   const Pattern = PATTERNS[variant] ?? Plain;
 
   return (
@@ -173,7 +175,7 @@ export default function CardBack({ variant = 'plain', label, caption, className 
           {caption && <span className="hb-cardback__caption">{caption}</span>}
         </div>
       )}
-      <span className="hb-cardback__mark">Heritage Bridge</span>
+      <span className="hb-cardback__mark">{t('brand.name')}</span>
     </div>
   );
 }

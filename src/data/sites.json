@@ -37,7 +37,17 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "الحضر",
+        "short_description": "مدينة محصنة قديمة اشتهرت بمعابدها الضخمة وبمزيجها الفريد من التأثيرات الثقافية."
+      },
+      "de": {
+        "name": "Hatra",
+        "short_description": "Eine antike befestigte Stadt, bekannt für ihre monumentalen Tempel und ihre einzigartige Mischung kultureller Einflüsse."
+      }
+    }
   },
   {
     "id": "site-002",
@@ -76,7 +86,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "كنيسة الساعة (سيدة الساعة)"
+      },
+      "de": {
+        "name": "Uhrenkirche (Unsere Liebe Frau von der Stunde)"
+      }
+    }
   },
   {
     "id": "site-003",
@@ -115,7 +133,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "جامع النوري ومنارة الحدباء"
+      },
+      "de": {
+        "name": "Al-Nuri-Moschee und Al-Hadba-Minarett"
+      }
+    }
   },
   {
     "id": "site-004",
@@ -154,7 +180,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "نينوى (كوينجق)"
+      },
+      "de": {
+        "name": "Ninive (Kujundschik)"
+      }
+    }
   },
   {
     "id": "site-005",
@@ -193,7 +227,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "مرقد النبي يونس"
+      },
+      "de": {
+        "name": "Nabi-Yunus-Schrein"
+      }
+    }
   },
   {
     "id": "site-006",
@@ -232,7 +274,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "النمرود (كالخو)"
+      },
+      "de": {
+        "name": "Nimrud (Kalchu)"
+      }
+    }
   },
   {
     "id": "site-007",
@@ -271,7 +321,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "خورسباد (دور شروكين)"
+      },
+      "de": {
+        "name": "Chorsabad (Dur-Scharrukin)"
+      }
+    }
   },
   {
     "id": "site-008",
@@ -310,7 +368,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "دير مار بهنام"
+      },
+      "de": {
+        "name": "Kloster Mar Behnam"
+      }
+    }
   },
   {
     "id": "site-009",
@@ -349,7 +415,15 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "دير مار متى"
+      },
+      "de": {
+        "name": "Kloster Mar Mattai"
+      }
+    }
   },
   {
     "id": "site-010",
@@ -388,6 +462,14 @@
     "our_work": false,
     "our_work_types": [],
     "sources": [],
-    "verification_status": "needs-review"
+    "verification_status": "needs-review",
+    "translations": {
+      "ar": {
+        "name": "كنيسة الطاهرة (قره قوش)"
+      },
+      "de": {
+        "name": "Al-Tahira-Kirche (Karakosch)"
+      }
+    }
   }
 ]

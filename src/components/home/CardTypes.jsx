@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import HeritageCard from '../cards/HeritageCard';
 import { CARD_TYPES } from '../../data/cardTypes';
-import { CARD_TYPE_NOTES } from '../../data/cardTypeNotes';
+import { useI18n } from '../../i18n/I18nContext';
 import { selectOnePerType } from '../../utils/selectSites';
 import { makeSpecimen } from '../../utils/specimen';
 import '../../styles/home-sections.css';
@@ -11,31 +11,32 @@ import '../../styles/home-sections.css';
  * otherwise a clearly-labelled specimen. Ranges and names come from CARD_TYPES.
  */
 export default function CardTypes({ sites }) {
+  const { t, localize } = useI18n();
   const byTier = useMemo(() => selectOnePerType(sites), [sites]);
 
   return (
     <section className="hb-types" aria-labelledby="types-title">
       <div className="hb-container">
         <header className="hb-types__intro">
-          <h2 id="types-title" className="hb-section-title">Card classification</h2>
-          <p className="hb-types__lede">
-            Every heritage card is classified by the approximate age of its site. A card has one type, and can
-            belong to many decks.
-          </p>
+          <h2 id="types-title" className="hb-section-title">{t('types.title')}</h2>
+          <p className="hb-types__lede">{t('types.lede')}</p>
         </header>
 
         <ul className="hb-types__row">
-          {CARD_TYPES.map((type) => (
-            <li className="hb-types__item" data-tier={type.tier} key={type.id}>
-              <HeritageCard site={byTier[type.tier] ?? makeSpecimen(type)} headingLevel={null} />
-              <div className="hb-types__caption">
-                <h3 className="hb-types__name">{type.shortLabel}</h3>
-                {type.rankLabel && <p className="hb-types__rank">{type.rankLabel}</p>}
-                <p className="hb-types__range">{type.rangeLabel}</p>
-                <p className="hb-types__note">{CARD_TYPE_NOTES[type.tier]}</p>
-              </div>
-            </li>
-          ))}
+          {CARD_TYPES.map((type) => {
+            const label = localize.cardType(type);
+            return (
+              <li className="hb-types__item" data-tier={type.tier} key={type.id}>
+                <HeritageCard site={byTier[type.tier] ?? makeSpecimen(type)} headingLevel={null} />
+                <div className="hb-types__caption">
+                  <h3 className="hb-types__name">{label.shortLabel}</h3>
+                  {label.rankLabel && <p className="hb-types__rank">{label.rankLabel}</p>}
+                  <p className="hb-types__range">{label.rangeLabel}</p>
+                  <p className="hb-types__note">{t(`cardNote.${type.tier}`)}</p>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

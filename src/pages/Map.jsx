@@ -9,10 +9,10 @@ import FilterPanel from '../components/explore/FilterPanel';
 import ActiveFilters from '../components/explore/ActiveFilters';
 import useSiteFilters from '../hooks/useSiteFilters';
 import useDocumentTitle from '../hooks/useDocumentTitle';
+import { useI18n } from '../i18n/I18nContext';
 import { useSearchParams } from '../router/RouterContext';
 import { getAllSites } from '../services/siteService';
 import { applyFilters, getFacets, sortSites } from '../utils/filterSites';
-import { cardsLabel } from '../utils/archiveStats';
 import '../styles/map-explorer.css';
 
 const LIST_PAGE = 30;
@@ -20,7 +20,8 @@ const LIST_PAGE = 30;
 const CAN_EDIT = import.meta.env.DEV;
 
 export default function MapPage() {
-  useDocumentTitle('Map — Heritage Bridge');
+  const { t, ls, localize, cardsLabel, pageTitle } = useI18n();
+  useDocumentTitle(pageTitle(t('title.map')));
   const sites = useMemo(() => getAllSites(), []);
   const { filters, setFilters, clear, activeCount } = useSiteFilters();
   const [params, setParams] = useSearchParams();
@@ -29,8 +30,21 @@ export default function MapPage() {
   const [editing, setEditing] = useState(null); // null | { target: 'new' | site id }
   const [draft, setDraft] = useState(null);
 
-  const facets = useMemo(() => getFacets(sites, filters), [sites, filters]);
-  const results = useMemo(() => sortSites(applyFilters(sites, filters), { ...filters, sort: filters.sort || 'name' }), [sites, filters]);
+  const labels = useMemo(
+    () => ({
+      governorate: localize.governorate,
+      kind: localize.kind,
+      cardType: localize.cardType,
+      flag: (id) => (id === 'video' ? t('flag.video') : t(`drawFilter.${id}`)),
+      compare: localize.compare,
+    }),
+    [localize, t],
+  );
+  const facets = useMemo(() => getFacets(sites, filters, labels), [sites, filters, labels]);
+  const results = useMemo(
+    () => sortSites(applyFilters(sites, filters), { ...filters, sort: filters.sort || 'name' }, { nameOf: (s) => ls(s).name, compare: localize.compare }),
+    [sites, filters, ls, localize],
+  );
   const plotted = results.filter((s) => Number.isFinite(s.latitude) && Number.isFinite(s.longitude));
 
   const selectedSlug = params.get('site');
@@ -59,9 +73,9 @@ export default function MapPage() {
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
-        eyebrow="Map"
-        title="Cards on the map"
-        lede="Each diamond is a card. Filter the archive, then select a pin or a name to open its card."
+        eyebrow={t('map.eyebrow')}
+        title={t('map.title')}
+        lede={t('map.lede')}
       />
 
       <div className="hb-container hb-mapx__page">
@@ -69,7 +83,7 @@ export default function MapPage() {
           <div className="hb-mapx__searchrow">
             <SearchField value={filters.q} onChange={(q) => setFilters({ q })} />
             <button type="button" className="hb-explore__toggle hb-mapx__filterbtn" aria-expanded={panelOpen} aria-controls="map-filters" onClick={() => setPanelOpen((o) => !o)}>
-              Filters{activeCount > 0 ? ` (${activeCount})` : ''}
+              {t('filters.button')}{activeCount > 0 ? ` (${activeCount})` : ''}
             </button>
             {CAN_EDIT && !editing && (
               <button type="button" className="hb-btn hb-btn--ink hb-mapx__addbtn" onClick={() => startEditing(null)}>+ Add a place</button>
@@ -92,7 +106,7 @@ export default function MapPage() {
             onPick={setDraft}
           />
 
-          <aside className="hb-mapx__side" aria-label="Selected card and results">
+          <aside className="hb-mapx__side" aria-label={t('map.side')}>
             {editing && (
               <PlaceForm
                 key={editing.target}
@@ -110,15 +124,16 @@ export default function MapPage() {
                   <HeritageCard site={selected} headingLevel={2} showCta />
                 </div>
                 <div className="hb-mapx__selected-actions">
-                  <button type="button" className="hb-link hb-mapx__deselect" onClick={() => select(null)}>Clear selection</button>
+                  <button type="button" className="hb-link hb-mapx__deselect" onClick={() => select(null)}>{t('map.clearSelection')}</button>
                   {CAN_EDIT && <button type="button" className="hb-link hb-mapx__deselect" onClick={() => startEditing(selected)}>Move this pin</button>}
                 </div>
               </div>
             )}
 
             <p className="hb-explore__count" role="status">
-              {cardsLabel(results.length)}
-              {plotted.length !== results.length && `, ${plotted.length} with coordinates`}
+              {plotted.length !== results.length
+                ? t('map.withCoords', { shown: cardsLabel(results.length), n: plotted.length })
+                : cardsLabel(results.length)}
             </p>
             {results.length > 0 ? (
               <ul className="hb-mapx__list">
@@ -130,22 +145,22 @@ export default function MapPage() {
                       aria-pressed={selected?.id === site.id}
                       onClick={() => select(site)}
                     >
-                      <span className="hb-mapx__item-name">{site.name}</span>
-                      <span className="hb-mapx__item-meta">{[site.cardType.shortLabel, site.governorate].filter(Boolean).join(' · ')}</span>
+                      <span className="hb-mapx__item-name">{ls(site).name}</span>
+                      <span className="hb-mapx__item-meta">{[ls(site).cardType.shortLabel, ls(site).governorate].filter(Boolean).join(' · ')}</span>
                     </button>
                   </li>
                 ))}
               </ul>
             ) : (
               <div className="hb-empty">
-                <p className="hb-empty__title">No cards match.</p>
-                <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>Clear all filters</button>
+                <p className="hb-empty__title">{t('map.noneTitle')}</p>
+                <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>{t('filters.clear')}</button>
               </div>
             )}
             {results.length > listSize && (
-              <button type="button" className="hb-btn hb-btn--ink" onClick={() => setListSize((n) => n + LIST_PAGE)}>Show more</button>
+              <button type="button" className="hb-btn hb-btn--ink" onClick={() => setListSize((n) => n + LIST_PAGE)}>{t('map.showMore')}</button>
             )}
-            <p className="hb-mapx__more"><SmartLink className="hb-link" href="/explore">Browse as a list of cards</SmartLink></p>
+            <p className="hb-mapx__more"><SmartLink className="hb-link" href="/explore">{t('map.browseList')}</SmartLink></p>
           </aside>
         </div>
       </div>
