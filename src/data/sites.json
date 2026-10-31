@@ -1,39 +1,33 @@
 [
-{
+  {
     "id": "site-001",
-    "slug": "hatra",
     "name": "Hatra",
     "governorate": "Nineveh",
+    "category": "Archaeological Site",
+    "period": "Parthian",
+    "description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
+    "images": [],
+    "unesco": true,
+    "has3D": false,
+    "sources": [],
+    "slug": "hatra",
     "city": "Hatra",
     "latitude": 35.5872,
     "longitude": 42.7185,
-
-    "site_type": "Archaeological Site",
-    "historical_period": "Parthian",
     "civilization": "Hatra Kingdom",
-
     "estimated_year": -100,
     "short_description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
-    "full_description": "",
-
-    "main_image": "",
-    "gallery": [],
-
-    "decks": ["nineveh", "unesco"],
-
+    "decks": [
+      "nineveh",
+      "unesco"
+    ],
     "unesco_status": "world-heritage",
     "heritage_status": "existing",
-
-    "has_3d": false,
     "model_3d_url": "",
-
     "has_video": false,
     "video_url": "",
-
     "our_work": false,
     "our_work_types": [],
-
-    "sources": [],
     "verification_status": "needs-review"
-}
+  }
 ]

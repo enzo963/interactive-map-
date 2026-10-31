@@ -5,7 +5,8 @@ import { resolveImage } from './resolveImage';
 import slugify from './slugify';
 
 /**
- * The ONLY place that knows the raw sites.json field names.
+ * Maps canonical sites.json fields to the existing component API. Legacy field
+ * names remain supported for older imports; pages do not need to change.
  * Components receive normalized "site" objects. When the JSON is replaced by an API or a
  * database, only this adapter changes.
  *
@@ -93,23 +94,36 @@ function normalizeGallery(gallery, name) {
     .filter(Boolean);
 }
 
+/** Preserve authored date precision and reject malformed dates instead of inventing one. */
+function sourceAccessDate(value) {
+  const date = text(value);
+  const match = /^(\d{4})-(\d{2})-(\d{2})(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2}))?$/.exec(date);
+  if (!match) return null;
+  const [, year, month, day] = match.map(Number);
+  const calendar = new Date(0);
+  calendar.setUTCFullYear(year, month, 0);
+  if (month < 1 || month > 12 || day < 1 || day > calendar.getUTCDate() || !Number.isFinite(Date.parse(date))) return null;
+  return date;
+}
+
 function normalizeSources(sources) {
   if (!sources) return [];
   const list = Array.isArray(sources) ? sources : [sources];
-  return list
-    .map((item) => {
-      if (typeof item === 'string') {
-        const value = item.trim();
-        return value ? { title: value, url: safeUrl(value), detail: '' } : null;
-      }
-      if (item && typeof item === 'object') {
-        const title = item.title ?? item.name ?? item.citation ?? item.text ?? item.url ?? '';
-        const detail = [item.author, item.publisher, item.year].filter(Boolean).join(', ');
-        return title ? { title: String(title), url: safeUrl(item.url ?? item.link), detail } : null;
-      }
-      return null;
-    })
-    .filter(Boolean);
+  return list.map((item) => {
+    if (typeof item === 'string') item = { sourceName: item.trim(), url: safeUrl(item) };
+    if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
+    const sourceName = text(item.sourceName ?? item.title ?? item.name ?? item.citation ?? item.text ?? item.url);
+    if (!sourceName) return null;
+    return {
+      sourceName,
+      url: safeUrl(item.url ?? item.link),
+      evidenceId: text(item.evidenceId) || null,
+      accessedAt: sourceAccessDate(item.accessedAt),
+      // Compatibility fields keep the existing Sources component unchanged.
+      title: text(item.title) || sourceName,
+      detail: text(item.detail) || [item.author, item.publisher, item.year].filter(Boolean).join(', '),
+    };
+  }).filter(Boolean);
 }
 
 /** Optional. Only renders if sites.json actually has a `timeline` array. */
@@ -184,11 +198,13 @@ export function normalizeSites(input) {
 
     const slug = raw.slug || slugify(raw.name) || String(index);
     const name = raw.name ?? 'Untitled record';
-    const gallery = Array.isArray(raw.gallery) ? raw.gallery : [];
+    const canonicalImages = Array.isArray(raw.images);
+    const gallery = canonicalImages ? raw.images : Array.isArray(raw.gallery) ? raw.gallery : [];
+    const images = normalizeGallery(gallery, name);
     const deckIds = normalizeDeckIds(raw.decks ?? raw.deck_ids);
     const ageYears = getSiteAgeYears(raw);
 
-    const unescoValue = raw.unesco_status;
+    const unescoValue = raw.unesco ?? raw.unesco_status;
     const isUnesco =
       typeof unescoValue === 'boolean'
         ? unescoValue
@@ -210,7 +226,8 @@ export function normalizeSites(input) {
     const documentationMeta = normalizeDocumentation(raw.documentation);
     const ourWorkTypes = unique([...toList(raw.our_work_types), ...(documentationMeta?.methods ?? [])]);
 
-    const siteType = raw.site_type ?? '';
+    const siteType = text(raw.category ?? raw.site_type);
+    const hasModel = hasValue(raw.has3D ?? raw.has_3d) || Boolean(modelUrl);
 
     return {
       id: String(raw.id ?? slug),
@@ -223,19 +240,20 @@ export function normalizeSites(input) {
       latitude: toCoordinate(raw.latitude),
       longitude: toCoordinate(raw.longitude),
       siteType,
-      period: raw.historical_period ?? raw.civilization ?? '',
+      category: siteType,
+      period: raw.period ?? raw.historical_period ?? raw.civilization ?? '',
       civilization: raw.civilization ?? '',
       dateLabel: formatYearLabel(raw.estimated_year),
       ageYears,
       cardType: getCardType(ageYears),
       archiveNo,
-      image: resolveImage(raw.main_image ?? gallery[0]),
-      imageAlt: raw.main_image_alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
+      image: resolveImage(canonicalImages ? images[0] : raw.main_image || gallery[0]),
+      imageAlt: raw.main_image_alt ?? images[0]?.alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
       deckIds,
 
       // Descriptions
       shortDescription: raw.short_description ?? '',
-      description: raw.full_description ?? raw.short_description ?? '',
+      description: raw.description ?? raw.full_description ?? raw.short_description ?? '',
       historicalBackground: text(raw.historical_background),
 
       // Status and provenance (all optional)
@@ -248,7 +266,8 @@ export function normalizeSites(input) {
       mediaLicense: text(raw.media_license ?? raw.license ?? raw.licence),
 
       // Media and documentation
-      gallery: normalizeGallery(gallery, name),
+      gallery: images,
+      images,
       modelUrl,
       videoUrl,
       digitalAssets,
@@ -263,8 +282,10 @@ export function normalizeSites(input) {
 
       // Flags (evidence-based)
       isUnesco,
+      unesco: isUnesco,
       isLost,
-      hasModel: hasValue(raw.has_3d) || Boolean(modelUrl),
+      hasModel,
+      has3D: hasModel,
       hasVideo: hasValue(raw.has_video) || Boolean(videoUrl),
       hasOurWork: hasValue(raw.our_work) || ourWorkTypes.length > 0 || documentationMeta !== null,
       isFeatured: raw.featured === true,
