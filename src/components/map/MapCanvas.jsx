@@ -4,6 +4,31 @@ import { getGovernorateKey } from '../../data/governorates';
 import '../../styles/map-explorer.css';
 import '../../styles/phase4.css';
 
+
+const canvasStyles = `
+.hb-mapx--interactive .hb-mapx__toolbar button { min-height: 2.75rem; min-width: 2.75rem; }
+.hb-mapx--interactive .hb-mapx__plot { min-height: clamp(16rem, 45vw, 28rem); }
+.hb-mapx--interactive .hb-mapx__dot,
+.hb-mapx--interactive .hb-mapx__dot[data-selected='true'] {
+  --point-color: var(--hb-ink);
+  width: 2.75rem; height: 2.75rem; margin: 0; border: 0; background: transparent;
+  transform: translate(-50%, -50%) scale(calc(1 / var(--z))); transform-origin: center;
+}
+.hb-mapx--interactive .hb-mapx__dot::before {
+  inset: auto; left: 50%; top: 50%; width: .8rem; height: .8rem;
+  background: var(--point-color); border: 1px solid var(--hb-paper-raised);
+  transform: translate(-50%, -50%) rotate(45deg); pointer-events: none;
+}
+.hb-mapx--interactive .hb-mapx__dot:hover,
+.hb-mapx--interactive .hb-mapx__dot:focus-visible { --point-color: var(--hb-terracotta-deep); z-index: 4; }
+.hb-mapx--interactive .hb-mapx__dot[data-selected='true'] { --point-color: var(--hb-terracotta); z-index: 5; }
+.hb-mapx--interactive .hb-mapx__dot[data-selected='true']::before { width: 1rem; height: 1rem; outline: 2px solid var(--hb-ink); outline-offset: 3px; }
+.hb-mapx--interactive button.hb-mapx__label { min-height: 2.75rem; border: 1px solid var(--hb-rule-strong); cursor: pointer; pointer-events: auto; white-space: normal; max-width: 12rem; line-height: 1.4; z-index: 2; transform: scale(calc(1 / var(--z))) translate(-50%, 1.75rem); }
+.hb-mapx--interactive button.hb-mapx__label[aria-pressed='true'] { background: var(--hb-ink); color: var(--hb-paper); }
+.hb-mapx--interactive button.hb-mapx__label:hover { border-color: var(--hb-terracotta-deep); }
+.hb-mapx--interactive .hb-mapx__zoom-status { font-variant-numeric: tabular-nums; font-size: .85rem; }
+`;
+
 const MIN_Z = 1;
 const MAX_Z = 12;
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
@@ -21,11 +46,11 @@ const HOME = { z: 1, x: 0, y: 0 };
 /**
  * Coordinate plot of card positions. Used whenever verified boundary geometry is unavailable.
  *  - drag to pan when zoomed, Ctrl/⌘ + scroll or the buttons to zoom, arrow keys + / - / 0 from the keyboard
- *  - dots are a pointer convenience; the list of cards beside the map is the accessible equivalent
+ *  - dots and governorate labels support pointer and keyboard selection; the result list is an alternative
  *  - the frame is fitted to ALL sites, so filtering never makes the map jump
  *  - `focusKey` (a governorate key) emphasises that governorate's dots
  */
-export default function MapCanvas({ allSites, visibleSites, selectedSite, focusKey = null, onSelect }) {
+export default function MapCanvas({ allSites, visibleSites, selectedSite, focusKey = null, onSelect, onSelectRegion, onPreviewRegion }) {
   const frame = useMemo(() => buildMapFrame(allSites, 0.1), [allSites]);
   const plotRef = useRef(null);
   const drag = useRef(null);
@@ -73,13 +98,13 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
   const size = () => plotRef.current.getBoundingClientRect();
 
   const onPointerDown = (event) => {
-    if (event.button !== 0) return;
+    if (event.button !== 0 || !event.isPrimary) return;
     drag.current = { x: event.clientX, y: event.clientY, vx: view.x, vy: view.y, id: event.pointerId };
     moved.current = false;
   };
   const onPointerMove = (event) => {
     const d = drag.current;
-    if (!d || view.z === 1) return;
+    if (!d || d.id !== event.pointerId || view.z === 1) return;
     const dx = event.clientX - d.x;
     const dy = event.clientY - d.y;
     if (!moved.current && Math.hypot(dx, dy) < 4) return;
@@ -90,12 +115,15 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
     const { width, height } = size();
     setView((v) => constrain(v.z, d.vx + dx / width, d.vy + dy / height));
   };
-  const endDrag = () => {
+  const endDrag = (event) => {
+    if (drag.current?.id !== event.pointerId) return;
     drag.current = null;
-    setTimeout(() => { moved.current = false; }, 0); // lets a click handler see "moved" first
+    if (plotRef.current.hasPointerCapture(event.pointerId)) plotRef.current.releasePointerCapture(event.pointerId);
+    // Keep the drag flag through the following click; the next pointer-down resets it.
   };
 
   const onKeyDown = (event) => {
+    if (event.target !== event.currentTarget) return;
     const { width, height } = size();
     const pan = (dx, dy) => setView((v) => constrain(v.z, v.x + dx / width, v.y + dy / height));
     switch (event.key) {
@@ -125,14 +153,16 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
   const labels = [...labelMap.values()].map((entry) => ({ ...entry, x: entry.x / entry.n, y: entry.y / entry.n }));
 
   return (
-    <div className="hb-mapx">
+    <div className="hb-mapx hb-mapx--interactive">
+      <style href="hb-map-canvas-interactions" precedence="components">{canvasStyles}</style>
       <div className="hb-mapx__toolbar">
         <div role="group" aria-label="Map zoom">
           <button type="button" onClick={() => zoomAt(1.4, 0.5, 0.5)} aria-label="Zoom in" disabled={view.z >= MAX_Z}>+</button>
           <button type="button" onClick={() => zoomAt(1 / 1.4, 0.5, 0.5)} aria-label="Zoom out" disabled={view.z <= MIN_Z}>−</button>
           <button type="button" onClick={() => setView(HOME)} disabled={view.z === 1}>Reset</button>
         </div>
-        <p className="hb-mapx__hint">Drag to pan when zoomed. Ctrl or ⌘ + scroll to zoom.</p>
+        <span className="hb-mapx__zoom-status" role="status" aria-label="Zoom level">{Math.round(view.z * 100)}%</span>
+        <p className="hb-mapx__hint">Tap a point to select a card. Use + / − to zoom, then drag to pan. Reset restores page scrolling on touch screens.</p>
       </div>
 
       <div
@@ -148,6 +178,7 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
         onPointerMove={onPointerMove}
         onPointerUp={endDrag}
         onPointerCancel={endDrag}
+        onLostPointerCapture={() => { drag.current = null; }}
         onKeyDown={onKeyDown}
       >
         <div className="hb-mapx__layer" style={{ transform: `translate(${view.x * 100}%, ${view.y * 100}%) scale(${view.z})`, '--z': view.z }}>
@@ -162,20 +193,29 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
             <span className="hb-mapx__tick hb-mapx__tick--lon" style={{ '--x': `${t.at}%` }} key={`tn${t.value}`} aria-hidden="true">{Math.abs(t.value)}°{t.value >= 0 ? 'E' : 'W'}</span>
           ))}
           {view.z <= 2.5 && labels.map((label) => (
-            <span className="hb-mapx__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.key} aria-hidden="true">{label.name}</span>
+            onSelectRegion ? (
+              <button type="button" className="hb-mapx__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.key}
+                aria-pressed={focusKey === label.key} aria-label={`${label.name}, ${label.n} matching ${label.n === 1 ? 'card' : 'cards'}`}
+                onClick={(event) => { if (event.detail === 0 || !moved.current) onSelectRegion(label.key); }}
+                onPointerEnter={(event) => { if (event.pointerType === 'mouse') onPreviewRegion?.(label.key); }}
+                onPointerLeave={() => onPreviewRegion?.(null)} onFocus={() => onPreviewRegion?.(label.key)} onBlur={() => onPreviewRegion?.(null)}>
+                {label.name} · {label.n}
+              </button>
+            ) : <span className="hb-mapx__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.key} aria-hidden="true">{label.name} · {label.n}</span>
           ))}
           {placed.map((site) => {
             const { x, y } = frame.project(site);
             return (
               <button
                 type="button"
-                tabIndex={-1}
-                aria-hidden="true"
+                aria-label={`${site.name}, ${site.governorate}`}
+                aria-pressed={selectedSite?.id === site.id}
+                title={`${site.name} · ${site.governorate}`}
                 className="hb-mapx__dot"
                 data-selected={selectedSite?.id === site.id}
                 data-in-focus={focusKey ? getGovernorateKey(site.governorate) === focusKey : undefined}
                 style={{ '--x': `${x}%`, '--y': `${y}%` }}
-                onClick={() => { if (!moved.current) onSelect(site); }}
+                onClick={(event) => { if (event.detail === 0 || !moved.current) onSelect(site); }}
                 key={site.id}
               />
             );
