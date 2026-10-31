@@ -2,10 +2,51 @@ import { getModelEmbed, getVideoEmbed } from '../../utils/media';
 import '../../styles/site-details.css';
 import '../../styles/phase4.css';
 
+// Scoped to this wrapper; map and card internals retain their own styles.
+const sectionLayoutStyles = `
+.hb-site__section--polished {
+  min-width: 0;
+  padding-block: clamp(1.75rem, 4vw, 3rem);
+  scroll-margin-top: calc(var(--hb-header-h, 4rem) + 1rem);
+}
+.hb-site__section--polished > .hb-site__h2 { margin-bottom: clamp(1rem, 2.5vw, 1.75rem); line-height: 1.2; text-wrap: balance; }
+.hb-site__section--polished > .hb-prose { width: 100%; }
+.hb-site__section--polished .hb-prose,
+.hb-site__section--polished .hb-sources,
+.hb-site__section--polished .hb-timeline { overflow-wrap: anywhere; }
+.hb-site__section--polished .hb-prose > * + * { margin-top: 1rem; }
+.hb-site__section--polished .hb-prose > .hb-site__h3 { margin-top: 1.75rem; }
+.hb-site__section--polished .hb-prose > .hb-site__h3 + p { margin-top: .5rem; }
+.hb-site__section--polished .hb-timeline__item > div { min-width: 0; }
+.hb-site__section--polished .hb-timeline__item:last-child { padding-bottom: 0; }
+.hb-site__section--polished .hb-facts__row { grid-template-columns: minmax(0, 9rem) minmax(0, 1fr); gap: .5rem 1.25rem; }
+.hb-site__section--polished .hb-facts__row > * { min-width: 0; }
+.hb-site__section--polished .hb-assets li { padding-block: 1rem; }
+.hb-site__section--polished .hb-assets__title { line-height: 1.35; }
+.hb-site__section--polished .hb-assets__meta { line-height: 1.6; }
+.hb-site__section--polished .hb-chips--row { flex-wrap: wrap; gap: .5rem; }
+.hb-site__section--polished .hb-chips--row > li { min-width: 0; max-width: 100%; }
+.hb-site__section--polished .hb-tag--static { white-space: normal; overflow-wrap: anywhere; }
+.hb-site__section--polished .hb-embed { width: 100%; min-width: 0; }
+.hb-site__section--polished .hb-sources li + li,
+.hb-site__section--polished .hb-credits li + li { margin-top: .5rem; }
+.hb-site__section--polished .hb-related { align-items: start; gap: clamp(1rem, 2vw, 1.75rem); }
+.hb-site__section--polished .hb-related > li { min-width: 0; }
+@media (max-width: 40rem) {
+  .hb-site__section--polished .hb-prose { font-size: 1rem; line-height: 1.7; }
+  .hb-site__section--polished .hb-facts__row { grid-template-columns: minmax(0, 1fr); gap: .25rem; padding-block: .875rem; }
+}
+@media (max-width: 24rem) {
+  .hb-site__section--polished .hb-related { grid-template-columns: minmax(0, 1fr); }
+}
+`;
+
+
 /** Wrapper used by every section. The id makes #hash links and the section list work. */
 export function SiteSection({ id, title, children }) {
   return (
-    <section id={id} className="hb-site__section" aria-labelledby={`${id}-title`}>
+    <section id={id} className="hb-site__section hb-site__section--polished" aria-labelledby={`${id}-title`}>
+      <style href="hb-site-section-layout-polish" precedence="components">{sectionLayoutStyles}</style>
       <h2 id={`${id}-title`} className="hb-site__h2">{title}</h2>
       {children}
     </section>
