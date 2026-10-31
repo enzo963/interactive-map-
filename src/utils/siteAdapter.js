@@ -198,9 +198,17 @@ export function normalizeSites(input) {
 
     const slug = raw.slug || slugify(raw.name) || String(index);
     const name = raw.name ?? 'Untitled record';
-    const canonicalImages = Array.isArray(raw.images);
-    const gallery = canonicalImages ? raw.images : Array.isArray(raw.gallery) ? raw.gallery : [];
-    const images = normalizeGallery(gallery, name);
+    // The new contract separates the cover from the gallery. Older imports
+    // retain their gallery contents and their established cover selection.
+    const separateImages = Object.hasOwn(raw, 'coverImage') || Object.hasOwn(raw, 'galleryImages');
+    const legacyImages = Array.isArray(raw.images);
+    const galleryInput = separateImages
+      ? (Array.isArray(raw.galleryImages) ? raw.galleryImages : [])
+      : legacyImages ? raw.images : (Array.isArray(raw.gallery) ? raw.gallery : []);
+    const gallery = normalizeGallery(galleryInput, name);
+    const coverInput = separateImages ? raw.coverImage : legacyImages ? raw.images[0] : raw.main_image || galleryInput[0];
+    const coverImage = normalizeGallery(coverInput ? [coverInput] : [], name)[0] ?? null;
+    const images = [coverImage, ...gallery].filter((image, i, all) => image && all.findIndex((other) => other?.src === image.src) === i);
     const deckIds = normalizeDeckIds(raw.decks ?? raw.deck_ids);
     const ageYears = getSiteAgeYears(raw);
 
@@ -247,8 +255,8 @@ export function normalizeSites(input) {
       ageYears,
       cardType: getCardType(ageYears),
       archiveNo,
-      image: resolveImage(canonicalImages ? images[0] : raw.main_image || gallery[0]),
-      imageAlt: raw.main_image_alt ?? images[0]?.alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
+      image: coverImage?.src ?? null,
+      imageAlt: raw.main_image_alt ?? coverImage?.alt ?? [raw.name, siteType, raw.governorate].filter(Boolean).join(' — '),
       deckIds,
 
       // Descriptions
@@ -262,11 +270,13 @@ export function normalizeSites(input) {
       preservationStatus: text(raw.preservation_status),
       verificationStatus: raw.verification_status ?? '',
       lastVerified: formatDate(raw.last_verified ?? raw.verified_on),
-      imageCredit: text(raw.image_credit ?? raw.main_image_credit),
-      mediaLicense: text(raw.media_license ?? raw.license ?? raw.licence),
+      imageCredit: text(raw.image_credit ?? raw.main_image_credit ?? coverImage?.credit),
+      mediaLicense: text(raw.media_license ?? raw.license ?? raw.licence ?? coverImage?.license),
 
       // Media and documentation
-      gallery: images,
+      gallery,
+      coverImage,
+      galleryImages: gallery,
       images,
       modelUrl,
       videoUrl,
@@ -282,10 +292,10 @@ export function normalizeSites(input) {
 
       // Flags (evidence-based)
       isUnesco,
-      unesco: isUnesco,
+      unesco: raw.unesco === null && !isUnesco ? null : isUnesco,
       isLost,
       hasModel,
-      has3D: hasModel,
+      has3D: raw.has3D === null && !hasModel ? null : hasModel,
       hasVideo: hasValue(raw.has_video) || Boolean(videoUrl),
       hasOurWork: hasValue(raw.our_work) || ourWorkTypes.length > 0 || documentationMeta !== null,
       isFeatured: raw.featured === true,

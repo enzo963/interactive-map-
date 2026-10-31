@@ -4,3 +4,5 @@ __pycache__/
 data/raw/
 data/drafts/
 data/logs/
+
+data/prepared/

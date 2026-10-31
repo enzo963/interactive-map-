@@ -113,3 +113,21 @@ tools/content-pipeline/
 
 The tests use mocked HTTP and temporary storage; running them does not contact sources
 or publish anything. No frontend connection is added.
+
+
+## P5-06 site record standardization
+
+After site-focused draft preparation, run:
+
+```powershell
+python standardize_records.py
+```
+
+This adds the required canonical site fields to `draft-*-p501` through `p505`
+review records and writes an unpublished `data/prepared/heritage-sites.json`
+catalog. Cover and gallery are separate, evidence and review status are preserved,
+and unknown UNESCO/3D flags stay null. Hatra reuses its existing site-001 ID.
+No reviewed draft is automatically published or copied into frontend data.
+Automatic page drafts and raw/extracted/evidence research artifacts are not site
+records and retain their original schemas. See `src/data/sites.schema.json` and
+`src/data/README.md` for the shared contract.

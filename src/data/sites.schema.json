@@ -11,9 +11,10 @@
       "category",
       "period",
       "description",
-      "images",
       "unesco",
       "has3D",
+      "coverImage",
+      "galleryImages",
       "sources"
     ],
     "properties": {
@@ -37,22 +38,41 @@
       "description": {
         "type": "string"
       },
-      "images": {
-        "type": "array",
-        "items": {
-          "$ref": "#/definitions/image"
-        }
-      },
       "unesco": {
-        "type": "boolean"
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "World Heritage inscription: true=inscribed, false=known not inscribed (including tentative), null=not established."
       },
       "has3D": {
-        "type": "boolean"
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "Recorded 3D availability; null means not established. Never infer false from missing evidence."
       },
       "sources": {
         "type": "array",
         "items": {
           "$ref": "#/definitions/source"
+        }
+      },
+      "coverImage": {
+        "description": "Cover image with attribution metadata, or null when no cover is assigned.",
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/definitions/image"
+          }
+        ]
+      },
+      "galleryImages": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/image"
         }
       }
     },
