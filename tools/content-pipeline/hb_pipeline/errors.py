@@ -15,7 +15,11 @@ class RobotsPolicyError(PipelineError):
 
 
 class FetchError(PipelineError):
-    """HTTP/network/content validation failed."""
+    """HTTP/network/content validation failed, with machine-readable context."""
+    def __init__(self, message, code="fetch-error", http_status=None, retryable=False, attempts=None):
+        super().__init__(message)
+        self.code, self.http_status, self.retryable = code, http_status, retryable
+        self.attempts = attempts or []
 
 
 class ValidationError(PipelineError):

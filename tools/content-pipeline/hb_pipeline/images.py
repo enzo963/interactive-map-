@@ -1,8 +1,10 @@
 """Conservative image identity and unpublished cover proposals; no media downloads."""
+import copy
 import re
 from urllib.parse import unquote, urljoin, urlparse
 
 from .errors import PipelineError
+from .image_licenses import license_state
 from .site_identity import GOVERNORATES, governorate_key, site_names, normalize_name
 from .utils import normalize_url, host_matches
 
@@ -56,26 +58,48 @@ def _srcset(value, page_url):
     return result
 
 
+class ImageIdentityIndex:
+    """Prepared catalog names for bulk image matching; same exact-name rules."""
+    def __init__(self, records):
+        self.by_first = {}
+        for record in records:
+            if not isinstance(record, dict):
+                continue
+            owner = record.get("id")
+            if not isinstance(owner, (str, int, float, bool, type(None))):
+                owner = None
+            for name in _names(record):
+                tokens = tuple(name.split())
+                self.by_first.setdefault(tokens[0], {}).setdefault(tokens, set()).add(owner)
+
+    def match(self, text):
+        tokens = normalize_name(text).split()
+        owners = set()
+        for start, token in enumerate(tokens):
+            for name, ids in self.by_first.get(token, {}).items():
+                if tuple(tokens[start:start + len(name)]) == name:
+                    owners.update(ids)
+        return owners
+
+
 def _association(contexts, site, known_sites):
     if site is None:
         return None, "unassigned", [], ["No target site was supplied; page location is not an identity match."]
     names = _names(site)
     direct, filename, matched_sites = [], [], set()
-    catalog = list(known_sites or []) + [site]
+    catalog = known_sites if isinstance(known_sites, ImageIdentityIndex) else ImageIdentityIndex(list(known_sites or []) + [site])
     for context in contexts:
         for key in ("alt", "caption", "title"):
             hits = _matches(context.get(key, ""), names)
             if hits:
                 direct.append({"kind": key, "matched_names": hits, "text": context[key]})
-            for other in catalog:
-                if isinstance(other, dict) and _matches(context.get(key, ""), _names(other)):
-                    matched_sites.add(other.get("id"))
+                matched_sites.add(site["id"])
+            matched_sites.update(catalog.match(context.get(key, "")))
         hits = _matches(context.get("filename", ""), names)
         if hits:
             filename.append({"kind": "filename", "matched_names": hits, "text": context["filename"]})
-        for other in catalog:
-            if isinstance(other, dict) and _matches(context.get("filename", ""), _names(other)):
-                matched_sites.add(other.get("id"))
+            matched_sites.add(site["id"])
+        matched_sites.update(catalog.match(context.get("filename", "")))
     others = matched_sites - {site["id"]}
     if others:
         return None, "ambiguous" if direct or filename else "unmatched", direct + filename, ["Image metadata identifies other catalog sites: " + ", ".join(sorted(str(value) for value in others))]
@@ -104,13 +128,14 @@ def discover_images(root, metadata, page_url, target_site=None, source=None, kno
         item = images.setdefault(absolute, {"url": absolute, "alt": alt.strip(), "caption": caption.strip(), "source": kind,
             "source_url": page_url, "source_id": source.id if source_trusted else None,
             "source_name": source.name if source_trusted else "", "trust_tier": source.trust_tier if source_trusted else None,
-            "license_status": "unverified", "license_hint": license_hint, "license_url": license_url,
+            "license_status": "unverified" if license_hint or license_url else "unknown", "license_hint": license_hint, "license_url": license_url,
             "credit": credit, "width": width, "height": height, "contexts": [], "variants": variants or []})
         if context not in item["contexts"]:
             item["contexts"].append(context)
         for key, value in (("alt", alt), ("caption", caption), ("license_hint", license_hint), ("license_url", license_url), ("credit", credit)):
             if value and not item[key]:
                 item[key] = value
+        item["license_status"] = "unverified" if item["license_hint"] or item["license_url"] else "unknown"
         if width:
             item["width"] = max(item["width"] or 0, width)
         if height:
@@ -160,12 +185,23 @@ def discover_images(root, metadata, page_url, target_site=None, source=None, kno
 def select_cover(candidates, site_id, registry):
     """Return a review-only cover proposal, never mutate a site's existing cover."""
     eligible, rejected = [], []
+    restricted_urls = set()
+    for candidate in candidates:
+        if license_state(candidate) == "restricted":
+            try:
+                restricted_urls.add(normalize_url(candidate.get("url")))
+            except (ValueError, TypeError):
+                pass
     for candidate in candidates:
         reasons = []
+        if license_state(candidate) == "restricted":
+            reasons.append("Image licensing is restricted.")
         if candidate.get("siteId") != site_id or candidate.get("association_status") != "matched-unverified":
             reasons.append("No explicit, unambiguous association with the requested siteId.")
         try:
             url = normalize_url(candidate.get("url"))
+            if url in restricted_urls and license_state(candidate) != "restricted":
+                reasons.append("Another observation restricts this same image URL.")
             source = registry.get(candidate.get("source_id"))
             if not host_matches(urlparse(normalize_url(candidate.get("source_url", ""))).hostname or "", source.domains):
                 reasons.append("Page URL is outside the registered source domains.")
@@ -194,7 +230,10 @@ def select_cover(candidates, site_id, registry):
                     "credit": item.get("credit", ""), "license": item.get("license_hint", ""),
                     "siteId": site_id, "sourceId": source.id, "sourceName": source.name,
                     "sourceUrl": item["source_url"], "evidenceId": item.get("evidenceId"),
-                    "license_status": "unverified", "verification_status": "unverified", "review_required": True}
+                    "license_status": license_state(item), "verification_status": "unverified", "review_required": True}
+        for key in ("license_url", "license_review", "license_tracking", "publication_approval"):
+            if key in item:
+                proposal[key] = copy.deepcopy(item[key])
     return {"siteId": site_id, "proposed_coverImage": proposal,
             "status": "tie-needs-review" if tied else "proposed-unverified" if chosen else "no-eligible-image",
             "ranked_candidates": [{"url": item[2], "trust_tier": item[3].trust_tier, "rank": list(item[0])} for item in eligible],

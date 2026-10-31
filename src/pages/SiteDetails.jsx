@@ -4,7 +4,7 @@ import SmartLink from '../components/common/SmartLink';
 import Gallery from '../components/site/Gallery';
 import SiteLocation from '../components/site/SiteLocation';
 import SectionNav from '../components/site/SectionNav';
-import { Credits, Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
+import { Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
 import NotFound from './NotFound';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
@@ -40,6 +40,12 @@ const siteDetailsStyles = `
 .hb-site--structured .hb-sectionnav a { min-height: 2.75rem; display: inline-flex; align-items: center; }
 .hb-site--structured .hb-site__section-intro { max-width: 64ch; margin-bottom: 1rem; line-height: 1.65; color: var(--hb-earth-text); }
 .hb-site--structured .hb-gallery { grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr)); gap: 1rem; }
+.hb-site--structured .hb-gallery li { display: flex; flex-direction: column; gap: .5rem; }
+.hb-site--structured .hb-gallery__item { height: auto; flex: 1; min-height: 9rem; }
+.hb-site--structured .hb-gallery__item:disabled { cursor: default; }
+.hb-site--structured .hb-gallery__unavailable { display: grid; place-items: center; min-height: 12rem; padding: 1rem; }
+.hb-site--structured .hb-gallery__attribution { font-size: .8125rem; line-height: 1.5; overflow-wrap: anywhere; }
+.hb-site--structured .hb-image-attribution p { margin-block: .25rem; }
 .hb-site--structured .hb-lightbox__figure figcaption { flex-wrap: wrap; overflow-wrap: anywhere; }
 .hb-site--structured .hb-lightbox__controls { flex-wrap: wrap; }
 .hb-site--structured .hb-lightbox__controls button { min-height: 2.75rem; }
@@ -61,6 +67,52 @@ const siteDetailsStyles = `
 }
 `;
 
+
+const safeImageLink = (value, local = false) => {
+  if (typeof value !== 'string' || !value || /[\s\\]/.test(value)) return '';
+  if (local && value.startsWith('/') && !value.startsWith('//')) return value;
+  try {
+    const url = new URL(value);
+    return ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password ? url.href : '';
+  } catch { return ''; }
+};
+const imageLicenseState = (image) => {
+  const states = [image.license_status, image.licenseStatus].filter(Boolean);
+  if (states.includes('restricted') || image.license_review?.permission === 'restricted'
+    || (Array.isArray(image.source_observations) && image.source_observations.some((item) => item
+      && (item.license_status === 'restricted' || item.licenseStatus === 'restricted' || item.license_review?.permission === 'restricted')))) return 'restricted';
+  if (states.length && states.every((state) => state === 'verified') && image.license_tracking?.evidence_valid === true
+    && Array.isArray(image.license_tracking.evidence_checks) && image.license_tracking.evidence_checks.length > 0
+    && image.license_tracking.evidence_checks.every((check) => check?.valid === true)
+    && image.license_review?.permission === 'publication-permitted'
+    && typeof image.license_review.reviewedBy === 'string' && image.license_review.reviewedBy.trim()
+    && Number.isFinite(Date.parse(image.license_review.reviewedAt))
+    && safeImageLink(image.license_review.image_url, true) === safeImageLink(image.src, true)
+    && Array.isArray(image.license_review.evidence) && image.license_review.evidence.length > 0) return 'verified';
+  return states.includes('unverified') || states.includes('verified') ? 'unverified' : 'unknown';
+};
+function ImageAttribution({ image }) {
+  const observations = [image, ...(Array.isArray(image.source_observations) ? image.source_observations : [])];
+  const clean = (value) => typeof value === 'string' ? value.trim() : '';
+  const sources = observations.filter((item) => item && typeof item === 'object').map((item) => {
+    const url = safeImageLink(item.sourceUrl || item.source_url);
+    const name = clean(item.sourceName) || clean(item.source_name) || (url ? new URL(url).hostname : '');
+    return { url, name, credit: clean(item.credit) };
+  }).filter((item, index, all) => (item.url || item.name || item.credit)
+    && all.findIndex((other) => other.url === item.url && other.name === item.name && other.credit === item.credit) === index);
+  const state = imageLicenseState(image);
+  return <div className="hb-image-attribution">
+    {sources.map((source, i) => <p key={i}>
+      {source.credit && <span>Credit: {source.credit}. </span>}
+      {(source.url || source.name) && <>Source: {source.url
+        ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.name || 'Image source'}<span className="sr-only"> (opens in a new tab)</span></a>
+        : source.name}</>}
+    </p>)}
+    <p>{state === 'verified' && image.license ? <>License: {safeImageLink(image.license_url)
+      ? <a href={safeImageLink(image.license_url)} target="_blank" rel="noopener noreferrer">{image.license}</a> : image.license}</>
+      : state === 'restricted' ? 'Image use is restricted.' : `License ${state === 'unverified' ? 'unverified' : 'unknown'}; reuse permission has not been confirmed.`}</p>
+  </div>;
+}
 
 /**
  * /sites/:slug — ONE template for every site.
@@ -86,7 +138,12 @@ export default function SiteDetails({ params }) {
   const hasLocation = Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
   const hasDocumentation =
     site.ourWorkTypes.length > 0 || site.ourWorkNote || site.documentationMeta || site.digitalAssets.length > 0;
-  const hasCredits = site.imageCredit || site.mediaLicense || site.gallery.some((image) => image.credit || image.license);
+  const authoredMedia = [site.coverImage, ...site.galleryImages];
+  const restrictedUrls = new Set(authoredMedia.filter((image) => image && imageLicenseState(image) === 'restricted').map((image) => image.src));
+  const media = authoredMedia.filter((image, index, all) => image
+    && safeImageLink(image.src, true) && !restrictedUrls.has(image.src)
+    && (!image.siteId || image.siteId === site.id) && all.findIndex((other) => other?.src === image.src) === index);
+  const hasCredits = media.length > 0 || site.imageCredit;
 
   const factGroups = [
     {
@@ -121,7 +178,7 @@ export default function SiteDetails({ params }) {
       id: 'overview', title: 'Historical overview', body: <Overview text={site.description} background={site.historicalBackground} />,
     },
     site.timeline.length > 0 && { id: 'timeline', title: 'Historical timeline', body: <Timeline items={site.timeline} /> },
-    site.gallery.length > 0 && { id: 'gallery', title: 'Gallery', body: <><p className="hb-site__section-intro">{site.gallery.length} {site.gallery.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={site.gallery} /></> },
+    { id: 'gallery', title: 'Gallery', body: media.length > 0 ? <><p className="hb-site__section-intro">{media.length} {media.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <p className="hb-site__section-intro">No images are available for this site yet.</p> },
     hasLocation && { id: 'location', title: 'Location', body: <SiteLocation site={site} neighbours={neighbours} /> },
     site.modelUrl && { id: 'model', title: '3D model', body: <ModelViewer url={site.modelUrl} name={site.name} /> },
     site.videoUrl && { id: 'video', title: 'Video', body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
@@ -133,8 +190,10 @@ export default function SiteDetails({ params }) {
     { id: 'sources', title: 'Sources and references', body: site.sources.length > 0 ? <Sources items={site.sources} /> : <p className="hb-site__section-intro">No source references have been added to this record yet.</p> },
     hasCredits && {
       id: 'credits',
-      title: 'Credits and licensing',
-      body: <Credits imageCredit={site.imageCredit} mediaLicense={site.mediaLicense} gallery={site.gallery} />,
+      title: 'Image sources and licensing',
+      body: <div className="hb-prose">{site.imageCredit && <p>Image credit: {site.imageCredit}</p>}
+        <ul className="hb-credits">{media.map((image) => <li key={image.src}><p>{image.alt}</p><ImageAttribution image={image} /></li>)}</ul>
+      </div>,
     },
     related.length > 0 && {
       id: 'related',

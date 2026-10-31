@@ -42,3 +42,12 @@ research-specific schemas. The prepared catalog is not imported by the frontend.
 Hatra reuses its existing site-001 identity in that catalog; no duplicate is added.
 Earlier download ZIPs are point-in-time snapshots. The new standardized export
 contains the current record shapes across all five collected governorates.
+
+Card cover publication (P5-17/P5-18): image objects may also contain siteId,
+license_status (verified/unverified/restricted/unknown), license_url, license_review,
+license_tracking and publication_approval. The adapter preserves these fields.
+HeritageCard requires verified image-bound licensing evidence and a separate
+explicit image/site publication approval; a bare license label, legacy image
+alias or gallery entry does not authorize a card cover. See
+../../tools/content-pipeline/README.md for the review/approval metadata contract.
+The frontend dataset is not populated automatically from pipeline review files.

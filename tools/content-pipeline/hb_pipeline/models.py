@@ -25,6 +25,7 @@ class RobotsDecision:
     user_agent: str
     http_status: int | None = None
     reason: str = ""
+    attempts: list[dict[str, Any]] = field(default_factory=list)
 
     @property
     def may_fetch(self) -> bool:
@@ -65,6 +66,9 @@ class EvidenceRecord:
     extraction_path: str
     robots: dict[str, Any]
     notes: list[str] = field(default_factory=list)
+    change_type: str = "new"
+    previous_evidence_id: str | None = None
+    previous_sha256: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

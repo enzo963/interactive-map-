@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import process from 'node:process';
 import { after, afterEach, beforeEach, test } from 'node:test';
 import { JSDOM } from 'jsdom';
 import { createServer } from 'vite';
@@ -23,8 +25,18 @@ const { matchRoute } = await server.ssrLoadModule('/src/router/matchRoute.js');
 const { routes } = await server.ssrLoadModule('/src/routes.jsx');
 const sites = getAllSites();
 const realSites = structuredClone(sites);
+const HeritageCard = (await server.ssrLoadModule('/src/components/cards/HeritageCard.jsx')).default;
+function approvedImage(src, siteId) {
+  return { src, alt: 'Approved fixture cover', caption: '', credit: 'Fixture author', license: 'Fixture permission',
+    siteId, license_status: 'verified',
+    license_review: { permission: 'publication-permitted', reviewedBy: 'Test reviewer', reviewedAt: '2026-11-01',
+      license: 'Fixture permission', image_url: src, evidence: [{ evidenceId: 'fixture-license-evidence' }] },
+    license_tracking: { evidence_valid: true, evidence_checks: [{ valid: true }], automatically_approved: false },
+    publication_approval: { status: 'approved', siteId, site_verified: true, image_url: src,
+      reviewedBy: 'Test editor', reviewedAt: '2026-11-01' } };
+}
 const fixtureSites = normalizeSites([
-  { id: 'fixture-erbil', slug: 'fixture-erbil', name: 'Erbil Fixture', governorate: 'Erbil', category: 'Citadel', period: 'Modern', description: 'Fixture description for integration tests.', images: [{ src: '/fixture.jpg', alt: 'Fixture image' }], unesco: false, has3D: false, sources: [], estimated_year: 1900, latitude: 36.19, longitude: 44.01 },
+  { id: 'fixture-erbil', slug: 'fixture-erbil', name: 'Erbil Fixture', governorate: 'Erbil', category: 'Citadel', period: 'Modern', description: 'Fixture description for integration tests.', coverImage: approvedImage('/fixture.jpg', 'fixture-erbil'), galleryImages: [], unesco: false, has3D: false, sources: [], estimated_year: 1900, latitude: 36.19, longitude: 44.01 },
   { id: 'fixture-nineveh', slug: 'fixture-nineveh', name: 'Nineveh Fixture', governorate: 'Nineveh', category: 'Temple', period: 'Parthian', description: 'Fixture description for integration tests.', images: [{ src: '/fixture-one.jpg', alt: 'First fixture' }, { src: '/fixture-two.jpg', alt: 'Second fixture' }], unesco: true, has3D: true, model_3d_url: '/fixture.glb', sources: [{ sourceName: 'Fixture reference', url: 'https://example.org/reference', evidenceId: 'fixture-evidence', accessedAt: '2026-10-20' }], estimated_year: 1900, latitude: 35.8, longitude: 43.1 },
 ]);
 let root;
@@ -266,4 +278,141 @@ test('Back/forward location changes restore Map selection and Explore search', a
   await navigate('/explore?q=Hatra');
   assert.equal($('.hb-search__input').value, 'Hatra');
   assert.equal($('.hb-grid .hb-card__title').textContent, 'Hatra');
+});
+
+
+test('Card displays the approved canonical cover and retains loading and alt behavior', async () => {
+  const record = normalizeSites([{ id: 'card-test', name: 'Card test', governorate: 'Erbil',
+    coverImage: approvedImage('/approved.jpg', 'card-test'), galleryImages: [] }])[0];
+  record.image = '/stale-legacy.jpg';
+  await act(async () => root.render(React.createElement(HeritageCard, { site: record, priority: true, interactive: false })));
+  assert.equal($('.hb-card__image').getAttribute('src'), '/approved.jpg');
+  assert.equal($('.hb-card__image').getAttribute('alt'), 'Approved fixture cover');
+  assert.equal($('.hb-card__image').getAttribute('loading'), 'eager');
+});
+
+test('Card uses a fallback for missing, unreviewed, restricted or stale approvals', async () => {
+  const mutations = [null, { ...approvedImage('/image.jpg', 'card-test'), license_status: 'unknown' },
+    { ...approvedImage('/image.jpg', 'card-test'), license_status: 'unverified' },
+    { ...approvedImage('/image.jpg', 'card-test'), license_status: 'restricted' },
+    { ...approvedImage('/image.jpg', 'card-test'), publication_approval: undefined },
+    { ...approvedImage('/image.jpg', 'card-test'), src: '/changed.jpg' },
+    { ...approvedImage('/image.jpg', 'card-test'), license_tracking: { evidence_valid: false } }];
+  for (const coverImage of mutations) {
+    const site = normalizeSites([{ id: 'card-test', name: 'Card test', governorate: 'Erbil', coverImage,
+      galleryImages: [{ src: '/gallery-only.jpg' }] }])[0];
+    site.image = '/legacy.jpg';
+    await act(async () => root.render(React.createElement(HeritageCard, { site, interactive: false })));
+    assert.equal($('.hb-card__image'), null);
+    assert.match($('.hb-card__placeholder').getAttribute('aria-label'), /Card test/);
+  }
+});
+
+test('Card image failure resets for a replacement cover and a different site', async () => {
+  async function render(id, src) {
+    const site = normalizeSites([{ id, name: id, governorate: 'Erbil', coverImage: approvedImage(src, id), galleryImages: [] }])[0];
+    await act(async () => root.render(React.createElement(HeritageCard, { site, interactive: false })));
+  }
+  await render('first', '/one.jpg');
+  await act(async () => $('.hb-card__image').dispatchEvent(new window.Event('error')));
+  assert.match($('.hb-card__placeholder').textContent, /unavailable/);
+  await render('first', '/two.jpg');
+  assert.equal($('.hb-card__image').getAttribute('src'), '/two.jpg');
+  await act(async () => $('.hb-card__image').dispatchEvent(new window.Event('error')));
+  await render('second', '/two.jpg');
+  assert.equal($('.hb-card__image').getAttribute('src'), '/two.jpg');
+});
+
+
+async function mountMediaSite({ coverImage = null, galleryImages = [] } = {}) {
+  const record = normalizeSites([{ id: 'media-site', name: 'Media test', slug: 'media-test', governorate: 'Erbil',
+    description: 'A heritage record with authored media for integration testing.', coverImage, galleryImages, sources: [] }])[0];
+  sites.push(record);
+  await mount('/sites/media-test');
+}
+
+test('Site Details combines canonical cover/gallery once, with proper alt and source attribution', async () => {
+  const cover = { src: '/cover-test.jpg', alt: 'Historic stone gateway', sourceName: 'Example heritage authority',
+    sourceUrl: 'https://example.org/image-page', credit: 'Example photographer', license: 'UNCONFIRMED LICENSE LABEL', license_status: 'unverified' };
+  await mountMediaSite({ coverImage: cover, galleryImages: [cover, { src: '/detail-test.jpg', alt: 'Stone detail', licenseStatus: 'unknown' }] });
+  assert.equal(all('.hb-gallery > li').length, 2);
+  assert.equal($('.hb-gallery img').getAttribute('alt'), 'Historic stone gateway');
+  assert.equal($('.hb-gallery a').getAttribute('href'), 'https://example.org/image-page');
+  assert.match($('#credits').textContent, /Example photographer/);
+  assert.match($('#credits').textContent, /License unverified/);
+  assert.match($('#credits').textContent, /License unknown/);
+  assert.doesNotMatch($('main').textContent, /UNCONFIRMED LICENSE LABEL/);
+  await click($('.hb-gallery button'));
+  assert.match($('.hb-lightbox').textContent, /Example heritage authority/);
+  assert.doesNotMatch($('.hb-lightbox').textContent, /UNCONFIRMED LICENSE LABEL/);
+});
+
+test('Site Details shows verified license only with matching audited review; camel-case unknown cannot override it', async () => {
+  const verified = { ...approvedImage('/verified-detail.jpg', 'media-site'), license: 'Verified fixture terms',
+    license_url: 'https://example.org/terms', sourceName: 'Fixture source', sourceUrl: 'https://example.org/photo' };
+  await mountMediaSite({ galleryImages: [verified, { ...verified, src: '/unverified-detail.jpg', licenseStatus: 'unknown' }] });
+  const entries = all('.hb-gallery__attribution');
+  assert.match(entries[0].textContent, /License: Verified fixture terms/);
+  assert.equal(entries[0].querySelector('a[href="https://example.org/terms"]').textContent, 'Verified fixture terms');
+  assert.doesNotMatch(entries[1].textContent, /License: Verified fixture terms/);
+});
+
+test('Gallery handles thumbnail and viewer failures and continues to available images', async () => {
+  await mountMediaSite({ galleryImages: ['one','two','three'].map((name) => ({ src: `/${name}.jpg`, alt: `${name} view` })) });
+  await act(async () => $('.hb-gallery img').dispatchEvent(new window.Event('error')));
+  assert.equal($('.hb-gallery button').disabled, true);
+  assert.match($('.hb-gallery').textContent, /Image unavailable/);
+  await click(all('.hb-gallery button')[1]);
+  await act(async () => $('.hb-lightbox__figure img').dispatchEvent(new window.Event('error')));
+  assert.match($('.hb-lightbox').textContent, /Image unavailable/);
+  await click(button('Next'));
+  assert.equal($('.hb-lightbox__figure img').getAttribute('src'), '/three.jpg');
+  await click(button('Close'));
+  assert.equal($('.hb-lightbox').open, false);
+});
+
+test('Site Details shows cover-only and empty galleries, excluding restricted and wrong-site images', async () => {
+  await mountMediaSite({ coverImage: { src: '/only-cover.jpg', alt: 'Only cover' }, galleryImages: [
+    { src: '/restricted.jpg', alt: 'Restricted view', licenseStatus: 'restricted' },
+    { src: '/wrong-site.jpg', alt: 'Another site', siteId: 'different-site' },
+    { src: 'javascript:alert(1)', alt: 'Invalid image' }] });
+  assert.equal(all('.hb-gallery img').length, 1);
+  assert.equal($('.hb-gallery img').getAttribute('src'), '/only-cover.jpg');
+  await navigate('/sites/hatra');
+  assert.match($('#gallery').textContent, /No images are available/);
+});
+
+
+test('isolated real-source Python export flows through Heritage Card and Site Details', { skip: !process.env.HB_PIPELINE_E2E_EXPORT }, async () => {
+  const raw = JSON.parse(readFileSync(process.env.HB_PIPELINE_E2E_EXPORT, 'utf8'));
+  const normalized = normalizeSites(raw);
+  sites.splice(0, sites.length, ...normalized);
+  await mount('/explore');
+  for (const id of ['site-erbil-erbil-citadel', 'site-001']) {
+    const record = normalized.find((site) => site.id === id);
+    assert.ok(record, `Missing selected real record: ${id}`);
+    assert.equal(record.coverImage, null, 'Unverified real-image rights must not cross the export gate');
+    const card = all('.hb-card').find((element) => element.querySelector('.hb-card__title')?.textContent === record.name);
+    assert.ok(card.querySelector('.hb-card__placeholder'));
+    await click(card.querySelector('.hb-card__link'));
+    assert.equal($('h1').textContent, record.name);
+    assert.ok($('#overview').textContent.includes(record.description.slice(0, 50)));
+    assert.ok($('#sources a[href^="https://whc.unesco.org/"]'));
+    assert.match($('#gallery').textContent, /No images are available/);
+    await navigate('/explore');
+  }
+  const fixture = normalized.find((site) => site.name === 'Synthetic image approval fixture');
+  assert.ok(fixture?.coverImage, 'Positive media path must use a separately licensed synthetic fixture');
+  const card = all('.hb-card').find((element) => element.querySelector('.hb-card__title')?.textContent === fixture.name);
+  assert.equal(card.querySelector('img').getAttribute('src'), fixture.coverImage.src);
+  await click(card.querySelector('.hb-card__link'));
+  assert.equal($('h1').textContent, fixture.name);
+  assert.equal(all('.hb-gallery > li').length, 1);
+  assert.match($('#credits').textContent, /License: Fixture permission/);
+  assert.doesNotMatch($('main').textContent, /data[\\/]raw|record_snapshot/);
+  await click($('.hb-gallery button'));
+  assert.equal($('.hb-lightbox__figure img').getAttribute('src'), fixture.coverImage.src);
+  await act(async () => $('.hb-gallery img').dispatchEvent(new window.Event('error')));
+  assert.match($('.hb-lightbox').textContent, /Image unavailable/);
+  await click(button('Close'));
 });

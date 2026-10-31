@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 from .config import SourceRegistry
 from .site_validation import valid_access_date
-from .utils import ensure_http_url, host_matches, sha256_bytes
+from .utils import ensure_http_url, host_matches, sha256_bytes, normalize_url
 
 
 def _object(pairs):
@@ -52,6 +52,7 @@ class EvidenceRepository:
         self.registry = registry or SourceRegistry()
         self.index = {}
         self.issues = []
+        self._url_index = None
         for path in sorted(self.raw_dir.rglob("*.evidence.json")):
             try:
                 record = read_json(path)
@@ -62,6 +63,27 @@ class EvidenceRepository:
             except (OSError, ValueError, RecursionError) as exc:
                 self.issues.append({"path": str(path), "message": str(exc)})
 
+    def related(self, source_id, urls):
+        """Index captured URL aliases once; snapshot bytes are still rechecked."""
+        if self._url_index is None:
+            index = {}
+            for ref, matches in self.index.items():
+                for path, record in matches:
+                    source = record.get("source_id")
+                    if not isinstance(source, str):
+                        continue
+                    for key in ("requested_url", "final_url"):
+                        try:
+                            url = normalize_url(record.get(key))
+                        except (TypeError, ValueError):
+                            continue
+                        index.setdefault((source, url), {})[(ref, str(path))] = record
+            self._url_index = index
+        found = {}
+        for url in urls:
+            found.update(self._url_index.get((source_id, normalize_url(url)), {}))
+        return [(ref, record) for (ref, _), record in found.items()]
+
     def _path(self, value):
         if not isinstance(value, str) or not value:
             raise ValueError("Artifact path must be a non-empty string.")
@@ -70,7 +92,7 @@ class EvidenceRepository:
             raise ValueError("Evidence artifacts must remain inside data/raw.")
         return path
 
-    def resolve(self, evidence_id, locator):
+    def snapshot(self, evidence_id):
         matches = self.index.get(evidence_id, [])
         if len(matches) != 1:
             raise ValueError("Evidence ID is missing or ambiguous; a unique saved manifest is required.")
@@ -89,6 +111,13 @@ class EvidenceRepository:
         raw = html_path.read_bytes()
         if sha256_bytes(raw) != evidence.get("sha256"):
             raise ValueError("Raw snapshot hash does not match the evidence manifest.")
+        citation = {"sourceId": source.id, "sourceName": source.name, "url": url,
+                    "evidenceId": evidence_id, "accessedAt": evidence["retrieved_at"],
+                    "trust_tier": source.trust_tier, "recorded_trust_tier": evidence.get("trust_tier")}
+        return evidence, source, raw, html_path, citation
+
+    def resolve(self, evidence_id, locator):
+        evidence, source, raw, html_path, citation = self.snapshot(evidence_id)
         if not isinstance(locator, dict) or not isinstance(locator.get("text_match"), str) or not locator["text_match"].strip():
             raise ValueError("A locator with non-empty text_match is required for every assertion.")
         path = self._path(locator.get("artifact"))
@@ -129,7 +158,4 @@ class EvidenceRepository:
                 raise ValueError("Locator text is missing from the selected extraction value.")
         else:
             raise ValueError("Locator must reference raw HTML or an extracted JSON artifact.")
-        citation = {"sourceId": source.id, "sourceName": source.name, "url": url,
-                    "evidenceId": evidence_id, "accessedAt": evidence["retrieved_at"],
-                    "trust_tier": source.trust_tier, "recorded_trust_tier": evidence.get("trust_tier")}
         return citation, source

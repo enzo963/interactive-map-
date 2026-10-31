@@ -103,3 +103,11 @@ test('Hatra UI data survives migration unchanged', () => {
     assert.deepEqual(current[key], before[key], key);
   }
 });
+
+
+test('image license states accept the four documented values and reject other claims', () => {
+  for (const license_status of ['verified', 'unverified', 'restricted', 'unknown']) {
+    assert.ok(validate([{ ...frontend[0], coverImage: { ...cover, license_status } }]));
+  }
+  assert.equal(validate([{ ...frontend[0], coverImage: { ...cover, license_status: 'safe' } }]), false);
+});

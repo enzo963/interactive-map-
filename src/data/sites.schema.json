@@ -149,6 +149,16 @@
         },
         "license": {
           "type": "string"
+        },
+        "license_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "unverified",
+            "restricted",
+            "unknown"
+          ],
+          "description": "Image-specific licensing state. Verified licensing alone is not publication approval."
         }
       },
       "additionalProperties": true

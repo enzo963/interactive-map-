@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 
 from .errors import ValidationError
+from .image_licenses import LICENSE_STATES, license_state
 from .models import DraftRecord, PageExtraction
 from .utils import ensure_http_url, normalize_url
 
@@ -14,8 +15,10 @@ def validate_image_association(image, evidence_ids=None):
         return
     if image.get("association_status") not in {"unassigned", "matched-unverified", "uncertain", "ambiguous", "unmatched"}:
         raise ValidationError("Image association status is invalid.")
-    if image.get("review_required") is not True or image.get("verification_status") != "unverified" or image.get("license_status") != "unverified":
+    if image.get("review_required") is not True or image.get("verification_status") != "unverified":
         raise ValidationError("New image associations and licenses must remain unverified for manual review.")
+    if image.get("license_status") not in LICENSE_STATES or (image.get("license_status") == "verified" and license_state(image) != "verified"):
+        raise ValidationError("Image license state is invalid or verified evidence is incomplete.")
     ensure_http_url(image.get("source_url"))
     for key in ("alt", "source", "source_url"):
         if not isinstance(image.get(key), str):
@@ -84,5 +87,5 @@ def validate_draft(draft: DraftRecord, evidence_ids: set[str]) -> None:
             raise ValidationError(f"Draft image_candidates[{index}] duplicates an earlier image URL.")
         seen.add(url)
         validate_image_association(image, evidence_ids)
-        if image.get("license_status") != "unverified":
-            raise ValidationError(f"Draft image_candidates[{index}] license must remain unverified.")
+        if image.get("license_status") not in LICENSE_STATES or (image.get("license_status") == "verified" and license_state(image) != "verified"):
+            raise ValidationError(f"Draft image_candidates[{index}] license state or evidence is invalid.")

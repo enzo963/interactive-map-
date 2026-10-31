@@ -123,7 +123,7 @@ class HeritageImageTests(unittest.TestCase):
         self.assertEqual(item['siteId'], SITE['id'])
         self.assertEqual(item['source_url'], 'https://gov.krd/history')
         self.assertEqual(item['source_id'], 'krg')
-        self.assertEqual(item['license_status'], 'unverified')
+        self.assertEqual(item['license_status'], 'unknown')
         self.assertEqual(item['verification_status'], 'unverified')
         self.assertTrue(item['review_required'])
 

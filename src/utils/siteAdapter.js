@@ -89,6 +89,11 @@ function normalizeGallery(gallery, name) {
         alt: (isObject && text(item.alt)) || caption || `${name} — image ${i + 1}`,
         credit: isObject ? text(item.credit) : '',
         license: isObject ? text(item.license ?? item.licence) : '',
+        // Preserve explicit image review metadata for publication-aware consumers.
+        ...(isObject ? Object.fromEntries(
+          ['siteId', 'license_status', 'licenseStatus', 'license_url', 'license_review', 'license_tracking', 'publication_approval', 'sourceName', 'sourceUrl', 'source_name', 'source_url', 'source_observations']
+            .filter((key) => Object.hasOwn(item, key)).map((key) => [key, item[key]]),
+        ) : {}),
       };
     })
     .filter(Boolean);

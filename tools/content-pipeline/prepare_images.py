@@ -9,8 +9,9 @@ from bs4 import BeautifulSoup
 from hb_pipeline.evidence_repository import EvidenceRepository, read_json
 from hb_pipeline.errors import PipelineError
 from hb_pipeline.extractor import extract_page
-from hb_pipeline.images import select_cover
+from hb_pipeline.images import select_cover, ImageIdentityIndex
 from hb_pipeline.storage import Storage
+from hb_pipeline.logging import PipelineLogger, error_details
 from hb_pipeline.utils import slugify
 
 BASE = Path(__file__).resolve().parent
@@ -100,6 +101,7 @@ def main(argv=None):
     parser.add_argument("--evidence", action="append", help="Saved evidence ID; repeat for multiple sources. Defaults to the site's source_evidence.")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args(argv)
+    logger = PipelineLogger(Storage(BASE / "data"))
     try:
         records = read_json(args.site)
         if isinstance(records, dict) and isinstance(records.get("sites"), list):
@@ -113,13 +115,16 @@ def main(argv=None):
         if target == args.site.resolve() or target.is_relative_to((BASE / "data/raw").resolve()) or target.is_relative_to((BASE.parents[1] / "src").resolve()):
             raise ValueError("Output must preserve input records, raw artifacts and frontend files.")
         repository = EvidenceRepository(BASE / "data")
-        result = prepare(selected[0], args.evidence or selected[0].get("source_evidence"), repository, records)
+        result = prepare(selected[0], args.evidence or selected[0].get("source_evidence"), repository, ImageIdentityIndex(records))
         Storage(BASE / "data").save_json(output, result)
+        logger.log("images.prepare", "completed", governorate=selected[0].get("governorate"), record_id=args.site_id,
+            evidence_ids=result.get("source_evidence", []), image_count=len(result['image_candidates']), errors=result['image_review']['errors'])
         print(f"Saved {len(result['image_candidates'])} image observations: {output.resolve()}")
         print(f"Cover: {result['cover_selection']['status']}. All associations, licenses and cover proposals require manual review.")
         uncertain = any(image["siteId"] is None for image in result["image_candidates"])
         return 2 if result["image_review"]["errors"] or repository.issues or uncertain or result["cover_selection"]["status"] != "proposed-unverified" else 0
     except (ValueError, TypeError, OSError, PipelineError, RecursionError) as exc:
+        logger.log("images.prepare", "failed", errors=[error_details(exc)])
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1
 
