@@ -16,3 +16,11 @@ class RobotsPolicyError(PipelineError):
 
 class FetchError(PipelineError):
     """HTTP/network/content validation failed."""
+
+
+class ValidationError(PipelineError):
+    """An extraction or draft does not contain usable, reviewable evidence."""
+
+
+class StorageError(PipelineError):
+    """Existing pipeline records cannot be safely read or saved."""

@@ -85,3 +85,31 @@ tools/content-pipeline/
 ├── requirements.txt
 └── README.md
 ```
+
+
+## P4-07 validation
+
+- URLs must be absolute HTTP(S) public addresses without credentials, control characters,
+  malformed escapes, or backslashes. The configured source allowlist is still required.
+- Every page redirect is validated against the source allowlist and checked against
+  robots policy **before** its destination is requested. Redirect loops and more than
+  five redirects stop with an error. Redirected robots files, HTML responses, and
+  files without a User-agent directive do not establish permission and are blocked.
+- Extraction requires a title/heading of at least three characters and a description
+  or paragraph of at least 40 characters. Error/challenge pages are rejected. Repeated
+  paragraphs and image URLs are removed; invalid canonical/image URLs are discarded.
+- A draft must have a safe ID, a name, a usable summary, known evidence references,
+  and provenance for populated fields. Status stays `needs-review`, verification stays
+  `unverified`, and image licenses stay `unverified`. Validation finishes before any
+  evidence or draft file is saved. JSON records are replaced atomically.
+- Within one source/governorate, identical HTML hashes reuse existing evidence instead
+  of creating another draft, including when the URL differs. URL identities ignore
+  fragments, hostname case, and default ports; query strings remain significant.
+  Changed content at an existing URL is saved as a new revision with a reference to
+  previous evidence. Corrupt evidence manifests stop ingestion with a repair path.
+- The evidence manifest is written last as the completion marker. This is a local,
+  single-process pipeline; concurrent ingestion and multi-file transactions are not
+  supported. A failed write may leave intermediate files, but no completed manifest.
+
+The tests use mocked HTTP and temporary storage; running them does not contact sources
+or publish anything. No frontend connection is added.

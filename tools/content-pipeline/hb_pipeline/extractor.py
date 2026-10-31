@@ -4,7 +4,10 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from .errors import ValidationError
 from .models import PageExtraction
+from .utils import ensure_http_url, normalize_url
+from .validation import validate_extraction
 
 
 def _meta_content(soup: BeautifulSoup, *queries: tuple[str, str]) -> str:
@@ -16,9 +19,12 @@ def _meta_content(soup: BeautifulSoup, *queries: tuple[str, str]) -> str:
 
 
 def extract_page(html: bytes, base_url: str) -> PageExtraction:
+    if not html or not html.strip():
+        raise ValidationError("Extraction received empty HTML; no draft was saved.")
+    base_url = ensure_http_url(base_url)
     soup = BeautifulSoup(html, "html.parser")
 
-    for tag in soup(["script", "style", "noscript", "template"]):
+    for tag in soup(["script", "style", "noscript", "template", "nav", "footer", "aside", "form"]):
         tag.decompose()
 
     title = ""
@@ -31,7 +37,10 @@ def extract_page(html: bytes, base_url: str) -> PageExtraction:
         rel=lambda value: value and "canonical" in value,
     )
     if canonical_tag and canonical_tag.get("href"):
-        canonical = urljoin(base_url, canonical_tag["href"])
+        try:
+            canonical = ensure_http_url(urljoin(base_url, canonical_tag["href"]))
+        except ValueError:
+            canonical = ""
 
     description = _meta_content(
         soup,
@@ -53,14 +62,17 @@ def extract_page(html: bytes, base_url: str) -> PageExtraction:
     paragraphs: list[str] = []
     for paragraph in soup.find_all("p"):
         text = " ".join(paragraph.get_text(" ", strip=True).split())
-        if len(text) >= 40:
+        if len(text) >= 40 and text not in paragraphs:
             paragraphs.append(text)
 
     image_candidates: list[dict[str, str]] = []
 
     def add_image(url: str, source: str, alt: str = "") -> None:
-        absolute = urljoin(base_url, url.strip())
-        if not absolute.startswith(("http://", "https://")):
+        if not url.strip():
+            return
+        try:
+            absolute = normalize_url(urljoin(base_url, url.strip()))
+        except ValueError:
             return
         if any(item["url"] == absolute for item in image_candidates):
             return
@@ -86,7 +98,7 @@ def extract_page(html: bytes, base_url: str) -> PageExtraction:
         if src:
             add_image(src, "img", image.get("alt", ""))
 
-    return PageExtraction(
+    extraction = PageExtraction(
         title=title,
         canonical_url=canonical,
         meta_description=description,
@@ -95,3 +107,6 @@ def extract_page(html: bytes, base_url: str) -> PageExtraction:
         paragraphs=paragraphs[:500],
         image_candidates=image_candidates[:100],
     )
+
+    validate_extraction(extraction)
+    return extraction

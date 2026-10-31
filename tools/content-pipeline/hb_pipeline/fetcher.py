@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import time
 from dataclasses import dataclass
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 
@@ -55,6 +55,7 @@ class TrustedFetcher:
         )
 
     def assert_allowed_domain(self, url: str, source: SourceSpec) -> None:
+        url = ensure_http_url(url)
         host = urlparse(url).hostname or ""
         if not host_matches(host, source.domains):
             raise DomainNotAllowedError(
@@ -79,40 +80,45 @@ class TrustedFetcher:
         url = ensure_http_url(url)
         self.assert_allowed_domain(url, source)
 
-        robots = self.robots_checker.check(url)
-        if not robots.may_fetch:
-            raise RobotsPolicyError(
-                f"robots status={robots.status}. {robots.reason} "
-                f"Checked: {robots.robots_url}"
-            )
-
-        host = urlparse(url).hostname or ""
-        self._throttle(host)
-
-        try:
-            response = self.session.get(
-                url,
-                timeout=self.timeout_seconds,
-                allow_redirects=True,
-            )
-        except requests.Timeout as exc:
-            raise FetchError(
-                f"Timed out while fetching {url}"
-            ) from exc
-        except requests.RequestException as exc:
-            raise FetchError(
-                f"Network error while fetching {url}: {exc}"
-            ) from exc
-        finally:
-            self._last_request_by_host[host] = time.monotonic()
-
-        # A trusted page may redirect. The final destination must still be trusted.
-        self.assert_allowed_domain(response.url, source)
-
-        if response.status_code >= 400:
-            raise FetchError(
-                f"Target page returned HTTP {response.status_code}: {response.url}"
-            )
+        requested_url = url
+        visited = set()
+        for hop in range(6):
+            url = ensure_http_url(url)
+            self.assert_allowed_domain(url, source)
+            if url in visited:
+                raise FetchError(f"Redirect loop detected at {url}")
+            visited.add(url)
+            robots = self.robots_checker.check(url)
+            if not robots.may_fetch:
+                raise RobotsPolicyError(
+                    f"Cannot fetch {url}: robots status={robots.status}. {robots.reason} Checked: {robots.robots_url}"
+                )
+            host = urlparse(url).hostname or ""
+            self._throttle(host)
+            try:
+                response = self.session.get(url, timeout=self.timeout_seconds, allow_redirects=False)
+            except requests.Timeout as exc:
+                raise FetchError(f"Timed out after {self.timeout_seconds:g}s while fetching {url}; retry later.") from exc
+            except requests.RequestException as exc:
+                raise FetchError(f"Network error while fetching {url}: {exc}") from exc
+            finally:
+                self._last_request_by_host[host] = time.monotonic()
+            if response.status_code in {301, 302, 303, 307, 308}:
+                location = response.headers.get("Location", "").strip()
+                response.close()
+                if not location:
+                    raise FetchError(f"HTTP redirect at {url} has no Location header.")
+                if hop == 5:
+                    raise FetchError("Too many redirects (maximum 5); inspect the source URL manually.")
+                next_url = ensure_http_url(urljoin(url, location))
+                self.assert_allowed_domain(next_url, source)
+                url = next_url
+                continue
+            if not 200 <= response.status_code < 300:
+                status = response.status_code
+                response.close()
+                raise FetchError(f"Target page returned HTTP {status}: {url}")
+            break
 
         content_type = (
             response.headers.get("Content-Type", "")
@@ -130,11 +136,13 @@ class TrustedFetcher:
         if not response.content:
             raise FetchError("Target page returned an empty response body.")
 
+        body = response.content
+        response.close()
         return FetchResult(
-            requested_url=url,
+            requested_url=requested_url,
             final_url=response.url,
             status_code=response.status_code,
             content_type=content_type,
-            body=response.content,
+            body=body,
             robots=robots,
         )

@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 
 from .fetcher import TrustedFetcher
 from .models import SourceSpec
-from .utils import host_matches
+from .utils import ensure_http_url, host_matches
 
 
 def diagnose_url(
@@ -12,6 +12,7 @@ def diagnose_url(
     url: str,
     fetcher: TrustedFetcher | None = None,
 ) -> dict:
+    url = ensure_http_url(url)
     fetcher = fetcher or TrustedFetcher()
     host = urlparse(url).hostname or ""
     domain_allowed = host_matches(host, source.domains)

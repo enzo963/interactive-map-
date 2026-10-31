@@ -11,6 +11,7 @@ from hb_pipeline.extractor import extract_page
 from hb_pipeline.fetcher import TrustedFetcher
 from hb_pipeline.models import DraftRecord, EvidenceRecord
 from hb_pipeline.storage import Storage
+from hb_pipeline.validation import validate_draft
 from hb_pipeline.utils import (
     sha256_bytes,
     slugify,
@@ -99,115 +100,68 @@ def fetch_page(
     governorate: str,
     url: str,
 ) -> int:
+    if not governorate.strip():
+        raise ValueError("Governorate must not be blank.")
     source = registry.get(source_id)
-    fetcher = TrustedFetcher()
-    result = fetcher.fetch(url, source)
-
+    result = TrustedFetcher().fetch(url, source)
     digest = sha256_bytes(result.body)
-    evidence_id = (
-        f"{slugify(source.id)}-"
-        f"{timestamp_slug()}-"
-        f"{digest[:10]}"
-    )
-
-    html_path = storage.save_html(
-        governorate=governorate,
-        source_id=source.id,
-        evidence_id=evidence_id,
-        html=result.body,
-    )
-
+    # Validate before saving any artifact. Rejected pages cannot become drafts.
     extraction = extract_page(result.body, result.final_url)
-    extraction_path = storage.extraction_json_path(
-        governorate,
-        source.id,
-        evidence_id,
+    existing = storage.find_evidence(governorate, source.id, [result.requested_url, result.final_url], digest)
+    if existing and existing[1]["sha256"] == digest:
+        print(f"Duplicate content: existing evidence {existing[1]['evidence_id']} at {existing[0]}")
+        print("No additional evidence or draft was saved.")
+        return 0
+    evidence_id = f"{slugify(source.id)}-{timestamp_slug()}-{digest[:10]}"
+    candidate_name = extraction.headings[0] if extraction.headings else extraction.title
+    candidate_summary = extraction.meta_description if len(extraction.meta_description.strip()) >= 40 else extraction.paragraphs[0]
+    draft = DraftRecord(
+        draft_id=f"draft-{evidence_id}", governorate=governorate, status="needs-review",
+        candidate_name=candidate_name, candidate_summary=candidate_summary,
+        source_evidence=[evidence_id], image_candidates=extraction.image_candidates,
+        verification={"status": "unverified", "review_required": True, "notes": [
+            "Extracted fields require human verification.", "Image licenses have not been checked.",
+        ]},
+        provenance={
+            "candidate_name": [evidence_id], "candidate_summary": [evidence_id],
+            "image_candidates": [evidence_id] if extraction.image_candidates else [],
+        },
     )
-    storage.save_json(extraction_path, extraction.to_dict())
-
+    validate_draft(draft, {evidence_id})
+    extraction_path = storage.extraction_json_path(governorate, source.id, evidence_id)
+    evidence_path = storage.evidence_json_path(governorate, source.id, evidence_id)
+    draft_path = storage.draft_json_path(governorate, draft.draft_id)
+    html_path = storage.raw_dir / slugify(governorate) / slugify(source.id) / f"{evidence_id}.html"
+    notes = ["Evidence snapshot only.", "Extracted text and images require verification before publication."]
+    if existing:
+        notes.append(f"Updated content for an existing URL; previous evidence: {existing[1]['evidence_id']}")
     evidence = EvidenceRecord(
-        evidence_id=evidence_id,
-        source_id=source.id,
-        source_name=source.name,
-        trust_tier=source.trust_tier,
-        requested_url=result.requested_url,
-        final_url=result.final_url,
-        governorate=governorate,
-        retrieved_at=utc_now_iso(),
-        http_status=result.status_code,
-        content_type=result.content_type,
-        sha256=digest,
+        evidence_id=evidence_id, source_id=source.id, source_name=source.name,
+        trust_tier=source.trust_tier, requested_url=result.requested_url, final_url=result.final_url,
+        governorate=governorate, retrieved_at=utc_now_iso(), http_status=result.status_code,
+        content_type=result.content_type, sha256=digest,
         html_path=str(html_path.relative_to(storage.base_dir.parent)),
         extraction_path=str(extraction_path.relative_to(storage.base_dir.parent)),
-        robots=result.robots.to_dict(),
-        notes=[
-            "Evidence snapshot only.",
-            "Extracted text and images require verification before publication.",
-        ],
+        robots=result.robots.to_dict(), notes=notes,
     )
-
-    evidence_path = storage.evidence_json_path(
-        governorate,
-        source.id,
-        evidence_id,
-    )
-    storage.save_json(evidence_path, evidence.to_dict())
-
-    candidate_name = (
-        extraction.headings[0]
-        if extraction.headings
-        else extraction.title
-    )
-    candidate_summary = extraction.meta_description
-
-    draft = DraftRecord(
-        draft_id=f"draft-{evidence_id}",
-        governorate=governorate,
-        status="needs-review",
-        candidate_name=candidate_name,
-        candidate_summary=candidate_summary,
-        source_evidence=[evidence_id],
-        image_candidates=extraction.image_candidates,
-        verification={
-            "status": "unverified",
-            "review_required": True,
-            "notes": [
-                "No extracted field is considered verified in Phase 1.1.",
-                "Image licenses have not been checked.",
-            ],
-        },
-        provenance={
-            "candidate_name": [evidence_id] if candidate_name else [],
-            "candidate_summary": [evidence_id] if candidate_summary else [],
-            "image_candidates": [evidence_id]
-            if extraction.image_candidates
-            else [],
-        },
-    )
-
-    draft_path = storage.draft_json_path(
-        governorate,
-        draft.draft_id,
-    )
+    storage.save_html(governorate, source.id, evidence_id, result.body)
+    storage.save_json(extraction_path, extraction.to_dict())
     storage.save_json(draft_path, draft.to_dict())
-
+    # The evidence manifest is the completion marker used by duplicate detection.
+    storage.save_json(evidence_path, evidence.to_dict())
     print("Saved evidence:")
     print(f"  HTML:       {html_path}")
     print(f"  Extraction: {extraction_path}")
     print(f"  Evidence:   {evidence_path}")
     print(f"  Draft:      {draft_path}")
-    print()
-    print("Status: needs-review")
-    print("Nothing was published to the website.")
+    print("Status: needs-review. Nothing was published to the website.")
     return 0
 
 
 def main() -> int:
     args = build_parser().parse_args()
-    registry = SourceRegistry()
-    storage = Storage()
-
     try:
+        registry = SourceRegistry()
         if args.command == "sources":
             return list_sources(registry)
 
@@ -221,7 +175,7 @@ def main() -> int:
         if args.command == "fetch":
             return fetch_page(
                 registry=registry,
-                storage=storage,
+                storage=Storage(),
                 source_id=args.source,
                 governorate=args.governorate,
                 url=args.url,
@@ -232,7 +186,7 @@ def main() -> int:
     except PipelineError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
-    except (ValueError, KeyError) as exc:
+    except (ValueError, KeyError, OSError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 2
 

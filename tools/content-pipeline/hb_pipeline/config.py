@@ -25,6 +25,8 @@ class SourceRegistry:
                 f"Source registry is invalid JSON: {exc}"
             ) from exc
 
+        if not isinstance(payload, dict):
+            raise SourceConfigurationError("Source registry root must be a JSON object.")
         raw_sources = payload.get("sources")
         if not isinstance(raw_sources, list):
             raise SourceConfigurationError("'sources' must be a list.")
@@ -32,6 +34,8 @@ class SourceRegistry:
         result: dict[str, SourceSpec] = {}
 
         for raw in raw_sources:
+            if not isinstance(raw, dict) or not isinstance(raw.get("domains"), list) or any(not isinstance(domain, str) for domain in raw["domains"]):
+                raise SourceConfigurationError("Each source must be an object with a list of domain strings.")
             try:
                 source = SourceSpec(
                     id=str(raw["id"]).strip(),
