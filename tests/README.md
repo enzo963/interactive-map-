@@ -32,7 +32,6 @@ Result for the merged Phase 4 work: 16 tests passed; full lint and the productio
 build passed. No application integration bug was reproduced, so no application
 logic or UI was changed for P5-00.
 
-
 P5-06 adds nine schema/adapter tests to npm test: 25 JavaScript tests passed with
 the local prepared catalog. The optional catalog check is skipped on fresh
 checkouts without ignored collection data. The Python suite now has 30 passing

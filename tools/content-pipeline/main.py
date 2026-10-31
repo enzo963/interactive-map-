@@ -22,7 +22,7 @@ from hb_pipeline.utils import (
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Heritage Bridge trusted-content pipeline — Phase 1.1"
+        description="Heritage Bridge trusted-content pipeline - Phase 1.1"
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -42,6 +42,10 @@ def build_parser() -> argparse.ArgumentParser:
     fetch.add_argument("--source", required=True, help="Trusted source id.")
     fetch.add_argument("--governorate", required=True, help="Governorate key/name.")
     fetch.add_argument("--url", required=True, help="Absolute trusted page URL.")
+
+    fetch.add_argument("--site-id", help="Stable target site ID; requires --site-name.")
+    fetch.add_argument("--site-name", help="Exact site name for image-specific matching.")
+    fetch.add_argument("--site-alias", action="append", default=[], help="Explicit alternative site name; repeatable.")
 
     return parser
 
@@ -99,6 +103,7 @@ def fetch_page(
     source_id: str,
     governorate: str,
     url: str,
+    target_site: dict | None = None,
 ) -> int:
     if not governorate.strip():
         raise ValueError("Governorate must not be blank.")
@@ -106,14 +111,16 @@ def fetch_page(
     result = TrustedFetcher().fetch(url, source)
     digest = sha256_bytes(result.body)
     # Validate before saving any artifact. Rejected pages cannot become drafts.
-    extraction = extract_page(result.body, result.final_url)
+    extraction = extract_page(result.body, result.final_url, target_site=target_site, source=source)
     existing = storage.find_evidence(governorate, source.id, [result.requested_url, result.final_url], digest)
     if existing and existing[1]["sha256"] == digest:
         print(f"Duplicate content: existing evidence {existing[1]['evidence_id']} at {existing[0]}")
         print("No additional evidence or draft was saved.")
         return 0
     evidence_id = f"{slugify(source.id)}-{timestamp_slug()}-{digest[:10]}"
-    candidate_name = extraction.headings[0] if extraction.headings else extraction.title
+    for image in extraction.image_candidates:
+        image["evidenceId"] = evidence_id
+    candidate_name = extraction.title
     candidate_summary = extraction.meta_description if len(extraction.meta_description.strip()) >= 40 else extraction.paragraphs[0]
     draft = DraftRecord(
         draft_id=f"draft-{evidence_id}", governorate=governorate, status="needs-review",
@@ -173,12 +180,16 @@ def main() -> int:
             )
 
         if args.command == "fetch":
+            if bool(args.site_id) != bool(args.site_name) or (args.site_alias and not args.site_id):
+                raise ValueError("Provide --site-id and --site-name together; aliases require a target site.")
+            target_site = {"id": args.site_id, "name": args.site_name, "alternativeNames": args.site_alias} if args.site_id else None
             return fetch_page(
                 registry=registry,
                 storage=Storage(),
                 source_id=args.source,
                 governorate=args.governorate,
                 url=args.url,
+                target_site=target_site,
             )
 
         return 1

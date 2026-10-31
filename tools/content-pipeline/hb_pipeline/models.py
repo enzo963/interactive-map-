@@ -42,7 +42,7 @@ class PageExtraction:
     language: str = ""
     headings: list[str] = field(default_factory=list)
     paragraphs: list[str] = field(default_factory=list)
-    image_candidates: list[dict[str, str]] = field(default_factory=list)
+    image_candidates: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -78,7 +78,7 @@ class DraftRecord:
     candidate_name: str
     candidate_summary: str
     source_evidence: list[str]
-    image_candidates: list[dict[str, str]]
+    image_candidates: list[dict[str, Any]]
     verification: dict[str, Any]
     provenance: dict[str, list[str]]
 

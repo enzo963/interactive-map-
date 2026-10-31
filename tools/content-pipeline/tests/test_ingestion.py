@@ -28,6 +28,19 @@ class IngestionTests(unittest.TestCase):
             fetcher.return_value.fetch.return_value = self.result
             return fetch_page(self.registry, self.storage, "unesco", "erbil", self.result.requested_url)
 
+    def test_targeted_fetch_records_image_identity_and_real_evidence_reference(self):
+        self.result.body = self.result.body.replace(b'Heritage site', b'Erbil Citadel').replace(b'</body>', b'<img src="/citadel.jpg" alt="Erbil Citadel"></body>')
+        with patch("main.TrustedFetcher") as fetcher, contextlib.redirect_stdout(io.StringIO()):
+            fetcher.return_value.fetch.return_value = self.result
+            fetch_page(self.registry, self.storage, "unesco", "erbil", self.result.requested_url,
+                       target_site={"id": "site-erbil", "name": "Erbil Citadel"})
+        draft = json.loads(next(self.storage.drafts_dir.rglob("*.json")).read_text(encoding="utf-8"))
+        image = draft["image_candidates"][0]
+        self.assertEqual(image["siteId"], "site-erbil")
+        self.assertIn(image["evidenceId"], draft["source_evidence"])
+        self.assertEqual(image["source_id"], "unesco")
+        self.assertEqual(image["verification_status"], "unverified")
+
     def test_repeat_is_idempotent(self):
         self.ingest()
         self.ingest()
