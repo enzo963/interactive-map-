@@ -1,0 +1,1507 @@
+{
+  "task": "P6-02 to P6-05",
+  "files": [
+    {
+      "path": "data\\collections\\P6-02-05-REVIEW.md",
+      "bytes": 9477,
+      "sha256": "6888e92f453f073186ab3f8abdc6523b66de983ee081a44e2edf5c52da53cd8d"
+    },
+    {
+      "path": "data\\collections\\p6-02-05-sources.json",
+      "bytes": 442,
+      "sha256": "2d9ed9df2abd1a842cfb290a8b8d51fa1e6f7434a521632680f932f74e22b00f"
+    },
+    {
+      "path": "data\\collections\\p6-02-05-supplemental-sources.json",
+      "bytes": 579,
+      "sha256": "030911bd38e8209f241ca9b237164b8dbd20e6352a44df0d42b5ed5a6c1073a4"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-abbasid-palace-p601-20261101.json",
+      "bytes": 48437,
+      "sha256": "3b6453a83e4c8261e89b03bec636212cfcbc027416dc5b65177369169fdfe7b3"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-al-asifiyah-mosque-p601-20261101.json",
+      "bytes": 17137,
+      "sha256": "d8c8236ecfe6bafb4926f162899db769de5c968a23a41d9456ce8636600ee3e0"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-al-qishla-p601-20261101.json",
+      "bytes": 23332,
+      "sha256": "b653e0ef765e3540e9e97d4cc4b07dd39c701c534fc45f5a6b0dddfdb56db410"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-al-wazir-mosque-p601-20261101.json",
+      "bytes": 68510,
+      "sha256": "4aa9664fdc5d268d7fc4fb236401108f82c3e32a3a06eb7ed4043ff7ce5cefb1"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-house-of-wisdom-building-p601-20261101.json",
+      "bytes": 8098,
+      "sha256": "72ead7cf8cb86fcb8b475563de06ed3b2a70e9b357e51cd49ce007366fcfb413"
+    },
+    {
+      "path": "data\\drafts\\baghdad\\draft-mustansiriya-madrasa-p601-20261101.json",
+      "bytes": 49996,
+      "sha256": "0cbf358325df537898aa26bc41a6e11729927424dc62cf0e87e4469e13eb2585"
+    },
+    {
+      "path": "data\\drafts\\duhok\\draft-amedy-city-p502-20261031.json",
+      "bytes": 2401,
+      "sha256": "a480fa86950273e70d1c0c0d32efb4ddca726a439a4cd2432cedd12662fbb970"
+    },
+    {
+      "path": "data\\drafts\\duhok\\draft-delal-bridge-p502-20261031.json",
+      "bytes": 3185,
+      "sha256": "4ac5d3443fd57c59402a54f03ecaee1b53c6c929d6ec70a09df7d88836b700dc"
+    },
+    {
+      "path": "data\\drafts\\duhok\\draft-faida-canal-reliefs-p502-20261031.json",
+      "bytes": 2816,
+      "sha256": "3a2fc358d621d39a546a0ae02aded1469a3f9b9f3f6aac21b9b6188ca972cc3c"
+    },
+    {
+      "path": "data\\drafts\\erbil\\draft-choli-minaret-p501-20261031.json",
+      "bytes": 2288,
+      "sha256": "06faaa8424ac7f177bdccf04302dcb06851532d72d39982bf4ed8eaab9c787cb"
+    },
+    {
+      "path": "data\\drafts\\erbil\\draft-erbil-citadel-p501-20261031.json",
+      "bytes": 2463,
+      "sha256": "f507cbd8f406523544eb31a920e2bf993ec50034af36ec6a29e95e5f6fca343c"
+    },
+    {
+      "path": "data\\drafts\\erbil\\draft-erbil-qaysari-bazaar-p602-05-20261101.json",
+      "bytes": 6401,
+      "sha256": "3b1b8cc3eadb04de25d42f078c9aa28a40cd594a3c93a03e88e809c7f7218ce4"
+    },
+    {
+      "path": "data\\drafts\\erbil\\draft-shanidar-cave-p501-20261031.json",
+      "bytes": 2133,
+      "sha256": "f604571f22d839ceda3b1f5c76b26a0695566572937332a917c1a07d8b84b908"
+    },
+    {
+      "path": "data\\drafts\\kirkuk\\draft-green-dome-p505-20261031.json",
+      "bytes": 2413,
+      "sha256": "da79f3e52fec260517f12d492323bb09ba7dd0d56576e11d276c842d38463bf0"
+    },
+    {
+      "path": "data\\drafts\\kirkuk\\draft-kirkuk-citadel-p505-20261031.json",
+      "bytes": 2365,
+      "sha256": "014844c44c1029876dfa0c9344eeb1d02f015569e216fe172e2ca72ea050c25e"
+    },
+    {
+      "path": "data\\drafts\\kirkuk\\draft-kirkuk-qaysariyah-market-p602-05-20261101.json",
+      "bytes": 4889,
+      "sha256": "cb7832943b2f2e83d125332155c1b6846f745fab1682dc0aae2567f8126a1af3"
+    },
+    {
+      "path": "data\\drafts\\kirkuk\\draft-mother-of-sorrows-church-p505-20261031.json",
+      "bytes": 2483,
+      "sha256": "4b512b7d116ee5d0d6ce4f0c078ca75ee8542b92cb367aea8769473f82149f4d"
+    },
+    {
+      "path": "data\\drafts\\kirkuk\\draft-prophet-daniel-mosque-p505-20261031.json",
+      "bytes": 2402,
+      "sha256": "e012620088c86b94e5608579ab587c98b7f423a4b89a710b22492f4274b8ff21"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-al-nouri-p504-20261031.json",
+      "bytes": 2474,
+      "sha256": "4860fc3aa5a0fc9a6d998333b2e2f4fae29743c48aa92ee534efca166cd6cd72"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-ancient-nineveh-p504-20261031.json",
+      "bytes": 2604,
+      "sha256": "69412135eaf514fbbe0eb05441acc31bb9158af527b6f7b6f942dd5bac218beb"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-dominican-church-p504-20261031.json",
+      "bytes": 2475,
+      "sha256": "22c6db587d2407dbbf6b9ac2edca7ff6bdbb48f1259dcb00d430d084b2dfcf51"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-hatra-p504-20261031.json",
+      "bytes": 2507,
+      "sha256": "8323cef73a987a2ade1cd337144df19ffab56d1160155330842e2373f6dc96b4"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-lalish-p504-20261031.json",
+      "bytes": 2645,
+      "sha256": "4549c433445477c2e445e6c79137cb206484f50c955818ed2a17f7a568559af8"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-nimrud-p504-20261031.json",
+      "bytes": 2508,
+      "sha256": "bcd404620e7c64321f5e5d85e80d388addd1277376e1dc93a74d3742bd344fb4"
+    },
+    {
+      "path": "data\\drafts\\nineveh\\draft-old-mosul-p504-20261031.json",
+      "bytes": 2495,
+      "sha256": "f2d065e193e2d9dc0a12cdd52a7307ec6faaba3133139edb27b7d00a42389c4e"
+    },
+    {
+      "path": "data\\drafts\\salah-al-din\\draft-salah-al-din-abu-dulaf-p602-05-20261101.json",
+      "bytes": 30276,
+      "sha256": "b40e27ab84fba50224cd2b99ef3e40e53f74480a96d4b4514aff339bd289dd59"
+    },
+    {
+      "path": "data\\drafts\\salah-al-din\\draft-salah-al-din-ashur-p602-05-20261101.json",
+      "bytes": 5530,
+      "sha256": "a8f636a6c9f342bc82f8082c8d17c808295df6c95224ab51e39aa93492a456df"
+    },
+    {
+      "path": "data\\drafts\\salah-al-din\\draft-salah-al-din-caliphal-palace-p602-05-20261101.json",
+      "bytes": 6250,
+      "sha256": "8305bfa62cf640be640f25cba9b156cbbc95f0ef1661aaf0ffb065d4269516fd"
+    },
+    {
+      "path": "data\\drafts\\salah-al-din\\draft-salah-al-din-great-mosque-p602-05-20261101.json",
+      "bytes": 28128,
+      "sha256": "a9143dfd9afd9759c0aca5aa15d10211248d6c1e6909a6e872674b8e1d1f92ca"
+    },
+    {
+      "path": "data\\drafts\\salah-al-din\\draft-salah-al-din-samarra-p602-05-20261101.json",
+      "bytes": 6046,
+      "sha256": "ff50a226dc6eaee9fa596d17f08a4493e390167c9b20bf7d8cf66761032e188f"
+    },
+    {
+      "path": "data\\drafts\\sulaymaniyah\\draft-bestansur-p503-20261031.json",
+      "bytes": 2918,
+      "sha256": "344691211055a896e18a47425368d5085e6f07f53f56056cfbe00cfa3e1aba09"
+    },
+    {
+      "path": "data\\drafts\\sulaymaniyah\\draft-qalatga-darband-p503-20261031.json",
+      "bytes": 2628,
+      "sha256": "893cf1d79fa9fa2fd9c15b115c549d0783e32451164128b6897ee23b2513b5a2"
+    },
+    {
+      "path": "data\\drafts\\sulaymaniyah\\draft-sulaymaniyah-red-terror-museum-p602-05-20261101.json",
+      "bytes": 6635,
+      "sha256": "854cd12e3f4147833bfc9c2f7c94d7f099b2fc28e3a95672894833e520ce51ed"
+    },
+    {
+      "path": "data\\drafts\\sulaymaniyah\\draft-tell-shemshara-p503-20261031.json",
+      "bytes": 2773,
+      "sha256": "885862de98c32efd8a1b78508e85605b239430c847636c548318e4b7efa22fe1"
+    },
+    {
+      "path": "data\\exports\\northern-central-heritage-sites.approved.json",
+      "bytes": 50435,
+      "sha256": "06b55539d1c2ef850d56c7317824e8af90bc5c267c598b3b0bf067fb425d0ab0"
+    },
+    {
+      "path": "data\\exports\\northern-central-heritage-sites.approved.report.json",
+      "bytes": 7983,
+      "sha256": "25ad077f97aa73ac6a5b25af388c876d7b0961952f3c9b5e0679fa4afe756af7"
+    },
+    {
+      "path": "data\\exports\\salah-al-din-heritage-sites.approved.json",
+      "bytes": 11329,
+      "sha256": "8dffef282bd1a1a81fd6b7aebab8dc140b031c1b3ea5b6d2451b6a30c0fda5c6"
+    },
+    {
+      "path": "data\\exports\\salah-al-din-heritage-sites.approved.report.json",
+      "bytes": 1326,
+      "sha256": "2602cfafb913ff205e2b41682cc6ba28b7b9506e5b303124dde92bfef95a6542"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\attribution.json",
+      "bytes": 2824,
+      "sha256": "b9bcc985b2de218d28bb374d81127e9f56185e00a77f076eddea5cbe3b1711f0"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\site-baghdad-abbasid-palace.jpg",
+      "bytes": 269804,
+      "sha256": "03615856b831f724c51575b77e525876eeb314d616b5f7ad3f6c54c7f3d4340e"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\site-baghdad-al-wazir-mosque.jpg",
+      "bytes": 1405860,
+      "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\site-baghdad-mustansiriya-madrasa.jpg",
+      "bytes": 1774360,
+      "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\site-salah-al-din-abu-dulaf.jpg",
+      "bytes": 681911,
+      "sha256": "c705405e25592bb2338100b2d742d8b5a790267bd6fde06c0f266d0cf6a89a01"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\originals\\site-salah-al-din-great-mosque.jpg",
+      "bytes": 4587432,
+      "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\site-baghdad-abbasid-palace.json",
+      "bytes": 47941,
+      "sha256": "8c3822e7c03c0eb7c281226860ddba1e640005785337ddd1973934705ecea8cf"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\site-baghdad-al-wazir-mosque.json",
+      "bytes": 68076,
+      "sha256": "430e04513ed26328046d046d20b504733b8d20c529f39fa577a8415cb76f0c27"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\site-baghdad-mustansiriya-madrasa.json",
+      "bytes": 47128,
+      "sha256": "37ab59647db3edad2690c28fed26c82303963f48d756d39309305ee3f7139476"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\site-salah-al-din-abu-dulaf.json",
+      "bytes": 17271,
+      "sha256": "c56bbbff7137cd77ae009a7806348b3426b7e90b3ab2b79ecaa9293e7f4611f4"
+    },
+    {
+      "path": "data\\image_reviews\\p6-05\\site-salah-al-din-great-mosque.json",
+      "bytes": 15637,
+      "sha256": "7ae29d5fdbd0a443de3ab56e9ed14ae7cf8011ec5328fdff817004df8ad041f1"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120908287887-cf7975f4a1934bd097be87895d7d363f.json",
+      "bytes": 493,
+      "sha256": "e22d1809f403e8297e69e98bbca57f4432ccf17a9546febef6091e44534a9562"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120908302321-68369183a23a4b938082cd939f21a9a9.json",
+      "bytes": 369,
+      "sha256": "e0a7899df669cc765d964d26541a852541a85cf606e33a3018da07b0bb54f6d9"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120909241986-c875b58bc17b4d85b3217c6a3b3ea13b.json",
+      "bytes": 586,
+      "sha256": "4f284ea4c53d742e28ba1c39b0ac57213b28d46fadf035c2f7abb7efe2829124"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120909431459-d311b433405d4b9a8b2a53675dce2111.json",
+      "bytes": 795,
+      "sha256": "d846ecdead4033d9421ed4267d8bdb233c96f67df854ad76bef9baf7e7546cbf"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120909434295-692b541b21c6452f8d3448fdd6fc91ec.json",
+      "bytes": 434,
+      "sha256": "91765cf2a2712f1bb6e25b411f5f77220645e0d629334193d85879bb10ece2af"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120909437454-d0ea5c452b0b42febe300dc6b9b832db.json",
+      "bytes": 370,
+      "sha256": "5b480d10b06113478753cfd6bb0c5538e65bd7e247809fcabfd30249ad25738f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120910939826-fedc3bce39b744e896e5b937e07ff08a.json",
+      "bytes": 588,
+      "sha256": "be4563a4d58124ac7a8efd482040b77c455815b8422d8fb95ab2bb457e00076b"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911009082-1505df4aeea246bba0a709c03ce39354.json",
+      "bytes": 797,
+      "sha256": "69ac04dd80423d6937b7c59111727ed8c8dea47c6ceb94215bf1296f41eda326"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911011762-8aca75ad20fd4c428df694bc90c12222.json",
+      "bytes": 435,
+      "sha256": "04a42dfaa9c19a3cd187f9bc4ea6515e79ef57fee0858f8dfc8dc79355c3145a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911015977-e26e5b7efd2240d69015613ebe950680.json",
+      "bytes": 364,
+      "sha256": "dde39dcbca34e83b985f59d6017652171b00570f02e98f4b503f8e5a1002683d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911722748-0e9b88d888814779b1dae8ce8e020336.json",
+      "bytes": 922,
+      "sha256": "b54ada0238d79f606e5eee98ae8cab251b79d07ebf245567d47ed48a4be4636b"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911736038-d89cdad835274ffd83e85674635f5737.json",
+      "bytes": 946,
+      "sha256": "503be26a2d85aa36981a40375ed02cdb6c29305254ba17fc032b97167113869d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\120911769284-e05bbb43ff324471b9402e5a7dd735f7.json",
+      "bytes": 563,
+      "sha256": "6336a10394d1316d892ebbc162624e1c78b5a665afdf75a91fd7f8d66a9aec29"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121029525102-0fd0cdb5c2a443dd9e262fdf672eaec7.json",
+      "bytes": 506,
+      "sha256": "5505faeb3fce1235a173518db70930a768c4b7128801bb916d106973a8f2b5a5"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121029532648-7fd3b5d8c60549e6a04d3da5d726b821.json",
+      "bytes": 444,
+      "sha256": "a1daeb8167a3a4a21073d6bf8d212b8d17020e7e66cb3216eb45edab1afdf75c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121030804171-76c947fffa5c496d865b7b4550a38da1.json",
+      "bytes": 746,
+      "sha256": "7245f88a1a0fe8b1c62a357de3161f5893f8a71a49081248671c68db5761f1a1"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121030974212-915962f0396845edaac46eecc0bad3bc.json",
+      "bytes": 949,
+      "sha256": "7d587afdd8e0932e8c32a45df3f0183c2073b6180a81d5861d07be0928c750d4"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121030977486-3b6c22c297bb47e49758df14b42fb44a.json",
+      "bytes": 506,
+      "sha256": "8f8eb72113efed5a51b5329a75e5f54c8ae5583b5b8c70f092831ea3542f0384"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121030981196-b8b567abddd0421c9d5a7307a875cc4a.json",
+      "bytes": 399,
+      "sha256": "f45d5219d00aeea7f5ec8c667c4408441981cf43e6f7c8a684434a1ef89704c0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121033501344-5e9b22adbf854465a5f7eb1743fa5284.json",
+      "bytes": 635,
+      "sha256": "59376ad752edb25006e07c647b858e6464eece9c2327f2f53694b4f5314aa4a6"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121033585248-24e1c2a4a10a4ce880461872072f7134.json",
+      "bytes": 866,
+      "sha256": "dc341c136a0b67be5de8a2594da308891725fa005d678a391d8730961842de11"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121033588004-4d7858e57aec41458adfabc3bdfe29be.json",
+      "bytes": 475,
+      "sha256": "729f8e9fb1d03b0cb72f3f8946067efe8ba3e32211e2313ffd6264864286149e"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121033591191-f2a2f1ababe84e3194589b064ca52847.json",
+      "bytes": 426,
+      "sha256": "a14f0512b6ef782a40272ae2f5a9b5db10724b25e8490bf564ff542c8366373c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121035647761-e3453cda15e3402990b913eede6c3a77.json",
+      "bytes": 689,
+      "sha256": "d8ef7c5883ce119a2d65efada4520cf7985eb9d4733f2f183395403bc0fab3e7"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121035702415-4cc419d37ba04521aedb194a18f3f933.json",
+      "bytes": 920,
+      "sha256": "e268a0a51037892d6a280a374638730790d55eb87112807f9fa658791ba387b6"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121035705120-bd3c4580975b4015844af7e86861b170.json",
+      "bytes": 502,
+      "sha256": "c527752a213227110412da6feb11c6c3b1864c3914d655e362e18e392a3a9925"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121035710729-4b91f9f377384edda9b1e8db1d882ca9.json",
+      "bytes": 576,
+      "sha256": "fae0a6de21a8480a8cb1ed31913b55100486dc119efcc0be9fe1932b8aebeab7"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121209374927-a60805012e3b426a8e1c481ce0d0bc08.json",
+      "bytes": 1067,
+      "sha256": "c3753f3a4395f37f82ed82ac7ce808f6492554e29613799d95cd8c557dd20b55"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121214627480-6b7463fc475e4852875626992eaeee75.json",
+      "bytes": 1043,
+      "sha256": "c66e8de5dab686121829c58ef2a43dc26920f3c1d061e4aedf31cd6ca9b626e4"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121222871816-e495d16efc614a0c8fb7ee248a341eed.json",
+      "bytes": 1049,
+      "sha256": "f493129b27ff9485f93a3b60e7a2dc1ccb68432a87c059f3544093c03750fed2"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121241766799-a99069e177d6422d828ab81528f76f12.json",
+      "bytes": 1320,
+      "sha256": "7b7493a48743a5c1729019c5ee546f969e6831d06f0a92334be5c6f2c2d070e6"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121259410785-f9bb7e39c45e41e7af3be5c5473cdfda.json",
+      "bytes": 1117,
+      "sha256": "6aaf6da7f31d06c99de162dd761d8807733211d03b781c337261285f289ab3fa"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656086934-050e766927744461a51d7db1598db028.json",
+      "bytes": 574,
+      "sha256": "d2186e37e049a672209975b801250526d84370b1c9ee6852919f3947a769bf66"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656099611-9318e0973fce451584a93661d517378c.json",
+      "bytes": 543,
+      "sha256": "d48fc314525f5868313eafe2155208a7f39d44e0175a9e47b0d1b1aff9bfe80e"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656134094-dc8c86b2e93942ed9f6c3f97b03babb9.json",
+      "bytes": 559,
+      "sha256": "dc162fee61f60d23a5ea99aea13aa4ea1477ceeea58255e46c314c24669b9b89"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656146576-f0ae7cefcb72427d817c14c3d1043281.json",
+      "bytes": 528,
+      "sha256": "646b1e71977fc7d688794be98d3f7b52b7cc338a215916acfaab99ff5597004e"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656174200-c0233fc21e2744e7abca40cfeecd3fb5.json",
+      "bytes": 705,
+      "sha256": "b2737f150a52a747d292107a1675e5047f964387ed63557a31a88aa25676678a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656189374-c52f608f7bd14672ae793a38ec33d3c7.json",
+      "bytes": 674,
+      "sha256": "46d2869e7b3f3900d5b9dc0e3ba5a7dfee050d2fddcf0acd0380c3c4a9006aef"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656217802-1438ab394a2c4cfd99a17b9e37689c1f.json",
+      "bytes": 683,
+      "sha256": "e333742900c7e7b2d6bf9f7c5e4292864048ca9cc9ad7f631aad015ffa4f9589"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656225106-ec490caeeed34f669b94507ae8003d16.json",
+      "bytes": 652,
+      "sha256": "9e849effe845ae346edc2fa5cd3a2b408ae59f60d9692b9a75a38f38a05ea433"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656256251-4d656d412faa4425ada811c9a2ee853e.json",
+      "bytes": 567,
+      "sha256": "5f32004d3819df1f4030c18bc84cf2624404453938f92c426f8f87812fe23344"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656288484-ef1d326b3d9c4c29a4dee8c639560d40.json",
+      "bytes": 536,
+      "sha256": "bc0411b789c3c4bc5d446ddda7ee70ef50dfe95419679aa3ee0326f38ff64f6a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656312590-8eb73d6478b84b0a964990ebe54d64ba.json",
+      "bytes": 560,
+      "sha256": "f20b34ef2133303e89d8ccea1b6d6c3bcef266c75b4e9c4c57fd2a69ff340ae9"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656322680-ec6225f9c63b48b28f08962439f2594b.json",
+      "bytes": 529,
+      "sha256": "fb580bd634e83ae5324f01a51cf9eaa32298a8653ddcdadf440b7c3c30c77ad3"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656363094-ec2e8b1ea404474bafb30b749dc92051.json",
+      "bytes": 580,
+      "sha256": "5948c863a3b2225f1671d304b26b27c4cab7a7b5a47dadf1900ae32e91776d87"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656379753-3f2ae49edfdf40c99727ba27956a3ab8.json",
+      "bytes": 549,
+      "sha256": "ede515c75b973455ac989452c6d0bc6f8d05aa7b347349d5e0c18a59f66612d8"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656422173-68e5ff8eb8014e23b041c945a8d09dae.json",
+      "bytes": 590,
+      "sha256": "2940b893701fb79253bb1c6287f4eb1d3c6c1d25626ac1a0fc8b4c02ccd5cb1f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656437419-1991adf9f07b4a44aabf5fab17400e81.json",
+      "bytes": 559,
+      "sha256": "f80c928c9a11844ffb5c6b4a8fd4f4d78ca54496bee0703ded4c78a16e5dd615"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656483082-b4c091dd2f5a473faa55733f33c659cb.json",
+      "bytes": 587,
+      "sha256": "d903d13da040510999fce677cf785c68671f3fa5a66495c7e4ec66d632339b92"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656501579-9cdff665c7124e179db8441a35e5ffb2.json",
+      "bytes": 556,
+      "sha256": "13d264a9b9fc1c5e5aa8bdddb3b2eb2ea3c9496228264f17bc5e2b887b872994"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656538124-d90ac7760b8d43b19f73fd80e50379e1.json",
+      "bytes": 576,
+      "sha256": "431c0974f8687e30614df3b45f382a42665489d8eb465e1ebded80e3fda66a05"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656548423-546f075e7cd741ac9743fd566450395b.json",
+      "bytes": 545,
+      "sha256": "d0ada2d076fc7c1d134bfe816ee7b36424c3c2c6ac2b61a35bfb1b3722988d19"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656580974-88ecb01822d64857bd9e3e761f52bf08.json",
+      "bytes": 576,
+      "sha256": "a3776ed0bc94c6aeda0405e6e5896db1d243987a103a7ebc9387f919a4429217"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656589511-2b4411c84df74d7cbbad810abb6d03e1.json",
+      "bytes": 545,
+      "sha256": "9939f90eeb70008212b2207fff4d27a52c290c9f5ffafa48a7a997b22f4b659b"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656611561-cf49075cfa3e4cf38e709efaf0bc20e3.json",
+      "bytes": 584,
+      "sha256": "c89ca54e7a6474dca57bf9fa048a292c48ffd25d4559cc0249d5a571e392ab46"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656623774-d400a41faf4e4b5d8feb199d6029d952.json",
+      "bytes": 553,
+      "sha256": "bc95a86e1cf00e635678af1f580ceb71da39768d79fefc4b8f8685a5d69ff61d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656647788-b361760526784113969efad2e9c40882.json",
+      "bytes": 552,
+      "sha256": "6cb5120e7dd3d0a56d308485088ddfa93ee459d57826f5b154cf7afc8232d0bf"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656657095-24053b7c7e03439bb311dcfa982e2492.json",
+      "bytes": 521,
+      "sha256": "8736a8ecad71fff967e0f38271e4734ea68da670d9f060cd9adcc6f4abe48a00"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656686244-a8c9659acb9f437caa7eb7cf7a0925e9.json",
+      "bytes": 574,
+      "sha256": "134a38de397a10c5414616b607c0e1b8c6327e51a55b17e0a61a0111abe1545b"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656698167-d0d23e34db864007a3a4f64331853c68.json",
+      "bytes": 543,
+      "sha256": "d57071a1e2af952c0eaeef585d5738eb4cfac66859bf1e3b7f91f33f10adfd64"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656733101-75929cbabca443a3bbf263d8f359f48f.json",
+      "bytes": 574,
+      "sha256": "276968468159049b0e38c4f994866dabbba2a6ae54aaeae915af961ed601b247"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656745872-218c2f326cdb495fab4f947e175a063c.json",
+      "bytes": 543,
+      "sha256": "b9d2f31a1376e7608e488cf19ac386db5d7438f5b7fa8df0f0a69b2530bec239"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656775547-1278fd9c20604a56a5db818f1653b1a8.json",
+      "bytes": 577,
+      "sha256": "4086e317fd135f8e55427415e1ac9e9b9154e4607fc526697c483770b582b04d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656788340-0d99fbd277384e7099b8e56240f3febf.json",
+      "bytes": 546,
+      "sha256": "9a1cea57efff9c01b40cbfd896a2f07abc2bd797a626d97f384c3b81d11d9f37"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656816362-aba95b21198d4b7398da1a64323f4e79.json",
+      "bytes": 583,
+      "sha256": "837d46f015b818bc967450c3859c1fafacefe5dd9a88b14029515618d74cf33d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656839817-5c352ea143704f9db45fac7ec114f8d9.json",
+      "bytes": 552,
+      "sha256": "3f69bdfc3d0b60a6988965ebaa137251dafa9188241cbdffc2a282716a08092f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656875567-78c1543f109f443bae6a08f6302d5451.json",
+      "bytes": 587,
+      "sha256": "78056499cc0f5d590b16f58da1aa487fd3d597bd19d6337139bf35008d09e5e2"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656888423-67a204d937054f3a9ac4b831b9755c2b.json",
+      "bytes": 556,
+      "sha256": "96e6c3fb26434218bafd6a459aa94cb53206418bb8c396ed8847e6d351222381"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656919850-ad971cc3e82243059a912ba84abd5a61.json",
+      "bytes": 576,
+      "sha256": "b52dbcedb81b9b582aecfa23b125617fa7be7ab8d1944df4bf1ae3023966e171"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656937006-8f3e9b2b3d7d4ea29ab03bb05d1ea80c.json",
+      "bytes": 545,
+      "sha256": "1e1b5aee3b9c43f9b95ec8a7c9229db95753ec79d3c6ad5e4aaee7ba68aac7a0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656976102-fb9c8ae118f242b394270195d1e3b84f.json",
+      "bytes": 575,
+      "sha256": "1d085e684374edb96fcdc04681dc8f56f3da7594bc755ba5af9b0e10cbb90289"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121656987751-e2f50398ef4e40faae8104e15d3e9164.json",
+      "bytes": 544,
+      "sha256": "201a150b7ed5e1e29237292229c50a0ea83f0f7e48f3ecdd5d180f900e9210a8"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657020613-a5adb291b4ab43ff8bf5203fd99d3a36.json",
+      "bytes": 595,
+      "sha256": "d9701f4e3ad65e3a2a0e7d0b53d914fe28f3bec7cdca16206c67383256e7fdf0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657038692-b5c8f959ad06411e9a50a84bd5976762.json",
+      "bytes": 564,
+      "sha256": "053bc2d8cf8728ee13f08c3a11f6bb865574bf1e07258088c4d54e4ee55121cd"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657090014-3b931591addf47dab18bc81f50cc4530.json",
+      "bytes": 589,
+      "sha256": "a3a92294ff19cac1a46d5b55f89c5e35dadb349dda74937765d612891119b478"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657104238-37d00442300a42da91f6951d87514e07.json",
+      "bytes": 558,
+      "sha256": "e57e5e945055bebce939423fa14584c314370dfe62def9ed93446d2c0cf640f3"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657242143-daff93ee7ed24b629e8c70e568af32f4.json",
+      "bytes": 584,
+      "sha256": "3398e6bc6389df6814eabf931c78cc3af0917da7821ccf45f6562c9dfa1bb3ad"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657264054-447c44a8536946e5974f51e70314b4c7.json",
+      "bytes": 553,
+      "sha256": "ee8eaee3788e5eff79e1cc1325eff369465eb2b4ebf5a2e48a292272c0a769c4"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657322910-d06c30084f844db8b2a62d4ae73c59f9.json",
+      "bytes": 590,
+      "sha256": "cda45e5bfd3bdfbbd802794b9cde67f83d9f2b017655638c0b6b8174e7277c4c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657358132-4e4a51f801eb4d14818c6fb6c8fd188c.json",
+      "bytes": 559,
+      "sha256": "dd58f7bebca6ef59a443549b72d69a9816e242a897a5d6c64b759c1a97ae67c8"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657543271-2f284933340649239fa291fef879b974.json",
+      "bytes": 593,
+      "sha256": "342c096cd21c9a02577bb81252c70f1f7ddb89b81899e5f051711d91dbbe9045"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657593779-e1661e77376a45f6a261b5507d433fc8.json",
+      "bytes": 562,
+      "sha256": "580355c0d82072b0795b4b293449e853da7e2c49c4e6b13c508a37297b13db45"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657651532-5fde3585e00f40f9925c9f7a1313d02c.json",
+      "bytes": 599,
+      "sha256": "5a89092fae7f69814a5dcdb7602a506ace9aa03bf6a706d70a180044441e83cb"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657666629-1e5434e97d9e46d89c0eb3fc5ef55265.json",
+      "bytes": 568,
+      "sha256": "bb970d0e5121ed259d79ebadb3bab2b2935b6afe137b3d52731032e6d0337958"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657695512-1c1357da54c347f3aae23554429040d4.json",
+      "bytes": 581,
+      "sha256": "af284d4cfcc80fc478f28602d7167929cb909f8c4fcff7616b6944ca514a7250"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657709135-ce9d234fb55c45d8be9c14c36d2ce4ed.json",
+      "bytes": 550,
+      "sha256": "0751e3a6b93b5d54e96c0605143caff5eddb3de88e63d31b04d49b75bba5e16d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657738711-ef3fc9bec94548878811f590b28cf6b3.json",
+      "bytes": 586,
+      "sha256": "84a2ec16e12e49f99b8d587c2c70d66befbb0bcbca4d2b0e4822a165ca076b6f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657755400-434adbd8ac41406bb4c01986f4362b6b.json",
+      "bytes": 555,
+      "sha256": "e5746dbb68a020a13cdf320aa08b7a078d796bdae4fd88897e713fc682a2a42c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657792970-474eb7f95e374e8cac762684315f8807.json",
+      "bytes": 583,
+      "sha256": "753e0f5ee8bf3d75920cf74afe5b2bebdcfcaa330fd3f98148f1102a454a0176"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657809535-e10e67e773234825a94bbd9b788db2ca.json",
+      "bytes": 552,
+      "sha256": "3085bcce4f5cec829e1f19ecd87561dd774ba7df95136e245219663360d89959"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657838120-515dadbe38ca4c498e13e34ebbecc96b.json",
+      "bytes": 589,
+      "sha256": "e85682a376849e1e2b821a0f490b7f85a14fd1bef93e53e41981ad0762d3d858"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657853595-6079543c090b4a9e9daaeec0470942e6.json",
+      "bytes": 558,
+      "sha256": "1e0c3c81fb1008079bee273129c75b46b33fe6dc2ef5c4ccb5907bfd967b900f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657881543-f75e2847f1e0445882af0c00e5cc5e8d.json",
+      "bytes": 580,
+      "sha256": "a387ad8dc3dcc27d987856673d33e5c5371dbfe78ad30b5b062bc1ade1f89c47"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657897802-7edd59b4c3fb41beb32bca16532a42b6.json",
+      "bytes": 549,
+      "sha256": "dd7f9f537d2a15ffe87ceabd327daae32e5e38c7c30e6e560cde2535bce26295"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657927602-e34321f17b25447ab27d46176d1ed279.json",
+      "bytes": 653,
+      "sha256": "fc0715ca14a537dda6966f1025d8cba5056e0cd7983f83776da23d31ac2f3a8c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657941773-264d6d06f70147cbb611f17bc200886d.json",
+      "bytes": 622,
+      "sha256": "a82eadd25a87a13f8b139d7c36a5f8af9f6800cb4903044ed27b5ae82b319866"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657975110-e2388c79203d44d6a822831c9feab56f.json",
+      "bytes": 578,
+      "sha256": "5df3a2d0394ccfc4e9a3b34f91521ed84f46a664114f7fca1ec79aaa0f51c697"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121657999298-aa683e5961344d0daa008830eb356f33.json",
+      "bytes": 547,
+      "sha256": "8b0fa6452f2e717f35e43a7243d93ca0ede1d9d6d9d167d8b12f6b363597db63"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121658036684-2b86660e1a4e47b0a30d1a352565fde9.json",
+      "bytes": 583,
+      "sha256": "abba686cbbafa9979b7872d467abf333c3b293d1cd2d1ef32474134fb48db745"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121658052944-e6d44e48a2164b509de58faeaa0ecae9.json",
+      "bytes": 552,
+      "sha256": "b36b9d306bcccbd88992f93ccdaba797349ab59b9098b53a4c8303ec8bf8a099"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911469487-a24d799cce3646b2a0953c0a101a9b94.json",
+      "bytes": 595,
+      "sha256": "785c255cad2b0f09bef387fb786eff0e2eac1a1f0d10d3ec726bc22dd71f2394"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911486405-4a927d7abd224d4a8d3e44842d27929f.json",
+      "bytes": 564,
+      "sha256": "8578365e508585331588f2a493ec79b9e979003f0bb337ff1281272eecf6f708"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911554551-db680fa306c3412c9af0392c3461f555.json",
+      "bytes": 589,
+      "sha256": "7f3d1401da8bf249727d72a0eb14958e6df845f113576cc5c6c9b1c49c341234"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911571411-f717021825fe41cb94553a4156512cd5.json",
+      "bytes": 558,
+      "sha256": "715827a729bc5d7b49e1986d7c3c49e57507aeb94a50777efb3842ee12687653"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911620309-b9e786852c03460bad4181aa70951f2b.json",
+      "bytes": 584,
+      "sha256": "feee77d32108e97468b125c4280d2524263d540275b9b26ffa0c4fe10370499d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911637292-aae89b6ced0642c6b0fb48b02d562cca.json",
+      "bytes": 553,
+      "sha256": "9344bbf76b49ecb413132cb5150cefb76fed9ccb6377c89f570404aacf319439"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911698171-2b4b10c152ec49cb9375a38bb9642c77.json",
+      "bytes": 590,
+      "sha256": "323c5b885d6ab263f8e17e9b692adcbd60a8a3200eef706141a7264fea9268d1"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911715253-008f5408e8cc40edbb6cd7ac73c597fb.json",
+      "bytes": 559,
+      "sha256": "b5766d83e7053512d46d5420f2a5f20ee29f48aeec3ccfd904d816e6973f5260"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911784007-58f5d874d85b4c7f85e4df686f5f15fc.json",
+      "bytes": 593,
+      "sha256": "02939384e4a8870179ed4f40610f6b1c6f3299ecb1a87545b9979d52069af370"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911802110-7e95556a3c434c649d9a9fdfc33edf68.json",
+      "bytes": 562,
+      "sha256": "72a03727ca44f1f0beeb7ec06a5092468675de52f37820b3f17c9718cc116f88"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911872180-626799241ec54f9aa0a3e5e367c04da0.json",
+      "bytes": 599,
+      "sha256": "903d191fc5d88a550f057dc7ed6c42bfe94211c244bd6d1d544672842b85a627"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\121911890849-5dbcc3fad29e4299baaf1f3fae72e4e2.json",
+      "bytes": 568,
+      "sha256": "be6ec16968710e670000414bd34aeeb11f6d4d4263cf37b6902f3f6ddcad20f7"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047746021-a1bae85251b6488e9a3ff4c808ef40dc.json",
+      "bytes": 574,
+      "sha256": "16a736904483a851e8d0ecc2c0dd4a8974e11d42ccf10e9ecd7fae87a2ce7009"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047751601-48ee7446b05847f09030f686364e879e.json",
+      "bytes": 559,
+      "sha256": "27730ffac0ff7a78bddf23600277d33f4a9c207f32962ba4da772663d956caa2"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047755004-1055efd5cd4e4891b38bc4d2fb5748a4.json",
+      "bytes": 705,
+      "sha256": "9fc218aefc594b5ceb483fb228c5de178073f2b3edb8743bfd8be5763f65d008"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047757501-6dda7ca4fc1649e49a5ff5c370eb70a7.json",
+      "bytes": 683,
+      "sha256": "9289fd2516fd622020c90d87d04760809b9e226f0685bcc580b4423cdf7227a9"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047759799-5d4541e1a53e4b26ba78e8b66df7ed7d.json",
+      "bytes": 567,
+      "sha256": "eba9636ecf6bbaa2c16ce3a7ac7b2b86a7937919580e556e052e8db840ab0856"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047763263-ffff7903bccb45388db96a4166396664.json",
+      "bytes": 560,
+      "sha256": "5ef9b55c067f151d744ea55d95b80ac26a7e11af6a419688de93c50b91c4e2e5"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047766488-e9c179e9e8714a22bc07f7ab94d2367f.json",
+      "bytes": 580,
+      "sha256": "120e8251de76fb3034003c3090a2718a575e6ab537a9afff9040ca0ddab1603f"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047769784-59d8460f7f3f4f26b92ab333960ca304.json",
+      "bytes": 590,
+      "sha256": "d462cf1c95f5d91c7f519c81f7340bf30f8e56d553008809710b65b403730324"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047773745-b58fbd3d4ac14ccaad54d621b00dc557.json",
+      "bytes": 587,
+      "sha256": "1e879ed4f1f99f88a465ab1a798af7699551567ad461be81f0c2ee551f044a5d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047777137-6b9c8aa509df4b02a1f36dd7370906a1.json",
+      "bytes": 576,
+      "sha256": "40892c2345474994df763fb5c17b139c36ff97c502b043e3a475009cc54aa909"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047781575-e3a3b7338468418db356d729e43ee91c.json",
+      "bytes": 576,
+      "sha256": "3a90b0a981cbb6c01fec35b7ad0c785998c8995880b0d40e57cc8983c75cb7d0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047786448-639c049757704c5781ad36c32458f3bc.json",
+      "bytes": 584,
+      "sha256": "59861e9c8e17894d380deeddee18f8c560a420f3c91fa7f6dcbfb899ec3c30ef"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047789875-213b2794157e4d3ebd51e225aacf83e7.json",
+      "bytes": 552,
+      "sha256": "688251db532387b2ab33974d43d5c3e6c0bd7ebbd64090dff516d1566f80012c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047793356-17244bbe28ab47e68bba1c90f7f1b103.json",
+      "bytes": 574,
+      "sha256": "4ed33f74455bf87ce9bce47795347dba19b32bfff1b8aa544f65ade0caf151b7"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047797857-bde41579ce9c485090e5c910bb509716.json",
+      "bytes": 574,
+      "sha256": "7af105f5597f6ccc666243676a984cf44c13b63c6ac642ad1ab69d5e7128b394"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047801455-2c1415b6ba8f4e3d9b6256c67ebb810c.json",
+      "bytes": 577,
+      "sha256": "1c4bc88e93fa9c947651bfb6be137593c83b88ce9d1c39a237d70e685875f175"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047805007-204847da53fb48f2a5da72e55b70f3ce.json",
+      "bytes": 583,
+      "sha256": "e1cc151d006c03a6a9537eab49ded4a25265806c3ee5134164a8bb437c6b0bf0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047808399-0eaff7a662ec4470bbcf0e20083f611a.json",
+      "bytes": 587,
+      "sha256": "725f1d71d06adb54e088f0096a4e9914daf1a3f7f48d40bc1d9b33b0b174ca5c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047811990-a5dce538379441e3bb273a2c1f261efa.json",
+      "bytes": 576,
+      "sha256": "6b626a12794d12f0a85bbf71eb65c29462aa4186224ec33fd1666927a575cbb6"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047815712-7702d857ab7a4bc8984a071478928210.json",
+      "bytes": 575,
+      "sha256": "6857e2bf68c701c8ba1084c7c3e4541c5f22e80b7bc81ddeff9b49a3e0d5c9ca"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047819258-52631cd0fed24a7d8574167d5b8b8b63.json",
+      "bytes": 595,
+      "sha256": "8d6c87e433a7f26749f5b83e5c1ace94f9f17addef006740537120ab9353c90d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047822949-fc779cd908e9456fae99e2144fba6a72.json",
+      "bytes": 589,
+      "sha256": "1b60ce2611fb10e21de727729a99ef8a3586ee89a43b57d045898e8ceede421d"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047826877-51582e47ebdc4850bebee4e59041f8c8.json",
+      "bytes": 584,
+      "sha256": "f61c7e43eb9c22293f7fd82a4c630554e8d985358044c58a7ee91ac300d6d939"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047831435-530bba0006fd4720915a41baa5924fb8.json",
+      "bytes": 590,
+      "sha256": "49eab7971f756519e94c91bb051444742284ee5fc46410922ff79d5aba0ebb4a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047836178-224daa14f25c4a70b9ffffadc59eb33e.json",
+      "bytes": 593,
+      "sha256": "38d21f72f49a72358ee8a327ce52ffa8e06aaca69ef89ec048da414a332e5910"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047839792-febef64c10ae4bf7a849e3329dc05468.json",
+      "bytes": 599,
+      "sha256": "4c3910776ed2cae3b9818123082b92522e9fa795abb9ac5ab1f5c6de3f9aa437"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047843938-c2bebe3319d040fda8ab49c39c304ed8.json",
+      "bytes": 581,
+      "sha256": "c5e379f7e3db4e923a86a39f32e9b53ab6cbb55c7301c824a740d57b3a43df3c"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047848614-84b3bb71ef7d4096aa36c6e53463813d.json",
+      "bytes": 586,
+      "sha256": "c1f9984e310a9b75f71773988c2077eefadfbfc5d95c5765f27bbdeaebebe573"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047853000-70c626eb98f04cff952a61dcffca3324.json",
+      "bytes": 583,
+      "sha256": "893d3517375af3b7592914a374db3c31646d3f565602ac8a6be2a7afa54499e0"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047856569-fd4425d4b6cd4bf5ad8aaa9e92b8f83e.json",
+      "bytes": 589,
+      "sha256": "4bad67a64221fd8d29ed951056d28045f78a2969398babfbef40ea1ccf717005"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047859811-7fd389ab55cb4c53abcef4a100127aa6.json",
+      "bytes": 580,
+      "sha256": "b5d7f52578b852ad89c957e3edabd1e0ad8afd8266fc7bfa4dfffddc61d60f50"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047863058-c64c9e7f3d9940d19226e5de21a1b470.json",
+      "bytes": 653,
+      "sha256": "438e70422647644035aa5b36b9343c4f36237a9c4606cb71962701815bc31845"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047865454-fd0bb97f8dcb4bf6ac4107fc764d3254.json",
+      "bytes": 578,
+      "sha256": "926d377da8556cd4cd8ef71935909e1bb6bf0238f5b50cead55d9a5ac625d513"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047868971-fa0684a12b4f47ed95fc6e1aee7404c2.json",
+      "bytes": 583,
+      "sha256": "679d383438ab2b504d883fdce48d33889f05733e17131ba72fe4d6dae243fb1a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122047873033-0df53b2514fb4de294b704046eb4d825.json",
+      "bytes": 572,
+      "sha256": "c8b0a1534bc4bbfa16d2749cc5f858a2d409ec9135423dd92ba84233d85d28e1"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306901903-b24cc171fd024839a5a26f5ad9764706.json",
+      "bytes": 581,
+      "sha256": "34ff4f72c0bbf7a46870a94743a82b2a00266f645fb58055dae18f8144d1cc65"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306905599-fae22b2cf73a4e8f93a4a81d13907c96.json",
+      "bytes": 586,
+      "sha256": "a7ad2b5be4703cd3b2740eb334b8150ab3152654888c69bc7e105351f99b738a"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306909144-ac90fdac82f445f99f4e8ea59b1ea47f.json",
+      "bytes": 583,
+      "sha256": "7fd96e938a328e17c2750ffb73fe5d1486c8eb7fed1cbfe825ea66287519ab74"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306912612-3fe54f19be8a45909bdeb433a2d1bf6b.json",
+      "bytes": 589,
+      "sha256": "a9b6c403897f967ffaba4c94fc1e9d8ed28ac50544f19381e95d7b463b327d04"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306915945-544005c2f7e24821a2d453af5b7c8c65.json",
+      "bytes": 580,
+      "sha256": "42cde1070926f87ae6dab1c6acfa32f749474506412e649910164d3ac66106db"
+    },
+    {
+      "path": "data\\logs\\pipeline\\2026-11-01\\122306919758-8fa5fe8d67a641d5a6b4543c8f7dba0a.json",
+      "bytes": 566,
+      "sha256": "eaeb53ab28883ae12b86a70f720c42f312573413053d3709927581afe922e6fa"
+    },
+    {
+      "path": "data\\prepared\\northern-central-reviewed-sites.json",
+      "bytes": 362992,
+      "sha256": "82dec45aa9a19f936e99e4f42bf3519b4e9ef98afbf45bfd3daa1b3557f20051"
+    },
+    {
+      "path": "data\\prepared\\salah-al-din-heritage-sites.json",
+      "bytes": 78850,
+      "sha256": "f166561b05aec259b39be816c3af2967f35cdc5ebe03fe6f88f95d3a567529ba"
+    },
+    {
+      "path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.evidence.json",
+      "bytes": 1512,
+      "sha256": "112ad26b9cf1a1f69916a80f4b0707dfea28351a62bbf2df680a845577cf4bcf"
+    },
+    {
+      "path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "bytes": 22219,
+      "sha256": "db6095a8dfd2df461d9c485aaa59882beb75ef9afd241f2c3eed78b745b813a0"
+    },
+    {
+      "path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.html",
+      "bytes": 130900,
+      "sha256": "498ce2b373d0b42abf271ec8e22dd955698f5698548a2797c2155671d56c1cc9"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.evidence.json",
+      "bytes": 1641,
+      "sha256": "0ef37c244948a120d19ac39811e3b263ba2483dd231add260682c187a2f0df07"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.extracted.json",
+      "bytes": 6231,
+      "sha256": "353657c8d401c76a084baf5e5864f35686786e59c6007bf3d2ead613d0abae1a"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+      "bytes": 109126,
+      "sha256": "3741d49f9e72b9ceac8dc9c42ece7760a51aac97398755910675027564f8ece4"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.evidence.json",
+      "bytes": 1617,
+      "sha256": "632dfe80ab3dc2b5723978ecaab4ee10e0df0d209463625e66e9ff83ba49f377"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.extracted.json",
+      "bytes": 7826,
+      "sha256": "d88a649983ee5e2a44580a315e4bf58a62496cc029ca817fb09a39b87859b3c0"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+      "bytes": 106603,
+      "sha256": "fc4a106afce77f6105cb0b4ea5f492f9151cdd1d6bf2d38c1b443b35f6636839"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.evidence.json",
+      "bytes": 1623,
+      "sha256": "3a977a720fb32333f43d1ea961229981e5e5fe3bfb5ef1eabbac183644ce9f5c"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.extracted.json",
+      "bytes": 6812,
+      "sha256": "b72e21b64a5e7a190960b4cfb31d96a453b76c6430779c488e280687a4c77ba3"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+      "bytes": 138414,
+      "sha256": "11ea656c3b0f30d4c41010656b1ad195ee98a9839a17bad338573671544a0b77"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.evidence.json",
+      "bytes": 1638,
+      "sha256": "f57dc9dc019f445ef7a120d2a2adfa46584a5ae572cb9de7c0d78c0a5aba0d65"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.extracted.json",
+      "bytes": 6872,
+      "sha256": "769ced7e6211095471b3a0a9cdd4f0530eb7a14534fb0dae09aa43a025f5e929"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.html",
+      "bytes": 133606,
+      "sha256": "0540555ecdd5ecea730ee13246b3357c61717273b2bc1230d56b8d2f86db9274"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.evidence.json",
+      "bytes": 1659,
+      "sha256": "bcaaebfb580aeac5e32a534989229239dee565ae224084d4c84a67c62985128e"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.extracted.json",
+      "bytes": 5749,
+      "sha256": "24acea9e86b1e5e600a293cd477861f89037bf9ccbedfc93ffc544cb97e0d903"
+    },
+    {
+      "path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.html",
+      "bytes": 97985,
+      "sha256": "22136ec8f75706417d317fb69f7aed8314af20ef1ff381b00e8d91f1ef9dfb69"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.evidence.json",
+      "bytes": 1160,
+      "sha256": "5105051e6f3a35f18afef5c5f9126b147e01b02600ce61163d9aa77fb1acfbc4"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.extracted.json",
+      "bytes": 11537,
+      "sha256": "97d4b56baeef8cc29f459a58f36bd2faee22a427e193b090f9265ec05a14ea48"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+      "bytes": 134360,
+      "sha256": "d4c58de519421b888f031686f71fe474eb72112620247feaeb0bedb9cd39df37"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.evidence.json",
+      "bytes": 1574,
+      "sha256": "fde4280ba14382ccc2823b2771f0e485cc6db2a64858fceb0f952dc8b9411e0b"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+      "bytes": 3744,
+      "sha256": "f930215a82b9e56a08a124e6e695270daa96aef73cfdbd090bf3dd03910729db"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.html",
+      "bytes": 37014,
+      "sha256": "520d663dfb9fa92a6ebf000bf1d776c20a34bd410cf0768160df8348de5a060f"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.evidence.json",
+      "bytes": 1208,
+      "sha256": "45c0c43e0092da7de5c48b0a1c7efda9432bd3983007564917134df9e0b9769b"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+      "bytes": 3079,
+      "sha256": "f391ac8127662d976404948a0a625ce64e3decede2664b791eb73177cef141d4"
+    },
+    {
+      "path": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.html",
+      "bytes": 39221,
+      "sha256": "9a290bf891c79cec2e4fb01bc19b3bcdefab9ccab70c0dbd3cea04efa98e70fc"
+    },
+    {
+      "path": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.evidence.json",
+      "bytes": 1214,
+      "sha256": "44e2e387a1ff7bcbc39b5a2ac356b9acb49d058d8b4ef5abf89cbdd4f1d611ea"
+    },
+    {
+      "path": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+      "bytes": 8760,
+      "sha256": "fdbafe41ec3c4773888a75d6f4814193759113e74b4c2eb768948ca848ab5f6b"
+    },
+    {
+      "path": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.html",
+      "bytes": 117903,
+      "sha256": "2ac18a6a26f722ae830a20095f7b2eb1074624db84680d05f88739f70e017614"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172031Z-6fdcb793a0.evidence.json",
+      "bytes": 1526,
+      "sha256": "853fdb7d81b456971b0d40247dd4bbb14c276baa2975c7fee8d188bbf698e75e"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172031Z-6fdcb793a0.extracted.json",
+      "bytes": 3444,
+      "sha256": "32b9656f151dce1312ad3e09d29206ff70fe538ab54b8700bed27331ba0a59f1"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172031Z-6fdcb793a0.html",
+      "bytes": 33367,
+      "sha256": "6fdcb793a009d844539924af05368aac3089de96d03837ba46f8ca8b78653b50"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.evidence.json",
+      "bytes": 1160,
+      "sha256": "4b2120cc6a7d175fdb4354b2e6d5f03eefbfac00d418aeb40b686af5a769d949"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+      "bytes": 11537,
+      "sha256": "97d4b56baeef8cc29f459a58f36bd2faee22a427e193b090f9265ec05a14ea48"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.html",
+      "bytes": 134360,
+      "sha256": "34d8a5812ec58f91f58ae83e03e8b1b00872b10e50602f73d6a814e5462b3424"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.evidence.json",
+      "bytes": 1697,
+      "sha256": "61c4b846cabd79d504dbef03d3c5d0267108120fa90dd63a93a789e8cb92d133"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+      "bytes": 19034,
+      "sha256": "2087e4f6c1905d4eb0abb81443cdeb6081424902a0604e87bbd5ceded6e9b725"
+    },
+    {
+      "path": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.html",
+      "bytes": 41237,
+      "sha256": "9c5b84d0ca2764decc1892141e37880ed8daaabfa1e433423fd659a96d548019"
+    },
+    {
+      "path": "data\\raw\\erbil\\unesco\\unesco-20261031T171953Z-183f6bd893.evidence.json",
+      "bytes": 1283,
+      "sha256": "27dc3df202bc1ee82347e7ee20a66a1c7b0ab226f1e24cda1081719db18f82d9"
+    },
+    {
+      "path": "data\\raw\\erbil\\unesco\\unesco-20261031T171953Z-183f6bd893.extracted.json",
+      "bytes": 15003,
+      "sha256": "7d7c3b7077dcaef7788ae1254a86afa692a9168227e354ac30e24d030880da83"
+    },
+    {
+      "path": "data\\raw\\erbil\\unesco\\unesco-20261031T171953Z-183f6bd893.html",
+      "bytes": 153793,
+      "sha256": "183f6bd8939a8be4e9212a6d7f22316b65e3929ec362c4501084df6c60e013a3"
+    },
+    {
+      "path": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.evidence.json",
+      "bytes": 1217,
+      "sha256": "433f17676d2a78a46ada8df2a143ee1cf4e9c3b8c47c6b8fc08fe100de14ce86"
+    },
+    {
+      "path": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+      "bytes": 10431,
+      "sha256": "31657ec1e0b4bc7220c9f3bf161e6d26505a1a64771a894cf69b5ef90ed5715d"
+    },
+    {
+      "path": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.html",
+      "bytes": 119635,
+      "sha256": "b226471f6aab1d9a5eda243c09a9803912ee8284d1e1d1a3ad92060f04b043c4"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.evidence.json",
+      "bytes": 1187,
+      "sha256": "f21b60808cf5d8910eb667b356c517ffa2fd0f17a8d46788dc30b56693794cb2"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.extracted.json",
+      "bytes": 21128,
+      "sha256": "8380a22eca8f1c952f50a5e0fe0d3738344dda46e521d55c62e405d509c70691"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.html",
+      "bytes": 170108,
+      "sha256": "c901278ca12b0506ec8ea48b087497ab528e341b5eb10cc90d84aed3742df1ac"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.evidence.json",
+      "bytes": 1220,
+      "sha256": "611d426b854df7f10e09047ba39d45305217b3e9ca51b8c7d77573169a06ff69"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.extracted.json",
+      "bytes": 1420,
+      "sha256": "84f4802041a26575f7bb8367228dc2294722f163c4633d7fd654fd9b3d3e8bca"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.html",
+      "bytes": 111175,
+      "sha256": "8a2b8dcdb20b78f247defba57e9f980dbb4362a99c5ee14426b3a6efbbfa62c3"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.evidence.json",
+      "bytes": 1220,
+      "sha256": "2d76222f34839e34e3491038d227cdb3bcca65591e87ebd77ac5791a9aa56b13"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.extracted.json",
+      "bytes": 1378,
+      "sha256": "a7d88c059532a9f91932eb9fb30bd323a053a8e9524e066d965ab04ac8b668d5"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.html",
+      "bytes": 110729,
+      "sha256": "29b94f8d4a28297ea6007eb2fb4fadf291d81f2fc8704116eebee50a79e036cd"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.evidence.json",
+      "bytes": 1220,
+      "sha256": "a3732232de56df9b1702c55fc7b3c3716f87b728a1d52e2be614671d6eb37088"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+      "bytes": 13297,
+      "sha256": "da528167aa1b44d1ef3ab9876616808f0e485227c45858f269e5d244ad33750d"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.html",
+      "bytes": 122853,
+      "sha256": "7bdb2b4c35a14a3b1acc1dbec7bdb64830319a9d334b170f59dfa3d1e7519455"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.evidence.json",
+      "bytes": 1220,
+      "sha256": "cd32e81ffb64a475dcb781fbd1f5896b32fdbfd20f85ce3f5ccc86410fa84922"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.extracted.json",
+      "bytes": 14271,
+      "sha256": "eaf464137fd426df84a38a1c28d277e91244176d80e5b49e1a02be590793869a"
+    },
+    {
+      "path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.html",
+      "bytes": 123792,
+      "sha256": "8092d8404a754fe78e5689176b069cd5191afcf95142aeaaebb3a20f41e4be44"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.evidence.json",
+      "bytes": 1494,
+      "sha256": "795dc9eb4360cd42be1158019323a0b5628caddacda68fab311311928ef11e3a"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+      "bytes": 12723,
+      "sha256": "aa7a803c0f4a50601b5cb2ee0a0110937ac7bf737f2811fa37944a485ecb0e9b"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.html",
+      "bytes": 154828,
+      "sha256": "9ea8d4ddb150917611b46be3331df990c7003518de0c4638ab1bf733dbb28646"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.evidence.json",
+      "bytes": 1497,
+      "sha256": "583b623ea582106899b9e5e6076aa0c7fc1c3c3a367244d6102efb12d01b9aa3"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+      "bytes": 17666,
+      "sha256": "6f1e77203348aff8f223f1756afa83987a524c30a04bf3c6cbea0b562476f961"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.html",
+      "bytes": 160132,
+      "sha256": "dbd9292fc88a8537d9c1314c51e46bc9fe3a0215fcf7c8b3628869b97bf2ef0c"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.evidence.json",
+      "bytes": 1620,
+      "sha256": "48390f49458e0262aa3688b5e4360e84ac1ecba671f7b9d29b3fe0af1933b890"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.extracted.json",
+      "bytes": 5857,
+      "sha256": "c73d1152b2347288e6cf068664b3fb93f40f629c92fda86eac48a602791cefb5"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+      "bytes": 101056,
+      "sha256": "b45f9ad27e8902fbcfc578baea1f47776962d26c0091a26b969d203f1547c02b"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.evidence.json",
+      "bytes": 1701,
+      "sha256": "9ee4efa2185f276941d910b1930966952c56d378efd5db5c864ed8d2424c912a"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.extracted.json",
+      "bytes": 6321,
+      "sha256": "a007af2429bc3ddcb9d45137d5419487463387525cff0957ab5025544e498e7b"
+    },
+    {
+      "path": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+      "bytes": 106282,
+      "sha256": "9ab7f4352510aa60cec8fa92d945db2b8ce3434a1406ef7719f1ef83da90254d"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.evidence.json",
+      "bytes": 1181,
+      "sha256": "48c861446e3d14e4417a9236bc5ca9a74204e9a1912c9101a343657dc288afcd"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.extracted.json",
+      "bytes": 11537,
+      "sha256": "97d4b56baeef8cc29f459a58f36bd2faee22a427e193b090f9265ec05a14ea48"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+      "bytes": 134359,
+      "sha256": "ff9cb8fdbff08fae94bc6644cb319b8091ccdc4a45ee794951422c4a551db0d1"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.evidence.json",
+      "bytes": 1235,
+      "sha256": "83f6a029c67271d30c8f9238e89a339f75c5d8d89b3e85a83e51d791b57f113f"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.extracted.json",
+      "bytes": 10844,
+      "sha256": "8c07478b7a44ec5bbe1dccb739fa6b814e1873a8cf3bb7b40b85959a3fce2458"
+    },
+    {
+      "path": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.html",
+      "bytes": 119986,
+      "sha256": "d52d1905cf31137bc86b878cff86706d6e30f1fe4cbc41c7a54b281db1f3f657"
+    },
+    {
+      "path": "data\\review\\northern-central-decisions.json",
+      "bytes": 1167389,
+      "sha256": "1438ec15ad784c1b4a74455241ba5c62e552563fea7ec59e21274c3558116ef3"
+    },
+    {
+      "path": "data\\review\\p6-02-05-fetch-report.json",
+      "bytes": 2248,
+      "sha256": "ea5af1dfb89d4c132aa25065b3ecfd9fc9e469a6f8e27e408cad269ca0982ca3"
+    },
+    {
+      "path": "data\\review\\p6-02-05-summary.json",
+      "bytes": 1763,
+      "sha256": "9acf2b2895908e657144f2618d4da1e08d7f0925f38492b7b77a1d2124cfd9a1"
+    },
+    {
+      "path": "data\\review\\p6-02-05-supplemental-fetch-report.json",
+      "bytes": 2266,
+      "sha256": "a7ff099804dbf0e986956c7f0a6db0d6055f5c9b94198d1ec6e0776cf147027c"
+    },
+    {
+      "path": "data\\review\\p6-02-05-website-compatibility.json",
+      "bytes": 324,
+      "sha256": "57dd3f9515ec4e90bb7e32c29da7811042732f6cbc92af68dbeb9cd5ed6c109c"
+    },
+    {
+      "path": "data\\review\\p6-03-archive-evidence-audit.json",
+      "bytes": 468,
+      "sha256": "d977705ab09838070ab93cf25c3dcbd3cfd2a3b15ef9910917386a4e5c05bc77"
+    },
+    {
+      "path": "data\\review\\p6-03-dataset-review.json",
+      "bytes": 825180,
+      "sha256": "f0d93f783ac590ab38086a38113dee60ca6790e44c456204b98eb349450b2ce9"
+    },
+    {
+      "path": "data\\review\\p6-03-input-overlap-review.json",
+      "bytes": 1208,
+      "sha256": "6aaeff35f6153f5fe5cfeeaa8270319024a06afeb13ec0be7428c1c815382b7c"
+    },
+    {
+      "path": "data\\review\\p6-03-integrity-summary.json",
+      "bytes": 7269,
+      "sha256": "d299132aef5b2713ef25db2d1768f332c00825a2d90eac4ad6294efaefeaa773"
+    },
+    {
+      "path": "data\\review\\p6-03-record-changes.json",
+      "bytes": 2587,
+      "sha256": "b9838dec1dc7758f8bffc50680dca398f7bcb5365b63aa4ac8a999cdd0acab75"
+    },
+    {
+      "path": "data\\review\\p6-03-source-quality-review.json",
+      "bytes": 1311,
+      "sha256": "85296438356923fe6d07345ee97b7afa79d561b9877f1ffbe1f1ff4bead90176"
+    },
+    {
+      "path": "data\\review\\p6-04-coverage-balance.json",
+      "bytes": 9007,
+      "sha256": "c4427f19e57a6944497c1695be7ba2e09f097bf1f2748e9a01afb1a03ce48299"
+    },
+    {
+      "path": "data\\review\\p6-04-site-relationships.json",
+      "bytes": 4655,
+      "sha256": "ce74bd10425f5e529b09aeb4f7bcfdddbd4f340ad23e5a27c557860671ddf424"
+    },
+    {
+      "path": "data\\review\\p6-05-final-image-review.json",
+      "bytes": 6900,
+      "sha256": "2a6f47c95eedf87ab5b11ba317f8efd58516542f806fc13bfec7babe48123c78"
+    },
+    {
+      "path": "data\\review\\p6-05-image-technical-review.json",
+      "bytes": 73138,
+      "sha256": "01be4bd3e40b0d0c02462ca7cda1c28c492e2dfdd0ec474d4111783474ba0ab9"
+    }
+  ],
+  "structured_events_included": 153,
+  "active_evidence_only": true
+}
