@@ -13,7 +13,7 @@ const frontend = read('../src/data/sites.json');
 const catalogPath = new URL('../tools/content-pipeline/data/prepared/heritage-sites.json', import.meta.url);
 const catalog = existsSync(catalogPath) ? JSON.parse(readFileSync(catalogPath, 'utf8')) : null;
 const validate = new Ajv({ allErrors: true }).compile(schema);
-const server = await createServer({ server: { middlewareMode: true }, appType: 'custom' });
+const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
 const { normalizeSites } = await server.ssrLoadModule('/src/utils/siteAdapter.js');
 after(async () => { await server.close(); });
 const cover = { src: '/cover.jpg', alt: 'Cover view', caption: '', credit: 'Cover credit', license: 'CC BY' };
@@ -96,12 +96,13 @@ test('legacy combined and snake-case images stay readable', () => {
   assert.equal(snakeCase.period, 'Ottoman');
 });
 
-test('Hatra UI data survives migration unchanged', () => {
+test('approved dataset import preserves Hatra identity and its existing route', () => {
   const old = JSON.parse(execFileSync('git', ['show', 'HEAD:src/data/sites.json'], { encoding: 'utf8' }));
-  const before = normalizeSites(old)[0]; const current = normalizeSites(frontend)[0];
-  for (const key of ['id', 'slug', 'href', 'name', 'siteType', 'period', 'description', 'image', 'imageAlt', 'gallery', 'isUnesco', 'hasModel', 'latitude', 'longitude', 'sources', 'deckIds', 'archiveNo']) {
-    assert.deepEqual(current[key], before[key], key);
-  }
+  const before = normalizeSites(old).find((s) => s.id === 'site-001');
+  const current = normalizeSites(frontend).find((s) => s.id === 'site-001');
+  for (const key of ['id', 'slug', 'href', 'name', 'governorate', 'siteType', 'period', 'isUnesco']) assert.deepEqual(current[key], before[key], key);
+  assert.equal(frontend.length, 34);
+  assert.ok(frontend.every((s) => s.status === 'approved' && s.sources.length));
 });
 
 

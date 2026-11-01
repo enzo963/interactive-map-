@@ -3,6 +3,7 @@ export const PRIMARY_NAV = [
   { label: 'Explore Cards', href: '/explore' },
   { label: 'Map', href: '/map' },
   { label: 'Decks', href: '/decks' },
+  { label: 'UNESCO', href: '/unesco' },
   { label: '3D Archive', href: '/3d-archive' },
   { label: 'About', href: '/about' },
 ];

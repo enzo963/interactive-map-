@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import SmartLink from '../common/SmartLink';
-import { useLocation } from '../../router/RouterContext';
+import { useLocation, useNavigate } from '../../router/RouterContext';
 import { PRIMARY_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
 
@@ -17,6 +17,8 @@ function BrandMark() {
 }
 
 export default function Navbar() {
+  const navigate = useNavigate();
+  const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const { pathname } = useLocation();
   const isCurrent = (href) => {
@@ -37,7 +39,9 @@ export default function Navbar() {
 
   return (
     <header className={`hb-header ${open ? 'is-open' : ''}`.trim()}>
-      <a className="hb-skip" href="#main">Skip to content</a>
+      <a className="hb-skip" href="#main">
+        Skip to content
+      </a>
       <div className="hb-container hb-header__bar">
         <SmartLink href="/" className="hb-brand">
           <BrandMark />
@@ -54,6 +58,31 @@ export default function Navbar() {
           {open ? 'Close' : 'Menu'}
         </button>
 
+        <form
+          className="hb-global-search"
+          role="search"
+          aria-label="Global heritage search"
+          onSubmit={(event) => {
+            event.preventDefault();
+            const q = query.trim();
+            navigate(`/explore${q ? `?${new URLSearchParams({ q })}` : ''}`);
+            setOpen(false);
+          }}
+        >
+          <label className="sr-only" htmlFor="global-heritage-search">
+            Search heritage by name or alternative name
+          </label>
+          <input
+            id="global-heritage-search"
+            name="q"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Find a heritage site"
+            enterKeyHint="search"
+          />
+          <button type="submit">Search</button>
+        </form>
         <nav id="primary-nav" className="hb-nav" aria-label="Primary" onClick={closeOnLink}>
           <ul className="hb-nav__list">
             {PRIMARY_NAV.map((item) => (

@@ -1,3 +1,4 @@
+import { isApprovedSite, hasVerifiedModel } from '../utils/modelResources';
 import { getGovernorateKey } from './governorates';
 
 /**
@@ -37,10 +38,10 @@ export const getGovernorateBack = (governorateName) =>
  * `flag: true` also exposes the deck as a "must have" filter on Explore and the Map.
  */
 export const SPECIAL_COLLECTIONS = [
-  { id: 'unesco', title: 'UNESCO Heritage', shortTitle: 'UNESCO', blurb: 'Sites recorded with a UNESCO designation.', back: 'formal', flag: true, rule: (site) => site.isUnesco },
+  { id: 'unesco', title: 'UNESCO Heritage', shortTitle: 'UNESCO', blurb: 'Approved records for inscribed UNESCO World Heritage properties.', back: 'formal', flag: true, rule: (site) => isApprovedSite(site) && site.isUnesco === true },
   { id: 'lost', title: 'Lost Heritage', blurb: 'Sites recorded as lost or destroyed.', back: 'fragment', flag: true, rule: (site) => site.isLost },
   { id: 'our-work', title: 'Our Documentation', blurb: 'Sites documented first-hand by the project.', back: 'survey', flag: true, rule: (site) => site.hasOurWork },
-  { id: '3d', title: '3D Archive', blurb: 'Sites with a 3D model in the archive.', back: 'wireframe', flag: true, rule: (site) => site.hasModel },
+  { id: '3d', title: '3D Archive', blurb: 'Approved sites with verified models or digital reconstructions.', back: 'wireframe', flag: true, rule: hasVerifiedModel },
 ];
 
 /**
@@ -56,4 +57,4 @@ export const RESERVED_DECK_IDS = ['all', ...SPECIAL_COLLECTIONS.map((c) => c.id)
 
 /** True when the site belongs to the collection by rule OR by an explicit `deckIds` entry. */
 export const isCollectionMember = (site, collection) =>
-  Boolean(collection.rule?.(site)) || site.deckIds.includes(collection.id);
+  ['unesco', '3d'].includes(collection.id) ? Boolean(collection.rule?.(site)) : Boolean(collection.rule?.(site)) || site.deckIds.includes(collection.id);

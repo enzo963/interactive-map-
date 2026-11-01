@@ -1,4 +1,7 @@
 import { useMemo, useState } from 'react';
+import DiscoveryBrowse from '../components/explore/DiscoveryBrowse';
+import SmartLink from '../components/common/SmartLink';
+import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
 import PageHeader from '../components/common/PageHeader';
 import SearchField from '../components/common/SearchField';
 import CardGrid from '../components/common/CardGrid';
@@ -7,7 +10,7 @@ import ActiveFilters from '../components/explore/ActiveFilters';
 import useSiteFilters from '../hooks/useSiteFilters';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
-import { SORTS, applyFilters, getFacets, sortSites } from '../utils/filterSites';
+import { SORTS, applyFilters, getFacets, sortSites, serializeFilters } from '../utils/filterSites';
 import { cardsLabel } from '../utils/archiveStats';
 import '../styles/pages.css';
 
@@ -21,14 +24,33 @@ export default function Explore() {
   const results = useMemo(() => sortSites(applyFilters(sites, filters), filters), [sites, filters]);
   const defaultSort = filters.q.trim() ? 'relevance' : 'archive';
 
+  const governorateKey = filters.governorates.length === 1 ? getGovernorateKey(filters.governorates[0]) : '';
+  const governorateName = governorateKey
+    ? (GOVERNORATE_NAMES[governorateKey] ??
+      sites.find((s) => getGovernorateKey(s.governorate) === governorateKey)?.governorate ??
+      filters.governorates[0])
+    : '';
+  const totalInGovernorate = sites.filter((s) => getGovernorateKey(s.governorate) === governorateKey).length;
+  const mapParams = serializeFilters(filters);
+  if (governorateKey) mapParams.set('region', governorateKey);
+  const showResults = () => {
+    setPanelOpen(false);
+    document.getElementById('explore-results')?.focus();
+  };
+
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
         eyebrow="Explore Cards"
-        title="Search the archive"
-        lede="Every record is a card. Search by name, place, period or archive number, then narrow by type, governorate and digital assets."
+        title={governorateName ? `${governorateName} heritage` : 'Search the archive'}
+        lede={
+          governorateName
+            ? `${totalInGovernorate} heritage sites recorded in ${governorateName}. Search or filter the collection below.`
+            : 'Find a place by its name or alternative name, then explore its governorate, heritage category and historical period.'
+        }
       />
 
+      <DiscoveryBrowse sites={sites} />
       <div className="hb-container hb-explore">
         <aside className="hb-explore__side" aria-label="Filters">
           <button
@@ -41,11 +63,24 @@ export default function Explore() {
             Filters{activeCount > 0 ? ` (${activeCount})` : ''}
           </button>
           <div id="explore-filters" className={`hb-explore__panel ${panelOpen ? 'is-open' : ''}`.trim()}>
-            <FilterPanel facets={facets} filters={filters} onChange={setFilters} onClear={clear} activeCount={activeCount} />
+            <FilterPanel
+              facets={facets}
+              filters={filters}
+              onChange={setFilters}
+              onClear={clear}
+              activeCount={activeCount}
+              onDone={showResults}
+              resultCount={results.length}
+            />
           </div>
         </aside>
 
         <div className="hb-explore__main">
+          <div className="hb-explore__context">
+            <SmartLink className="hb-link" href={`/map?${mapParams}`}>
+              {governorateName ? `View ${governorateName} on the map` : 'View these results on the map'}
+            </SmartLink>
+          </div>
           <SearchField value={filters.q} onChange={(q) => setFilters({ q })} />
           <ActiveFilters filters={filters} facets={facets} onChange={setFilters} />
 
@@ -56,23 +91,41 @@ export default function Explore() {
             </p>
             <label className="hb-sort">
               <span>Sort by</span>
-              <select value={filters.sort || defaultSort} onChange={(event) => setFilters({ sort: event.target.value })}>
+              <select
+                value={filters.sort || defaultSort}
+                onChange={(event) => setFilters({ sort: event.target.value })}
+              >
                 {filters.q.trim() && <option value="relevance">Relevance</option>}
                 {SORTS.map((sort) => (
-                  <option value={sort.id} key={sort.id}>{sort.label}</option>
+                  <option value={sort.id} key={sort.id}>
+                    {sort.label}
+                  </option>
                 ))}
               </select>
             </label>
           </div>
 
-          <h2 className="sr-only">Results</h2>
+          <h2 id="explore-results" tabIndex={-1} className="sr-only">
+            {governorateName ? `${governorateName} heritage results` : 'Results'}
+          </h2>
           {results.length > 0 ? (
             <CardGrid key={JSON.stringify(filters)} sites={results} />
           ) : (
             <div className="hb-empty">
-              <p className="hb-empty__title">No cards match these filters.</p>
-              <p>Try a different spelling, or remove a filter.</p>
-              <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>Clear all filters</button>
+              <h2 className="hb-empty__title">
+                {filters.q.trim()
+                  ? `No sites found for “${filters.q.trim()}”`
+                  : 'No sites match these filters'}
+              </h2>
+              <p>Try a site’s alternative name, check the spelling, or remove a filter.</p>
+              {filters.q && (
+                <button type="button" className="hb-btn" onClick={() => setFilters({ q: '' })}>
+                  Clear search
+                </button>
+              )}
+              <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>
+                Clear all filters
+              </button>
             </div>
           )}
         </div>

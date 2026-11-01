@@ -14,9 +14,12 @@ function filterText(sites, selection, field, normalize = normalizeSearchText) {
 
 function filterFlag(sites, value, field) {
   if (value == null || value === '' || value === 'all') return [...sites];
+  const canonical = field === 'isUnesco' ? 'unesco' : 'has3D';
+  const read = (site) => (Object.hasOwn(site, canonical) ? site[canonical] : site[field]);
+  if (value === 'unknown') return sites.filter((site) => read(site) == null);
   if (typeof value !== 'boolean') throw new TypeError(`${field} filter must be true, false, or null.`);
   // A missing flag is unknown: it does not qualify as an explicit false.
-  return sites.filter((site) => site[field] === value);
+  return sites.filter((site) => read(site) === value);
 }
 
 /** Governorate names and existing aliases (e.g. Arbil / Erbil) are equivalent. */
@@ -30,7 +33,13 @@ export function filterByCategory(sites, category) {
 }
 
 export function filterByPeriod(sites, period) {
-  return filterText(sites, period, 'period');
+  const choices = selections(period);
+  return sites.filter(
+    (site) =>
+      choices.length === 0 ||
+      [site.period, site.civilization].some((value) => choices.includes(normalizeSearchText(value))) ||
+      (choices.includes('__unknown__') && !site.period?.trim() && !site.civilization?.trim()),
+  );
 }
 
 export function filterByUnesco(sites, unesco = null) {
@@ -48,6 +57,11 @@ export function filterBy3D(sites, has3D = null) {
  * Compose with searchSites(sites, query). No UI, routing, or data changes.
  */
 export function filterSites(sites, { governorate, category, period, unesco = null, has3D = null } = {}) {
-  return filterBy3D(filterByUnesco(filterByPeriod(filterByCategory(
-    filterByGovernorate(sites, governorate), category), period), unesco), has3D);
+  return filterBy3D(
+    filterByUnesco(
+      filterByPeriod(filterByCategory(filterByGovernorate(sites, governorate), category), period),
+      unesco,
+    ),
+    has3D,
+  );
 }

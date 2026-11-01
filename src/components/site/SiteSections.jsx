@@ -1,4 +1,4 @@
-import { getModelEmbed, getVideoEmbed } from '../../utils/media';
+import { getVideoEmbed } from '../../utils/media';
 import '../../styles/site-details.css';
 import '../../styles/phase4.css';
 
@@ -85,30 +85,7 @@ export function Timeline({ items }) {
   );
 }
 
-export function ModelViewer({ url, name }) {
-  const embed = getModelEmbed(url);
-  if (!embed) return null;
-  if (embed.type === 'iframe') {
-    return (
-      <div className="hb-embed">
-        <iframe
-          src={embed.src}
-          title={`3D model of ${name}`}
-          loading="lazy"
-          allow="fullscreen; xr-spatial-tracking"
-          referrerPolicy="no-referrer"
-          sandbox="allow-scripts allow-same-origin allow-popups"
-        />
-      </div>
-    );
-  }
-  return (
-    <p className="hb-prose">
-      A {embed.format} model is available for this site.{' '}
-      <a className="hb-link" href={embed.src} download>Download the model</a>
-    </p>
-  );
-}
+export { default as ModelViewer } from './ModelViewer';
 
 export function VideoPlayer({ url, name }) {
   const embed = getVideoEmbed(url);

@@ -1,5 +1,5 @@
-import DeckPage from "./DeckPage";
+import HeritageCollection from './HeritageCollection';
 
-export default function ThreeDArchive(props) {
-    return <DeckPage {...props} deckId="3d" />;
+export default function ThreeDArchive() {
+  return <HeritageCollection kind="3d" />;
 }

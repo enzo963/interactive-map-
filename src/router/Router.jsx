@@ -46,6 +46,10 @@ export function Routes({ routes, notFound: NotFound }) {
   const Page = match ? match.route.component : NotFound;
 
   useEffect(() => {
+    if (navType === 'init' && location.hash) {
+      document.getElementById(location.hash.slice(1))?.scrollIntoView();
+      return;
+    }
     if (navType === 'init' || navType === 'pop' || !scroll) return;
     if (location.hash) {
       const target = document.getElementById(location.hash.slice(1));

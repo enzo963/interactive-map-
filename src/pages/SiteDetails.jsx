@@ -9,7 +9,9 @@ import NotFound from './NotFound';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
 import { getDecksForSite } from '../utils/decks';
-import { getRelatedSites } from '../utils/related';
+import ShareSite from '../components/site/ShareSite';
+import { getSiteShareUrl } from '../utils/siteLinks';
+import { getRelatedSiteMatches } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
 import '../styles/site-details.css';
 import '../styles/phase4.css';
@@ -124,7 +126,7 @@ function ImageAttribution({ image }) {
 export default function SiteDetails({ params }) {
   const sites = useMemo(() => getAllSites(), []);
   const site = useMemo(() => sites.find((s) => s.slug === params.slug) ?? null, [sites, params.slug]);
-  const related = useMemo(() => (site ? getRelatedSites(site, sites, 4) : []), [site, sites]);
+  const related = useMemo(() => (site ? getRelatedSiteMatches(site, sites, 4) : []), [site, sites]);
   const neighbours = useMemo(
     () => (site ? sites.filter((s) => s.id !== site.id && getGovernorateKey(s.governorate) === getGovernorateKey(site.governorate)) : []),
     [site, sites],
@@ -180,7 +182,7 @@ export default function SiteDetails({ params }) {
     site.timeline.length > 0 && { id: 'timeline', title: 'Historical timeline', body: <Timeline items={site.timeline} /> },
     { id: 'gallery', title: 'Gallery', body: media.length > 0 ? <><p className="hb-site__section-intro">{media.length} {media.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <p className="hb-site__section-intro">No images are available for this site yet.</p> },
     hasLocation && { id: 'location', title: 'Location', body: <SiteLocation site={site} neighbours={neighbours} /> },
-    site.modelUrl && { id: 'model', title: '3D model', body: <ModelViewer url={site.modelUrl} name={site.name} /> },
+    (site.modelResources.length > 0 || site.modelUrl) && { id: 'model', title: '3D model', body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
     site.videoUrl && { id: 'video', title: 'Video', body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
     hasDocumentation && {
       id: 'documentation',
@@ -202,8 +204,8 @@ export default function SiteDetails({ params }) {
         <>
           <p className="hb-site__section-intro">Continue exploring with related records from the archive.</p>
           <ul className="hb-related">
-            {related.map((other) => (
-              <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /></li>
+            {related.map(({ site: other, reasons }) => (
+              <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /><p className="hb-related__reason">{reasons.join(' · ')}</p></li>
             ))}
           </ul>
         </>
@@ -216,6 +218,7 @@ export default function SiteDetails({ params }) {
   return (
     <main id="main" tabIndex={-1} className="hb-page hb-site hb-site--structured">
       <style href="hb-site-details-structure" precedence="components">{siteDetailsStyles}</style>
+      <link rel="canonical" href={getSiteShareUrl(site)} />
       <div className="hb-container">
         <nav className="hb-crumbs" aria-label="Breadcrumb">
           <ol>
@@ -231,12 +234,13 @@ export default function SiteDetails({ params }) {
             <h1 className="hb-site__title">{site.name}</h1>
             {site.shortDescription && <p className="hb-site__lede">{site.shortDescription}</p>}
 
-            {(site.isUnesco || site.hasModel) && (
+            {(site.isUnesco || site.modelResources.length > 0) && (
               <ul className="hb-site__badges" aria-label="Designation and digital assets">
                 {site.isUnesco && <li><span className="hb-site__badge">UNESCO</span></li>}
-                {site.hasModel && <li>{site.modelUrl ? <a className="hb-site__badge" href="#model">View 3D model</a> : <span className="hb-site__badge">3D documented · model link pending</span>}</li>}
+                {site.modelResources.length > 0 && <li>{site.modelResources.length ? <a className="hb-site__badge" href="#model">View 3D model</a> : <span className="hb-site__badge">3D documented · model link pending</span>}</li>}
               </ul>
             )}
+            <ShareSite key={site.id} site={site} />
           </div>
           <div className="hb-site__card">
             <HeritageCard site={site} headingLevel={null} interactive={false} priority />

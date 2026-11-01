@@ -196,7 +196,7 @@ class MultiSourceTests(unittest.TestCase):
             build_evidence_view(self.site, {'siteId': 'other', 'assertions': []}, EvidenceRepository(self.root / 'data'))
 
     def test_cli_writes_separate_review_copy_and_preserves_inputs(self):
-        sitepath, claimpath, output = self.root/'site.json', self.root/'claims.json', self.root/'review.json'
+        sitepath, claimpath, output = self.root/'site.json', self.root/'claims.json', self.root/'review.json' 
         self.storage.save_json(sitepath, self.site)
         self.storage.save_json(claimpath, {'siteId': 'site-test', 'assertions': [self.claim()]})
         before = sitepath.read_bytes()

@@ -11,7 +11,7 @@ import { groupByGovernorate } from './groupDecks';
  */
 const withSites = (def, kind, sites) => {
   const members = sites.filter((site) => isCollectionMember(site, def));
-  return { ...def, kind, sites: members, count: members.length, href: `/decks/${def.id}` };
+  return { ...def, kind, sites: members, count: members.length, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` };
 };
 
 export const getSpecialDecks = (sites) => SPECIAL_COLLECTIONS.map((def) => withSites(def, 'special', sites));
@@ -50,10 +50,10 @@ export function getDecksForSite(site) {
     decks.push({ id, title: `${site.governorate} Deck`, href: `/decks/${id}` });
   }
   for (const def of SPECIAL_COLLECTIONS) {
-    if (isCollectionMember(site, def)) decks.push({ id: def.id, title: def.title, href: `/decks/${def.id}` });
+    if (isCollectionMember(site, def)) decks.push({ id: def.id, title: def.title, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` });
   }
   for (const def of getThematicDefinitions()) {
-    if (site.deckIds.includes(def.id)) decks.push({ id: def.id, title: def.title, href: `/decks/${def.id}` });
+    if (site.deckIds.includes(def.id)) decks.push({ id: def.id, title: def.title, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` });
   }
   return decks;
 }

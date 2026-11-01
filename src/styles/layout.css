@@ -118,3 +118,19 @@
 @media (max-width: 40rem) {
   .hb-footer__grid { grid-template-columns: 1fr; }
 }
+
+/* Global search stays visible; the mobile menu and filters occupy page flow. */
+.hb-header__bar { display: grid; grid-template-columns: auto 1fr; grid-template-areas: 'brand nav' 'search search'; gap: .5rem 1.5rem; padding-block: .65rem; }
+.hb-brand { grid-area: brand; }
+.hb-nav { grid-area: nav; justify-self: end; }
+.hb-global-search { grid-area: search; display: flex; width: min(100%, 38rem); justify-self: end; min-width: 0; gap: .5rem; }
+.hb-global-search input { min-width: 0; flex: 1; min-height: 2.75rem; padding: .55rem .75rem; font: inherit; font-size: 1rem; border: 1px solid var(--hb-rule-strong); border-radius: 2px; color: var(--hb-ink); background: var(--hb-paper-raised); }
+.hb-global-search button { min-height: 2.75rem; padding: .55rem 1rem; border: 1px solid var(--hb-ink); background: var(--hb-ink); color: var(--hb-paper); border-radius: 2px; font: inherit; cursor: pointer; }
+@media (max-width: 62rem) {
+  .hb-header { position: static; }
+  .hb-header__bar { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: 'brand toggle' 'search search' 'nav nav'; }
+  .hb-header__toggle { grid-area: toggle; }
+  .hb-brand__name { font-size: 1.15rem; }
+  .hb-nav { position: static; justify-self: stretch; padding: .75rem 0; border: 0; }
+  .hb-global-search { width: 100%; }
+}

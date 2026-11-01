@@ -51,6 +51,7 @@ export const GOVERNORATE_NAMES = {
 
 /** Spelling variants -> canonical key above. */
 const ALIASES = {
+  ninewa: 'nineveh',
   ninawa: 'nineveh',
   ninevah: 'nineveh',
   dohuk: 'duhok',

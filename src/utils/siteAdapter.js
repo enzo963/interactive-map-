@@ -3,6 +3,7 @@ import { formatYearLabel, getSiteAgeYears } from './siteYears';
 import { getGovernorateCode } from '../data/governorates';
 import { resolveImage } from './resolveImage';
 import slugify from './slugify';
+import { normalizeModelResources } from './modelResources';
 
 /**
  * Maps canonical sites.json fields to the existing component API. Legacy field
@@ -217,11 +218,13 @@ export function normalizeSites(input) {
     const deckIds = normalizeDeckIds(raw.decks ?? raw.deck_ids);
     const ageYears = getSiteAgeYears(raw);
 
-    const unescoValue = raw.unesco ?? raw.unesco_status;
-    const isUnesco =
-      typeof unescoValue === 'boolean'
-        ? unescoValue
-        : unescoValue != null && !UNESCO_NEGATIVE_VALUES.includes(String(unescoValue).trim().toLowerCase());
+    const unescoValue = Object.hasOwn(raw, 'unesco') ? raw.unesco : raw.unesco_status;
+    const unescoText = String(unescoValue ?? '').trim().toLowerCase();
+    const isUnesco = typeof unescoValue === 'boolean'
+      ? unescoValue
+      : ['world-heritage', 'world heritage', 'world heritage site', 'unesco world heritage site', 'inscribed', 'listed', 'unesco'].includes(unescoText);
+    const canonicalUnesco = typeof unescoValue === 'boolean' ? unescoValue : isUnesco ? true
+      : UNESCO_NEGATIVE_VALUES.includes(unescoText) && !['', 'unknown', 'n/a', 'na'].includes(unescoText) ? false : null;
 
     const heritageStatus = String(raw.heritage_status ?? '').toLowerCase();
     const isLost = deckIds.includes('lost') || deckIds.includes('lost-heritage') || /\b(lost|destroyed)\b/.test(heritageStatus);
@@ -240,7 +243,8 @@ export function normalizeSites(input) {
     const ourWorkTypes = unique([...toList(raw.our_work_types), ...(documentationMeta?.methods ?? [])]);
 
     const siteType = text(raw.category ?? raw.site_type);
-    const hasModel = hasValue(raw.has3D ?? raw.has_3d) || Boolean(modelUrl);
+    const modelResources = normalizeModelResources(raw);
+    const hasModel = hasValue(raw.has3D ?? raw.has_3d) || Boolean(modelUrl) || modelResources.length > 0;
 
     return {
       id: String(raw.id ?? slug),
@@ -252,6 +256,7 @@ export function normalizeSites(input) {
       country: raw.country ?? 'Iraq',
       latitude: toCoordinate(raw.latitude),
       longitude: toCoordinate(raw.longitude),
+      alternativeNames: [...new Set(['alternativeNames', 'alternative_names', 'altNames', 'aliases'].flatMap((key) => Array.isArray(raw[key]) ? raw[key] : []).filter((name) => typeof name === 'string' && name.trim()))],
       siteType,
       category: siteType,
       period: raw.period ?? raw.historical_period ?? raw.civilization ?? '',
@@ -273,7 +278,8 @@ export function normalizeSites(input) {
       heritageStatus: raw.heritage_status ?? '',
       unescoStatus: typeof raw.unesco_status === 'string' ? raw.unesco_status : '',
       preservationStatus: text(raw.preservation_status),
-      verificationStatus: raw.verification_status ?? '',
+      status: raw.status ?? raw.verification_status ?? '',
+      verificationStatus: raw.verification_status ?? raw.status ?? '',
       lastVerified: formatDate(raw.last_verified ?? raw.verified_on),
       imageCredit: text(raw.image_credit ?? raw.main_image_credit ?? coverImage?.credit),
       mediaLicense: text(raw.media_license ?? raw.license ?? raw.licence ?? coverImage?.license),
@@ -284,6 +290,7 @@ export function normalizeSites(input) {
       galleryImages: gallery,
       images,
       modelUrl,
+      modelResources,
       videoUrl,
       digitalAssets,
       documentationMeta,
@@ -297,10 +304,10 @@ export function normalizeSites(input) {
 
       // Flags (evidence-based)
       isUnesco,
-      unesco: raw.unesco === null && !isUnesco ? null : isUnesco,
+      unesco: canonicalUnesco,
       isLost,
       hasModel,
-      has3D: raw.has3D === null && !hasModel ? null : hasModel,
+      has3D: hasModel ? true : typeof (raw.has3D ?? raw.has_3d) === 'boolean' ? false : null,
       hasVideo: hasValue(raw.has_video) || Boolean(videoUrl),
       hasOurWork: hasValue(raw.our_work) || ourWorkTypes.length > 0 || documentationMeta !== null,
       isFeatured: raw.featured === true,
