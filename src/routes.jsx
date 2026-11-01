@@ -5,6 +5,9 @@ import Decks from "./pages/Decks";
 import DeckPage from "./pages/DeckPage";
 import SiteDetails from "./pages/SiteDetails";
 import About from "./pages/About";
+import Methodology from "./pages/Methodology";
+import OurWork from "./pages/OurWork";
+import Contact from "./pages/Contact";
 import UnescoCollection from "./pages/UnescoCollection";
 import ThreeDArchive from "./pages/ThreeDArchive";
 
@@ -20,4 +23,7 @@ export const routes = [
   { path: "/unesco", component: UnescoCollection },
   { path: "/3d-archive", component: ThreeDArchive },
   { path: "/about", component: About },
+  { path: "/methodology", component: Methodology },
+  { path: "/our-work", component: OurWork },
+  { path: "/contact", component: Contact },
 ];

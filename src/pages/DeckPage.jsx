@@ -72,7 +72,7 @@ export default function DeckPage({ params, deckId }) {
   const [tier, setTier] = useState('all');
   const [sort, setSort] = useState('archive');
 
-  useDocumentTitle(deck ? `${deck.title} — Heritage Bridge` : 'Deck not found — Heritage Bridge');
+  useDocumentTitle(deck ? `${deck.title} — History in Cards` : 'Deck not found — History in Cards');
 
   const tiers = useMemo(
     () => (deck ? CARD_TYPES.map((type) => ({ type, count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),

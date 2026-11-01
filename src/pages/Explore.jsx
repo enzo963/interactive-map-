@@ -15,7 +15,7 @@ import { cardsLabel } from '../utils/archiveStats';
 import '../styles/pages.css';
 
 export default function Explore() {
-  useDocumentTitle('Explore Cards — Heritage Bridge');
+  useDocumentTitle('Explore Cards — History in Cards');
   const sites = useMemo(() => getAllSites(), []);
   const { filters, setFilters, clear, activeCount } = useSiteFilters();
   const [panelOpen, setPanelOpen] = useState(false);

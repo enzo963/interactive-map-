@@ -6,9 +6,10 @@ import { CARD_TYPES } from '../data/cardTypes';
 import { CARD_TYPE_NOTES } from '../data/cardTypeNotes';
 import { makeSpecimen } from '../utils/specimen';
 import '../styles/pages.css';
+import '../styles/project-pages.css';
 
 const LEGEND = [
-  ['Archive number', 'A catalogue identifier. “HB” is Heritage Bridge, then a two-letter governorate code, then the record number.'],
+  ['Archive number', 'A catalogue identifier: the archive’s legacy “HB” prefix, then a two-letter governorate code, then the record number. Existing identifiers are retained so records stay consistent.'],
   ['Card type', 'The age class of the site, from Type I to Type V.'],
   ['Image', 'The main image of the site, when one is available.'],
   ['Name and category', 'What the site is called and what kind of site it is.'],
@@ -17,18 +18,50 @@ const LEGEND = [
 ];
 
 export default function About() {
-  useDocumentTitle('About the archive — Heritage Bridge');
+  useDocumentTitle('About History in Cards');
   const specimen = makeSpecimen(CARD_TYPES[CARD_TYPES.length - 1]);
 
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
-        eyebrow="About the archive"
-        title="A digital heritage archive, one card at a time"
-        lede="Heritage Bridge is an interactive archive of historical, archaeological, architectural and cultural heritage sites in Iraq, beginning with the north."
+        eyebrow="The project"
+        title="About History in Cards"
+        lede="Connecting people with Iraq’s heritage through accessible records, responsible research and digital documentation."
       />
 
       <div className="hb-container hb-about">
+        <section className="hb-project__intro" aria-labelledby="about-mission">
+          <div>
+            <p className="hb-eyebrow">Our mission</p>
+            <h2 id="about-mission" className="hb-project__headline">A bridge between places, their histories and the people who discover them.</h2>
+          </div>
+          <div className="hb-project__prose">
+            <p>History in Cards is an interactive digital archive of Iraq’s historical, archaeological, religious, architectural and cultural places. Each site becomes a heritage card that opens a fuller record of its history, location and sources.</p>
+            <p>Our mission is to make heritage easier to discover and understand, while keeping the evidence behind each record visible. The archive brings geographical exploration, historical context and digital resources together for visitors, students, researchers and institutions.</p>
+          </div>
+        </section>
+
+        <section className="hb-project__section" aria-labelledby="about-goals">
+          <h2 id="about-goals" className="hb-section-title">What we are working toward</h2>
+          <ul className="hb-project__cards">
+            <li><h3>Discovery and learning</h3><p>Help people move from a familiar place to a new story through the map, collections and historical periods.</p></li>
+            <li><h3>Responsible research</h3><p>Connect descriptions to their sources, acknowledge gaps and keep uncertain information open to review.</p></li>
+            <li><h3>Digital preservation</h3><p>Build a foundation for photographs, surveys and verified 3D resources that support understanding and future study.</p></li>
+          </ul>
+        </section>
+
+        <section className="hb-project__section" aria-labelledby="about-scope">
+          <h2 id="about-scope" className="hb-section-title">Our current scope</h2>
+          <div className="hb-project__prose">
+            <p>The archive currently focuses on northern and central Iraq: Nineveh, Erbil, Duhok, Sulaymaniyah, Kirkuk, Baghdad and Salah al-Din. Coverage grows through research and review; it is not a complete inventory of every heritage place in these governorates.</p>
+            <p>A digital record supports access and learning. It does not replace conservation, local knowledge, specialist research or the care of a physical site. Our long-term goal is to connect these forms of knowledge through clear, well-sourced documentation.</p>
+          </div>
+          <div className="hb-project__actions">
+            <SmartLink className="hb-link" href="/map">Explore the geographic archive</SmartLink>
+            <SmartLink className="hb-link" href="/our-work">Discover our areas of work</SmartLink>
+          </div>
+        </section>
+
         <section className="hb-about__block" aria-labelledby="about-cards">
           <h2 id="about-cards" className="hb-section-title">How to read a card</h2>
           <div className="hb-about__split">
@@ -66,6 +99,7 @@ export default function About() {
             Each record shows its verification status and its sources where they are available. The patterns on card
             backs are original decoration. They are not archaeological evidence and do not reproduce historical symbols.
           </p>
+          <SmartLink className="hb-link" href="/methodology">Read our methodology and source standards</SmartLink>
         </section>
 
         <p className="hb-about__cta">

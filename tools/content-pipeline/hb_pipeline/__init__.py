@@ -1,3 +1,3 @@
-"""Heritage Bridge trusted-content pipeline."""
+"""History in Cards trusted-content pipeline."""
 
 __version__ = "0.1.1"

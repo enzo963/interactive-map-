@@ -132,7 +132,7 @@ export default function SiteDetails({ params }) {
     [site, sites],
   );
 
-  useDocumentTitle(site ? `${site.name} — Heritage Bridge` : 'Card not found — Heritage Bridge');
+  useDocumentTitle(site ? `${site.name} — History in Cards` : 'Card not found — History in Cards');
   if (!site) return <NotFound title="Card not found" message="That site is not in the archive." />;
 
   const { cardType } = site;

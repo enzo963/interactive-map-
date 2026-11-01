@@ -1,5 +1,5 @@
 import SmartLink from '../common/SmartLink';
-import { PRIMARY_NAV } from '../../data/navigation';
+import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
 
 export default function Footer() {
@@ -7,23 +7,33 @@ export default function Footer() {
     <footer className="hb-footer">
       <div className="hb-container hb-footer__grid">
         <div className="hb-footer__about">
-          <p className="hb-footer__name">Heritage Bridge</p>
+          <SmartLink href="/" className="hb-footer__name">History in Cards</SmartLink>
           <p className="hb-footer__text">
-            A digital archive of heritage sites in Iraq, beginning with the north. Every site is a card;
+            A growing digital archive of heritage sites in northern and central Iraq. Every site is a card;
             every card opens a record.
           </p>
         </div>
-        <nav aria-label="Footer">
+        <nav aria-label="Explore the archive">
+          <h2 className="hb-footer__heading">Explore</h2>
           <ul className="hb-footer__list">
-            {PRIMARY_NAV.map((item) => (
+            {[{ label: 'Home', href: '/' }, ...PRIMARY_NAV].map((item) => (
               <li key={item.href}>
                 <SmartLink href={item.href}>{item.label}</SmartLink>
               </li>
             ))}
           </ul>
         </nav>
+        <nav aria-label="About the project">
+          <h2 className="hb-footer__heading">Project</h2>
+          <ul className="hb-footer__list">
+            {[...PROJECT_NAV, { label: 'Our Documentation', href: '/decks/our-work' }].map((item) => (
+              <li key={item.href}><SmartLink href={item.href}>{item.label}</SmartLink></li>
+            ))}
+          </ul>
+        </nav>
         <p className="hb-footer__note">
-          Prototype. Records are subject to verification before publication.
+          Built from reviewed sources. Coverage is growing and records remain open to correction.
+          {' '}<SmartLink href="/methodology">Read our methodology</SmartLink>.
         </p>
       </div>
     </footer>

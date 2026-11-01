@@ -1,4 +1,4 @@
-const ORIGIN = 'https://heritage-bridge.invalid';
+const ORIGIN = 'https://history-in-cards.invalid';
 
 function parse(url) {
   try {

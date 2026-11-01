@@ -1,4 +1,4 @@
-# Heritage Bridge Content Pipeline — Phase 1.1
+# History in Cards Content Pipeline — Phase 1.1
 
 Phase 1.1 hardens the trusted-content ingestion foundation.
 

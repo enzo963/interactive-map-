@@ -13,7 +13,7 @@ from .utils import ensure_http_url, host_matches
 
 
 DEFAULT_USER_AGENT = (
-    "HeritageBridgeResearchBot/0.1.1 "
+    "HistoryInCardsResearchBot/0.1.1 "
     "(academic heritage research; respectful crawler; manual review required)"
 )
 

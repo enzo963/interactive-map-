@@ -26,7 +26,7 @@ export default function OurDocumentation({ sites }) {
         <div className="hb-docs__grid">
           <div className="hb-docs__text">
             <p className="hb-docs__lede">
-              Some sites are documented directly by Heritage Bridge. Their cards link to the methods and digital
+              Some sites are documented directly by History in Cards. Their cards link to the methods and digital
               assets recorded for them.
             </p>
             {types.length > 0 && (

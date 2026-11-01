@@ -13,7 +13,7 @@ import '../styles/collections.css';
 export default function HeritageCollection({ kind = 'unesco' }) {
   const digital = kind === '3d';
   const title = digital ? '3D Heritage Collection' : 'UNESCO World Heritage Collection';
-  useDocumentTitle(`${title} — Heritage Bridge`);
+  useDocumentTitle(`${title} — History in Cards`);
   const { filters, setFilters } = useSiteFilters();
   const sites = useMemo(
     () =>

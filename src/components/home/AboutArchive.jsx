@@ -16,7 +16,7 @@ export default function AboutArchive() {
         <div>
           <h2 id="about-home-title" className="hb-about-home__title">About the archive</h2>
           <p className="hb-about-home__lede">
-            Heritage Bridge is a digital archive of heritage sites in Iraq, beginning with the north.
+            History in Cards is a digital archive of heritage sites in Iraq, beginning with the north.
           </p>
           <SmartLink className="hb-link" href="/about">Read more about the archive</SmartLink>
         </div>

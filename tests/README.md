@@ -1,5 +1,18 @@
 # P5-00 integration tests
 
+## P6-17 through P6-21: project pages and navigation
+
+The integration suite covers direct links to `/about`, `/methodology`, `/our-work`
+and `/contact`, source-tier explanations, approved-only project documentation,
+unavailable contact channels, header/footer destinations, route aliases and trailing
+slashes, menu Escape/focus behavior, navigation dismissal and repeated global searches.
+
+Local verification on 2026-11-01: 82 tests passed and the optional real-source export
+test was skipped; lint and production build passed. Browser checks covered all four
+pages at 320/390/768/1440 px, plus mobile/desktop navigation and keyboard dismissal.
+Official email/social links are intentionally postponed; the contact page has no
+submission form. The existing model-viewer bundle-size warning remains.
+
 Run from the project root:
 
 ```powershell

@@ -3,7 +3,7 @@ import SmartLink from '../components/common/SmartLink';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
 export default function NotFound({ title = 'Card not found', message = 'We could not find that page in the archive.' }) {
-  useDocumentTitle(`${title} — Heritage Bridge`);
+  useDocumentTitle(`${title} — History in Cards`);
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader eyebrow="404" title={title} lede={message} />

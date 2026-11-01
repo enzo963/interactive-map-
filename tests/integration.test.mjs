@@ -79,6 +79,153 @@ beforeEach(() => {
 afterEach(async () => { await act(async () => root.unmount()); });
 after(async () => { await server.close(); dom.window.close(); });
 
+for (const [path, title] of [
+    ['/about', 'About History in Cards'], ['/methodology', 'Methodology & Sources'],
+    ['/our-work', 'Our Work'], ['/contact', 'Contact & Contribution'],
+]) {
+  test(`project pages: direct route ${path} renders its content`, async () => {
+    await mount(path);
+    assert.equal(all('main').length, 1);
+    assert.equal(all('h1').length, 1);
+    assert.equal($('h1').textContent, title);
+    assert.match(document.title, new RegExp(title));
+    for (const link of all('main a[href^="/"]')) {
+      assert.ok(matchRoute(routes, new URL(link.href).pathname), `Unresolved link: ${link.href}`);
+    }
+  });
+}
+
+test('project pages: About retains card guidance and states the regional scope', async () => {
+  await mount('/about');
+  for (const term of ['mission', 'Nineveh', 'Erbil', 'Duhok', 'Sulaymaniyah', 'Kirkuk', 'Baghdad', 'Salah al-Din', 'specimen']) {
+    assert.match($('main').textContent, new RegExp(term, 'i'));
+  }
+  assert.ok($('main a[href="/methodology"]'));
+  assert.ok($('main a[href="/our-work"]'));
+});
+
+test('project pages: methodology explains source tiers, evidence, uncertainty and approval', async () => {
+  await mount('/methodology');
+  const text = $('main').textContent;
+  for (const term of ['Tier 1', 'Tier 2', 'UNESCO', 'Wikimedia Commons', 'evidence', 'conflict', 'unknown', 'approval', 'license']) {
+    assert.match(text, new RegExp(term, 'i'));
+  }
+  assert.doesNotMatch(text, /hb_pipeline|data\/raw|SHA-256|trust_tier/);
+});
+
+test('project pages: contributions do not pretend an unavailable contact channel works', async () => {
+  await mount('/contact');
+  assert.match($('main').textContent, /contact details.*added later/i);
+  assert.match($('main').textContent, /not currently accept/i);
+  assert.match($('main').textContent, /permission/i);
+  assert.equal($('main form'), null);
+  assert.equal($('a[href^="mailto:"]'), null);
+});
+
+test('project pages: Our Work separates intended methods from approved documentation', async () => {
+  sites.splice(0);
+  await mount('/our-work');
+  for (const term of ['Photogrammetry', 'Digital reconstruction', '3D documentation', 'Research', 'preservation']) {
+    assert.match($('main').textContent, new RegExp(term, 'i'));
+  }
+  assert.match($('main').textContent, /no.*published.*documentation/i);
+  const records = normalizeSites([
+    { id: 'work-approved', name: 'Approved survey', governorate: 'Erbil', status: 'approved', our_work: true },
+    { id: 'work-draft', name: 'Unapproved survey', governorate: 'Erbil', status: 'needs-review', our_work: true },
+    { id: 'not-our-work', name: 'External research', governorate: 'Erbil', status: 'approved' },
+  ]);
+  sites.push(...records);
+  await navigate('/about');
+  await navigate('/our-work');
+  assert.equal(all('main .hb-card').length, 1);
+  assert.match($('main .hb-card').textContent, /Approved survey/);
+  assert.doesNotMatch($('main').textContent, /Unapproved survey|External research/);
+});
+
+test('project navigation: every major destination appears in the footer and project menu', async () => {
+  await mount('/about');
+  for (const href of ['/about', '/methodology', '/our-work', '/contact']) {
+    assert.ok($(`header details a[href="${href}"]`));
+    assert.ok($(`footer a[href="${href}"]`));
+  }
+  for (const href of ['/', '/explore', '/map', '/decks', '/unesco', '/3d-archive', '/decks/our-work']) {
+    assert.ok($(`footer a[href="${href}"]`), `Missing footer destination: ${href}`);
+  }
+  for (const link of all('header a[href^="/"], footer a[href^="/"]')) {
+    assert.ok(matchRoute(routes, new URL(link.href).pathname), `Unresolved navigation link: ${link.href}`);
+  }
+});
+
+for (const [path, href] of [
+    ['/decks/unesco', '/unesco'], ['/decks/3d', '/3d-archive'],
+    ['/decks/our-work', '/decks'], ['/sites/hatra', '/explore'], ['/methodology', '/methodology'],
+]) {
+  test(`project navigation: ${path} highlights exactly one destination`, async () => {
+    await mount(path);
+    const current = all('header a[aria-current="page"]');
+    assert.equal(current.length, 1, path);
+    assert.equal(current[0].getAttribute('href'), href);
+  });
+}
+
+test('project navigation: Escape closes project disclosure then mobile menu and restores focus', async () => {
+  await mount('/about');
+  const toggle = $('.hb-header__toggle');
+  await click(toggle);
+  const disclosure = $('header details');
+  assert.ok(disclosure, 'Project disclosure must exist');
+  await click(disclosure.querySelector('summary'));
+  assert.equal(disclosure.open, true);
+  disclosure.querySelector('a').focus();
+  await act(async () => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+  assert.equal(disclosure.open, false);
+  assert.equal(document.activeElement, disclosure.querySelector('summary'));
+  assert.equal(toggle.getAttribute('aria-expanded'), 'true');
+  await act(async () => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+  assert.equal(toggle.getAttribute('aria-expanded'), 'false');
+  assert.equal(document.activeElement, toggle);
+});
+
+test('project navigation: same-page links and history changes close menus', async () => {
+  await mount('/about');
+  const toggle = $('.hb-header__toggle');
+  await click(toggle);
+  await click($('header details summary'));
+  await click($('header details a[href="/about"]'));
+  assert.equal(toggle.getAttribute('aria-expanded'), 'false');
+  assert.equal($('header details').open, false);
+  await click(toggle);
+  await click($('header details summary'));
+  await navigate('/methodology');
+  assert.equal($('.hb-header__toggle').getAttribute('aria-expanded'), 'false');
+  assert.equal($('header details').open, false);
+});
+
+test('project navigation: repeated global searches retain input value and keyboard focus', async () => {
+  await mount('/explore');
+  for (const value of ['Hatra', 'Erbil']) {
+    const input = $('#global-heritage-search');
+    input.focus();
+    await act(async () => {
+      Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set.call(input, value);
+      input.dispatchEvent(new window.Event('input', { bubbles: true }));
+    });
+    await act(async () => $('.hb-global-search').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })));
+    assert.equal($('#global-heritage-search').value, value);
+    assert.equal(new URLSearchParams(window.location.search).get('q'), value);
+    if (value === 'Erbil') assert.equal(document.activeElement, $('#global-heritage-search'));
+  }
+});
+
+for (const [path, href] of [['/about/', '/about'], ['/decks/unesco/', '/unesco']]) {
+  test(`project navigation: trailing slash ${path} highlights its destination`, async () => {
+    await mount(path);
+    const current = all('header a[aria-current="page"]');
+    assert.equal(current.length, 1);
+    assert.equal(current[0].getAttribute('href'), href);
+  });
+}
+
 test('selected site regression: Home → Explore card → Site Details → governorate deck', async () => {
   await mount();
   assert.match($('h1').textContent, /Discover history/);

@@ -52,7 +52,7 @@ function DeckSection({ id, title, description, decks, emptyMessage }) {
 }
 
 export default function Decks() {
-  useDocumentTitle('Decks — Heritage Bridge');
+  useDocumentTitle('Decks — History in Cards');
   const sites = useMemo(() => getAllSites(), []);
   const governorates = useMemo(() => getGovernorateDecks(sites), [sites]);
   const special = useMemo(() => getSpecialDecks(sites), [sites]);

@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import useDocumentTitle from '../hooks/useDocumentTitle';
 import Hero from '../components/home/Hero';
 import FeaturedSites from '../components/home/FeaturedSites';
 import DrawCard from '../components/home/DrawCard';
@@ -113,6 +114,7 @@ const homeLayoutStyles = `
  * Special Decks, Our Documentation (only with data), About the Archive.
  */
 export default function Home() {
+  useDocumentTitle('History in Cards');
   const sites = useMemo(() => getAllSites(), []);
   const stats = useMemo(() => getArchiveStats(sites), [sites]);
   const stackSites = useMemo(() => selectStackSites(sites, 5), [sites]);

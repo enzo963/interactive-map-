@@ -59,7 +59,7 @@ const mapPageStyles = `
  * the verified boundary map when geometry exists, otherwise the coordinate plot.
  */
 export default function MapPage() {
-  useDocumentTitle('Map — Heritage Bridge');
+  useDocumentTitle('Map — History in Cards');
   const sites = useMemo(() => getAllSites(), []);
   const stats = useMemo(() => getGovernorateStats(sites), [sites]);
   const geometry = useMemo(() => getGovernorateGeometry(), []);

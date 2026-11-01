@@ -173,7 +173,7 @@ export default function CardBack({ variant = 'plain', label, caption, className 
           {caption && <span className="hb-cardback__caption">{caption}</span>}
         </div>
       )}
-      <span className="hb-cardback__mark">Heritage Bridge</span>
+      <span className="hb-cardback__mark">History in Cards</span>
     </div>
   );
 }

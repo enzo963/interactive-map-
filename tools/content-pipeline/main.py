@@ -29,7 +29,7 @@ from hb_pipeline.utils import (
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Heritage Bridge trusted-content pipeline - Phase 1.1"
+        description="History in Cards trusted-content pipeline - Phase 1.1"
     )
     sub = parser.add_subparsers(dest="command", required=True)
 

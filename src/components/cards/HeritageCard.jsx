@@ -242,7 +242,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
 
         <footer className="hb-card__foot">
           <span className="hb-card__date">{site.dateLabel}</span>
-          <span className="hb-card__brand">Heritage Bridge</span>
+          <span className="hb-card__brand">History in Cards</span>
         </footer>
       </div>
     </article>
