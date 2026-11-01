@@ -160,19 +160,19 @@ def build_evidence_view(site, claims, repository):
         differs = preferred is not None and existing not in (None, "", []) and _key(field, existing) != _key(field, preferred["value"])
         status = "unknown" if not alternatives else "uncontested" if not conflict else "preferred-pending-review" if preferred else "tie-needs-review"
         field_evidence[field] = {"assertionIds": [entry["assertionId"] for entry in entries], "alternatives": alternatives,
-                                 "preferred_value": copy.deepcopy(preferred["value"]) if preferred else None,
-                                 "preferred_assertion_ids": list(preferred["assertionIds"]) if preferred else [],
-                                 "existing_value": copy.deepcopy(existing), "differs_from_current": differs,
-                                 "has_conflict": conflict, "resolution_status": status, "review_required": True}
+                                    "preferred_value": copy.deepcopy(preferred["value"]) if preferred else None,
+                                    "preferred_assertion_ids": list(preferred["assertionIds"]) if preferred else [],
+                                    "existing_value": copy.deepcopy(existing), "differs_from_current": differs,
+                                    "has_conflict": conflict, "resolution_status": status, "review_required": True}
         if conflict or differs:
             conflicts.append(field)
     verification = copy.deepcopy(output.get("verification")) if isinstance(output.get("verification"), dict) else {}
     verification.update({"status": "unverified", "review_required": True})
     output.update({"sources": sources, "source_evidence": refs, "provenance": provenance,
-                   "evidence_assertions": enriched, "field_evidence": field_evidence,
-                   "status": "needs-review", "verification": verification,
-                   "reliability_review": {"policy": "Lower registry trust_tier is stronger; equal-tier disagreements remain unresolved.",
-                                          "conflict_fields": conflicts, "invalid_assertions": errors,
-                                          "has_conflicts": bool(conflicts), "manual_review_required": True,
-                                          "automatically_approved": False}})
+                    "evidence_assertions": enriched, "field_evidence": field_evidence,
+                    "status": "needs-review", "verification": verification,
+                    "reliability_review": {"policy": "Lower registry trust_tier is stronger; equal-tier disagreements remain unresolved.",
+                                            "conflict_fields": conflicts, "invalid_assertions": errors,
+                                            "has_conflicts": bool(conflicts), "manual_review_required": True,
+                                            "automatically_approved": False}})
     return output

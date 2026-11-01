@@ -37,7 +37,6 @@ the local prepared catalog. The optional catalog check is skipped on fresh
 checkouts without ignored collection data. The Python suite now has 30 passing
 tests, including standardization identity, idempotence and unknown flags.
 
-
 P5-27/P5-28 add manual isolated stress/live-flow runners under
 `tools/content-pipeline/tests/`. See that pipeline README for commands and the
 measured results. The large synthetic run never crawls 1,000 live URLs and never

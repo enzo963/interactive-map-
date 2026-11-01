@@ -181,8 +181,8 @@ class MultiSourceTests(unittest.TestCase):
 
     def test_malformed_media_and_flags_are_rejected(self):
         for field, value in [('coverImage.src', 'javascript:alert(1)'), ('coverImage', {'src': '//bad.example/photo'}),
-                             ('galleryImages', [{'src': 'http://127.0.0.1/photo'}]), ('galleryImages', ['not-an-object']),
-                             ('alternativeNames', [123]), ('unesco', 'true')]:
+                            ('galleryImages', [{'src': 'http://127.0.0.1/photo'}]), ('galleryImages', ['not-an-object']),
+                            ('alternativeNames', [123]), ('unesco', 'true')]:
             with self.subTest(field=field, value=value):
                 self.assertFalse(self.build(self.claim(field=field, value=value))['evidence_assertions'][0]['eligible'])
 
