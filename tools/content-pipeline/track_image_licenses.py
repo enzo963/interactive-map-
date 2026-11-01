@@ -26,7 +26,7 @@ def main(argv=None):
         repository = EvidenceRepository(BASE / "data")
         result, counts = track_record_images(record, repository)
         report = {"records": result, "license_summary": counts, "repository_issues": repository.issues,
-                  "automatically_approved": 0, "manual_review_required": True}
+                "automatically_approved": 0, "manual_review_required": True}
         Storage(BASE / "data").save_json(args.output, report)
         logger.log("licenses.audit", "completed", license_summary=counts, automatically_approved=0)
         print(f"Image occurrence license states: {counts}")
