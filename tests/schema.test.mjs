@@ -101,8 +101,9 @@ test('approved dataset import preserves Hatra identity and its existing route', 
   const before = normalizeSites(old).find((s) => s.id === 'site-001');
   const current = normalizeSites(frontend).find((s) => s.id === 'site-001');
   for (const key of ['id', 'slug', 'href', 'name', 'governorate', 'siteType', 'period', 'isUnesco']) assert.deepEqual(current[key], before[key], key);
-  assert.equal(frontend.length, 34);
-  assert.ok(frontend.every((s) => s.status === 'approved' && s.sources.length));
+  // 34 approved records; later discovery batches are added as source-backed needs-review drafts.
+  assert.equal(frontend.filter((s) => s.status === 'approved').length, 34);
+  assert.ok(frontend.every((s) => ['approved', 'needs-review'].includes(s.status) && s.sources.length));
 });
 
 

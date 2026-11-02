@@ -728,8 +728,8 @@ test('advanced filters combine governorate, period and explicit unknown statuses
   assert.equal(all('.hb-grid > li').length, 4);
   await navigate('/explore?model=unknown');
   assert.equal(all('.hb-grid > li').length, 24);
-  await click(button('Show 10 more'));
-  assert.equal(all('.hb-grid > li').length, 34);
+  await click(button('Show 24 more'));
+  assert.equal(all('.hb-grid > li').length, 48);
 });
 
 test('category and recorded-period discovery links open meaningful results', async () => {
@@ -763,7 +763,7 @@ test('in-flow filters close with focus returned to results and retain URL select
   await click(toggle);
   assert.equal(toggle.getAttribute('aria-expanded'), 'true');
   assert.ok($('#explore-filters').classList.contains('is-open'));
-  await click(button('Show 4 sites'));
+  await click(button('Show 69 sites'));
   assert.equal(toggle.getAttribute('aria-expanded'), 'false');
   assert.equal(document.activeElement.id, 'explore-results');
   assert.equal(new URLSearchParams(window.location.search).get('gov'), 'erbil');
@@ -883,7 +883,7 @@ test('viewer registration failures produce an actionable fallback', async () => 
 
 test('all site records carry persisted slugs and resolve to their own deep links', () => {
   const raw = JSON.parse(readFileSync(new URL('../src/data/sites.json', import.meta.url), 'utf8'));
-  assert.equal(new Set(raw.map((record) => record.slug)).size, 34);
+  assert.equal(new Set(raw.map((record) => record.slug)).size, raw.length);
   for (const record of raw) {
     assert.ok(record.slug);
     assert.equal(matchRoute(routes, `/sites/${record.slug}`).params.slug, record.slug);

@@ -10,13 +10,13 @@ export const HERITAGE_CATEGORIES = [
     id: 'religious',
     label: 'Religious',
     description: 'Mosques, churches, shrines and sacred places',
-    pattern: /mosque|minaret|church|temple|shrine|monastery|religious|cathedral|chapel|synagogue/i,
+    pattern: /mosque|minaret|church|temple|shrine|monastery|religious|cathedral|chapel|synagogue|mausoleum|cemetery/i,
   },
   {
     id: 'architectural',
     label: 'Architectural',
     description: 'Buildings, bridges and monumental design',
-    pattern: /palace|citadel|fort|bridge|school|building|tower|monument|complex|mosque|minaret|church/i,
+    pattern: /palace|citadel|fort|castle|bridge|school|building|house|bath|caravanserai|tower|monument|complex|mosque|minaret|church/i,
   },
   {
     id: 'cultural',
@@ -28,7 +28,7 @@ export const HERITAGE_CATEGORIES = [
     id: 'historical',
     label: 'Historical',
     description: 'Historic towns, fortifications and landmarks',
-    pattern: /historic|palace|citadel|fort|monument/i,
+    pattern: /historic|palace|citadel|fort|castle|monument|relief|stele/i,
   },
 ];
 export function getHeritageCategories(site) {

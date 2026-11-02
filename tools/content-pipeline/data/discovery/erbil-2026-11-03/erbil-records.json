@@ -1,0 +1,2448 @@
+[
+  {
+    "id": "site-erbil-great-mosque-erbil-citadel",
+    "name": "Great Mosque of Erbil Citadel",
+    "governorate": "Erbil",
+    "category": "Mosque",
+    "period": "",
+    "description": "The Great (Mulla Afandi) Mosque is the only religious building still standing on Erbil Citadel. Its founding date is unknown; the mosque is recorded on the citadel from the 13th century, and its present single-domed roof dates from a 1959 reconstruction. A 2025 KRG release lists its restoration among recent citadel works.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Citadel of Erbil",
+        "url": "https://en.wikipedia.org/wiki/Citadel_of_Erbil",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government, August 2025 citadel restoration release",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q141224441 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q141224441",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "great-mosque-erbil-citadel",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Mulla Afandi Mosque"
+    ],
+    "approximateLocation": "Erbil Citadel",
+    "parentSite": "site-erbil-erbil-citadel",
+    "latitude": 36.191457,
+    "longitude": 44.009777,
+    "coordinates_source": "wikidata:Q141224441",
+    "coordinates_precision": "site",
+    "review_notes": "Wikidata gives inception 1797; the citadel sources say the founding date is unknown. Period left empty."
+  },
+  {
+    "id": "site-erbil-erbil-citadel-hammam",
+    "name": "Erbil Citadel Hammam",
+    "governorate": "Erbil",
+    "category": "Historic Bath",
+    "period": "Ottoman",
+    "description": "The hammam is the oldest bathhouse on Erbil Citadel and is dated to the 18th century (1775 in the UNESCO documentation). A January 2025 KRG release reported its US-funded restoration as nearly finished.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Erbil/Hawler Hammam"
+      },
+      {
+        "sourceName": "Harvard University, Whose Culture? — Erbil",
+        "url": "https://whoseculture.hsites.harvard.edu/erbil",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government, January 2025 citadel renovation release",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/january/erbil-citadel-renovation-to-be-accelerated-reviving-the-world-s-oldest-inhabited-landmark-with-global-heritage-standards/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "erbil-citadel-hammam",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil Citadel",
+    "estimated_year": 1775,
+    "parentSite": "site-erbil-erbil-citadel",
+    "review_notes": "UNESCO date 1775 reported via search snippet; confirm against the nomination file."
+  },
+  {
+    "id": "site-erbil-house-b13-topkhana",
+    "name": "House B13 (37 Topkhana)",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "A historic courtyard house in the Topkhana quarter of Erbil Citadel, documented in Columbia University’s Mapping Mesopotamian Monuments survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: House B13 (37 Topkhana)"
+      },
+      {
+        "sourceName": "Columbia MCID — House B13 image record",
+        "url": "https://mcid.mcah.columbia.edu/cataloging-viewer/1314_iraq2013_houseb13_img_010",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "house-b13-topkhana",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Topkhana quarter, Erbil Citadel",
+    "parentSite": "site-erbil-erbil-citadel"
+  },
+  {
+    "id": "site-erbil-rashid-agha-house",
+    "name": "Rashid Agha House",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "A historic house in Erbil documented in Columbia University’s Mapping Mesopotamian Monuments catalogue.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Rashid Agha House"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "rashid-agha-house",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil"
+  },
+  {
+    "id": "site-erbil-selim-qaqa-house",
+    "name": "Selim Qaqa House",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "A historic house in Erbil documented in Columbia University’s Mapping Mesopotamian Monuments catalogue.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Selim Qaqa House"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "selim-qaqa-house",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil"
+  },
+  {
+    "id": "site-erbil-yaqub-aga-house",
+    "name": "Yaqub Aga House",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "A historic house in Erbil documented in Columbia University’s Mapping Mesopotamian Monuments catalogue.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Yaqub Aga House"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "yaqub-aga-house",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil"
+  },
+  {
+    "id": "site-erbil-kurdish-textile-museum",
+    "name": "Kurdish Textile and Cultural Museum",
+    "governorate": "Erbil",
+    "category": "Museum",
+    "period": "",
+    "description": "A museum of Kurdish textiles and crafts founded in 2004 in a renovated mansion in the south-east quarter of Erbil Citadel. It also works to keep traditional weaving methods alive.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Kurdish Textile and Cultural Museum",
+        "url": "https://en.wikipedia.org/wiki/Kurdish_Textile_and_Cultural_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q2302612 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2302612",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kurdish-textile-museum",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil Citadel",
+    "parentSite": "site-erbil-erbil-citadel",
+    "latitude": 36.190123,
+    "longitude": 44.009739,
+    "coordinates_source": "wikidata:Q2302612",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-erbil-civilization-museum",
+    "name": "Erbil Civilization Museum",
+    "governorate": "Erbil",
+    "category": "Museum",
+    "period": "",
+    "description": "Erbil’s archaeological museum, the second largest in the Kurdistan Region, with finds from prehistory to the late Abbasid period. The museum began in the 1960s, moved into the citadel in the 1970s and later to its own building.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Erbil Civilization Museum",
+        "url": "https://en.wikipedia.org/wiki/Erbil_Civilization_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28716288 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28716288",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "erbil-civilization-museum",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil",
+    "latitude": 36.177394,
+    "longitude": 44.013247,
+    "coordinates_source": "wikidata:Q28716288",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-khalidiya-khanqah-mosque",
+    "name": "Khalidiya Khanqah Mosque and Tekke",
+    "governorate": "Erbil",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A Naqshbandi Sufi complex of mosque, tekke, library and market beside Erbil Citadel. It was founded in 1805 by Mullah Hidayatullah al-Arbili at the request of Mawlana Khalid al-Naqshbandi and rebuilt in 1961. The surrounding Khanqah quarter takes its name from it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Khalidiya Khanqah Mosque and Tekke",
+        "url": "https://en.wikipedia.org/wiki/Khalidiya_Khanqah_Mosque_and_Tekke",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28715077 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28715077",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khalidiya-khanqah-mosque",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Mzgawti Xanaqa"
+    ],
+    "approximateLocation": "Khanqah quarter, below Erbil Citadel",
+    "estimated_year": 1805,
+    "latitude": 36.188888,
+    "longitude": 44.011014,
+    "coordinates_source": "wikidata:Q28715077",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-mausoleum-sultan-muzaffar",
+    "name": "Mausoleum of Sultan Muzaffar",
+    "governorate": "Erbil",
+    "category": "Mausoleum",
+    "period": "",
+    "description": "A mausoleum attributed to Sultan Muzaffar al-Din Gökböri, the 12th–13th-century ruler of Erbil, near the Erbil Governorate building. It is one of several historic tombs in the old bazaar area.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 opinion (Dr. Kamaran Aziz), 2 June 2025",
+        "url": "https://www.kurdistan24.net/en/opinion/843784/walk-the-bazaar-tread-on-history-ancient-graves-lie-scattered-across-erbils-bazaar",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mausoleum-sultan-muzaffar",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Near the Erbil Governorate building",
+    "review_notes": "Single opinion-article source; attribution and fabric date need verification."
+  },
+  {
+    "id": "site-erbil-tomb-of-uzair",
+    "name": "Grave of Prophet Uzair (Ezra), Erbil",
+    "governorate": "Erbil",
+    "category": "Shrine",
+    "period": "",
+    "description": "A grave venerated as that of the Prophet Uzair (Ezra), near the Sheikh Choli Mosque in Erbil’s old bazaar district.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 opinion (Dr. Kamaran Aziz), 2 June 2025",
+        "url": "https://www.kurdistan24.net/en/opinion/843784/walk-the-bazaar-tread-on-history-ancient-graves-lie-scattered-across-erbils-bazaar",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tomb-of-uzair",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Near Sheikh Choli Mosque, Erbil",
+    "review_notes": "Traditional attribution reported by one opinion article; not a historical identification."
+  },
+  {
+    "id": "site-erbil-erbil-jewish-cemetery",
+    "name": "Jewish Cemetery of Erbil",
+    "governorate": "Erbil",
+    "category": "Cemetery",
+    "period": "",
+    "description": "Erbil’s historic Jewish cemetery, a reminder of the city’s former Jewish community.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 opinion (Dr. Kamaran Aziz), 2 June 2025",
+        "url": "https://www.kurdistan24.net/en/opinion/843784/walk-the-bazaar-tread-on-history-ancient-graves-lie-scattered-across-erbils-bazaar",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "erbil-jewish-cemetery",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil",
+    "review_notes": "Exact location not given by the source."
+  },
+  {
+    "id": "site-erbil-st-george-church-ankawa",
+    "name": "St. George’s Church, Ankawa",
+    "governorate": "Erbil",
+    "category": "Church",
+    "period": "",
+    "description": "Mar Gewargis is described as the oldest Chaldean Catholic church in Ankawa. The building is probably from the 9th century, with parts possibly older, and was restored in 1995.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — St. George’s Church, Ankawa",
+        "url": "https://en.wikipedia.org/wiki/St._George%27s_Church,_Ankawa",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "st-george-church-ankawa",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Mar Gewargis Church"
+    ],
+    "approximateLocation": "Ankawa, Erbil",
+    "review_notes": "Wikipedia article flagged as needing citations; treat the 816 date as unverified."
+  },
+  {
+    "id": "site-erbil-mart-shmoni-church-ankawa",
+    "name": "Mart Shmoni Church, Ankawa",
+    "governorate": "Erbil",
+    "category": "Church",
+    "period": "",
+    "description": "A Syriac Catholic church dedicated to Mart Shmoni in Ankawa, the Christian suburb of Erbil.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikidata Q98917963 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q98917963",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Ankawa",
+        "url": "https://en.wikipedia.org/wiki/Ankawa",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mart-shmoni-church-ankawa",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Ankawa, Erbil",
+    "latitude": 36.234961,
+    "longitude": 43.988194,
+    "coordinates_source": "wikidata:Q98917963",
+    "coordinates_precision": "site",
+    "review_notes": "No construction date found; heritage significance needs a documented source."
+  },
+  {
+    "id": "site-erbil-melqi-mar-qardagh",
+    "name": "Melqi (Mar Qardagh tradition), Ankawa",
+    "governorate": "Erbil",
+    "category": "Religious Heritage Site",
+    "period": "",
+    "description": "Ankawa has been linked to the Neo-Assyrian town of Milqia, seat of an Akitu house of Ishtar near Arbela. Melqi is the martyrdom and burial place of Saint Mar Qardagh in the Syriac History of Mar Qardagh, and the saint is still venerated in Ankawa.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Ankawa",
+        "url": "https://en.wikipedia.org/wiki/Ankawa",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Mar Qardagh",
+        "url": "https://en.wikipedia.org/wiki/Mar_Qardagh",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "melqi-mar-qardagh",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Milqia",
+      "Melqi"
+    ],
+    "approximateLocation": "Ankawa, Erbil",
+    "review_notes": "Scholarly identification (Parpola) and hagiographic tradition, not an excavated site."
+  },
+  {
+    "id": "site-erbil-qasr-shemamok",
+    "name": "Qasr Shemamok (Kilizu)",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Assyrian to Sasanian",
+    "description": "A 20-hectare tell rising about 30 m above the plain, 30 km south of Erbil on the Shiwazor river, with a lower town of about 50 hectares. Under the Assyrians it was Kilizu, a provincial capital; remains run from Hurrian and Assyrian to Parthian and Sasanian times. A French mission has excavated there since 2011.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Qasr Shemamok",
+        "url": "https://en.wikipedia.org/wiki/Qasr_Shemamok",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Kilizu i. The site",
+        "url": "https://www.iranicaonline.org/articles/kilizu/kilizu-i-the-site/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 221; EPAS Site 2"
+      },
+      {
+        "sourceName": "Wikidata Q25404315 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q25404315",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qasr-shemamok",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Kilizu",
+      "Kakzu",
+      "Qasr Shamamok"
+    ],
+    "approximateLocation": "Shamamok plain, south-west of Erbil",
+    "latitude": 36.10561,
+    "longitude": 43.75245,
+    "coordinates_source": "wikidata:Q25404315",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-kurd-qaburstan",
+    "name": "Kurd Qaburstan",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Middle Bronze Age",
+    "description": "A large walled city 22 km south-west of Erbil, mainly of the Middle Bronze Age (early 2nd millennium BC) and proposed as ancient Qabra. A UCF-led team found evidence of a siege in 2025, together with the first substantial group of cuneiform tablets from the Erbil region.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Kurd Qaburstan",
+        "url": "https://en.wikipedia.org/wiki/Kurd_Qaburstan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Central Florida news — excavation at Kurd Qaburstan",
+        "url": "https://www.ucf.edu/news/ucf-led-excavation-reveals-evidence-of-life-conflict-in-ancient-mesopotamia/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan24, 13 July 2025 — Excavations conclude at ancient sites in southwestern Erbil",
+        "url": "https://www.kurdistan24.net/en/story/851569/excavations-conclude-at-ancient-sites-in-southwestern-erbil",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 31"
+      },
+      {
+        "sourceName": "Wikidata Q115521019 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q115521019",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kurd-qaburstan",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Qabra",
+      "Yadi Qzlar",
+      "Yedi Kizlar"
+    ],
+    "approximateLocation": "Next to Yedi Kizlar village, Shamamok sub-district",
+    "estimated_year": "early 2nd millennium BC",
+    "latitude": 35.99,
+    "longitude": 43.86,
+    "coordinates_source": "wikidata:Q115521019",
+    "coordinates_precision": "site",
+    "review_notes": "Kurdistan24 reports the excavation under the village name Yadi Qzlar; Wikipedia places Yedi Kizlar on the lower town, so they are treated as one site."
+  },
+  {
+    "id": "site-erbil-tell-baqrta",
+    "name": "Tell Baqrta",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Early Bronze Age",
+    "description": "A major mound near Qasr Shemamok that reached about 80 hectares in the Early Bronze Age. It was recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 218; EPAS Site 17"
+      },
+      {
+        "sourceName": "Wikipedia — Qasr Shemamok",
+        "url": "https://en.wikipedia.org/wiki/Qasr_Shemamok",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q15882688 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q15882688",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-baqrta",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Girdi Baqrta",
+      "Baqrta"
+    ],
+    "approximateLocation": "Erbil plain, near Qasr Shemamok",
+    "latitude": 35.95185,
+    "longitude": 43.909633,
+    "coordinates_source": "wikidata:Q15882688",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-gird-i-matrab",
+    "name": "Gird-i Matrab",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Late Chalcolithic to Parthian",
+    "description": "A tell about 30 km south of Erbil, first identified by the Erbil Plain Archaeological Survey in 2012. Excavations by Bryn Mawr College since 2022 found Late Chalcolithic levels from the 5th millennium BC, an Iron Age reoccupation and a Hellenistic quarter; under the Seleucids and Parthians it grew to about 25 hectares.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24, 26 July 2025 — Vast multi-era settlement uncovered near Erbil",
+        "url": "https://www.kurdistan24.net/en/story/853951/vast-multi-era-settlement-uncovered-near-erbil",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Kurdistan24, 22 October 2026 — Gird-i Matrab excavation renewed",
+        "url": "https://www.kurdistan24.net/en/story/947792",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 6"
+      },
+      {
+        "sourceName": "Wikidata Q140609018 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q140609018",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gird-i-matrab",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Girdi Matraba",
+      "Tell Mitrab"
+    ],
+    "approximateLocation": "Shamamok plain, south of Erbil",
+    "latitude": 35.93704,
+    "longitude": 43.91685,
+    "coordinates_source": "wikidata:Q140609018",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-gird-lashkir",
+    "name": "Gird Lashkir",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Neolithic to Iron Age",
+    "description": "A tell with about 14 m of deposits over some 4 hectares near Wadi Kasnazan, close to Kasnazan and Banaslawa. Excavations by the Autonomous University of Barcelona since 2015 found Halaf and Ubaid levels and occupation into the 1st millennium BC; reports describe it as a trade centre in 3500–2000 BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Popular Archaeology — Iraqi Kurdistan site reveals evolution toward the first cities of Mesopotamia",
+        "url": "https://popular-archaeology.com/article/iraqi-kurdistan-site-reveals-evolution-toward-the-first-cities-of-mesopotamia/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "SyriacPress, 13 June 2024 — Spanish team unearths Bronze Age city in Erbil",
+        "url": "https://syriacpress.com/?p=58859",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gird-lashkir",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Gird Lashkar"
+    ],
+    "approximateLocation": "Near Wadi Kasnazan, east of Erbil"
+  },
+  {
+    "id": "site-erbil-girdi-sheikh-ahmad",
+    "name": "Sheikh Ahmad archaeological site",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "An excavated archaeological site on the Erbil–Koya road, shown in a 2026 Rudaw report on Erbil’s archaeology. The Wikipedia list of Erbil sites names it Girdi Sheikh Ahmed.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Rudaw, 2 September 2026 — Erbil archaeology report",
+        "url": "https://rudaw.net/english/categories/kurdistan/1079102",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — List of archaeological sites in Erbil Governorate",
+        "url": "https://en.wikipedia.org/wiki/List_of_archaeological_sites_in_Erbil_Governorate",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-sheikh-ahmad",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Girdi Sheikh Ahmed"
+    ],
+    "approximateLocation": "Erbil–Koya road",
+    "review_notes": "Only a photo caption and a list entry; period unknown."
+  },
+  {
+    "id": "site-erbil-tell-surezha",
+    "name": "Surezha",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell on the Erbil plain recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 27"
+      },
+      {
+        "sourceName": "Wikidata Q108147342 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108147342",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-surezha",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Tell Surezha"
+    ],
+    "approximateLocation": "Erbil plain",
+    "latitude": 35.998544,
+    "longitude": 43.885568,
+    "coordinates_source": "wikidata:Q108147342",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-tell-nader",
+    "name": "Tell Nader",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell on the eastern edge of Erbil recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 5"
+      },
+      {
+        "sourceName": "Wikidata Q108147320 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108147320",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-nader",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Tell Nadir"
+    ],
+    "approximateLocation": "Erbil plain",
+    "latitude": 36.173148,
+    "longitude": 44.07549,
+    "coordinates_source": "wikidata:Q108147320",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-bash-tapa",
+    "name": "Bash Tapa",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell in southern Erbil Governorate listed among the governorate’s archaeological sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — List of archaeological sites in Erbil Governorate",
+        "url": "https://en.wikipedia.org/wiki/List_of_archaeological_sites_in_Erbil_Governorate",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q108147277 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108147277",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bash-tapa",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Bashtepe"
+    ],
+    "approximateLocation": "South of Erbil",
+    "latitude": 35.881041,
+    "longitude": 44.00659,
+    "coordinates_source": "wikidata:Q108147277",
+    "coordinates_precision": "site",
+    "review_notes": "Not the Bash Tapia castle of Mosul."
+  },
+  {
+    "id": "site-erbil-kelik-mishik",
+    "name": "Kelik Mishik",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell south-west of Erbil listed among the governorate’s archaeological sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — List of archaeological sites in Erbil Governorate",
+        "url": "https://en.wikipedia.org/wiki/List_of_archaeological_sites_in_Erbil_Governorate",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q108147157 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108147157",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kelik-mishik",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Kalak Meshak"
+    ],
+    "approximateLocation": "South-west of Erbil",
+    "latitude": 36.157689,
+    "longitude": 43.977406,
+    "coordinates_source": "wikidata:Q108147157",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-satu-qala",
+    "name": "Satu Qala (Idu)",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Late Bronze Age to Islamic",
+    "description": "A tell on the right bank of the Lower Zab, 70 km south-east of Erbil, identified as ancient Idu. It was a Middle Assyrian provincial capital, then the seat of independent kings, and stayed occupied into the Middle Islamic period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Idu (city)",
+        "url": "https://en.wikipedia.org/wiki/Idu_(city)",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q15876602 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q15876602",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "satu-qala",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Idu",
+      "Idum",
+      "Sātu Qalā"
+    ],
+    "approximateLocation": "Lower Zab, south-east of Erbil",
+    "latitude": 35.875278,
+    "longitude": 44.697222,
+    "coordinates_source": "wikidata:Q15876602",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-girdi-daghan",
+    "name": "Girdi Daghan",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 228"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-daghan",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-girdi-helawa",
+    "name": "Girdi Helawa",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell near Qasr Shemamok and Kurd Qaburstan recorded by the Erbil Plain Archaeological Survey and known for Late Chalcolithic remains.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 272"
+      },
+      {
+        "sourceName": "Wikipedia — List of archaeological sites in Erbil Governorate",
+        "url": "https://en.wikipedia.org/wiki/List_of_archaeological_sites_in_Erbil_Governorate",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-helawa",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Helawa",
+      "Tell Halawa"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-girdi-gozka",
+    "name": "Girdi Gozka",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 466"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-gozka",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Gozka"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-qalinj-agha",
+    "name": "Qalinj Agha",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A mound inside Erbil recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 213"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qalinj-agha",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil"
+  },
+  {
+    "id": "site-erbil-girdi-khazna",
+    "name": "Girdi Khazna",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 214; EPAS Site 45"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-khazna",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Tell Khazna"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-tell-quri-beg",
+    "name": "Tell Quri Beg",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 218; EPAS Site 220"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-quri-beg",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Girdi Quri Beg"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-aliawa",
+    "name": "Aliawa",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell near Qasr Shemamok and Kurd Qaburstan recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 246"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "aliawa",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Tell Aliawa"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-girdi-abdulaziz",
+    "name": "Girdi Abdulaziz",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 282"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-abdulaziz",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-girdi-qawagh",
+    "name": "Girdi Qawagh",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 221; EPAS Site 180"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-qawagh",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-tell-abu-shita",
+    "name": "Tell Abu Shita",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 130"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-abu-shita",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-girdi-peshka",
+    "name": "Girdi Peshka",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 404"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "girdi-peshka",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-zaga",
+    "name": "Zaga",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 224; EPAS Site 207"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zaga",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Gird-i Zaga"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-awena",
+    "name": "Awena",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A tell recorded by the Erbil Plain Archaeological Survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Ur et al., The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 224; EPAS Site 325"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "awena",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Qalat Awena"
+    ],
+    "approximateLocation": "Erbil plain"
+  },
+  {
+    "id": "site-erbil-khanzad-castle",
+    "name": "Khanzad Castle",
+    "governorate": "Erbil",
+    "category": "Castle",
+    "period": "Soran Emirate",
+    "description": "A two-storey stone and gypsum castle on a hilltop 22 km from Erbil on the Erbil–Shaqlawa road. It was built in the late 16th century by Mir Khanzad, ruler of the Soran Emirate, as her residence and to defend Erbil.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Xanzad Castle",
+        "url": "https://en.wikipedia.org/wiki/Xanzad_Castle",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Annali di Ca' Foscari. Serie orientale 60 (2024)",
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18"
+      },
+      {
+        "sourceName": "Wikidata Q5989037 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5989037",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khanzad-castle",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Xanzad Castle",
+      "Banaman Castle"
+    ],
+    "approximateLocation": "Erbil–Shaqlawa road",
+    "estimated_year": "16th century",
+    "latitude": 36.35359,
+    "longitude": 44.18001,
+    "coordinates_source": "wikidata:Q5989037",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-dwin-castle",
+    "name": "Dwin Castle",
+    "governorate": "Erbil",
+    "category": "Castle",
+    "period": "",
+    "description": "A castle in the mountain village of Dwin, about 31 km north-east of Erbil, long linked by local tradition to the family of Saladin. Research began in 2014 with Pázmány Péter Catholic University and Salahaddin University; restoration plans were reviewed in 2025.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Shafaq News — Dwin Castle restoration revives Ayyubid link",
+        "url": "https://shafaq.com/en/Kurdistan/Dwin-Castle-restoration-revives-Ayyubid-link",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Annali di Ca' Foscari. Serie orientale 60 (2024)",
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18"
+      },
+      {
+        "sourceName": "Wikidata Q109259098 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q109259098",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dwin-castle",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Dween Castle",
+      "Dwen Castle"
+    ],
+    "approximateLocation": "Dwin village, Shaqlawa district",
+    "latitude": 36.4633,
+    "longitude": 44.1331,
+    "coordinates_source": "wikidata:Q109259098",
+    "coordinates_precision": "site",
+    "review_notes": "The Saladin birthplace link is local tradition, not documented fact."
+  },
+  {
+    "id": "site-erbil-rabban-boya-shrine",
+    "name": "Rabban Boya Shrine",
+    "governorate": "Erbil",
+    "category": "Shrine",
+    "period": "",
+    "description": "A cave shrine at about 1,070 m above Shaqlawa, sacred since early Christian times and shared by Christians and Muslims, who know it as Sheikh Wso Rahman. It was recognised as a historic site in 1945; an old church and cemetery lie nearby.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Chronicle — Raban Boya: One Shrine, Two Faiths",
+        "url": "https://kurdistanchronicle.com/b/2799",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government, Board of Investment — Doing Business in the Kurdistan Region",
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "rabban-boya-shrine",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Rabban Beya Monastery",
+      "Raban Boya",
+      "Sheikh Wso Rahman"
+    ],
+    "approximateLocation": "Beya valley above Shaqlawa"
+  },
+  {
+    "id": "site-erbil-batas-harir-relief",
+    "name": "Batas-Harir Rock Relief",
+    "governorate": "Erbil",
+    "category": "Rock Relief",
+    "period": "Parthian (debated)",
+    "description": "A rock relief of a standing figure carved on the cliff of Mount Harir above the villages of Batas and Harir. Its date is debated: the dress suggests the Parthian period, and one reading identifies the figure as a ruler of Adiabene of the 1st century AD.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "World History Encyclopedia — Rock relief of Mountain Hareer",
+        "url": "https://www.worldhistory.org/image/3086/rock-relief-of-mountain-hareer/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q4122022 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4122022",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "batas-harir-relief",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Harir relief",
+      "Hareer relief"
+    ],
+    "approximateLocation": "Mount Harir, Harir sub-district",
+    "latitude": 36.55167,
+    "longitude": 44.35161,
+    "coordinates_source": "wikidata:Q4122022",
+    "coordinates_precision": "settlement",
+    "review_notes": "Pin is on Harir town (Wikidata), not the relief itself. See Grabowski 2011 for the scholarly study."
+  },
+  {
+    "id": "site-erbil-dere-castle",
+    "name": "Dere Castle",
+    "governorate": "Erbil",
+    "category": "Castle",
+    "period": "",
+    "description": "A ruined castle about 40 km north of Erbil on the Erbil–Rawanduz road. Sources disagree on its age: some attribute it to Muhammad Pasha of Soran in the 19th century, others to an older foundation that was rebuilt.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Annali di Ca' Foscari. Serie orientale 60 (2024)",
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18"
+      },
+      {
+        "sourceName": "KurdShop — Dere Castle",
+        "url": "https://kurdshop.net/en/history/3016",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dere-castle",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Dera Castle",
+      "Derry Castle"
+    ],
+    "approximateLocation": "Erbil–Rawanduz road"
+  },
+  {
+    "id": "site-erbil-rawanduz-old-town",
+    "name": "Rawanduz Old Town",
+    "governorate": "Erbil",
+    "category": "Historic Town",
+    "period": "",
+    "description": "The old quarters of Rawanduz keep narrow lanes and flat-roofed stone houses. Rawanduz was founded by the Rawadid dynasty in the 10th century and was capital of the Soran Emirate until 1836. In 2023 the government began buying and restoring historic houses, starting with ten.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Rawandiz",
+        "url": "https://en.wikipedia.org/wiki/Rawandiz",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Rudaw, 2023 — Government initiates process to preserve Rawanduz historic houses",
+        "url": "https://www.rudaw.net/english/kurdistan/080320232",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q579438 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q579438",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "rawanduz-old-town",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Rawandiz",
+      "Rewandiz"
+    ],
+    "approximateLocation": "Rawanduz, Soran district",
+    "latitude": 36.611944,
+    "longitude": 44.524722,
+    "coordinates_source": "wikidata:Q579438",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-erbil-qalat-lokhan",
+    "name": "Qalat Lokhan",
+    "governorate": "Erbil",
+    "category": "Castle",
+    "period": "",
+    "description": "A fortification on the northern edge of Rawanduz, discussed with the other late-Islamic castles of the Soran region.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Annali di Ca' Foscari. Serie orientale 60 (2024)",
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qalat-lokhan",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "North edge of Rawanduz"
+  },
+  {
+    "id": "site-erbil-gird-i-dasht",
+    "name": "Gird-i Dasht",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "The largest known mound in the Soran area, rising about 20 m above the plain. The Rowanduz Archaeological Program excavated and surveyed it from 2013.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Academia.edu — Rowanduz Archaeological Program first report",
+        "url": "https://www.academia.edu/6884640",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Penn Museum, Expedition 56(3) — Searching for the Kingdom of Musasir",
+        "url": "https://www.penn.museum/sites/expedition?p=22642",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gird-i-dasht",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Soran plain"
+  },
+  {
+    "id": "site-erbil-gund-i-topzawa",
+    "name": "Gund-i Topzawa",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Iron Age",
+    "description": "A burned early Iron Age settlement near Sidakan, cut into a hillside and uncovered when road widening in 2013 disturbed it. Radiocarbon dates place its construction in the early 1st millennium BC, and its destruction fits Sargon II’s campaign against Musasir in 714 BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Penn Museum, Expedition 56(3) — Searching for the Kingdom of Musasir",
+        "url": "https://www.penn.museum/sites/expedition?p=22642",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Penn Museum, Expedition 56(3) — Sargon’s march",
+        "url": "https://www.penn.museum/documents/publications/expedition/56-3/sargons-march.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gund-i-topzawa",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Topzawa, Sidakan sub-district",
+    "estimated_year": "early 1st millennium BC"
+  },
+  {
+    "id": "site-erbil-topzawa-stele",
+    "name": "Topzawa Stele",
+    "governorate": "Erbil",
+    "category": "Stele",
+    "period": "Urartian",
+    "description": "A bilingual Urartian–Assyrian stele near Sidakan recording a campaign to Musasir by the Urartian king Rusa I. Sources disagree whether it is still in place or held in Erbil.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Sidekan",
+        "url": "https://en.wikipedia.org/wiki/Sidekan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Erbil Civilization Museum",
+        "url": "https://en.wikipedia.org/wiki/Erbil_Civilization_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "topzawa-stele",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Topzawa, near Sidakan",
+    "estimated_year": "c. 730 BC",
+    "review_notes": "Current custody disputed (in situ vs. Erbil museum). Year is the approximate reign of Rusa I."
+  },
+  {
+    "id": "site-erbil-kelashin-stele",
+    "name": "Kelashin Stele",
+    "governorate": "Erbil",
+    "category": "Stele",
+    "period": "Urartian",
+    "description": "A stele at the Kelashin pass bearing an Urartian–Akkadian bilingual text of about 800 BC, first described in 1827. It records the Urartian king Ishpuini taking the city of Musasir (Ardini).",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Kelashin Stele",
+        "url": "https://en.wikipedia.org/wiki/Kelashin_Stele",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q3849877 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3849877",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kelashin-stele",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Kelishin Stele",
+      "Keli-Shin"
+    ],
+    "approximateLocation": "Kelashin pass, Sidakan sub-district",
+    "estimated_year": "c. 800 BC",
+    "latitude": 36.9,
+    "longitude": 44.933333,
+    "coordinates_source": "wikidata:Q3849877",
+    "coordinates_precision": "site",
+    "review_notes": "The stele sits on the Iraq–Iran border; sources disagree on its present custody."
+  },
+  {
+    "id": "site-erbil-mudjesir-haldi-temple",
+    "name": "Mudjesir (proposed Musasir temple of Haldi)",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Urartian (proposed)",
+    "description": "Column bases and statues found in the village of Mudjesir have been linked to the temple of Haldi at Musasir (Ardini), sacked by Sargon II in 714 BC. The identification is a working hypothesis; other candidates lie in Iran.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Rudaw, 22 July 2014 — A stunning find in Kurdistan",
+        "url": "https://www.rudaw.net/english/culture/22072014",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Penn Museum, Expedition 56(3) — Searching for the Kingdom of Musasir",
+        "url": "https://www.penn.museum/sites/expedition?p=22642",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Musasir",
+        "url": "https://en.wikipedia.org/wiki/Musasir",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mudjesir-haldi-temple",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Mdjeser",
+      "Musasir",
+      "Ardini"
+    ],
+    "approximateLocation": "Mudjesir village, Sidakan sub-district",
+    "review_notes": "Identification with Musasir is debated."
+  },
+  {
+    "id": "site-erbil-bestoon-cave",
+    "name": "Bestoon Cave",
+    "governorate": "Erbil",
+    "category": "Archaeological Cave",
+    "period": "Neolithic",
+    "description": "A cave in the Bradost mountains south-west of Soran where 1950s work with Fuad Safar found Neolithic remains. It has been developed for visitors.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Showcaves.com — Beston Cave",
+        "url": "https://showcaves.com/english/other/caves/Beston.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government, Board of Investment — Doing Business in the Kurdistan Region",
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate"
+      },
+      {
+        "sourceName": "Wikidata Q21032550 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q21032550",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bestoon-cave",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Bastoon Cave",
+      "Bastun Cave"
+    ],
+    "approximateLocation": "Bradost mountain near Hawdiyan",
+    "latitude": 36.7148,
+    "longitude": 44.47538,
+    "coordinates_source": "wikidata:Q21032550",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-erbil-diyan-cave",
+    "name": "Diyan Cave",
+    "governorate": "Erbil",
+    "category": "Cave",
+    "period": "",
+    "description": "A cave on Bradost mountain near Hawdiyan, listed with Bestoon Cave among the heritage destinations of Erbil Governorate.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government, Board of Investment — Doing Business in the Kurdistan Region",
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "diyan-cave",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Bradost mountain near Hawdiyan",
+    "review_notes": "No archaeological source found yet."
+  },
+  {
+    "id": "site-erbil-zawi-chemi-shanidar",
+    "name": "Zawi Chemi Shanidar",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Epipalaeolithic–early Neolithic",
+    "description": "An open-air settlement below Shanidar Cave excavated by Ralph Solecki, important for the transition to settled life in the Zagros.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "PLOS ONE — The Zagros Epipalaeolithic revisited (Palegawra)",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239564",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Introduction, Solecki excavations"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zawi-chemi-shanidar",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Near Shanidar Cave"
+  },
+  {
+    "id": "site-erbil-plngan-cave",
+    "name": "Plngan Cave",
+    "governorate": "Erbil",
+    "category": "Archaeological Cave",
+    "period": "Palaeolithic–Mesolithic",
+    "description": "A cave at the foot of Plngan Mountain in Soran where the Soran antiquities department and the Autonomous University of Barcelona reported human footprints and remains of the late Old and early Middle Stone Age in 2025.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Rudaw, 17 May 2025 — Stone Age footprints discovered in Soran",
+        "url": "https://rudaw.net/english/kurdistan/17052025",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "plngan-cave",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Plngan Mountain, Soran"
+  },
+  {
+    "id": "site-erbil-bana-helk",
+    "name": "Bana Helk",
+    "governorate": "Erbil",
+    "category": "Archaeological Site",
+    "period": "Halaf",
+    "description": "A hilltop Neolithic village north of Erbil where Kurdish and Spanish archaeologists found Halaf-period remains and decorated pottery.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Rudaw, 29 May 2022 — Traces of Halaf culture discovered in north Erbil",
+        "url": "https://www.rudaw.net/english/kurdistan/29052022",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bana-helk",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Soran area"
+  },
+  {
+    "id": "site-erbil-mar-gewargis-bdeyal",
+    "name": "Mar Gewargis Church, Bedyal",
+    "governorate": "Erbil",
+    "category": "Church",
+    "period": "",
+    "description": "The historic church of Bedyal, one of the oldest Christian villages of the Barzan area. In 2025 the Assyrian Church of the East patriarch called for careful restoration of the region’s historic churches.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Chronicle — A Christian village in the heart of Kurdistan’s mountains",
+        "url": "https://kurdistanchronicle.com/b/3756",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "SyriacPress, 12 August 2025 — Patriarch Mar Awa III on historic churches",
+        "url": "https://syriacpress.com/blog/2025/08/12/patriarch-mar-awa-iii-royel-emphasizes-importance-of-preserving-and-restoring-historic-churches-in-iraq/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-gewargis-bdeyal",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Bdeyal"
+    ],
+    "approximateLocation": "Bedyal village, Mergasor district"
+  },
+  {
+    "id": "site-erbil-koya-old-town",
+    "name": "Old Town of Koya",
+    "governorate": "Erbil",
+    "category": "Historic Town",
+    "period": "Ottoman",
+    "description": "The late-Ottoman old town of Koya (Koy Sanjaq), with architecture rarely found elsewhere in the Kurdistan Region. ALIPH and WADI have funded emergency stabilisation and documentation. The Bayz Agha and Hawawan quarters are among its oldest.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ALIPH Foundation — Safeguarding the Old Town of Koya",
+        "url": "https://www.aliph-foundation.org/en/projects/safeguarding-the-old-town-of-koya-emergency-intervention-and-documentation-of-cultural-heritage",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "WADI — Safeguarding the Old Town of Koya",
+        "url": "https://wadi-online.org/2022/05/29/safeguarding-the-old-town-of-koya/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q1778824 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1778824",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "koya-old-town",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Koy Sanjaq",
+      "Koysinjaq"
+    ],
+    "approximateLocation": "Koya",
+    "latitude": 36.08278,
+    "longitude": 44.62861,
+    "coordinates_source": "wikidata:Q1778824",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-erbil-grand-mosque-koya",
+    "name": "Grand Mosque of Koya",
+    "governorate": "Erbil",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "One of Koya’s oldest landmarks, founded in 1844, with a domed ceiling carrying Qur’anic inscriptions, marble columns and a stone minbar. An archaeological field study was published by Zeidan Rashid in 2013.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Annals of the Faculty of Arts, Ain Shams University — Zeidan Rashid, The Great Mosque of Koysinjaq",
+        "url": "https://aafu.journals.ekb.eg/article_6102.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "grand-mosque-koya",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Great Mosque of Koysinjaq"
+    ],
+    "approximateLocation": "Koya bazaar",
+    "estimated_year": 1844,
+    "parentSite": "site-erbil-koya-old-town"
+  },
+  {
+    "id": "site-erbil-koya-qaysari-bazaar",
+    "name": "Haji Bakr Agha Qaysari, Koya",
+    "governorate": "Erbil",
+    "category": "Historic Market",
+    "period": "Ottoman",
+    "description": "A covered market of more than 90 shops built in 1840, described as one of the oldest bazaars in Iraqi Kurdistan and still in use.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "World Monuments Fund on Google Arts & Culture — Qaisari Bazaar in Koya",
+        "url": "https://artsandculture.google.com/asset/a-night-view-of-the-qaisari-bazaar-in-koya-iraqi-kurdistan-world-monuments-fund/9gHrsLhOemCQrA",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "koya-qaysari-bazaar",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Qaisari Bazaar of Koya"
+    ],
+    "approximateLocation": "Koya bazaar",
+    "estimated_year": 1840,
+    "parentSite": "site-erbil-koya-old-town"
+  },
+  {
+    "id": "site-erbil-mahmud-agha-khan-koya",
+    "name": "Mahmud Agha Khan, Koya",
+    "governorate": "Erbil",
+    "category": "Caravanserai",
+    "period": "Ottoman",
+    "description": "A two-storey stone, gypsum and timber caravanserai of 1861–62 with 64 rooms at the centre of Koya’s bazaar, one of the town’s four old khans. WADI stabilised its endangered structures; Kurdistan24 described it as neglected in 2025.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "WADI — Safeguarding the Old Town of Koya",
+        "url": "https://wadi-online.org/2022/05/29/safeguarding-the-old-town-of-koya/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mahmud-agha-khan-koya",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Koya bazaar",
+    "estimated_year": 1861,
+    "parentSite": "site-erbil-koya-old-town"
+  },
+  {
+    "id": "site-erbil-mulla-abdul-majid-house",
+    "name": "Mulla Abdul Majid House, Koya",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "A two-storey mud, lime and timber house with two courtyards and a hexagonal fountain, restored as a heritage museum of life about 250 years ago.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mulla-abdul-majid-house",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Koya",
+    "parentSite": "site-erbil-koya-old-town"
+  },
+  {
+    "id": "site-erbil-mulla-kura-house",
+    "name": "Mulla Kura House, Koya",
+    "governorate": "Erbil",
+    "category": "Historic House",
+    "period": "",
+    "description": "Described as one of the most prominent historic houses of Koya.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 (Arabic), Koya heritage feature, 28 June 2025",
+        "url": "https://www.kurdistan24.net/ar/story/848728",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mulla-kura-house",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Koya",
+    "parentSite": "site-erbil-koya-old-town"
+  },
+  {
+    "id": "site-erbil-mar-bena-church-armota",
+    "name": "Mar Bena Church, Armota",
+    "governorate": "Erbil",
+    "category": "Church",
+    "period": "",
+    "description": "A church at Armota near Koya linked to the Monastery of Mar Behnam, said to date from the 4th century. It was destroyed in 1988 and rebuilt in 1996.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Mar Bena church in Koy Sanjaq",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/l-eglise-mar-bena-de-koye-sanjaq/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Location; History"
+      },
+      {
+        "sourceName": "Wikipedia — Armota",
+        "url": "https://en.wikipedia.org/wiki/Armota",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4793768 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4793768",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-bena-church-armota",
+    "discovery_batch": "erbil-2026-11-03",
+    "alternativeNames": [
+      "Mar Behnam Church"
+    ],
+    "approximateLocation": "Armota, Koya district",
+    "latitude": 36.066944,
+    "longitude": 44.608056,
+    "coordinates_source": "wikidata:Q4793768",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-erbil-mart-mariam-church-armota",
+    "name": "Mart Mariam Church, Armota",
+    "governorate": "Erbil",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "The village church of Armota, built in 1868 and renovated in 1979 and 2009. The village also has a church of Mar Michael and a shrine of Mart Shmune.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Armota",
+        "url": "https://en.wikipedia.org/wiki/Armota",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4793768 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4793768",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mart-mariam-church-armota",
+    "discovery_batch": "erbil-2026-11-03",
+    "approximateLocation": "Armota, Koya district",
+    "estimated_year": 1868,
+    "latitude": 36.066944,
+    "longitude": 44.608056,
+    "coordinates_source": "wikidata:Q4793768",
+    "coordinates_precision": "settlement"
+  }
+]
