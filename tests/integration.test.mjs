@@ -708,7 +708,7 @@ test('global search finds an approved alternative name and opens its record', as
 });
 
 test('Arabic aliases, no-result recovery and search clearing preserve other filters', async () => {
-  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  sites.splice(0, sites.length, ...structuredClone(approvedSites));
   await mount('/explore?gov=baghdad&q=' + encodeURIComponent('القصر العباسي'));
   assert.equal($('.hb-grid .hb-card__title').textContent, 'Abbasid Palace');
   await search('not-a-record');
@@ -719,7 +719,7 @@ test('Arabic aliases, no-result recovery and search clearing preserve other filt
 });
 
 test('advanced filters combine governorate, period and explicit unknown statuses', async () => {
-  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  sites.splice(0, sites.length, ...structuredClone(approvedSites));
   await mount('/explore?gov=baghdad&period=Ottoman&unesco=unknown&model=unknown');
   assert.equal($('h1').textContent, 'Baghdad heritage');
   assert.equal(all('.hb-grid > li').length, 3);
@@ -730,8 +730,8 @@ test('advanced filters combine governorate, period and explicit unknown statuses
   assert.equal(all('.hb-grid > li').length, 4);
   await navigate('/explore?model=unknown');
   assert.equal(all('.hb-grid > li').length, 24);
-  await click(button('Show 24 more'));
-  assert.equal(all('.hb-grid > li').length, 48);
+  await click(button('Show 10 more'));
+  assert.equal(all('.hb-grid > li').length, 34);
 });
 
 test('category and recorded-period discovery links open meaningful results', async () => {
