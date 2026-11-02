@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "site-salah-al-din-abbasid-samarra-ruinfield",
+    "name": "Abbasid Samarra (northern ruin-field)",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Abbasid",
+    "description": "The Abbasid capital of 836–892 founded by al-Mu‘tasim stretched for dozens of kilometres along the east bank of the Tigris. It was soon abandoned, so its planned streets, houses, palaces and mosques survive as one of the largest ruin-fields of the Islamic world.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Abbasid Samarra",
+        "url": "https://en.wikipedia.org/wiki/Abbasid_Samarra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Samarra Archaeological City",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description / Outstanding Universal Value"
+      },
+      {
+        "sourceName": "Wikidata Q20717633 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20717633",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "abbasid-samarra-ruinfield",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Surra Man Ra’a",
+      "سامراء العباسية"
+    ],
+    "approximateLocation": "East bank of the Tigris, Samarra",
+    "estimated_year": 836,
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed.",
+    "latitude": 34.361667,
+    "longitude": 43.801944,
+    "coordinates_source": "wikidata:Q20717633",
+    "coordinates_precision": "approximate",
+    "review_notes": "Wikidata point sits in the northern part of the ruin-field; the site extends far beyond it."
+  },
+  {
+    "id": "site-salah-al-din-al-askari-shrine",
+    "name": "Al-Askari Shrine",
+    "governorate": "Salah al-Din",
+    "category": "Shrine",
+    "period": "Abbasid foundation; later rebuildings",
+    "description": "The mausoleum of the tenth and eleventh Shi‘i Imams, Ali al-Hadi and Hasan al-Askari, with the tombs of Hakima Khatun and Narjis Khatun and the adjoining cistern of the Twelfth Imam’s occultation. It was bombed in 2006 and rebuilt.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Askari Shrine",
+        "url": "https://en.wikipedia.org/wiki/Al-Askari_Shrine",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q309484 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q309484",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-askari-shrine",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "‘Askariyya Shrine",
+      "Al-Askari Mosque",
+      "العتبة العسكرية"
+    ],
+    "approximateLocation": "Samarra old city",
+    "destruction_status": "Bombed (2006); rebuilt",
+    "latitude": 34.198889,
+    "longitude": 43.873611,
+    "coordinates_source": "wikidata:Q309484",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-salah-al-din-qasr-al-ashiq",
+    "name": "Qasr al-‘Ashiq (al-Ma‘shuq)",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "A palace built in 877–882 for Caliph al-Mu‘tamid on the west bank of the Tigris, 16 km from modern Samarra; called al-Ma‘shuq, “the beloved”, in the Middle Ages. Excavated in the 1960s and restored in the 1980s.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Qasr al-'Ashiq",
+        "url": "https://en.wikipedia.org/wiki/Qasr_al-%27Ashiq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Samarra Archaeological City",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description / Outstanding Universal Value"
+      },
+      {
+        "sourceName": "Wikidata Q5940359 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5940359",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qasr-al-ashiq",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Al-Ma‘shuq Palace",
+      "Al-Mashuq",
+      "قصر العاشق"
+    ],
+    "approximateLocation": "West bank of the Tigris, Samarra",
+    "estimated_year": 877,
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed.",
+    "latitude": 34.241389,
+    "longitude": 43.808889,
+    "coordinates_source": "wikidata:Q5940359",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-salah-al-din-qubbat-al-sulaybiyya",
+    "name": "Qubbat al-Sulaybiyya",
+    "governorate": "Salah al-Din",
+    "category": "Mausoleum",
+    "period": "Abbasid",
+    "description": "A small domed octagon on a raised platform with ramps on four sides, south of Qasr al-‘Ashiq, built about 862. It is the oldest surviving domed tomb in Islamic architecture, though it may have begun as a garden pavilion.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Archnet — Qubba al-Sulaybiyya",
+        "url": "https://www.archnet.org/sites/3831",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
+        "url": "https://whc.unesco.org/document/8815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qubbat-al-sulaybiyya",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Qubba al-Sulaybiyya",
+      "قبة الصليبية"
+    ],
+    "approximateLocation": "West bank, south of Qasr al-‘Ashiq",
+    "estimated_year": 862,
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-balkuwara-palace",
+    "name": "Balkuwara Palace",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "A palace of about 854 south of Samarra on the Tigris, excavated by Ernst Herzfeld in 1910–13, whose complete plan has been drawn from survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
+        "url": "https://whc.unesco.org/document/8815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description"
+      },
+      {
+        "sourceName": "Metropolitan Museum of Art — Ernst Herzfeld in Samarra",
+        "url": "https://www.metmuseum.org/essays/ernst-emil-herzfeld-1879-1948-in-samarra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "balkuwara-palace",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Al-Manqur Palace",
+      "Qasr Balkuwara"
+    ],
+    "approximateLocation": "South of Samarra",
+    "estimated_year": 854,
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-istabulat",
+    "name": "Al-Istabulat (al-‘Arus Palace)",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "A palace-city south of Samarra recorded among the Abbasid components of the site.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
+        "url": "https://whc.unesco.org/document/8815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description"
+      },
+      {
+        "sourceName": "Wikidata Q139784348 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q139784348",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "istabulat",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Istablat",
+      "Al-‘Arus Palace",
+      "إسطبلات"
+    ],
+    "approximateLocation": "South of Samarra",
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed.",
+    "latitude": 34.084649,
+    "longitude": 43.915481,
+    "coordinates_source": "wikidata:Q139784348",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-salah-al-din-al-jafari-palace",
+    "name": "Al-Ja‘fari Palace (al-Mutawakkiliyya)",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "The palace of al-Mutawakkiliyya, the new city Caliph al-Mutawakkil built north of Samarra, whose congregational mosque is the Abu Dulaf mosque of 859.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Samarra Archaeological City",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description / Outstanding Universal Value"
+      },
+      {
+        "sourceName": "Wikipedia — Abu Dulaf Mosque",
+        "url": "https://en.wikipedia.org/wiki/Abu_Dulaf_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "French Ministry of Culture — Samarra, Abbasid capital",
+        "url": "https://archeologie.culture.gouv.fr/monde/en/samarra-abbasid-capital",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-jafari-palace",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Al-Mutawakkiliyya",
+      "Qasr al-Ja‘fari"
+    ],
+    "approximateLocation": "North of Samarra, near Abu Dulaf",
+    "estimated_year": 859,
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-husn-al-qadisiyya",
+    "name": "Husn al-Qadisiyya (Octagon of Harun al-Rashid)",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological Site",
+    "period": "Early Abbasid",
+    "description": "An unfinished octagonal city begun by Harun al-Rashid at the end of the 8th century, before the Abbasid capital moved to Samarra; surveyed in 1986.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Northedge — The 1986 survey season at Samarra",
+        "url": "https://www.academia.edu/59904629/The_1986_Survey_Season_at_S%C4%81marr%C4%81",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "French Ministry of Culture — Samarra, Abbasid capital",
+        "url": "https://archeologie.culture.gouv.fr/monde/en/samarra-abbasid-capital",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "husn-al-qadisiyya",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Qadisiyya octagon",
+      "حصن القادسية"
+    ],
+    "approximateLocation": "Samarra area",
+    "estimated_year": "late 8th century",
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-samarra-racecourses",
+    "name": "Abbasid Racecourses of Samarra",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological Site",
+    "period": "Abbasid",
+    "description": "Monumental Abbasid racecourses, including a maydan of about 525 × 66 m with a spectators’ lodge at its end and an out-and-back course, mapped by Alastair Northedge.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Northedge — The racecourses at Samarra",
+        "url": "https://whc.unesco.org/document/205820",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "samarra-racecourses",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Hippodromes of Samarra"
+    ],
+    "approximateLocation": "Samarra ruin-field",
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed.",
+    "review_notes": "Source excerpt fragmentary; the cited URL is the UNESCO Samarra document returned with the Northedge material."
+  },
+  {
+    "id": "site-salah-al-din-tell-al-alij",
+    "name": "Tell al-‘Alij",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological Site",
+    "period": "Abbasid",
+    "description": "A mound within the Samarra ruin-field recorded among its Abbasid components.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
+        "url": "https://whc.unesco.org/document/8815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-al-alij",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Samarra ruin-field",
+    "parentSite": "site-salah-al-din-samarra",
+    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-tell-es-sawwan",
+    "name": "Tell es-Sawwan",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological Site",
+    "period": "Neolithic (Samarra culture)",
+    "description": "A Neolithic village on a 12 m cliff over the Tigris south of Samarra, the type site of the Samarra culture (about 5500–4800 BC), with irrigated farming, fine painted pottery and marble vessels.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell es-Sawwan",
+        "url": "https://en.wikipedia.org/wiki/Tell_es-Sawwan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Samarra culture",
+        "url": "https://en.wikipedia.org/wiki/Samarra_culture",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7697547 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7697547",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-es-sawwan",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "تل الصوان"
+    ],
+    "approximateLocation": "South of Samarra",
+    "estimated_year": "c. 5500 BC",
+    "latitude": 34.1167,
+    "longitude": 43.9,
+    "coordinates_source": "wikidata:Q7697547",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-salah-al-din-imam-dur-mausoleum",
+    "name": "Imam Dur Mausoleum",
+    "governorate": "Salah al-Din",
+    "category": "Mausoleum",
+    "period": "Uqaylid–Seljuk",
+    "description": "The 11th-century mausoleum of Imam Muhammad al-Durri 20 km north of Samarra, completed before 1094 and the earliest datable building with a muqarnas dome. Islamic State blew it up on 23 October 2014.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Imam Dur Mausoleum",
+        "url": "https://en.wikipedia.org/wiki/Imam_Dur_Mausoleum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "imam-dur-mausoleum",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Qubbat al-Imam Muhammad al-Durri",
+      "Imam al-Dur",
+      "قبة الإمام الدري"
+    ],
+    "approximateLocation": "Al-Dawr, north of Samarra",
+    "estimated_year": 1085,
+    "destruction_status": "Destroyed (23 October 2014)"
+  },
+  {
+    "id": "site-salah-al-din-sayyid-muhammad-shrine",
+    "name": "Shrine of Sayyid Muhammad ibn Ali al-Hadi, Balad",
+    "governorate": "Salah al-Din",
+    "category": "Shrine",
+    "period": "Abbasid tomb; later rebuildings",
+    "description": "The shrine of a son of Imam Ali al-Hadi who died in Samarra, a major Shi‘i pilgrimage site south of Samarra; pilgrims were killed in a 2016 attack, though the shrine itself survived.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Muhammad ibn Ali al-Hadi",
+        "url": "https://en.wikipedia.org/wiki/Muhammad_ibn_Ali_al-Hadi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Muhammad ibn Ali al-Hadi Mausoleum attack",
+        "url": "https://en.wikipedia.org/wiki/Muhammad_ibn_Ali_al-Hadi_Mausoleum_attack",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "E-Marefa — Architecture and planning of the shrine of Sayyid Muhammad in Balad (Arabic)",
+        "url": "https://search.emarefa.net/detail/BIM-888336",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q1029645 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1029645",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sayyid-muhammad-shrine",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Sayyid Muhammad shrine",
+      "مرقد السيد محمد"
+    ],
+    "approximateLocation": "Near Balad",
+    "latitude": 34.014722,
+    "longitude": 44.145556,
+    "coordinates_source": "wikidata:Q1029645",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-salah-al-din-tikrit-citadel",
+    "name": "Tikrit Citadel and Walls",
+    "governorate": "Salah al-Din",
+    "category": "Citadel",
+    "period": "Assyrian origin; Islamic",
+    "description": "The fortress above the Tigris at Tikrit, a town that began as an Assyrian fort and was the birthplace of Saladin, with remains of its old city wall.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tikrit",
+        "url": "https://en.wikipedia.org/wiki/Tikrit",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q109260815 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q109260815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q117814609 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q117814609",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tikrit-citadel",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Qal‘at Tikrit",
+      "Sur Tikrit",
+      "قلعة تكريت",
+      "سور تكريت"
+    ],
+    "approximateLocation": "Tikrit",
+    "latitude": 34.601684,
+    "longitude": 43.693905,
+    "coordinates_source": "wikidata:Q109260815",
+    "coordinates_precision": "site",
+    "review_notes": "No detailed archaeological source found; review needed."
+  },
+  {
+    "id": "site-salah-al-din-al-arbaeen-mosque",
+    "name": "Al-Arba‘een Mosque, Tikrit",
+    "governorate": "Salah al-Din",
+    "category": "Mosque",
+    "period": "Seljuk",
+    "description": "An 11th-century five-domed mosque with the shrines of Amr ibn Jundab al-Ghifari and Sitt Nafisa, named for forty martyrs said to lie beneath it and used as an Islamic college in 1262. Islamic State destroyed it on 24 September 2014.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Arba'een Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Arba%27een_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q112666371 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q112666371",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-arbaeen-mosque",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Mosque of the Forty Martyrs",
+      "Forty Shrine",
+      "جامع الأربعين"
+    ],
+    "approximateLocation": "Tikrit",
+    "estimated_year": "11th century",
+    "destruction_status": "Destroyed (24 September 2014)",
+    "latitude": 34.598889,
+    "longitude": 43.676111,
+    "coordinates_source": "wikidata:Q112666371",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-salah-al-din-green-church-tikrit",
+    "name": "Green Church (St Ahudemmeh), Tikrit",
+    "governorate": "Salah al-Din",
+    "category": "Church",
+    "period": "Early Islamic",
+    "description": "A Syriac Orthodox church built by the Maphrian Denha II in 700 and the burial place of five maphrians; looted in 1089, restored in 1112, a refuge in the Mongol sack of 1258, and excavated in the 1990s. Islamic State blew it up in September 2014.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Church of Saint Ahudemmeh, Tikrit",
+        "url": "https://en.wikipedia.org/wiki/Church_of_Saint_Ahudemmeh%2C_Tikrit",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNPO — Ancient Assyrian church destroyed by suspected IS militants",
+        "url": "https://unpo.org/?p=9696",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "green-church-tikrit",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Church of Saint Ahudemmeh",
+      "الكنيسة الخضراء"
+    ],
+    "approximateLocation": "Tikrit",
+    "estimated_year": 700,
+    "destruction_status": "Destroyed (September 2014)"
+  },
+  {
+    "id": "site-salah-al-din-kar-tukulti-ninurta",
+    "name": "Kar-Tukulti-Ninurta (Tulul al-Aqar)",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Middle Assyrian",
+    "description": "A new cult centre and residence founded by the Assyrian king Tukulti-Ninurta I (about 1243–1207 BC) 3 km north of Ashur on the east bank of the Tigris, an 800 m walled city with a temple and ziggurat of Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Kar-Tukulti-Ninurta",
+        "url": "https://en.wikipedia.org/wiki/Kar-Tukulti-Ninurta",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Metropolitan Museum — Assyrian Origins: Discoveries at Ashur on the Tigris",
+        "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "p. 110"
+      },
+      {
+        "sourceName": "Wikidata Q165841 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q165841",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kar-tukulti-ninurta",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "alternativeNames": [
+      "Tulul al-Aqar",
+      "تلول العقر"
+    ],
+    "approximateLocation": "East bank opposite Ashur",
+    "estimated_year": "c. 1230 BC",
+    "latitude": 35.495833,
+    "longitude": 43.269444,
+    "coordinates_source": "wikidata:Q165841",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-salah-al-din-ashur-temple",
+    "name": "Temple of Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Temple",
+    "period": "Assyrian",
+    "description": "The temple of the god Ashur, chief sanctuary of the Assyrian state, in its namesake city.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ashur-temple",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-ashur-ziggurat",
+    "name": "Ziggurat of Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Historic Monument",
+    "period": "Assyrian",
+    "description": "The ziggurat of the city of Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ashur-ziggurat",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-ishtar-temple-ashur",
+    "name": "Ishtar Temple, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Temple",
+    "period": "",
+    "description": "The temple of the goddess Ishtar at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ishtar-temple-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-anu-adad-temple",
+    "name": "Temple of Anu and Adad, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Temple",
+    "period": "Assyrian",
+    "description": "The double temple of Anu and Adad at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "anu-adad-temple",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-old-palace-ashur",
+    "name": "Old Palace of Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Assyrian",
+    "description": "The Old Palace of the Assyrian kings at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "old-palace-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-royal-tombs-ashur",
+    "name": "Royal Burials of Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Mausoleum",
+    "period": "Assyrian",
+    "description": "The royal burials recorded at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "royal-tombs-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-parthian-palace-ashur",
+    "name": "Parthian Palace, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Parthian",
+    "description": "A palace of the Parthian period, when Ashur was a semi-independent city.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "parthian-palace-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-tabira-gate",
+    "name": "Tabira Gate, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Gate",
+    "period": "Assyrian",
+    "description": "A monumental gate in the city wall of Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tabira-gate",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-ashur-city-walls",
+    "name": "City Walls of Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Historic Monument",
+    "period": "Assyrian",
+    "description": "The fortification walls of the Assyrian capital.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ashur-city-walls",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-akitu-house-ashur",
+    "name": "New Year Festival House (Akitu), Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Temple",
+    "period": "Assyrian",
+    "description": "The building used for the Assyrian New Year festival at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "akitu-house-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-ottoman-barracks-ashur",
+    "name": "Ottoman Barracks, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Historic Building",
+    "period": "Ottoman",
+    "description": "An Ottoman military building at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ottoman-barracks-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  },
+  {
+    "id": "site-salah-al-din-german-expedition-house-ashur",
+    "name": "German Expedition House, Ashur",
+    "governorate": "Salah al-Din",
+    "category": "Historic Building",
+    "period": "20th century",
+    "description": "The house built for the German archaeological expedition at Ashur.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Brief synthesis / Authenticity / Management"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "german-expedition-house-ashur",
+    "discovery_batch": "salah-al-din-2026-11-03",
+    "approximateLocation": "Ashur (Qal‘at Sherqat)",
+    "parentSite": "site-salah-al-din-ashur",
+    "heritage_status": "Component of Ashur (Qal‘at Sherqat) (UNESCO World Heritage, 2003); not separately inscribed."
+  }
+]
