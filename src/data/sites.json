@@ -16542,5 +16542,1248 @@
     "discovery_batch": "kirkuk-2026-11-03",
     "approximateLocation": "Hbejh, south of Kirkuk",
     "destruction_status": "Reported destroyed (2014); unverified"
+  },
+  {
+    "id": "site-anbar-ancient-anah",
+    "name": "Ancient Anah (Anat)",
+    "governorate": "Anbar",
+    "category": "Archaeological City",
+    "period": "Old Babylonian to Islamic",
+    "description": "Anah, Hanat of the Old Babylonian texts and Anat of the land of Suhu under the Assyrians, lies on a bend of the Euphrates. Its oldest part stood on the island of Lubbad in mid-river; the town was moved before the Haditha reservoir flooded the valley.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Anah",
+        "url": "https://en.wikipedia.org/wiki/Anah",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Introduction, p. 85"
+      },
+      {
+        "sourceName": "Wikidata Q2627750 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2627750",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ancient-anah",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Ana",
+      "Anat",
+      "Hanat",
+      "Anatho",
+      "عانة"
+    ],
+    "approximateLocation": "Anah, Euphrates",
+    "latitude": 34.368611,
+    "longitude": 41.981944,
+    "coordinates_source": "wikidata:Q2627750",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-anbar-ana-qala-island",
+    "name": "Qal‘a Island (Lubbad), Anah",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "Neo-Assyrian to Islamic",
+    "description": "The island fortress of ancient Anah, attacked by Julian in 363. British rescue excavations in 1981–82 found a pottery sequence from Neo-Assyrian through Parthian and Sasanian to several Islamic phases before the dam submerged it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 2, p. 90"
+      },
+      {
+        "sourceName": "British Institute for the Study of Iraq — Excavations at ‘Ana: Qal‘a Island (Northedge, Bamber and Roaf 1988)",
+        "url": "https://www.bisi.ac.uk/publication/excavations-at-ana-qala-island/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ana-qala-island",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Lubbad",
+      "Al-Qal‘a island",
+      "Anatha"
+    ],
+    "approximateLocation": "Euphrates at Anah",
+    "parentSite": "site-anbar-ancient-anah",
+    "destruction_status": "Submerged (1980s)",
+    "review_notes": "Submerged by Lake Qadisiya."
+  },
+  {
+    "id": "site-anbar-minaret-of-anah",
+    "name": "Minaret of Anah",
+    "governorate": "Anbar",
+    "category": "Minaret",
+    "period": "Uqaylid (late Abbasid)",
+    "description": "A 28 m, eight-level minaret built by an Uqaylid ruler between 996 and 1096. It was taken down in at least 28 pieces and rebuilt on safer ground before the reservoir rose, destroyed twice in the 21st century and rebuilt; it reopened in 2023.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Minaret of Anah",
+        "url": "https://en.wikipedia.org/wiki/Minaret_of_Anah",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Anbar — opening ceremony report, 30 May 2023",
+        "url": "https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q12233450 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12233450",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "minaret-of-anah",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Manarat Anah",
+      "Tower of Anah",
+      "Al-Qal‘a minaret",
+      "مئذنة عانة"
+    ],
+    "approximateLocation": "Anah",
+    "estimated_year": "c. 1050",
+    "parentSite": "site-anbar-ancient-anah",
+    "destruction_status": "Destroyed twice in the 21st century; rebuilt",
+    "latitude": 34.368988,
+    "longitude": 42.009579,
+    "coordinates_source": "wikidata:Q12233450",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-anbar-mashhad-abu-reesha-mosque",
+    "name": "Mash‘had (Abu Reesha) Mosque",
+    "governorate": "Anbar",
+    "category": "Mosque",
+    "period": "Abbasid to Ottoman",
+    "description": "A mosque about 10 km north-west of Anah with a 27 × 13.5 m prayer hall in four aisles and a three-room upper floor; its plan predates the Atabeg period, with Abbasid, Atabeg and Ottoman phases.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.5, pp. 85–87"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mashhad-abu-reesha-mosque",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Abu Reesha Mosque",
+      "Mashhad Mosque"
+    ],
+    "approximateLocation": "10 km north-west of Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-shaykh-rajab-mosque",
+    "name": "Shaykh Rajab Mosque (al-Barani), Rawa",
+    "governorate": "Anbar",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A Sufi mosque of 1625 beside the destroyed tomb of Sayyid Rajab al-Rawi al-Rifa‘i. Old Rawa was flooded in 1989; the historic mosque stands half-submerged and a new mosque was built above it in 1992.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Shaykh Rajab Mosque",
+        "url": "https://en.wikipedia.org/wiki/Shaykh_Rajab_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q22686674 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q22686674",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shaykh-rajab-mosque",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Al-Barani Mosque",
+      "جامع الشيخ رجب"
+    ],
+    "approximateLocation": "Rawa",
+    "estimated_year": 1625,
+    "destruction_status": "Partly submerged (1989)",
+    "latitude": 34.467612,
+    "longitude": 41.915127,
+    "coordinates_source": "wikidata:Q22686674",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-anbar-rawa-ottoman-castle",
+    "name": "Ottoman Castle of Rawa",
+    "governorate": "Anbar",
+    "category": "Castle",
+    "period": "Ottoman",
+    "description": "An Ottoman castle at Rawa on the east bank of the Euphrates, opposite Anah, noted in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Introduction, p. 85"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "rawa-ottoman-castle",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Qal‘at Rawa"
+    ],
+    "approximateLocation": "Rawa",
+    "review_notes": "Only a brief mention; condition not established."
+  },
+  {
+    "id": "site-anbar-haradum",
+    "name": "Haradum (Khirbet ed-Diniye)",
+    "governorate": "Anbar",
+    "category": "Archaeological City",
+    "period": "Old Babylonian; Neo-Assyrian",
+    "description": "A small planned Old Babylonian town of the land of Suhum, “the place where one stands watch”, with a river tollbooth and archives dated from Samsu-iluna to Ammi-saduqa. A Neo-Assyrian fortress later stood on the site. Excavated 1981–88; the reservoir did not reach it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Haradum",
+        "url": "https://en.wikipedia.org/wiki/Haradum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.6, p. 87"
+      },
+      {
+        "sourceName": "CDLI — Haradum 2 tablets",
+        "url": "https://cdli.mpiwg-berlin.mpg.de/artifacts/525505",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q3127717 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3127717",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "haradum",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Harrâdum",
+      "Khirbet ed-Diniye",
+      "Al-Diniya ruin",
+      "خربة الدينية"
+    ],
+    "approximateLocation": "Middle Euphrates, upstream of Anah",
+    "estimated_year": "c. 1700 BC",
+    "latitude": 34.433333,
+    "longitude": 41.6,
+    "coordinates_source": "wikidata:Q3127717",
+    "coordinates_precision": "approximate",
+    "review_notes": "Wikidata coordinates are rounded."
+  },
+  {
+    "id": "site-anbar-usiyeh",
+    "name": "‘Usiyeh",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic III; Isin-Larsa",
+    "description": "A terrace site between Haditha and Anah excavated by Kokushikan University in 1982–83. It held a looted high-status tomb of about 2600 BC with beads, seals and life-size clay lions, and a large underground tomb complex of about 1800 BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kokushikan University, ICSAI — ‘Usiyeh excavations",
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/haditha/oushia.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "MDPI Remote Sensing 13(4) — Time-series NDWI for emerging archaeological sites in Iraqi reservoirs",
+        "url": "https://www.mdpi.com/2072-4292/13/4/786",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "usiyeh",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Usiyeh",
+      "Oushia"
+    ],
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "estimated_year": "c. 2600 BC",
+    "destruction_status": "Submerged by the reservoir",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-bijan-island",
+    "name": "Bijan Island",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "Iron Age (Neo-Assyrian)",
+    "description": "An island in the Euphrates with a fortress of the early 1st millennium BC, excavated over eight seasons in 1979–83 by the Polish Centre of Mediterranean Archaeology before the dam flooded it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bijan (island)",
+        "url": "https://en.wikipedia.org/wiki/Bijan_(island)",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bijan-island",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Bijân"
+    ],
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "destruction_status": "Submerged (Lake Qadisiya)",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-sur-jureh",
+    "name": "Sur Jur‘eh",
+    "governorate": "Anbar",
+    "category": "Castle",
+    "period": "Iron Age",
+    "description": "A walled fortress of about 34 hectares in the Haditha basin, one of the large Iron Age strongholds of the land of Suhu.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.2, pp. 87–88"
+      },
+      {
+        "sourceName": "HAL — Assyrian and Suhu fortresses of the middle Euphrates (French study)",
+        "url": "https://shs.hal.science/halshs-02359802v1/document",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sur-jureh",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Jur‘a Wall",
+      "Sur Jur‘a",
+      "سور جرعة"
+    ],
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-yemniyeh",
+    "name": "Yemniyeh",
+    "governorate": "Anbar",
+    "category": "Castle",
+    "period": "Iron Age",
+    "description": "A small fort of about 0.1 hectare in the Haditha basin, distinct from the large fortresses nearby.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "HAL — Assyrian and Suhu fortresses of the middle Euphrates (French study)",
+        "url": "https://shs.hal.science/halshs-02359802v1/document",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "yemniyeh",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-kifrin",
+    "name": "Kifrin",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A site excavated in the late 1970s in the Haditha Dam salvage project, partly exposed again when the reservoir fell.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "MDPI Remote Sensing 13(4) — Time-series NDWI for emerging archaeological sites in Iraqi reservoirs",
+        "url": "https://www.mdpi.com/2072-4292/13/4/786",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kifrin",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-glaia",
+    "name": "Glai‘a",
+    "governorate": "Anbar",
+    "category": "Castle",
+    "period": "Parthian–Sasanian",
+    "description": "A 150 m square enclosure 30.5 km south-east of Anah, open to the river, with an inner 100 m building and a mud-brick structure on a rock platform; Parthian and Sasanian sherds lie on the surface.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.3, p. 85"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "glaia",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Glaia"
+    ],
+    "approximateLocation": "30.5 km south-east of Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-telbis-island",
+    "name": "Telbis Island",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "An island site in the Euphrates near Anah, part of a larger Telbis complex with burial grounds on both banks.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 1, pp. 89–90"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "telbis-island",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Tilmish",
+      "Tilbish"
+    ],
+    "approximateLocation": "Euphrates near Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-telbis-burial-ground",
+    "name": "Telbis Burial Ground (west bank)",
+    "governorate": "Anbar",
+    "category": "Cemetery",
+    "period": "",
+    "description": "Four groups of graves cut into the cliff over 200 m of river bank 13.5 km south-east of Anah; the largest group has fourteen graves.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.4, p. 85"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "telbis-burial-ground",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Telbis, west bank",
+    "parentSite": "site-anbar-telbis-island",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-telbis-eastern-cemetery",
+    "name": "Telbis Eastern Cemetery and Mounds",
+    "governorate": "Anbar",
+    "category": "Cemetery",
+    "period": "",
+    "description": "A cemetery and mounds on the east bank at Telbis, recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.6, p. 89"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "telbis-eastern-cemetery",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Telbis, east bank",
+    "parentSite": "site-anbar-telbis-island",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-rijan-island",
+    "name": "Rijan Island",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "An island site opposite Tel Gubbain recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 3, p. 90"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "rijan-island",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-tel-gubbain",
+    "name": "Tel Gubbain",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A mound at New Ma‘atheed recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.3, p. 88"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tel-gubbain",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Lumaira"
+    ],
+    "approximateLocation": "New Ma‘atheed",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-tel-al-darrajiya",
+    "name": "Tel al-Darrajiya",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A mound near Anah recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.8, p. 89"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tel-al-darrajiya",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Near Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-buttain-al-jannadiya",
+    "name": "Buttain al-Jannadiya",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A site near Anah recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.4, p. 88"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "buttain-al-jannadiya",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Near Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-jafrin",
+    "name": "Jafrin and the Majul Caverns",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A site near Anah with the rock-cut Majul (Gufrin) caverns, recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.5(a)–(b), pp. 88–89"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "jafrin",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Gafrin",
+      "Gufrin caverns",
+      "Majul caverns"
+    ],
+    "approximateLocation": "Near Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-al-khaliliya",
+    "name": "Al-Khaliliya Settlement, Mosque and Minaret",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "Islamic",
+    "description": "A ruined settlement near Anah with a mosque and minaret, recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.7, p. 89"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-khaliliya",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Al-Khabuliya ruins"
+    ],
+    "approximateLocation": "Near Anah",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-al-owaina-canals",
+    "name": "Al-Owaina Canals",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "Ancient canals recorded in the Haditha Dam basin survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.9, p. 89"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-owaina-canals",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Haditha (Qadisiya) Dam basin",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-al-zawiya-site",
+    "name": "Al-Zawiya Archaeological Site",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "",
+    "description": "A site near Sur Jur‘eh recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "p. 91"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-zawiya-site",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Near Sur Jur‘eh",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-shihma-cemetery",
+    "name": "Shihma Cemetery",
+    "governorate": "Anbar",
+    "category": "Cemetery",
+    "period": "Sasanian; Islamic",
+    "description": "A cemetery on a rock platform at the river’s edge 24 km north-west of Haditha, with Islamic and Sasanian surface finds.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.1, p. 85"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shihma-cemetery",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "24 km north-west of Haditha",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-shaikh-tayie-tomb",
+    "name": "Tomb of Shaikh Tay‘ie",
+    "governorate": "Anbar",
+    "category": "Mausoleum",
+    "period": "",
+    "description": "A tomb under a small damaged cupola 19 km north-west of Haditha; floods had loosened the gravestones around it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "A.2, p. 85"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shaikh-tayie-tomb",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "19 km north-west of Haditha",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-imam-habib-al-najjar",
+    "name": "Shrine of Imam Habib al-Najjar",
+    "governorate": "Anbar",
+    "category": "Shrine",
+    "period": "",
+    "description": "A shrine near Haditha recorded in the Haditha Dam survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "B.1, p. 87"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "imam-habib-al-najjar",
+    "discovery_batch": "anbar-2026-11-03",
+    "approximateLocation": "Near Haditha",
+    "review_notes": "Haditha Dam salvage survey record; the site may now be under or beside Lake Qadisiya, and present survival is not established."
+  },
+  {
+    "id": "site-anbar-tell-aswad-haditha",
+    "name": "Tell Aswad (Haditha)",
+    "governorate": "Anbar",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic onward",
+    "description": "A mound on the left bank of the Euphrates near Haditha with herringbone masonry walls and finds from the Early Dynastic period on; last excavated in 2009.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Al Jazeera Net (Arabic), 28 February 2021 — More than 400 sites hold the secrets of history in Anbar",
+        "url": "https://www.aljazeera.net/culture/2021/2/28/أكثر-من-400-موقع-يضم-أسرار-التاريخ-خفايا",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-aswad-haditha",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "تل أسود"
+    ],
+    "approximateLocation": "Left bank of the Euphrates near Haditha",
+    "review_notes": "Not to be confused with the Tell Aswad near ancient Anbar."
+  },
+  {
+    "id": "site-anbar-hit-old-town",
+    "name": "Old Town and Citadel of Hit",
+    "governorate": "Anbar",
+    "category": "Historic Town",
+    "period": "Bronze Age to Ottoman",
+    "description": "Hit stood as a small walled town with a half-moat on two mounds, the ancient city of Is, famous for the bitumen that built Babylon and an Assyrian frontier fortress. The walled town was abandoned in the 1920s.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Hit, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Hit%2C_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Iraqi Academic Scientific Journals — Hit Citadel, a model of military architecture (Arabic)",
+        "url": "https://iasj.mohesr.gov.iq/journals/journal/issue/21000",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Iraq National Investment Commission — Anbar tourism sector",
+        "url": "https://www.investpromo.gov.iq/wp-content/uploads/2018/06/anbar-Tourism-Sector-1.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q2422345 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2422345",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hit-old-town",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Heet",
+      "Is",
+      "قلعة هيت",
+      "Hit Citadel"
+    ],
+    "approximateLocation": "Hit",
+    "latitude": 33.641667,
+    "longitude": 42.825,
+    "coordinates_source": "wikidata:Q2422345",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-anbar-al-farouq-minaret-hit",
+    "name": "Al-Farouq Mosque and Minaret, Hit",
+    "governorate": "Anbar",
+    "category": "Minaret",
+    "period": "Disputed: pre-Islamic or Abbasid",
+    "description": "A minaret on the edge of Hit’s northern citadel above a rock cliff, said to have served as a caravan signal tower; the mosque is traditionally dated to the conquest of 639. Cracked and leaning, it began restoration in July 2026.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 5 July 2026 — Iraq restores pre-Islamic Al-Farouq Minaret",
+        "url": "https://shafaq.com/en/society/Iraq-restores-pre-Islamic-Al-Farouq-Minaret",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Shafaq News — Iraq’s Al-Faruq Mosque and Minaret at risk",
+        "url": "https://shafaq.com/en/Iraq/Iraq-s-Al-Faruq-Mosque-Minaret-Living-testament-to-Islamic-architecture-at-risk",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q22686692 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q22686692",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-farouq-minaret-hit",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Al-Faruq Minaret",
+      "Al-Ma‘mura Minaret",
+      "منارة المعمورة",
+      "جامع الفاروق"
+    ],
+    "approximateLocation": "Northern citadel, Hit",
+    "parentSite": "site-anbar-hit-old-town",
+    "latitude": 33.6445,
+    "longitude": 42.8237,
+    "coordinates_source": "wikidata:Q22686692",
+    "coordinates_precision": "site",
+    "review_notes": "Sources disagree on the date; the Ma‘mura minaret named by Al Jazeera is taken to be the same tower."
+  },
+  {
+    "id": "site-anbar-norias-of-hit",
+    "name": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im)",
+    "governorate": "Anbar",
+    "category": "Historic Monument",
+    "period": "Ottoman and later",
+    "description": "Wooden water wheels that lifted Euphrates water to fields and palm groves, some over 400 years old; fewer than 20 survive. Iraq seeks UNESCO listing, and the Hit Waterwheel Park was restored in 2024.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 28 June 2025 — Centuries-old Al-Anbar waterwheels spin a comeback",
+        "url": "https://shafaq.com/en/Report/Centuries-old-Al-Anbar-waterwheels-spin-a-comeback",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Al-Monitor, July 2019 — Can Iraq save its historical water wheels?",
+        "url": "https://al-monitor.com/originals/2019/07/can-iraq-save-its-historical-water-wheels.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Hit, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Hit%2C_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "norias-of-hit",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Nawa‘ir",
+      "نواعير الفرات",
+      "Hit water wheels"
+    ],
+    "approximateLocation": "Euphrates at Hit and upstream",
+    "latitude": 33.641667,
+    "longitude": 42.825,
+    "coordinates_source": "wikidata:Q2422345",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-anbar-hit-bitumen-springs",
+    "name": "Bitumen Springs of Hit",
+    "governorate": "Anbar",
+    "category": "Historic Monument",
+    "period": "Early Dynastic to present",
+    "description": "Natural bitumen and hot springs worked since the 3rd millennium BC; Hit bitumen built ziggurats and Babylon and is named in texts of Tukulti-Ninurta II.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Hit, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Hit%2C_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Iraq Business News, 2019 — Can Iraq get its water wheels on the World Heritage List?",
+        "url": "https://www.iraq-businessnews.com/2019/07/21/can-iraq-get-its-water-wheels-on-world-heritage-list/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hit-bitumen-springs",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Hitum"
+    ],
+    "approximateLocation": "Hit",
+    "review_notes": "Cultural landscape rather than a single monument."
+  },
+  {
+    "id": "site-anbar-ancient-anbar",
+    "name": "Ancient Anbar (Peroz-Shapur)",
+    "governorate": "Anbar",
+    "category": "Archaeological City",
+    "period": "Sasanian to Abbasid",
+    "description": "Ruins near Fallujah at the head of the Nahr Isa canal: the Sasanian fortress-town of Peroz-Shapur, briefly the Abbasid capital before Baghdad (762), abandoned after the 14th century. It is linked with the Jewish academic centres of Nehardea and Pumbedita.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Anbar (town)",
+        "url": "https://en.wikipedia.org/wiki/Anbar_(town)",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Syriaca.org — Peruz Shapur / Anbar",
+        "url": "https://syriaca.org/place/211",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Pleiades — Misiche / Peroz-Shapur / Anbar",
+        "url": "https://pleiades.stoa.org/places/894043",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Pumbedita",
+        "url": "https://en.wikipedia.org/wiki/Pumbedita",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q2829204 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2829204",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ancient-anbar",
+    "discovery_batch": "anbar-2026-11-03",
+    "alternativeNames": [
+      "Peroz-Shapur",
+      "Firuz Shapur",
+      "Misiche",
+      "Pumbedita (proposed)",
+      "Nehardea (proposed)",
+      "الأنبار"
+    ],
+    "approximateLocation": "Near Saqlawiyah and Fallujah",
+    "latitude": 33.375,
+    "longitude": 43.716667,
+    "coordinates_source": "wikidata:Q2829204",
+    "coordinates_precision": "approximate",
+    "review_notes": "Pumbedita and Nehardea identifications are debated; Wikidata coordinates are rounded."
   }
 ]
