@@ -2121,64 +2121,9 @@
     "review_notes": "Only the article title and abstract were seen; nature and date of the carvings need the full text."
   },
   {
-    "id": "site-duhok-lalish",
-    "name": "Lalish Temple",
-    "governorate": "Duhok",
-    "category": "Temple",
-    "period": "Medieval and later",
-    "description": "The central sanctuary of the Yazidis, in a mountain valley 14 km from Ain Sifni. Six conical domes rise over the tomb of Sheikh Adi ibn Musafir (12th century), with shrines, sacred springs, caves and trees. Iraq placed Lalish on its UNESCO Tentative List in April 2020.",
-    "unesco": false,
-    "has3D": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "sources": [
-      {
-        "sourceName": "Wikipedia — Lalish",
-        "url": "https://en.wikipedia.org/wiki/Lalish",
-        "evidenceId": null,
-        "accessedAt": "2026-11-03",
-        "accessLevel": "full-text"
-      },
-      {
-        "sourceName": "UNESCO World Heritage Centre — Tentative List: Lalish Temple",
-        "url": "https://whc.unesco.org/en/tentativelists/6467/",
-        "evidenceId": null,
-        "accessedAt": "2026-11-03",
-        "accessLevel": "search-snippet"
-      },
-      {
-        "sourceName": "Wikidata Q1017666 (coordinates)",
-        "url": "https://www.wikidata.org/wiki/Q1017666",
-        "evidenceId": null,
-        "accessedAt": "2026-11-03",
-        "accessLevel": "full-text"
-      }
-    ],
-    "unesco_status": "tentative",
-    "status": "needs-review",
-    "verification_status": "needs-review",
-    "slug": "lalish",
-    "discovery_batch": "duhok-2026-11-03",
-    "alternativeNames": [
-      "Laliş",
-      "Lalişa Nûranî",
-      "Lalesh",
-      "Sanctuary of Sheikh Adi",
-      "لالش"
-    ],
-    "approximateLocation": "Lalish valley, Shekhan",
-    "estimated_year": "12th century",
-    "heritage_status": "UNESCO Tentative List (2020); not inscribed",
-    "latitude": 36.771397,
-    "longitude": 43.303344,
-    "coordinates_source": "wikidata:Q1017666",
-    "coordinates_precision": "site",
-    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
-  },
-  {
-    "id": "site-duhok-khinnis-reliefs",
+    "id": "site-nineveh-khinnis-reliefs",
     "name": "Khinnis Reliefs",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Rock Relief",
     "period": "Neo-Assyrian",
     "description": "Rock reliefs and the head-works of Sennacherib’s canal on the Gomel river, carved around 690 BC. The canal carried water about 51 km towards Nineveh; the University of Udine has documented and conserved the complex.",
@@ -2230,9 +2175,9 @@
     "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
   },
   {
-    "id": "site-duhok-jerwan-aqueduct",
+    "id": "site-nineveh-jerwan-aqueduct",
     "name": "Jerwan Aqueduct",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "Neo-Assyrian",
     "description": "A stone aqueduct of 703–690 BC that carried Sennacherib’s Atrush canal across a wadi on its way to Nineveh. The Oriental Institute excavated it in 1933; it is part of the planned Jerwan–Faida archaeological park.",
@@ -2282,9 +2227,9 @@
     "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
   },
   {
-    "id": "site-duhok-baadre-mir-castle",
+    "id": "site-nineveh-baadre-mir-castle",
     "name": "Castle of the Mir, Baadre",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Castle",
     "period": "",
     "description": "Baadre is the historic seat of the Yazidi princes of Sheikhan, and the castle of the princely family stands there. The town, ancient Beth ʿEdrai, hosted a Church of the East synod in 485 AD.",
@@ -2328,9 +2273,9 @@
     "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
   },
   {
-    "id": "site-duhok-ain-sifni-shrines",
+    "id": "site-nineveh-ain-sifni-shrines",
     "name": "Yazidi Shrines of Ain Sifni",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
     "description": "Ain Sifni (Shekhan town) has seven Yazidi religious monuments, among them the mausoleums of Sheikh ʿAlî Chamse and Sheikh Hantuch and shrines of Sheikh Adi, Nishingaha Peroz and Sheikh Mushelleh, besides the churches of Mar Yousif and Mar Gewargis.",
@@ -2352,6 +2297,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Mesopotamia Heritage — The Yazidi mausoleums in Ain Sifni",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-ain-sifni/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
       },
       {
         "sourceName": "Wikidata Q4058903 (coordinates)",
@@ -2380,9 +2332,9 @@
     "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
   },
   {
-    "id": "site-duhok-gir-e-gomel",
+    "id": "site-nineveh-gir-e-gomel",
     "name": "Gir-e Gomel",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "",
     "description": "A tell in the Navkur plain excavated since 2017 by a joint Kurdish–Italian team (KIGAP) with the Duhok antiquities directorate. The Navkur plain is the probable setting of the battle of Gaugamela in 331 BC.",
@@ -2421,9 +2373,9 @@
     "review_notes": "Exact district not confirmed; link to Gaugamela is regional, not a site identification."
   },
   {
-    "id": "site-duhok-mohamed-rashan-shrine",
+    "id": "site-nineveh-mohamed-rashan-shrine",
     "name": "Shrine of Mohamed Rashan, Bardarash",
-    "governorate": "Duhok",
+    "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
     "description": "A Yazidi shrine on a mountainside facing the Erbil–Duhok road near Bardarash.",

@@ -5,9 +5,10 @@ source-backed `needs-review` draft, coordinates come only from the cited source
 (`coordinates_source`), `coordinates_precision: "settlement"` marks a pin on the
 village or town rather than the monument, and unknown values stay empty/null.
 
-Akre and Shekhan districts are administered by the Kurdistan Region from Duhok
-but are claimed de jure by Nineveh Governorate. Their sites are recorded under
-Duhok with an `administrative_note`, so a reviewer can move them in one place.
+Akre district is administered by the Kurdistan Region from Duhok but partly
+claimed by Nineveh; its sites stay under Duhok with an `administrative_note`.
+Shekhan and Bardarash sites are filed under Nineveh, matching the approved
+Lalish record (site-nineveh-lalish), and keep the note on their de facto status.
 
 Usage (from the repository root):
     python3 tools/content-pipeline/data/discovery/duhok-2026-11-03/build_duhok_records.py
@@ -56,12 +57,16 @@ def mmm(entry):
     return src(MMM_NAME, MMM, C1, locator=f'Catalogue entry: {entry}')
 
 
+NINEVEH_ADMIN = ('Shekhan district', 'Bardarash district')
+
+
 def rec(slug, name, category, description, sources, period='', alt=None, coords=None, year=None,
         location='', parent=None, admin='', notes='', unesco=None, heritage_status=''):
+    governorate = 'Nineveh' if admin.startswith(NINEVEH_ADMIN) else 'Duhok'
     record = {
-        'id': f'site-duhok-{slug}',
+        'id': f'site-{governorate.lower()}-{slug}',
         'name': name,
-        'governorate': 'Duhok',
+        'governorate': governorate,
         'category': category,
         'period': period,
         'description': description,
@@ -448,16 +453,6 @@ RECORDS = [
         admin=AKRE, location='Near Akre', notes='Only the article title and abstract were seen; nature and date of the carvings need the full text.'),
 
     # ── Shekhan district ───────────────────────────────────────────────────────────────
-    rec('lalish', 'Lalish Temple', 'Temple',
-        'The central sanctuary of the Yazidis, in a mountain valley 14 km from Ain Sifni. Six conical domes rise over '
-        'the tomb of Sheikh Adi ibn Musafir (12th century), with shrines, sacred springs, caves and trees. Iraq '
-        'placed Lalish on its UNESCO Tentative List in April 2020.',
-        [wp('Lalish'),
-         src('UNESCO World Heritage Centre — Tentative List: Lalish Temple', 'https://whc.unesco.org/en/tentativelists/6467/', level='search-snippet'),
-         wd('Q1017666')],
-        alt=['Laliş', 'Lalişa Nûranî', 'Lalesh', 'Sanctuary of Sheikh Adi', 'لالش'], period='Medieval and later', year='12th century',
-        coords=(36.771397, 43.303344, 'Q1017666', 'site'), admin=SHEKHAN, location='Lalish valley, Shekhan',
-        unesco=False, heritage_status='UNESCO Tentative List (2020); not inscribed'),
     rec('khinnis-reliefs', 'Khinnis Reliefs', 'Rock Relief',
         'Rock reliefs and the head-works of Sennacherib’s canal on the Gomel river, carved around 690 BC. The canal '
         'carried water about 51 km towards Nineveh; the University of Udine has documented and conserved the complex.',
@@ -480,7 +475,9 @@ RECORDS = [
         'Ain Sifni (Shekhan town) has seven Yazidi religious monuments, among them the mausoleums of Sheikh ʿAlî '
         'Chamse and Sheikh Hantuch and shrines of Sheikh Adi, Nishingaha Peroz and Sheikh Mushelleh, besides the '
         'churches of Mar Yousif and Mar Gewargis.',
-        [wp('Ain Sifni'), wp('List of Yazidi holy places', 'search-snippet'), wd('Q4058903')],
+        [wp('Ain Sifni'), wp('List of Yazidi holy places', 'search-snippet'),
+         src('Mesopotamia Heritage — The Yazidi mausoleums in Ain Sifni', 'https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-ain-sifni/'),
+         wd('Q4058903')],
         alt=['Shekhan', 'Şêxan', 'Êsivnê', 'Nishingaha Peroz'], coords=(36.695833, 43.351944, 'Q4058903', 'settlement'),
         admin=SHEKHAN, location='Ain Sifni, Shekhan district'),
     rec('gir-e-gomel', 'Gir-e Gomel', 'Archaeological Site',

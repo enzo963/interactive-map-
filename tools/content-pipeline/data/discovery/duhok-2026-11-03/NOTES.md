@@ -1,6 +1,11 @@
 # Duhok governorate discovery — 3 November 2026
 
-This batch adds 60 Duhok records to `src/data/sites.json`, which brings Duhok from 3 records to 63.
+This batch now holds 59 records: 53 for Duhok and 6 for Nineveh. Duhok went from 3 records to 56; with Mam Chevan, added in the Nineveh batch, it has 57.
+
+The batch was corrected the same day:
+
+- **Duplicate removed.** The batch first added a second Lalish record, which repeated the approved `site-nineveh-lalish`.
+- **Six records moved to Nineveh.** The Shekhan and Bardarash records are filed under Nineveh to match that approved record. They are Khinnis, Jerwan, the Baadre castle, the Ain Sifni shrines, Gir-e Gomel and the Mohamed Rashan shrine.
 
 - Every new record has `status: needs-review` and at least one source.
 - Every new record has `alternativeNames` in Kurdish, Arabic, Syriac, historical or English spellings where sources give them. Search uses these names.
@@ -18,15 +23,15 @@ This batch adds 60 Duhok records to `src/data/sites.json`, which brings Duhok fr
 | Amedi: Great Mosque, Tomb of Hazkiel, gates, staircase, Parthian reliefs, Qubahan, archdiocese, Issa bridge, Bamerne | 10 |
 | Sapna valley and Barwari: Araden, Dere, Komane, Dehi, Bebadi, Dawodiya, Dooreh, Betanure, Mangesh, Deraluk | 10 |
 | Akre district: Great Mosque, Qishla, castle, old quarters, Gunduk reliefs, Kondak church, Kalati mosque, Gali Zardak | 8 |
-| Shekhan and Bardarash: Lalish, Khinnis, Jerwan, Baadre, Ain Sifni, Gir-e Gomel, Mohamed Rashan shrine | 7 |
+| Shekhan and Bardarash (filed under Nineveh): Khinnis, Jerwan, Baadre, Ain Sifni, Gir-e Gomel, Mohamed Rashan shrine | 6 |
 
 ## Decision for a reviewer
 
 **Akre, Shekhan and Bardarash districts.** These districts are run by the Kurdistan Region from Duhok, but Nineveh Governorate claims them de jure.
 
-- The KRG, the Duhok antiquities directorate, Wikidata and the 2025–26 news sources place their sites in Duhok, so they are recorded under Duhok.
-- Each of these records carries an `administrative_note`.
-- The earlier C1-01 pass left Lalish, Khinnis and Jerwan out of Duhok for this reason. If the project prefers the de jure boundary, change `governorate` on the 15 records that have an `administrative_note`.
+- **Shekhan and Bardarash** sites are filed under Nineveh. This follows the approved Lalish record and the earlier C1-01 pass.
+- **Akre district** sites stay under Duhok. The KRG, Wikidata and the 2025–26 news sources place them there, and Nineveh claims the district only in part.
+- Every record in these three districts carries an `administrative_note`. If the project prefers a different rule, the change is the `NINEVEH_ADMIN` tuple in `build_duhok_records.py`.
 
 ## Review flags
 

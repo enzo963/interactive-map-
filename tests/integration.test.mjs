@@ -29,6 +29,8 @@ const { matchRoute } = await server.ssrLoadModule('/src/router/matchRoute.js');
 const { routes } = await server.ssrLoadModule('/src/routes.jsx');
 const sites = getAllSites();
 const importedSites = structuredClone(sites);
+// Behaviour tests that assert exact counts use the curated approved records, not discovery drafts.
+const approvedSites = importedSites.filter((site) => site.status === 'approved');
 // A selected-site baseline keeps the existing map/age regressions deterministic.
 const realSites = normalizeSites([{ ...JSON.parse(readFileSync(new URL('../src/data/sites.json', import.meta.url), 'utf8')).find((s) => s.id === 'site-001'), latitude: 35.5872, longitude: 42.7185, estimated_year: -100 }]);
 const HeritageCard = (await server.ssrLoadModule('/src/components/cards/HeritageCard.jsx')).default;
@@ -733,7 +735,7 @@ test('advanced filters combine governorate, period and explicit unknown statuses
 });
 
 test('category and recorded-period discovery links open meaningful results', async () => {
-  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  sites.splice(0, sites.length, ...structuredClone(approvedSites));
   await mount('/explore');
   await click(all('.hb-discovery__category').find((a) => a.textContent.includes('Cultural')));
   assert.ok(all('.hb-grid .hb-card__title').some((c) => c.textContent === 'Red Terror Museum, Slemani'));
@@ -744,7 +746,7 @@ test('category and recorded-period discovery links open meaningful results', asy
 });
 
 test('Map governorate handoff preserves search and displays the regional inventory', async () => {
-  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  sites.splice(0, sites.length, ...structuredClone(approvedSites));
   await mount('/map?region=nineveh&q=mosque');
   assert.equal($('#map-result-heading').textContent, 'Nineveh heritage sites');
   assert.equal(all('.hb-mapx__list li').length, 1);
@@ -757,13 +759,13 @@ test('Map governorate handoff preserves search and displays the regional invento
 });
 
 test('in-flow filters close with focus returned to results and retain URL selections', async () => {
-  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  sites.splice(0, sites.length, ...structuredClone(approvedSites));
   await mount('/explore?gov=erbil');
   const toggle = $('[aria-controls="explore-filters"]');
   await click(toggle);
   assert.equal(toggle.getAttribute('aria-expanded'), 'true');
   assert.ok($('#explore-filters').classList.contains('is-open'));
-  await click(button('Show 69 sites'));
+  await click(button('Show 4 sites'));
   assert.equal(toggle.getAttribute('aria-expanded'), 'false');
   assert.equal(document.activeElement.id, 'explore-results');
   assert.equal(new URLSearchParams(window.location.search).get('gov'), 'erbil');
