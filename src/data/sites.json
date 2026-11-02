@@ -15525,5 +15525,1022 @@
     "discovery_batch": "sulaymaniyah-2026-11-03",
     "approximateLocation": "EFEC survey region",
     "review_notes": "Broader regional location supported; exact governorate boundary requires confirmation."
+  },
+  {
+    "id": "site-kirkuk-great-mosque-kirkuk-citadel",
+    "name": "Great Mosque of Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Mosque",
+    "period": "Seljuk; Ottoman",
+    "description": "Originally a 7th-century church of the Virgin Mary, turned into a mosque in the early 13th century and rebuilt by the Seljuks in 1237 with a brick minaret; the Ottomans added a madrasa in 1657.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Great Mosque of the Citadel",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_the_Citadel",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      },
+      {
+        "sourceName": "Wikidata Q22685009 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q22685009",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "great-mosque-kirkuk-citadel",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Ulu Cami",
+      "Mosque of the Virgin Mary",
+      "al-Adra Maryam Mosque",
+      "الجامع الكبير في القلعة"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "estimated_year": 1237,
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "latitude": 35.468855,
+    "longitude": 44.394581,
+    "coordinates_source": "wikidata:Q22685009",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-al-aryan-mosque",
+    "name": "Al-Aryan Mosque",
+    "governorate": "Kirkuk",
+    "category": "Mosque",
+    "period": "",
+    "description": "A historic mosque of Kirkuk Citadel named in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-aryan-mosque",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-hasan-pakiz-mosque",
+    "name": "Hasan Pakiz Mosque",
+    "governorate": "Kirkuk",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A citadel mosque attributed to Firari Hasan Pasha, governor of Shahrizor, the Ottoman province then centred on Kirkuk.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "DRArch — Resilience in intentionally destroyed historic settlements: Kirkuk Citadel and the old town of Van",
+        "url": "https://drarch.org/index.php/drarch/article/download/60/30/537",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hasan-pakiz-mosque",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Hasan Pakize"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Sources place it either in the north-west of the citadel or in the southern Hammam quarter."
+  },
+  {
+    "id": "site-kirkuk-al-midan-quarter",
+    "name": "Al-Midan Quarter, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Historic Urban Area",
+    "period": "",
+    "description": "One of the historic quarters of Kirkuk Citadel described in the UNESCO dossier. About 800 citadel houses were bulldozed in 1997–98, leaving nine monuments and nine small groups of houses.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      },
+      {
+        "sourceName": "University of Oxford, Protecting the Past — The Citadel of Kirkuk: reconnaissance and assessment of its archaeological heritage",
+        "url": "https://podcasts.ox.ac.uk/citadel-kirkuk-reconnaissance-and-assessment-its-archaeological-heritage-arabic",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-midan-quarter",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Meydan"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-aghaliq-quarter",
+    "name": "Aghaliq Quarter, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Historic Urban Area",
+    "period": "",
+    "description": "A historic quarter of Kirkuk Citadel described in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "aghaliq-quarter",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Ağalık"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-hammam-quarter",
+    "name": "Hammam Quarter, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Historic Urban Area",
+    "period": "",
+    "description": "A historic quarter of Kirkuk Citadel described in the UNESCO dossier, home of the Mother of Sorrows Church.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hammam-quarter",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Hamam"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-stone-gate",
+    "name": "Stone Gate, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Gate",
+    "period": "",
+    "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "stone-gate",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Taş Kapı"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-tob-qapi",
+    "name": "Bab al-Toub (Tob Qapi), Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Gate",
+    "period": "",
+    "description": "The “Cannon Gate” of Kirkuk Citadel named in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tob-qapi",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Toub Qabu",
+      "Top Kapı",
+      "Cannon Gate"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-seven-girls-gate",
+    "name": "Seven Girls Gate, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Gate",
+    "period": "",
+    "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "seven-girls-gate",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Yedi Kızlar Kapısı"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-bab-al-halloujia",
+    "name": "Bab al-Halloujia, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Gate",
+    "period": "",
+    "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bab-al-halloujia",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Halloujia Gate"
+    ],
+    "approximateLocation": "Kirkuk Citadel",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing.",
+    "review_notes": "Component of Kirkuk Citadel named in the UNESCO dossier; survival after the 1997–98 clearance needs field confirmation."
+  },
+  {
+    "id": "site-kirkuk-ottoman-military-cemetery",
+    "name": "Ottoman Military Cemetery, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Cemetery",
+    "period": "Ottoman; 20th century",
+    "description": "Kirkuk’s first cemetery behind the Prophet Daniel Mosque, later the burial ground of Ottoman soldiers after the First World War; restored by Türkiye’s TİKA with Kirkuk’s antiquities directorate.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mosque of the Prophet Daniel, Kirkuk",
+        "url": "https://en.wikipedia.org/wiki/Mosque_of_the_Prophet_Daniel%2C_Kirkuk",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "TİKA — Collective opening ceremony for TİKA’s projects in Iraq",
+        "url": "https://tika.gov.tr/en/detail-a_collective_opening_ceremony_was_held_for_tika%27s_projects_in_iraq/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ottoman-military-cemetery",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Şehitlik"
+    ],
+    "approximateLocation": "Behind the Prophet Daniel Mosque",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
+    "heritage_status": "Within Kirkuk Citadel (UNESCO Tentative List, 2021); no separate listing."
+  },
+  {
+    "id": "site-kirkuk-takiya-najib",
+    "name": "Takiya of Najib",
+    "governorate": "Kirkuk",
+    "category": "Shrine",
+    "period": "Ottoman",
+    "description": "An Ottoman-era Sufi lodge on the edge of Kirkuk Citadel, among the oldest in the city, which keeps a hair relic of the Prophet that draws visitors at the Mawlid.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Shafaq News (Arabic) — A centuries-old takiya in Kirkuk",
+        "url": "https://shafaq.com/ar/مجتـمع/تكية-عمرها-قرون-شعرة-نبوية-تستقطب-زوار-كركوك-في-المولد-النبوي-صور-وفيديو",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "takiya-najib",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "تكية نجيب",
+      "Necip Tekkesi"
+    ],
+    "approximateLocation": "Edge of Kirkuk Citadel"
+  },
+  {
+    "id": "site-kirkuk-qishla-of-kirkuk",
+    "name": "Qishla of Kirkuk",
+    "governorate": "Kirkuk",
+    "category": "Historic Building",
+    "period": "Ottoman",
+    "description": "The Ottoman army headquarters built in 1863 on about 6 acres in the city centre. Part of it collapsed in 2016; a folk museum occupies the upper floor, and a UN assessment and a 30-billion-dinar plan target its restoration with the citadel.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Qishla of Kirkuk",
+        "url": "https://en.wikipedia.org/wiki/Qishla_of_Kirkuk",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UN Iraq — Assessment visit to Kirkuk’s historical Qishla and Citadel",
+        "url": "https://iraq.un.org/en/170039-un-iraq-assessment-visit-kirkuk%E2%80%99s-historical-qishla-and-citadel-sites-explore-ways-assist",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "KirkukNow — Kirkuk Folk Museum opens",
+        "url": "https://kirkuknow.com/en/news/67845",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q7267921 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7267921",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qishla-of-kirkuk",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Kirkuk Barracks",
+      "قشلة كركوك",
+      "Kerkük Kışlası",
+      "Kirkuk Folk Museum"
+    ],
+    "approximateLocation": "Kirkuk city centre",
+    "estimated_year": 1863,
+    "destruction_status": "12 m collapsed (8 February 2016)",
+    "latitude": 35.47125,
+    "longitude": 44.388556,
+    "coordinates_source": "wikidata:Q7267921",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-kirkuk-stone-bridge",
+    "name": "Ottoman Stone Bridge, Kirkuk",
+    "governorate": "Kirkuk",
+    "category": "Historic Bridge",
+    "period": "Ottoman",
+    "description": "A stone bridge of 1875 over the Khasa built under the Ottoman governor Nafiz Pasha and leading towards a gate of the citadel; it has been restored.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Iraq Oil Report — Kirkuk’s historic stone bridge gets restored",
+        "url": "https://www.iraqoilreport.com/daily-brief/kirkuk%E2%80%99s-historic-stone-bridge-gets-restored-6541",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kirkuk-stone-bridge",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Taş Köprü",
+      "Khasa Su bridge"
+    ],
+    "approximateLocation": "Khasa river, Kirkuk",
+    "estimated_year": 1875
+  },
+  {
+    "id": "site-kirkuk-mariam-al-adra-koria",
+    "name": "Mariam al-Adra Church, Koria",
+    "governorate": "Kirkuk",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "A Chaldean church built in 1862 in the old Christian quarter of Koria, eight years after the dogma of the Immaculate Conception; a new church was added next to it in 1965.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Mariam Al Adra Church in Kirkuk",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-mariam-al-adra-de-kirkouk-vierge-marie-immaculee-conception/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mariam-al-adra-koria",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Virgin Mary of the Immaculate Conception"
+    ],
+    "approximateLocation": "Koria quarter, Kirkuk",
+    "estimated_year": 1862,
+    "latitude": 35.464561,
+    "longitude": 44.378622,
+    "coordinates_source": "mesopotamiaheritage:mariam-al-adra-kirkuk",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-tahmazgerd-red-church",
+    "name": "Tahmazgerd Church (Red Church)",
+    "governorate": "Kirkuk",
+    "category": "Church",
+    "period": "Late Antique (founded)",
+    "description": "Kirkuk’s oldest Christian site: a martyrion raised around 470 for the 12,000 Christians killed by Yazdegerd II in 445, named after the Persian officer Tahmazgerd who led the massacre and later died a martyr.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Tahmazgerd church (the so-called Red church)",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-tahmazgerd-de-kirkouk-dite-eglise-rouge/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Beth Garmai",
+        "url": "https://en.wikipedia.org/wiki/Beth_Garmai",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tahmazgerd-red-church",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Red Church",
+      "Martyrs of Karka d-Beth Slokh",
+      "Karka d-Beth Slokh"
+    ],
+    "approximateLocation": "Hill overlooking Kirkuk",
+    "estimated_year": "c. 470",
+    "latitude": 35.468356,
+    "longitude": 44.383714,
+    "coordinates_source": "mesopotamiaheritage:tahmazgerd",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-salih-malli-house",
+    "name": "Salih Malli House",
+    "governorate": "Kirkuk",
+    "category": "Historic House",
+    "period": "20th century",
+    "description": "A house of about 1910 in the Imam Qasim quarter, described by residents as a palace and still lived in by the family’s fourth generation; locals asked the heritage directorate to register it in 2021.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "KirkukNow, 15 March 2021 — Buildings over 150 years old registered for renovation",
+        "url": "https://kirkuknow.com/en/news/65105",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "salih-malli-house",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Imam Qasim quarter, Kirkuk",
+    "estimated_year": 1910,
+    "review_notes": "At risk; not yet registered when reported."
+  },
+  {
+    "id": "site-kirkuk-nuzi",
+    "name": "Nuzi (Yorghan Tepe)",
+    "governorate": "Kirkuk",
+    "category": "Archaeological City",
+    "period": "Ubaid to Late Bronze Age (Mitanni)",
+    "description": "A city 12 km south-west of Kirkuk occupied from the Ubaid period to the late 2nd millennium BC: Gasur under Akkad and Nuzi under Mitanni. Its thousands of family and palace tablets are a key source for Hurrian society.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Nuzi",
+        "url": "https://en.wikipedia.org/wiki/Nuzi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Project description"
+      },
+      {
+        "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordeach.php?-action=find&-recid=27",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "N3"
+      },
+      {
+        "sourceName": "Wikidata Q584605 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q584605",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "nuzi",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Yorghan Tepe",
+      "Yorgan Tepe",
+      "Gasur",
+      "نوزي"
+    ],
+    "approximateLocation": "South-west of Kirkuk",
+    "estimated_year": "c. 1450 BC",
+    "latitude": 35.302494,
+    "longitude": 44.247622,
+    "coordinates_source": "wikidata:Q584605",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-nuzi-palace",
+    "name": "Palace of Nuzi",
+    "governorate": "Kirkuk",
+    "category": "Palace",
+    "period": "Mitanni",
+    "description": "The Mitanni-period palace of Nuzi, whose archives are being edited by LMU Munich.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Project description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "nuzi-palace",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Nuzi",
+    "parentSite": "site-kirkuk-nuzi"
+  },
+  {
+    "id": "site-kirkuk-nuzi-temple",
+    "name": "Temple of Nuzi",
+    "governorate": "Kirkuk",
+    "category": "Temple",
+    "period": "Bronze Age",
+    "description": "The temple complex excavated at Nuzi.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Project description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "nuzi-temple",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Nuzi",
+    "parentSite": "site-kirkuk-nuzi"
+  },
+  {
+    "id": "site-kirkuk-nuzi-city-wall",
+    "name": "City Wall of Nuzi",
+    "governorate": "Kirkuk",
+    "category": "Historic Monument",
+    "period": "Bronze Age",
+    "description": "The fortification wall of Nuzi.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Project description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "nuzi-city-wall",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Nuzi",
+    "parentSite": "site-kirkuk-nuzi"
+  },
+  {
+    "id": "site-kirkuk-tell-al-fakhar",
+    "name": "Tell al-Fakhar",
+    "governorate": "Kirkuk",
+    "category": "Archaeological Site",
+    "period": "Mitanni; Neo-Assyrian",
+    "description": "A mound 45 km south-west of Kirkuk whose Mitanni-period “Green Palace” held about 800 tablets; Neo-Assyrian remains lie above. It has been proposed as Kurruhanni.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell al-Fakhar",
+        "url": "https://en.wikipedia.org/wiki/Tell_al-Fakhar",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "al-Khalesi 1977 — Tell al-Fakhar (Kurruḫanni), a dimtu-settlement: excavation report",
+        "url": "https://keibi.uni-tuebingen.de/Record/KEI00074561",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-al-fakhar",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Kurruhanni",
+      "تل الفخار",
+      "Pottery Mound"
+    ],
+    "approximateLocation": "South-west of Kirkuk"
+  },
+  {
+    "id": "site-kirkuk-tell-arab-kumbet",
+    "name": "Tell Arab Kumbet",
+    "governorate": "Kirkuk",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic to Old Babylonian",
+    "description": "A mound in the al-Wasiti quarter of central Kirkuk dated by the Iraqi State Board of Antiquities to the Early Dynastic to Old Babylonian periods. Excavations found houses, workshops and pottery kilns, graves with offerings and about 150 objects; houses built over the mound threaten it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Shafaq News (Arabic) — Kirkuk: encroachments hide thousands-of-years-old antiquities",
+        "url": "https://shafaq.com/ar/تقارير-وتحليلات/كركوك-التجاوزات-تغيب-ثار-عمرها-لاف-السنين-والدولة-تعجز-عن-انتشالها-صور",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Annals of the Faculty of Arts, Ain Shams University — The site of Arab Kumbet in Mesopotamia in the light of excavations",
+        "url": "https://aafu.journals.ekb.eg/article_30093.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-arab-kumbet",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "عرب كومبت",
+      "Arab Kümbet"
+    ],
+    "approximateLocation": "al-Wasiti quarter, Kirkuk",
+    "destruction_status": "Encroached by house building"
+  },
+  {
+    "id": "site-kirkuk-altun-kupri-bridges",
+    "name": "Ottoman Bridges of Altun Kupri",
+    "governorate": "Kirkuk",
+    "category": "Historic Bridge",
+    "period": "Ottoman",
+    "description": "Sultan Murad IV built two bridges across the Little Zab at Altun Kupri (“Golden Bridge”). Their last phase, dated before 1736, was demolished in 1918, but remains are still visible.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Altun Kupri",
+        "url": "https://en.wikipedia.org/wiki/Altun_Kupri",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Athar al-Rafidain (University of Mosul) — Development of Altyn Köprü (Pirdi) in the light of new archaeological research",
+        "url": "https://athar.uomosul.edu.iq/index.php/athar/article/view/37653",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "altun-kupri-bridges",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Altın Köprü",
+      "Pirdê",
+      "Prde",
+      "التون كوبري"
+    ],
+    "approximateLocation": "Altun Kupri, Little Zab",
+    "estimated_year": "17th century"
+  },
+  {
+    "id": "site-kirkuk-daquq-ottoman-bridge",
+    "name": "Ottoman Bridge of Daquq",
+    "governorate": "Kirkuk",
+    "category": "Historic Bridge",
+    "period": "Ottoman",
+    "description": "An Ottoman bridge completed about 142 years ago and still in use in Daquq, a town first named as Diquqina in Neo-Assyrian texts.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Türkiye Today, December 2025 — Historic Ottoman bridge in Iraq remains unharmed",
+        "url": "https://www.turkiyetoday.com/culture/historic-ottoman-bridge-in-iraq-remains-unharmed-amid-regional-flooding-3212242",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Daquq",
+        "url": "https://en.wikipedia.org/wiki/Daquq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q115915275 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q115915275",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "daquq-ottoman-bridge",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Dakuk Köprüsü",
+      "Tavuk bridge",
+      "جسر داقوق"
+    ],
+    "approximateLocation": "Daquq",
+    "estimated_year": 1883,
+    "latitude": 35.173898,
+    "longitude": 44.50697,
+    "coordinates_source": "wikidata:Q115915275",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-kirkuk-baba-gurgur",
+    "name": "Baba Gurgur Eternal Fire",
+    "governorate": "Kirkuk",
+    "category": "Historic Monument",
+    "period": "Ancient tradition; 1927 oil discovery",
+    "description": "The ever-burning gas flame north-west of Kirkuk, linked in local belief to the fiery furnace of the Book of Daniel, where Iraq’s first northern oil gusher came in 1927.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baba Gurgur",
+        "url": "https://en.wikipedia.org/wiki/Baba_Gurgur",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baba-gurgur",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "alternativeNames": [
+      "Eternal Fire",
+      "Father of Fires",
+      "النار الأزلية",
+      "بابا كركر"
+    ],
+    "approximateLocation": "16 km north-west of Kirkuk",
+    "estimated_year": 1927,
+    "review_notes": "Industrial and cultural heritage; not an archaeological site."
+  },
+  {
+    "id": "site-kirkuk-sheikh-ismail-shrine",
+    "name": "Shrine of Sheikh Ismail, Hbejh",
+    "governorate": "Kirkuk",
+    "category": "Shrine",
+    "period": "",
+    "description": "A shrine in Hbejh village 46 km south of Kirkuk reported destroyed by Islamic State.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "ASOR Cultural Heritage Initiatives — Weekly Report 16–17",
+        "url": "https://www.asor.org/wp-content/uploads/2019/09/ASOR_CHI_Weekly_Report_16–17r.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sheikh-ismail-shrine",
+    "discovery_batch": "kirkuk-2026-11-03",
+    "approximateLocation": "Hbejh, south of Kirkuk",
+    "destruction_status": "Reported destroyed (2014); unverified"
   }
 ]
