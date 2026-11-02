@@ -1,5 +1,5 @@
 import { SPECIAL_COLLECTIONS, VIEW_FILTERS, isCollectionMember } from '../data/collections';
-import { getGovernorateKey } from '../data/governorates';
+import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
 import { getThematicDefinitions } from '../services/deckService';
 import { groupByGovernorate } from './groupDecks';
 
@@ -40,7 +40,14 @@ export function getAllCollections(sites) {
   return out;
 }
 
-export const getDeckById = (sites, id) => getAllCollections(sites).find((deck) => deck.id === id) ?? null;
+export function getDeckById(sites, id) {
+  const key = getGovernorateKey(id);
+  const found = getAllCollections(sites).find((deck) => deck.id === id || (deck.kind === 'governorate' && deck.id === key));
+  if (found) return found;
+  const name = GOVERNORATE_NAMES[key];
+  if (!name) return null;
+  return { id: key, name, kind: 'governorate', title: `${name} Deck`, blurb: `Heritage cards recorded in ${name}.`, back: 'plain', sites: [], count: 0, href: `/decks/${key}` };
+}
 
 /** The decks one site belongs to (a card has ONE type but can sit in many decks). */
 export function getDecksForSite(site) {

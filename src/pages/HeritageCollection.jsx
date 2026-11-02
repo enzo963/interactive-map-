@@ -3,6 +3,7 @@ import PageHeader from '../components/common/PageHeader';
 import SmartLink from '../components/common/SmartLink';
 import SearchField from '../components/common/SearchField';
 import CardGrid from '../components/common/CardGrid';
+import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import useSiteFilters from '../hooks/useSiteFilters';
 import { getAllSites } from '../services/siteService';
@@ -66,23 +67,19 @@ export default function HeritageCollection({ kind = 'unesco' }) {
           </>
         )}
         {results.length ? (
-          <CardGrid key={filters.q} sites={results} />
+          <CardGrid key={filters.q} sites={results} headingLevel={2} />
         ) : (
-          <section className="hb-empty">
-            <h2>
-              {sites.length
+          <StatePanel kind={sites.length ? 'no-results' : 'empty'}
+            title={sites.length
                 ? 'No sites match your search'
                 : digital
                   ? 'No verified 3D resources yet'
                   : 'No approved World Heritage properties yet'}
-            </h2>
-            <p>
-              {sites.length
+            description={sites.length
                 ? 'Try a site name or alternative name.'
                 : digital
                   ? 'The archive does not currently contain approved models or reconstruction resources. Sites will appear here after verification.'
-                  : 'Only approved records with confirmed World Heritage inscription appear in this collection.'}
-            </p>
+                  : 'Only approved records with confirmed World Heritage inscription appear in this collection.'}>
             {filters.q && (
               <button className="hb-btn" type="button" onClick={() => setFilters({ q: '' })}>
                 Clear search
@@ -91,7 +88,7 @@ export default function HeritageCollection({ kind = 'unesco' }) {
             <SmartLink className="hb-link" href="/explore">
               Explore all heritage sites
             </SmartLink>
-          </section>
+          </StatePanel>
         )}
       </div>
     </main>

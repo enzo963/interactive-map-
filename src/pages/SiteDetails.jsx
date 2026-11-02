@@ -6,6 +6,7 @@ import SiteLocation from '../components/site/SiteLocation';
 import SectionNav from '../components/site/SectionNav';
 import { Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
 import NotFound from './NotFound';
+import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
 import { getDecksForSite } from '../utils/decks';
@@ -161,7 +162,7 @@ export default function SiteDetails({ params }) {
     },
     {
       title: 'Place',
-      rows: [['Governorate', site.governorate], ['City', site.city], ['Country', site.country]],
+      rows: [['Governorate', site.governorate || 'Governorate not recorded'], ['City', site.city], ['Country', site.country]],
     },
     {
       title: 'Status and verification',
@@ -176,20 +177,20 @@ export default function SiteDetails({ params }) {
   ].map((group) => ({ ...group, rows: group.rows.filter(([, value]) => value) })).filter((group) => group.rows.length > 0);
 
   const sections = [
-    (site.description || site.historicalBackground) && {
-      id: 'overview', title: 'Historical overview', body: <Overview text={site.description} background={site.historicalBackground} />,
+    {
+      id: 'overview', title: 'Historical overview', body: site.description || site.historicalBackground ? <Overview text={site.description} background={site.historicalBackground} /> : <StatePanel kind="unavailable" title="Historical overview unavailable" description="A source-backed description has not been recorded yet." headingLevel={3} compact />,
     },
     site.timeline.length > 0 && { id: 'timeline', title: 'Historical timeline', body: <Timeline items={site.timeline} /> },
-    { id: 'gallery', title: 'Gallery', body: media.length > 0 ? <><p className="hb-site__section-intro">{media.length} {media.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <p className="hb-site__section-intro">No images are available for this site yet.</p> },
-    hasLocation && { id: 'location', title: 'Location', body: <SiteLocation site={site} neighbours={neighbours} /> },
-    (site.modelResources.length > 0 || site.modelUrl) && { id: 'model', title: '3D model', body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
+    { id: 'gallery', title: 'Gallery', body: media.length > 0 ? <><p className="hb-site__section-intro">{media.length} {media.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <StatePanel kind="unavailable" title="Images unavailable" description="No images are available for this site yet." headingLevel={3} compact /> },
+    { id: 'location', title: 'Location', body: hasLocation ? <SiteLocation site={site} neighbours={neighbours} /> : <StatePanel kind="unavailable" title="Location unavailable" description="Verified coordinates have not been recorded. This site remains available in the archive without an invented map position." headingLevel={3} compact /> },
+    { id: 'model', title: '3D model', body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
     site.videoUrl && { id: 'video', title: 'Video', body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
     hasDocumentation && {
       id: 'documentation',
       title: 'Digital documentation',
       body: <Documentation types={site.ourWorkTypes} note={site.ourWorkNote} meta={site.documentationMeta} assets={site.digitalAssets} />,
     },
-    { id: 'sources', title: 'Sources and references', body: site.sources.length > 0 ? <Sources items={site.sources} /> : <p className="hb-site__section-intro">No source references have been added to this record yet.</p> },
+    { id: 'sources', title: 'Sources and references', body: site.sources.length > 0 ? <Sources items={site.sources} /> : <StatePanel kind="unavailable" title="References unavailable" description="No source references have been added to this record yet." headingLevel={3} compact /> },
     hasCredits && {
       id: 'credits',
       title: 'Image sources and licensing',

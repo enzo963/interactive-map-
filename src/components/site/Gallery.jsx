@@ -4,15 +4,29 @@ import '../../styles/site-details.css';
 /** Image grid + lightbox built on the native <dialog> (focus trap, Esc, focus return come free). */
 export default function Gallery({ images, renderAttribution }) {
   const dialogRef = useRef(null);
+  const openerRef = useRef(null);
+  const closeRef = useRef(null);
+  const galleryRef = useRef(null);
   const [index, setIndex] = useState(null);
   const [failed, setFailed] = useState(() => new Set());
+  const [loaded, setLoaded] = useState(() => new Set());
   const unavailable = (src) => setFailed((previous) => new Set([...previous, src]));
 
   useEffect(() => {
     const dialog = dialogRef.current;
     if (!dialog) return;
-    if (index !== null && !dialog.open) dialog.showModal();
-    if (index === null && dialog.open) dialog.close();
+    if (index !== null && !dialog.open) {
+      dialog.showModal();
+      closeRef.current?.focus();
+    }
+    if (index === null) {
+      if (dialog.open) dialog.close();
+      if (openerRef.current?.isConnected) {
+        const target = !openerRef.current.disabled ? openerRef.current
+          : galleryRef.current?.querySelector('button:not(:disabled)') ?? galleryRef.current;
+        target?.focus();
+      }
+    }
   }, [index]);
 
   const step = (delta) => setIndex((i) => {
@@ -26,6 +40,18 @@ export default function Gallery({ images, renderAttribution }) {
   const current = index === null ? null : images[index];
 
   const onKeyDown = (event) => {
+    if (index !== null && event.key === 'Tab') {
+      const controls = [...dialogRef.current.querySelectorAll('a[href], button:not(:disabled), [tabindex="0"]')];
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first?.focus();
+      }
+    }
     if (index !== null && ['ArrowRight', 'ArrowLeft'].includes(event.key)) {
       event.preventDefault();
       step(event.key === 'ArrowRight' ? 1 : -1);
@@ -34,10 +60,10 @@ export default function Gallery({ images, renderAttribution }) {
 
   return (
     <>
-      <ul className="hb-gallery">
+      <ul className="hb-gallery" ref={galleryRef} tabIndex={-1} aria-label="Site images">
         {images.map((image, i) => (
           <li key={image.src}>
-            <button type="button" className="hb-gallery__item" onClick={() => setIndex(i)} disabled={failed.has(image.src)} aria-label={failed.has(image.src) ? `Image unavailable: ${image.alt}` : `Open image ${i + 1} of ${images.length}: ${image.alt}`}>
+            <button type="button" className="hb-gallery__item" onClick={(event) => { openerRef.current = event.currentTarget; setIndex(i); }} disabled={failed.has(image.src)} aria-label={failed.has(image.src) ? `Image unavailable: ${image.alt}` : `Open image ${i + 1} of ${images.length}: ${image.alt}`}>
               {failed.has(image.src) ? <span className="hb-gallery__unavailable">Image unavailable</span>
                 : <img src={image.src} alt={image.alt} loading="lazy" decoding="async" onError={() => unavailable(image.src)} />}
             </button>
@@ -58,17 +84,22 @@ export default function Gallery({ images, renderAttribution }) {
           <figure className="hb-lightbox__figure">
             {failed.has(current.src)
               ? <div className="hb-gallery__unavailable" role="img" aria-label={`Image unavailable: ${current.alt}`}>Image unavailable</div>
-              : <img key={current.src} src={current.src} alt={current.alt} onError={() => unavailable(current.src)} />}
+              : <img key={current.src} src={current.src} alt={current.alt} decoding="async"
+                onLoad={() => setLoaded((previous) => new Set([...previous, current.src]))}
+                onError={() => unavailable(current.src)} />}
             <figcaption>
               <div>{current.caption || current.alt}{renderAttribution && renderAttribution(current)}</div>
               <span className="hb-lightbox__count">{index + 1} / {images.length}</span>
             </figcaption>
           </figure>
         )}
+        <p className="hb-lightbox__status" role="status" aria-live="polite" aria-atomic="true">
+          {current && `${failed.has(current.src) ? 'Image unavailable. ' : !loaded.has(current.src) ? 'Loading image. ' : ''}Image ${index + 1} of ${images.length}: ${current.alt}`}
+        </p>
         <div className="hb-lightbox__controls">
           {images.length > 1 && <button type="button" onClick={() => step(-1)}>Previous</button>}
           {images.length > 1 && <button type="button" onClick={() => step(1)}>Next</button>}
-          <button type="button" onClick={() => setIndex(null)}>Close</button>
+          <button type="button" ref={closeRef} onClick={() => setIndex(null)}>Close</button>
         </div>
       </dialog>
     </>

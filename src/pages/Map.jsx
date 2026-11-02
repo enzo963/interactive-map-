@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import PageHeader from '../components/common/PageHeader';
+import StatePanel from '../components/common/StatePanel';
 import SearchField from '../components/common/SearchField';
 import SmartLink from '../components/common/SmartLink';
 import HeritageCard from '../components/cards/HeritageCard';
@@ -68,6 +69,13 @@ export default function MapPage() {
   const [panelOpen, setPanelOpen] = useState(false);
   const [listSize, setListSize] = useState(LIST_PAGE);
   const [previewKey, setPreviewKey] = useState(null);
+  const resultList = useRef(null);
+  const nextResult = useRef(null);
+  useEffect(() => {
+    if (nextResult.current === null) return;
+    resultList.current?.children[nextResult.current]?.querySelector('button')?.focus();
+    nextResult.current = null;
+  }, [listSize]);
 
   const facetSites = stats.byKey.get(params.get('region'))?.sites ?? sites;
   const facets = useMemo(() => getFacets(facetSites, filters), [facetSites, filters]);
@@ -85,7 +93,7 @@ export default function MapPage() {
     return counts;
   }, [results]);
 
-  const regionKey = params.get('region');
+  const regionKey = getGovernorateKey(params.get('region'));
   const region = regionKey ? (stats.byKey.get(regionKey) ?? null) : null;
   const shown = (previewKey && stats.byKey.get(previewKey)) || region;
   const regionResults = region
@@ -94,6 +102,8 @@ export default function MapPage() {
   const plotted = regionResults.filter((s) => Number.isFinite(s.latitude) && Number.isFinite(s.longitude));
 
   const selected = regionResults.find((s) => s.slug === params.get('site')) ?? null;
+  const requestedSite = params.get('site');
+  const knownSite = requestedSite && sites.some((site) => site.slug === requestedSite);
 
   const update = (changes) =>
     setParams((current) => {
@@ -207,6 +217,15 @@ export default function MapPage() {
           </div>
           {activeCount > 0 && <p className="hb-map__caption">Counts show matching cards / total cards.</p>}
         </section>
+        {params.get('region') && !region && <StatePanel kind="unavailable" title="Governorate not found" compact
+          description="This governorate is not recognized. Results below show all governorates with your other filters preserved.">
+          <button type="button" className="hb-btn" onClick={() => update({ region: null })}>Remove invalid governorate</button>
+        </StatePanel>}
+        {requestedSite && !selected && <StatePanel kind="unavailable" compact
+          title={knownSite ? 'Selected card is outside these results' : 'Selected card not found'}
+          description={knownSite ? 'The selected site does not match this governorate or these filters. Clear the selection or adjust your filters.' : 'This site selection is not in the archive. You can clear it and continue browsing the current results.'}>
+          <button type="button" className="hb-btn" onClick={() => update({ site: null })}>Clear site selection</button>
+        </StatePanel>}
         <div className="hb-mapx__summary">
           <div>
             <p role="status" aria-live="polite">
@@ -285,9 +304,10 @@ export default function MapPage() {
             <p className="hb-explore__count" role="status">
               {cardsLabel(regionResults.length)}
               {plotted.length !== regionResults.length && `, ${plotted.length} with coordinates`}
+              {` · Showing ${Math.min(listSize, regionResults.length)} of ${regionResults.length}`}
             </p>
             {regionResults.length > 0 ? (
-              <ul className="hb-mapx__list">
+              <ul className="hb-mapx__list" ref={resultList}>
                 {regionResults.slice(0, listSize).map((site) => (
                   <li key={site.id}>
                     <button
@@ -305,10 +325,9 @@ export default function MapPage() {
                 ))}
               </ul>
             ) : (
-              <div className="hb-empty">
-                <h2 className="hb-empty__title">
-                  {activeCount > 0 ? 'No cards match these filters' : 'No cards recorded here yet'}
-                </h2>
+              <StatePanel kind={activeCount > 0 ? 'no-results' : 'empty'}
+                title={activeCount > 0 ? 'No cards match these filters' : 'No cards recorded here yet'}
+                description={activeCount > 0 ? 'Remove a filter or choose another governorate to continue exploring.' : 'Reviewed site records will appear here when available.'}>
                 {activeCount > 0 && (
                   <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>
                     Clear all filters
@@ -323,13 +342,13 @@ export default function MapPage() {
                     Browse all governorates
                   </button>
                 )}
-              </div>
+              </StatePanel>
             )}
             {regionResults.length > listSize && (
               <button
                 type="button"
                 className="hb-btn hb-btn--ink"
-                onClick={() => setListSize((n) => n + LIST_PAGE)}
+                onClick={() => { nextResult.current = listSize; setListSize((n) => n + LIST_PAGE); }}
               >
                 Show more
               </button>

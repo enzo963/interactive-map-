@@ -28,6 +28,9 @@ const importedSites = structuredClone(sites);
 // A selected-site baseline keeps the existing map/age regressions deterministic.
 const realSites = normalizeSites([{ ...JSON.parse(readFileSync(new URL('../src/data/sites.json', import.meta.url), 'utf8')).find((s) => s.id === 'site-001'), latitude: 35.5872, longitude: 42.7185, estimated_year: -100 }]);
 const HeritageCard = (await server.ssrLoadModule('/src/components/cards/HeritageCard.jsx')).default;
+const CardGrid = (await server.ssrLoadModule('/src/components/common/CardGrid.jsx')).default;
+const Gallery = (await server.ssrLoadModule('/src/components/site/Gallery.jsx')).default;
+const { RouterProvider, Routes } = await server.ssrLoadModule('/src/router/Router.jsx');
 function approvedImage(src, siteId) {
   return { src, alt: 'Approved fixture cover', caption: '', credit: 'Fixture author', license: 'Fixture permission',
     siteId, license_status: 'verified',
@@ -51,11 +54,14 @@ function button(text) {
 }
 async function mount(path = '/', fixtures = false) {
   if (fixtures) sites.push(...structuredClone(fixtureSites));
+  await matchRoute(routes, new URL(path, window.location.href).pathname)?.route.load?.();
   window.history.replaceState(null, '', path);
   await act(async () => { root.render(React.createElement(App)); });
 }
 async function click(element) {
   assert.ok(element, 'Click target must exist');
+  const href = element.getAttribute('href');
+  if (href?.startsWith('/')) await matchRoute(routes, new URL(href, window.location.href).pathname)?.route.load?.();
   await act(async () => { element.dispatchEvent(new window.MouseEvent('click', { bubbles: true, cancelable: true, button: 0, detail: 1 })); });
 }
 async function search(value) {
@@ -67,6 +73,7 @@ async function search(value) {
   });
 }
 async function navigate(path) {
+  await matchRoute(routes, new URL(path, window.location.href).pathname)?.route.load?.();
   await act(async () => {
     window.history.pushState(null, '', path);
     window.dispatchEvent(new window.PopStateEvent('popstate'));
@@ -78,6 +85,166 @@ beforeEach(() => {
 });
 afterEach(async () => { await act(async () => root.unmount()); });
 after(async () => { await server.close(); dom.window.close(); });
+
+test('quality: broken routes and malformed site IDs show a generic or specific recovery page', async () => {
+  await mount('/a-broken-route');
+  assert.equal($('h1').textContent, 'Page not found');
+  assert.ok($('main a[href="/map"]'));
+  await navigate('/sites/%E0%A4%A');
+  assert.match($('h1').textContent, /Card not found/);
+  assert.ok($('main a[href="/explore"]'));
+});
+
+test('quality: a known governorate without records is an empty deck rather than a 404', async () => {
+  await mount('/decks/basra');
+  assert.match($('h1').textContent, /Basra/);
+  assert.ok($('main [data-state="empty"]'));
+  assert.ok($('main a[href="/decks"]'));
+});
+
+test('quality: invalid map selections explain recovery without dropping search filters', async () => {
+  await mount('/map?region=missing-region&site=missing-site&q=Hatra');
+  assert.match($('main').textContent, /Governorate not found/);
+  assert.match($('main').textContent, /Selected card not found/);
+  await click(button('Remove invalid governorate'));
+  assert.equal(new URLSearchParams(window.location.search).get('q'), 'Hatra');
+  assert.equal(new URLSearchParams(window.location.search).has('region'), false);
+  await click(button('Clear site selection'));
+  assert.equal(new URLSearchParams(window.location.search).has('site'), false);
+});
+
+test('quality: Home and Explore distinguish an empty archive from filtered no-results', async () => {
+  sites.splice(0);
+  await mount('/');
+  assert.match($('main [data-state="empty"]').textContent, /No heritage cards yet/);
+  await navigate('/explore');
+  assert.match($('main [data-state="empty"]').textContent, /No heritage sites yet/);
+  sites.push(...structuredClone(realSites));
+  await navigate('/explore?q=definitely-not-a-place');
+  assert.ok($('main [data-state="no-results"]'));
+});
+
+test('quality: missing geography has an explicit unavailable state and no invented map link', async () => {
+  sites[0].governorate = '';
+  sites[0].latitude = null;
+  sites[0].longitude = null;
+  await mount('/sites/hatra');
+  assert.match($('#location').textContent, /Location unavailable/);
+  assert.match($('main').textContent, /Governorate not recorded/);
+  assert.equal($('main a[href="/decks/"]'), null);
+  assert.equal($('#location a[href^="/map"]'), null);
+});
+
+test('quality: card pagination focuses new cards and retains the final progress announcement', async () => {
+  const records = normalizeSites(Array.from({ length: 3 }, (_, i) => ({ id: `paging-${i}`, name: `Paging site ${i}`, governorate: 'Erbil' })));
+  await act(async () => root.render(React.createElement(RouterProvider, null, React.createElement(CardGrid, { sites: records, pageSize: 2 }))));
+  await click(button('Show 1 more'));
+  assert.ok(document.activeElement === all('.hb-grid > li a')[2], 'Focus should move to the first newly revealed card');
+  assert.match($('[role="status"]').textContent, /Showing 3 of 3/);
+});
+
+test('quality: gallery changes announce position and close restores the opener', async () => {
+  await act(async () => root.render(React.createElement(Gallery, { images: [
+    { src: '/first.jpg', alt: 'First view' }, { src: '/second.jpg', alt: 'Second view' },
+  ] })));
+  const opener = $('.hb-gallery__item');
+  opener.focus();
+  await click(opener);
+  assert.equal(document.activeElement.textContent, 'Close');
+  await act(async () => button('Close').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Tab', bubbles: true, cancelable: true })));
+  assert.equal(document.activeElement.textContent, 'Previous');
+  await act(async () => button('Previous').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Tab', shiftKey: true, bubbles: true, cancelable: true })));
+  assert.equal(document.activeElement.textContent, 'Close');
+  await click(button('Next'));
+  assert.match($('dialog [role="status"]').textContent, /Image 2 of 2.*Second view/);
+  await click(button('Close'));
+  assert.ok(document.activeElement === opener, 'Closing the gallery should restore the original thumbnail focus');
+});
+
+test('quality: closing a failed gallery image focuses an available thumbnail or the gallery', async () => {
+  await act(async () => root.render(React.createElement(Gallery, { images: [
+    { src: '/broken-first.jpg', alt: 'First view' }, { src: '/broken-second.jpg', alt: 'Second view' },
+  ] })));
+  const thumbs = all('.hb-gallery__item');
+  for (let index = 0; index < 2; index += 1) {
+    await click(thumbs[index]);
+    await act(async () => $('dialog img').dispatchEvent(new window.Event('error', { bubbles: true })));
+    await click(button('Close'));
+    const target = index === 0 ? thumbs[1] : $('.hb-gallery');
+    assert.ok(document.activeElement === target, 'Failed openers need a usable focus destination');
+  }
+});
+
+test('quality: keyboard focus centres an offscreen point on a zoomed map', async () => {
+  await mount('/map', true);
+  await click(button('+'));
+  const layer = $('.hb-mapx__layer');
+  const previous = layer.style.transform;
+  const dot = $('.hb-mapx__dot');
+  const match = dot.matches.bind(dot);
+  // JSDOM does not model keyboard/pointer focus-visible heuristics.
+  dot.matches = (selector) => selector === ':focus-visible' ? true : match(selector);
+  await act(async () => dot.focus());
+  assert.notEqual(layer.style.transform, previous);
+});
+
+test('quality: pointer focus does not move a map target before its click completes', async () => {
+  await mount('/map', true);
+  await click(button('+'));
+  const dot = $('.hb-mapx__dot');
+  const match = dot.matches.bind(dot);
+  dot.matches = (selector) => selector === ':focus-visible' ? false : match(selector);
+  const previous = $('.hb-mapx__layer').style.transform;
+  await act(async () => dot.focus());
+  assert.equal($('.hb-mapx__layer').style.transform, previous);
+  await click(dot);
+  assert.ok(new URLSearchParams(window.location.search).get('site'));
+});
+
+test('quality: map pagination focuses the new result and announces the final range', async () => {
+  sites.splice(0, sites.length, ...normalizeSites(Array.from({ length: 35 }, (_, i) => ({ id: `map-page-${i}`, name: `Map site ${String(i).padStart(2, '0')}`, governorate: 'Erbil' }))));
+  await mount('/map?region=erbil');
+  assert.equal(all('.hb-mapx__list > li').length, 30);
+  await click(button('Show more'));
+  assert.ok(document.activeElement === all('.hb-mapx__list > li button')[30], 'Focus should move to the first new map result');
+  assert.match($('.hb-mapx__side .hb-explore__count').textContent, /Showing 35 of 35/);
+});
+
+test('quality: real suspended routes show loading and scroll to sections after they resolve', async () => {
+  let finish;
+  const pending = new Promise((resolve) => { finish = resolve; });
+  const LazyPage = React.lazy(() => pending);
+  const scrolled = [];
+  const originalScroll = window.HTMLElement.prototype.scrollIntoView;
+  window.HTMLElement.prototype.scrollIntoView = function () { scrolled.push(this.id); };
+  window.history.replaceState(null, '', '/delayed#late-section');
+  try {
+    await act(async () => root.render(React.createElement(RouterProvider, null,
+      React.createElement(Routes, { routes: [{ path: '/delayed', component: LazyPage }], notFound: () => null }))));
+    assert.ok($('main [data-state="loading"]'));
+    await act(async () => finish({ default: () => React.createElement('main', { id: 'main', tabIndex: -1 },
+      React.createElement('h1', null, 'Delayed content'), React.createElement('section', { id: 'late-section' }, 'Section content')) }));
+    assert.equal($('h1').textContent, 'Delayed content');
+    assert.ok(scrolled.includes('late-section'), 'Deep-link scrolling should occur after the suspended content commits');
+  } finally { window.HTMLElement.prototype.scrollIntoView = originalScroll; }
+});
+
+test('quality: a failed route renders recovery and navigating elsewhere resets the boundary', async () => {
+  const originalError = console.error;
+  console.error = () => {};
+  window.history.replaceState(null, '', '/failed');
+  const BrokenPage = () => { throw new Error('Synthetic route render failure'); };
+  try {
+    await act(async () => root.render(React.createElement(RouterProvider, null,
+      React.createElement(Routes, { routes: [{ path: '/failed', component: BrokenPage }, { path: '/recovered', component: () => React.createElement('main', { id: 'main' }, React.createElement('h1', null, 'Recovered')) }], notFound: () => null }))));
+    assert.match($('h1').textContent, /Content unavailable/);
+    assert.ok($('[data-state="error"]'));
+    assert.ok(document.activeElement === $('#main'), 'Error recovery should receive keyboard focus');
+    assert.ok(button('Reload page'));
+    await navigate('/recovered');
+    assert.equal($('h1').textContent, 'Recovered');
+  } finally { console.error = originalError; }
+});
 
 for (const [path, title] of [
     ['/about', 'About History in Cards'], ['/methodology', 'Methodology & Sources'],
@@ -275,7 +442,7 @@ test('Map search excludes a selected card and clearing restores matching results
   await mount('/map?region=nineveh&site=hatra', true);
   await search('NoMatchingRecord');
   assert.equal($('.hb-mapx__selected'), null);
-  assert.match($('.hb-empty').textContent, /No cards match/);
+  assert.match($('[data-state="no-results"]').textContent, /No cards match/);
   await click(button('Clear all filters'));
   assert.equal(all('.hb-mapx__list li').length, 2);
   assert.equal($('.hb-mapx__summary [role="status"]').textContent.includes('2 Cards'), true);
@@ -366,7 +533,7 @@ test('Empty data does not crash Home, Map, Decks, Explore or 3D Archive', async 
   assert.ok($('h1'));
   await navigate('/map'); assert.match($('main').textContent, /No card in the archive has recorded coordinates/);
   await navigate('/decks'); assert.match($('main').textContent, /No decks to show/);
-  await navigate('/explore'); assert.match($('.hb-empty').textContent, /No sites match/);
+  await navigate('/explore'); assert.match($('.hb-empty').textContent, /No heritage sites yet/);
   await navigate('/3d-archive'); assert.match($('.hb-empty').textContent, /No verified 3D resources/);
 });
 

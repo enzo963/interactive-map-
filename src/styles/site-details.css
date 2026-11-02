@@ -39,12 +39,17 @@
 }
 .hb-lightbox { width: min(92vw, 70rem); max-height: 94vh; padding: 1rem; background: var(--hb-ink); color: var(--hb-sand); border: 0; }
 .hb-lightbox::backdrop { background: rgba(29, 33, 30, 0.88); }
+body:has(.hb-lightbox[open]) { overflow: hidden; }
+.hb-lightbox { max-height: 94dvh; overscroll-behavior: contain; overflow-y: auto; }
 .hb-lightbox:focus-visible { outline: none; }
 .hb-lightbox__figure img { width: 100%; max-height: 74vh; object-fit: contain; }
 .hb-lightbox__figure figcaption { display: flex; justify-content: space-between; gap: 1rem; margin-top: 0.75rem; font-size: 0.9rem; }
 .hb-lightbox__count { font-family: var(--hb-font-mono); white-space: nowrap; }
-.hb-lightbox__controls { display: flex; gap: 0.5rem; margin-top: 0.75rem; }
-.hb-lightbox__controls button { min-height: 2.5rem; padding: 0 1rem; background: transparent; border: 1px solid rgba(222, 211, 192, 0.5); color: var(--hb-sand); cursor: pointer; }
+.hb-lightbox__controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+.hb-lightbox__controls button { min-height: 2.75rem; padding: 0 1rem; background: transparent; border: 1px solid rgba(222, 211, 192, 0.5); color: var(--hb-sand); cursor: pointer; }
+.hb-lightbox__status { margin-top: .75rem; font-size: .85rem; overflow-wrap: anywhere; }
+.hb-lightbox__figure figcaption { min-width: 0; overflow-wrap: anywhere; flex-wrap: wrap; }
+.hb-lightbox__figure { margin: 0; min-width: 0; }
 .hb-lightbox__controls button:hover { border-color: var(--hb-sand); }
 .hb-lightbox :focus-visible { outline-color: var(--hb-sand); }
 

@@ -5,6 +5,7 @@ import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
 import PageHeader from '../components/common/PageHeader';
 import SearchField from '../components/common/SearchField';
 import CardGrid from '../components/common/CardGrid';
+import StatePanel from '../components/common/StatePanel';
 import FilterPanel from '../components/explore/FilterPanel';
 import ActiveFilters from '../components/explore/ActiveFilters';
 import useSiteFilters from '../hooks/useSiteFilters';
@@ -111,13 +112,9 @@ export default function Explore() {
           {results.length > 0 ? (
             <CardGrid key={JSON.stringify(filters)} sites={results} />
           ) : (
-            <div className="hb-empty">
-              <h2 className="hb-empty__title">
-                {filters.q.trim()
-                  ? `No sites found for “${filters.q.trim()}”`
-                  : 'No sites match these filters'}
-              </h2>
-              <p>Try a site’s alternative name, check the spelling, or remove a filter.</p>
+            <StatePanel kind={sites.length ? 'no-results' : 'empty'}
+              title={!sites.length ? 'No heritage sites yet' : filters.q.trim() ? `No sites found for “${filters.q.trim()}”` : 'No sites match these filters'}
+              description={sites.length ? 'Try a site’s alternative name, check the spelling, or remove a filter.' : 'There are no site records in the archive yet. Reviewed records will appear here when available.'}>
               {filters.q && (
                 <button type="button" className="hb-btn" onClick={() => setFilters({ q: '' })}>
                   Clear search
@@ -126,7 +123,7 @@ export default function Explore() {
               <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>
                 Clear all filters
               </button>
-            </div>
+            </StatePanel>
           )}
         </div>
       </div>
