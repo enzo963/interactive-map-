@@ -3,6 +3,7 @@ import CardGrid from '../components/common/CardGrid';
 import DeckPile from '../components/decks/DeckPile';
 import SmartLink from '../components/common/SmartLink';
 import NotFound from './NotFound';
+import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { useNavigate } from '../router/RouterContext';
 import { CARD_TYPES } from '../data/cardTypes';
@@ -151,22 +152,18 @@ export default function DeckPage({ params, deckId }) {
             {shown.length > 0 ? (
               <CardGrid key={`${tier}-${sort}`} sites={shown} />
             ) : (
-              <div className="hb-empty">
-                <h3 className="hb-empty__title">No cards match this type</h3>
-                <p>Choose all types to see the cards available in this deck.</p>
+              <StatePanel kind="no-results" title="No cards match this type" description="Choose all types to see the cards available in this deck." headingLevel={3}>
                 <button type="button" className="hb-btn hb-btn--ink" onClick={() => setTier('all')}>Show all types</button>
-              </div>
+              </StatePanel>
             )}
           </section>
         ) : (
-          <section className="hb-empty" aria-labelledby="deck-empty-title">
-            <h2 id="deck-empty-title" className="hb-empty__title">This deck has no cards yet</h2>
-            <p>There are no site records in this collection yet. Browse other decks or explore the full archive.</p>
+          <StatePanel title="This deck has no cards yet" description="There are no site records in this collection yet. Browse other decks or explore the full archive.">
             <div className="hb-deck-empty__actions">
               <SmartLink className="hb-btn hb-btn--ink" href="/decks">Browse decks</SmartLink>
               <SmartLink className="hb-link" href="/explore">Explore all cards</SmartLink>
             </div>
-          </section>
+          </StatePanel>
         )}
       </div>
     </main>

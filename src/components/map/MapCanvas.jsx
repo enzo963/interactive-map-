@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { buildMapFrame } from '../../utils/mapFrame';
 import { getGovernorateKey } from '../../data/governorates';
+import StatePanel from '../common/StatePanel';
 import '../../styles/map-explorer.css';
 import '../../styles/phase4.css';
 
@@ -92,7 +93,7 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
   }, [zoomAt, frame]);
 
   if (!frame) {
-    return <p className="hb-mapx__none">No card in the archive has recorded coordinates yet.</p>;
+    return <StatePanel kind="unavailable" title="Map positions unavailable" description="No card in the archive has recorded coordinates yet. Use the governorate list to browse without map positions." headingLevel={3} compact />;
   }
 
   const size = () => plotRef.current.getBoundingClientRect();
@@ -140,6 +141,9 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
   };
 
   const placed = visibleSites.filter(hasCoordinates);
+  const revealPoint = (x, y) => {
+    if (view.z > 1) setView((current) => centreOn(current.z, x / 100, y / 100));
+  };
   const labelMap = new Map();
   for (const site of placed) {
     const key = getGovernorateKey(site.governorate);
@@ -198,7 +202,7 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
                 aria-pressed={focusKey === label.key} aria-label={`${label.name}, ${label.n} matching ${label.n === 1 ? 'card' : 'cards'}`}
                 onClick={(event) => { if (event.detail === 0 || !moved.current) onSelectRegion(label.key); }}
                 onPointerEnter={(event) => { if (event.pointerType === 'mouse') onPreviewRegion?.(label.key); }}
-                onPointerLeave={() => onPreviewRegion?.(null)} onFocus={() => onPreviewRegion?.(label.key)} onBlur={() => onPreviewRegion?.(null)}>
+                onPointerLeave={() => onPreviewRegion?.(null)} onFocus={(event) => { if (event.currentTarget.matches(':focus-visible')) revealPoint(label.x, label.y); onPreviewRegion?.(label.key); }} onBlur={() => onPreviewRegion?.(null)}>
                 {label.name} · {label.n}
               </button>
             ) : <span className="hb-mapx__label" style={{ '--x': `${label.x}%`, '--y': `${label.y}%` }} key={label.key} aria-hidden="true">{label.name} · {label.n}</span>
@@ -216,6 +220,7 @@ export default function MapCanvas({ allSites, visibleSites, selectedSite, focusK
                 data-in-focus={focusKey ? getGovernorateKey(site.governorate) === focusKey : undefined}
                 style={{ '--x': `${x}%`, '--y': `${y}%` }}
                 onClick={(event) => { if (event.detail === 0 || !moved.current) onSelect(site); }}
+                onFocus={(event) => { if (event.currentTarget.matches(':focus-visible')) revealPoint(x, y); }}
                 key={site.id}
               />
             );

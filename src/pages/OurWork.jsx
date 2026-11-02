@@ -1,5 +1,6 @@
 import PageHeader from '../components/common/PageHeader';
 import CardGrid from '../components/common/CardGrid';
+import StatePanel from '../components/common/StatePanel';
 import SmartLink from '../components/common/SmartLink';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
@@ -40,11 +41,10 @@ export default function OurWork() {
               <CardGrid sites={documented} />
             </>
           ) : (
-            <div className="hb-empty">
-              <h3 className="hb-empty__title">No published project documentation yet</h3>
-              <p>There are currently no approved site records identifying first-hand History in Cards documentation. Source-based archive research remains available through Explore Cards.</p>
+            <StatePanel title="No published project documentation yet" headingLevel={3}
+              description="There are currently no approved site records identifying first-hand History in Cards documentation. Source-based archive research remains available through Explore Cards.">
               <SmartLink className="hb-link" href="/explore">Explore the heritage archive</SmartLink>
-            </div>
+            </StatePanel>
           )}
           <div className="hb-project__actions">
             <SmartLink className="hb-link" href="/decks/our-work">Our Documentation collection</SmartLink>

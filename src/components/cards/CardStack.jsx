@@ -17,7 +17,7 @@ export default function CardStack({ sites, label = 'Selected heritage cards', ma
       {items.length > 0
         ? items.map((site, index) => (
             <div className="hb-stack__slot" data-slot={index} key={site.id}>
-              <HeritageCard site={site} headingLevel={null} priority />
+              <HeritageCard site={site} headingLevel={null} priority={index === 0} />
             </div>
           ))
         : ['geometric', 'arches', 'plain'].map((variant, index) => (

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { getModelEmbed } from '../../utils/media';
+import StatePanel from '../common/StatePanel';
 import '../../styles/collections.css';
 
 // Version-pinned cache adapter: model-viewer 4.4 retains failed GLTF loads.
@@ -87,9 +88,7 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
 
   if (!embed)
     return (
-      <div className="hb-model__notice">
-        <p>No approved 3D resource is available for this site.</p>
-      </div>
+      <StatePanel kind="unavailable" title="3D resource unavailable" description="No approved 3D resource is available for this site." headingLevel={3} compact />
     );
   const viewable = ['model', 'iframe'].includes(embed.type);
   const start = () => {
@@ -126,12 +125,11 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
         </div>
       )}
       {viewable && state === 'error' && (
-        <div className="hb-model__notice" role="alert">
-          <p>The 3D model could not be loaded. Your browser or the resource may be unavailable.</p>
+        <StatePanel kind="error" title="3D model unavailable" description="The 3D model could not be loaded. Your browser or the resource may be unavailable." headingLevel={4} compact>
           <button type="button" className="hb-btn" onClick={start}>
             Retry viewer
           </button>
-        </div>
+        </StatePanel>
       )}
       {['loading', 'ready'].includes(state) &&
         (embed.type === 'iframe' ? (

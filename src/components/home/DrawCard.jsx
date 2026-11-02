@@ -74,7 +74,7 @@ export default function DrawCard({ sites }) {
   };
 
   const announcement =
-    phase === 'revealed' && drawn ? `Card drawn: ${drawn.name}. Archive number ${drawn.archiveNo}.` : '';
+    phase === 'shuffling' ? 'Drawing a heritage card…' : phase === 'revealed' && drawn ? `Card drawn: ${drawn.name}. Archive number ${drawn.archiveNo}.` : '';
 
   return (
     <section className="hb-draw" id="draw" aria-labelledby="draw-title">
@@ -106,8 +106,9 @@ export default function DrawCard({ sites }) {
               className="hb-btn hb-btn--sand"
               onClick={draw}
               aria-disabled={phase === 'shuffling' || active.cards.length === 0}
+              disabled={active.cards.length === 0}
             >
-              {phase === 'revealed' ? 'Draw another card' : 'Draw a card'}
+              {phase === 'shuffling' ? 'Drawing a card…' : phase === 'revealed' ? 'Draw another card' : 'Draw a card'}
             </button>
             {phase === 'revealed' && drawn && (
               <SmartLink className="hb-link" href={drawn.href}>

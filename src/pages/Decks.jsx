@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import PageHeader from '../components/common/PageHeader';
 import DeckTile from '../components/decks/DeckTile';
 import SmartLink from '../components/common/SmartLink';
+import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
 import { getGovernorateDecks, getSpecialDecks, getThematicDecks } from '../utils/decks';
@@ -41,11 +42,9 @@ function DeckSection({ id, title, description, decks, emptyMessage }) {
       {decks.length > 0 ? (
         <ul className="hb-tiles">{decks.map((deck) => <DeckTile deck={deck} key={deck.id} />)}</ul>
       ) : (
-        <div className="hb-empty">
-          <h3 className="hb-empty__title">No decks to show yet</h3>
-          <p>{emptyMessage}</p>
+        <StatePanel title="No decks to show yet" description={emptyMessage} headingLevel={3}>
           <SmartLink className="hb-link" href="/explore">Explore all cards</SmartLink>
-        </div>
+        </StatePanel>
       )}
     </section>
   );

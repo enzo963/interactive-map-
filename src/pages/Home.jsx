@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import useDocumentTitle from '../hooks/useDocumentTitle';
+import StatePanel from '../components/common/StatePanel';
 import Hero from '../components/home/Hero';
 import FeaturedSites from '../components/home/FeaturedSites';
 import DrawCard from '../components/home/DrawCard';
@@ -127,6 +128,8 @@ export default function Home() {
     <main id="main" tabIndex={-1} className="hb-home hb-home--polished">
       <style href="hb-home-layout-polish" precedence="components">{homeLayoutStyles}</style>
       <Hero stackSites={stackSites} stats={stats} />
+      {sites.length === 0 && <div className="hb-container"><StatePanel title="No heritage cards yet"
+        description="The archive is currently empty. Site records will appear after research and review; the map and collections remain available to explore." /></div>}
       <FeaturedSites sites={featured} total={sites.length} />
       <DrawCard sites={sites} />
       <MapPreview sites={sites} />
