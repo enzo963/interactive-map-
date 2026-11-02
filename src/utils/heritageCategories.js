@@ -16,7 +16,7 @@ export const HERITAGE_CATEGORIES = [
     id: 'architectural',
     label: 'Architectural',
     description: 'Buildings, bridges and monumental design',
-    pattern: /palace|citadel|fort|castle|bridge|school|building|house|bath|caravanserai|tower|monument|complex|mosque|minaret|church/i,
+    pattern: /palace|citadel|fort|castle|gate|bridge|school|building|house|bath|caravanserai|tower|monument|complex|mosque|minaret|church/i,
   },
   {
     id: 'cultural',

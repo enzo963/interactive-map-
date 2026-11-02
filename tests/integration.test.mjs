@@ -777,9 +777,11 @@ test('in-flow filters close with focus returned to results and retain URL select
 
 test('imported UNESCO property locations remain clickable on the map', async () => {
   sites.splice(0, sites.length, ...structuredClone(importedSites));
-  await mount('/map');
-  assert.equal(all('.hb-pin-wrap').length, 3);
-  await click(all('.hb-pin-wrap').find((point) => point.getAttribute('aria-label')?.startsWith('Hatra,')));
+  // Nearby pins cluster at country zoom, so open Nineveh, where Hatra stands on its own.
+  await mount('/map?region=nineveh');
+  const hatra = all('.hb-pin-wrap').find((point) => point.getAttribute('aria-label')?.startsWith('Hatra,'));
+  assert.ok(hatra);
+  await click(hatra);
   assert.equal(new URLSearchParams(window.location.search).get('site'), 'hatra');
   assert.equal($('#region-title').textContent, 'Nineveh');
   assert.ok($('.hb-mapx__selected .hb-card__title').textContent.includes('Hatra'));
