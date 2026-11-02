@@ -1,5 +1,17 @@
 # P5-00 integration tests
 
+## P6-22 through P6-26: resilience, accessibility and performance
+
+Regression coverage includes invalid routes and map selections, known-empty
+governorates, missing geography, empty versus filtered results, pagination focus,
+gallery trapping/announcements/failure recovery, keyboard versus pointer map focus,
+actual suspended routes, section scrolling after loading, route errors and bounded
+startup preloading. On 2026-11-02, 97 tests passed and one optional export test skipped.
+
+Production browser checks covered 108 route/viewport combinations at
+320/390/768/1024/1440/1920 px. See `docs/P6-22-26-AUDIT.md` for fixes, measured
+before/after performance, tools and practical validation limits.
+
 ## P6-17 through P6-21: project pages and navigation
 
 The integration suite covers direct links to `/about`, `/methodology`, `/our-work`

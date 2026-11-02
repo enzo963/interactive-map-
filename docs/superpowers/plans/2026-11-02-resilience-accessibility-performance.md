@@ -18,30 +18,32 @@ Malformed route parameters, invalid map selections, known-but-empty governorates
 
 ## Task 1 — states and invalid content
 
-- [ ] Add failing tests for generic 404, malformed site routes, invalid map selections and empty datasets.
-- [ ] Add StatePanel and polished NotFound; use consistent empty/unavailable states across page families, preserve filters in recovery actions.
-- [ ] Verify focused regressions and record results.
+- [x] Add failing tests for generic 404, malformed site routes, invalid map selections and empty datasets.
+- [x] Add StatePanel and polished NotFound; use consistent empty/unavailable states across page families, preserve filters in recovery actions.
+- [x] Verify focused regressions and record results.
 
 ## Task 2 — accessibility and responsive repairs
 
-- [ ] Reproduce focus/semantic defects found by code and browser audits with tests.
-- [ ] Repair gallery focus/loading/failure announcements, card pagination focus/status and map marker keyboard visibility.
-- [ ] Audit menus, labels, headings, touch targets, contrast, long text and viewport overflow; fix specific causes.
-- [ ] Verify focused tests and native browser behavior.
+- [x] Reproduce focus/semantic defects found by code and browser audits with tests.
+- [x] Repair gallery focus/loading/failure announcements, card pagination focus/status and map marker keyboard visibility.
+- [x] Audit menus, labels, headings, touch targets, contrast, long text and viewport overflow; fix specific causes.
+- [x] Verify focused tests and native browser behavior.
 
 ## Task 3 — loading and performance
 
-- [ ] Record build baseline: main JS 424.27 kB / gzip 120.77 kB, CSS 65.51 kB / gzip 12.67 kB; baseline tests 82 passing, 1 optional skip.
-- [ ] Add tests for route Suspense fallback/error recovery and section focus after delayed loading.
-- [ ] Lazy-load pages; keep navigation stable and model resources opt-in; optimize font discovery and eager image priorities.
-- [ ] Measure final static JS/CSS graph, route requests and local timings with the same tools.
+- [x] Record build baseline: main JS 424.27 kB / gzip 120.77 kB, CSS 65.51 kB / gzip 12.67 kB; baseline tests 82 passing, 1 optional skip.
+- [x] Add tests for route Suspense fallback/error recovery and section focus after delayed loading.
+- [x] Lazy-load pages; keep navigation stable and model resources opt-in; optimize font discovery and eager image priorities.
+- [x] Measure final static JS/CSS graph, route requests and local timings with the same tools.
 
 ## Task 4 — final verification
 
-- [ ] Full JavaScript suite, lint, build and diff whitespace check.
-- [ ] Browser coverage across all page families and six representative widths; native menu/gallery/keyboard checks.
-- [ ] Fresh final review and fixes, then concise user report with performance before/after and remaining limits.
+- [x] Full JavaScript suite, lint, build and diff whitespace check.
+- [x] Browser coverage across all page families and six representative widths; native menu/gallery/keyboard checks.
+- [x] Fresh final review and fixes, then concise user report with performance before/after and remaining limits.
 
 ## Progress
 
 Initial audit in progress. Parallel read-only accessibility and performance reviews are independent; all implementation stays with the root agent.
+
+Final: 97 tests passed, 1 optional skip; lint/build/diff checks passed. Browser verified 108 combinations and native gallery/map behavior. See docs/P6-22-26-AUDIT.md for measured improvements and review fixes. Home is eager after rejecting the initial all-lazy timing regression; secondary routes remain lazy and startup preloading is bounded to 150 ms. No changes to data or pipeline.

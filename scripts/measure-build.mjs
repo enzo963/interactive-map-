@@ -23,7 +23,8 @@ if (route) {
   if (!existsSync(manifestPath)) throw new Error('Route measurement requires build.manifest');
   const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
   const routeKey = Object.keys(manifest).find((key) => key.endsWith(`/pages/${route}.jsx`));
-  if (!routeKey) throw new Error(`Unknown route module: ${route}`);
+  // Home is intentionally eager and therefore has no separate manifest entry.
+  if (!routeKey && route !== 'Home') throw new Error(`Unknown route module: ${route}`);
   const seen = new Set();
   function addModule(key) {
     if (seen.has(key)) return;
@@ -33,7 +34,7 @@ if (route) {
     for (const css of module.css ?? []) visit(resolve(root, css));
     for (const imported of module.imports ?? []) addModule(imported);
   }
-  addModule(routeKey);
+  if (routeKey) addModule(routeKey);
   result.route = route;
   result.initialRouteJSBytes = sum('.js', 'bytes');
   result.initialRouteJSGzipBytes = sum('.js', 'gzipBytes');
