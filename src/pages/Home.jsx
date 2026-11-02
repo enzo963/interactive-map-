@@ -13,6 +13,7 @@ import MapPreview from '../components/map/MapPreview';
 import { getAllSites } from '../services/siteService';
 import { selectFeaturedSites, selectStackSites } from '../utils/selectSites';
 import { getArchiveStats } from '../utils/archiveStats';
+import { t } from '../i18n';
 
 // Page-scoped layout rules stay here so P4-02 changes only the two requested files.
 const homeLayoutStyles = `
@@ -128,8 +129,8 @@ export default function Home() {
     <main id="main" tabIndex={-1} className="hb-home hb-home--polished">
       <style href="hb-home-layout-polish" precedence="components">{homeLayoutStyles}</style>
       <Hero stackSites={stackSites} stats={stats} />
-      {sites.length === 0 && <div className="hb-container"><StatePanel title="No heritage cards yet"
-        description="The archive is currently empty. Site records will appear after research and review; the map and collections remain available to explore." /></div>}
+      {sites.length === 0 && <div className="hb-container"><StatePanel title={t('No heritage cards yet')}
+        description={t('The archive is currently empty. Site records will appear after research and review; the map and collections remain available to explore.')} /></div>}
       <FeaturedSites sites={featured} total={sites.length} />
       <DrawCard sites={sites} />
       <MapPreview sites={sites} />

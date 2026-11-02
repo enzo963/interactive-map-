@@ -14,6 +14,7 @@ import { getAllSites } from '../services/siteService';
 import { SORTS, applyFilters, getFacets, sortSites, serializeFilters } from '../utils/filterSites';
 import { cardsLabel } from '../utils/archiveStats';
 import '../styles/pages.css';
+import { t } from '../i18n';
 
 export default function Explore() {
   useDocumentTitle('Explore Cards — History in Cards');
@@ -42,18 +43,18 @@ export default function Explore() {
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader
-        eyebrow="Explore Cards"
-        title={governorateName ? `${governorateName} heritage` : 'Search the archive'}
+        eyebrow={t('Explore Cards')}
+        title={governorateName ? t('{name} heritage', { name: t(governorateName) }) : t('Search the archive')}
         lede={
           governorateName
-            ? `${totalInGovernorate} heritage sites recorded in ${governorateName}. Search or filter the collection below.`
-            : 'Find a place by its name or alternative name, then explore its governorate, heritage category and historical period.'
+            ? t('{n} heritage sites recorded in {name}. Search or filter the collection below.', { n: totalInGovernorate, name: t(governorateName) })
+            : t('Find a place by its name or alternative name, then explore its governorate, heritage category and historical period.')
         }
       />
 
       <DiscoveryBrowse sites={sites} />
       <div className="hb-container hb-explore">
-        <aside className="hb-explore__side" aria-label="Filters">
+        <aside className="hb-explore__side" aria-label={t('Filters')}>
           <button
             type="button"
             className="hb-explore__toggle"
@@ -61,7 +62,7 @@ export default function Explore() {
             aria-controls="explore-filters"
             onClick={() => setPanelOpen((open) => !open)}
           >
-            Filters{activeCount > 0 ? ` (${activeCount})` : ''}
+            {t('Filters')}{activeCount > 0 ? ` (${activeCount})` : ''}
           </button>
           <div id="explore-filters" className={`hb-explore__panel ${panelOpen ? 'is-open' : ''}`.trim()}>
             <FilterPanel
@@ -79,7 +80,7 @@ export default function Explore() {
         <div className="hb-explore__main">
           <div className="hb-explore__context">
             <SmartLink className="hb-link" href={`/map?${mapParams}`}>
-              {governorateName ? `View ${governorateName} on the map` : 'View these results on the map'}
+              {governorateName ? t('View {name} on the map', { name: t(governorateName) }) : t('View these results on the map')}
             </SmartLink>
           </div>
           <SearchField value={filters.q} onChange={(q) => setFilters({ q })} />
@@ -88,18 +89,18 @@ export default function Explore() {
           <div className="hb-explore__bar">
             <p className="hb-explore__count" role="status">
               {cardsLabel(results.length)}
-              {results.length !== sites.length && ` of ${sites.length}`}
+              {results.length !== sites.length && ` ${t('of {n}', { n: sites.length })}`}
             </p>
             <label className="hb-sort">
-              <span>Sort by</span>
+              <span>{t('Sort by')}</span>
               <select
                 value={filters.sort || defaultSort}
                 onChange={(event) => setFilters({ sort: event.target.value })}
               >
-                {filters.q.trim() && <option value="relevance">Relevance</option>}
+                {filters.q.trim() && <option value="relevance">{t('Relevance')}</option>}
                 {SORTS.map((sort) => (
                   <option value={sort.id} key={sort.id}>
-                    {sort.label}
+                    {t(sort.label)}
                   </option>
                 ))}
               </select>
@@ -107,21 +108,21 @@ export default function Explore() {
           </div>
 
           <h2 id="explore-results" tabIndex={-1} className="sr-only">
-            {governorateName ? `${governorateName} heritage results` : 'Results'}
+            {governorateName ? t('{name} heritage results', { name: t(governorateName) }) : t('Results')}
           </h2>
           {results.length > 0 ? (
             <CardGrid key={JSON.stringify(filters)} sites={results} />
           ) : (
             <StatePanel kind={sites.length ? 'no-results' : 'empty'}
-              title={!sites.length ? 'No heritage sites yet' : filters.q.trim() ? `No sites found for “${filters.q.trim()}”` : 'No sites match these filters'}
-              description={sites.length ? 'Try a site’s alternative name, check the spelling, or remove a filter.' : 'There are no site records in the archive yet. Reviewed records will appear here when available.'}>
+              title={!sites.length ? t('No heritage sites yet') : filters.q.trim() ? t('No sites found for “{q}”', { q: filters.q.trim() }) : t('No sites match these filters')}
+              description={sites.length ? t('Try a site’s alternative name, check the spelling, or remove a filter.') : t('There are no site records in the archive yet. Reviewed records will appear here when available.')}>
               {filters.q && (
                 <button type="button" className="hb-btn" onClick={() => setFilters({ q: '' })}>
-                  Clear search
+                  {t('Clear search')}
                 </button>
               )}
               <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>
-                Clear all filters
+                {t('Clear all filters')}
               </button>
             </StatePanel>
           )}

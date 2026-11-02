@@ -1,0 +1,10 @@
+import { createContext, useContext } from 'react';
+
+export const ThemeContext = createContext(null);
+
+/** { theme: 'light' | 'dark', toggle, setTheme } */
+export function useTheme() {
+  const context = useContext(ThemeContext);
+  if (!context) throw new Error('useTheme must be used inside <ThemeProvider>.');
+  return context;
+}

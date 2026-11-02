@@ -16,6 +16,7 @@ import { getRelatedSiteMatches } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
 import '../styles/site-details.css';
 import '../styles/phase4.css';
+import { t, tn, tDate } from '../i18n';
 
 const siteDetailsStyles = `
 .hb-site--structured .hb-crumbs li { min-width: 0; overflow-wrap: anywhere; }
@@ -106,14 +107,14 @@ function ImageAttribution({ image }) {
   const state = imageLicenseState(image);
   return <div className="hb-image-attribution">
     {sources.map((source, i) => <p key={i}>
-      {source.credit && <span>Credit: {source.credit}. </span>}
-      {(source.url || source.name) && <>Source: {source.url
-        ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.name || 'Image source'}<span className="sr-only"> (opens in a new tab)</span></a>
+      {source.credit && <span>{t('Credit:')} {source.credit}. </span>}
+      {(source.url || source.name) && <>{t('Source:')} {source.url
+        ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.name || t('Image source')}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
         : source.name}</>}
     </p>)}
-    <p>{state === 'verified' && image.license ? <>License: {safeImageLink(image.license_url)
+    <p>{state === 'verified' && image.license ? <>{t('License:')} {safeImageLink(image.license_url)
       ? <a href={safeImageLink(image.license_url)} target="_blank" rel="noopener noreferrer">{image.license}</a> : image.license}</>
-      : state === 'restricted' ? 'Image use is restricted.' : `License ${state === 'unverified' ? 'unverified' : 'unknown'}; reuse permission has not been confirmed.`}</p>
+      : state === 'restricted' ? t('Image use is restricted.') : state === 'unverified' ? t('License unverified; reuse permission has not been confirmed.') : t('License unknown; reuse permission has not been confirmed.')}</p>
   </div>;
 }
 
@@ -133,8 +134,8 @@ export default function SiteDetails({ params }) {
     [site, sites],
   );
 
-  useDocumentTitle(site ? `${site.name} — History in Cards` : 'Card not found — History in Cards');
-  if (!site) return <NotFound title="Card not found" message="That site is not in the archive." />;
+  useDocumentTitle(site ? `${site.name} — History in Cards` : t('Card not found — History in Cards'));
+  if (!site) return <NotFound title={t('Card not found')} message={t('That site is not in the archive.')} />;
 
   const { cardType } = site;
   const decks = getDecksForSite(site);
@@ -150,63 +151,63 @@ export default function SiteDetails({ params }) {
 
   const factGroups = [
     {
-      title: 'Archive record',
+      title: t('Archive record'),
       rows: [
-        ['Archive number', site.archiveNo],
-        ['Card type', `${cardType.shortLabel}${cardType.rankLabel ? ` · ${cardType.rankLabel}` : ''} (${cardType.rangeLabel})`],
-        ['Date', site.dateLabel],
-        ['Period', site.period],
-        ['Civilization', site.civilization],
-        ['Site type', site.siteType],
+        [t('Archive number'), site.archiveNo],
+        [t('Card type'), `${t(cardType.shortLabel)}${cardType.rankLabel ? ` · ${t(cardType.rankLabel)}` : ''} (${t(cardType.rangeLabel)})`],
+        [t('Date'), tDate(site.dateLabel)],
+        [t('Period'), t(site.period)],
+        [t('Civilization'), site.civilization],
+        [t('Site type'), t(site.siteType)],
       ],
     },
     {
-      title: 'Place',
-      rows: [['Governorate', site.governorate || 'Governorate not recorded'], ['City', site.city], ['Country', site.country]],
+      title: t('Place'),
+      rows: [[t('Governorate'), t(site.governorate) || t('Governorate not recorded')], [t('City'), site.city], [t('Country'), t(site.country)]],
     },
     {
-      title: 'Status and verification',
+      title: t('Status and verification'),
       rows: [
-        ['Heritage status', site.heritageStatus],
-        ['Preservation', site.preservationStatus],
-        ['UNESCO status', site.unescoStatus || (site.isUnesco ? 'Yes' : '')],
-        ['Verification', site.verificationStatus],
-        ['Last verified', site.lastVerified],
+        [t('Heritage status'), t(site.heritageStatus)],
+        [t('Preservation'), site.preservationStatus],
+        [t('UNESCO status'), t(site.unescoStatus) || (site.isUnesco ? t('Yes') : '')],
+        [t('Verification'), t(site.verificationStatus)],
+        [t('Last verified'), site.lastVerified],
       ],
     },
   ].map((group) => ({ ...group, rows: group.rows.filter(([, value]) => value) })).filter((group) => group.rows.length > 0);
 
   const sections = [
     {
-      id: 'overview', title: 'Historical overview', body: site.description || site.historicalBackground ? <Overview text={site.description} background={site.historicalBackground} /> : <StatePanel kind="unavailable" title="Historical overview unavailable" description="A source-backed description has not been recorded yet." headingLevel={3} compact />,
+      id: 'overview', title: t('Historical overview'), body: site.description || site.historicalBackground ? <Overview text={site.description} background={site.historicalBackground} /> : <StatePanel kind="unavailable" title={t('Historical overview unavailable')} description={t('A source-backed description has not been recorded yet.')} headingLevel={3} compact />,
     },
-    site.timeline.length > 0 && { id: 'timeline', title: 'Historical timeline', body: <Timeline items={site.timeline} /> },
-    { id: 'gallery', title: 'Gallery', body: media.length > 0 ? <><p className="hb-site__section-intro">{media.length} {media.length === 1 ? 'image' : 'images'}. Select an image to open the viewer.</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <StatePanel kind="unavailable" title="Images unavailable" description="No images are available for this site yet." headingLevel={3} compact /> },
-    { id: 'location', title: 'Location', body: hasLocation ? <SiteLocation site={site} neighbours={neighbours} /> : <StatePanel kind="unavailable" title="Location unavailable" description="Verified coordinates have not been recorded. This site remains available in the archive without an invented map position." headingLevel={3} compact /> },
-    { id: 'model', title: '3D model', body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
-    site.videoUrl && { id: 'video', title: 'Video', body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
+    site.timeline.length > 0 && { id: 'timeline', title: t('Historical timeline'), body: <Timeline items={site.timeline} /> },
+    { id: 'gallery', title: t('Gallery'), body: media.length > 0 ? <><p className="hb-site__section-intro">{tn('{n} image. Select an image to open the viewer.', '{n} images. Select an image to open the viewer.', media.length)}</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <StatePanel kind="unavailable" title={t('Images unavailable')} description={t('No images are available for this site yet.')} headingLevel={3} compact /> },
+    { id: 'location', title: t('Location'), body: hasLocation ? <SiteLocation site={site} neighbours={neighbours} /> : <StatePanel kind="unavailable" title={t('Location unavailable')} description={t('Verified coordinates have not been recorded. This site remains available in the archive without an invented map position.')} headingLevel={3} compact /> },
+    { id: 'model', title: t('3D model'), body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
+    site.videoUrl && { id: 'video', title: t('Video'), body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
     hasDocumentation && {
       id: 'documentation',
-      title: 'Digital documentation',
+      title: t('Digital documentation'),
       body: <Documentation types={site.ourWorkTypes} note={site.ourWorkNote} meta={site.documentationMeta} assets={site.digitalAssets} />,
     },
-    { id: 'sources', title: 'Sources and references', body: site.sources.length > 0 ? <Sources items={site.sources} /> : <StatePanel kind="unavailable" title="References unavailable" description="No source references have been added to this record yet." headingLevel={3} compact /> },
+    { id: 'sources', title: t('Sources and references'), body: site.sources.length > 0 ? <Sources items={site.sources} /> : <StatePanel kind="unavailable" title={t('References unavailable')} description={t('No source references have been added to this record yet.')} headingLevel={3} compact /> },
     hasCredits && {
       id: 'credits',
-      title: 'Image sources and licensing',
-      body: <div className="hb-prose">{site.imageCredit && <p>Image credit: {site.imageCredit}</p>}
+      title: t('Image sources and licensing'),
+      body: <div className="hb-prose">{site.imageCredit && <p>{t('Image credit:')} {site.imageCredit}</p>}
         <ul className="hb-credits">{media.map((image) => <li key={image.src}><p>{image.alt}</p><ImageAttribution image={image} /></li>)}</ul>
       </div>,
     },
     related.length > 0 && {
       id: 'related',
-      title: 'Related cards',
+      title: t('Related cards'),
       body: (
         <>
-          <p className="hb-site__section-intro">Continue exploring with related records from the archive.</p>
+          <p className="hb-site__section-intro">{t('Continue exploring with related records from the archive.')}</p>
           <ul className="hb-related">
             {related.map(({ site: other, reasons }) => (
-              <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /><p className="hb-related__reason">{reasons.join(' · ')}</p></li>
+              <li key={other.id}><HeritageCard site={other} headingLevel={3} showCta /><p className="hb-related__reason">{reasons.map((reason) => t(reason)).join(' · ')}</p></li>
             ))}
           </ul>
         </>
@@ -221,24 +222,24 @@ export default function SiteDetails({ params }) {
       <style href="hb-site-details-structure" precedence="components">{siteDetailsStyles}</style>
       <link rel="canonical" href={getSiteShareUrl(site)} />
       <div className="hb-container">
-        <nav className="hb-crumbs" aria-label="Breadcrumb">
+        <nav className="hb-crumbs" aria-label={t('Breadcrumb')}>
           <ol>
-            <li><SmartLink href="/explore">Explore Cards</SmartLink></li>
-            {firstDeck && <li><SmartLink href={firstDeck.href}>{firstDeck.title}</SmartLink></li>}
+            <li><SmartLink href="/explore">{t('Explore Cards')}</SmartLink></li>
+            {firstDeck && <li><SmartLink href={firstDeck.href}>{t(firstDeck.title)}</SmartLink></li>}
             <li aria-current="page">{site.name}</li>
           </ol>
         </nav>
 
         <header className="hb-site__hero">
           <div className="hb-site__intro">
-            <p className="hb-eyebrow">{[site.siteType, site.archiveNo].filter(Boolean).join(' · ')}</p>
+            <p className="hb-eyebrow">{[t(site.siteType), site.archiveNo].filter(Boolean).join(' · ')}</p>
             <h1 className="hb-site__title">{site.name}</h1>
             {site.shortDescription && <p className="hb-site__lede">{site.shortDescription}</p>}
 
             {(site.isUnesco || site.modelResources.length > 0) && (
-              <ul className="hb-site__badges" aria-label="Designation and digital assets">
+              <ul className="hb-site__badges" aria-label={t('Designation and digital assets')}>
                 {site.isUnesco && <li><span className="hb-site__badge">UNESCO</span></li>}
-                {site.modelResources.length > 0 && <li>{site.modelResources.length ? <a className="hb-site__badge" href="#model">View 3D model</a> : <span className="hb-site__badge">3D documented · model link pending</span>}</li>}
+                {site.modelResources.length > 0 && <li>{site.modelResources.length ? <a className="hb-site__badge" href="#model">{t('View 3D model')}</a> : <span className="hb-site__badge">{t('3D documented · model link pending')}</span>}</li>}
               </ul>
             )}
             <ShareSite key={site.id} site={site} />
@@ -247,7 +248,7 @@ export default function SiteDetails({ params }) {
             <HeritageCard site={site} headingLevel={null} interactive={false} priority />
           </div>
           <section className="hb-site__metadata" aria-labelledby="site-metadata-title">
-            <h2 id="site-metadata-title" className="hb-site__metadata-title">Site information</h2>
+            <h2 id="site-metadata-title" className="hb-site__metadata-title">{t('Site information')}</h2>
             {factGroups.map((group) => (
               <div className="hb-site__fact-group" key={group.title}>
                 <h3>{group.title}</h3>
@@ -261,10 +262,10 @@ export default function SiteDetails({ params }) {
 
             {decks.length > 0 && (
               <div className="hb-site__decks">
-                <h3 className="hb-site__decks-title">In these decks</h3>
+                <h3 className="hb-site__decks-title">{t('In these decks')}</h3>
                 <ul className="hb-chips hb-chips--row">
                   {decks.map((deck) => (
-                    <li key={deck.id}><SmartLink className="hb-tag" href={deck.href}>{deck.title}</SmartLink></li>
+                    <li key={deck.id}><SmartLink className="hb-tag" href={deck.href}>{t(deck.title)}</SmartLink></li>
                   ))}
                 </ul>
               </div>

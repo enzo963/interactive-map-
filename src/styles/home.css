@@ -60,10 +60,10 @@
 .hb-hero__desk {
   position: relative;
   padding: clamp(1.5rem, 3vw, 2.75rem) clamp(1rem, 2vw, 2rem) 3.25rem;
-  background-color: #e6dcc9;
+  background-color: var(--hb-desk);
   background-image:
-    linear-gradient(rgba(29, 33, 30, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(29, 33, 30, 0.06) 1px, transparent 1px);
+    linear-gradient(var(--hb-desk-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--hb-desk-line) 1px, transparent 1px);
   background-size: 1.5rem 1.5rem;
   border: 1px solid var(--hb-rule-strong);
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import SmartLink from '../common/SmartLink';
 import '../../styles/heritage-card.css';
+import { t, tDate } from '../../i18n';
 
 // Kept here to limit P4-01 to this component. React hoists and deduplicates
 // this stylesheet by href, even when a page renders several cards.
@@ -160,8 +161,8 @@ function CardImage({ cover, name, priority }) {
   const [failed, setFailed] = useState(false);
   if (!cover || failed) {
     return (
-      <div className="hb-card__placeholder" role="img" aria-label={`Image ${failed ? 'unavailable' : 'pending'} for ${name}`}>
-        <span>{failed ? 'Image unavailable' : 'Image pending'}</span>
+      <div className="hb-card__placeholder" role="img" aria-label={failed ? t('Image unavailable for {name}', { name }) : t('Image pending for {name}', { name })}>
+        <span>{failed ? t('Image unavailable') : t('Image pending')}</span>
       </div>
     );
   }
@@ -189,7 +190,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
   const Heading = headingLevel ? `h${headingLevel}` : 'p';
   const { cardType } = site;
 
-  const place = [site.governorate, site.country].filter(Boolean).join(' · ');
+  const place = [t(site.governorate), t(site.country)].filter(Boolean).join(' · ');
   const cover = approvedCover(site);
   const linked = interactive && Boolean(site.href);
 
@@ -199,12 +200,12 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
       <div className="hb-card__frame">
         <header className="hb-card__top">
           <p className="hb-card__archive">
-            <span className="hb-card__label">Archive No.</span>
+            <span className="hb-card__label">{t('Archive No.')}</span>
             <span className="hb-card__code">{site.archiveNo}</span>
           </p>
           <p className="hb-card__type">
-            <span className="hb-card__type-name">{cardType.shortLabel}</span>
-            {cardType.rankLabel && <span className="hb-card__rank">{cardType.rankLabel}</span>}
+            <span className="hb-card__type-name">{t(cardType.shortLabel)}</span>
+            {cardType.rankLabel && <span className="hb-card__rank">{t(cardType.rankLabel)}</span>}
           </p>
         </header>
 
@@ -212,7 +213,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
           <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} priority={priority} />
 
           {(site.isUnesco || site.hasModel) && (
-            <ul className="hb-card__badges" aria-label="Digital and designation indicators">
+            <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
               {site.isUnesco && <li>UNESCO</li>}
               {site.hasModel && <li>3D</li>}
             </ul>
@@ -220,7 +221,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
 
           {showCta && linked && (
             <span className="hb-card__cta" aria-hidden="true">
-              View card ↗
+              {t('View card')} ↗
             </span>
           )}
         </figure>
@@ -235,13 +236,13 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
               site.name
             )}
           </Heading>
-          {site.siteType && <p className="hb-card__category" title={site.siteType}>{site.siteType}</p>}
+          {site.siteType && <p className="hb-card__category" title={t(site.siteType)}>{t(site.siteType)}</p>}
           {place && <p className="hb-card__place" title={place}>{place}</p>}
-          {site.period && <p className="hb-card__period" title={site.period}>{site.period}</p>}
+          {site.period && <p className="hb-card__period" title={t(site.period)}>{t(site.period)}</p>}
         </div>
 
         <footer className="hb-card__foot">
-          <span className="hb-card__date">{site.dateLabel}</span>
+          <span className="hb-card__date">{tDate(site.dateLabel)}</span>
           <span className="hb-card__brand">History in Cards</span>
         </footer>
       </div>

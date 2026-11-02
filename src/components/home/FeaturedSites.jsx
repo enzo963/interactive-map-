@@ -1,6 +1,7 @@
 import SmartLink from '../common/SmartLink';
 import HeritageCard from '../cards/HeritageCard';
 import '../../styles/home.css';
+import { t } from '../../i18n';
 
 /** Featured Cards — asymmetric catalogue spread, not a uniform grid. */
 export default function FeaturedSites({ sites, total }) {
@@ -10,9 +11,9 @@ export default function FeaturedSites({ sites, total }) {
     <section className="hb-featured" aria-labelledby="featured-title">
       <div className="hb-container">
         <header className="hb-section-head">
-          <h2 id="featured-title" className="hb-section-title">Featured Cards</h2>
+          <h2 id="featured-title" className="hb-section-title">{t('Featured Cards')}</h2>
           <p className="hb-section-meta">
-            {sites.length} of {total} in the archive
+            {t('{shown} of {total} in the archive', { shown: sites.length, total })}
           </p>
         </header>
 
@@ -25,11 +26,10 @@ export default function FeaturedSites({ sites, total }) {
 
           <aside className="hb-featured__note">
             <p>
-              Each card carries an archive number, an age-based type and its place in the record.
-              Open one to see the full site.
+              {t('Each card carries an archive number, an age-based type and its place in the record. Open one to see the full site.')}
             </p>
             <SmartLink href="/explore" className="hb-link">
-              Browse all cards
+              {t('Browse all cards')}
             </SmartLink>
           </aside>
         </div>

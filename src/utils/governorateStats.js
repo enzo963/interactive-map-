@@ -1,5 +1,6 @@
 import { CARD_TYPES } from '../data/cardTypes';
 import { GOVERNORATE_NAMES, getGovernorateKey } from '../data/governorates';
+import { t } from '../i18n';
 
 const tally = (items) => {
   const counts = new Map();
@@ -26,9 +27,9 @@ export function getGovernorateStats(sites) {
   }
 
   const list = [...entries.values()].map(({ key, name, sites: own }) => {
-    const types = CARD_TYPES.map((type) => ({ tier: type.tier, label: type.shortLabel, count: own.filter((s) => s.cardType.tier === type.tier).length }));
+    const types = CARD_TYPES.map((type) => ({ tier: type.tier, label: t(type.shortLabel), count: own.filter((s) => s.cardType.tier === type.tier).length }));
     const unclassified = own.filter((s) => s.cardType.tier === 0).length;
-    if (unclassified > 0) types.push({ tier: 0, label: 'Unclassified', count: unclassified });
+    if (unclassified > 0) types.push({ tier: 0, label: t('Unclassified'), count: unclassified });
     return {
       key,
       name,

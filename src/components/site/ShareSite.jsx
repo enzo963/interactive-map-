@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getSiteShareUrl } from '../../utils/siteLinks';
 import '../../styles/collections.css';
+import { t } from '../../i18n';
 
 export default function ShareSite({ site }) {
   const [message, setMessage] = useState('');
@@ -10,11 +11,11 @@ export default function ShareSite({ site }) {
     try {
       if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
       await navigator.clipboard.writeText(url);
-      setMessage('Link copied.');
+      setMessage(t('Link copied.'));
       setManual(false);
     } catch {
       setManual(true);
-      setMessage('Select and copy the link below.');
+      setMessage(t('Select and copy the link below.'));
     }
   };
   const share = async () => {
@@ -22,19 +23,19 @@ export default function ShareSite({ site }) {
     if (!navigator.share) return copy();
     try {
       await navigator.share({ title: site.name, url });
-      setMessage('Sharing opened.');
+      setMessage(t('Sharing opened.'));
     } catch (error) {
       if (error.name !== 'AbortError') await copy();
     }
   };
   return (
-    <section className="hb-share" aria-label="Share this heritage site">
+    <section className="hb-share" aria-label={t('Share this heritage site')}>
       <div className="hb-share__actions">
         <button type="button" className="hb-btn" onClick={share}>
-          Share site
+          {t('Share site')}
         </button>
         <button type="button" className="hb-btn" onClick={copy}>
-          Copy link
+          {t('Copy link')}
         </button>
       </div>
       <p role="status" aria-live="polite">
@@ -42,7 +43,7 @@ export default function ShareSite({ site }) {
       </p>
       {manual && (
         <label className="hb-share__manual">
-          Site link
+          {t('Site link')}
           <input
             ref={(node) => {
               if (node) {

@@ -10,10 +10,11 @@ import { getAllSites } from '../services/siteService';
 import { isApprovedSite, hasVerifiedModel } from '../utils/modelResources';
 import { searchSites } from '../utils/search';
 import '../styles/collections.css';
+import { t, tn } from '../i18n';
 
 export default function HeritageCollection({ kind = 'unesco' }) {
   const digital = kind === '3d';
-  const title = digital ? '3D Heritage Collection' : 'UNESCO World Heritage Collection';
+  const title = digital ? t('3D Heritage Collection') : t('UNESCO World Heritage Collection');
   useDocumentTitle(`${title} — History in Cards`);
   const { filters, setFilters } = useSiteFilters();
   const sites = useMemo(
@@ -28,30 +29,30 @@ export default function HeritageCollection({ kind = 'unesco' }) {
   return (
     <main id="main" tabIndex={-1} className="hb-page hb-collection">
       <PageHeader
-        eyebrow="Heritage collections"
+        eyebrow={t('Heritage collections')}
         title={title}
         lede={
           digital
-            ? 'Explore approved sites with verified 3D models and digital reconstruction resources.'
-            : 'Explore World Heritage properties represented in the approved archive. Tentative-list places and component monuments are not counted as separately inscribed properties.'
+            ? t('Explore approved sites with verified 3D models and digital reconstruction resources.')
+            : t('Explore World Heritage properties represented in the approved archive. Tentative-list places and component monuments are not counted as separately inscribed properties.')
         }
       />
       <div className="hb-container hb-collection__body">
-        <nav className="hb-collection__nav" aria-label="Heritage collections">
+        <nav className="hb-collection__nav" aria-label={t('Heritage collections')}>
           <SmartLink href="/unesco" aria-current={!digital ? 'page' : undefined}>
-            UNESCO heritage
+            {t('UNESCO heritage')}
           </SmartLink>
           <SmartLink href="/3d-archive" aria-current={digital ? 'page' : undefined}>
-            3D heritage
+            {t('3D heritage')}
           </SmartLink>
-          <SmartLink href="/explore">All heritage sites</SmartLink>
+          <SmartLink href="/explore">{t('All heritage sites')}</SmartLink>
         </nav>
         <div className="hb-collection__stats">
           <p>
-            <strong>{sites.length}</strong> {sites.length === 1 ? 'site' : 'sites'}
+            <strong>{sites.length}</strong> {tn('site', 'sites', sites.length)}
           </p>
           <p>
-            <strong>{governorates}</strong> {governorates === 1 ? 'governorate' : 'governorates'}
+            <strong>{governorates}</strong> {tn('governorate', 'governorates', governorates)}
           </p>
         </div>
         {sites.length > 0 && (
@@ -59,10 +60,10 @@ export default function HeritageCollection({ kind = 'unesco' }) {
             <SearchField
               value={filters.q}
               onChange={(q) => setFilters({ q })}
-              label={`Search ${digital ? '3D' : 'UNESCO'} heritage`}
+              label={digital ? t('Search 3D heritage') : t('Search UNESCO heritage')}
             />
             <p role="status">
-              {results.length} matching {results.length === 1 ? 'site' : 'sites'}
+              {tn('{n} matching site', '{n} matching sites', results.length)}
             </p>
           </>
         )}
@@ -71,22 +72,22 @@ export default function HeritageCollection({ kind = 'unesco' }) {
         ) : (
           <StatePanel kind={sites.length ? 'no-results' : 'empty'}
             title={sites.length
-                ? 'No sites match your search'
+                ? t('No sites match your search')
                 : digital
-                  ? 'No verified 3D resources yet'
-                  : 'No approved World Heritage properties yet'}
+                  ? t('No verified 3D resources yet')
+                  : t('No approved World Heritage properties yet')}
             description={sites.length
-                ? 'Try a site name or alternative name.'
+                ? t('Try a site name or alternative name.')
                 : digital
-                  ? 'The archive does not currently contain approved models or reconstruction resources. Sites will appear here after verification.'
-                  : 'Only approved records with confirmed World Heritage inscription appear in this collection.'}>
+                  ? t('The archive does not currently contain approved models or reconstruction resources. Sites will appear here after verification.')
+                  : t('Only approved records with confirmed World Heritage inscription appear in this collection.')}>
             {filters.q && (
               <button className="hb-btn" type="button" onClick={() => setFilters({ q: '' })}>
-                Clear search
+                {t('Clear search')}
               </button>
             )}
             <SmartLink className="hb-link" href="/explore">
-              Explore all heritage sites
+              {t('Explore all heritage sites')}
             </SmartLink>
           </StatePanel>
         )}

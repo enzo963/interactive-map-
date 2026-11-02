@@ -5,6 +5,7 @@ import { filterSites } from './filters';
 import { normalizeSearchText, searchSites, getSearchNames } from './search';
 import { HERITAGE_CATEGORIES, getHeritageCategories } from './heritageCategories';
 import slugify from './slugify';
+import { t as tr } from '../i18n';
 
 export const FLAG_FILTERS = [
   ...SPECIAL_COLLECTIONS.filter((c) => c.flag).map((c) => ({
@@ -162,7 +163,7 @@ export function getFacets(sites, input) {
     byLabel = (a, b) => a.label.localeCompare(b.label);
   const options = (field, keysOf, labels) => {
     const counts = tally(applyFilters(sites, filters, field), keysOf);
-    return [...labels].map(([id, label]) => ({ id, label, count: counts.get(id) ?? 0 })).sort(byLabel);
+    return [...labels].map(([id, label]) => ({ id, label: tr(label), count: counts.get(id) ?? 0 })).sort(byLabel);
   };
   const govs = new Map(
     sites.map((s) => [getGovernorateKey(s.governorate), s.governorate]).filter(([id]) => id),
@@ -173,21 +174,22 @@ export function getFacets(sites, input) {
   const typeCounts = tally(applyFilters(sites, filters, 'types'), (s) => String(s.cardType.tier));
   const types = CARD_TYPES.map((t) => ({
     id: String(t.tier),
-    label: t.shortLabel + (t.rankLabel ? ` · ${t.rankLabel}` : ''),
-    hint: t.rangeLabel,
+    label: tr(t.shortLabel) + (t.rankLabel ? ` · ${tr(t.rankLabel)}` : ''),
+    hint: tr(t.rangeLabel),
     count: typeCounts.get(String(t.tier)) ?? 0,
   }));
   if (sites.some((s) => s.cardType.tier === 0))
     types.push({
       id: '0',
-      label: 'Unclassified',
-      hint: 'Date not recorded',
+      label: tr('Unclassified'),
+      hint: tr('Date not recorded'),
       count: typeCounts.get('0') ?? 0,
     });
   const statusOptions = (field, canonical) => {
     const base = applyFilters(sites, filters, field);
     return STATUS_OPTIONS.map((o) => ({
       ...o,
+      label: tr(o.label),
       count: base.filter((s) =>
         o.id === 'unknown' ? s[canonical] == null : s[canonical] === (o.id === 'yes'),
       ).length,
@@ -207,7 +209,7 @@ export function getFacets(sites, input) {
     types,
     flags: FLAG_FILTERS.map((f) => ({
       id: f.id,
-      label: f.label,
+      label: tr(f.label),
       count: applyFilters(sites, filters, 'flags').filter(f.test).length,
     })),
   };

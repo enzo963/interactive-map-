@@ -2,6 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import SmartLink from '../common/SmartLink';
 import { useLocation, useNavigate } from '../../router/RouterContext';
 import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
+import { t } from '../../i18n';
+import LanguageSwitcher from './LanguageSwitcher';
+import ThemeToggle from './ThemeToggle';
 import '../../styles/layout.css';
 
 function BrandMark() {
@@ -76,7 +79,7 @@ export default function Navbar() {
   return (
     <header className={`hb-header ${open ? 'is-open' : ''}`.trim()}>
       <a className="hb-skip" href="#main">
-        Skip to content
+        {t('Skip to content')}
       </a>
       <div className="hb-container hb-header__bar">
         <SmartLink href="/" className="hb-brand">
@@ -95,13 +98,18 @@ export default function Navbar() {
             if (projectMenu.current) projectMenu.current.open = false;
           }}
         >
-          {open ? 'Close' : 'Menu'}
+          {open ? t('Close') : t('Menu')}
         </button>
+
+        <div className="hb-tools">
+          <LanguageSwitcher />
+          <ThemeToggle />
+        </div>
 
         <form
           className="hb-global-search"
           role="search"
-          aria-label="Global heritage search"
+          aria-label={t('Global heritage search')}
           onSubmit={(event) => {
             event.preventDefault();
             const q = query.trim();
@@ -110,7 +118,7 @@ export default function Navbar() {
           }}
         >
           <label className="sr-only" htmlFor="global-heritage-search">
-            Search heritage by name or alternative name
+            {t('Search heritage by name or alternative name')}
           </label>
           <input
             id="global-heritage-search"
@@ -118,12 +126,12 @@ export default function Navbar() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Find a heritage site"
+            placeholder={t('Find a heritage site')}
             enterKeyHint="search"
           />
-          <button type="submit">Search</button>
+          <button type="submit">{t('Search')}</button>
         </form>
-        <nav id="primary-nav" className="hb-nav" aria-label="Primary" onClick={closeOnLink}>
+        <nav id="primary-nav" className="hb-nav" aria-label={t('Primary')} onClick={closeOnLink}>
           <ul className="hb-nav__list">
             {PRIMARY_NAV.map((item) => (
               <li key={item.href}>
@@ -132,25 +140,25 @@ export default function Navbar() {
                   href={item.href}
                   aria-current={isCurrent(item.href) ? 'page' : undefined}
                 >
-                  {item.label}
+                  {t(item.label)}
                 </SmartLink>
               </li>
             ))}
           </ul>
           <details className="hb-project-menu" ref={projectMenu}>
-            <summary className="hb-nav__link" data-current={projectCurrent ? 'true' : undefined}>Project</summary>
+            <summary className="hb-nav__link" data-current={projectCurrent ? 'true' : undefined}>{t('Project')}</summary>
             <ul className="hb-project-menu__list">
               {PROJECT_NAV.map((item) => (
                 <li key={item.href}>
                   <SmartLink href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
-                    {item.label}
+                    {t(item.label)}
                   </SmartLink>
                 </li>
               ))}
             </ul>
           </details>
           <SmartLink href="/#draw" className="hb-btn hb-btn--ink hb-nav__cta">
-            Draw a Card
+            {t('Draw a Card')}
           </SmartLink>
         </nav>
       </div>

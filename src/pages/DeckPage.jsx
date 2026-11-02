@@ -14,6 +14,7 @@ import { deckThickness } from '../utils/groupDecks';
 import { pickRandom } from '../utils/random';
 import { SORTS } from '../utils/filterSites';
 import '../styles/pages.css';
+import { t } from '../i18n';
 
 
 // Applies only to this page, including its existing 3D archive reuse.
@@ -73,7 +74,7 @@ export default function DeckPage({ params, deckId }) {
   const [tier, setTier] = useState('all');
   const [sort, setSort] = useState('archive');
 
-  useDocumentTitle(deck ? `${deck.title} — History in Cards` : 'Deck not found — History in Cards');
+  useDocumentTitle(deck ? `${t(deck.title)} — History in Cards` : 'Deck not found — History in Cards');
 
   const tiers = useMemo(
     () => (deck ? CARD_TYPES.map((type) => ({ type, count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),
@@ -85,7 +86,7 @@ export default function DeckPage({ params, deckId }) {
     return [...base].sort(SORT_FNS[sort]);
   }, [deck, tier, sort]);
 
-  if (!deck) return <NotFound title="Deck not found" message="That deck is not in the archive." />;
+  if (!deck) return <NotFound title={t('Deck not found')} message={t('That deck is not in the archive.')} />;
 
   const drawFromDeck = () => {
     const pick = pickRandom(deck.sites);
@@ -96,31 +97,31 @@ export default function DeckPage({ params, deckId }) {
     <main id="main" tabIndex={-1} className="hb-page hb-deck-page">
       <style href="hb-deck-page-polish" precedence="components">{deckPageStyles}</style>
       <div className="hb-container">
-        <nav className="hb-crumbs" aria-label="Breadcrumb">
+        <nav className="hb-crumbs" aria-label={t('Breadcrumb')}>
           <ol>
-            <li><SmartLink href="/decks">Decks</SmartLink></li>
-            <li aria-current="page">{deck.title}</li>
+            <li><SmartLink href="/decks">{t('Decks')}</SmartLink></li>
+            <li aria-current="page">{t(deck.title)}</li>
           </ol>
         </nav>
 
         <header className="hb-deckhead">
           <div className="hb-deckhead__deck" aria-hidden="true">
-            <DeckPile variant={deck.back} label={deck.kind === 'governorate' ? deck.name : deck.title} thickness={deckThickness(deck.count)} />
+            <DeckPile variant={deck.back} label={deck.kind === 'governorate' ? t(deck.name) : t(deck.title)} thickness={deckThickness(deck.count)} />
           </div>
           <div className="hb-deckhead__text">
-            <p className="hb-eyebrow">{DECK_KIND_LABEL[deck.kind] ?? 'Deck'}</p>
-            <h1 className="hb-pagehead__title">{deck.title}</h1>
-            {deck.blurb && <p className="hb-pagehead__lede">{deck.blurb}</p>}
+            <p className="hb-eyebrow">{t(DECK_KIND_LABEL[deck.kind] ?? 'Deck')}</p>
+            <h1 className="hb-pagehead__title">{t(deck.title)}</h1>
+            {deck.blurb && <p className="hb-pagehead__lede">{t(deck.blurb)}</p>}
             <p className="hb-deckhead__count">{cardsLabel(deck.count)}</p>
             {tiers.length > 0 && (
-              <ul className="hb-deckhead__types" aria-label="Cards by type">
+              <ul className="hb-deckhead__types" aria-label={t('Cards by type')}>
                 {tiers.map(({ type, count }) => (
-                  <li key={type.id}><span>{type.shortLabel}</span> <b>{formatCount(count)}</b></li>
+                  <li key={type.id}><span>{t(type.shortLabel)}</span> <b>{formatCount(count)}</b></li>
                 ))}
               </ul>
             )}
             {deck.count > 0 && (
-              <button type="button" className="hb-btn hb-btn--ink" onClick={drawFromDeck}>Draw from this deck</button>
+              <button type="button" className="hb-btn hb-btn--ink" onClick={drawFromDeck}>{t('Draw from this deck')}</button>
             )}
           </div>
         </header>
@@ -128,40 +129,40 @@ export default function DeckPage({ params, deckId }) {
         {deck.count > 0 ? (
           <section className="hb-deck-cards" aria-labelledby="deck-cards">
             <div className="hb-explore__bar hb-explore__bar--ruled">
-              <h2 id="deck-cards" className="hb-section-title hb-decks__title">Cards in this deck</h2>
+              <h2 id="deck-cards" className="hb-section-title hb-decks__title">{t('Cards in this deck')}</h2>
               <label className="hb-sort">
-                <span>Sort by</span>
+                <span>{t('Sort by')}</span>
                 <select value={sort} onChange={(event) => setSort(event.target.value)}>
-                  {SORTS.map((s) => <option value={s.id} key={s.id}>{s.label}</option>)}
+                  {SORTS.map((s) => <option value={s.id} key={s.id}>{t(s.label)}</option>)}
                 </select>
               </label>
             </div>
             {tiers.length > 1 && (
-              <div className="hb-chips hb-chips--row" role="group" aria-label="Filter by card type">
-                <button type="button" className="hb-tag" aria-pressed={tier === 'all'} onClick={() => setTier('all')}>All types</button>
+              <div className="hb-chips hb-chips--row" role="group" aria-label={t('Filter by card type')}>
+                <button type="button" className="hb-tag" aria-pressed={tier === 'all'} onClick={() => setTier('all')}>{t('All types')}</button>
                 {tiers.map(({ type }) => (
                   <button type="button" className="hb-tag" aria-pressed={tier === String(type.tier)} onClick={() => setTier(String(type.tier))} key={type.id}>
-                    {type.shortLabel}
+                    {t(type.shortLabel)}
                   </button>
                 ))}
               </div>
             )}
             <p className="hb-deck-results" role="status" aria-live="polite">
-              {cardsLabel(shown.length)} in this selection · {formatCount(deck.count)} in the deck
+              {t('{cards} in this selection · {n} in the deck', { cards: cardsLabel(shown.length), n: formatCount(deck.count) })}
             </p>
             {shown.length > 0 ? (
               <CardGrid key={`${tier}-${sort}`} sites={shown} />
             ) : (
-              <StatePanel kind="no-results" title="No cards match this type" description="Choose all types to see the cards available in this deck." headingLevel={3}>
-                <button type="button" className="hb-btn hb-btn--ink" onClick={() => setTier('all')}>Show all types</button>
+              <StatePanel kind="no-results" title={t('No cards match this type')} description={t('Choose all types to see the cards available in this deck.')} headingLevel={3}>
+                <button type="button" className="hb-btn hb-btn--ink" onClick={() => setTier('all')}>{t('Show all types')}</button>
               </StatePanel>
             )}
           </section>
         ) : (
-          <StatePanel title="This deck has no cards yet" description="There are no site records in this collection yet. Browse other decks or explore the full archive.">
+          <StatePanel title={t('This deck has no cards yet')} description={t('There are no site records in this collection yet. Browse other decks or explore the full archive.')}>
             <div className="hb-deck-empty__actions">
-              <SmartLink className="hb-btn hb-btn--ink" href="/decks">Browse decks</SmartLink>
-              <SmartLink className="hb-link" href="/explore">Explore all cards</SmartLink>
+              <SmartLink className="hb-btn hb-btn--ink" href="/decks">{t('Browse decks')}</SmartLink>
+              <SmartLink className="hb-link" href="/explore">{t('Explore all cards')}</SmartLink>
             </div>
           </StatePanel>
         )}

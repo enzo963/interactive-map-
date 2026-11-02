@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import '../../styles/site-details.css';
+import { t } from '../../i18n';
 
 /** Image grid + lightbox built on the native <dialog> (focus trap, Esc, focus return come free). */
 export default function Gallery({ images, renderAttribution }) {
@@ -60,11 +61,11 @@ export default function Gallery({ images, renderAttribution }) {
 
   return (
     <>
-      <ul className="hb-gallery" ref={galleryRef} tabIndex={-1} aria-label="Site images">
+      <ul className="hb-gallery" ref={galleryRef} tabIndex={-1} aria-label={t('Site images')}>
         {images.map((image, i) => (
           <li key={image.src}>
-            <button type="button" className="hb-gallery__item" onClick={(event) => { openerRef.current = event.currentTarget; setIndex(i); }} disabled={failed.has(image.src)} aria-label={failed.has(image.src) ? `Image unavailable: ${image.alt}` : `Open image ${i + 1} of ${images.length}: ${image.alt}`}>
-              {failed.has(image.src) ? <span className="hb-gallery__unavailable">Image unavailable</span>
+            <button type="button" className="hb-gallery__item" onClick={(event) => { openerRef.current = event.currentTarget; setIndex(i); }} disabled={failed.has(image.src)} aria-label={failed.has(image.src) ? t('Image unavailable: {alt}', { alt: image.alt }) : t('Open image {n} of {total}: {alt}', { n: i + 1, total: images.length, alt: image.alt })}>
+              {failed.has(image.src) ? <span className="hb-gallery__unavailable">{t('Image unavailable')}</span>
                 : <img src={image.src} alt={image.alt} loading="lazy" decoding="async" onError={() => unavailable(image.src)} />}
             </button>
             {renderAttribution && <div className="hb-gallery__attribution">{renderAttribution(image)}</div>}
@@ -75,7 +76,7 @@ export default function Gallery({ images, renderAttribution }) {
       <dialog
         ref={dialogRef}
         className="hb-lightbox"
-        aria-label="Image viewer"
+        aria-label={t('Image viewer')}
         onClose={() => setIndex(null)}
         onKeyDown={onKeyDown}
         onClick={(event) => event.target === event.currentTarget && setIndex(null)}
@@ -83,7 +84,7 @@ export default function Gallery({ images, renderAttribution }) {
         {current && (
           <figure className="hb-lightbox__figure">
             {failed.has(current.src)
-              ? <div className="hb-gallery__unavailable" role="img" aria-label={`Image unavailable: ${current.alt}`}>Image unavailable</div>
+              ? <div className="hb-gallery__unavailable" role="img" aria-label={t('Image unavailable: {alt}', { alt: current.alt })}>{t('Image unavailable')}</div>
               : <img key={current.src} src={current.src} alt={current.alt} decoding="async"
                 onLoad={() => setLoaded((previous) => new Set([...previous, current.src]))}
                 onError={() => unavailable(current.src)} />}
@@ -94,12 +95,12 @@ export default function Gallery({ images, renderAttribution }) {
           </figure>
         )}
         <p className="hb-lightbox__status" role="status" aria-live="polite" aria-atomic="true">
-          {current && `${failed.has(current.src) ? 'Image unavailable. ' : !loaded.has(current.src) ? 'Loading image. ' : ''}Image ${index + 1} of ${images.length}: ${current.alt}`}
+          {current && `${failed.has(current.src) ? `${t('Image unavailable.')} ` : !loaded.has(current.src) ? `${t('Loading image.')} ` : ''}${t('Image {n} of {total}: {alt}', { n: index + 1, total: images.length, alt: current.alt })}`}
         </p>
         <div className="hb-lightbox__controls">
-          {images.length > 1 && <button type="button" onClick={() => step(-1)}>Previous</button>}
-          {images.length > 1 && <button type="button" onClick={() => step(1)}>Next</button>}
-          <button type="button" ref={closeRef} onClick={() => setIndex(null)}>Close</button>
+          {images.length > 1 && <button type="button" onClick={() => step(-1)}>{t('Previous')}</button>}
+          {images.length > 1 && <button type="button" onClick={() => step(1)}>{t('Next')}</button>}
+          <button type="button" ref={closeRef} onClick={() => setIndex(null)}>{t('Close')}</button>
         </div>
       </dialog>
     </>

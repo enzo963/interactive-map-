@@ -1,11 +1,12 @@
 import { useId } from 'react';
 import '../../styles/pages.css';
+import { t } from '../../i18n';
 
 export default function SearchField({
   value,
   onChange,
-  label = 'Search heritage sites',
-  placeholder = 'Site name, alternative name or place',
+  label = t('Search heritage sites'),
+  placeholder = t('Site name, alternative name or place'),
 }) {
   const id = useId();
   return (
@@ -29,7 +30,7 @@ export default function SearchField({
           <button
             type="button"
             className="hb-search__clear"
-            aria-label="Clear search"
+            aria-label={t('Clear search')}
             onClick={() => {
               onChange('');
               document.getElementById(id)?.focus();

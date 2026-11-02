@@ -1,4 +1,5 @@
 import { formatCount } from '../../utils/archiveStats';
+import { t } from '../../i18n';
 
 /** Headline archive numbers. Receives derived stats; hard-codes nothing. */
 export default function ArchiveStats({ stats }) {
@@ -13,7 +14,7 @@ export default function ArchiveStats({ stats }) {
     <dl className="hb-stats">
       {items.map((item) => (
         <div className="hb-stats__item" key={item.label}>
-          <dt className="hb-stats__label">{item.label}</dt>
+          <dt className="hb-stats__label">{t(item.label)}</dt>
           <dd className="hb-stats__value">{formatCount(item.value)}</dd>
         </div>
       ))}

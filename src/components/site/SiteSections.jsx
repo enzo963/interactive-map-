@@ -1,6 +1,7 @@
 import { getVideoEmbed } from '../../utils/media';
 import '../../styles/site-details.css';
 import '../../styles/phase4.css';
+import { t } from '../../i18n';
 
 // Scoped to this wrapper; map and card internals retain their own styles.
 const sectionLayoutStyles = `
@@ -61,7 +62,7 @@ export function Overview({ text, background }) {
       {paragraphs(text).map((paragraph, i) => <p key={i}>{paragraph}</p>)}
       {background && (
         <>
-          <h3 className="hb-site__h3">Historical background</h3>
+          <h3 className="hb-site__h3">{t('Historical background')}</h3>
           {paragraphs(background).map((paragraph, i) => <p key={`b${i}`}>{paragraph}</p>)}
         </>
       )}
@@ -95,7 +96,7 @@ export function VideoPlayer({ url, name }) {
       <div className="hb-embed">
         <iframe
           src={embed.src}
-          title={`Video about ${name} (${embed.provider})`}
+          title={t('Video about {name} ({provider})', { name, provider: embed.provider })}
           loading="lazy"
           allow="fullscreen; picture-in-picture"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -108,14 +109,14 @@ export function VideoPlayer({ url, name }) {
     return (
       <div className="hb-embed hb-embed--video">
         <video controls preload="metadata" src={embed.src}>
-          <a href={embed.src}>Download the video</a>
+          <a href={embed.src}>{t('Download the video')}</a>
         </video>
       </div>
     );
   }
   return (
     <p className="hb-prose">
-      <a className="hb-link" href={embed.src} target="_blank" rel="noopener noreferrer">Watch the video<span className="sr-only"> (opens in a new tab)</span></a>
+      <a className="hb-link" href={embed.src} target="_blank" rel="noopener noreferrer">{t('Watch the video')}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
     </p>
   );
 }
@@ -126,10 +127,10 @@ const isExternal = (url) => /^https?:\/\//i.test(url);
 export function Documentation({ types, note, meta, assets }) {
   const rows = meta
     ? [
-        ['Documented', meta.date],
-        ['Team', meta.team],
-        ['Equipment', meta.equipment.join(', ')],
-        ['Notes', meta.notes],
+        [t('Documented'), meta.date],
+        [t('Team'), meta.team],
+        [t('Equipment'), meta.equipment.join(', ')],
+        [t('Notes'), meta.notes],
       ].filter(([, value]) => value)
     : [];
 
@@ -137,8 +138,8 @@ export function Documentation({ types, note, meta, assets }) {
     <div className="hb-prose">
       {note && <p>{note}</p>}
       {types.length > 0 && (
-        <ul className="hb-chips hb-chips--row" aria-label="Types of documentation">
-          {types.map((type) => <li className="hb-tag hb-tag--static" key={type}>{type}</li>)}
+        <ul className="hb-chips hb-chips--row" aria-label={t('Types of documentation')}>
+          {types.map((type) => <li className="hb-tag hb-tag--static" key={type}>{t(type)}</li>)}
         </ul>
       )}
       {rows.length > 0 && (
@@ -149,21 +150,21 @@ export function Documentation({ types, note, meta, assets }) {
         </dl>
       )}
       {assets.length > 0 && (
-        <ul className="hb-assets" aria-label="Digital assets">
+        <ul className="hb-assets" aria-label={t('Digital assets')}>
           {assets.map((asset, i) => (
             <li key={`${asset.url}${asset.title}${i}`}>
               <p className="hb-assets__title">
                 {asset.url ? (
                   <a href={asset.url} {...(isExternal(asset.url) ? { target: '_blank', rel: 'noopener noreferrer' } : { download: true })}>
-                    {asset.title || asset.type || 'Digital asset'}
-                    {isExternal(asset.url) && <span className="sr-only"> (opens in a new tab)</span>}
+                    {asset.title || t(asset.type) || t('Digital asset')}
+                    {isExternal(asset.url) && <span className="sr-only"> ({t('opens in a new tab')})</span>}
                   </a>
                 ) : (
                   asset.title
                 )}
               </p>
               <p className="hb-assets__meta">
-                {[asset.type, asset.format, asset.credit && `Credit: ${asset.credit}`, asset.license && `Licence: ${asset.license}`].filter(Boolean).join(' · ')}
+                {[asset.type, asset.format, asset.credit && `${t('Credit:')} ${asset.credit}`, asset.license && `${t('Licence:')} ${asset.license}`].filter(Boolean).join(' · ')}
               </p>
               {asset.description && <p className="hb-assets__text">{asset.description}</p>}
             </li>
@@ -179,15 +180,15 @@ export function Credits({ imageCredit, mediaLicense, gallery }) {
   const items = gallery.filter((image) => image.credit || image.license);
   return (
     <div className="hb-prose">
-      {imageCredit && <p>Main image: {imageCredit}</p>}
-      {mediaLicense && <p>Media licence: {mediaLicense}</p>}
+      {imageCredit && <p>{t('Main image:')} {imageCredit}</p>}
+      {mediaLicense && <p>{t('Media licence:')} {mediaLicense}</p>}
       {items.length > 0 && (
         <ul className="hb-credits">
           {items.map((image) => (
             <li key={image.src}>
               {image.alt}
-              {image.credit && <>. Credit: {image.credit}</>}
-              {image.license && <>. Licence: {image.license}</>}
+              {image.credit && <>. {t('Credit:')} {image.credit}</>}
+              {image.license && <>. {t('Licence:')} {image.license}</>}
             </li>
           ))}
         </ul>
@@ -203,7 +204,7 @@ export function Sources({ items }) {
         <li key={i}>
           {source.url ? (
             <a href={source.url} target="_blank" rel="noopener noreferrer">
-              {source.title}<span className="sr-only"> (opens in a new tab)</span>
+              {source.title}<span className="sr-only"> ({t('opens in a new tab')})</span>
             </a>
           ) : (
             source.title

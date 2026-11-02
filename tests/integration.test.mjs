@@ -7,12 +7,16 @@ import { createServer } from 'vite';
 import React, { act } from 'react';
 
 const dom = new JSDOM('<!doctype html><html><head></head><body><div id="root"></div></body></html>', { url: 'http://localhost/', pretendToBeVisual: true });
-for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'HTMLInputElement', 'Event', 'MouseEvent', 'PopStateEvent']) {
+for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'HTMLInputElement', 'Event', 'MouseEvent', 'PopStateEvent', 'Element', 'SVGElement', 'getComputedStyle']) {
   Object.defineProperty(globalThis, key, { configurable: true, value: dom.window[key] });
 }
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 window.scrollTo = () => {};
 window.HTMLElement.prototype.scrollIntoView = () => {};
+// jsdom has no layout: give Leaflet map containers a size so pins are laid out and clickable.
+for (const [prop, size] of [['clientWidth', 800], ['clientHeight', 600]]) {
+  Object.defineProperty(window.HTMLElement.prototype, prop, { configurable: true, get() { return this.classList?.contains('leaflet-container') ? size : 0; } });
+}
 window.matchMedia = (media) => ({ media, matches: media.includes('prefers-reduced-motion'), addEventListener() {}, removeEventListener() {} });
 window.HTMLDialogElement.prototype.showModal = function () { this.open = true; };
 window.HTMLDialogElement.prototype.close = function () { this.open = false; this.dispatchEvent(new window.Event('close')); };
@@ -175,30 +179,14 @@ test('quality: closing a failed gallery image focuses an available thumbnail or 
   }
 });
 
-test('quality: keyboard focus centres an offscreen point on a zoomed map', async () => {
+test('quality: map pins are keyboard buttons named after their card; Enter selects the card', async () => {
   await mount('/map', true);
-  await click(button('+'));
-  const layer = $('.hb-mapx__layer');
-  const previous = layer.style.transform;
-  const dot = $('.hb-mapx__dot');
-  const match = dot.matches.bind(dot);
-  // JSDOM does not model keyboard/pointer focus-visible heuristics.
-  dot.matches = (selector) => selector === ':focus-visible' ? true : match(selector);
-  await act(async () => dot.focus());
-  assert.notEqual(layer.style.transform, previous);
-});
-
-test('quality: pointer focus does not move a map target before its click completes', async () => {
-  await mount('/map', true);
-  await click(button('+'));
-  const dot = $('.hb-mapx__dot');
-  const match = dot.matches.bind(dot);
-  dot.matches = (selector) => selector === ':focus-visible' ? false : match(selector);
-  const previous = $('.hb-mapx__layer').style.transform;
-  await act(async () => dot.focus());
-  assert.equal($('.hb-mapx__layer').style.transform, previous);
-  await click(dot);
-  assert.ok(new URLSearchParams(window.location.search).get('site'));
+  const pin = () => all('.hb-pin-wrap').find((p) => p.getAttribute('aria-label')?.startsWith('Hatra,'));
+  assert.ok(pin(), 'Hatra pin must exist');
+  assert.equal(pin().getAttribute('role'), 'button');
+  assert.equal(pin().getAttribute('tabindex'), '0');
+  await act(async () => pin().dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Enter', bubbles: true })));
+  assert.equal(new URLSearchParams(window.location.search).get('site'), 'hatra');
 });
 
 test('quality: map pagination focuses the new result and announces the final range', async () => {
@@ -427,7 +415,7 @@ test('Map region buttons, points and result list keep URL and selection in sync'
   assert.equal(all('.hb-mapx__list li').length, 2);
   await click(nineveh());
   assert.equal(new URLSearchParams(window.location.search).get('region'), null);
-  const point = () => all('.hb-mapx__dot').find(b => b.getAttribute('aria-label').startsWith('Hatra,'));
+  const point = () => all('.hb-pin-wrap').find(b => b.getAttribute('aria-label')?.startsWith('Hatra,'));
   await click(point());
   assert.equal(new URLSearchParams(window.location.search).get('site'), 'hatra');
   assert.equal($('.hb-mapx__item[aria-pressed="true"]').textContent.includes('Hatra'), true);
@@ -548,39 +536,6 @@ test('Navigating between polished pages deduplicates shared card styles', async 
   assert.equal(all('style[data-href="hb-heritage-card-refinement"]').length, 1);
 });
 
-
-test('Map zoom, keyboard pan, drag and subsequent point selection cooperate', async () => {
-  await mount('/map', true);
-  const plot = $('.hb-mapx__plot');
-  plot.getBoundingClientRect = () => ({ width: 600, height: 400, top: 0, left: 0 });
-  let captured = null;
-  plot.setPointerCapture = id => { captured = id; };
-  plot.hasPointerCapture = id => captured === id;
-  plot.releasePointerCapture = () => { captured = null; };
-  await click($('[aria-label="Zoom in"]'));
-  assert.equal(plot.dataset.zoomed, 'true');
-  const initial = $('.hb-mapx__layer').style.transform;
-  await act(async () => plot.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true })));
-  assert.notEqual($('.hb-mapx__layer').style.transform, initial);
-  const point = all('.hb-mapx__dot').find(b => b.getAttribute('aria-label').startsWith('Hatra,'));
-  async function pointer(target, type, x) {
-    const event = new window.MouseEvent(type, { bubbles: true, button: 0, clientX: x, clientY: 100 });
-    Object.defineProperties(event, { pointerId: { value: 1 }, isPrimary: { value: true }, pointerType: { value: 'mouse' } });
-    await act(async () => target.dispatchEvent(event));
-  }
-  await pointer(point, 'pointerdown', 100);
-  await pointer(plot, 'pointermove', 140);
-  await pointer(plot, 'pointerup', 140);
-  await click(point);
-  assert.equal(new URLSearchParams(window.location.search).get('site'), null);
-  await pointer(point, 'pointerdown', 140);
-  await pointer(point, 'pointerup', 140);
-  await click(point);
-  assert.equal(new URLSearchParams(window.location.search).get('site'), 'hatra');
-  await click(button('Reset'));
-  assert.equal(plot.dataset.zoomed, 'false');
-  assert.equal($('.hb-mapx__zoom-status').textContent, '100%');
-});
 
 test('Back/forward location changes restore Map selection and Explore search', async () => {
   await mount('/map?region=nineveh&site=hatra');
@@ -823,8 +778,8 @@ test('in-flow filters close with focus returned to results and retain URL select
 test('imported UNESCO property locations remain clickable on the map', async () => {
   sites.splice(0, sites.length, ...structuredClone(importedSites));
   await mount('/map');
-  assert.equal(all('.hb-mapx__dot').length, 3);
-  await click(all('.hb-mapx__dot').find((point) => point.getAttribute('aria-label').startsWith('Hatra,')));
+  assert.equal(all('.hb-pin-wrap').length, 3);
+  await click(all('.hb-pin-wrap').find((point) => point.getAttribute('aria-label')?.startsWith('Hatra,')));
   assert.equal(new URLSearchParams(window.location.search).get('site'), 'hatra');
   assert.equal($('#region-title').textContent, 'Nineveh');
   assert.ok($('.hb-mapx__selected .hb-card__title').textContent.includes('Hatra'));

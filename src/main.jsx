@@ -5,6 +5,10 @@ import App from './App';
 import { routes } from './routes';
 import { matchRoute } from './router/matchRoute';
 import { preloadInitialRoute } from './router/preloadInitialRoute';
+import { applyDocumentLanguage, detectLanguage } from './i18n/detectLanguage';
+
+// Set <html lang> before the first paint (screen readers, hyphenation).
+applyDocumentLanguage(detectLanguage());
 
 // Give the requested route a short head start. If it stalls, mount navigation
 // and the genuine loading state after at most 150 ms instead of waiting forever.

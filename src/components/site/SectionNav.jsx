@@ -1,4 +1,5 @@
 import '../../styles/phase4.css';
+import { t } from '../../i18n';
 
 /** Minimum number of rendered sections before the "On this page" list is worth showing. */
 export const MIN_SECTIONS_FOR_NAV = 4;
@@ -10,7 +11,7 @@ export const MIN_SECTIONS_FOR_NAV = 4;
 export default function SectionNav({ items }) {
   if (items.length < MIN_SECTIONS_FOR_NAV) return null;
   return (
-    <nav className="hb-sectionnav" aria-label="On this page">
+    <nav className="hb-sectionnav" aria-label={t('On this page')}>
       <ol>
         {items.map((item) => (
           <li key={item.id}><a href={`#${item.id}`}>{item.title}</a></li>

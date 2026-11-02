@@ -1,20 +1,41 @@
 /* ---------- Tokens ---------- */
 :root {
-  /* Palette (History in Cards) */
-  --hb-ink: #1d211e;
+  color-scheme: light;
+
+  /* Base palette (History in Cards) — the original colours, never themed.
+     The themed tokens below point at these; cards and the always-dark bands reset to them. */
+  --p-ink: #1d211e;
+  --p-sand: #ded3c0;
+  --p-paper: #f1ede4;
+  --p-paper-raised: #f8f5ee;
+  --p-earth-text: #5f5646;           /* earth, darkened for AA text on paper */
+  --p-terracotta-deep: #a8482a;      /* terracotta for text/links on paper (AA) */
+  --p-rule: rgba(29, 33, 30, 0.2);
+  --p-rule-strong: rgba(29, 33, 30, 0.55);
+  --p-desk: #e6dcc9;
+  --p-desk-line: rgba(29, 33, 30, 0.06);
+  --p-shadow: rgba(29, 33, 30, 0.1);
+  --p-overlay: rgba(248, 245, 238, 0.94);
+
+  /* Not themed */
   --hb-green: #394238;
   --hb-earth: #756b59;
   --hb-brown: #a68b68;
-  --hb-sand: #ded3c0;
   --hb-terracotta: #c65f3b;
 
-  /* Derived */
-  --hb-paper: #f1ede4;
-  --hb-paper-raised: #f8f5ee;
-  --hb-earth-text: #5f5646;          /* earth, darkened for AA text on paper */
-  --hb-terracotta-deep: #a8482a;     /* terracotta for text/links on paper (AA) */
-  --hb-rule: rgba(29, 33, 30, 0.2);
-  --hb-rule-strong: rgba(29, 33, 30, 0.55);
+  /* Themed (light is the default) */
+  --hb-ink: var(--p-ink);
+  --hb-sand: var(--p-sand);
+  --hb-paper: var(--p-paper);
+  --hb-paper-raised: var(--p-paper-raised);
+  --hb-earth-text: var(--p-earth-text);
+  --hb-terracotta-deep: var(--p-terracotta-deep);
+  --hb-rule: var(--p-rule);
+  --hb-rule-strong: var(--p-rule-strong);
+  --hb-desk: var(--p-desk);
+  --hb-desk-line: var(--p-desk-line);
+  --hb-shadow: var(--p-shadow);
+  --hb-overlay: var(--p-overlay);       /* translucent paper over the map */
 
   /* Type */
   --hb-font-serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
@@ -28,6 +49,36 @@
 
   /* Motion */
   --hb-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ---------- Dark theme ----------
+   Switched with <html data-theme="dark"> (see src/theme). Only the tokens change. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --hb-ink: #ece6d6;
+  --hb-sand: #2a302a;
+  --hb-paper: #151815;
+  --hb-paper-raised: #1d221d;
+  --hb-earth-text: #b5a98f;
+  --hb-terracotta-deep: #e8906b;
+  --hb-rule: rgba(236, 230, 214, 0.18);
+  --hb-rule-strong: rgba(236, 230, 214, 0.5);
+  --hb-desk: #1f251f;
+  --hb-desk-line: rgba(236, 230, 214, 0.06);
+  --hb-shadow: rgba(0, 0, 0, 0.4);
+  --hb-overlay: rgba(29, 34, 29, 0.94);
+}
+
+/* Physical objects (cards, decks) and the bands that are dark in both themes keep the base palette. */
+:root[data-theme='dark'] :is(.hb-card, .hb-cardback, .hb-deck, .hb-draw, .hb-footer, .hb-lightbox, .hb-embed, .hb-skip) {
+  --hb-ink: var(--p-ink);
+  --hb-sand: var(--p-sand);
+  --hb-paper: var(--p-paper);
+  --hb-paper-raised: var(--p-paper-raised);
+  --hb-earth-text: var(--p-earth-text);
+  --hb-terracotta-deep: var(--p-terracotta-deep);
+  --hb-rule: var(--p-rule);
+  --hb-rule-strong: var(--p-rule-strong);
 }
 
 /* ---------- Base ---------- */

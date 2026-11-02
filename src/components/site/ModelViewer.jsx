@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { getModelEmbed } from '../../utils/media';
 import StatePanel from '../common/StatePanel';
 import '../../styles/collections.css';
+import { t } from '../../i18n';
 
 // Version-pinned cache adapter: model-viewer 4.4 retains failed GLTF loads.
 // Evict only the failed URL so retries do not dispose other cached models.
@@ -88,7 +89,7 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
 
   if (!embed)
     return (
-      <StatePanel kind="unavailable" title="3D resource unavailable" description="No approved 3D resource is available for this site." headingLevel={3} compact />
+      <StatePanel kind="unavailable" title={t('3D resource unavailable')} description={t('No approved 3D resource is available for this site.')} headingLevel={3} compact />
     );
   const viewable = ['model', 'iframe'].includes(embed.type);
   const start = () => {
@@ -98,36 +99,36 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
   };
   return (
     <div className="hb-model" data-state={viewable ? state : 'unavailable'}>
-      <h3 className="hb-site__h3">{resource.title || '3D resource'}</h3>
+      <h3 className="hb-site__h3">{resource.title || t('3D resource')}</h3>
       {!viewable && (
         <p className="hb-model__notice">
-          This resource cannot be previewed here. Open or download it using the link below.
+          {t('This resource cannot be previewed here. Open or download it using the link below.')}
         </p>
       )}
       {viewable && state === 'idle' && (
         <div className="hb-model__notice">
           <p>
             {embed.type === 'iframe'
-              ? 'This viewer is hosted by Sketchfab. Load it when you are ready to connect to that provider.'
-              : 'Load the interactive model, then drag to rotate and scroll or pinch to zoom.'}
+              ? t('This viewer is hosted by Sketchfab. Load it when you are ready to connect to that provider.')
+              : t('Load the interactive model, then drag to rotate and scroll or pinch to zoom.')}
           </p>
           <button type="button" className="hb-btn hb-btn--ink" onClick={start}>
-            Load 3D viewer
+            {t('Load 3D viewer')}
           </button>
         </div>
       )}
       {viewable && state === 'loading' && (
         <div className="hb-model__loading">
-          <p role="status">Loading 3D model…</p>
+          <p role="status">{t('Loading 3D model…')}</p>
           {embed.type === 'model' && (
-            <progress aria-label="Model loading progress" max="100" value={progress} />
+            <progress aria-label={t('Model loading progress')} max="100" value={progress} />
           )}
         </div>
       )}
       {viewable && state === 'error' && (
-        <StatePanel kind="error" title="3D model unavailable" description="The 3D model could not be loaded. Your browser or the resource may be unavailable." headingLevel={4} compact>
+        <StatePanel kind="error" title={t('3D model unavailable')} description={t('The 3D model could not be loaded. Your browser or the resource may be unavailable.')} headingLevel={4} compact>
           <button type="button" className="hb-btn" onClick={start}>
-            Retry viewer
+            {t('Retry viewer')}
           </button>
         </StatePanel>
       )}
@@ -136,7 +137,7 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
           <iframe
             key={attempt}
             src={embed.src}
-            title={`3D model of ${name}`}
+            title={t('3D model of {name}', { name })}
             onLoad={() => setState('ready')}
             onError={() => setState('error')}
             allow="fullscreen; xr-spatial-tracking"
@@ -148,7 +149,7 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
           <model-viewer
             key={attempt}
             ref={viewer}
-            alt={`3D model of ${name}`}
+            alt={t('3D model of {name}', { name })}
             camera-controls=""
             touch-action="pan-y"
             interaction-prompt="auto"
@@ -156,8 +157,7 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
         ))}
       {state === 'ready' && (
         <p className="hb-model__hint">
-          Drag to rotate. Use scroll or pinch to zoom. Keyboard controls are available when the viewer is
-          focused.
+          {t('Drag to rotate. Use scroll or pinch to zoom. Keyboard controls are available when the viewer is focused.')}
         </p>
       )}
       <p>
@@ -168,14 +168,14 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
             ? { download: true }
             : { target: '_blank', rel: 'noopener noreferrer' })}
         >
-          {embed.format ? `Download ${embed.format} model` : 'Open digital resource'}
+          {embed.format ? t('Download {format} model', { format: embed.format }) : t('Open digital resource')}
         </a>
       </p>
       {(resource.credit || resource.license) && (
         <p className="hb-model__credit">
           {[
-            resource.credit && `Credit: ${resource.credit}`,
-            resource.license && `License: ${resource.license}`,
+            resource.credit && `${t('Credit:')} ${resource.credit}`,
+            resource.license && `${t('License:')} ${resource.license}`,
           ]
             .filter(Boolean)
             .join(' · ')}

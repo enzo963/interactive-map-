@@ -7,6 +7,7 @@ import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
 import { getGovernorateDecks, getSpecialDecks, getThematicDecks } from '../utils/decks';
 import '../styles/pages.css';
+import { t } from '../i18n';
 
 
 // Page-scoped styles keep this refinement local to the deck catalogue.
@@ -42,8 +43,8 @@ function DeckSection({ id, title, description, decks, emptyMessage }) {
       {decks.length > 0 ? (
         <ul className="hb-tiles">{decks.map((deck) => <DeckTile deck={deck} key={deck.id} />)}</ul>
       ) : (
-        <StatePanel title="No decks to show yet" description={emptyMessage} headingLevel={3}>
-          <SmartLink className="hb-link" href="/explore">Explore all cards</SmartLink>
+        <StatePanel title={t('No decks to show yet')} description={emptyMessage} headingLevel={3}>
+          <SmartLink className="hb-link" href="/explore">{t('Explore all cards')}</SmartLink>
         </StatePanel>
       )}
     </section>
@@ -61,31 +62,31 @@ export default function Decks() {
     <main id="main" tabIndex={-1} className="hb-page hb-deck-listing">
       <style href="hb-deck-listing-polish" precedence="components">{deckListingStyles}</style>
       <PageHeader
-        eyebrow="Decks"
-        title="Collections of cards"
-        lede="Every card belongs to a governorate deck, and can also sit in special and thematic decks. A card has one type but can be in many decks."
+        eyebrow={t('Decks')}
+        title={t('Collections of cards')}
+        lede={t('Every card belongs to a governorate deck, and can also sit in special and thematic decks. A card has one type but can be in many decks.')}
       />
       <div className="hb-container hb-decks">
         <DeckSection
           id="decks-gov"
-          title="Governorate Decks"
-          description="Browse the archive by place. Each deck brings together cards from one Iraqi governorate."
+          title={t('Governorate Decks')}
+          description={t('Browse the archive by place. Each deck brings together cards from one Iraqi governorate.')}
           decks={governorates}
-          emptyMessage="Governorate decks will appear here when they are available in the archive."
+          emptyMessage={t('Governorate decks will appear here when they are available in the archive.')}
         />
         <DeckSection
           id="decks-thematic"
-          title="Thematic Decks"
-          description="Follow a shared theme across sites, periods, and governorates."
+          title={t('Thematic Decks')}
+          description={t('Follow a shared theme across sites, periods, and governorates.')}
           decks={thematic}
-          emptyMessage="No thematic decks currently contain cards. You can still browse the full archive."
+          emptyMessage={t('No thematic decks currently contain cards. You can still browse the full archive.')}
         />
         <DeckSection
           id="decks-special"
-          title="Special Decks"
-          description="Discover collections focused on heritage designations, preservation, and digital documentation."
+          title={t('Special Decks')}
+          description={t('Discover collections focused on heritage designations, preservation, and digital documentation.')}
           decks={special}
-          emptyMessage="Special collections will appear here when they are available in the archive."
+          emptyMessage={t('Special collections will appear here when they are available in the archive.')}
         />
       </div>
     </main>

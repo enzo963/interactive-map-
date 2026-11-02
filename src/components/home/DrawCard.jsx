@@ -9,6 +9,7 @@ import { pickRandom } from '../../utils/random';
 import { formatCount } from '../../utils/archiveStats';
 import usePrefersReducedMotion from '../../hooks/usePrefersReducedMotion';
 import '../../styles/home.css';
+import { t, tn } from '../../i18n';
 
 const SHUFFLE_MS = 700;
 const DEAL_DELAY_MS = 90;
@@ -74,17 +75,17 @@ export default function DrawCard({ sites }) {
   };
 
   const announcement =
-    phase === 'shuffling' ? 'Drawing a heritage card…' : phase === 'revealed' && drawn ? `Card drawn: ${drawn.name}. Archive number ${drawn.archiveNo}.` : '';
+    phase === 'shuffling' ? t('Drawing a heritage card…') : phase === 'revealed' && drawn ? t('Card drawn: {name}. Archive number {number}.', { name: drawn.name, number: drawn.archiveNo }) : '';
 
   return (
     <section className="hb-draw" id="draw" aria-labelledby="draw-title">
       <div className="hb-container hb-draw__grid">
         <div className="hb-draw__intro">
-          <p className="hb-eyebrow">Not sure where to start?</p>
-          <h2 id="draw-title" className="hb-draw__title">Draw a card</h2>
-          <p className="hb-draw__lede">Discover a random heritage site from the archive.</p>
+          <p className="hb-eyebrow">{t('Not sure where to start?')}</p>
+          <h2 id="draw-title" className="hb-draw__title">{t('Draw a card')}</h2>
+          <p className="hb-draw__lede">{t('Discover a random heritage site from the archive.')}</p>
 
-          <div className="hb-draw__filters" role="group" aria-label="Choose a deck to draw from">
+          <div className="hb-draw__filters" role="group" aria-label={t('Choose a deck to draw from')}>
             {pools.map((pool) => (
               <button
                 type="button"
@@ -94,7 +95,7 @@ export default function DrawCard({ sites }) {
                 disabled={pool.cards.length === 0}
                 onClick={() => chooseFilter(pool.id)}
               >
-                {pool.label}
+                {t(pool.label)}
                 <span className="hb-chip__count">{formatCount(pool.cards.length)}</span>
               </button>
             ))}
@@ -108,11 +109,11 @@ export default function DrawCard({ sites }) {
               aria-disabled={phase === 'shuffling' || active.cards.length === 0}
               disabled={active.cards.length === 0}
             >
-              {phase === 'shuffling' ? 'Drawing a card…' : phase === 'revealed' ? 'Draw another card' : 'Draw a card'}
+              {phase === 'shuffling' ? t('Drawing a card…') : phase === 'revealed' ? t('Draw another card') : t('Draw a card')}
             </button>
             {phase === 'revealed' && drawn && (
               <SmartLink className="hb-link" href={drawn.href}>
-                Open site record
+                {t('Open site record')}
               </SmartLink>
             )}
           </div>
@@ -124,24 +125,24 @@ export default function DrawCard({ sites }) {
           <div className="hb-draw__spot hb-draw__spot--deck">
             <DeckPile
               variant={active.back}
-              label={active.label}
-              caption={`${active.cards.length} cards`}
+              label={t(active.label)}
+              caption={tn('{n} card', '{n} cards', active.cards.length)}
               shuffling={phase === 'shuffling'}
             />
-            <p className="hb-draw__tag">Deck</p>
+            <p className="hb-draw__tag">{t('Deck')}</p>
           </div>
 
           <div className="hb-draw__spot hb-draw__spot--drawn">
             {drawn ? (
               <FlipCard
                 flipped={faceUp}
-                back={<CardBack variant={active.back} label={active.label} />}
+                back={<CardBack variant={active.back} label={t(active.label)} />}
                 front={<HeritageCard site={drawn} headingLevel={3} showCta />}
               />
             ) : (
               <div className="hb-draw__empty" aria-hidden="true" />
             )}
-            <p className="hb-draw__tag">Drawn card</p>
+            <p className="hb-draw__tag">{t('Drawn card')}</p>
           </div>
         </div>
       </div>

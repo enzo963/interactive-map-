@@ -2,6 +2,7 @@ import { SPECIAL_COLLECTIONS, VIEW_FILTERS, isCollectionMember } from '../data/c
 import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
 import { getThematicDefinitions } from '../services/deckService';
 import { groupByGovernorate } from './groupDecks';
+import { t } from '../i18n';
 
 /**
  * Collections API. Every deck returned has:
@@ -22,8 +23,8 @@ export function getGovernorateDecks(sites) {
   return groupByGovernorate(sites).map((deck) => ({
     ...deck,
     kind: 'governorate',
-    title: `${deck.name} Deck`,
-    blurb: `Heritage cards recorded in ${deck.name}.`,
+    title: t('{name} Deck', { name: t(deck.name) }),
+    blurb: t('Heritage cards recorded in {name}.', { name: t(deck.name) }),
   }));
 }
 
@@ -46,7 +47,7 @@ export function getDeckById(sites, id) {
   if (found) return found;
   const name = GOVERNORATE_NAMES[key];
   if (!name) return null;
-  return { id: key, name, kind: 'governorate', title: `${name} Deck`, blurb: `Heritage cards recorded in ${name}.`, back: 'plain', sites: [], count: 0, href: `/decks/${key}` };
+  return { id: key, name, kind: 'governorate', title: t('{name} Deck', { name: t(name) }), blurb: t('Heritage cards recorded in {name}.', { name: t(name) }), back: 'plain', sites: [], count: 0, href: `/decks/${key}` };
 }
 
 /** The decks one site belongs to (a card has ONE type but can sit in many decks). */
@@ -54,7 +55,7 @@ export function getDecksForSite(site) {
   const decks = [];
   if (site.governorate) {
     const id = getGovernorateKey(site.governorate);
-    decks.push({ id, title: `${site.governorate} Deck`, href: `/decks/${id}` });
+    decks.push({ id, title: t('{name} Deck', { name: t(site.governorate) }), href: `/decks/${id}` });
   }
   for (const def of SPECIAL_COLLECTIONS) {
     if (isCollectionMember(site, def)) decks.push({ id: def.id, title: def.title, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` });

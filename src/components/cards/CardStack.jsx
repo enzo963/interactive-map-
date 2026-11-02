@@ -1,6 +1,7 @@
 import HeritageCard from './HeritageCard';
 import CardBack from './CardBack';
 import '../../styles/heritage-card.css';
+import { t } from '../../i18n';
 
 /**
  * Overlapping cards, like objects set down on an archive desk.
@@ -9,7 +10,7 @@ import '../../styles/heritage-card.css';
  *
  * Falls back to card backs if the dataset is empty, so the hero never breaks.
  */
-export default function CardStack({ sites, label = 'Selected heritage cards', max = 5 }) {
+export default function CardStack({ sites, label = t('Selected heritage cards'), max = 5 }) {
   const items = sites.slice(0, max);
 
   return (
@@ -22,7 +23,7 @@ export default function CardStack({ sites, label = 'Selected heritage cards', ma
           ))
         : ['geometric', 'arches', 'plain'].map((variant, index) => (
             <div className="hb-stack__slot" data-slot={index} key={variant}>
-              <CardBack variant={variant} label="Archive" />
+              <CardBack variant={variant} label={t('Archive')} />
             </div>
           ))}
     </div>

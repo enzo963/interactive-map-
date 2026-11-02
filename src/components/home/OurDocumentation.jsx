@@ -5,6 +5,7 @@ import { cardsLabel } from '../../utils/archiveStats';
 import { getDocumentationSummary } from '../../utils/documentation';
 import { selectFeaturedSites } from '../../utils/selectSites';
 import '../../styles/phase4.css';
+import { t } from '../../i18n';
 
 /**
  * Sites documented first-hand by the project. Entirely data-driven: when no site is marked as
@@ -19,27 +20,26 @@ export default function OurDocumentation({ sites }) {
     <section className="hb-docs" aria-labelledby="docs-title">
       <div className="hb-container">
         <header className="hb-section-head">
-          <h2 id="docs-title" className="hb-section-title">Our Documentation</h2>
-          <p className="hb-section-meta">{cardsLabel(documented.length)} documented by the project</p>
+          <h2 id="docs-title" className="hb-section-title">{t('Our Documentation')}</h2>
+          <p className="hb-section-meta">{t('{cards} documented by the project', { cards: cardsLabel(documented.length) })}</p>
         </header>
 
         <div className="hb-docs__grid">
           <div className="hb-docs__text">
             <p className="hb-docs__lede">
-              Some sites are documented directly by History in Cards. Their cards link to the methods and digital
-              assets recorded for them.
+              {t('Some sites are documented directly by History in Cards. Their cards link to the methods and digital assets recorded for them.')}
             </p>
             {types.length > 0 && (
               <dl className="hb-docs__types">
                 {types.map((type) => (
                   <div key={type.label}>
-                    <dt>{type.label}</dt>
+                    <dt>{t(type.label)}</dt>
                     <dd>{cardsLabel(type.count)}</dd>
                   </div>
                 ))}
               </dl>
             )}
-            <SmartLink className="hb-link" href="/decks/our-work">Open the Our Documentation deck</SmartLink>
+            <SmartLink className="hb-link" href="/decks/our-work">{t('Open the Our Documentation deck')}</SmartLink>
           </div>
 
           <ul className="hb-docs__cards">

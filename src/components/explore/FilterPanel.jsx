@@ -1,4 +1,5 @@
 import '../../styles/pages.css';
+import { t, tn } from '../../i18n';
 const toggle = (list, id) => (list.includes(id) ? list.filter((item) => item !== id) : [...list, id]);
 function Group({ legend, options = [], selected = [], onToggle }) {
   if (!options.length) return null;
@@ -33,14 +34,14 @@ function Status({ label, options = [], value, onChange }) {
     <label className="hb-filters__status">
       <span>{label}</span>
       <select value={value ?? ''} onChange={(e) => onChange(e.target.value)}>
-        <option value="">All statuses</option>
+        <option value="">{t('All statuses')}</option>
         {options.map((o) => (
           <option key={o.id} value={o.id}>
             {o.label} ({o.count})
           </option>
         ))}
       </select>
-      <small>“Not recorded” is different from “No”.</small>
+      <small>{t('“Not recorded” is different from “No”.')}</small>
     </label>
   );
 }
@@ -65,39 +66,39 @@ export default function FilterPanel({
   );
   return (
     <div className={`hb-filters hb-filters--${layout}`}>
-      {!hideGovernorate && group('governorates', 'Governorate')}
-      {group('themes', 'Heritage category')}
-      {group('kinds', 'Site type')}
-      {group('periods', 'Period or civilization')}
+      {!hideGovernorate && group('governorates', t('Governorate'))}
+      {group('themes', t('Heritage category'))}
+      {group('kinds', t('Site type'))}
+      {group('periods', t('Period or civilization'))}
       <fieldset className="hb-filters__group">
-        <legend className="hb-filters__legend">Status & digital access</legend>
+        <legend className="hb-filters__legend">{t('Status & digital access')}</legend>
         <Status
-          label="UNESCO inscription"
+          label={t('UNESCO inscription')}
           options={facets.unesco}
           value={filters.unesco}
           onChange={(unesco) => onChange({ unesco })}
         />
         <Status
-          label="3D availability"
+          label={t('3D availability')}
           options={facets.has3D}
           value={filters.has3D}
           onChange={(has3D) => onChange({ has3D })}
         />
       </fieldset>
       <details className="hb-filters__extra">
-        <summary>More collection filters</summary>
-        {group('types', 'Card type')}
-        {group('flags', 'Must have')}
+        <summary>{t('More collection filters')}</summary>
+        {group('types', t('Card type'))}
+        {group('flags', t('Must have'))}
       </details>
       <div className="hb-filters__actions">
         {activeCount > 0 && (
           <button type="button" className="hb-filters__clear" onClick={onClear}>
-            Clear all filters
+            {t('Clear all filters')}
           </button>
         )}
         {onDone && (
           <button type="button" className="hb-btn hb-btn--ink hb-filters__done" onClick={onDone}>
-            Show {resultCount} {resultCount === 1 ? 'site' : 'sites'}
+            {tn('Show {n} site', 'Show {n} sites', resultCount)}
           </button>
         )}
       </div>

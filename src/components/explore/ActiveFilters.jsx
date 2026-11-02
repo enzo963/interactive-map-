@@ -1,4 +1,5 @@
 import '../../styles/pages.css';
+import { t } from '../../i18n';
 
 /** Removable chips for every active filter. */
 export default function ActiveFilters({ filters, facets, onChange }) {
@@ -33,7 +34,7 @@ export default function ActiveFilters({ filters, facets, onChange }) {
       .filter((group) => filters[group])
       .map((group) => ({
         key: group,
-        text: `${group === 'unesco' ? 'UNESCO' : '3D'}: ${label(group, filters[group])}`,
+        text: `${group === 'unesco' ? t('UNESCO') : t('3D')}: ${label(group, filters[group])}`,
         remove: () => onChange({ [group]: '' }),
       })),
     ...filters.flags.map((id) => ({
@@ -45,14 +46,14 @@ export default function ActiveFilters({ filters, facets, onChange }) {
   if (chips.length === 0) return null;
 
   return (
-    <ul className="hb-chips" aria-label="Active filters">
+    <ul className="hb-chips" aria-label={t('Active filters')}>
       {chips.map((chip) => (
         <li key={chip.key}>
           <button
             type="button"
             className="hb-tag"
             onClick={chip.remove}
-            aria-label={`Remove filter: ${chip.text}`}
+            aria-label={t('Remove filter: {name}', { name: chip.text })}
           >
             {chip.text}
             <span aria-hidden="true">×</span>

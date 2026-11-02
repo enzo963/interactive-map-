@@ -7,6 +7,7 @@ import { cardsLabel } from '../../utils/archiveStats';
 import { deckThickness } from '../../utils/groupDecks';
 import { selectFeaturedSites } from '../../utils/selectSites';
 import '../../styles/home-sections.css';
+import { t } from '../../i18n';
 
 /**
  * UNESCO / Lost Heritage / Our Documentation / 3D Archive.
@@ -22,8 +23,8 @@ export default function SpecialDecks({ sites }) {
     <section className="hb-sdecks" aria-labelledby="sdecks-title">
       <div className="hb-container">
         <header className="hb-section-head">
-          <h2 id="sdecks-title" className="hb-section-title">Special Decks</h2>
-          <p className="hb-section-meta">Collections that cut across governorates</p>
+          <h2 id="sdecks-title" className="hb-section-title">{t('Special Decks')}</h2>
+          <p className="hb-section-meta">{t('Collections that cut across governorates')}</p>
         </header>
 
         <ul className="hb-sdecks__grid">
@@ -35,12 +36,12 @@ export default function SpecialDecks({ sites }) {
                     <HeritageCard site={site} headingLevel={null} interactive={false} />
                   </div>
                 ))}
-                <DeckPile variant={deck.back} label={deck.title} thickness={deckThickness(deck.count)} />
+                <DeckPile variant={deck.back} label={t(deck.title)} thickness={deckThickness(deck.count)} />
               </div>
               <h3 className="hb-sdeck__title">
-                <SmartLink className="hb-sdeck__link" href={deck.href}>{deck.title}</SmartLink>
+                <SmartLink className="hb-sdeck__link" href={deck.href}>{t(deck.title)}</SmartLink>
               </h3>
-              <p className="hb-sdeck__blurb">{deck.blurb}</p>
+              <p className="hb-sdeck__blurb">{t(deck.blurb)}</p>
               <p className="hb-sdeck__count">{cardsLabel(deck.count)}</p>
             </li>
           ))}
