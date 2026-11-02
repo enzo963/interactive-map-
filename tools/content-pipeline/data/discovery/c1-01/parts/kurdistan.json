@@ -1,0 +1,3695 @@
+[
+  {
+    "name": "Girdi Daghan",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 228",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Helawa",
+    "alternativeNames": [
+      "Helawa"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 272",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Gozka",
+    "alternativeNames": [
+      "Gozka"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 466",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Qalinj Agha",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Surezha",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Tell Nader",
+    "alternativeNames": [
+      "Nader"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 213; EPAS Site 5",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Khazna",
+    "alternativeNames": [
+      "Khazna"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 214; EPAS Site 45",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Baqrta",
+    "alternativeNames": [
+      "Tell Baqrta",
+      "Baqrta"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 218; EPAS Site 17",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Tell Quri Beg",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 218; EPAS Site 220",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Kurd Qaburstan",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 31",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Aliawa",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 246",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Abdulaziz",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 220; EPAS Site 282",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Qasr Shemamok",
+    "alternativeNames": [
+      "Qasr Shamamok",
+      "Kilizu"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 221; EPAS Site 2",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Qawagh",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 221; EPAS Site 180",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Tell Abu Shita",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 130",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Matraba",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 6",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Girdi Peshka",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 222; EPAS Site 404",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Zaga",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 224; EPAS Site 207",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Awena",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+        "title": "The Erbil Plain Archaeological Survey: Preliminary Results, 2012–2020 (IRAQ 83, 2021)",
+        "institution": "Harvard University-led EPAS / IRAQ",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 224; EPAS Site 325",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Peer-reviewed project report hosted in Kurdipedia; governorate established in abstract."
+  },
+  {
+    "name": "Tepe Kal",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 1; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Yasin Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 2; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Marif Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 3; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Bestansur",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 6; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Girda Resh Barika",
+    "alternativeNames": [
+      "Gird-i Resh"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 7; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Kazaw",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 8; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Greza",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 9; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Bakr Awa",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 10; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gurga Chiya",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 11; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Bin Gird-i Muan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 12; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gird-i Saraw",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 13; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gird-i Qalrakh",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 14; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gird-i Shatwan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 15; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Tell Hajji Abdallah",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 16; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Quruchiya",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 17; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gird-i Qara Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 18; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites. SSP 18 is a multi-mound complex; component record."
+  },
+  {
+    "name": "Gird-i Sharif",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 18; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites. SSP 18 is a multi-mound complex; component record."
+  },
+  {
+    "name": "Gird-i Qulkhurd",
+    "alternativeNames": [
+      "Tell Qulkhurd"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 19; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Lamar kazi",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 20; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Kara Gol",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 21; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Qalaja",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 22; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Sutik Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 23; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Gird-i Shakar",
+    "alternativeNames": [
+      "Shakar Tepe (possible)"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 24; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites. Shakar Tepe in Tsuneki et al. 2015 is a possible alias; not separately counted."
+  },
+  {
+    "name": "Qalbaza Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 25; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Alan Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 26; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Maluan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 27; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Tepe Kurra",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 29; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Tepe Sheshak Hagg Hussain",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 30; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites."
+  },
+  {
+    "name": "Duwanza Imam",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 18, previous excavations",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent; modern Halabja boundary requires review."
+  },
+  {
+    "name": "Tholima",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 18, previous excavations",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent; modern Halabja boundary requires review."
+  },
+  {
+    "name": "Tell Chragh",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 18, previous excavations",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent; modern Halabja boundary requires review."
+  },
+  {
+    "name": "Tell Arbat",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 18, previous excavations",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent; modern Halabja boundary requires review."
+  },
+  {
+    "name": "Qadar Kamala",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 2",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Kalespi",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 3",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Qadar Kunara",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 5",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Bingird",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 6",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Raziana",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 8",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Satubist",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 9",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Kani Goma",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 10",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Shekh Wisal 1",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 11",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Shekh Wisal 2",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 12",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Manswr Awa",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 13",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Zrgwez Kwer",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 14",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Barbakh",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 15",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Gulalan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 16",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Karima Swr",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 17",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Barika Tanjarow",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 18",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Kamalan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 19",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Yakhimali",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 20",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Qisirt Saru",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 21",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Saidwa-Shekhrash",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 22",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Yakmala",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 23",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Qaratoghan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Hazar Merd",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 28",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review. TJ 28 survey record; possible relationship to Hazar Merd cave complex must be checked."
+  },
+  {
+    "name": "Kharajian",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 29",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Yakhimali-Sarchawa",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 30",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Kozaraqa",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway / Tanjarow River, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; author Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 33, Table 2, TJ 31",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Published survey-site name; site form and current survival require review."
+  },
+  {
+    "name": "Kani Jine",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway, southwest of Sulaymaniyah",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Table 1 ABS point 2; Excavations section",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Severely damaged or destroyed by highway construction per report."
+  },
+  {
+    "name": "Kani Jine cemetery",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Baban Highway survey area",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
+        "institution": "Kokushikan University; Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Table 1 ABS point 1",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Cemetery separately listed from Kani Jine site; chronology requires review."
+  },
+  {
+    "name": "Tell Raza",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.2, site 7",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Caani Rash",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.2, site 8",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Quchika Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.2, site 9",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region. Possible alias overlap with SSP inventory should be checked; retained because published names differ."
+  },
+  {
+    "name": "Tell Hassil",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.2, site 10",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Tell Haji",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.2, site 11",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region. Possible alias overlap with SSP inventory should be checked; retained because published names differ."
+  },
+  {
+    "name": "Tell Bengel",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 4",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Qala Tepe",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 5",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Tell Shimshara",
+    "alternativeNames": [
+      "Shemshara",
+      "Tell Shemshara"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 6",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Ibrahim Kachal",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 16",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Boskin",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 17",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Ali Awa",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 18",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Qalat Said Ahmadan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "near Qaladizah, Ranya–Pshdar Plains",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_036.pdf",
+        "title": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
+        "institution": "Kokushikan University / University of Tsukuba / Slemani Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "pp. 3–6; Fig. 2.3, site 19",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Check aliases against other Shahrizor inventories before approval; Shakar Tepe may overlap Gird-i Shakar. Report concerns Slemani region."
+  },
+  {
+    "name": "Amadiya/Amedi Citadel",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "citadel",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Amadiya/Amedi Citadel",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Amadiya/Amedi Mosque and Minaret",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Amadiya/Amedi Mosque and Minaret",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Ancient Staircase",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Ancient Staircase",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Amadiya/Amedi Citadel"
+  },
+  {
+    "name": "Church of Sultan Madokht",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Aradin",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Church of Sultan Madokht",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Maltai Rock Reliefs",
+    "alternativeNames": [
+      "Halamata Cave",
+      "Maltai Reliefs"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Ma‘altaya",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Maltai Rock Reliefs",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Includes Halamata cave reliefs; avoid separate Halamata duplicate."
+  },
+  {
+    "name": "Mosul Gate",
+    "alternativeNames": [
+      "Bahdinan Gate"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Mosul Gate",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Amadiya/Amedi Citadel"
+  },
+  {
+    "name": "Parthian Reliefs at Amadiya",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Parthian Reliefs at Amadiya",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Amadiya/Amedi Citadel; catalogue entry titled Parthian Reliefs"
+  },
+  {
+    "name": "Qubahan Medrese",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Amadiya/Amedi",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Qubahan Medrese",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Zakho Bridge",
+    "alternativeNames": [
+      "Delal Bridge"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Zakho",
+    "category": "bridge",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Zakho Bridge",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Choli Minaret",
+    "alternativeNames": [
+      "Mudhafaria Minaret",
+      "Sheikh Chooli Minaret"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil/Hawler",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Choli Minaret",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Erbil Citadel",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil/Hawler",
+    "category": "citadel",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Erbil Citadel",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      },
+      {
+        "url": "https://whc.unesco.org/en/list/1437",
+        "title": "Erbil Citadel",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "world-heritage-register",
+        "accessLevel": "full-text",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "governorate",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Catalogue entry titled Erbil/Hawler."
+  },
+  {
+    "name": "Erbil/Hawler Hammam",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Citadel",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Erbil/Hawler Hammam",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Erbil Citadel"
+  },
+  {
+    "name": "House B13 (37 Topkhana)",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil Citadel",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: House B13 (37 Topkhana)",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Erbil Citadel"
+  },
+  {
+    "name": "Rashid Agha House",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil/Hawler",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Rashid Agha House",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Selim Qaqa House",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil/Hawler",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Selim Qaqa House",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Yaqub Aga House",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil/Hawler",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Yaqub Aga House",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Dailaija Relief",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Dailaija Relief",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Darband-i Balula Relief",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Balula",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Darband-i Balula Relief",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Darband-i Gawr Relief",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Darband-i Gawr Relief",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Darbandikhan Khan",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Sirwan, Darbandikhan",
+    "category": "caravanserai",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Darbandikhan Khan",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Kur u Kich Tomb",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Kur u Kich Tomb",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Merquli",
+    "alternativeNames": [
+      "Merquly"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Mount Piramagrun",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Merquli",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of integrated Rabana-Merquly complex."
+  },
+  {
+    "name": "Paikuli Monument",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Paikuli Monument",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Qyzqapan Tomb",
+    "alternativeNames": [
+      "Qizqapan"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Qyzqapan Tomb",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Rabbana",
+    "alternativeNames": [
+      "Rabana"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Mount Piramagrun, near Qarachatan",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "title": "Mapping Mesopotamian Monuments — Catalogue",
+        "institution": "Columbia University, Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Rabbana",
+        "supports": [
+          "name",
+          "governorate",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of integrated Rabana-Merquly complex."
+  },
+  {
+    "name": "Bassetki",
+    "alternativeNames": [
+      "Mardama",
+      "Mardaman"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Dohuk region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "title": "Bassetki project — excavations in the Bassetki cluster (Region Dohuk, Irak-Kurdistan)",
+        "institution": "University of Tübingen",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      },
+      {
+        "url": "https://www.ori.uni-heidelberg.de/assyriologie/forschung/bassetki.html",
+        "title": "Edition der Texte von Bassetki/Mardama",
+        "institution": "Heidelberg University",
+        "sourceType": "university-project",
+        "accessLevel": "search-snippet",
+        "locator": "Search result, introductory text",
+        "supports": [
+          "alternativeNames",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Ancient identification Mardama(n) supported by Heidelberg institutional publication."
+  },
+  {
+    "name": "Muqable I",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Dohuk region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "title": "Bassetki project — excavations in the Bassetki cluster (Region Dohuk, Irak-Kurdistan)",
+        "institution": "University of Tübingen",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Separate numbered mound in Bassetki settlement cluster."
+  },
+  {
+    "name": "Muqable III",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Dohuk region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "title": "Bassetki project — excavations in the Bassetki cluster (Region Dohuk, Irak-Kurdistan)",
+        "institution": "University of Tübingen",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Separate numbered mound in Bassetki settlement cluster."
+  },
+  {
+    "name": "Charsteen Cave",
+    "alternativeNames": [
+      "Chwar Astoon"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Gali Duhok, south of Duhok Dam",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/april/first-phase-of-charsteen-cave-restoration-in-duhok-completed/",
+        "title": "First Phase of Charsteen Cave Restoration in Duhok Completed",
+        "institution": "Kurdistan Regional Government",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Article body",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Avoid counting Chwar Astoon as separate until alias check."
+  },
+  {
+    "name": "Faida canal and rock reliefs",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Faida",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.duhokarchaeopark.com/faida_en/",
+        "title": "Faida",
+        "institution": "University of Udine / Duhok Directorate of Antiquities archaeological park",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site description and history of research",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Duhok Grand Mosque",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Duhok city",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://uod.ac/students/life-in-duhok/?lang=en",
+        "title": "Life in Duhok",
+        "institution": "University of Duhok",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Tourism and Heritage: Beyond the Classroom",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Ith-Alaha Church",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Dohuk-Nouhadra",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/__trashed-3/",
+        "title": "Mar Ith-Alaha Church in Dohuk-Nouhadra",
+        "institution": "MESOPOTAMIA heritage organization",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Location; Fragments of hagiography",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Current building repeatedly rebuilt; ancient site continuity is qualified by source."
+  },
+  {
+    "name": "Mar Bena Church",
+    "alternativeNames": [
+      "Mar Behnam Church"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Armota, Koy Sanjaq",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/l-eglise-mar-bena-de-koye-sanjaq/",
+        "title": "The Mar Bena church in Koy Sanjaq",
+        "institution": "MESOPOTAMIA heritage organization",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Location; History",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Destroyed in 1988, rebuilt in 1996; historic site."
+  },
+  {
+    "name": "Khanzad Castle",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil–Rwanduz road",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "title": "Annali di Ca' Foscari. Serie orientale 60 (2024), regional late-Islamic fortifications discussion",
+        "institution": "Ca’ Foscari University of Venice",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18 (Khanzad, Dere, Dwin, Qalat Lokhan, Sartka)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Governorate inferred from named locality/road; administrative boundary to confirm."
+  },
+  {
+    "name": "Dere Castle",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Erbil–Rwanduz road",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "title": "Annali di Ca' Foscari. Serie orientale 60 (2024), regional late-Islamic fortifications discussion",
+        "institution": "Ca’ Foscari University of Venice",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18 (Khanzad, Dere, Dwin, Qalat Lokhan, Sartka)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Governorate inferred from named locality/road; administrative boundary to confirm."
+  },
+  {
+    "name": "Dwin citadel",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Pirman mountains, Erbil–Rwanduz road",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "title": "Annali di Ca' Foscari. Serie orientale 60 (2024), regional late-Islamic fortifications discussion",
+        "institution": "Ca’ Foscari University of Venice",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18 (Khanzad, Dere, Dwin, Qalat Lokhan, Sartka)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Governorate inferred from named locality/road; administrative boundary to confirm."
+  },
+  {
+    "name": "Qalat Lokhan",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "north edge of Rwanduz",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "title": "Annali di Ca' Foscari. Serie orientale 60 (2024), regional late-Islamic fortifications discussion",
+        "institution": "Ca’ Foscari University of Venice",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18 (Khanzad, Dere, Dwin, Qalat Lokhan, Sartka)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Governorate inferred from named locality/road; administrative boundary to confirm."
+  },
+  {
+    "name": "Sartka Castle",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "near Dukan",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://edizionicafoscari.unive.it/media/pdf/journals/annali-di-ca-foscari-serie-orientale/2024/1/iss-60-2024_NqHzUNM.pdf",
+        "title": "Annali di Ca' Foscari. Serie orientale 60 (2024), regional late-Islamic fortifications discussion",
+        "institution": "Ca’ Foscari University of Venice",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Text at notes 16–18 (Khanzad, Dere, Dwin, Qalat Lokhan, Sartka)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Governorate inferred from named locality/road; administrative boundary to confirm."
+  },
+  {
+    "name": "Qalatga Darband",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Darband-i Rania pass, Lake Dokan",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://slemani-antiquities.com/detail?id=40",
+        "title": "Darband-i Rania Archaeological Project",
+        "institution": "Slemani Directorate of Antiquities and Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Qalatga Darband subsection",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Raparin administration; governorate retained as Sulaymaniyah pending boundary review."
+  },
+  {
+    "name": "Usu Aska",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Darband-i Rania pass, Lake Dokan",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://slemani-antiquities.com/detail?id=40",
+        "title": "Darband-i Rania Archaeological Project",
+        "institution": "Slemani Directorate of Antiquities and Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Usu Aska subsection",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Raparin administration; governorate retained as Sulaymaniyah pending boundary review."
+  },
+  {
+    "name": "Murad Rasu",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Darband-i Rania pass, Lake Dokan",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://slemani-antiquities.com/detail?id=40",
+        "title": "Darband-i Rania Archaeological Project",
+        "institution": "Slemani Directorate of Antiquities and Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Murad Rasu subsection",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Raparin administration; governorate retained as Sulaymaniyah pending boundary review."
+  },
+  {
+    "name": "Baban-period bathhouse in Slemani",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Slemani city",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/september/historic-bathhouse-from-baban-principality-rediscovered-in-slemani/",
+        "title": "Historic Bathhouse from Baban Principality Rediscovered in Slemani",
+        "institution": "Kurdistan Regional Government",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Title and article body",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Descriptive identification from official source; personal bathhouse name not supplied."
+  },
+  {
+    "name": "Shanidar Cave",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Rowanduz/Rawanduz area",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://www.arch.cam.ac.uk/research/projects/current-projects/shanidar-cave-project",
+        "title": "Shanidar Cave Project",
+        "institution": "University of Cambridge",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Project overview",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      },
+      {
+        "url": "https://www.heritageinstitute.com/zoroastrianism/cavedwellings/shanidar.htm",
+        "title": "Cave Dwelling of Shanidar",
+        "institution": "Heritage Institute",
+        "sourceType": "cultural-organization",
+        "accessLevel": "search-snippet",
+        "locator": "Location and discovery discussion",
+        "supports": [
+          "governorate",
+          "approximateLocation"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Erbil locality corroboration: Heritage Institute Shanidar page."
+  },
+  {
+    "name": "Gird-i Shamlu",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Sulaymaniyah province",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.dainst.org/forschung/projekte/agrarwelten-mesopotamiens/5621",
+        "title": "Agrarwelten Mesopotamiens",
+        "institution": "German Archaeological Institute",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Überblick",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Gird-i Rostam",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Penjween / Shalar valley",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.en.ag.geschichte.uni-muenchen.de/chairs/chair_radner/research_radner/girdirostam/index.html",
+        "title": "Gird-i Rostam Excavations",
+        "institution": "LMU Munich",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Project narrative; Fig. 2",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Gird-i Bazar",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Peshdar Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://epub.ub.uni-muenchen.de/71991/",
+        "title": "The Sasanian Cemetery of Gird-i Bazar in the Peshdar Plain (Iraqi Kurdistan)",
+        "institution": "LMU Munich",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Abstract",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Contains older Iron Age structures and Sasanian cemetery; no separate cemetery counted."
+  },
+  {
+    "name": "Qalat-i Dinka",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Peshdar Plain",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.en.ag.geschichte.uni-muenchen.de/research/peshdar-plain-project/index.html",
+        "title": "Peshdar Plain Project: Exploring a Neo-Assyrian Border March to Iran",
+        "institution": "LMU Munich",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Project overview mentioning Qalat-i Dinka and Gird-i Bazar",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Ashkawta Rash",
+    "alternativeNames": [
+      "Black Cave at Alla Quli"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Alla Quli village, Bardaqaraman",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://slemani-antiquities.com/detail?id=40",
+        "title": "Slemani Antiquities — Ashkawta Rash excavation notice",
+        "institution": "Slemani Directorate of Antiquities and Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Top news notice preceding Darband-i Rania article",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "The notice names the black cave and Liverpool / Directorate excavation team."
+  },
+  {
+    "name": "Zarzi Cave",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Chamirezan, near Qizqapan",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey",
+        "institution": "Kokushikan University / Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 31, opening historical background",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Jarmo",
+    "alternativeNames": [
+      "Charmo"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Chamchamal area",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey",
+        "institution": "Kokushikan University / Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 31, opening historical background",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Karim Shair",
+    "alternativeNames": [
+      "Karim Shahir"
+    ],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Chamchamal area",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/publication/pdf/0285_4406_046.pdf",
+        "title": "Karima Swr and the Baban Highway Archaeological Survey",
+        "institution": "Kokushikan University / Sulaimaniyah Directorate of Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 31, opening historical background",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Former Chaldean archdiocese in Amadiya",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "northwest Amadiya",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/lancien-eveche-chaldeen-damadia/",
+        "title": "The former Chaldean archdiocese in Amadiya",
+        "institution": "MESOPOTAMIA heritage organization",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Location; historical account",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "parentSite: Amadiya/Amedi Citadel; includes church."
+  },
+  {
+    "name": "Mar Gorgis Cathedral in Zakho",
+    "alternativeNames": [
+      "Mar Guorguis Cathedral"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Nasara district, Zakho",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-chaldeenne-mar-guorguis-de-zakho/",
+        "title": "The Mar Gorgis Cathedral in Zakho",
+        "institution": "MESOPOTAMIA heritage organization",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Opening description; Location",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Built 1911, subsequently enlarged."
+  },
+  {
+    "name": "Palegawra Cave",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Sulaymaniyah / NW Zagros",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239564",
+        "title": "The Zagros Epipalaeolithic revisited: New excavations and 14C dates from Palegawra cave in Iraqi Kurdistan",
+        "institution": "University of Liverpool / Sulaymaniyah Directorate of Antiquities; PLOS ONE",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Abstract; Introduction",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Barda Balka",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "Sulaymaniyah province",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239564",
+        "title": "The Zagros Epipalaeolithic revisited: New excavations and 14C dates from Palegawra cave in Iraqi Kurdistan",
+        "institution": "University of Liverpool / Sulaymaniyah Directorate of Antiquities; PLOS ONE",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Introduction, Iraq-Jarmo project sites",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Zawi Chemi Shanidar",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "near Shanidar Cave",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239564",
+        "title": "The Zagros Epipalaeolithic revisited: New excavations and 14C dates from Palegawra cave in Iraqi Kurdistan",
+        "institution": "University of Liverpool / Sulaymaniyah Directorate of Antiquities; PLOS ONE",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Introduction, Solecki excavations",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Turkaka",
+    "alternativeNames": [],
+    "governorate": "Sulaymaniyah",
+    "approximateLocation": "EFEC survey region",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239564",
+        "title": "The Zagros Epipalaeolithic revisited: New excavations and 14C dates from Palegawra cave in Iraqi Kurdistan",
+        "institution": "University of Liverpool / Sulaymaniyah Directorate of Antiquities; PLOS ONE",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Introduction, EFEC 2014–2017 survey",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Broader regional location supported; exact governorate boundary requires confirmation."
+  },
+  {
+    "name": "Rabban Beya Monastery",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Beya valley above Shaqlawa",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "title": "Doing Business in the Kurdistan Region",
+        "institution": "Kurdistan Board of Investment & French Consulate General, Erbil",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Source's English spellings retained; review transliteration."
+  },
+  {
+    "name": "Bestoon Cave",
+    "alternativeNames": [
+      "Bastoon"
+    ],
+    "governorate": "Erbil",
+    "approximateLocation": "Bradost mountain near Hawdiyan, southwest of Soran",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "title": "Doing Business in the Kurdistan Region",
+        "institution": "Kurdistan Board of Investment & French Consulate General, Erbil",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Source's English spellings retained; review transliteration."
+  },
+  {
+    "name": "Diyan Cave",
+    "alternativeNames": [],
+    "governorate": "Erbil",
+    "approximateLocation": "Bradost mountain near Hawdiyan, southwest of Soran",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://cdn.gov.krd/OtherEntities/Board%20of%20Investment/English/Publication/Downloads/5.%20Doing%20Business%20in%20Kurdistan.pdf",
+        "title": "Doing Business in the Kurdistan Region",
+        "institution": "Kurdistan Board of Investment & French Consulate General, Erbil",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 96, tourism in Erbil Governorate",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Source's English spellings retained; review transliteration."
+  }
+]

@@ -1,0 +1,4769 @@
+[
+  {
+    "name": "Al-Tahira Syriac Orthodox Church",
+    "alternativeNames": [
+      "Al-Tahira al-Kharijiya"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "English War Cemetery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Yahya ibn al-Qasim Shrine",
+    "alternativeNames": [
+      "Madrasa al-Badriya"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Awn al-Din Shrine",
+    "alternativeNames": [
+      "Ibn al-Hasan Shrine"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Khidr Mosque",
+    "alternativeNames": [
+      "Al-Jami al-Ahmar",
+      "Al-Jami al-Mujahidi"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Nabi Yunus Mosque",
+    "alternativeNames": [
+      "Prophet Jonah Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Nabi Jirjis Mosque",
+    "alternativeNames": [
+      "Prophet George Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Qadib al-Ban Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Hamu al-Qadu Mosque",
+    "alternativeNames": [
+      "Tomb of Ala al-Din"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Nabi Shith Mosque",
+    "alternativeNames": [
+      "Prophet Seth Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Shatt al-Jumi Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Ibn al-Athir Tomb",
+    "alternativeNames": [
+      "Qabr al-Bint"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Ibrahim Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Shaykh Fathi Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Shaykh Abu al-Ala Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Nabi Daniyal Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Rawdat al-Wadi Husayniya",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Muhammad al-Afghani Takiya",
+    "alternativeNames": [
+      "Shaykh al-Shatt"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Ali al-Asghar Shrine",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Sultan Uways Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Abd al-Rahman Shrine",
+    "alternativeNames": [
+      "Madrasa al-Izziya"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam al-Bahir Shrine",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Ali al-Hadi Shrine",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Muhsin Mosque",
+    "alternativeNames": [
+      "Madrasa al-Nuriya"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Isa Dadah Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Ajil al-Yawar Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Ridwani Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Sitt Nafisa Shrine",
+    "alternativeNames": [
+      "Hammam al-Saray Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Muhammad al-Abariqi Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Abbas Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Zayd ibn Ali Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Umm al-Tisa Cemetery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Abdal Mosque Madrasa",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Shaykh Mansur Tomb",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Abu al-Hawawin Tomb",
+    "alternativeNames": [
+      "Shaykh Amir Tomb"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Awlad al-Hasan Mosque",
+    "alternativeNames": [
+      "Banat al-Hasan",
+      "Bayt Shahidu Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Imam Muhammad Mosque",
+    "alternativeNames": [
+      "Al-Sabawi Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Rashid Lolan Tomb",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Hamid and Mahmud Shrine",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Hammam al-Umariya",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Shaykh Ibrahim Tomb",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Mahmud al-Khidri Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Saray Police Station",
+    "alternativeNames": [
+      "Madrasat al-Sanai"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Al-Kharrazi Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://monumentsofmosul.com/destroyedmonuments.htm",
+        "title": "Destroyed Monuments",
+        "institution": "Oriental Institute, Czech Academy of Sciences",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument entry in destroyed-monuments catalogue",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic name and catalogue code retained; destruction and present condition require separate review."
+  },
+  {
+    "name": "Old City of Mosul",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Nuri Mosque",
+    "alternativeNames": [
+      "Al-Nouri Mosque"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Justification",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Hadba Minaret",
+    "alternativeNames": [
+      "Al-Hadbaa"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Justification",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Bashtabia Castle",
+    "alternativeNames": [
+      "Bash Tapia"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Justification",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Bab al-Sir",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Justification",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Bashtabia Castle; survival and precise position need review."
+  },
+  {
+    "name": "Bab al-Qala",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Justification",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Bashtabia Castle; survival and precise position need review."
+  },
+  {
+    "name": "Qara Saray",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Basha Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Shaykh Abdal Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Juwayjati Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Umariyya Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Umar al-Aswad Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Umawi Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Dawsat Ali Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Umm al-Tisa Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Khuzam Mosque",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Old Mosul",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6355",
+        "title": "Old City of Mosul",
+        "institution": "SBAH / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Authenticity",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Bichara Syriac Catholic Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Our Lady of the Hour Dominican Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Mar Ichaya Chaldean Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Shamun al-Safa Chaldean Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Mar Gorgis Chaldean Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Mart Meskinta Chaldean Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Al-Tahira Syriac Catholic Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Al-Tahira Chaldean Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Mar Touma Syriac Catholic Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Mar Touma Syriac Orthodox Church",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/mossoul-en/",
+        "title": "Mosul Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Denomination retained to distinguish similarly named churches."
+  },
+  {
+    "name": "Resurrection Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Gorgis Church (Baqofa)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baqofa",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Gorgis Church (Tell Esqof)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Tell Esqof",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Qouryakos Church (Batnaya)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Batnaya",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Addai Church (Karemles)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Karemles",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Gorgis Church (Bartella)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bartella",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Yacoub al-Muqataa Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Shmoni Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Sarkis and Bakus Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Mariam Church (Bartella)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bartella",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Shmoni Church (Baashiqa)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baashiqa",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Mariam al-Adra Church (Baashiqa)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baashiqa",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Behnam and Mart Sarah Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Mikha Church (Alqosh)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Gorgis Church (Alqosh)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Shmouni Church (Bartella)",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bartella",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Gorgis Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "St Mary al-Tahira Church (Baghdede (Qaraqosh))",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Baghdede (Qaraqosh)",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mart Barbara Monastery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Karamles",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Mattai Monastery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mount Maqlub, near Mosul",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/le-couvent-de-mar-matta/",
+        "title": "Mar Mattai Monastery",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Rabban Hormizd Monastery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/le-monastere-de-rabban-hormizd/",
+        "title": "Rabban Hormizd Monastery",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Our Lady of the Seeds Monastery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/le-monastere-notre-dame-des-moissons/",
+        "title": "Our Lady of the Seeds Monastery",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mar Behnam and Sarah Monastery",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Khidhr Ilyas, al-Hamdaniya",
+    "category": "monastery",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/mar-behnam-sarahs-convent/",
+        "title": "Mar Behnam and Sarah Monastery",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Tomb of Prophet Nahum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-tombe-du-prophete-nahoum/",
+        "title": "Tomb of Prophet Nahum",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Sara Mausoleum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Alqosh",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-tombe-du-prophete-nahoum/",
+        "title": "Sara Mausoleum",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nahum synagogue and tomb complex."
+  },
+  {
+    "name": "Yazidi Mausoleums of Bozan",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bozan",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-bozan/",
+        "title": "Yazidi Mausoleums of Bozan",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Yazidi Mausoleums of Ain Sifni",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Ain Sifni",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-ain-sifni/",
+        "title": "Yazidi Mausoleums of Ain Sifni",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Administrative placement and precise site limits require manual governorate boundary review."
+  },
+  {
+    "name": "Yazidi Mausoleums of Mam Chevan",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mam Chevan",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-mam-chevan/",
+        "title": "Yazidi Mausoleums of Mam Chevan",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Location / monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Administrative placement and precise site limits require manual governorate boundary review."
+  },
+  {
+    "name": "Sheikh Bakeur al-Qatani Mausoleum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bahzani",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Melek Miran Mausoleum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Bashiqa",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Baba Noah Mausoleum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Hatra",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Sultan Ezid Mausoleum",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mahad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Yazidi Mausoleums of Sinjar",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Sinjar",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/plaine-de-ninive-en/",
+        "title": "Nineveh plain Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Kirkuk Citadel",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "citadel",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Midan Quarter",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Aghaliq Quarter",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Hammam Quarter",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Stone Gate",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Bab al-Toub",
+    "alternativeNames": [
+      "Toub Qabu"
+    ],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Seven Girls Gate",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Bab al-Halloujia",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Al-Qaysariyah Market",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Great Mosque of Kirkuk Citadel",
+    "alternativeNames": [
+      "Mosque of Virgin Mary"
+    ],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Al-Aryan Mosque",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Prophet Daniel Mosque",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Mother of Sorrows Church",
+    "alternativeNames": [
+      "Om al-Ahzane Cathedral"
+    ],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Green Dome",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk Citadel",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6522",
+        "title": "Kirkuk Citadel",
+        "institution": "Permanent Delegation of Iraq / UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Kirkuk Citadel; some gates are historically documented rather than extant."
+  },
+  {
+    "name": "Sacred Heart Cathedral",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/kirkuk/",
+        "title": "Kirkuk Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Mariam al-Adra Church",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/kirkuk/",
+        "title": "Kirkuk Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Tahmazgerd Church",
+    "alternativeNames": [
+      "Red Church"
+    ],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Kirkuk",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/region/kirkuk/",
+        "title": "Kirkuk Archives",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Named monument heading",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Ashur",
+    "alternativeNames": [
+      "Assur",
+      "Qalat Sherqat"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Ashur Temple",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Ashur Ziggurat",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Ishtar Temple at Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Anu and Adad Temple",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Old Palace of Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Royal Burial at Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Parthian Palace at Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Tabira Gate",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Ashur City Walls",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Assyrian New Year Festival Building",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Ottoman Barracks at Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "German Expedition House at Ashur",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Ashur (Qalat Sherqat)",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/1130",
+        "title": "Ashur (Qal'at Sherqat)",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Brief synthesis / Authenticity / Management",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ashur archaeological city."
+  },
+  {
+    "name": "Samarra Archaeological City",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Great Mosque of Samarra",
+    "alternativeNames": [
+      "Al-Malwiya Mosque"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Malwiya Minaret",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Abu Dulaf Mosque",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Qasr al-Khalifa",
+    "alternativeNames": [
+      "Caliphal Palace",
+      "Dar al-Khilafa"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Al-Jafari Palace",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Al-Mashuq Palace",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/list/276/",
+        "title": "Samarra Archaeological City",
+        "institution": "UNESCO World Heritage Centre",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Description / Outstanding Universal Value",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra Archaeological City."
+  },
+  {
+    "name": "Balkuwara Palace",
+    "alternativeNames": [
+      "Al-Manquur Palace"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/8815",
+        "title": "ICOMOS evaluation: Samarra Archaeological City",
+        "institution": "ICOMOS / UNESCO World Heritage Centre",
+        "sourceType": "institutional-report",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra complex. Full PDF exceeded web fetch size; indexed source excerpt supplies name/locality."
+  },
+  {
+    "name": "Al-Istablat",
+    "alternativeNames": [
+      "Al-Istabulat",
+      "Al-Arus Palace"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/8815",
+        "title": "ICOMOS evaluation: Samarra Archaeological City",
+        "institution": "ICOMOS / UNESCO World Heritage Centre",
+        "sourceType": "institutional-report",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra complex. Full PDF exceeded web fetch size; indexed source excerpt supplies name/locality."
+  },
+  {
+    "name": "Tell al-Alij",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/8815",
+        "title": "ICOMOS evaluation: Samarra Archaeological City",
+        "institution": "ICOMOS / UNESCO World Heritage Centre",
+        "sourceType": "institutional-report",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra complex. Full PDF exceeded web fetch size; indexed source excerpt supplies name/locality."
+  },
+  {
+    "name": "Qubbat al-Sulaybiyya",
+    "alternativeNames": [],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "Samarra",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/document/8815",
+        "title": "ICOMOS evaluation: Samarra Archaeological City",
+        "institution": "ICOMOS / UNESCO World Heritage Centre",
+        "sourceType": "institutional-report",
+        "accessLevel": "search-snippet",
+        "locator": "Samarra monument description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Samarra complex. Full PDF exceeded web fetch size; indexed source excerpt supplies name/locality."
+  },
+  {
+    "name": "Kar-Tukulti-Ninurta",
+    "alternativeNames": [
+      "Tulul al-Aqar"
+    ],
+    "governorate": "Salah al-Din",
+    "approximateLocation": "East bank of Tigris, about two miles northeast of Ashur",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Assyrian_Origins_Discoveries_at_Ashur_on_the_Tigris_Antiquities_in_the_Vorderasiatisches_Museum_Be.pdf",
+        "title": "Assyrian Origins: Discoveries at Ashur on the Tigris",
+        "institution": "Metropolitan Museum of Art",
+        "sourceType": "museum-publication",
+        "accessLevel": "search-snippet",
+        "locator": "p.110",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Near Ashur placement supports Salah al-Din assignment; administrative boundary should be checked during review."
+  },
+  {
+    "name": "Tell Afar",
+    "alternativeNames": [
+      "Afar",
+      "Nimit Ishtar?"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Between Mosul and Jebel Sinjar",
+    "category": "citadel",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "A2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Arpachiyah",
+    "alternativeNames": [
+      "Arpachiya"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Near Nineveh and Tigris",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "A4",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Balawat",
+    "alternativeNames": [
+      "Imgur Enlil"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Near Upper Zab",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "B5",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Tell Billa",
+    "alternativeNames": [
+      "Shibaniba",
+      "Billah"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 12 km southeast of Khorsabad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "B6",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "El Khan",
+    "alternativeNames": [
+      "Al-Khan"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "West bank of Khazir, south of Mlefaat",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "E1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Source uses historical regional label Mosul; verify current governorate near Khazir boundary."
+  },
+  {
+    "name": "Tepe Gawra",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "East of Tigris near Khorsabad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "G1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Tell Hassuna",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul region, near Upper Zab confluence",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "H2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Hatra",
+    "alternativeNames": [
+      "Al Hadr"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Wadi Tharthar region",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "H3",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Khorsabad",
+    "alternativeNames": [
+      "Dur Sharrukin"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 20 km north of Nineveh",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "K2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Mezra",
+    "alternativeNames": [
+      "Mezrah",
+      "Mizra",
+      "Mizrah",
+      "Qara Tepe"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "M2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Mlefaat",
+    "alternativeNames": [
+      "M'lefaat",
+      "M' Lefat"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "M3",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Source uses historical regional label Mosul; verify current governorate near Khazir boundary."
+  },
+  {
+    "name": "Nimrud",
+    "alternativeNames": [
+      "Kalhu"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "South of Nineveh",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "N1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Nineveh",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "N2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Tell Sotto",
+    "alternativeNames": [
+      "Satto"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Northern Mesopotamian plain, Mosul region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "S2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Sinjar Historic City",
+    "alternativeNames": [
+      "Singara",
+      "Balad Sinjar"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Sinjar",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "S4",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Lady Zainab Shrine",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Sinjar",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "S4",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Sultan Qutb al-Din Madrasa Minaret",
+    "alternativeNames": [
+      "Sultan Kutb ad-Din"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Sinjar",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "S4",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Telul eth-Thalathat",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 55 km west of Mosul",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "T2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Telul eth-Thalathat I",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 55 km west of Mosul",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "T2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Telul eth-Thalathat II",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 55 km west of Mosul",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "T2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Telul eth-Thalathat V",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "About 55 km west of Mosul",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "T2",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Umm Dabaghiyah",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul region",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "U1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Yarim Tepe",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Abra river, Sinjar region",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Y1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Database regional labels are historical and need current-boundary review."
+  },
+  {
+    "name": "Yarim Tepe I",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Abra river, Sinjar region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Y1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Yarim Tepe II",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Abra river, Sinjar region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Y1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Yarim Tepe III",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Abra river, Sinjar region",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+        "title": "UMUT Iraq Archaeological Photo Database",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "Y1",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named excavated component of larger mound group."
+  },
+  {
+    "name": "Nuzi",
+    "alternativeNames": [
+      "Yorghan Tepe",
+      "Yorgan Tepe",
+      "Gasur"
+    ],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Near Kirkuk",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordeach.php?-action=find&-recid=27",
+        "title": "UMUT Iraq Archaeological Photo Database: Nuzi",
+        "institution": "University Museum, University of Tokyo",
+        "sourceType": "institutional-inventory",
+        "accessLevel": "full-page",
+        "locator": "N3",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Nergal Gate",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh archaeological city."
+  },
+  {
+    "name": "Sin Gate",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh archaeological city."
+  },
+  {
+    "name": "Adad Gate",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh archaeological city."
+  },
+  {
+    "name": "Assur Gate",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh archaeological city."
+  },
+  {
+    "name": "Tell Kuyunjik",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh archaeological city."
+  },
+  {
+    "name": "Northwest Palace of Nimrud",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://archeologie.culture.gouv.fr/khorsabad/en/nimrud-ancient-kalhu",
+        "title": "Nimrud, ancient Kalhu",
+        "institution": "French Ministry of Culture",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Royal construction works / An Assyrian capital",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Burnt Palace of Nimrud",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://archeologie.culture.gouv.fr/khorsabad/en/nimrud-ancient-kalhu",
+        "title": "Nimrud, ancient Kalhu",
+        "institution": "French Ministry of Culture",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Royal construction works / An Assyrian capital",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Fort Shalmaneser",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://archeologie.culture.gouv.fr/khorsabad/en/nimrud-ancient-kalhu",
+        "title": "Nimrud, ancient Kalhu",
+        "institution": "French Ministry of Culture",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Royal construction works / An Assyrian capital",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Governor's Palace at Nimrud",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://oracc.museum.upenn.edu/atae/778-I",
+        "title": "Nimrud (Kalhu)",
+        "institution": "ORACC, University of Pennsylvania Museum",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "012 - Governor’s Palace",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud."
+  },
+  {
+    "name": "Ninurta Temple at Nimrud",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+        "title": "Kalhu, Tiglath-pileser's royal residence city",
+        "institution": "ORACC, University of Pennsylvania Museum",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "Kalhu discussion",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Nimrud Ziggurat",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+        "title": "Kalhu, Tiglath-pileser's royal residence city",
+        "institution": "ORACC, University of Pennsylvania Museum",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "Kalhu discussion",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Adad-nerari III Palace",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nimrud",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+        "title": "Kalhu, Tiglath-pileser's royal residence city",
+        "institution": "ORACC, University of Pennsylvania Museum",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "Kalhu discussion",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nimrud archaeological city."
+  },
+  {
+    "name": "Nuzi Palace",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Nuzi / Yorghan Tepe near Kirkuk",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "title": "Die Palastarchive von Nuzi",
+        "institution": "Ludwig Maximilian University Munich",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Project description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Excavated component of Nuzi."
+  },
+  {
+    "name": "Nuzi Temple",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Nuzi / Yorghan Tepe near Kirkuk",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "title": "Die Palastarchive von Nuzi",
+        "institution": "Ludwig Maximilian University Munich",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Project description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Excavated component of Nuzi."
+  },
+  {
+    "name": "Nuzi City Wall",
+    "alternativeNames": [],
+    "governorate": "Kirkuk",
+    "approximateLocation": "Nuzi / Yorghan Tepe near Kirkuk",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://www.assyriologie.uni-muenchen.de/forschung/nuzi_palastarchive/index.html",
+        "title": "Die Palastarchive von Nuzi",
+        "institution": "Ludwig Maximilian University Munich",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Project description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Excavated component of Nuzi."
+  }
+,
+  {
+    "name": "Tell Nebi Yunus",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ny_introduction_en.html",
+        "title": "Nebi Yunus Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Mound containing ancient palace remains; distinct from Nabi Yunus mosque."
+  },
+  {
+    "name": "Southwest Palace of Nineveh",
+    "alternativeNames": [
+      "Sennacherib's Palace"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/swp_introduction_en.html",
+        "title": "Southwest Palace Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Tell Kuyunjik."
+  },
+  {
+    "name": "North Palace of Nineveh",
+    "alternativeNames": [
+      "Ashurbanipal's Palace"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/np_introduction_en.html",
+        "title": "North Palace Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Tell Kuyunjik."
+  },
+  {
+    "name": "Ishtar Temple of Nineveh",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://ninive.uni-heidelberg.de/ng_introduction_en.html",
+        "title": "Nergal Gate Introduction",
+        "institution": "Heidelberg University",
+        "sourceType": "institutional-research",
+        "accessLevel": "full-page",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Tell Kuyunjik."
+  },
+  {
+    "name": "Mashki Gate",
+    "alternativeNames": [
+      "Mashqi Gate"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://web.sas.upenn.edu/ihsp-program/projects/restoration/mashki-gate/",
+        "title": "Mashki Gate",
+        "institution": "University of Pennsylvania, Iraq Heritage Stabilization Program",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh."
+  },
+  {
+    "name": "Shamash Gate",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "Nineveh, Mosul",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://www.cambridge.org/core/journals/iraq/article/shamash-gate-nineveh-a-window-into-two-episodes-of-instability/86EE3C622258E35EAF5B5F0FEC4C86C7",
+        "title": "The Shamash Gate, Nineveh: A Window into Two Episodes of Instability",
+        "institution": "IRAQ / Cambridge University Press",
+        "sourceType": "institutional-research",
+        "accessLevel": "search-snippet",
+        "locator": "Introduction / site description",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Nineveh."
+  },
+  {
+    "name": "Barood Khana",
+    "alternativeNames": [
+      "Baroud Khana"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Mosul",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://penntoday.upenn.edu/news/penn-team-expands-cultural-heritage-work-iraq-backed-new-funding",
+        "title": "Penn team expands cultural heritage work in Iraq, backed by new funding",
+        "institution": "University of Pennsylvania",
+        "sourceType": "university-project-news",
+        "accessLevel": "search-snippet",
+        "locator": "Baroud Khana section",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Former Ottoman military headquarters and armory."
+  }
+]

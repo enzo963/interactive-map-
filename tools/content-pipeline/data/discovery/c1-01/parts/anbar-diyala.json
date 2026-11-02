@@ -1,0 +1,2986 @@
+[
+  {
+    "name": "al-Hafayir",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 1",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul Umm Salim",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 2",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Rashid",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 3",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul al-Bakhtariyah",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 4",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Deshtaneh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 5",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "al-Daham",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 6",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abadah",
+    "alternativeNames": [
+      "Tell Abada"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 7",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "title": "Tell Abada: An Ubaid Village in Central Mesopotamia",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "excavation-report",
+        "accessLevel": "search-snippet",
+        "locator": "Introduction; Hamrin sites discussion",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Khazef",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 8",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kheit Imneithir",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 9",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kheit al-Imheidiyed",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 10",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "at-Turah",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 11",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Suleimah",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 12",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Aq Tepe",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 13",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Khibet al-Qasim",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 14",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul al-Khubari",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 15",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul Beni Weis",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 16",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Ayyash",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 17",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Hikmeh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 18",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "ash-Sha’ir",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 19",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Mahmud Agha",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 20",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Shor Tepe",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 21",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Nebi Ismail",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 22",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "al-Zawiyah",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 23",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "ar-Raha",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 24",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Imam Ali",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 25",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "al-Mahatteh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 26",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Gauri",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 27",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Irsheidch",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 28",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul Baradan",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 29",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul al-Humeidiyat",
+    "alternativeNames": [
+      "Telul-Hamediyat",
+      "Tellul Hamediyat"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 30",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Gubba",
+    "alternativeNames": [
+      "Tell Gubba",
+      "Tell Gubbah"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 31",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Imleihiyeh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 32",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Al-Imam al-Bairakdah",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 33",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Ababra",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 34",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Husaini",
+    "alternativeNames": [
+      "Tell Abu Husaini"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 35",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "title": "Hamrin",
+        "institution": "Centro Ricerche Archeologiche e Scavi di Torino (CRAST)",
+        "sourceType": "archaeological-project",
+        "accessLevel": "full-text",
+        "locator": "Main article",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Telkhi",
+    "alternativeNames": [
+      "Tell Yelkhi",
+      "Tell Yalkhi"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 36",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "title": "Hamrin",
+        "institution": "Centro Ricerche Archeologiche e Scavi di Torino (CRAST)",
+        "sourceType": "archaeological-project",
+        "accessLevel": "full-text",
+        "locator": "Main article",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Harmaleh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 37",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kheit Genj",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 38",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Shufeh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 39",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Jeizalun",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 40",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tunneireh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 41",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Sungur",
+    "alternativeNames": [
+      "Tell Songor"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 42",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified. The overview map treats Sungur as one locality; the excavator separately names Songor A, B and C. Retain parent versus component distinction."
+  },
+  {
+    "name": "Hablayeh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 43",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kumeideh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 44",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified. Map label transcription is uncertain: indexed map says Kumeideh (44), while prose elsewhere calls Rubeidheh No. 44. Do not merge with ar-Rubeideh (69) without checking the original map."
+  },
+  {
+    "name": "Khuzeifi",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 45",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Seidalan",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 46",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tejli",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 47",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Tahin",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 48",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Bustan",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 49",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Keshkul",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 50",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Greish",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 51",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Halawa",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 52",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Razuk",
+    "alternativeNames": [
+      "Tell Razuk",
+      "Tell Razzuq"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 53",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "title": "Uch Tepe I: Tell Razuk, Tell Ahmed Al-Mughir, Tell Ajamat",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "excavation-report",
+        "accessLevel": "full-text",
+        "locator": "Title and description",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tepe Atiqeh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 54",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Ahmed al-Mughir",
+    "alternativeNames": [
+      "Tell Ahmed al-Mughir"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 55",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "title": "Uch Tepe I: Tell Razuk, Tell Ahmed Al-Mughir, Tell Ajamat",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "excavation-report",
+        "accessLevel": "full-text",
+        "locator": "Title and description",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kheizif",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 56",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Ahmed al-Hattu",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 57",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "al-Baqa",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 58",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tulul al-Yarmet",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 59",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Ali Pasha",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 60",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "as-Saray",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 61",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Gubab",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 62",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "ash-Shoureh",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 63",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Madhhur",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 64",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Kheit Qasim",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 65",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Sabra",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 66",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tell Hasan",
+    "alternativeNames": [
+      "Tell Hassan"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 67",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "title": "Hamrin",
+        "institution": "Centro Ricerche Archeologiche e Scavi di Torino (CRAST)",
+        "sourceType": "archaeological-project",
+        "accessLevel": "full-text",
+        "locator": "Main article",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "as-Sara",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 68",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "ar-Rubeideh",
+    "alternativeNames": [
+      "Tell Rubeidheh",
+      "Tell ar-Rubeidheh"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 69",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "title": "Tell Abada: An Ubaid Village in Central Mesopotamia",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "excavation-report",
+        "accessLevel": "search-snippet",
+        "locator": "Section TELL AR-RUBEIDHEH",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Abu Samad",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "title": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "institution": "Adumatu / Abdulrahman Al-Sudairy Cultural Centre",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 70",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Gazetteer map candidate. Modern governorate attribution inferred from the Hamrin basin locality, not explicitly stated by the map; verify exact position and provincial boundary before promotion. Historical reservoir inventory; current visibility is unverified."
+  },
+  {
+    "name": "Tell Asmar",
+    "alternativeNames": [
+      "Eshnunna"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Lower Diyala basin, northeast of Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "title": "Diyala Project",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Overview",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern governorate boundary requires checking, particularly for the lower Diyala sites close to Baghdad; regional name alone is not administrative proof."
+  },
+  {
+    "name": "Tell Agrab",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Lower Diyala basin, northeast of Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "title": "Diyala Project",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Overview",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern governorate boundary requires checking, particularly for the lower Diyala sites close to Baghdad; regional name alone is not administrative proof."
+  },
+  {
+    "name": "Khafajah",
+    "alternativeNames": [
+      "Khafaje",
+      "Tutub"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Lower Diyala basin, northeast of Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "title": "Diyala Project",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Overview",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern governorate boundary requires checking, particularly for the lower Diyala sites close to Baghdad; regional name alone is not administrative proof."
+  },
+  {
+    "name": "Ishchali",
+    "alternativeNames": [
+      "Neribtum"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Lower Diyala basin, northeast of Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "title": "Diyala Project",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Overview",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern governorate boundary requires checking, particularly for the lower Diyala sites close to Baghdad; regional name alone is not administrative proof."
+  },
+  {
+    "name": "Tell Kesaran",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "title": "Hamrin",
+        "institution": "Centro Ricerche Archeologiche e Scavi di Torino (CRAST)",
+        "sourceType": "archaeological-project",
+        "accessLevel": "full-text",
+        "locator": "Main article",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern provincial attribution inferred from basin locality; exact boundary position needs review."
+  },
+  {
+    "name": "Tell Ajamat",
+    "alternativeNames": [
+      "Tell Ajama"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Uch Tepe, Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "title": "Uch Tepe I: Tell Razuk, Tell Ahmed Al-Mughir, Tell Ajamat",
+        "institution": "University of Chicago, ISAC",
+        "sourceType": "excavation-report",
+        "accessLevel": "full-text",
+        "locator": "Title and description",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern provincial boundary should be checked."
+  },
+  {
+    "name": "Tell Songor A",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Separate named component of the Songor/Sungur locality; avoid double-counting the parent in a final gazetteer. Modern boundary review required."
+  },
+  {
+    "name": "Tell Songor B",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Separate named component of the Songor/Sungur locality; avoid double-counting the parent in a final gazetteer. Modern boundary review required."
+  },
+  {
+    "name": "Tell Songor C",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "title": "Himrin Dam Region, Iraq",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Separate named component of the Songor/Sungur locality; avoid double-counting the parent in a final gazetteer. Modern boundary review required."
+  },
+  {
+    "name": "Kheit Qasim I",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Northern Hamrin Basin",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "title": "Kheit Qasim I. Un cimetière du début du troisième millénaire dans la vallée de Hamrin, Iraq",
+        "institution": "Paléorient / CNRS (Persée)",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Jean-Daniel Forest (1980), introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named component of the Kheit Qasim complex. Modern provincial boundary review required; do not count parent and components as independent settlements."
+  },
+  {
+    "name": "Kheit Qasim II",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Northern Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "title": "Kheit Qasim I. Un cimetière du début du troisième millénaire dans la vallée de Hamrin, Iraq",
+        "institution": "Paléorient / CNRS (Persée)",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Jean-Daniel Forest (1980), introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named component of the Kheit Qasim complex. Modern provincial boundary review required; do not count parent and components as independent settlements."
+  },
+  {
+    "name": "Kheit Qasim III",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Northern Hamrin Basin",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "title": "Kheit Qasim I. Un cimetière du début du troisième millénaire dans la vallée de Hamrin, Iraq",
+        "institution": "Paléorient / CNRS (Persée)",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Jean-Daniel Forest (1980), introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Named component of the Kheit Qasim complex. Modern provincial boundary review required; do not count parent and components as independent settlements."
+  },
+  {
+    "name": "Tell Abu Qasim",
+    "alternativeNames": [
+      "Tell Abu-Qasim",
+      "Tell Abu Qassem"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Hamrin Basin, beside Kheit Qasim",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "title": "Kheit Qasim I. Un cimetière du début du troisième millénaire dans la vallée de Hamrin, Iraq",
+        "institution": "Paléorient / CNRS (Persée)",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Jean-Daniel Forest (1980), introduction",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      },
+      {
+        "url": "https://athar.uomosul.edu.iq/index.php/athar/en/article/view/63503",
+        "title": "The Pottery Forms of Tell Abu-Qasim within the Context of Hamrin Region, Iraq",
+        "institution": "University of Mosul / Athar Alrafedain",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Abstract",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Likely corresponds to Khibet al-Qasim (map 1 no. 14), but source spellings differ; resolve identity before deduplication."
+  },
+  {
+    "name": "Shihma Cemetery",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.1, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Shaikh Tay'ie",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.2, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Glai'a",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.3, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Telbis Burial Ground",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Telbis, western bank",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.4, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of the larger Telbis archaeological landscape."
+  },
+  {
+    "name": "Mash'had Mosque",
+    "alternativeNames": [
+      "Abu Reesha Mosque"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.5, pp. 85–87",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Al-Diniya Ruin",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "A.6, p. 87",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Imam Habib al-Najjar",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Haditha",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.1, p. 87",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Jur'a Wall",
+    "alternativeNames": [
+      "Sur Jur'a",
+      "Sur Jur'eh"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.2, pp. 87–88",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Tel Gubbain",
+    "alternativeNames": [
+      "Lumaira"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "New Ma'atheed",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.3, p. 88",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Buttain al-Jannadiya",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.4, p. 88",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Jafrin",
+    "alternativeNames": [
+      "Gafrin"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.5(a), pp. 88–89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Majul caverns",
+    "alternativeNames": [
+      "Gufrin caverns"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Jafrin",
+    "category": "cave-rock-shelter",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.5(b), p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of Jafrin complex."
+  },
+  {
+    "name": "Telbis eastern cemetery and mounds",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Telbis, eastern bank",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.6, p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of the larger Telbis archaeological landscape."
+  },
+  {
+    "name": "Al-Khaliliya settlement",
+    "alternativeNames": [
+      "Al-Khabuliya ruins"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.7(i), p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Al-Khaliliya Mosque",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Al-Khaliliya",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.7(ii), p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of Al-Khaliliya settlement."
+  },
+  {
+    "name": "Al-Khaliliya Minaret",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Al-Khaliliya",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.7(ii), p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of Al-Khaliliya settlement."
+  },
+  {
+    "name": "Tel al-Darrajiya",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Ana",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.8, p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Al-Owaina canals",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "B.9, p. 89",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Telbis island",
+    "alternativeNames": [
+      "Tilmish",
+      "Tilbish"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Euphrates near Ana",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 1, pp. 89–90",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Component of the larger Telbis archaeological landscape."
+  },
+  {
+    "name": "Al-Qal'a island",
+    "alternativeNames": [
+      "Lubbad"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Ana",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 2, p. 90",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review. Ancient Ana island component; distinct from relocated minaret."
+  },
+  {
+    "name": "Rijan island",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Opposite Tel Gubbain",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 3, p. 90",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Al-Zawiya archaeological site",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Near Sur Jura",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "p. 91",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Old Ana",
+    "alternativeNames": [
+      "Ana",
+      "Anah"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Euphrates",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Introduction, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Rawa Ottoman Castle",
+    "alternativeNames": [],
+    "governorate": "Anbar",
+    "approximateLocation": "Rawa",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Introduction, p. 85",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical Haditha reservoir survey; present condition, inundation and exact modern locality require review."
+  },
+  {
+    "name": "Minaret of Anah",
+    "alternativeNames": [
+      "Al-Qal'a minaret",
+      "مئذنة عنة"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Anah",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
+        "title": "The minaret of Anah is coming back to life again",
+        "institution": "University of Anbar, Upper Euphrates Basin Developing Centre",
+        "sourceType": "university-news",
+        "accessLevel": "search-snippet",
+        "locator": "Opening ceremony report, 30 May 2023",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      },
+      {
+        "url": "https://www.icomos.org/public/monumentum/vol17/vol17_5.pdf",
+        "title": "The Ancient Sites in the Basin of the Haditha Dam on the Euphrates",
+        "institution": "ICOMOS / Monumentum",
+        "sourceType": "academic-publication",
+        "accessLevel": "full-text",
+        "locator": "Ancient Islands 2, p. 90",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Originally Al-Qal'a/Lubbad island in ancient Ana; relocated before reservoir inundation and rebuilt following destruction. Do not conflate original archaeological setting and current monument."
+  },
+  {
+    "name": "Prophet Danial Shrine",
+    "alternativeNames": [
+      "مرقد النبي دانيال"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Tel Abu Uthaina",
+    "alternativeNames": [
+      "Tel Abu Uthayna",
+      "تل أبو أذينة"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Tel Shihab",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Zindan",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Abbasid Dam on the Al-Uthaim",
+    "alternativeNames": [],
+    "governorate": "Diyala",
+    "approximateLocation": "Al-Uthaim River",
+    "category": "other",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Ancient Saray of Ba'quba",
+    "alternativeNames": [
+      "سراي بعقوبة القديم"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Baqubah",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "title": "Investment Map – Province of Diyala",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "Province of Diyala / Historical Background",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+  },
+  {
+    "name": "Khanaqin historic bridge",
+    "alternativeNames": [
+      "Alwand Bridge",
+      "جسر خانقين"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Khanaqin, Alwand River",
+    "category": "bridge",
+    "sources": [
+      {
+        "url": "https://basicedu.uodiyala.edu.iq/uploads/basic%20basic/%D8%B3%D8%B9%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D9%84%D9%8A.pdf",
+        "title": "Diyala in the Late Ottoman Period",
+        "institution": "University of Diyala",
+        "sourceType": "academic-thesis",
+        "accessLevel": "search-snippet",
+        "locator": "Chapter 1, p. 30",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "English name transliterated from Arabic source. Modern boundary and site identity require review."
+  },
+  {
+    "name": "Hawsh Kri",
+    "alternativeNames": [
+      "حوش كري"
+    ],
+    "governorate": "Diyala",
+    "approximateLocation": "Qara Tu subdistrict, Khanaqin district",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://basicedu.uodiyala.edu.iq/uploads/basic%20basic/%D8%B3%D8%B9%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D9%84%D9%8A.pdf",
+        "title": "Diyala in the Late Ottoman Period",
+        "institution": "University of Diyala",
+        "sourceType": "academic-thesis",
+        "accessLevel": "search-snippet",
+        "locator": "Chapter 1, p. 30",
+        "supports": [
+          "name",
+          "locality"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "English name transliterated from Arabic source. Modern boundary and site identity require review."
+  },
+  {
+    "name": "Hit Citadel",
+    "alternativeNames": [
+      "قلعة هيت",
+      "Heet Citadel"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Hit",
+    "category": "citadel",
+    "sources": [
+      {
+        "url": "https://iasj.mohesr.gov.iq/journals/journal/issue/21000",
+        "title": "Journal of University of Anbar for Humanities: Special symposium issue on Anbar architectural heritage",
+        "institution": "University of Anbar / Iraqi Academic Scientific Journals",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "قلعة هيت نموذج يعكس روعة العمارة العسكرية, pp. 242–251",
+        "supports": [
+          "name",
+          "category"
+        ]
+      },
+      {
+        "url": "https://www.investpromo.gov.iq/wp-content/uploads/2018/06/anbar-Tourism-Sector-1.pdf",
+        "title": "Anbar Tourism Sector",
+        "institution": "Iraq National Investment Commission",
+        "sourceType": "government-inventory",
+        "accessLevel": "search-snippet",
+        "locator": "قلعة هيت الاثرية قضاء هيت",
+        "supports": [
+          "name",
+          "locality",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Citadel/old mound identity and extent should be checked before geocoding."
+  },
+  {
+    "name": "'Usiyeh",
+    "alternativeNames": [
+      "Usiyeh",
+      "‘Usiyeh"
+    ],
+    "governorate": "Anbar",
+    "approximateLocation": "Haditha reservoir basin",
+    "category": "archaeological-site",
+    "sources": [
+      {
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/haditha/oushia.html",
+        "title": "‘Usiyeh",
+        "institution": "Kokushikan University, Institute for Cultural Studies of Ancient Iraq",
+        "sourceType": "university-project",
+        "accessLevel": "full-text",
+        "locator": "Main excavation report",
+        "supports": [
+          "name",
+          "locality",
+          "category"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Excavated funerary areas A and B; current inundation and condition require review."
+  }
+]
