@@ -488,7 +488,92 @@ RECORDS = [
 ]
 
 
+# ── Corroboration pass (2026-11-03) ──────────────────────────────────────────────────────
+# Institutional sources found for cards whose strongest evidence was Wikipedia. Each was
+# identified from the search result title and excerpt only: the sites refused automated
+# access (Archnet 429, Encyclopaedia Iranica 403, Diarna unreachable, CWGC 403), so every
+# entry is `search-snippet`. Where an excerpt disagrees with the card, the description is
+# left as it was and the difference is recorded for review.
+CORROBORATED = '2026-11-03'
+ARCHNET = 'Archnet (MIT / Aga Khan Trust for Culture)'
+
+
+def snippet(name, url):
+    return src(name, url, CORROBORATED, 'search-snippet')
+
+
+def archnet(site_id, title):
+    return snippet(f'{ARCHNET} — {title}', f'https://www.archnet.org/sites/{site_id}')
+
+
+CORROBORATION = {
+    'mirjan-mosque': ([archnet(3844, 'Madrasa al-Mirjaniyya')],
+                      'Archnet says Mirjan was buried here in 1372 and describes the building as now destroyed; check '
+                      'whether that refers to the demolished madrasa or the surviving mosque.'),
+    'kadhimiya-shrine': ([archnet(3848, 'Mashhad al-Kazimiyya')], ''),
+    'hadhrat-al-qadiriyya': ([archnet(3849, "Jami' 'Abd al-Qadir al-Jaylani")], ''),
+    'zumurrud-khatun-mausoleum': ([archnet(1696, 'Turba Zumurrud Khatun'), archnet(4358, "Jami' Zumurrud Khatun")], ''),
+    'suhrawardi-mausoleum': ([archnet(4329, 'Darih al-Suhrawardi')], ''),
+    'al-muradiyya-mosque': ([archnet(3850, "Jami' Murad Basha")],
+                            'Archnet dates the mosque to 1578 from its inscription; the card gives 1566 as the start.'),
+    'khan-mirjan': ([archnet(15578, 'Khan Marjan'),
+                     snippet('Aga Khan Award for Architecture (Archnet) — Mirjan Khan Restoration Project Summary',
+                             'https://www.archnet.org/publications/373')],
+                    'Archnet dates the khan to 1358 and lists a restoration in 1976; the card says restored in the 1980s.'),
+    'bab-al-wastani': ([archnet(4326, 'Bab al-Wastani')],
+                       'Archnet dates the gate to 1221 (618 AH), under al-Nasir; the card attributes it to al-Mustazhir (c. 1100). '
+                       'Possibly the wall and a later rebuilding of the gate; check.'),
+    'talisman-gate': ([archnet(3832, 'Bab al-Talsim')], 'Archnet gives 1221 for the inscription; the card says 1220.'),
+    'al-khulafa-mosque': ([archnet(27, "Jami' al-Khulafa"), archnet(3842, 'Suq al-Ghazl Minaret')], ''),
+    'haydar-khana-mosque': ([archnet(3854, "Jami' Haydar Khanah")], ''),
+    'al-ahmadiyya-mosque': ([archnet(3852, "Jami' al-Ahmadiyya")],
+                            'Archnet says Ahmad Pasha, the Ottoman governor, began it in 1780 and his brother Abdallah Bey finished it '
+                            'in 1796; the card names Ahmad al-Katkhuda as builder in 1796.'),
+    'baghdad-gymnasium': ([archnet(345, 'Baghdad Gymnasium')], ''),
+    'university-of-baghdad-campus': ([archnet(15908, "Jami'a Baghdad")], ''),
+    'unknown-soldier-monument': ([archnet(693, 'Unknown Soldier Monument')], ''),
+    'al-shaheed-monument': ([archnet(433, 'Al-Shaheed Monument and Museum')], ''),
+    'ctesiphon': ([snippet('Encyclopaedia Iranica — Ctesiphon', 'https://www.iranicaonline.org/articles/ctesiphon/'),
+                   snippet('Encyclopaedia Iranica — Madāʾen (Sasanian metropolitan area)',
+                           'https://www.iranicaonline.org/articles/madaen-sasanian-metropolitan-area/')], ''),
+    'seleucia-on-tigris': ([snippet('Encyclopaedia Iranica — Ctesiphon', 'https://www.iranicaonline.org/articles/ctesiphon/')], ''),
+    'round-city': ([snippet('Encyclopaedia Iranica — Baghdad i. The Iranian connection before the Mongol invasion',
+                            'https://www.iranicaonline.org/articles/baghdad/baghdad-iranian-connection-i-pr-mongol/')], ''),
+    'dur-kurigalzu': ([snippet('UNESCO World Heritage Centre — Archaeological site of Aqar Quf (ancient Dur-Kurigalzu), Tentative List',
+                               'https://whc.unesco.org/en/tentativelists/6797/')], ''),
+    'sippar-amnanum': ([snippet('German Archaeological Institute library (Zenon) — Van Lerberghe and Voet, Sippar-Amnānum: the Ur-Utu archive (Ghent, 1991)',
+                                'https://zenon.dainst.org/Record/000145595')], ''),
+    'north-gate-war-cemetery': ([snippet('Commonwealth War Graves Commission — Baghdad (North Gate) War Cemetery',
+                                         'https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/57303/baghdad-north-gate-war-cemetery/')],
+                                'The CWGC lists 4,487 identified casualties; the card says 4,480 burials.'),
+    'meir-taweig-synagogue': ([snippet('Diarna (Digital Heritage Mapping) — Meir Tweg Synagogue at Baghdad',
+                                       'http://archive.diarna.org/site/detail/public/155/')], ''),
+    'shamash-school': ([snippet('Diarna (Digital Heritage Mapping) — Shamash Jewish School at Baghdad',
+                                'http://archive.diarna.org/site/detail/public/293/')], ''),
+}
+
+# Status recorded by an official source in this pass.
+TENTATIVE = {'dur-kurigalzu': 'On the UNESCO World Heritage Tentative List (added 31 January 2025)'}
+
+
+def corroborate(records):
+    by_slug = {record['slug']: record for record in records}
+    missing = sorted(set(CORROBORATION) - set(by_slug))
+    if missing:
+        sys.exit(f'corroboration names unknown records: {missing}')
+    for slug, (sources, note) in CORROBORATION.items():
+        record = by_slug[slug]
+        record['sources'] = record['sources'] + sources
+        if note:
+            record['review_notes'] = f"{record['review_notes']} {note}" if record.get('review_notes') else note
+    for slug, status in TENTATIVE.items():
+        by_slug[slug]['unesco'] = False
+        by_slug[slug]['heritage_status'] = status
+    return records
+
+
 def main():
+    corroborate(RECORDS)
     ids = [r['id'] for r in RECORDS]
     if len(ids) != len(set(ids)):
         sys.exit('duplicate ids in batch')

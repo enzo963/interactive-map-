@@ -18577,6 +18577,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Baghdad i. The Iranian connection before the Mongol invasion",
+        "url": "https://www.iranicaonline.org/articles/baghdad/baghdad-iranian-connection-i-pr-mongol/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -18762,6 +18769,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Ctesiphon",
+        "url": "https://www.iranicaonline.org/articles/ctesiphon/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Madāʾen (Sasanian metropolitan area)",
+        "url": "https://www.iranicaonline.org/articles/madaen-sasanian-metropolitan-area/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -18853,6 +18874,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Ctesiphon",
+        "url": "https://www.iranicaonline.org/articles/ctesiphon/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -18916,7 +18944,7 @@
     "category": "Archaeological City",
     "period": "Kassite",
     "description": "A Kassite royal city founded by Kurigalzu I (d. c. 1375 BC) 30 km west of central Baghdad, whose ziggurat core still stands at Aqar Quf.",
-    "unesco": null,
+    "unesco": false,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
@@ -18935,6 +18963,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Archaeological site of Aqar Quf (ancient Dur-Kurigalzu), Tentative List",
+        "url": "https://whc.unesco.org/en/tentativelists/6797/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -18952,7 +18987,8 @@
     "latitude": 33.35372,
     "longitude": 44.20229,
     "coordinates_source": "wikidata:Q622719",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "heritage_status": "On the UNESCO World Heritage Tentative List (added 31 January 2025)"
   },
   {
     "id": "site-baghdad-sippar",
@@ -19024,6 +19060,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "German Archaeological Institute library (Zenon) — Van Lerberghe and Voet, Sippar-Amnānum: the Ur-Utu archive (Ghent, 1991)",
+        "url": "https://zenon.dainst.org/Record/000145595",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19204,6 +19247,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Bab al-Wastani",
+        "url": "https://www.archnet.org/sites/4326",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19222,7 +19272,7 @@
     "longitude": 44.404131,
     "coordinates_source": "wikidata:Q138647434",
     "coordinates_precision": "site",
-    "review_notes": "Pin from an unlabelled Wikidata city-gate item next to the Suhrawardi mausoleum; confirm identity."
+    "review_notes": "Pin from an unlabelled Wikidata city-gate item next to the Suhrawardi mausoleum; confirm identity. Archnet dates the gate to 1221 (618 AH), under al-Nasir; the card attributes it to al-Mustazhir (c. 1100). Possibly the wall and a later rebuilding of the gate; check."
   },
   {
     "id": "site-baghdad-talisman-gate",
@@ -19243,6 +19293,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Bab al-Talsim",
+        "url": "https://www.archnet.org/sites/3832",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19258,7 +19315,8 @@
     ],
     "approximateLocation": "Eastern wall, Rusafa",
     "estimated_year": 1220,
-    "destruction_status": "Destroyed (1917)"
+    "destruction_status": "Destroyed (1917)",
+    "review_notes": "Archnet gives 1221 for the inscription; the card says 1220."
   },
   {
     "id": "site-baghdad-bab-al-muadham",
@@ -19371,6 +19429,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Mashhad al-Kazimiyya",
+        "url": "https://www.archnet.org/sites/3848",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19414,6 +19479,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' 'Abd al-Qadir al-Jaylani",
+        "url": "https://www.archnet.org/sites/3849",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19458,6 +19530,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' al-Khulafa",
+        "url": "https://www.archnet.org/sites/27",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Suq al-Ghazl Minaret",
+        "url": "https://www.archnet.org/sites/3842",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19545,6 +19631,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Turba Zumurrud Khatun",
+        "url": "https://www.archnet.org/sites/1696",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Zumurrud Khatun",
+        "url": "https://www.archnet.org/sites/4358",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19589,6 +19689,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Darih al-Suhrawardi",
+        "url": "https://www.archnet.org/sites/4329",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19760,6 +19867,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Madrasa al-Mirjaniyya",
+        "url": "https://www.archnet.org/sites/3844",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19776,7 +19890,8 @@
     "latitude": 33.339,
     "longitude": 44.3935,
     "coordinates_source": "wikidata:Q12204368",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "Archnet says Mirjan was buried here in 1372 and describes the building as now destroyed; check whether that refers to the demolished madrasa or the surviving mosque."
   },
   {
     "id": "site-baghdad-al-sarai-mosque",
@@ -19849,6 +19964,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Murad Basha",
+        "url": "https://www.archnet.org/sites/3850",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19865,7 +19987,8 @@
     "latitude": 33.345451,
     "longitude": 44.384826,
     "coordinates_source": "wikidata:Q12204288",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "Archnet dates the mosque to 1578 from its inscription; the card gives 1566 as the start."
   },
   {
     "id": "site-baghdad-uzbek-mosque",
@@ -19937,6 +20060,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' al-Ahmadiyya",
+        "url": "https://www.archnet.org/sites/3852",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -19953,7 +20083,8 @@
     "latitude": 33.343611,
     "longitude": 44.385833,
     "coordinates_source": "wikidata:Q12204184",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "Archnet says Ahmad Pasha, the Ottoman governor, began it in 1780 and his brother Abdallah Bey finished it in 1796; the card names Ahmad al-Katkhuda as builder in 1796."
   },
   {
     "id": "site-baghdad-haydar-khana-mosque",
@@ -19981,6 +20112,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Haydar Khanah",
+        "url": "https://www.archnet.org/sites/3854",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -20497,6 +20635,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Khan Marjan",
+        "url": "https://www.archnet.org/sites/15578",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Aga Khan Award for Architecture (Archnet) — Mirjan Khan Restoration Project Summary",
+        "url": "https://www.archnet.org/publications/373",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -20513,7 +20665,8 @@
     "latitude": 33.3386,
     "longitude": 44.3925,
     "coordinates_source": "wikidata:Q6400089",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "Archnet dates the khan to 1358 and lists a restoration in 1976; the card says restored in the 1980s."
   },
   {
     "id": "site-baghdad-souk-al-safafeer",
@@ -21314,6 +21467,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Diarna (Digital Heritage Mapping) — Meir Tweg Synagogue at Baghdad",
+        "url": "http://archive.diarna.org/site/detail/public/155/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -21358,6 +21518,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Diarna (Digital Heritage Mapping) — Shamash Jewish School at Baghdad",
+        "url": "http://archive.diarna.org/site/detail/public/293/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -21848,6 +22015,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami'a Baghdad",
+        "url": "https://www.archnet.org/sites/15908",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -21891,6 +22065,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Baghdad Gymnasium",
+        "url": "https://www.archnet.org/sites/345",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -21977,6 +22158,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Commonwealth War Graves Commission — Baghdad (North Gate) War Cemetery",
+        "url": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/57303/baghdad-north-gate-war-cemetery/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -21991,7 +22179,8 @@
     "latitude": 33.35442,
     "longitude": 44.38648,
     "coordinates_source": "wikidata:Q65242789",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "The CWGC lists 4,487 identified casualties; the card says 4,480 burials."
   },
   {
     "id": "site-baghdad-freedom-monument",
@@ -22106,6 +22295,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Al-Shaheed Monument and Museum",
+        "url": "https://www.archnet.org/sites/433",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
@@ -22150,6 +22346,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Unknown Soldier Monument",
+        "url": "https://www.archnet.org/sites/693",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
