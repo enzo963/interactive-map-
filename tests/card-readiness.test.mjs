@@ -148,3 +148,16 @@ test('approved cards carry a concise, specific description and an expanded backg
     }
   }
 });
+
+test('every approved cover records its source, creator, license, original file and how it was verified', () => {
+  for (const record of records.filter(({ image_status }) => image_status === 'approved')) {
+    const cover = record.coverImage;
+    assert.equal(cover.siteId, record.id, record.id);
+    for (const field of ['src', 'alt', 'credit', 'license', 'sourceName', 'sourceUrl']) {
+      assert.ok(String(cover[field] ?? '').trim(), `${record.id}: cover.${field}`);
+    }
+    assert.equal(cover.license_status, 'verified', record.id);
+    assert.equal(cover.publication_approval?.status, 'approved', record.id);
+    assert.doesNotMatch(cover.license, /\bN[CD]\b|non-?commercial|no ?deriv|fair use/i, `${record.id}: ${cover.license}`);
+  }
+});

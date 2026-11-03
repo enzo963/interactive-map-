@@ -30,6 +30,31 @@ Every approved record must meet the contract; `npm test` and `check:cards` fail
 otherwise. Discovery batch scripts and the map editor write `image_status` and
 `period_status`; the editor saves new pins as hidden drafts.
 
+## Primary images
+
+Each card shows at most one primary image, and only an image of the site itself, not of
+its town or region. The current covers come from a reviewed pass
+(`tools/content-pipeline/data/images/cover-review-2026-11-03.json`, applied by
+`tools/content-pipeline/apply_cover_review.py`):
+
+1. **Candidate.** The Wikidata image (P18) of the card's own item: the item for the site
+   itself. Items for a town, village, district or person are excluded.
+2. **License.** Creator and license come from the Wikimedia Commons API. Only free
+   licenses are accepted: CC0, CC BY, CC BY-SA and public domain, never NC, ND or fair use.
+3. **Visual review.** Every candidate is viewed on a labelled contact sheet and approved
+   only when it shows the site itself. Maps, plans, diagrams, artefacts from the site,
+   close-ups of signs or plaques, crowd or military scenes, poor scans, and the same
+   file already used for a more precise card are rejected. Each decision and its reason is
+   in the review file.
+4. **Record.** An approved cover stores `src` (a 1280 px rendition), `original_url`,
+   `sourceUrl` (the Commons file page), `credit` (creator), `license` and `license_url`,
+   `width`/`height`, `identity` (the item and how it was matched), `license_review` and
+   `publication_approval`. `HeritageCard` shows the cover only when all of these check
+   out, and `image_status` becomes `approved`.
+
+A card without an approved cover shows the Heritage Bridge fallback: the arch mark, the
+site type and "No verified photograph". It never borrows a photograph of another place.
+
 ## Source verification
 
 `source-credibility.json` rates every cited publisher (lower tier is stronger):
