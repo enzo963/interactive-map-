@@ -2,6 +2,7 @@
  * Audit src/data/sites.json against the visible card contract (src/utils/cardReadiness.js).
  *   npm run check:cards            summary, hidden records and enrichment gaps
  *   npm run check:cards -- --list  also list every hidden record with what it lacks
+ *   npm run check:cards -- --queue also list every visible card in the source review queue
  * Exits 1 when an approved record fails the contract, since approval must never hide a card.
  */
 import { readFileSync } from 'node:fs';
@@ -9,7 +10,8 @@ import process from 'node:process';
 import { createServer } from 'vite';
 
 const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom', logLevel: 'silent' });
-const { checkCardReadiness, VISIBLE_STATUSES } = await server.ssrLoadModule('/src/utils/cardReadiness.js');
+const { checkCardReadiness, verificationFlags, VISIBLE_STATUSES } = await server.ssrLoadModule('/src/utils/cardReadiness.js');
+const { bestTier } = await server.ssrLoadModule('/src/utils/sourceCredibility.js');
 await server.close();
 
 const records = JSON.parse(readFileSync(new URL('../src/data/sites.json', import.meta.url), 'utf8'));
@@ -31,6 +33,14 @@ if (notReady.length) {
   if (shown.length < notReady.length) console.log(`  … ${notReady.length - shown.length} more (--list)`);
 }
 console.log(`\nEnrichment gaps among visible cards (do not hide a card):\n${table(count(visible, (item) => item.enrichment))}`);
+
+const components = count(records, (record) => (record.parentSite ? [record.parentSite] : []));
+const queue = visible.map((item) => ({ ...item, flags: verificationFlags(item.record, { componentCount: components[item.record.id] ?? 0 }) }));
+console.log(`\nStrongest evidence per visible card:\n${table(count(visible, (item) => [`tier ${bestTier(item.record.sources)}`]))}`);
+console.log(`\nSource review queue (visible cards; strengthen, do not hide):\n${table(count(queue, (item) => item.flags))}`);
+if (process.argv.includes('--queue')) {
+  for (const item of queue.filter((entry) => entry.flags.length)) console.log(`  ${item.record.id}: ${item.flags.join(', ')}`);
+}
 
 const brokenApproved = notReady.filter((item) => item.record.status === 'approved');
 if (brokenApproved.length) {

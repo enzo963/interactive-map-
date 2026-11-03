@@ -177,7 +177,8 @@ RECORDS = [
         'A mound on the Mosul Dam reservoir where Duhok archaeologists reported five superimposed settlement layers, '
         'part of a survey of 86 sites made between 2023 and 2025.',
         [src('Shafaq News — Duhok excavations reveal five ancient settlement layers (mirror)',
-             'https://www.egerin.com/shafaq-news-duhok-excavations-reveal-five-ancient-settlement-layers/', level='search-snippet')],
+             'https://www.egerin.com/shafaq-news-duhok-excavations-reveal-five-ancient-settlement-layers/', level='search-snippet')
+         | {'sourceType': 'news-report', 'sourceTypeNote': 'Mirror of a Shafaq News report.'}],
         location='Mosul Dam reservoir shore', notes='Seen only in a search snippet of a mirrored article.'),
     rec('mardaman-bassetki', 'Mardaman (Bassetki)', 'Archaeological Site',
         'A northern Mesopotamian city occupied from about 2900 to 600 BC beside Bassetki village. 92 cuneiform '

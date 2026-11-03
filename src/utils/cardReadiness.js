@@ -1,5 +1,6 @@
 import { GOVERNORATE_NAMES, getGovernorateKey } from '../data/governorates';
 import { approvedCover } from './coverApproval';
+import { bestTier, crediblePublishers, isCredibleSource, sourceTier } from './sourceCredibility';
 
 /**
  * Minimum card contract: a candidate becomes a visible card only when every
@@ -23,11 +24,6 @@ const STABLE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 const text = (value) => (typeof value === 'string' ? value.trim() : '');
 
-// A coordinates lookup (e.g. "Wikidata Q123 (coordinates)") locates a site but does not document it.
-const isCoordinatesOnly = (source) => /\(coordinates\)\s*$/i.test(text(source?.sourceName));
-
-export const isReliableSource = (source) =>
-  Boolean(text(source?.sourceName)) && /^https?:\/\/\S+$/i.test(text(source?.url)) && !isCoordinatesOnly(source);
 
 /** The image status implied by the recorded cover. */
 export function derivedImageStatus(raw) {
@@ -46,8 +42,8 @@ const REQUIRED = [
   }],
   ['period', `historical period, or period_status "${PERIOD_NOT_ESTABLISHED}" when the sources give none`,
     (raw) => Boolean(text(raw.period)) || raw.period_status === PERIOD_NOT_ESTABLISHED],
-  ['sources', 'at least one reliable source (named, with an http(s) link, not only a coordinates lookup)',
-    (raw) => Array.isArray(raw.sources) && raw.sources.some(isReliableSource)],
+  ['sources', 'at least one credible source (tier 1–3 in src/data/source-credibility.json, named, with an http(s) link)',
+    (raw) => Array.isArray(raw.sources) && raw.sources.some(isCredibleSource)],
   ['status', `publication status (${PUBLICATION_STATUSES.join(', ')})`, (raw) => PUBLICATION_STATUSES.includes(raw.status)],
   ['image_status', `image status (${IMAGE_STATUSES.join(', ')}) matching the recorded cover`,
     (raw) => IMAGE_STATUSES.includes(raw.image_status) && raw.image_status === derivedImageStatus(raw)],
@@ -80,3 +76,32 @@ export function checkCardReadiness(raw) {
 }
 
 export const isVisibleCard = (raw) => checkCardReadiness(raw).visible;
+
+/** Site types whose history is layered or contested enough to want corroboration. */
+const COMPLEX_CATEGORIES = ['Archaeological City', 'Historic Urban Area', 'Citadel'];
+
+/**
+ * A site that should cite more than one credible publisher where sources exist: UNESCO
+ * properties, cities and historic towns, complexes with component cards, and sites whose
+ * destruction or reconstruction is part of the record.
+ */
+export const isComplexSite = (raw, componentCount = 0) =>
+  raw.unesco === true || COMPLEX_CATEGORIES.includes(text(raw.category)) || componentCount > 0
+  || Boolean(text(raw.destruction_status));
+
+/**
+ * Review queue for a card. Flags never hide a card; they mark evidence to strengthen.
+ *   reference-only       — best evidence is an encyclopaedia or news report (tier 3)
+ *   needs-corroboration  — a complex site with fewer than two credible publishers
+ *   discovery-cited      — cites a discovery-tier site (tourism, blog, user-contributed)
+ *   unclassified-source  — cites a domain missing from src/data/source-credibility.json
+ */
+export function verificationFlags(raw, { componentCount = 0 } = {}) {
+  const sources = Array.isArray(raw?.sources) ? raw.sources : [];
+  const flags = [];
+  if (bestTier(sources) === 3) flags.push('reference-only');
+  if (isComplexSite(raw, componentCount) && crediblePublishers(sources).size < 2) flags.push('needs-corroboration');
+  if (sources.some((source) => sourceTier(source) === '4')) flags.push('discovery-cited');
+  if (sources.some((source) => sourceTier(source) === null)) flags.push('unclassified-source');
+  return flags;
+}

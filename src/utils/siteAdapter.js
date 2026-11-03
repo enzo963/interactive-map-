@@ -1,3 +1,4 @@
+import { isCredibleSource, sourceTier } from './sourceCredibility';
 import { getCardType } from './getCardType';
 import { formatYearLabel, getSiteAgeYears } from './siteYears';
 import { getGovernorateCode } from '../data/governorates';
@@ -112,9 +113,16 @@ function sourceAccessDate(value) {
   return date;
 }
 
+// Credible sources lead in tier order (1 strongest), so a discovery site or coordinate lookup
+// never reads as the primary evidence. The sort is stable: equal tiers keep their recorded order.
+const sourceRank = (item) => (isCredibleSource(item) ? Number(sourceTier(item)) : 9);
+
 function normalizeSources(sources) {
   if (!sources) return [];
-  const list = Array.isArray(sources) ? sources : [sources];
+  const list = (Array.isArray(sources) ? sources : [sources])
+    .map((item, index) => ({ item, index, rank: typeof item === 'object' && item ? sourceRank(item) : 9 }))
+    .sort((a, b) => a.rank - b.rank || a.index - b.index)
+    .map(({ item }) => item);
   return list.map((item) => {
     if (typeof item === 'string') item = { sourceName: item.trim(), url: safeUrl(item) };
     if (!item || typeof item !== 'object' || Array.isArray(item)) return null;

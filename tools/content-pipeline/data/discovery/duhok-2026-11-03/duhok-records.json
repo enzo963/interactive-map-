@@ -361,7 +361,9 @@
         "url": "https://www.egerin.com/shafaq-news-duhok-excavations-reveal-five-ancient-settlement-layers/",
         "evidenceId": null,
         "accessedAt": "2026-11-03",
-        "accessLevel": "search-snippet"
+        "accessLevel": "search-snippet",
+        "sourceType": "news-report",
+        "sourceTypeNote": "Mirror of a Shafaq News report."
       }
     ],
     "unesco_status": "unknown",
