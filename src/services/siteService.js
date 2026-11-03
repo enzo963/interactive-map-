@@ -1,5 +1,6 @@
 import rawSites from '../data/sites.json';
 import { normalizeSites } from '../utils/siteAdapter';
+import { isVisibleCard } from '../utils/cardReadiness';
 
 /**
  * Data access layer. Today: local JSON, synchronous.
@@ -8,8 +9,13 @@ import { normalizeSites } from '../utils/siteAdapter';
  */
 let cache = null;
 
+/**
+ * Visible cards only: records that meet the minimum card contract and have a
+ * published status (src/utils/cardReadiness.js). Normalizing every record first
+ * keeps provisional archive numbers stable when a record is hidden.
+ */
 export function getAllSites() {
-  if (!cache) cache = normalizeSites(rawSites);
+  if (!cache) cache = normalizeSites(rawSites).filter((_, index) => isVisibleCard(rawSites[index]));
   return cache;
 }
 

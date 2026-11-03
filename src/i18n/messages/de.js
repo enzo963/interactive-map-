@@ -455,6 +455,7 @@ export default {
   "e.g. Ottoman": "z. B. osmanisch",
   "Description": "Beschreibung",
   "Add sources in sites.json before the card is reviewed.": "Fügen Sie in sites.json Quellen hinzu, bevor die Karte geprüft wird.",
+  "Saved as a hidden draft. It appears once sites.json gives it a source and the other required card fields.": "Wird als verborgener Entwurf gespeichert. Die Karte erscheint, sobald sites.json eine Quelle und die übrigen Pflichtfelder enthält.",
   "Saving…": "Wird gespeichert …",
   "Save card": "Karte speichern",
   "Save position": "Position speichern",

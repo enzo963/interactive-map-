@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Abbasid Samarra",
@@ -64,6 +65,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Askari Shrine",
@@ -108,6 +110,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Qasr al-'Ashiq",
@@ -162,6 +165,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Archnet — Qubba al-Sulaybiyya",
@@ -204,6 +208,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
@@ -246,6 +251,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
@@ -292,6 +298,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Samarra Archaeological City",
@@ -341,6 +348,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Northedge — The 1986 survey season at Samarra",
@@ -382,6 +390,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Northedge — The racecourses at Samarra",
@@ -415,6 +424,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO — Samarra Archaeological City nomination documentation",
@@ -445,6 +455,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell es-Sawwan",
@@ -494,6 +505,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Imam Dur Mausoleum",
@@ -528,6 +540,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Muhammad ibn Ali al-Hadi",
@@ -584,6 +597,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tikrit",
@@ -636,6 +650,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Arba'een Mosque",
@@ -681,6 +696,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Church of Saint Ahudemmeh, Tikrit",
@@ -721,6 +737,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Kar-Tukulti-Ninurta",
@@ -772,6 +789,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -802,6 +820,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -827,11 +846,13 @@
     "governorate": "Salah al-Din",
     "category": "Temple",
     "period": "",
+    "period_status": "not-established",
     "description": "The temple of the goddess Ishtar at Ashur.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -862,6 +883,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -892,6 +914,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -922,6 +945,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -952,6 +976,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -982,6 +1007,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -1012,6 +1038,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -1042,6 +1069,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -1072,6 +1100,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",
@@ -1102,6 +1131,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Ashur (Qal‘at Sherqat)",

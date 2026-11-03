@@ -21,7 +21,7 @@ function Field({ label, children, hint }) {
 }
 
 /**
- * Dev-only editor. "New card" adds a draft record to sites.json (marked needs-review, no sources yet);
+ * Dev-only editor. "New card" adds a hidden draft record to sites.json (status draft, no sources yet);
  * picking an existing card only sets its pin (latitude / longitude). The position comes from the map
  * (click or drag), or can be typed in.
  */
@@ -119,7 +119,7 @@ export default function PlaceForm({ sites, initialTarget = 'new', draft, onDraft
             )}
           </Field>
           <Field label={t('Period')}>{(id) => <input id={id} className="hb-search__input" value={fields.period} onChange={set('period')} placeholder={t('e.g. Ottoman')} />}</Field>
-          <Field label={t('Description')} hint={t('Add sources in sites.json before the card is reviewed.')}>
+          <Field label={t('Description')} hint={t('Saved as a hidden draft. It appears once sites.json gives it a source and the other required card fields.')}>
             {(id) => <textarea id={id} className="hb-search__input hb-place__text" rows={3} value={fields.description} onChange={set('description')} />}
           </Field>
         </>

@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Anah",
@@ -63,6 +64,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -106,6 +108,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Minaret of Anah",
@@ -160,6 +163,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -193,6 +197,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Shaykh Rajab Mosque",
@@ -237,6 +242,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -269,6 +275,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Haradum",
@@ -330,6 +337,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University, ICSAI — ‘Usiyeh excavations",
@@ -371,6 +379,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Bijan (island)",
@@ -403,6 +412,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -444,6 +454,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "HAL — Assyrian and Suhu fortresses of the middle Euphrates (French study)",
@@ -467,11 +478,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A site excavated in the late 1970s in the Haditha Dam salvage project, partly exposed again when the reservoir fell.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "MDPI Remote Sensing 13(4) — Time-series NDWI for emerging archaeological sites in Iraqi reservoirs",
@@ -500,6 +513,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -527,11 +541,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An island site in the Euphrates near Anah, part of a larger Telbis complex with burial grounds on both banks.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -560,11 +576,13 @@
     "governorate": "Anbar",
     "category": "Cemetery",
     "period": "",
+    "period_status": "not-established",
     "description": "Four groups of graves cut into the cliff over 200 m of river bank 13.5 km south-east of Anah; the largest group has fourteen graves.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -590,11 +608,13 @@
     "governorate": "Anbar",
     "category": "Cemetery",
     "period": "",
+    "period_status": "not-established",
     "description": "A cemetery and mounds on the east bank at Telbis, recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -620,11 +640,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An island site opposite Tel Gubbain recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -649,11 +671,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound at New Ma‘atheed recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -681,11 +705,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound near Anah recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -710,11 +736,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A site near Anah recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -739,11 +767,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A site near Anah with the rock-cut Majul (Gufrin) caverns, recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -778,6 +808,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -805,11 +836,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "Ancient canals recorded in the Haditha Dam basin survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -834,11 +867,13 @@
     "governorate": "Anbar",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A site near Sur Jur‘eh recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -868,6 +903,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -892,11 +928,13 @@
     "governorate": "Anbar",
     "category": "Mausoleum",
     "period": "",
+    "period_status": "not-established",
     "description": "A tomb under a small damaged cupola 19 km north-west of Haditha; floods had loosened the gravestones around it.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -921,11 +959,13 @@
     "governorate": "Anbar",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A shrine near Haditha recorded in the Haditha Dam survey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ICOMOS Monumentum 17 — The ancient sites in the basin of the Haditha Dam on the Euphrates",
@@ -955,6 +995,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Al Jazeera Net (Arabic), 28 February 2021 — More than 400 sites hold the secrets of history in Anbar",
@@ -986,6 +1027,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Hit, Iraq",
@@ -1044,6 +1086,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News, 5 July 2026 — Iraq restores pre-Islamic Al-Farouq Minaret",
@@ -1097,6 +1140,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News, 28 June 2025 — Centuries-old Al-Anbar waterwheels spin a comeback",
@@ -1147,6 +1191,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Hit, Iraq",
@@ -1185,6 +1230,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Anbar (town)",

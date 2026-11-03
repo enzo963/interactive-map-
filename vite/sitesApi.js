@@ -41,7 +41,10 @@ function clean(body) {
 // Coordinates set with the map editor are marked so reviewers can tell them from sourced ones.
 const placedNote = () => ({ coordinates_source: 'map-editor', coordinates_placed_at: new Date().toISOString().slice(0, 10) });
 
-/** A draft record in the shape of src/data/sites.schema.json; it stays needs-review until sources are added. */
+/**
+ * A draft record in the shape of src/data/sites.schema.json. It stays hidden (status draft) until it
+ * meets the visible card contract: a reliable source, a concise description and the other required fields.
+ */
 function newSite(fields, sites) {
   if (!fields.name) throw new Error('name is required');
   if (fields.latitude == null || fields.longitude == null) throw new Error('a map position is required');
@@ -59,15 +62,17 @@ function newSite(fields, sites) {
     governorate: fields.governorate ?? '',
     category: fields.category ?? '',
     period: fields.period ?? '',
+    ...(fields.period ? {} : { period_status: 'not-established' }),
     description: fields.description ?? '',
     unesco: null,
     has3D: null,
     coverImage: null,
     galleryImages: [],
+    image_status: 'none',
     sources: [],
     unesco_status: 'unknown',
-    status: 'needs-review',
-    verification_status: 'needs-review',
+    status: 'draft',
+    verification_status: 'draft',
     slug,
     latitude: fields.latitude,
     longitude: fields.longitude,
