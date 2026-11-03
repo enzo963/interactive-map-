@@ -6,7 +6,7 @@
     "category": "Historic City",
     "period": "",
     "period_status": "not-established",
-    "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+    "description": "A historic town on a high plateau about 70 km north of Duhok, with ancient gates and a minaret, which Iraq describes as one of the most important historic cities of northern Iraq.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -23,7 +23,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "amedy-city"
+    "slug": "amedy-city",
+    "historical_background": "Amedy has been on Iraq’s Tentative List since 2 February 2011 as a mixed cultural and natural site; it is not an inscribed World Heritage Site."
   },
   {
     "id": "site-duhok-delal-bridge",
@@ -32,7 +33,7 @@
     "category": "Historic Bridge",
     "period": "",
     "period_status": "not-established",
-    "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+    "description": "A bridge of large river stones over the Khabur at Zakho, about 114 m long and 16 m high. Official sources date its origin to the Roman or the medieval period.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -50,12 +51,20 @@
         "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
         "evidenceId": "krg-20261031T183032Z-9a290bf891",
         "accessedAt": "2026-10-31T18:30:32+00:00"
+      },
+      {
+        "sourceName": "Kurdistan Region Board of Tourism — Dalal Bridge",
+        "url": "http://bot.gov.krd/duhok-province-zakho/history-and-heritage/dalal-bridge",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "delal-bridge"
+    "slug": "delal-bridge",
+    "historical_background": "The Kurdistan Regional Government lists it among the region’s architectural heritage; the sources disagree on when it was first built, so no period is given."
   },
   {
     "id": "site-duhok-faida-canal-reliefs",
@@ -63,7 +72,7 @@
     "governorate": "Duhok",
     "category": "Archaeological Site",
     "period": "Assyrian",
-    "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+    "description": "A 10 km Assyrian irrigation canal near Faida in southern Duhok province, with 13 reliefs carved into its walls under Sargon II and Sennacherib, about 2,700 years ago.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -80,7 +89,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "faida-archaeological-canal-and-reliefs"
+    "slug": "faida-archaeological-canal-and-reliefs",
+    "historical_background": "The reliefs were uncovered by a joint mission with the University of Udine. The first phase of an archaeological park on the canal opened in October 2022, the first of five planned sites."
   },
   {
     "id": "site-erbil-choli-minaret",
@@ -89,7 +99,7 @@
     "category": "Minaret",
     "period": "",
     "period_status": "not-established",
-    "description": "Choli Minaret is a historic monument in Erbil. An August 2025 KRG report describes its 37-metre tower and planned structural and exterior restoration; that dated plan does not establish whether the work is complete today.",
+    "description": "A 37 m historic minaret in Erbil, planned in 2025 for structural and exterior restoration.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -106,7 +116,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "choli-minaret"
+    "slug": "choli-minaret",
+    "historical_background": "An August 2025 KRG report describes planned structural and exterior restoration alongside work on Erbil Citadel; it does not show whether the work is complete. The sources consulted do not date the minaret."
   },
   {
     "id": "site-erbil-erbil-citadel",
@@ -114,7 +125,7 @@
     "governorate": "Erbil",
     "category": "Citadel",
     "period": "Multiple periods, including Ottoman",
-    "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+    "description": "A fortified settlement crowning a great oval mound in Erbil, linked by written records to ancient Arbela. Its maze of Ottoman-period alleys radiating from the main gate makes it a World Heritage Site (2014).",
     "unesco": true,
     "has3D": null,
     "coverImage": null,
@@ -132,6 +143,13 @@
         "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
         "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
         "accessedAt": "2026-10-31T17:20:31+00:00"
+      },
+      {
+        "sourceName": "ICOMOS evaluation — Erbil Citadel (Republic of Iraq) No 1437",
+        "url": "https://whc.unesco.org/document/152675",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "inscribed",
@@ -139,7 +157,8 @@
     "longitude": 44.0091667,
     "status": "approved",
     "verification_status": "approved",
-    "slug": "erbil-citadel"
+    "slug": "erbil-citadel",
+    "historical_background": "The original walls were replaced over time by houses whose continuous 19th-century façades still read as a fortress. The nomination claimed continuous occupation over six millennia, but ICOMOS found too little physical evidence from the ancient periods to support it; the property was inscribed in June 2014 for its Ottoman urban fabric. Later UNESCO reports follow work to map buried remains, stabilise the mound’s slopes and keep residents living on the citadel."
   },
   {
     "id": "site-erbil-shanidar-cave",
@@ -148,7 +167,7 @@
     "category": "Archaeological Cave",
     "period": "",
     "period_status": "not-established",
-    "description": "Shanidar Cave is an archaeological site in the Zagros Mountains of Erbil Governorate, associated with Neanderthal remains. The KRG tourism overview highlights its importance for studying early human history.",
+    "description": "A cave in the Zagros mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -165,7 +184,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "shanidar-cave"
+    "slug": "shanidar-cave",
+    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites."
   },
   {
     "id": "site-kirkuk-kirkuk-citadel",
@@ -174,7 +194,7 @@
     "category": "Citadel",
     "period": "",
     "period_status": "not-established",
-    "description": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+    "description": "The raised historic town at the centre of Kirkuk, whose traditional quarters, gates, market, mosques and church record the city’s Muslim and Christian communities.",
     "unesco": false,
     "has3D": null,
     "coverImage": null,
@@ -191,7 +211,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "kirkuk-citadel"
+    "slug": "kirkuk-citadel",
+    "historical_background": "Iraq placed the citadel on its Tentative List on 6 April 2021. The submission describes quarters such as Hammam, Aghaliq and al-Midan, and buildings including the Prophet Daniel Mosque, the Green Dome, the Mother of Sorrows Church and the Qaysariyah market."
   },
   {
     "id": "site-kirkuk-mother-of-sorrows-church",
@@ -199,7 +220,7 @@
     "governorate": "Kirkuk",
     "category": "Church",
     "period": "19th century",
-    "description": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+    "description": "A Chaldean church in the Hammam quarter of Kirkuk Citadel, first built in 1862 and renewed in 1903, with stone and plaster arches and marble columns.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -216,7 +237,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "mother-of-sorrows-church-kirkuk-citadel"
+    "slug": "mother-of-sorrows-church-kirkuk-citadel",
+    "historical_background": "Iraq’s Tentative List submission for the citadel (2021) reports that its walls are damaged and need scientific conservation."
   },
   {
     "id": "site-kirkuk-prophet-daniel-mosque",
@@ -224,7 +246,7 @@
     "governorate": "Kirkuk",
     "category": "Mosque",
     "period": "Medieval",
-    "description": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+    "description": "The oldest and best-known mosque of Kirkuk Citadel, still visited by people of the city, especially on Saturdays. Its brick minaret probably dates from the late Mongol or early Timurid period.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -241,7 +263,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "prophet-daniel-mosque-kirkuk-citadel"
+    "slug": "prophet-daniel-mosque-kirkuk-citadel",
+    "historical_background": "Iraq’s Tentative List submission for the citadel (2021) describes the minaret, arches and courtyard, and records the mosque’s social and spiritual role."
   },
   {
     "id": "site-kirkuk-green-dome",
@@ -249,7 +272,7 @@
     "governorate": "Kirkuk",
     "category": "Historic Monument",
     "period": "Medieval",
-    "description": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+    "description": "An octagonal building of 1361 in Kirkuk Citadel, decorated with coloured tiles and inscriptions.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -266,7 +289,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "the-green-dome-kirkuk-citadel"
+    "slug": "the-green-dome-kirkuk-citadel",
+    "historical_background": "Iraq’s Tentative List submission for the citadel (2021) describes its form and decoration, and reports that two vaults on the ground floor have collapsed because of cracking."
   },
   {
     "id": "site-nineveh-al-nouri",
@@ -275,7 +299,7 @@
     "category": "Mosque and Minaret",
     "period": "",
     "period_status": "not-established",
-    "description": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+    "description": "The mosque of Mosul’s Old City and its al-Hadba minaret, 44 m high, the city’s icon. Excavations have found rooms of a 12th-century mosque on the site.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -287,12 +311,27 @@
         "url": "https://whc.unesco.org/en/tentativelists/6355/",
         "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
         "accessedAt": "2026-10-31T18:44:42+00:00"
+      },
+      {
+        "sourceName": "UNESCO — Revive the Spirit of Mosul: Heritage",
+        "url": "https://www.unesco.org/en/revive-mosul/heritage",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "UNESCO — Historic prayer rooms discovered at Al-Nouri Mosque in Mosul",
+        "url": "https://www.unesco.org/en/articles/historic-prayer-rooms-discovered-al-nouri-mosque-mosul",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "al-nouri-mosque-and-al-hadba-minaret"
+    "slug": "al-nouri-mosque-and-al-hadba-minaret",
+    "historical_background": "UNESCO’s Tentative List entry for the Old City names the mosque and minaret its most significant landmarks. ISIL/Daesh largely destroyed the minaret in June 2017. Both were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative; during the work, excavations uncovered four stone-and-plaster rooms of the 12th-century mosque."
   },
   {
     "id": "site-nineveh-dominican-church",
@@ -301,7 +340,7 @@
     "category": "Church",
     "period": "",
     "period_status": "not-established",
-    "description": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+    "description": "The Dominican church and convent in Mosul’s Old City, whose clock tower stood with the al-Hadba minaret as the defining features of the city’s skyline.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -313,12 +352,20 @@
         "url": "https://whc.unesco.org/en/tentativelists/6355/",
         "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
         "accessedAt": "2026-10-31T18:44:42+00:00"
+      },
+      {
+        "sourceName": "UNESCO — Revive the Spirit of Mosul: Heritage",
+        "url": "https://www.unesco.org/en/revive-mosul/heritage",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "dominican-church-and-clock-tower-mosul"
+    "slug": "dominican-church-and-clock-tower-mosul",
+    "historical_background": "The church and convent were among the landmarks rebuilt under UNESCO’s Revive the Spirit of Mosul initiative. The sources consulted do not give the date of its foundation."
   },
   {
     "id": "site-001",
@@ -326,7 +373,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "Parthian",
-    "description": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+    "description": "A fortified city under Parthian influence, south-west of Mosul, whose thick walls and towers held off Roman sieges in 116 and 198 AD. Its temples blend Hellenistic and Roman architecture with Eastern decoration.",
     "unesco": true,
     "has3D": null,
     "coverImage": null,
@@ -338,6 +385,13 @@
         "url": "https://whc.unesco.org/en/list/277/",
         "evidenceId": "unesco-20261031T184429Z-c901278ca1",
         "accessedAt": "2026-10-31T18:44:29+00:00"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Hatra added to the List of World Heritage in Danger",
+        "url": "https://whc.unesco.org/en/news/1309",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "inscribed",
@@ -345,7 +399,8 @@
     "longitude": 42.7183306,
     "status": "approved",
     "verification_status": "approved",
-    "slug": "hatra"
+    "slug": "hatra",
+    "historical_background": "The central temple complex was dedicated to several Hatrene gods, chief among them the sun god Shamash. UNESCO inscribed Hatra on the World Heritage List in 1985. After damage by armed groups it was added to the List of World Heritage in Danger in 2015, where the Committee retained it in 2026."
   },
   {
     "id": "site-nineveh-lalish",
@@ -354,7 +409,7 @@
     "category": "Religious Complex",
     "period": "",
     "period_status": "not-established",
-    "description": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+    "description": "The main temple of the Yazidi religion and its central pilgrimage place, in a sacred valley in Sheikhan district, about 60 km north-west of Nineveh. The complex holds the tomb of Sheikh Uday bin Musafir.",
     "unesco": false,
     "has3D": null,
     "coverImage": null,
@@ -371,7 +426,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "lalish-temple"
+    "slug": "lalish-temple",
+    "historical_background": "Iraq placed Lalish on its Tentative List on 15 April 2020, describing the valley, the temple architecture and the tomb. The sources consulted do not date the buildings."
   },
   {
     "id": "site-nineveh-nimrud",
@@ -379,7 +435,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological City",
     "period": "Assyrian",
-    "description": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+    "description": "Ancient Kalhu, south of Mosul, which became the capital of the Assyrian Empire in the 9th century BC under Ashurnasirpal II. Its walls, raised palace platforms and royal tombs survive.",
     "unesco": false,
     "has3D": null,
     "coverImage": null,
@@ -391,12 +447,20 @@
         "url": "https://whc.unesco.org/en/tentativelists/1463/",
         "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
         "accessedAt": "2026-10-31T18:44:36+00:00"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Director-General welcomes the liberation of Nimrud",
+        "url": "https://whc.unesco.org/en/news/1597",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "nimrud"
+    "slug": "nimrud",
+    "historical_background": "Nimrud has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. In 2015 extremist armed groups deliberately and severely damaged the city, including the north-west part of the Palace of Ashurnasirpal II."
   },
   {
     "id": "site-nineveh-old-mosul",
@@ -405,7 +469,7 @@
     "category": "Historic Urban Area",
     "period": "",
     "period_status": "not-established",
-    "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+    "description": "The historic city on the west bank of the Tigris, with traditional streets, houses and markets and the mosques, churches and shrines of its many communities. The al-Hadba minaret and the Dominican clock tower defined its skyline.",
     "unesco": false,
     "has3D": null,
     "coverImage": null,
@@ -417,12 +481,20 @@
         "url": "https://whc.unesco.org/en/tentativelists/6355/",
         "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
         "accessedAt": "2026-10-31T18:44:42+00:00"
+      },
+      {
+        "sourceName": "UNESCO — Revive the Spirit of Mosul: Heritage",
+        "url": "https://www.unesco.org/en/revive-mosul/heritage",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "old-city-of-mosul"
+    "slug": "old-city-of-mosul",
+    "historical_background": "The Old City has been on Iraq’s Tentative List since 17 August 2018. UNESCO’s Revive the Spirit of Mosul initiative, launched in 2018, rebuilt landmarks including the al-Nouri Mosque, the al-Hadba minaret, the Dominican convent and al-Tahera Church."
   },
   {
     "id": "site-nineveh-ancient-nineveh",
@@ -430,7 +502,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological City",
     "period": "Assyrian",
-    "description": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+    "description": "The Assyrian royal city on the east bank of the Tigris at Mosul, adopted as the empire’s political seat after its first religious capital, Ashur. Its walls, gateways, mounds and palace remains still outline the ancient city.",
     "unesco": false,
     "has3D": null,
     "coverImage": null,
@@ -447,7 +519,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "the-ancient-city-of-nineveh"
+    "slug": "the-ancient-city-of-nineveh",
+    "historical_background": "Nineveh has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. UNESCO reports that the site has been greatly damaged through acts of deliberate destruction."
   },
   {
     "id": "site-sulaymaniyah-bestansur",
@@ -455,7 +528,7 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Settlement",
     "period": "Early Neolithic",
-    "description": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+    "description": "An Early Neolithic village of 7700–7100 BC in the Zagros foothills on the edge of the Shahrizor Plain, about 30 km south-east of Sulaymaniyah, whose mud-brick and pisé buildings show early village life.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -472,7 +545,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "bestansur-neolithic-settlement"
+    "slug": "bestansur-neolithic-settlement",
+    "historical_background": "A joint Iraqi–UK team has excavated the site since 2012. Iraq placed it on its Tentative List on 20 January 2017."
   },
   {
     "id": "site-sulaymaniyah-qalatga-darband",
@@ -480,7 +554,7 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological City",
     "period": "Hellenistic",
-    "description": "Qalatga Darband is a Hellenistic archaeological city in Sulaymaniyah Governorate. The KRG tourism overview associates its investigation with drone surveys and excavations led by the British Museum.",
+    "description": "A Hellenistic city in Sulaymaniyah Governorate, identified through drone surveys and excavated by the British Museum.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -497,7 +571,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "qalatga-darband"
+    "slug": "qalatga-darband",
+    "historical_background": "The Kurdistan Regional Government presents it among the region’s main archaeological sites."
   },
   {
     "id": "site-sulaymaniyah-tell-shemshara",
@@ -505,7 +580,7 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Settlement",
     "period": "Multi-period, including Old Babylonian",
-    "description": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+    "description": "An early urban settlement on the Rania Plain near Lake Dukan, where tablets of the Old Babylonian period were found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -522,7 +597,8 @@
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
-    "slug": "tell-shemshara"
+    "slug": "tell-shemshara",
+    "historical_background": "The Kurdistan Regional Government presents it among the region’s main archaeological sites."
   },
   {
     "id": "site-baghdad-mustansiriya-madrasa",
@@ -530,7 +606,7 @@
     "governorate": "Baghdad",
     "category": "Historic School",
     "period": "Abbasid",
-    "description": "An Abbasid school on the eastern bank of the Tigris in Baghdad, with rooms and iwans arranged around a large central space.",
+    "description": "The college founded on the Tigris in 1227 by the Abbasid caliph al-Mustansir, with rooms and iwans arranged around a great courtyard on the eastern bank in Baghdad.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -607,6 +683,13 @@
         "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
         "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
         "accessedAt": "2026-10-31T23:56:40.662774+00:00"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Madrasa al-Mustansiriyya",
+        "url": "https://www.archnet.org/sites/3836",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
       }
     ],
     "slug": "mustansiriya-madrasa",
@@ -620,7 +703,8 @@
       "AL- Mustansiriya School",
       "Mustansiriya Madrasah",
       "Munstansiriya Madrasah"
-    ]
+    ],
+    "historical_background": "It is the southern anchor of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014). After restoration it opened as a museum of Islamic art and culture in 1960."
   },
   {
     "id": "site-baghdad-abbasid-palace",
@@ -628,7 +712,7 @@
     "governorate": "Baghdad",
     "category": "Historic Building",
     "period": "Abbasid",
-    "description": "A surviving Abbasid building beside the Tigris in Baghdad, distinguished by its brick-and-lime construction and ornamental brickwork.",
+    "description": "A surviving Abbasid building on the Rusafa bank of the Tigris, attributed by researchers to Caliph al-Nasir li-Din Allah and admired for its ornamental brickwork.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -717,7 +801,8 @@
     "alternativeNames": [
       "ASharabeyaschool",
       "القصر العباسي"
-    ]
+    ],
+    "historical_background": "It marks the northern end of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014), which notes that parts of it lie buried under later riverbank deposits."
   },
   {
     "id": "site-baghdad-al-qishla",
@@ -725,7 +810,7 @@
     "governorate": "Baghdad",
     "category": "Historic Complex",
     "period": "Ottoman and British periods",
-    "description": "A riverside heritage complex in Baghdad, with Ottoman barracks and a clock tower. Its architecture also records later additions during British rule.",
+    "description": "The Ottoman barracks and clock tower on the Tigris in Baghdad, whose architecture also records additions made under British rule.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -758,7 +843,8 @@
       "Qushla",
       "Qishleh",
       "القشلة"
-    ]
+    ],
+    "historical_background": "The submission for Iraq’s Tentative List entry on the Rusafa riverfront (2014) lists the Qishla among a series of historic buildings along the river bank."
   },
   {
     "id": "site-baghdad-al-wazir-mosque",
@@ -766,7 +852,7 @@
     "governorate": "Baghdad",
     "category": "Mosque",
     "period": "Ottoman",
-    "description": "A historic Baghdad mosque associated with the Ottoman governor Hassan Pasha. Its fabric has undergone successive restoration and rebuilding campaigns.",
+    "description": "A riverside mosque in Baghdad built in 1599 by the Ottoman governor Hassan Pasha and repeatedly restored since.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -858,7 +944,8 @@
       "AL-Wazeer Mosque",
       "Al Wazeer Mosque",
       "The minister mosque"
-    ]
+    ],
+    "historical_background": "It belongs to Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014)."
   },
   {
     "id": "site-baghdad-al-asifiyah-mosque",
@@ -866,7 +953,7 @@
     "governorate": "Baghdad",
     "category": "Mosque",
     "period": "Ottoman",
-    "description": "An Ottoman-era mosque in Baghdad. The Iraqi submission describes a prayer hall with two domes, two minarets and later restoration.",
+    "description": "A mosque on the Rusafa riverfront whose present building was raised in 1825 by the Ottoman governor Dawud Pasha, with a prayer hall under two domes and two minarets.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -897,7 +984,8 @@
       "Alasifyah Mosque",
       "Mosque-Madrasa of al-Asifyah",
       "جامع الآصفية"
-    ]
+    ],
+    "historical_background": "It belongs to Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014)."
   },
   {
     "id": "site-baghdad-house-of-wisdom-building",
@@ -905,7 +993,7 @@
     "governorate": "Baghdad",
     "category": "Historic School",
     "period": "Ottoman",
-    "description": "An Ottoman-era school building in Baghdad, described as the Industries School or House of Wisdom, with two storeys and arcaded corridors overlooking gardens.",
+    "description": "An Ottoman two-storey school building on the Baghdad riverfront, 64 by 29 m, with arcaded corridors over its gardens, known both as the Industries School and as the House of Wisdom (Bait al-Hikma).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -930,7 +1018,8 @@
       "Bait Al-Hikma",
       "Al-Sanai school",
       "Industries School"
-    ]
+    ],
+    "historical_background": "It belongs to Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014), whose dossier uses both names."
   },
   {
     "id": "site-salah-al-din-samarra",
@@ -938,7 +1027,7 @@
     "governorate": "Salah al-Din",
     "category": "Archaeological City",
     "period": "Abbasid",
-    "description": "Samarra preserves the plan and monumental remains of an Abbasid capital beside the Tigris. Its mosques, palaces and decorative arts record a major stage in Islamic urban architecture.",
+    "description": "The ruins of the Abbasid capital of 836–892, stretching some 41.5 km along the Tigris at Samarra. As the caliphate’s second capital after Baghdad, it preserves the largest mosques and palaces of the Islamic world of its time.",
     "unesco": true,
     "has3D": null,
     "coverImage": null,
@@ -983,7 +1072,8 @@
     "mergedFrom": [
       "site-salah-al-din-abbasid-samarra-ruinfield"
     ],
-    "review_notes": "Merged site-salah-al-din-abbasid-samarra-ruinfield (Abbasid Samarra (northern ruin-field)): The UNESCO property Samarra Archaeological City is the Abbasid capital's ruin-field itself, so the two cards described one site."
+    "review_notes": "Merged site-salah-al-din-abbasid-samarra-ruinfield (Abbasid Samarra (northern ruin-field)): The UNESCO property Samarra Archaeological City is the Abbasid capital's ruin-field itself, so the two cards described one site.",
+    "historical_background": "UNESCO inscribed the city in 2007 and placed it on the List of World Heritage in Danger the same year, where it remains. About 80 percent of the site is still unexcavated. Its monuments include the Great Mosque with its spiral minaret, the Abu Dulaf mosque and the Caliphal Palace."
   },
   {
     "id": "site-salah-al-din-great-mosque",
@@ -991,7 +1081,7 @@
     "governorate": "Salah al-Din",
     "category": "Mosque and Minaret",
     "period": "Abbasid",
-    "description": "The ninth-century Great Mosque and its spiral minaret are prominent monuments of Samarra. UNESCO identifies them within the archaeological remains of the Abbasid capital.",
+    "description": "The congregational mosque of Abbasid Samarra, built in 849–852 and, at 264 by 159 m, the largest mosque in the Islamic world when it was built. Its spiral minaret, al-Malwiya, is the most unusual minaret in the Islamic world.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -1078,7 +1168,8 @@
     "alternativeNames": [
       "Spiral Minaret of samrraa mosque",
       "Malwiya Minaret"
-    ]
+    ],
+    "historical_background": "The mosque lies within Samarra Archaeological City, a World Heritage Site since 2007. UNESCO counts it with Abu Dulaf as one of the two largest mosques preserved in the city. Earlier reconstruction work at the Great Mosque used reinforced concrete, one of the conservation problems UNESCO cites for the site."
   },
   {
     "id": "site-salah-al-din-abu-dulaf",
@@ -1086,7 +1177,7 @@
     "governorate": "Salah al-Din",
     "category": "Mosque",
     "period": "Abbasid",
-    "description": "Abu Dulaf is one of the large mosques preserved in Samarra. Its unusual minaret and architectural planning contribute to the Abbasid archaeological city documented by UNESCO.",
+    "description": "One of the two great Abbasid mosques that survive at Samarra, capital of the caliphate in 836–892, known for its unusual minaret and its planning.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -1172,7 +1263,8 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Abu Dulaf mosque"
-    ]
+    ],
+    "historical_background": "With the Great Mosque, UNESCO names Abu Dulaf among the largest mosques of the Islamic world preserved at Samarra Archaeological City, inscribed on the World Heritage List in 2007."
   },
   {
     "id": "site-salah-al-din-caliphal-palace",
@@ -1180,7 +1272,7 @@
     "governorate": "Salah al-Din",
     "category": "Palace",
     "period": "Abbasid",
-    "description": "The Caliphal Palace, named Qasr al-Khalifa by UNESCO, is one of the palace remains within Samarra. It belongs to the monumental landscape of the former Abbasid capital.",
+    "description": "The palace of the Abbasid caliphs at Samarra, capital in 836–892, which UNESCO counts among the largest palaces of the Islamic world.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -1201,7 +1293,8 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Qasr al-Khalifa"
-    ]
+    ],
+    "historical_background": "Qasr al-Khalifa is one of the monumental remains of Samarra Archaeological City, inscribed on the World Heritage List in 2007 and on the List in Danger since the same year."
   },
   {
     "id": "site-salah-al-din-ashur",
@@ -1209,7 +1302,7 @@
     "governorate": "Salah al-Din",
     "category": "Archaeological City",
     "period": "Assyrian and Parthian",
-    "description": "Ashur is an ancient city beside the Tigris with temples, palaces and royal burials. It was an Assyrian political and religious centre and later revived under Parthian rule.",
+    "description": "The first capital of the Assyrian Empire and religious centre of the god Ashur, on the west bank of the Tigris. A city-state and trading hub from the 14th to the 9th century BC, it was revived under the Parthians in the 1st–2nd centuries AD.",
     "unesco": true,
     "has3D": null,
     "coverImage": null,
@@ -1232,7 +1325,8 @@
     "alternativeNames": [
       "Ashur",
       "Assur"
-    ]
+    ],
+    "historical_background": "The site preserves temples, palaces and royal burials. Babylonian forces destroyed the Assyrian city. UNESCO inscribed Ashur on 5 July 2003 and at the same time placed it on the List of World Heritage in Danger, chiefly because of the planned Makhool Dam and erosion by the Tigris; it remains on that list."
   },
   {
     "id": "site-erbil-qaysari-bazaar",
@@ -1241,7 +1335,7 @@
     "category": "Historic Market",
     "period": "",
     "period_status": "not-established",
-    "description": "Qaysari Bazaar is a historic market in downtown Erbil. A May 2024 KRG report documents a fire and describes collaborative restoration efforts with UNESCO; it does not establish the market's current condition.",
+    "description": "A historic market in downtown Erbil, where restoration with UNESCO began after a fire in 2024.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -1261,7 +1355,8 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Qaysari Bazaar"
-    ]
+    ],
+    "historical_background": "A May 2024 KRG report records the fire and describes the restoration work with UNESCO; it does not establish the market’s present condition."
   },
   {
     "id": "site-sulaymaniyah-red-terror-museum",
@@ -1269,7 +1364,7 @@
     "governorate": "Sulaymaniyah",
     "category": "Memorial Museum",
     "period": "Modern",
-    "description": "The Red Terror Museum in Slemani interprets repression under Ba'athist rule. The KRG's regional tourism overview identifies it as a place for learning about the region's modern history.",
+    "description": "A museum in Sulaymaniyah documenting repression under Ba’athist rule, a place to learn about the region’s modern history.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -1289,7 +1384,8 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Red Terror Museum"
-    ]
+    ],
+    "historical_background": "The Kurdistan Regional Government presents it among the region’s main places for learning about its modern history."
   },
   {
     "id": "site-kirkuk-qaysariyah-market",
@@ -1298,7 +1394,7 @@
     "category": "Historic Market",
     "period": "",
     "period_status": "not-established",
-    "description": "Al-Qaysariyah Market stands on the eastern side of Kirkuk Citadel. Iraq's UNESCO submission describes its commercial rooms, shops and arched upper-storey architecture.",
+    "description": "The market on the eastern side of Kirkuk Citadel, more than 150 years old, with about 300 rooms and shops and an arched upper storey.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -1319,7 +1415,8 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Al-Qaysariyah Market"
-    ]
+    ],
+    "historical_background": "Iraq’s Tentative List submission for the citadel (2021) describes its commercial rooms and architecture."
   },
   {
     "id": "site-erbil-great-mosque-erbil-citadel",
