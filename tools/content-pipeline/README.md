@@ -179,6 +179,42 @@ cannot overwrite an input file. No record is automatically approved, merged,
 deleted, renamed, or published. Existing page-content hash deduplication remains
 separate from this site-level duplicate review.
 
+### Site identity: one place, one card
+
+`dedupe_sites.py` runs the same duplicate detection on the frontend
+`src/data/sites.json` and applies reviewed decisions from
+`data/site-identity-decisions.json`. Run it after adding a discovery batch and
+before publishing its cards:
+
+```powershell
+python dedupe_sites.py report   # pairs not yet settled by a decision; exit 2 if any
+python dedupe_sites.py apply    # apply the decisions; safe to repeat
+```
+
+For the frontend data the detector also reads `parentSite`. A name shared by a
+complex and a monument inside it is reported with `relation: component` rather
+than as a plain duplicate. A shared source URL counts only when it is the first
+source of both records, so a catalogue page cited by many sites does not pair
+them; `--all` lists those low-confidence pairs too. Two records whose
+site-precision coordinates come from the same Wikidata item are a
+high-confidence match.
+
+Each decision has a `reason` and one of three actions:
+
+- `merge` — two cards describe one place. The `keep` record gains the other
+  record's name (or the decision's `alias`, when the old card title is not a
+  name), its alternative names in every language and its sources. Its own
+  names are never removed. It gains coordinates only when it has none. The old
+  id is listed in `mergedFrom`, and its components now point at `keep`.
+- `component` — a monument inside a larger complex (a mosque on a mound, a gate
+  of a city). Sets the child's `parentSite`. Both keep their own cards.
+- `distinct` — similar names, different places (same saint in two towns,
+  numbered survey sites). Nothing changes; the pair leaves the report.
+
+Run `apply` again after rebuilding any batch, so merged records do not
+reappear. `tests/schema.test.mjs` fails if a merged id is back, or if two cards
+share a name or alternative name without a component link or a decision.
+
 ## P5-09 / P5-10 — multiple sources and reliability review
 
 `attach_evidence.py` builds a separate, unpublished evidence view for one site.

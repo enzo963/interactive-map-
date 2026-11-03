@@ -32,18 +32,33 @@ def site_names(record):
     return {text for value in values if (text := normalize_name(value))}
 
 
+def identity_url(value):
+    """Normalized source URL, or None when it cannot be parsed."""
+    try:
+        parsed = urlparse(normalize_url(value))
+    except (ValueError, TypeError):
+        return None
+    # Tracking parameters are irrelevant to a possible identity match.
+    query = [(key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True) if not key.casefold().startswith("utm_") and key.casefold() not in {"fbclid", "gclid"}]
+    return urlunparse(parsed._replace(query=urlencode(sorted(query))))
+
+
 def source_urls(record):
-    urls = set()
     if not isinstance(record, dict) or not isinstance(record.get("sources"), list):
-        return urls
-    for source in record["sources"]:
-        if not isinstance(source, dict):
-            continue
-        try:
-            parsed = urlparse(normalize_url(source.get("url")))
-        except (ValueError, TypeError):
-            continue
-        # Tracking parameters are irrelevant to a possible identity match.
-        query = [(key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True) if not key.casefold().startswith("utm_") and key.casefold() not in {"fbclid", "gclid"}]
-        urls.add(urlunparse(parsed._replace(query=urlencode(sorted(query)))))
-    return urls
+        return set()
+    return {url for source in record["sources"] if isinstance(source, dict) and (url := identity_url(source.get("url")))}
+
+
+def primary_source_url(record):
+    sources = record.get("sources") if isinstance(record, dict) else None
+    if isinstance(sources, list) and sources and isinstance(sources[0], dict):
+        return identity_url(sources[0].get("url"))
+    return None
+
+
+def site_wikidata_item(record):
+    """Wikidata item whose coordinates mark this exact site (not a town or an approximate point)."""
+    if not isinstance(record, dict) or record.get("coordinates_precision") != "site":
+        return None
+    value = record.get("coordinates_source")
+    return value if isinstance(value, str) and value.startswith("wikidata:") else None

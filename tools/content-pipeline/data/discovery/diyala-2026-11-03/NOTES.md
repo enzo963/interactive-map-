@@ -27,14 +27,14 @@ This batch adds 96 Diyala records. Diyala had no records before. 18 of them have
 - **Wikipedia** for the sites that have articles; **Wikidata** for coordinates.
 - **Yaseen 2005 (Adumatu 11)**, Map 1, through a search excerpt, for the Hamrin map names.
 - **Government and news:** the National Investment Commission investment map, Shafaq News (Tell al-Zendan, Adhaim dam), ALIPH (Khan Bani Saad), Kurdistan24 and PUKmedia (Kifri), a University of Sulaimani article (Kifri) and a University of Diyala thesis (Khanaqin district).
-- **Details removed** before the build because no fetched source supported them: a temple dedication at Ishchali, a "burnt" Ubaid house at Madhur, a construction period for the Alwand Bridge, and an ISAC document link for Rubeidheh that could not be traced.
+- **Details removed** before the build because no fetched source supported them: a temple dedication at Ishchali, a "burnt" Ubaid house at Madhur, and a construction period for the Alwand Bridge.
 
 ## Review flags
 
 - **Hamrin sites are flooded.** Most Hamrin tells lie in or beside Lake Hamrin and show only when the water is low. Their records say so.
 - **Map names are thin.** The 54 map-name records come from a search excerpt of Yaseen's map list. Their governorate is inferred from the Hamrin basin, and they have no position. Reading the full article would confirm them or allow merging them.
 - **Possible duplicates:**
-  - Kumeideh (map) and Rubeidheh (prose): Yaseen uses both spellings at no. 44; the separate ar-Rubeideh (no. 69) is the Wikidata item.
+  - Kumeideh and Tell Rubeidheh. Tell Rubeidheh is ar-Rubeideh (map no. 69), which has its own section in OIP 147. Yaseen's map labels no. 44 Kumeideh, but his text calls no. 44 Rubeidheh. Kumeideh stays a separate card until the original map is checked.
   - Khibet al-Qasim (map no. 14) is probably Tell Abu Qasim.
 - **No pin:**
   - Eshnunna and Khafajah: Wikidata gives both the same rounded point.

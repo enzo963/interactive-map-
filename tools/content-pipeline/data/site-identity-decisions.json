@@ -1,0 +1,79 @@
+{
+  "about": "Reviewed identity decisions for src/data/sites.json. Applied by dedupe_sites.py apply; see hb_pipeline/site_merge.py for what each action does.",
+  "decisions": [
+    {
+      "action": "merge",
+      "keep": "site-salah-al-din-samarra",
+      "merge": "site-salah-al-din-abbasid-samarra-ruinfield",
+      "alias": "Abbasid Samarra",
+      "reason": "The UNESCO property Samarra Archaeological City is the Abbasid capital's ruin-field itself, so the two cards described one site."
+    },
+    {
+      "action": "component",
+      "parent": "site-nineveh-tell-nebi-yunus",
+      "child": "site-nineveh-nabi-yunus-mosque",
+      "reason": "The mosque and shrine stand on the Nebi Yunus mound (Tell al-Tawba); the mound keeps its own card for the Assyrian palace beneath."
+    },
+    {
+      "action": "component",
+      "parent": "site-erbil-gund-i-topzawa",
+      "child": "site-erbil-topzawa-stele",
+      "reason": "The stele was set up at Topzawa near Sidakan, the settlement site; its present custody (in place or in Erbil) is disputed."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-nineveh-mar-addai-karamles", "site-nineveh-karamles-kar-mullissi"],
+      "reason": "A church in the modern town and the ancient mounds; they share only the town's name Karemlash."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-nineveh-mohamed-rashan-shrine", "site-nineveh-mam-rashan-shrine"],
+      "reason": "Two shrines of Pir Mehmed Reshan, near Bardarash and on Mount Sinjar, about 150 km apart."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-nineveh-mar-gorgis-qaraqosh", "site-nineveh-mar-gorgis-alqosh"],
+      "reason": "Churches of the same saint in two towns."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-erbil-girdi-helawa", "site-erbil-aliawa"],
+      "reason": "Separate entries in the Erbil archaeological site list."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-duhok-muqable-i", "site-duhok-muqable-iii"],
+      "reason": "Numbered sites of the same survey."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-sulaymaniyah-shekh-wisal-1", "site-sulaymaniyah-shekh-wisal-2"],
+      "reason": "Survey sites TJ 11 and TJ 12 of the Kokushikan Tanjarow survey."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-anbar-bijan-island", "site-anbar-rijan-island"],
+      "reason": "Different islands of the Haditha reservoir survey."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-diyala-tell-suleimah", "site-diyala-tell-yelkhi"],
+      "reason": "Different excavated Hamrin tells; only their proposed ancient names (Awal, Awalki) look alike."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-diyala-hamrin-ababra", "site-diyala-hamrin-sabra"],
+      "reason": "Separate numbered entries on Yaseen's Hamrin map."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-diyala-hamrin-as-saray", "site-diyala-hamrin-as-sara"],
+      "reason": "Sites 61 and 68 on Yaseen's Hamrin map."
+    },
+    {
+      "action": "distinct",
+      "sites": ["site-diyala-hamrin-khuzeifi", "site-diyala-hamrin-kheizif"],
+      "reason": "Sites 45 and 56 on Yaseen's Hamrin map."
+    }
+  ]
+}

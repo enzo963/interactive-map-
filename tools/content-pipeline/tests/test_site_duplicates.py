@@ -69,3 +69,29 @@ class SiteDuplicateTests(unittest.TestCase):
     def test_invalid_threshold_is_rejected(self):
         with self.assertRaises(ValueError):
             detect_possible_duplicates([], 1.1)
+
+
+class FrontendIdentityTests(unittest.TestCase):
+    def test_component_name_overlap_is_reported_with_its_relation(self):
+        mound = site(id="mound", name="Tell Nebi Yunus", alternativeNames=["Tell al-Tawba"])
+        mosque = site(id="mosque", name="Nabi Yunus Mosque", alternativeNames=["Tell al-Tawba"], parentSite="mound")
+        pairs = detect_possible_duplicates([mound, mosque])
+        self.assertEqual(pairs[0]["relation"], "component")
+        self.assertIn("alternative_name", pairs[0]["reasons"])
+
+    def test_catalogue_url_cited_after_the_primary_source_does_not_pair_sites(self):
+        catalogue = {"url": "https://example.org/catalogue"}
+        a = site(name="First Mosque", sources=[{"url": "https://example.org/first"}, catalogue])
+        b = site(id="two", name="Second Church", sources=[{"url": "https://example.org/second"}, catalogue])
+        self.assertEqual(detect_possible_duplicates([a, b]), [])
+
+    def test_same_site_precision_wikidata_item_is_high_confidence(self):
+        a = site(name="Bridge of Khanaqin", sources=[], coordinates_source="wikidata:Q1", coordinates_precision="site")
+        b = site(id="two", name="Alwand Bridge", sources=[], coordinates_source="wikidata:Q1", coordinates_precision="site")
+        pairs = detect_possible_duplicates([a, b])
+        self.assertEqual((pairs[0]["confidence"], pairs[0]["reasons"]), ("high", ["same_wikidata_item"]))
+
+    def test_shared_town_wikidata_point_is_not_an_identity(self):
+        a = site(name="Mar Bena Church", sources=[], coordinates_source="wikidata:Q2", coordinates_precision="settlement")
+        b = site(id="two", name="Mart Mariam Church", sources=[], coordinates_source="wikidata:Q2", coordinates_precision="settlement")
+        self.assertEqual(detect_possible_duplicates([a, b]), [])
