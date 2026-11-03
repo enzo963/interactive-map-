@@ -50,6 +50,8 @@ export default {
   "Image pending for {name}": "Bild für {name} folgt",
   "Image unavailable": "Bild nicht verfügbar",
   "Image pending": "Bild folgt",
+  "No verified photograph of {name}": "Kein geprüftes Foto von {name}",
+  "No verified photograph": "Kein geprüftes Foto",
   "Archive No.": "Archiv-Nr.",
   "Digital and designation indicators": "Hinweise zu Digitalisierung und Status",
   "View card": "Karte ansehen",

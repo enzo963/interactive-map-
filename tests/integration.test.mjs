@@ -651,7 +651,9 @@ test('Site Details shows cover-only and empty galleries, excluding restricted an
     { src: 'javascript:alert(1)', alt: 'Invalid image' }] });
   assert.equal(all('.hb-gallery img').length, 1);
   assert.equal($('.hb-gallery img').getAttribute('src'), '/only-cover.jpg');
-  await navigate('/sites/hatra');
+  sites.push(normalizeSites([{ id: 'imageless-site', name: 'Imageless test', slug: 'imageless-test', governorate: 'Erbil',
+    description: 'A heritage record without any approved image.', coverImage: null, galleryImages: [], sources: [] }])[0]);
+  await navigate('/sites/imageless-test');
   assert.match($('#gallery').textContent, /No images are available/);
 });
 

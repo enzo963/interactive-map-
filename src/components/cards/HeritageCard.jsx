@@ -45,6 +45,36 @@ const cardRefinementStyles = `
   text-align: center;
   font-size: clamp(.5rem, 3cqw, .875rem);
 }
+.hb-card--refined .hb-card__placeholder--fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2cqw;
+  background:
+    radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.55), transparent 62%),
+    repeating-linear-gradient(45deg, rgba(29, 33, 30, 0.06) 0 1px, transparent 1px 2.5cqw),
+    var(--hb-sand);
+}
+.hb-card--refined .hb-card__fallback-mark {
+  width: 26cqw;
+  height: auto;
+  color: var(--hb-terracotta);
+  opacity: 0.85;
+}
+.hb-card--refined .hb-card__fallback-type {
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.14em;
+}
+.hb-card--refined .hb-card__fallback-note {
+  font-size: max(0.5rem, 2.4cqw);
+  letter-spacing: 0.08em;
+  opacity: 0.75;
+  text-transform: none;
+}
 .hb-card--refined .hb-card__badges {
   top: 2cqw;
   bottom: auto;
@@ -124,12 +154,27 @@ const cardRefinementStyles = `
 `;
 
 
-function CardImage({ cover, name, priority }) {
+// Intentional fallback for a card without a verified photograph of the site itself: the Heritage
+// Bridge arch mark and the site type, never a stand-in photo of another place.
+function CardFallback({ name, siteType }) {
+  return (
+    <div className="hb-card__placeholder hb-card__placeholder--fallback" role="img" aria-label={t('No verified photograph of {name}', { name })}>
+      <svg className="hb-card__fallback-mark" viewBox="0 0 64 32" aria-hidden="true" focusable="false">
+        <path d="M4 30h56M10 30V18a22 14 0 0 1 44 0v12M22 30V21a10 7 0 0 1 20 0v9" fill="none" stroke="currentColor" strokeWidth="1.5" />
+      </svg>
+      {siteType && <span className="hb-card__fallback-type">{t(siteType)}</span>}
+      <span className="hb-card__fallback-note">{t('No verified photograph')}</span>
+    </div>
+  );
+}
+
+function CardImage({ cover, name, siteType, priority }) {
   const [failed, setFailed] = useState(false);
-  if (!cover || failed) {
+  if (!cover) return <CardFallback name={name} siteType={siteType} />;
+  if (failed) {
     return (
-      <div className="hb-card__placeholder" role="img" aria-label={failed ? t('Image unavailable for {name}', { name }) : t('Image pending for {name}', { name })}>
-        <span>{failed ? t('Image unavailable') : t('Image pending')}</span>
+      <div className="hb-card__placeholder" role="img" aria-label={t('Image unavailable for {name}', { name })}>
+        <span>{t('Image unavailable')}</span>
       </div>
     );
   }
@@ -177,7 +222,7 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
         </header>
 
         <figure className="hb-card__media">
-          <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} priority={priority} />
+          <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} siteType={site.siteType} priority={priority} />
 
           {(site.isUnesco || site.hasModel) && (
             <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
