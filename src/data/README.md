@@ -15,7 +15,7 @@ Required — a card is hidden until all of these hold:
 | `category` | What the site is (mosque, tell, bridge …), not its age-based card type. |
 | `description` | Concise: 30–600 characters, and more than the name repeated. |
 | `period` | Historical period or classification the sources support. When they give none, leave it empty and set `period_status: "not-established"`, so the gap is a recorded finding rather than an oversight. |
-| `sources` | At least one reliable source: a named source with an http(s) link. A coordinates lookup such as a Wikidata location entry places a site but does not document it, so it does not count on its own. |
+| `sources` | At least one credible source (tier 1–3 below): a named source with an http(s) link from a classified publisher. A coordinates lookup such as a Wikidata location entry places a site but does not document it, so it does not count on its own. |
 | `status` | Publication status: `draft` and `withdrawn` stay hidden; `needs-review` is shown as awaiting review; `approved` is reviewed. |
 | `image_status` | `none` (no cover), `pending-review` (a cover without full license and publication approval) or `approved` (a cover the card may show, see `coverApproval.js`). It must match `coverImage`. |
 
@@ -29,6 +29,45 @@ in the record contract below. `check:cards` counts these gaps among visible card
 Every approved record must meet the contract; `npm test` and `check:cards` fail
 otherwise. Discovery batch scripts and the map editor write `image_status` and
 `period_status`; the editor saves new pins as hidden drafts.
+
+## Source verification
+
+`source-credibility.json` rates every cited publisher (lower tier is stronger):
+
+| Tier | Publishers | Supports a card |
+|---|---|---|
+| 1 | UNESCO and its advisory bodies, governmental heritage authorities | yes |
+| 2 | Academic publications, universities, archaeological missions, museums, archives, research institutes, reputable cultural heritage organisations, official government bodies | yes |
+| 3 | Encyclopaedias (including Wikipedia), established news organisations, non-specialist NGOs | yes, but queued for a stronger source |
+| 4 | Tourism, travel, commercial and personal sites, user-contributed databases | no: discovery only |
+| locator | Coordinate lookups and media hosting (Wikidata, Commons) | no |
+
+A publisher not in the file supports nothing until someone classifies it, and the
+tests fail while any cited domain is unclassified. When a weak host carries a
+stronger work, such as a journal article copied to Kurdipedia, the source may set
+`sourceType` (`academic-publication`, `excavation-report`, `news-report`) with a
+`sourceTypeNote` saying what it is. Without the note the host's tier applies.
+
+Cards list sources strongest first (`siteAdapter.js`), so a tourism page or
+coordinate lookup never reads as the primary evidence. Within a tier the recorded
+order is kept.
+
+The workflow for a new candidate:
+
+1. Discover from any source, including tourism sites and blogs.
+2. Before the card is built, cite the strongest evidence available: tier 1–2
+   wherever it exists, and tier 3 only when nothing stronger was found.
+3. Run `npm run check:cards -- --queue`. Hidden records show what they lack. Visible
+   cards in the review queue are flagged:
+   - `reference-only`: best evidence is tier 3.
+   - `needs-corroboration`: a UNESCO property, ancient city, historic town,
+     citadel, complex with component cards, or destroyed or rebuilt site with
+     fewer than two credible publishers.
+   - `discovery-cited`: a tier-4 page is still cited.
+   - `unclassified-source`: a publisher needs a tier.
+4. Work the queue: replace or corroborate the weak evidence, then publish or approve.
+
+The queue never hides a card; only the contract above does.
 
 # Heritage record contract — P5-06
 

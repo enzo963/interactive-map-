@@ -41,6 +41,16 @@ def src(name, url, accessed=TODAY, level='full-text', locator=None):
     entry = {'sourceName': name, 'url': url, 'evidenceId': None, 'accessedAt': accessed, 'accessLevel': level}
     if locator:
         entry['locator'] = locator
+    return _declare_mirror(entry)
+
+
+# The survey article is cited from a copy on Kurdipedia; the card contract rates the work, not the host.
+MIRRORS = {EPAS: ('academic-publication', 'Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia.')}
+
+
+def _declare_mirror(entry):
+    if entry['url'] in MIRRORS:
+        entry['sourceType'], entry['sourceTypeNote'] = MIRRORS[entry['url']]
     return entry
 
 

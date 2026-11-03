@@ -119,6 +119,7 @@ export default {
   "Cave": "Höhle",
   "Caravanserai": "Karawanserei",
   "20th century": "20. Jahrhundert",
+  "Second World War": "Zweiter Weltkrieg",
   "Abbasid (first attested)": "Abbasidisch (erstmals bezeugt)",
   "Abbasid; minaret Bahdinan": "Abbasidisch; Minarett aus der Bahdinan-Zeit",
   "Achaemenid mound; 17th-century church": "Achämenidischer Siedlungshügel; Kirche aus dem 17. Jahrhundert",

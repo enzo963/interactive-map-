@@ -1909,7 +1909,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 221; EPAS Site 2"
+        "locator": "p. 221; EPAS Site 2",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikidata Q25404315 (coordinates)",
@@ -1975,7 +1977,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 220; EPAS Site 31"
+        "locator": "p. 220; EPAS Site 31",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikidata Q115521019 (coordinates)",
@@ -2022,7 +2026,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 218; EPAS Site 17"
+        "locator": "p. 218; EPAS Site 17",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikipedia — Qasr Shemamok",
@@ -2087,7 +2093,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 222; EPAS Site 6"
+        "locator": "p. 222; EPAS Site 6",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikidata Q140609018 (coordinates)",
@@ -2210,7 +2218,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213; EPAS Site 27"
+        "locator": "p. 213; EPAS Site 27",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikidata Q108147342 (coordinates)",
@@ -2254,7 +2264,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213; EPAS Site 5"
+        "locator": "p. 213; EPAS Site 5",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikidata Q108147320 (coordinates)",
@@ -2429,7 +2441,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213; EPAS Site 228"
+        "locator": "p. 213; EPAS Site 228",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2459,7 +2473,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213; EPAS Site 272"
+        "locator": "p. 213; EPAS Site 272",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       },
       {
         "sourceName": "Wikipedia — List of archaeological sites in Erbil Governorate",
@@ -2500,7 +2516,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213; EPAS Site 466"
+        "locator": "p. 213; EPAS Site 466",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2533,7 +2551,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 213"
+        "locator": "p. 213",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2563,7 +2583,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 214; EPAS Site 45"
+        "locator": "p. 214; EPAS Site 45",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2596,7 +2618,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 218; EPAS Site 220"
+        "locator": "p. 218; EPAS Site 220",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2629,7 +2653,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 220; EPAS Site 246"
+        "locator": "p. 220; EPAS Site 246",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2662,7 +2688,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 220; EPAS Site 282"
+        "locator": "p. 220; EPAS Site 282",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2692,7 +2720,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 221; EPAS Site 180"
+        "locator": "p. 221; EPAS Site 180",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2722,7 +2752,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 222; EPAS Site 130"
+        "locator": "p. 222; EPAS Site 130",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2752,7 +2784,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 222; EPAS Site 404"
+        "locator": "p. 222; EPAS Site 404",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2782,7 +2816,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 224; EPAS Site 207"
+        "locator": "p. 224; EPAS Site 207",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -2815,7 +2851,9 @@
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
-        "locator": "p. 224; EPAS Site 325"
+        "locator": "p. 224; EPAS Site 325",
+        "sourceType": "academic-publication",
+        "sourceTypeNote": "Copy of Ur et al. 2021, Iraq 83 (British Institute for the Study of Iraq), hosted on Kurdipedia."
       }
     ],
     "unesco_status": "unknown",
@@ -4237,7 +4275,9 @@
         "url": "https://www.egerin.com/shafaq-news-duhok-excavations-reveal-five-ancient-settlement-layers/",
         "evidenceId": null,
         "accessedAt": "2026-11-03",
-        "accessLevel": "search-snippet"
+        "accessLevel": "search-snippet",
+        "sourceType": "news-report",
+        "sourceTypeNote": "Mirror of a Shafaq News report."
       }
     ],
     "unesco_status": "unknown",
@@ -24099,7 +24139,7 @@
     ],
     "approximateLocation": "Hamrin basin",
     "latitude": 34.17,
-    "longitude": 45,
+    "longitude": 45.0,
     "coordinates_source": "wikidata:Q108047701",
     "coordinates_precision": "approximate",
     "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
@@ -24807,14 +24847,22 @@
     "name": "Khanaqin War Cemetery",
     "governorate": "Diyala",
     "category": "Cemetery",
-    "period": "20th century",
-    "description": "A Commonwealth War Graves Commission cemetery at Khanaqin.",
+    "period": "Second World War",
+    "description": "A Second World War cemetery holding 104 Commonwealth servicemen, 437 Polish soldiers and 3 Arab Legionnaires. Many of the Poles, former prisoners of war in Russia, reached Khanaqin by September 1942 in poor health and died there. As the site became too hard to maintain, the Commission commemorated them from 1965 on a memorial in Baghdad (North Gate) War Cemetery.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
     "image_status": "none",
     "sources": [
+      {
+        "sourceName": "Commonwealth War Graves Commission — Baghdad (North Gate) (Khanaqin) Memorial",
+        "url": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/2090521/baghdad-north-gate-khanaqin-memorial/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet",
+        "locator": "History"
+      },
       {
         "sourceName": "Wikidata Q70633320 (coordinates)",
         "url": "https://www.wikidata.org/wiki/Q70633320",
@@ -24828,13 +24876,18 @@
     "verification_status": "needs-review",
     "slug": "khanaqin-war-cemetery",
     "discovery_batch": "diyala-2026-11-03",
-    "evidence_level": "limited",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Baghdad (North Gate) (Khanaqin) Memorial"
+    ],
     "approximateLocation": "Khanaqin",
+    "estimated_year": 1942,
+    "destruction_status": "No longer maintained; commemorated in Baghdad since 1965",
     "latitude": 34.345578,
     "longitude": 45.373286,
     "coordinates_source": "wikidata:Q70633320",
     "coordinates_precision": "site",
-    "review_notes": "Only the Wikidata record was consulted; the CWGC page should be added."
+    "review_notes": "The CWGC page refused automated access (HTTP 403), so the facts come from search excerpts of it; confirm them on the page. Whether graves remain at Khanaqin is not stated."
   },
   {
     "id": "site-diyala-eski-kifri",

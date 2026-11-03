@@ -5,8 +5,8 @@ This batch adds 96 Diyala records. Diyala had no records before. 18 of them have
 - Every new record has `status: needs-review` and at least one source.
 - `build_diyala_records.py` defines the batch.
 - **New field: `evidence_level`.** Each record says how well it is documented:
-  - `documented` (31 records): an excavation report, institutional page or encyclopaedia entry describes the site and its period.
-  - `limited` (65 records): the site is known only as a name on a survey map, in a government list or in one news item. The description says what is missing. Nothing was filled in.
+  - `documented` (32 records): an excavation report, institutional page or encyclopaedia entry describes the site and its period.
+  - `limited` (64 records): the site is known only as a name on a survey map, in a government list or in one news item. The description says what is missing. Nothing was filled in.
 
 ## Coverage
 
@@ -48,7 +48,7 @@ This batch adds 96 Diyala records. Diyala had no records before. 18 of them have
   - The Shafaq report dates Tell al-Zendan to the 2nd–3rd century CE, which is early for a Sasanian fortress.
   - The Adhaim dam is called Abbasid by the investment map and 4th-century by Shafaq. Its reported listing proposal has no official source.
 - **Kifri records** (Saray, bazaar, palace, house) rest on news excerpts that only name them.
-- **Khanaqin War Cemetery** has only a Wikidata source; the CWGC page should be added.
+- **Khanaqin War Cemetery** now cites the Commonwealth War Graves Commission's Khanaqin memorial page. That page refused automated access (HTTP 403), so the figures come from search excerpts of it; confirm them on the page.
 
 ## Not entered
 

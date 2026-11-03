@@ -293,9 +293,17 @@ RECORDS = [
         [src(NIC_NAME, NIC, C1, 'search-snippet', 'Historical sites')], alt=['مرقد النبي دانيال'], evidence='limited',
         notes='Not the Prophet Daniel mosque in Kirkuk Citadel; identity and location to establish.'),
     rec('khanaqin-war-cemetery', 'Khanaqin War Cemetery', 'Cemetery',
-        'A Commonwealth War Graves Commission cemetery at Khanaqin.', [wd('Q70633320')],
-        period='20th century', coords=(34.345578, 45.373286, 'Q70633320', 'site'), location='Khanaqin', evidence='limited',
-        notes='Only the Wikidata record was consulted; the CWGC page should be added.'),
+        'A Second World War cemetery holding 104 Commonwealth servicemen, 437 Polish soldiers and 3 Arab Legionnaires. '
+        'Many of the Poles, former prisoners of war in Russia, reached Khanaqin by September 1942 in poor health and died '
+        'there. As the site became too hard to maintain, the Commission commemorated them from 1965 on a memorial in '
+        'Baghdad (North Gate) War Cemetery.',
+        [src('Commonwealth War Graves Commission — Baghdad (North Gate) (Khanaqin) Memorial',
+             'https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/2090521/baghdad-north-gate-khanaqin-memorial/',
+             level='search-snippet', locator='History'), wd('Q70633320')],
+        period='Second World War', year=1942, coords=(34.345578, 45.373286, 'Q70633320', 'site'), location='Khanaqin',
+        alt=['Baghdad (North Gate) (Khanaqin) Memorial'], destroyed='No longer maintained; commemorated in Baghdad since 1965',
+        notes='The CWGC page refused automated access (HTTP 403), so the facts come from search excerpts of it; '
+              'confirm them on the page. Whether graves remain at Khanaqin is not stated.'),
 
     # ── Kifri (administered by the Kurdistan Region) ────────────────────────────────────────
     rec('eski-kifri', 'Eski Kifri', 'Archaeological Site',
