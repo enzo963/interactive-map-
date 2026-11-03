@@ -126,7 +126,7 @@ test('legacy combined and snake-case images stay readable', () => {
 });
 
 test('approved dataset import preserves Hatra identity and its existing route', () => {
-  const old = JSON.parse(execFileSync('git', ['show', 'HEAD:src/data/sites.json'], { encoding: 'utf8' }));
+  const old = JSON.parse(execFileSync('git', ['show', 'HEAD:src/data/sites.json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
   const before = normalizeSites(old).find((s) => s.id === 'site-001');
   const current = normalizeSites(frontend).find((s) => s.id === 'site-001');
   for (const key of ['id', 'slug', 'href', 'name', 'governorate', 'siteType', 'period', 'isUnesco']) assert.deepEqual(current[key], before[key], key);
