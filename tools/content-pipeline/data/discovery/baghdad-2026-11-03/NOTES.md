@@ -53,3 +53,27 @@ This batch adds 85 Baghdad records, which brings Baghdad from 6 records to 91. 8
 - **Modern mosques:** Umm al-Qura, al-Rahman, 17 Ramadan.
 - **Baghdad's 1,800 registered heritage houses** have no public named list. The 2026 survey of the State Board of Heritage covers al-Rashid, A'dhamiyya, Bab al-Mu'adham, Kadhimiya and Karrada.
 - **Nahrawan Canal.** It lies mostly outside Baghdad, and its Wikidata point is in Salah al-Din.
+
+## Corroboration pass (3 November 2026)
+
+This pass added institutional sources to 23 cards whose strongest evidence was Wikipedia. The `CORROBORATION` table in `build_baghdad_records.py` lists them. Baghdad's source review queue fell from 73 cards to 50.
+
+- **Sources added:**
+  - Archnet: 16 monuments, including the Mirjaniyya, Kadhimiya, Qadiriyya, Zumurrud Khatun, Suhrawardi, Murad Pasha, Khan Mirjan, the Wastani and Talisman gates, the Khulafa mosque and minaret, Haydar-Khana, Ahmadiyya, the gymnasium, the university and two monuments.
+  - Encyclopaedia Iranica: Ctesiphon, Seleucia and the Round City.
+  - UNESCO: the Tentative List entry for Aqar Quf.
+  - Others: the DAI library record of the Tell ed-Der publication, the CWGC page for North Gate, and Diarna for the Meir Tweg synagogue and the Shamash School.
+- **UNESCO status.** Dur-Kurigalzu is now `unesco: false`, with `heritage_status` recording its Tentative List entry of 31 January 2025.
+- **Search-excerpt access only.** Archnet rate-limited automated requests (HTTP 429), Encyclopaedia Iranica and the CWGC refused them (403), and the Diarna archive was unreachable. None of these blocks was bypassed, so every added source is marked `search-snippet`. Each was added only where the result named the site itself.
+- **Conflicts recorded, not resolved.** Where a source disagrees with a card, the description is unchanged and `review_notes` records the difference:
+  - Murad Pasha mosque: 1578 or 1566.
+  - Ahmadiyya: builder and start year.
+  - Bab al-Wastani: built 1221 or c. 1100.
+  - Talisman Gate: 1221 or 1220.
+  - Khan Mirjan: restoration in 1976 or the 1980s.
+  - Mirjaniyya: which part is "now destroyed".
+  - North Gate: 4,487 or 4,480 graves.
+- **Not added:**
+  - Diarna's "Great Synagogue (Oldest)": it is not certain to be Shaf ve-Yativ.
+  - The Iranica passage on Salman Pak: the excerpt did not show which article it came from.
+- **Still reference-only:** most of the Ottoman and later mosques, the Abbasid palace sites, markets and streets, royal-era buildings, the Iraq Museum and the 20th-century monuments. Candidates for the next pass are the Iraqi Sunni and Shia endowment offices, the State Board of Antiquities and Heritage, the Iraq Museum and Archnet's Makiya and Munir archives.
