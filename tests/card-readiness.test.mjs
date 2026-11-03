@@ -131,3 +131,20 @@ test('every source cited in the data comes from a classified domain', () => {
   assert.deepEqual(unclassified, []);
   assert.ok(records.filter(isVisibleCard).every(({ sources }) => bestTier(sources) !== null));
 });
+
+// Approved cards say what the place is, where, why it matters and when, in a sentence or two;
+// Site Details carries the expanded text. Generic praise says nothing about the specific site.
+const FILLER = [/important historical (place|site)/i, /rich (history|heritage)/i, /\bsignificant (historical )?site\b/i,
+  /must[- ]see/i, /\bbreathtaking\b/i, /\bfascinating\b/i, /\bplace of great\b/i, /\bsteeped in history\b/i];
+
+test('approved cards carry a concise, specific description and an expanded background', () => {
+  for (const record of records.filter(({ status }) => status === 'approved')) {
+    assert.ok(record.description.length <= 300, `${record.id}: card description over 300 characters`);
+    assert.ok(record.historical_background?.trim(), `${record.id}: no historical_background for Site Details`);
+    assert.notEqual(record.historical_background.trim(), record.description.trim(), record.id);
+    for (const text of [record.description, record.historical_background]) {
+      const filler = FILLER.find((pattern) => pattern.test(text));
+      assert.equal(filler, undefined, `${record.id}: generic filler ${filler}`);
+    }
+  }
+});
