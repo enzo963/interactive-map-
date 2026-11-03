@@ -114,6 +114,10 @@ def rec(slug, name, category, description, sources, period='', alt=None, coords=
     return record
 
 
+RUBEIDHEH_NOTE = ('Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text '
+                  'calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked.')
+MAP_NOTES = {'Kumeideh': 'Possibly the same site as Tell Rubeidheh. ' + RUBEIDHEH_NOTE}
+
 LIMITED_NIC = ('Known only from a line in the National Investment Commission’s list of Diyala historical sites; '
                'locality, period and present condition are not documented in the sources found.')
 
@@ -212,10 +216,14 @@ RECORDS = [
     rec('tellul-hamediyat', 'Tellul Hamediyat', 'Archaeological Site', 'Mounds in the Hamrin basin excavated by Kokushikan University.',
         [src(KOKUSHIKAN_NAME, KOKUSHIKAN, C1, locator='Excavation reports list')],
         alt=['Tulul al-Humeidiyat', 'Telul-Hamediyat'], location=HAMRIN, notes=FLOODED),
-    rec('tell-rubeidheh', 'Tell Rubeidheh', 'Archaeological Site', 'A Hamrin tell named on Yaseen’s map of the basin’s settlements; its character is not described in the sources found.',
-        [src(YASEEN_NAME, YASEEN, C1, 'search-snippet', 'Map 1 (ar-Rubeideh)'), wd('Q108047841')],
+    rec('tell-rubeidheh', 'Tell Rubeidheh', 'Archaeological Site',
+        'A Hamrin tell with its own section in the Oriental Institute’s Tell Abada volume; its character is not described in the '
+        'excerpts found.',
+        [src('Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)', 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf', C1, 'search-snippet',
+             'Section TELL AR-RUBEIDHEH'),
+         src(YASEEN_NAME, YASEEN, C1, 'search-snippet', 'Map 1, site 69 (ar-Rubeideh)'), wd('Q108047841')],
         alt=['Tell ar-Rubeidheh', 'ar-Rubeideh'], coords=(34.34, 44.91, 'Q108047841', 'approximate'), location=HAMRIN, evidence='limited',
-        notes=FLOODED + ' Yaseen’s map also has Kumeideh, which the prose spells Rubeidheh; check whether they are one site.'),
+        notes=FLOODED + ' ' + RUBEIDHEH_NOTE),
     rec('tell-abu-husaini', 'Tell Abu Husaini', 'Archaeological Site', 'An Ubaid-period site excavated by the Italian CRAST mission.',
         [src(CRAST_NAME, CRAST, C1, locator='Main article')], alt=['Abu Husaini'], period='Ubaid', location=HAMRIN, notes=FLOODED),
     rec('tell-hassan', 'Tell Hassan', 'Archaeological Site', 'A Halaf-period site excavated by the Italian CRAST mission.',
@@ -336,7 +344,7 @@ def map_records():
                        'position are not documented in the sources found.',
                        sources, alt=[cand['name']] + (cand.get('alternativeNames') or []), location=HAMRIN, evidence='limited',
                        notes='Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; '
-                             'likely flooded by Lake Hamrin.'))
+                             'likely flooded by Lake Hamrin.' + (' ' + MAP_NOTES[cand['name']] if cand['name'] in MAP_NOTES else '')))
     return out
 
 

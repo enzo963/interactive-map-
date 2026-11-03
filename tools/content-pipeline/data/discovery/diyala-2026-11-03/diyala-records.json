@@ -851,19 +851,27 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
-    "description": "A Hamrin tell named on Yaseen’s map of the basin’s settlements; its character is not described in the sources found.",
+    "description": "A Hamrin tell with its own section in the Oriental Institute’s Tell Abada volume; its character is not described in the excerpts found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
     "sources": [
       {
+        "sourceName": "Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Section TELL AR-RUBEIDHEH"
+      },
+      {
         "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
         "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "search-snippet",
-        "locator": "Map 1 (ar-Rubeideh)"
+        "locator": "Map 1, site 69 (ar-Rubeideh)"
       },
       {
         "sourceName": "Wikidata Q108047841 (coordinates)",
@@ -888,7 +896,7 @@
     "longitude": 44.91,
     "coordinates_source": "wikidata:Q108047841",
     "coordinates_precision": "approximate",
-    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Yaseen’s map also has Kumeideh, which the prose spells Rubeidheh; check whether they are one site."
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
   },
   {
     "id": "site-diyala-tell-abu-husaini",
@@ -2865,7 +2873,7 @@
       "Kumeideh"
     ],
     "approximateLocation": "Hamrin basin",
-    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin. Possibly the same site as Tell Rubeidheh. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
   },
   {
     "id": "site-diyala-hamrin-khuzeifi",

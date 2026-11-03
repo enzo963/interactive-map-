@@ -914,6 +914,20 @@
         "url": "https://whc.unesco.org/en/list/276/",
         "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
         "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Abbasid Samarra",
+        "url": "https://en.wikipedia.org/wiki/Abbasid_Samarra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q20717633 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20717633",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "al-din-samarra",
@@ -921,8 +935,19 @@
     "status": "approved",
     "verification_status": "approved",
     "alternativeNames": [
-      "Samarra Archaeological City"
-    ]
+      "Samarra Archaeological City",
+      "Abbasid Samarra",
+      "Surra Man Ra’a",
+      "سامراء العباسية"
+    ],
+    "latitude": 34.361667,
+    "longitude": 43.801944,
+    "coordinates_source": "wikidata:Q20717633",
+    "coordinates_precision": "approximate",
+    "mergedFrom": [
+      "site-salah-al-din-abbasid-samarra-ruinfield"
+    ],
+    "review_notes": "Merged site-salah-al-din-abbasid-samarra-ruinfield (Abbasid Samarra (northern ruin-field)): The UNESCO property Samarra Archaeological City is the Abbasid capital's ruin-field itself, so the two cards described one site."
   },
   {
     "id": "site-salah-al-din-great-mosque",
@@ -3092,7 +3117,8 @@
     "discovery_batch": "erbil-2026-11-03",
     "approximateLocation": "Topzawa, near Sidakan",
     "estimated_year": "c. 730 BC",
-    "review_notes": "Current custody disputed (in situ vs. Erbil museum). Year is the approximate reign of Rusa I."
+    "review_notes": "Current custody disputed (in situ vs. Erbil museum). Year is the approximate reign of Rusa I.",
+    "parentSite": "site-erbil-gund-i-topzawa"
   },
   {
     "id": "site-erbil-kelashin-stele",
@@ -6160,7 +6186,7 @@
       "Tell al-Tawba"
     ],
     "approximateLocation": "Tell Nebi Yunus, East Mosul",
-    "parentSite": "site-nineveh-ancient-nineveh",
+    "parentSite": "site-nineveh-tell-nebi-yunus",
     "destruction_status": "Razed (24 July 2014)",
     "latitude": 36.347953,
     "longitude": 43.159535,
@@ -21362,60 +21388,6 @@
     "coordinates_precision": "site"
   },
   {
-    "id": "site-salah-al-din-abbasid-samarra-ruinfield",
-    "name": "Abbasid Samarra (northern ruin-field)",
-    "governorate": "Salah al-Din",
-    "category": "Archaeological City",
-    "period": "Abbasid",
-    "description": "The Abbasid capital of 836–892 founded by al-Mu‘tasim stretched for dozens of kilometres along the east bank of the Tigris. It was soon abandoned, so its planned streets, houses, palaces and mosques survive as one of the largest ruin-fields of the Islamic world.",
-    "unesco": null,
-    "has3D": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "sources": [
-      {
-        "sourceName": "Wikipedia — Abbasid Samarra",
-        "url": "https://en.wikipedia.org/wiki/Abbasid_Samarra",
-        "evidenceId": null,
-        "accessedAt": "2026-11-03",
-        "accessLevel": "full-text"
-      },
-      {
-        "sourceName": "UNESCO World Heritage Centre — Samarra Archaeological City",
-        "url": "https://whc.unesco.org/en/list/276/",
-        "evidenceId": null,
-        "accessedAt": "2026-11-02",
-        "accessLevel": "full-text",
-        "locator": "Description / Outstanding Universal Value"
-      },
-      {
-        "sourceName": "Wikidata Q20717633 (coordinates)",
-        "url": "https://www.wikidata.org/wiki/Q20717633",
-        "evidenceId": null,
-        "accessedAt": "2026-11-03",
-        "accessLevel": "full-text"
-      }
-    ],
-    "unesco_status": "unknown",
-    "status": "needs-review",
-    "verification_status": "needs-review",
-    "slug": "abbasid-samarra-ruinfield",
-    "discovery_batch": "salah-al-din-2026-11-03",
-    "alternativeNames": [
-      "Surra Man Ra’a",
-      "سامراء العباسية"
-    ],
-    "approximateLocation": "East bank of the Tigris, Samarra",
-    "estimated_year": 836,
-    "parentSite": "site-salah-al-din-samarra",
-    "heritage_status": "Component of Samarra Archaeological City (UNESCO World Heritage, 2007); not separately inscribed.",
-    "latitude": 34.361667,
-    "longitude": 43.801944,
-    "coordinates_source": "wikidata:Q20717633",
-    "coordinates_precision": "approximate",
-    "review_notes": "Wikidata point sits in the northern part of the ruin-field; the site extends far beyond it."
-  },
-  {
     "id": "site-salah-al-din-al-askari-shrine",
     "name": "Al-Askari Shrine",
     "governorate": "Salah al-Din",
@@ -23335,19 +23307,27 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
-    "description": "A Hamrin tell named on Yaseen’s map of the basin’s settlements; its character is not described in the sources found.",
+    "description": "A Hamrin tell with its own section in the Oriental Institute’s Tell Abada volume; its character is not described in the excerpts found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
     "sources": [
       {
+        "sourceName": "Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Section TELL AR-RUBEIDHEH"
+      },
+      {
         "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
         "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
         "evidenceId": null,
         "accessedAt": "2026-11-02",
         "accessLevel": "search-snippet",
-        "locator": "Map 1 (ar-Rubeideh)"
+        "locator": "Map 1, site 69 (ar-Rubeideh)"
       },
       {
         "sourceName": "Wikidata Q108047841 (coordinates)",
@@ -23372,7 +23352,7 @@
     "longitude": 44.91,
     "coordinates_source": "wikidata:Q108047841",
     "coordinates_precision": "approximate",
-    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Yaseen’s map also has Kumeideh, which the prose spells Rubeidheh; check whether they are one site."
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
   },
   {
     "id": "site-diyala-tell-abu-husaini",
@@ -25349,7 +25329,7 @@
       "Kumeideh"
     ],
     "approximateLocation": "Hamrin basin",
-    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin. Possibly the same site as Tell Rubeidheh. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
   },
   {
     "id": "site-diyala-hamrin-khuzeifi",

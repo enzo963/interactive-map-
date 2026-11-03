@@ -27,6 +27,35 @@ test('frontend data obeys the shared schema with unique IDs', () => {
   assert.equal(Object.hasOwn(frontend[0], 'images'), false);
 });
 
+// One place, one card: a name or alternative name shared by two records must be a
+// complex and its component, or a pair settled in the identity decisions file.
+test('no two cards share a name unless a reviewed decision or component link explains it', () => {
+  const decisions = read('../tools/content-pipeline/data/site-identity-decisions.json').decisions;
+  const settled = new Set(decisions.flatMap(({ action, keep, merge, parent, child, sites = [] }) => {
+    if (action === 'merge') return [[keep, merge]];
+    if (action === 'component') return [[parent, child]];
+    return sites.flatMap((a, i) => sites.slice(i + 1).map(b => [a, b]));
+  }).map(pair => pair.sort().join('|')));
+  const merged = new Set(frontend.flatMap(record => record.mergedFrom ?? []));
+  assert.deepEqual(frontend.filter(record => merged.has(record.id)).map(record => record.id), []);
+
+  const key = name => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const byName = new Map();
+  for (const record of frontend) {
+    for (const name of new Set([record.name, ...(record.alternativeNames ?? [])].map(key).filter(Boolean))) {
+      byName.set(name, [...(byName.get(name) ?? []), record]);
+    }
+  }
+  const clashes = [];
+  for (const [name, records] of byName) {
+    records.forEach((a, i) => records.slice(i + 1).forEach(b => {
+      const linked = a.parentSite === b.id || b.parentSite === a.id;
+      if (!linked && !settled.has([a.id, b.id].sort().join('|'))) clashes.push(`${name}: ${a.id} ~ ${b.id}`);
+    }));
+  }
+  assert.deepEqual(clashes, []);
+});
+
 test('every required schema field is enforced', () => {
   for (const field of schema.items.required) {
     const record = structuredClone(frontend[0]); delete record[field];
