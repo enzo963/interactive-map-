@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Great Mosque of the Citadel",
@@ -60,11 +61,13 @@
     "governorate": "Kirkuk",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Kirkuk Citadel named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -96,6 +99,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "DRArch — Resilience in intentionally destroyed historic settlements: Kirkuk Citadel and the old town of Van",
@@ -124,11 +128,13 @@
     "governorate": "Kirkuk",
     "category": "Historic Urban Area",
     "period": "",
+    "period_status": "not-established",
     "description": "One of the historic quarters of Kirkuk Citadel described in the UNESCO dossier. About 800 citadel houses were bulldozed in 1997–98, leaving nine monuments and nine small groups of houses.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -165,11 +171,13 @@
     "governorate": "Kirkuk",
     "category": "Historic Urban Area",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic quarter of Kirkuk Citadel described in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -199,11 +207,13 @@
     "governorate": "Kirkuk",
     "category": "Historic Urban Area",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic quarter of Kirkuk Citadel described in the UNESCO dossier, home of the Mother of Sorrows Church.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -233,11 +243,13 @@
     "governorate": "Kirkuk",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -267,11 +279,13 @@
     "governorate": "Kirkuk",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "The “Cannon Gate” of Kirkuk Citadel named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -303,11 +317,13 @@
     "governorate": "Kirkuk",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -337,11 +353,13 @@
     "governorate": "Kirkuk",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Kirkuk Citadel (submitted 2021)",
@@ -376,6 +394,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mosque of the Prophet Daniel, Kirkuk",
@@ -415,6 +434,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News (Arabic) — A centuries-old takiya in Kirkuk",
@@ -446,6 +466,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Qishla of Kirkuk",
@@ -506,6 +527,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Iraq Oil Report — Kirkuk’s historic stone bridge gets restored",
@@ -538,6 +560,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mariam Al Adra Church in Kirkuk",
@@ -573,6 +596,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Tahmazgerd church (the so-called Red church)",
@@ -617,6 +641,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "KirkukNow, 15 March 2021 — Buildings over 150 years old registered for renovation",
@@ -646,6 +671,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Nuzi",
@@ -707,6 +733,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
@@ -736,6 +763,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
@@ -765,6 +793,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "LMU Munich, Assyriology — Nuzi palace archives project",
@@ -794,6 +823,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell al-Fakhar",
@@ -833,6 +863,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News (Arabic) — Kirkuk: encroachments hide thousands-of-years-old antiquities",
@@ -872,6 +903,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Altun Kupri",
@@ -913,6 +945,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Türkiye Today, December 2025 — Historic Ottoman bridge in Iraq remains unharmed",
@@ -964,6 +997,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Baba Gurgur",
@@ -994,11 +1028,13 @@
     "governorate": "Kirkuk",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A shrine in Hbejh village 46 km south of Kirkuk reported destroyed by Islamic State.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ASOR Cultural Heritage Initiatives — Weekly Report 16–17",

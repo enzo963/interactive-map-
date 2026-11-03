@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Eshnunna",
@@ -53,6 +54,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Khafajah",
@@ -95,6 +97,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Agrab",
@@ -146,6 +149,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Ishchali",
@@ -200,6 +204,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Choga Mami",
@@ -243,6 +248,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Abada",
@@ -302,6 +308,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Rashid",
@@ -342,6 +349,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Madhur",
@@ -389,11 +397,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A small tell excavated in 1979–80 by the Polish Centre of Mediterranean Archaeology in the Hamrin salvage programme.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Saadiya",
@@ -433,11 +443,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "The largest site in the Hamrin inundation area, 1 km east of the Diyala river (Hamrin site 12); Awal and Batir have been proposed as its ancient name.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Suleimah",
@@ -491,6 +503,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Yelkhi",
@@ -533,6 +546,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Me-Turan",
@@ -579,6 +593,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
@@ -624,11 +639,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell at Uch Tepe excavated by the Chicago–Copenhagen expedition.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
@@ -654,11 +671,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell at Uch Tepe excavated by the Chicago–Copenhagen expedition.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
@@ -692,6 +711,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Chicago Oriental Institute News & Notes — Hamrin excavations",
@@ -734,6 +754,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
@@ -770,11 +791,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A group of three mounds excavated by Kokushikan University in the Hamrin salvage campaign.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
@@ -817,11 +840,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "Mounds in the Hamrin basin excavated by Kokushikan University.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
@@ -851,11 +876,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A Hamrin tell with its own section in the Oriental Institute’s Tell Abada volume; its character is not described in the excerpts found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)",
@@ -909,6 +936,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
@@ -942,6 +970,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
@@ -970,11 +999,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A Hamrin site worked by the Italian CRAST mission.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
@@ -1000,11 +1031,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A complex of a cemetery (I) and two mounds (II, III) in the northern Hamrin basin excavated by Jean-Daniel Forest.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Forest 1980, Paléorient 6 — Kheit Qasim excavations",
@@ -1035,11 +1068,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound beside Kheit Qasim in the Hamrin basin.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Forest 1980, Paléorient 6 — Kheit Qasim excavations",
@@ -1082,6 +1117,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Dastagird",
@@ -1130,6 +1166,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News (Arabic), 5 March 2022 — Diyala begins listing two heritage monuments",
@@ -1172,6 +1209,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Shafaq News (Arabic), 5 March 2022 — Diyala begins listing two heritage monuments",
@@ -1220,11 +1258,13 @@
     "governorate": "Diyala",
     "category": "Palace",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological palace site in the Qara Tu subdistrict of Khanaqin district.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Diyala, College of Basic Education — Diyala in the Late Ottoman Period (Arabic)",
@@ -1266,11 +1306,13 @@
     "governorate": "Diyala",
     "category": "Historic Bridge",
     "period": "",
+    "period_status": "not-established",
     "description": "The historic bridge in the centre of Khanaqin joining the two banks of the Alwand (Helwan) river, named after Mount Alwand.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Alwand Bridge",
@@ -1324,6 +1366,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ALIPH — Conservation and rehabilitation of the Khan Bani Saad caravanserai",
@@ -1363,11 +1406,13 @@
     "governorate": "Diyala",
     "category": "Historic Building",
     "period": "",
+    "period_status": "not-established",
     "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
@@ -1395,11 +1440,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
@@ -1427,11 +1474,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
@@ -1455,11 +1504,13 @@
     "governorate": "Diyala",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
@@ -1492,6 +1543,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikidata Q70633320 (coordinates)",
@@ -1525,6 +1577,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Sulaimani Journal of Humanities — Archaeological and cultural architecture in Kifri",
@@ -1548,11 +1601,13 @@
     "governorate": "Diyala",
     "category": "Historic Urban Area",
     "period": "",
+    "period_status": "not-established",
     "description": "Kifri’s traditional quarter of stone, mud and gypsum houses; heritage houses fell from about 60 to 15 before a restoration campaign in April 2026.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24, 21 April 2026 — Kifri’s cultural heritage: restoration drive in Garmian",
@@ -1595,6 +1650,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
@@ -1634,6 +1690,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
@@ -1668,11 +1725,13 @@
     "governorate": "Diyala",
     "category": "Palace",
     "period": "",
+    "period_status": "not-established",
     "description": "A palace named among Kifri’s heritage sites.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
@@ -1697,11 +1756,13 @@
     "governorate": "Diyala",
     "category": "Historic House",
     "period": "",
+    "period_status": "not-established",
     "description": "A heritage house named among Kifri’s heritage sites.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
@@ -1726,11 +1787,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1759,11 +1822,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1792,11 +1857,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1825,11 +1892,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1858,11 +1927,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1891,11 +1962,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1924,11 +1997,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1957,11 +2032,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -1990,11 +2067,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2023,11 +2102,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2056,11 +2137,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2089,11 +2172,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2122,11 +2207,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2155,11 +2242,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2188,11 +2277,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2221,11 +2312,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2254,11 +2347,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2287,11 +2382,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2320,11 +2417,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2353,11 +2452,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2386,11 +2487,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2419,11 +2522,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2452,11 +2557,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2485,11 +2592,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2518,11 +2627,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2551,11 +2662,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2584,11 +2697,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2617,11 +2732,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2650,11 +2767,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2683,11 +2802,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2716,11 +2837,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2749,11 +2872,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2782,11 +2907,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2815,11 +2942,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2848,11 +2977,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2881,11 +3012,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2914,11 +3047,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2947,11 +3082,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -2980,11 +3117,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3013,11 +3152,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3046,11 +3187,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3079,11 +3222,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3112,11 +3257,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3145,11 +3292,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3178,11 +3327,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3211,11 +3362,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3244,11 +3397,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3277,11 +3432,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3310,11 +3467,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3343,11 +3502,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3376,11 +3537,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3409,11 +3572,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3442,11 +3607,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
@@ -3475,11 +3642,13 @@
     "governorate": "Diyala",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",

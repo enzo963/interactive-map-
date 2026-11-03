@@ -35,6 +35,14 @@
       "period": {
         "type": "string"
       },
+      "period_status": {
+        "enum": ["not-established"],
+        "description": "Set when the sources reviewed give no period, so an empty period is a recorded finding rather than an omission."
+      },
+      "image_status": {
+        "enum": ["none", "pending-review", "approved"],
+        "description": "none = no cover; pending-review = a cover without full license and publication approval; approved = a cover the card may show. Must match coverImage (src/utils/cardReadiness.js)."
+      },
       "description": {
         "type": "string"
       },

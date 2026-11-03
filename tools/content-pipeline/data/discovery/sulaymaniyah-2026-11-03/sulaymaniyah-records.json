@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Great Mosque of Sulaymaniyah",
@@ -63,6 +64,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "PUKmedia, 14 September 2025 — Historic bathhouse unearthed at Sulaymaniyah Sara",
@@ -116,6 +118,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Sulaymaniyah Museum",
@@ -160,6 +163,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "KurdShop — Jasana Cave, a shelter for Kurdish revolution and Kurdish journalism",
@@ -212,6 +216,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Darband-i Gawr Relief",
@@ -256,6 +261,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Dailaija Relief",
@@ -295,6 +301,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Darband-i Balula Relief",
@@ -338,6 +345,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Paikuli inscription",
@@ -378,6 +386,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Qyzqapan Tomb",
@@ -411,6 +420,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Kur u Kich Tomb",
@@ -442,6 +452,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University — Karima Swr and the Baban Highway Archaeological Survey",
@@ -484,6 +495,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "PLOS ONE (2020) — The Zagros Epipalaeolithic revisited: Palegawra cave",
@@ -523,6 +535,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Hazar Merd Cave",
@@ -555,6 +568,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Kani Shaie",
@@ -604,6 +618,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Kunara",
@@ -642,11 +657,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Caravanserai",
     "period": "",
+    "period_status": "not-established",
     "description": "A caravanserai on a hill above a bend of the Sirwan river at Sirwan village, guarding the caravan route through the pass; reconstructed shortly before 2017.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Darbandikhan Khan",
@@ -678,6 +695,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Jarmo",
@@ -723,6 +741,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kokushikan University — Karima Swr and the Baban Highway Archaeological Survey",
@@ -765,6 +784,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Barda Balka",
@@ -806,6 +826,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Rabana-Merquly",
@@ -865,6 +886,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Rabbana",
@@ -907,6 +929,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Rabana-Merquly",
@@ -945,11 +968,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Castle",
     "period": "",
+    "period_status": "not-established",
     "description": "A ruined “stone and lime” castle on a hill at Barzinjah, used by the Baban dynasty as a prison. A local archaeologist suggests it may be a thousand years old.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Srochik Castle",
@@ -988,11 +1013,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound in the Shalar valley near Penjween investigated by LMU Munich.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "LMU Munich — Gird-i Rostam excavations",
@@ -1021,6 +1048,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Radner et al., IRAQ 74 (2012) — Shahrizor Survey Project 2009–2011",
@@ -1063,6 +1091,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "FAU — Gird i Kazhaw: a Sasanian hinterland fortress in the Shahrizor",
@@ -1108,11 +1137,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A 20 m conical mound with a lower town near Said Sadiq, first sounded in 1960 before the Darbandikhan dam.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Begum",
@@ -1151,11 +1182,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound in Sulaymaniyah province studied by the German Archaeological Institute’s agrarian-worlds project.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "German Archaeological Institute — Agrarwelten Mesopotamiens",
@@ -1179,11 +1212,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A mound on the right bank of the Little Zab in the Ranya plain, dug in 1956–58 in the salvage campaign before Lake Dukan flooded it.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Bazmusian",
@@ -1226,6 +1261,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Slemani Antiquities and Heritage Directorate — Darband-i Rania project notice",
@@ -1267,6 +1303,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Slemani Antiquities and Heritage Directorate — Darband-i Rania project notice",
@@ -1289,11 +1326,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Castle",
     "period": "",
+    "period_status": "not-established",
     "description": "A late-Islamic castle near Dukan discussed with the castles of the Soran region.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Annali di Ca' Foscari. Serie orientale 60 (2024)",
@@ -1317,11 +1356,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Cave",
     "period": "",
+    "period_status": "not-established",
     "description": "A cave at Alla Quli in Bardaqaraman excavated by the University of Liverpool with the Slemani directorate.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Slemani Antiquities and Heritage Directorate — Darband-i Rania project notice",
@@ -1353,6 +1394,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Qalat-i Dinka",
@@ -1402,6 +1444,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "LMU Munich — Peshdar Plain Project",
@@ -1438,6 +1481,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Sherwana Castle",
@@ -1497,6 +1541,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Kurdistan24, 25 October 2021 — The Kurdistan Region’s historic Pasha Palace and Sherwana Castle",
@@ -1522,11 +1567,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1551,11 +1598,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1580,11 +1629,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1612,11 +1663,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1641,11 +1694,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1670,11 +1725,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1699,11 +1756,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1728,11 +1787,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1757,11 +1818,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1786,11 +1849,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1815,11 +1880,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1844,11 +1911,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1873,11 +1942,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1905,11 +1976,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1934,11 +2007,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1963,11 +2038,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -1992,11 +2069,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2021,11 +2100,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2053,11 +2134,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2082,11 +2165,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2111,11 +2196,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2140,11 +2227,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2169,11 +2258,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2198,11 +2289,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor region) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2227,11 +2320,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor region) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2256,11 +2351,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor region) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2285,11 +2382,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor region) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -2314,11 +2413,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2343,11 +2444,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2372,11 +2475,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2401,11 +2506,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2430,11 +2537,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2459,11 +2568,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2488,11 +2599,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2517,11 +2630,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2546,11 +2661,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2575,11 +2692,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2604,11 +2723,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2633,11 +2754,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2662,11 +2785,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2691,11 +2816,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2720,11 +2847,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2749,11 +2878,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2778,11 +2909,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2807,11 +2940,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2836,11 +2971,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2865,11 +3002,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2894,11 +3033,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2923,11 +3064,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2952,11 +3095,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -2981,11 +3126,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Baban Highway, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.). The survey reports it as severely damaged by highway construction.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -3010,11 +3157,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Cemetery",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological cemetery (Baban Highway survey area) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Karima Swr and the Baban Highway Archaeological Survey, AL-RĀFIDĀN XLVI (2025)",
@@ -3039,11 +3188,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3068,11 +3219,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3097,11 +3250,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3126,11 +3281,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3155,11 +3312,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3184,11 +3343,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3213,11 +3374,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3242,11 +3405,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3271,11 +3436,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3300,11 +3467,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3329,11 +3498,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (near Qaladizah, Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Excavations at Qalat Said Ahmadan, Slemani, Iraq-Kurdistan: First Interim Report (2014 Season)",
@@ -3358,11 +3529,13 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "An archaeological site (EFEC survey region) recorded by the EFEC survey reported in PLOS ONE (2020).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "The Zagros Epipalaeolithic revisited: New excavations and 14C dates from Palegawra cave in Iraqi Kurdistan",

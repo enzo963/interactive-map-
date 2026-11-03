@@ -10,6 +10,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Nabi Yunus Mosque",
@@ -63,6 +64,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Nabi Jirjis Mosque",
@@ -116,6 +118,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Nabi Shith Mosque",
@@ -167,6 +170,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Hamu al-Qadu Mosque",
@@ -222,6 +226,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Mujahidi Mosque",
@@ -279,6 +284,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Imam al-Baher Mosque",
@@ -333,6 +339,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mausoleum of Imam Awn Al-Din",
@@ -387,6 +394,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mausoleum of Yahya Abu al-Qasim",
@@ -442,6 +450,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Shrine of Shaykh Fathi al-Mawsili",
@@ -492,6 +501,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Sultan Wais Mosque",
@@ -546,6 +556,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Basha Mosque",
@@ -595,11 +606,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A mosque by the gate of the old bridge in Bab al-Saray, next to Khan al-Gumruk.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikidata Q25450633 (coordinates)",
@@ -644,6 +657,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -675,6 +689,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -709,6 +724,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -740,6 +756,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -771,6 +788,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -805,6 +823,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -839,6 +858,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -870,6 +890,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -899,11 +920,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Shrine in West Mosul, Mosul. The sarcophagus inscription names a son or descendant of the tenth Imam Ali al-Hadi; its decoration links it to the late 13th century. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -935,6 +958,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -969,6 +993,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -995,11 +1020,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "Mosque in West Mosul, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1031,6 +1058,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1065,6 +1093,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1091,11 +1120,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Shrine in West Mosul, Mosul. Its first attested rebuilding, in 1586–87, involved the shrine of Imam al-Abbas; it was rebuilt again in 1876–77 and 1927–28. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1122,11 +1153,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "Mosque in Mahallat Bab al-Bayd, West Mosul, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1153,11 +1186,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "Mosque in old city, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (cemetery listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1200,6 +1235,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1235,11 +1271,13 @@
     "governorate": "Nineveh",
     "category": "Mausoleum",
     "period": "",
+    "period_status": "not-established",
     "description": "Mausoleum in Bab Sinjar, at the foot of Tell al-Kunasa, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (Ruined (between December 2014 and March 2015)).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1266,11 +1304,13 @@
     "governorate": "Nineveh",
     "category": "Mausoleum",
     "period": "",
+    "period_status": "not-established",
     "description": "Mausoleum in Mahallat al-Mushahada, West Mosul, Mosul. Local tradition linked it to Shaykh Amir, regarded as a Companion and banner-bearer of the Prophet, and it played a role in popular veterinary medicine. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (Ruined (before 21 August 2014)).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1305,6 +1345,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1341,6 +1382,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1375,6 +1417,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1400,11 +1443,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Shrine in Mahallat al-Mahmudayn, West Mosul, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (Razed (between August and December 2014)).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1436,6 +1481,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1462,11 +1508,13 @@
     "governorate": "Nineveh",
     "category": "Mausoleum",
     "period": "",
+    "period_status": "not-established",
     "description": "Mausoleum in West Mosul, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1498,6 +1546,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1524,11 +1573,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "Mosque in West Mosul, Mosul. The small mosque was the takiya of the Naqshbandi shaykh Ibrahim ibn Hasan al-Husayni, buried in its basement in 1921–22. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (Razed (between December 2014 and August 2015)).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1555,11 +1606,13 @@
     "governorate": "Nineveh",
     "category": "Mausoleum",
     "period": "",
+    "period_status": "not-established",
     "description": "Mausoleum in Mosul, Mosul. The mausoleum was dedicated to the 9th-century Sufi Ahmad ibn Isa al-Kharrazi, whose identity is debated; it was rebuilt before 1966 and again before 2006. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1586,11 +1639,13 @@
     "governorate": "Nineveh",
     "category": "Historic Building",
     "period": "",
+    "period_status": "not-established",
     "description": "Historic Building in Suq Bab al-Saray, Mosul. The Czech Academy of Sciences lists it among monuments deliberately destroyed by Islamic State (listed as destroyed).",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -1620,11 +1675,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1650,11 +1707,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1680,11 +1739,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1710,11 +1771,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "The site of Mosul’s first congregational mosque (al-Jami‘ al-Umawi), cited in the UNESCO Tentative List dossier for the Old City.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1746,11 +1809,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1776,11 +1841,13 @@
     "governorate": "Nineveh",
     "category": "Mosque",
     "period": "",
+    "period_status": "not-established",
     "description": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1811,6 +1878,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Bash Tapia Castle",
@@ -1861,11 +1929,13 @@
     "governorate": "Nineveh",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "One of the two main fortified gates of Old Mosul named in the UNESCO dossier, associated with Bash Tapia.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1892,11 +1962,13 @@
     "governorate": "Nineveh",
     "category": "Gate",
     "period": "",
+    "period_status": "not-established",
     "description": "One of the two main fortified gates of Old Mosul named in the UNESCO dossier.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1926,11 +1998,13 @@
     "governorate": "Nineveh",
     "category": "Palace",
     "period": "",
+    "period_status": "not-established",
     "description": "The ruined “Black Palace” on the Tigris, cited in the UNESCO dossier for the authenticity of Old Mosul.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -1961,11 +2035,13 @@
     "governorate": "Nineveh",
     "category": "Historic Market",
     "period": "",
+    "period_status": "not-established",
     "description": "The heritage market on the Tigris, the central marketplace of the Jalili era, with sections for coppersmiths, blacksmiths, cloth merchants and spice sellers. Damaged in 2017, it has largely been rebuilt.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Souq Bab al-Saray",
@@ -2017,6 +2093,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Khan al-Gumruk",
@@ -2070,6 +2147,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Beit al-Tutunji",
@@ -2109,11 +2187,13 @@
     "governorate": "Nineveh",
     "category": "Synagogue",
     "period": "",
+    "period_status": "not-established",
     "description": "A synagogue of Mosul’s former Jewish community, documented by the Mosul Heritage project.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mosul Heritage — Historic buildings",
@@ -2147,6 +2227,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Penn Today — Penn team expands cultural heritage work in Iraq",
@@ -2178,6 +2259,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mosul Museum",
@@ -2220,6 +2302,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -2264,6 +2347,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -2300,6 +2384,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The al-Tahira Syriac-Catholic church in Mosul",
@@ -2353,6 +2438,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Al-Tāhirā Chaldean church in Mosul",
@@ -2395,6 +2481,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Touma Syriac-Orthodox church in Mosul",
@@ -2447,6 +2534,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Touma Syriac-Catholic Church in Mosul",
@@ -2481,6 +2569,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Chaldean Sham’ûn Al-Safâ church in Mosul",
@@ -2533,6 +2622,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mart Meskinta Chaldean church in Mosul",
@@ -2585,6 +2675,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Chaldean church Mar Ichaya in Mosul",
@@ -2623,6 +2714,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Gorgis Chaldean church in Mosul (reminder)",
@@ -2655,11 +2747,13 @@
     "governorate": "Nineveh",
     "category": "Monastery",
     "period": "",
+    "period_status": "not-established",
     "description": "A Chaldean monastery in the Arabi district of north Mosul, about 6 m below street level, with a marble door frame and niches of the 13th–14th centuries. It was wrecked by Islamic State and is being rebuilt.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — List of churches and monasteries in Nineveh",
@@ -2699,6 +2793,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — List of churches and monasteries in Nineveh",
@@ -2731,6 +2826,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — List of churches and monasteries in Nineveh",
@@ -2764,6 +2860,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Monastery of Saint Elijah",
@@ -2808,6 +2905,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mor Mattai Monastery",
@@ -2859,6 +2957,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Rabban Hormizd Monastery",
@@ -2908,6 +3007,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Monastery our Lady of the Seeds",
@@ -2944,6 +3044,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mar Behnam Monastery",
@@ -3000,6 +3101,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mar Oraha Monastery",
@@ -3043,6 +3145,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Monastery of Saint John of Dailam",
@@ -3083,11 +3186,13 @@
     "governorate": "Nineveh",
     "category": "Monastery",
     "period": "",
+    "period_status": "not-established",
     "description": "A monastery dedicated to Saint Barbara at the entrance of Karamles, built on the side of an archaeological tell. Karamles was wholly Christian in the 14th century.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Barbara Monastery in Karamles",
@@ -3118,11 +3223,13 @@
     "governorate": "Nineveh",
     "category": "Synagogue",
     "period": "",
+    "period_status": "not-established",
     "description": "A synagogue in Alqosh with the tomb of the prophet Nahum, the tomb of his sister Sara in the courtyard, a school and a storeroom. The fragile building has been under restoration.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Tomb of Prophet Nahum",
@@ -3166,6 +3273,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — St Mary Al-Tahira church in Baghdede (Qaraqosh)",
@@ -3210,6 +3318,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Saint James the Mutilated Church",
@@ -3245,6 +3354,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Shmoni Church in Baghdede (Qaraqosh)",
@@ -3277,6 +3387,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mar Sarkis and Bakus Church in Baghdede",
@@ -3311,6 +3422,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mar Gorgis Church in Baghdede (Qaraqosh)",
@@ -3343,6 +3455,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Addai church in Karemles",
@@ -3378,6 +3491,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Gorgis church in Bartella",
@@ -3409,6 +3523,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Mariam Church in Bartella",
@@ -3438,11 +3553,13 @@
     "governorate": "Nineveh",
     "category": "Church",
     "period": "",
+    "period_status": "not-established",
     "description": "A Syriac Orthodox church, also called Bney Shmoni after the saint’s seven sons, profaned and partly burned in 2014–16.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Shmouni Church in Bartella",
@@ -3484,6 +3601,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Shmoni church in Baashiqa",
@@ -3519,6 +3637,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mart Mariam al Adra Church in Baashiqa",
@@ -3545,11 +3664,13 @@
     "governorate": "Nineveh",
     "category": "Church",
     "period": "",
+    "period_status": "not-established",
     "description": "One of the oldest churches of Alqosh, said to hold the relics of Mar Mikha, a disciple of Mar Awgin.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Church of Mar Mikha in Alqosh",
@@ -3581,6 +3702,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mar Gorgis Church in Alqosh",
@@ -3618,11 +3740,13 @@
     "governorate": "Nineveh",
     "category": "Church",
     "period": "",
+    "period_status": "not-established",
     "description": "A rustic stone church inside a walled cemetery court. Baqofa is recorded in the 7th century as helping to build the Rabban Hormizd monastery.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Gorgis Church in Baqofa",
@@ -3649,11 +3773,13 @@
     "governorate": "Nineveh",
     "category": "Church",
     "period": "",
+    "period_status": "not-established",
     "description": "The main church of Tell Esqof, attested in a lectionary of 1499; the old building seen in 1943 was already gone by 1955.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Gorgis Church in Tell Esqof",
@@ -3684,11 +3810,13 @@
     "governorate": "Nineveh",
     "category": "Church",
     "period": "",
+    "period_status": "not-established",
     "description": "Probably the oldest church of Batnaya, destroyed and rebuilt in 1944; the town was left in ruins by the fighting of 2014–16.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Qouryakos Church in Batnaya",
@@ -3715,11 +3843,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Bozan, “Little Lalish”, has many mausoleums, oratories and sacred stones, mostly in its hill cemetery, which serves twelve villages; 70 caves show very early occupation. Several mausoleums date from the 12th century.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi mausoleums in Bozan",
@@ -3758,11 +3888,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A Yazidi mausoleum in the village of Hatara near Alqosh, whose tell attests Assyrian-period occupation. Not to be confused with ancient Hatra.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi Mausoleum of Baba Noah in Hatra",
@@ -3793,11 +3925,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A rebuilt mausoleum in Bahzani, the intellectual heart of Yazidism with neighbouring Bashiqa; Islamic State destroyed 22 mausoleums in the two towns in 2014–16.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi mausoleum Sheikh Bakeur al Qatani in Bahzani",
@@ -3829,11 +3963,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A Yazidi mausoleum in Bashiqa destroyed by Islamic State and restored and reopened in January 2018.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi mausoleum of Melek Miran in Bashiqa",
@@ -3876,6 +4012,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Yazidi mausoleum Sheikh Suwar in Beban",
@@ -3914,11 +4051,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A Yazidi mausoleum in the cemetery of Shexka on a hilltop with views over the plain.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Ezdin Mîr Chamsani mausoleum in Shexka",
@@ -3951,6 +4090,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi mausoleum Mîr Alî Beg in Ba’adrê",
@@ -3978,11 +4118,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A square mausoleum under a large radiating conical dome, said by Yazidi masters to be about 1,000 years old and restored in 1990.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi sultan ezid mausoleum in Mahad",
@@ -4021,11 +4163,13 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "period_status": "not-established",
     "description": "A Yazidi temple of pale yellow stone with two cones, dedicated to Sheikh Sherfedin and held among the holiest Yazidi places. In August 2014 a small band of defenders held it against Islamic State.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Sharfadin Temple",
@@ -4069,6 +4213,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Mam Rashan Shrine",
@@ -4115,11 +4260,13 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "period_status": "not-established",
     "description": "A temple to the 12th-century Yazidi saint Sheikh Mand, whose emblem is a black snake, in Gedala village near Sinjar. Destroyed on 24 August 2014 and rebuilt from the ground by Nadia’s Initiative.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Nadia’s Initiative — Sheikh Mand Temple",
@@ -4161,11 +4308,13 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "period_status": "not-established",
     "description": "A Yazidi temple in Sinjar destroyed by Islamic State and rehabilitated and reopened by Nadia’s Initiative.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Nadia’s Initiative — Sheikh Malack Hassan Temple",
@@ -4193,11 +4342,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "Yazidi belief holds that God set a mausoleum on each summit of the Sinjar range to keep it stable. Before 2014 Sinjar had 28 shrines; several were blown up in 2014–15 and many have since been rebuilt.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi mausoleums of Sinjar",
@@ -4240,6 +4391,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Sinjar",
@@ -4293,6 +4445,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -4332,11 +4485,13 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A medieval domed shrine in Sinjar recorded by the University of Tokyo expedition.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -4370,6 +4525,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tal Afar Citadel",
@@ -4422,6 +4578,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Imam Saad bin Aqil' Shrine",
@@ -4465,6 +4622,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mosul Eye — The 91 destroyed sites",
@@ -4497,6 +4655,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nineveh project",
@@ -4549,6 +4708,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Tell Nebi Yunus",
@@ -4581,6 +4741,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Southwest Palace",
@@ -4614,6 +4775,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — North Palace",
@@ -4644,6 +4806,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nineveh project",
@@ -4673,6 +4836,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nergal Gate",
@@ -4710,6 +4874,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Penn IHSP — Mashki Gate restoration",
@@ -4750,6 +4915,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nineveh project",
@@ -4780,6 +4946,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Cambridge, IRAQ — The Shamash Gate, Nineveh",
@@ -4808,6 +4975,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nineveh project",
@@ -4837,6 +5005,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nineveh project",
@@ -4866,6 +5035,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "French Ministry of Culture — Nimrud, ancient Kalhu",
@@ -4903,6 +5073,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "French Ministry of Culture — Nimrud, ancient Kalhu",
@@ -4931,6 +5102,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "French Ministry of Culture — Nimrud, ancient Kalhu",
@@ -4960,6 +5132,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ORACC ATAE — Governor’s Palace, Kalhu",
@@ -4989,6 +5162,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ORACC SAAo — Kalhu",
@@ -5017,6 +5191,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ORACC SAAo — Kalhu",
@@ -5046,6 +5221,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "ORACC SAAo — Kalhu",
@@ -5074,6 +5250,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Dur-Sharrukin",
@@ -5135,6 +5312,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Balawat",
@@ -5186,6 +5364,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Shibaniba",
@@ -5238,6 +5417,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Karamlesh",
@@ -5280,6 +5460,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tepe Gawra",
@@ -5330,6 +5511,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Arpachiyah",
@@ -5378,6 +5560,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Hassuna",
@@ -5429,6 +5612,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — M'lefaat",
@@ -5480,6 +5664,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Qermez Dere",
@@ -5518,6 +5703,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Yarim Tepe",
@@ -5568,6 +5754,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Maghzaliyah",
@@ -5610,6 +5797,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Telul eth-Thalathat",
@@ -5660,6 +5848,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell al-Rimah",
@@ -5703,6 +5892,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Taya",
@@ -5745,6 +5935,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Khoshi",
@@ -5786,6 +5977,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Tell Deir Situn",
@@ -5827,6 +6019,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Ginnig",
@@ -5868,6 +6061,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -5910,6 +6104,7 @@
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -5936,11 +6131,13 @@
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A tell recorded by the University of Tokyo expedition.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -5969,11 +6166,13 @@
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "",
+    "period_status": "not-established",
     "description": "A site on the west bank of the Khazir south of M’lefaat recorded by the University of Tokyo.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "University of Tokyo Museum — Iraq archaeological photo database",
@@ -6001,11 +6200,13 @@
     "governorate": "Duhok",
     "category": "Shrine",
     "period": "",
+    "period_status": "not-established",
     "description": "A tight group of mausoleums among Yazidi graves above a camp for people displaced from Sinjar, much visited since 2014.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
     "galleryImages": [],
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Yazidi Mausoleums of Mam Chevan",

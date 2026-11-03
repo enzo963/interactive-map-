@@ -1,3 +1,35 @@
+# Visible card contract
+
+A record in `sites.json` becomes a visible Heritage Bridge card (map, Explore, decks,
+collections, site pages) only when it meets the minimum contract in
+`src/utils/cardReadiness.js`. Records that fall short stay in the data, unseen, until
+they are completed. `npm run check:cards` lists them and what each one lacks.
+
+Required — a card is hidden until all of these hold:
+
+| Field | Requirement |
+|---|---|
+| `id` | Stable, unique ID of lowercase letters, digits and hyphens. Never changed once published. |
+| `name` | Site name. |
+| `governorate` | A recognised governorate (`governorates.js`, spelling variants accepted). |
+| `category` | What the site is (mosque, tell, bridge …), not its age-based card type. |
+| `description` | Concise: 30–600 characters, and more than the name repeated. |
+| `period` | Historical period or classification the sources support. When they give none, leave it empty and set `period_status: "not-established"`, so the gap is a recorded finding rather than an oversight. |
+| `sources` | At least one reliable source: a named source with an http(s) link. A coordinates lookup such as a Wikidata location entry places a site but does not document it, so it does not count on its own. |
+| `status` | Publication status: `draft` and `withdrawn` stay hidden; `needs-review` is shown as awaiting review; `approved` is reviewed. |
+| `image_status` | `none` (no cover), `pending-review` (a cover without full license and publication approval) or `approved` (a cover the card may show, see `coverApproval.js`). It must match `coverImage`. |
+
+Enrichment — add whenever reliable information exists; a gap never hides a card:
+coordinates (`latitude`/`longitude`, with `coordinates_source` and
+`coordinates_precision`), civilization, `alternativeNames`, UNESCO status
+(`unesco` true/false), preservation state (`preservation_status`,
+`destruction_status` or `heritage_status`), `estimated_year`, and any other metadata
+in the record contract below. `check:cards` counts these gaps among visible cards.
+
+Every approved record must meet the contract; `npm test` and `check:cards` fail
+otherwise. Discovery batch scripts and the map editor write `image_status` and
+`period_status`; the editor saves new pins as hidden drafts.
+
 # Heritage record contract — P5-06
 
 `sites.json` and unpublished prepared site records use `sites.schema.json` (JSON Schema draft 7).
