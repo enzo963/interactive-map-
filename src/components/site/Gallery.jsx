@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import '../../styles/site-details.css';
 import { t } from '../../i18n';
+import ResponsiveImage from '../common/ResponsiveImage';
 
 /** Image grid + lightbox built on the native <dialog> (focus trap, Esc, focus return come free). */
 export default function Gallery({ images, renderAttribution }) {
@@ -66,7 +67,7 @@ export default function Gallery({ images, renderAttribution }) {
           <li key={image.src}>
             <button type="button" className="hb-gallery__item" onClick={(event) => { openerRef.current = event.currentTarget; setIndex(i); }} disabled={failed.has(image.src)} aria-label={failed.has(image.src) ? t('Image unavailable: {alt}', { alt: image.alt }) : t('Open image {n} of {total}: {alt}', { n: i + 1, total: images.length, alt: image.alt })}>
               {failed.has(image.src) ? <span className="hb-gallery__unavailable">{t('Image unavailable')}</span>
-                : <img src={image.src} alt={image.alt} loading="lazy" decoding="async" onError={() => unavailable(image.src)} />}
+                : <ResponsiveImage image={image} alt={image.alt} role="thumb" onError={() => unavailable(image.src)} />}
             </button>
             {renderAttribution && <div className="hb-gallery__attribution">{renderAttribution(image)}</div>}
           </li>
@@ -85,7 +86,8 @@ export default function Gallery({ images, renderAttribution }) {
           <figure className="hb-lightbox__figure">
             {failed.has(current.src)
               ? <div className="hb-gallery__unavailable" role="img" aria-label={t('Image unavailable: {alt}', { alt: current.alt })}>{t('Image unavailable')}</div>
-              : <img key={current.src} src={current.src} alt={current.alt} decoding="async"
+              // Opened on request, so it loads at once in the gallery/full renditions.
+              : <ResponsiveImage key={current.src} image={current} alt={current.alt} role="gallery" priority
                 onLoad={() => setLoaded((previous) => new Set([...previous, current.src]))}
                 onError={() => unavailable(current.src)} />}
             <figcaption>

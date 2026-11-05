@@ -52,6 +52,33 @@ its town or region. The current covers come from a reviewed pass
    `publication_approval`. `HeritageCard` shows the cover only when all of these check
    out, and `image_status` becomes `approved`.
 
+### Optimized delivery
+
+The app never sends the original file to a card. `tools/content-pipeline/optimize_images.py`
+downloads each approved image once and writes renditions to `public/images/sites/<slug>/`.
+It converts to sRGB and strips EXIF, colour profiles and other metadata. It never upscales.
+
+| Role | Width | Formats | Used by |
+|---|---|---|---|
+| thumb | 320 | AVIF, WebP | gallery thumbnails, cards on narrow phones |
+| card | 640 | AVIF, WebP, JPEG | card grids (the JPEG is the fallback) |
+| gallery | 960 | WebP | Site Details viewer |
+| full | 1280 | WebP | full view on large or high-density screens |
+
+The image object gains `variants` (`base`, `width`, `height`, `color` and the widths per
+format). `ResponsiveImage` renders a `<picture>` with AVIF and WebP `srcset`s and a `sizes`
+value per role, so a phone picks a 320 or 640 file and a card never receives more than
+640 px. Explicit `width`/`height` and the image's average colour hold its place while it
+loads. Images load lazily, except the first grid row, the Site Details hero and the
+opened viewer, which load at once with `fetchpriority="high"`.
+
+File names carry a hash of the source and the encoder settings, so they never change
+content under the same URL. `public/_headers`, and `vite/immutableAssets.js` for
+`vite preview`, mark them and the hashed build assets as cacheable for a year. Run
+`python3 optimize_images.py` after approving new images, and `--check` to list gaps;
+`tests/images.test.mjs` fails while an approved image lacks its renditions or one exceeds
+its size limit.
+
 A card without an approved cover shows the Heritage Bridge fallback: the arch mark, the
 site type and "No verified photograph". It never borrows a photograph of another place.
 

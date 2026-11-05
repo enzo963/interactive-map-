@@ -69,6 +69,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/amedy-city/fbfa804ce7",
+        "hash": "fbfa804ce7",
+        "width": 1280,
+        "height": 853,
+        "color": "#514c4d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -157,6 +177,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/delal-bridge/3d9ea5535e",
+        "hash": "3d9ea5535e",
+        "width": 1024,
+        "height": 768,
+        "color": "#8a7d74",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1024
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -284,6 +324,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/choli-minaret/23cd0e14c5",
+        "hash": "23cd0e14c5",
+        "width": 533,
+        "height": 800,
+        "color": "#b0afa2",
+        "avif": [
+          320,
+          533
+        ],
+        "webp": [
+          320,
+          533
+        ],
+        "jpeg": [
+          533
+        ]
       }
     },
     "galleryImages": [],
@@ -371,6 +429,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/erbil-citadel/af44799464",
+        "hash": "af44799464",
+        "width": 1280,
+        "height": 896,
+        "color": "#7b7c65",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -474,6 +552,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/shanidar-cave/6d3743dc95",
+        "hash": "6d3743dc95",
+        "width": 749,
+        "height": 515,
+        "color": "#73776a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          749
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -562,6 +659,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/kirkuk-citadel/c9560b84f6",
+        "hash": "c9560b84f6",
+        "width": 1280,
+        "height": 950,
+        "color": "#988580",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -728,6 +845,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-nouri-mosque-and-al-hadba-minaret/d869b611a1",
+        "hash": "d869b611a1",
+        "width": 1280,
+        "height": 854,
+        "color": "#c5b9b1",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -863,6 +1000,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/hatra/933c0aa3ae",
+        "hash": "933c0aa3ae",
+        "width": 600,
+        "height": 396,
+        "color": "#90786e",
+        "avif": [
+          320,
+          600
+        ],
+        "webp": [
+          320,
+          600
+        ],
+        "jpeg": [
+          600
+        ]
       }
     },
     "galleryImages": [],
@@ -960,6 +1115,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/lalish-temple/a158a8691e",
+        "hash": "a158a8691e",
+        "width": 1024,
+        "height": 768,
+        "color": "#7e7769",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1024
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -1047,6 +1222,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/nimrud/c5bb612855",
+        "hash": "c5bb612855",
+        "width": 1280,
+        "height": 852,
+        "color": "#8a7e6b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -1175,6 +1370,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/the-ancient-city-of-nineveh/cf2229d6c8",
+        "hash": "cf2229d6c8",
+        "width": 612,
+        "height": 517,
+        "color": "#8a806c",
+        "avif": [
+          320,
+          612
+        ],
+        "webp": [
+          320,
+          612
+        ],
+        "jpeg": [
+          612
+        ]
       }
     },
     "galleryImages": [],
@@ -1262,6 +1475,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/bestansur-neolithic-settlement/97de6c54da",
+        "hash": "97de6c54da",
+        "width": 1280,
+        "height": 854,
+        "color": "#948f83",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -1349,6 +1582,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qalatga-darband/bdb96a781e",
+        "hash": "bdb96a781e",
+        "width": 1280,
+        "height": 854,
+        "color": "#a4957f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -1460,7 +1713,27 @@
           "credit": "Makaay31",
           "license_status": "verified"
         }
-      ]
+      ],
+      "variants": {
+        "base": "/images/sites/mustansiriya-madrasa/40cd09a628",
+        "hash": "40cd09a628",
+        "width": 1280,
+        "height": 954,
+        "color": "#8e8279",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -1566,7 +1839,27 @@
           "credit": "Mohammed Qays Kazem (Mohammed Qays)",
           "license_status": "verified"
         }
-      ]
+      ],
+      "variants": {
+        "base": "/images/sites/abbasid-palace/ef8abd6135",
+        "hash": "ef8abd6135",
+        "width": 1280,
+        "height": 960,
+        "color": "#9e8b70",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -1708,7 +2001,27 @@
             "credit": "Mahmoudalrawi",
             "license_status": "verified"
           }
-        ]
+        ],
+        "variants": {
+          "base": "/images/sites/al-wazir-mosque/4cd9f9f473",
+          "hash": "4cd9f9f473",
+          "width": 1280,
+          "height": 956,
+          "color": "#6a635e",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
       }
     ],
     "image_status": "none",
@@ -1883,6 +2196,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-din-samarra/4a66b31866",
+        "hash": "4a66b31866",
+        "width": 1280,
+        "height": 1763,
+        "color": "#c6bfaa",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -1996,7 +2329,27 @@
           "credit": "Fakhri Mahmood",
           "license_status": "verified"
         }
-      ]
+      ],
+      "variants": {
+        "base": "/images/sites/al-din-great-mosque/9c673f53ba",
+        "hash": "9c673f53ba",
+        "width": 1280,
+        "height": 1920,
+        "color": "#7a9ba1",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -2092,7 +2445,27 @@
           "credit": "Lionel Aubert",
           "license_status": "verified"
         }
-      ]
+      ],
+      "variants": {
+        "base": "/images/sites/al-din-abu-dulaf/e3e8f861f6",
+        "hash": "e3e8f861f6",
+        "width": 1280,
+        "height": 959,
+        "color": "#8a745c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -2219,6 +2592,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-din-ashur/baab9e63a8",
+        "hash": "baab9e63a8",
+        "width": 1280,
+        "height": 691,
+        "color": "#91adab",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -2342,6 +2735,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/red-terror-museum/e6b304a6e8",
+        "hash": "e6b304a6e8",
+        "width": 1280,
+        "height": 1925,
+        "color": "#756968",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -2690,6 +3103,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/kurdish-textile-museum/6a4f3c5935",
+        "hash": "6a4f3c5935",
+        "width": 1280,
+        "height": 960,
+        "color": "#816b52",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -2792,6 +3225,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/erbil-civilization-museum/097cd45373",
+        "hash": "097cd45373",
+        "width": 1280,
+        "height": 988,
+        "color": "#897a70",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -3059,6 +3512,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mart-shmoni-church-ankawa/e354d697d0",
+        "hash": "e354d697d0",
+        "width": 1280,
+        "height": 853,
+        "color": "#857c77",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -3201,6 +3674,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qasr-shemamok/7325f79620",
+        "hash": "7325f79620",
+        "width": 1280,
+        "height": 960,
+        "color": "#978f8b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -3721,6 +4214,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/kelik-mishik/b8e36ac7e3",
+        "hash": "b8e36ac7e3",
+        "width": 1280,
+        "height": 853,
+        "color": "#867e77",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -4313,6 +4826,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/khanzad-castle/a8d7346eb7",
+        "hash": "a8d7346eb7",
+        "width": 1280,
+        "height": 960,
+        "color": "#8f9290",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -5421,6 +5954,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/maltai-reliefs/6d424611b5",
+        "hash": "6d424611b5",
+        "width": 1280,
+        "height": 1280,
+        "color": "#8b8281",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -6323,6 +6876,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mar-gorgis-cathedral-zakho/2d5d4cc7c7",
+        "hash": "2d5d4cc7c7",
+        "width": 1280,
+        "height": 1707,
+        "color": "#8f8a88",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -6565,6 +7138,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/great-mosque-amedi/d3e8155c0d",
+        "hash": "d3e8155c0d",
+        "width": 1280,
+        "height": 1923,
+        "color": "#9d9b9c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -7474,6 +8067,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/great-mosque-akre/8ee20512e7",
+        "hash": "8ee20512e7",
+        "width": 1024,
+        "height": 768,
+        "color": "#757e8c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1024
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -7869,6 +8482,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/khinnis-reliefs/08fd381934",
+        "hash": "08fd381934",
+        "width": 1280,
+        "height": 720,
+        "color": "#6b5a4a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -7985,6 +8618,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/jerwan-aqueduct/b4ef3c10a6",
+        "hash": "b4ef3c10a6",
+        "width": 1280,
+        "height": 851,
+        "color": "#9b886f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8297,6 +8950,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/nabi-yunus-mosque/cfda3bb2d6",
+        "hash": "cfda3bb2d6",
+        "width": 1280,
+        "height": 853,
+        "color": "#757f8d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8412,6 +9085,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/nabi-jirjis-mosque/f704be1140",
+        "hash": "f704be1140",
+        "width": 1280,
+        "height": 960,
+        "color": "#8895a6",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8579,6 +9272,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/hamu-al-qadu-mosque/d0e33da40d",
+        "hash": "d0e33da40d",
+        "width": 1280,
+        "height": 960,
+        "color": "#8d8c89",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8696,6 +9409,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-mujahidi-mosque/7c495ad2a2",
+        "hash": "7c495ad2a2",
+        "width": 792,
+        "height": 591,
+        "color": "#707786",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          792
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8815,6 +9547,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/imam-al-bahir-shrine/e6e713eb6b",
+        "hash": "e6e713eb6b",
+        "width": 960,
+        "height": 720,
+        "color": "#818890",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -8986,6 +9737,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/yahya-abu-al-qasim-shrine/75d7979751",
+        "hash": "75d7979751",
+        "width": 1280,
+        "height": 872,
+        "color": "#aa967b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -9209,6 +9980,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-basha-mosque/d1053a8f57",
+        "hash": "d1053a8f57",
+        "width": 1280,
+        "height": 853,
+        "color": "#464f54",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -9326,6 +10117,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/aghawat-mosque/6cd97ac5b4",
+        "hash": "6cd97ac5b4",
+        "width": 1280,
+        "height": 1707,
+        "color": "#49412a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -10653,6 +11464,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/bash-tapia-castle/447074ecec",
+        "hash": "447074ecec",
+        "width": 500,
+        "height": 375,
+        "color": "#767b78",
+        "avif": [
+          320,
+          500
+        ],
+        "webp": [
+          320,
+          500
+        ],
+        "jpeg": [
+          500
+        ]
       }
     },
     "galleryImages": [],
@@ -10983,6 +11812,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/beit-al-tutunji/6258823541",
+        "hash": "6258823541",
+        "width": 1280,
+        "height": 960,
+        "color": "#767573",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -11156,6 +12005,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mosul-museum/2ee61298a5",
+        "hash": "2ee61298a5",
+        "width": 1280,
+        "height": 1920,
+        "color": "#908272",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -11439,6 +12308,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mar-touma-syriac-orthodox/0ba189b361",
+        "hash": "0ba189b361",
+        "width": 1280,
+        "height": 1707,
+        "color": "#a59d94",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -11641,6 +12530,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mart-meskinta-church/0ee4c30d85",
+        "hash": "0ee4c30d85",
+        "width": 1024,
+        "height": 576,
+        "color": "#bda899",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1024
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -11940,6 +12849,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/dair-mar-elia/ebeb6d40be",
+        "hash": "ebeb6d40be",
+        "width": 1280,
+        "height": 689,
+        "color": "#808d6f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -12046,6 +12975,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mar-mattai-monastery/3f317d3868",
+        "hash": "3f317d3868",
+        "width": 1280,
+        "height": 960,
+        "color": "#7e6d55",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -12159,6 +13108,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/rabban-hormizd-monastery/9b7f7bbf15",
+        "hash": "9b7f7bbf15",
+        "width": 699,
+        "height": 498,
+        "color": "#5b5d46",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          699
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -12307,6 +13275,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mar-behnam-monastery/d06f18d017",
+        "hash": "d06f18d017",
+        "width": 384,
+        "height": 288,
+        "color": "#7a726e",
+        "avif": [
+          320,
+          384
+        ],
+        "webp": [
+          320,
+          384
+        ],
+        "jpeg": [
+          384
+        ]
       }
     },
     "galleryImages": [],
@@ -12469,6 +13455,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/dailam-monastery/cd0af6e779",
+        "hash": "cd0af6e779",
+        "width": 500,
+        "height": 273,
+        "color": "#a1948d",
+        "avif": [
+          320,
+          500
+        ],
+        "webp": [
+          320,
+          500
+        ],
+        "jpeg": [
+          500
+        ]
       }
     },
     "galleryImages": [],
@@ -13554,6 +14558,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/sharfadin-temple/f8d6a91222",
+        "hash": "f8d6a91222",
+        "width": 960,
+        "height": 640,
+        "color": "#c0b9b1",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -13971,6 +14994,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/tal-afar-citadel/5232609ea6",
+        "hash": "5232609ea6",
+        "width": 960,
+        "height": 720,
+        "color": "#76978c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -15171,6 +16213,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qermez-dere/6678689823",
+        "hash": "6678689823",
+        "width": 1200,
+        "height": 816,
+        "color": "#969088",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1200
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -15809,6 +16871,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/great-mosque-sulaymaniyah/f837322b5d",
+        "hash": "f837322b5d",
+        "width": 1280,
+        "height": 960,
+        "color": "#566f99",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16076,6 +17158,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/darband-i-gawr-relief/2a48e47d2e",
+        "hash": "2a48e47d2e",
+        "width": 1280,
+        "height": 1927,
+        "color": "#a08673",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          544,
+          691,
+          768
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16222,6 +17324,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/darband-i-belula-relief/4946365c1c",
+        "hash": "4946365c1c",
+        "width": 1280,
+        "height": 960,
+        "color": "#a69e8f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16517,6 +17639,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/hazar-merd-caves/9093684d9c",
+        "hash": "9093684d9c",
+        "width": 1280,
+        "height": 850,
+        "color": "#5e7e9d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16661,6 +17803,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/tell-kunara/f6dcebf628",
+        "hash": "f6dcebf628",
+        "width": 1280,
+        "height": 854,
+        "color": "#baa08d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16799,6 +17961,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/jarmo/530a797e46",
+        "hash": "530a797e46",
+        "width": 1280,
+        "height": 960,
+        "color": "#797c64",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -16949,6 +18131,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/barda-balka/8458bca8d3",
+        "hash": "8458bca8d3",
+        "width": 1280,
+        "height": 854,
+        "color": "#819656",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17112,6 +18314,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/rabana-rock-relief/5010088fbe",
+        "hash": "5010088fbe",
+        "width": 1280,
+        "height": 1570,
+        "color": "#7a7566",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17216,6 +18438,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/merquly-rock-relief/e05b61af7d",
+        "hash": "e05b61af7d",
+        "width": 1280,
+        "height": 1927,
+        "color": "#ac8960",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          544,
+          691,
+          768
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17322,6 +18564,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/srochik-castle/fc0fc1facf",
+        "hash": "fc0fc1facf",
+        "width": 960,
+        "height": 540,
+        "color": "#807a6d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17457,6 +18718,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/yasin-tepe/5fae27403e",
+        "hash": "5fae27403e",
+        "width": 1280,
+        "height": 854,
+        "color": "#5f87a1",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17561,6 +18842,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/gird-i-kazhaw/f4f674f613",
+        "hash": "f4f674f613",
+        "width": 1280,
+        "height": 650,
+        "color": "#a08d71",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17792,6 +19093,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/usu-aska/b3005429d9",
+        "hash": "b3005429d9",
+        "width": 1280,
+        "height": 854,
+        "color": "#bbafa2",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -17986,6 +19307,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qalat-i-dinka/6b2f74741b",
+        "hash": "6b2f74741b",
+        "width": 1280,
+        "height": 854,
+        "color": "#95806f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -18134,6 +19475,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/sherwana-castle/2bbd7198a3",
+        "hash": "2bbd7198a3",
+        "width": 1280,
+        "height": 720,
+        "color": "#7e8287",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -20735,6 +22096,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qishla-of-kirkuk/5cfe0a6a4d",
+        "hash": "5cfe0a6a4d",
+        "width": 330,
+        "height": 209,
+        "color": "#81807a",
+        "avif": [
+          320,
+          330
+        ],
+        "webp": [
+          320,
+          330
+        ],
+        "jpeg": [
+          330
+        ]
       }
     },
     "galleryImages": [],
@@ -21327,6 +22706,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/baba-gurgur/77f805687c",
+        "hash": "77f805687c",
+        "width": 1280,
+        "height": 960,
+        "color": "#878383",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -21552,6 +22951,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/minaret-of-anah/43eb32b9c2",
+        "hash": "43eb32b9c2",
+        "width": 1280,
+        "height": 720,
+        "color": "#7da2b7",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -22996,6 +24415,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/ctesiphon/c2dfd5fd8b",
+        "hash": "c2dfd5fd8b",
+        "width": 1032,
+        "height": 599,
+        "color": "#a7a7a7",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1032
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -23116,6 +24555,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/taq-kasra/64e44e7c2e",
+        "hash": "64e44e7c2e",
+        "width": 1280,
+        "height": 853,
+        "color": "#717888",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -23312,6 +24771,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/dur-kurigalzu/794c9f4236",
+        "hash": "794c9f4236",
+        "width": 1280,
+        "height": 881,
+        "color": "#c3caaf",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -23796,6 +25275,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/abu-hanifa-mosque/10b7176eec",
+        "hash": "10b7176eec",
+        "width": 1280,
+        "height": 960,
+        "color": "#a79985",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -23900,6 +25399,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/kadhimiya-shrine/ed88958c8d",
+        "hash": "ed88958c8d",
+        "width": 1280,
+        "height": 853,
+        "color": "#385082",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24011,6 +25530,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/hadhrat-al-qadiriyya/59dc33ec03",
+        "hash": "59dc33ec03",
+        "width": 1280,
+        "height": 732,
+        "color": "#31372b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24123,6 +25662,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-khulafa-mosque/6b5a6f267b",
+        "hash": "6b5a6f267b",
+        "width": 1280,
+        "height": 960,
+        "color": "#807d7d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24243,6 +25802,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qamariyya-mosque/b2b3a08ab3",
+        "hash": "b2b3a08ab3",
+        "width": 794,
+        "height": 748,
+        "color": "#79a1c4",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          794
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24346,6 +25924,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/zumurrud-khatun-mausoleum/1b688acf9a",
+        "hash": "1b688acf9a",
+        "width": 1280,
+        "height": 1720,
+        "color": "#adadad",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24465,6 +26063,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/suhrawardi-mausoleum/05536bd7f5",
+        "hash": "05536bd7f5",
+        "width": 1280,
+        "height": 910,
+        "color": "#94938d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24662,6 +26280,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/buratha-mosque/05177ccb07",
+        "hash": "05177ccb07",
+        "width": 1280,
+        "height": 853,
+        "color": "#6d6c70",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24765,6 +26403,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mirjan-mosque/99c329bf2a",
+        "hash": "99c329bf2a",
+        "width": 960,
+        "height": 720,
+        "color": "#788086",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -24878,6 +26535,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-sarai-mosque/ca6d62775f",
+        "hash": "ca6d62775f",
+        "width": 1280,
+        "height": 956,
+        "color": "#a1998f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25036,6 +26713,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/uzbek-mosque/2fa0d6c782",
+        "hash": "2fa0d6c782",
+        "width": 1280,
+        "height": 1277,
+        "color": "#6c8fac",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25193,6 +26890,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/haydar-khana-mosque/a7aeb39ba5",
+        "hash": "a7aeb39ba5",
+        "width": 375,
+        "height": 500,
+        "color": "#6e7d8b",
+        "avif": [
+          320,
+          375
+        ],
+        "webp": [
+          320,
+          375
+        ],
+        "jpeg": [
+          375
+        ]
       }
     },
     "galleryImages": [],
@@ -25347,6 +27062,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-khilani-mosque/38f95c17a1",
+        "hash": "38f95c17a1",
+        "width": 1280,
+        "height": 960,
+        "color": "#828c9a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25494,6 +27229,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/sayyid-sultan-ali-mosque/e9cb1bfe80",
+        "hash": "e9cb1bfe80",
+        "width": 640,
+        "height": 842,
+        "color": "#6e6e6e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25682,6 +27435,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-shawy-mosque/4bfa3aec3f",
+        "hash": "4bfa3aec3f",
+        "width": 960,
+        "height": 1280,
+        "color": "#8c9492",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25787,6 +27559,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/ibn-bunnieh-mosque/72fdcb6d24",
+        "hash": "72fdcb6d24",
+        "width": 960,
+        "height": 1280,
+        "color": "#6185a2",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25891,6 +27682,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/umm-al-tabul-mosque/e8263ab9b7",
+        "hash": "e8263ab9b7",
+        "width": 1280,
+        "height": 779,
+        "color": "#aaa49e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -25994,6 +27805,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/salman-al-farsi-mosque/e8e60fce48",
+        "hash": "e8e60fce48",
+        "width": 960,
+        "height": 608,
+        "color": "#8f827a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26098,6 +27928,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/baba-nanak-shrine/4234b64f8d",
+        "hash": "4234b64f8d",
+        "width": 720,
+        "height": 448,
+        "color": "#9e9586",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          720
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26204,6 +28053,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/khan-mirjan/a2ab38e36d",
+        "hash": "a2ab38e36d",
+        "width": 1280,
+        "height": 960,
+        "color": "#615c53",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26324,6 +28193,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/souk-al-safafeer/4db60be974",
+        "hash": "4db60be974",
+        "width": 1280,
+        "height": 850,
+        "color": "#58453c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26435,6 +28324,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/shorja-market/b084a1f712",
+        "hash": "b084a1f712",
+        "width": 1280,
+        "height": 1707,
+        "color": "#75736e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26539,6 +28448,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/mutanabbi-street/b8278f4f8a",
+        "hash": "b8278f4f8a",
+        "width": 1280,
+        "height": 853,
+        "color": "#977c5d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26642,6 +28571,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-rashid-street/d35ac9f42a",
+        "hash": "d35ac9f42a",
+        "width": 1280,
+        "height": 1051,
+        "color": "#717772",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26746,6 +28695,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-maidan-square/4e391fa422",
+        "hash": "4e391fa422",
+        "width": 1280,
+        "height": 1366,
+        "color": "#929698",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -26969,6 +28938,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/om-al-ahzan-church/187ed73741",
+        "hash": "187ed73741",
+        "width": 1013,
+        "height": 635,
+        "color": "#7f7d76",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1013
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27075,6 +29064,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/latin-st-joseph/3ad081e09c",
+        "hash": "3ad081e09c",
+        "width": 1280,
+        "height": 853,
+        "color": "#73716f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27247,6 +29256,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/st-gregory-armenian-cathedral/4d9bfb631b",
+        "hash": "4d9bfb631b",
+        "width": 1280,
+        "height": 960,
+        "color": "#878c8c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27468,6 +29497,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/sayidat-al-nejat/e6f3dce748",
+        "hash": "e6f3dce748",
+        "width": 640,
+        "height": 480,
+        "color": "#79899c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27603,6 +29650,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/great-synagogue/751d134e91",
+        "hash": "751d134e91",
+        "width": 960,
+        "height": 613,
+        "color": "#7e7d7a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27758,6 +29824,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/shamash-school/bc893b1c5d",
+        "hash": "bc893b1c5d",
+        "width": 500,
+        "height": 382,
+        "color": "#818181",
+        "avif": [
+          320,
+          500
+        ],
+        "webp": [
+          320,
+          500
+        ],
+        "jpeg": [
+          500
+        ]
       }
     },
     "galleryImages": [],
@@ -27869,6 +29953,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/habibiyah-jewish-cemetery/7319c11af0",
+        "hash": "7319c11af0",
+        "width": 960,
+        "height": 503,
+        "color": "#9d937f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -27973,6 +30076,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/baghdadi-museum/8f28945ba3",
+        "hash": "8f28945ba3",
+        "width": 597,
+        "height": 800,
+        "color": "#5d4d68",
+        "avif": [
+          320,
+          597
+        ],
+        "webp": [
+          320,
+          597
+        ],
+        "jpeg": [
+          597
+        ]
       }
     },
     "galleryImages": [],
@@ -28120,6 +30241,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/iraq-museum/9c63e7493a",
+        "hash": "9c63e7493a",
+        "width": 1280,
+        "height": 804,
+        "color": "#abb3a7",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -28311,6 +30452,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/republican-palace/3275025575",
+        "hash": "3275025575",
+        "width": 960,
+        "height": 637,
+        "color": "#7d7666",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -28415,6 +30575,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/royal-cemetery/438e31fb90",
+        "hash": "438e31fb90",
+        "width": 960,
+        "height": 720,
+        "color": "#788488",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -28520,6 +30699,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/baghdad-central-station/6931665963",
+        "hash": "6931665963",
+        "width": 400,
+        "height": 270,
+        "color": "#8f8a87",
+        "avif": [
+          320,
+          400
+        ],
+        "webp": [
+          320,
+          400
+        ],
+        "jpeg": [
+          400
+        ]
       }
     },
     "galleryImages": [],
@@ -28732,6 +30929,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/baghdad-gymnasium/df021403a7",
+        "hash": "df021403a7",
+        "width": 1280,
+        "height": 815,
+        "color": "#3a869d",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -28843,6 +31060,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-sarafiya-bridge/c4c256b582",
+        "hash": "c4c256b582",
+        "width": 1280,
+        "height": 960,
+        "color": "#9d8d87",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -29230,6 +31467,25 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/al-askari-shrine/9e77b282e1",
+        "hash": "9e77b282e1",
+        "width": 800,
+        "height": 487,
+        "color": "#94887a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          800
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -29336,6 +31592,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/qasr-al-ashiq/ed636483bb",
+        "hash": "ed636483bb",
+        "width": 1280,
+        "height": 960,
+        "color": "#948574",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -29792,6 +32068,24 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/imam-dur-mausoleum/1f950aeb14",
+        "hash": "1f950aeb14",
+        "width": 640,
+        "height": 480,
+        "color": "#586378",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],
@@ -30044,6 +32338,26 @@
         "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
         "reviewedAt": "2026-11-03",
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
+      },
+      "variants": {
+        "base": "/images/sites/green-church-tikrit/4002a71231",
+        "hash": "4002a71231",
+        "width": 1280,
+        "height": 707,
+        "color": "#a48f7f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
       }
     },
     "galleryImages": [],

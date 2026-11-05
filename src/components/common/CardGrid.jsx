@@ -7,6 +7,8 @@ import { t } from '../../i18n';
  * Responsive grid of cards with "Show more" (scales to hundreds of records).
  * Give it a `key` that changes with the filters so the page size resets.
  */
+const ABOVE_THE_FOLD = 4;
+
 export default function CardGrid({ sites, pageSize = 24, headingLevel = 3 }) {
   const [visible, setVisible] = useState(pageSize);
   const list = useRef(null);
@@ -22,9 +24,10 @@ export default function CardGrid({ sites, pageSize = 24, headingLevel = 3 }) {
   return (
     <div>
       <ul className="hb-grid" ref={list}>
-        {shown.map((site) => (
+        {shown.map((site, index) => (
           <li key={site.id}>
-            <HeritageCard site={site} headingLevel={headingLevel} showCta />
+            {/* The first row is usually above the fold: load it at once, the rest lazily. */}
+            <HeritageCard site={site} headingLevel={headingLevel} showCta priority={index < ABOVE_THE_FOLD} />
           </li>
         ))}
       </ul>

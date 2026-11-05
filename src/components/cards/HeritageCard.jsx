@@ -3,6 +3,7 @@ import SmartLink from '../common/SmartLink';
 import '../../styles/heritage-card.css';
 import { t, tDate } from '../../i18n';
 import { approvedCover } from '../../utils/coverApproval';
+import ResponsiveImage from '../common/ResponsiveImage';
 
 // Kept here to limit P4-01 to this component. React hoists and deduplicates
 // this stylesheet by href, even when a page renders several cards.
@@ -45,6 +46,7 @@ const cardRefinementStyles = `
   text-align: center;
   font-size: clamp(.5rem, 3cqw, .875rem);
 }
+.hb-card--refined .hb-card__media picture { display: contents; }
 .hb-card--refined .hb-card__placeholder--fallback {
   display: flex;
   flex-direction: column;
@@ -179,8 +181,8 @@ function CardImage({ cover, name, siteType, priority }) {
     );
   }
   return (
-    <img className="hb-card__image" src={cover.src} alt={cover.alt || name}
-      loading={priority ? 'eager' : 'lazy'} decoding="async" onError={() => setFailed(true)} />
+    <ResponsiveImage className="hb-card__image" image={cover} alt={cover.alt || name} role="card"
+      priority={priority} onError={() => setFailed(true)} />
   );
 }
 

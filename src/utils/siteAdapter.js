@@ -93,7 +93,7 @@ function normalizeGallery(gallery, name) {
         license: isObject ? text(item.license ?? item.licence) : '',
         // Preserve explicit image review metadata for publication-aware consumers.
         ...(isObject ? Object.fromEntries(
-          ['siteId', 'license_status', 'licenseStatus', 'license_url', 'license_review', 'license_tracking', 'publication_approval', 'sourceName', 'sourceUrl', 'source_name', 'source_url', 'source_observations']
+          ['siteId', 'license_status', 'licenseStatus', 'license_url', 'license_review', 'license_tracking', 'publication_approval', 'sourceName', 'sourceUrl', 'source_name', 'source_url', 'source_observations', 'variants']
             .filter((key) => Object.hasOwn(item, key)).map((key) => [key, item[key]]),
         ) : {}),
       };

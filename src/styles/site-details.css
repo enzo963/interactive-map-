@@ -42,7 +42,8 @@
 body:has(.hb-lightbox[open]) { overflow: hidden; }
 .hb-lightbox { max-height: 94dvh; overscroll-behavior: contain; overflow-y: auto; }
 .hb-lightbox:focus-visible { outline: none; }
-.hb-lightbox__figure img { width: 100%; max-height: 74vh; object-fit: contain; }
+.hb-gallery__item picture, .hb-lightbox__figure picture { display: contents; }
+.hb-lightbox__figure img { width: 100%; height: auto; max-height: 74vh; object-fit: contain; }
 .hb-lightbox__figure figcaption { display: flex; justify-content: space-between; gap: 1rem; margin-top: 0.75rem; font-size: 0.9rem; }
 .hb-lightbox__count { font-family: var(--hb-font-mono); white-space: nowrap; }
 .hb-lightbox__controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
