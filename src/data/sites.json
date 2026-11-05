@@ -342,7 +342,8 @@
         "jpeg": [
           533
         ]
-      }
+      },
+      "focus": "50% 0%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -3614,90 +3615,9 @@
     "description": "A 20-hectare tell rising about 30 m above the plain, 30 km south of Erbil on the Shiwazor river, with a lower town of about 50 hectares. Under the Assyrians it was Kilizu, a provincial capital; remains run from Hurrian and Assyrian to Parthian and Sasanian times. A French mission has excavated there since 2011.",
     "unesco": null,
     "has3D": null,
-    "coverImage": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg/1280px-%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-      "alt": "Qasr Shemamok (Kilizu), Erbil",
-      "caption": "",
-      "credit": "جيهان شيركو",
-      "license": "CC BY-SA 4.0",
-      "siteId": "site-erbil-qasr-shemamok",
-      "license_status": "verified",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceName": "Wikimedia Commons",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_(%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-      "width": 4096,
-      "height": 3072,
-      "identity": {
-        "method": "wikidata-image-of-site-item",
-        "item": "Q25404315",
-        "matchedBy": "site-item",
-        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
-        "reviewedAt": "2026-11-03",
-        "note": "Shows the site itself; image of its own Wikidata item; free license confirmed on Commons."
-      },
-      "license_review": {
-        "permission": "publication-permitted",
-        "license": "CC BY-SA 4.0",
-        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
-        "reviewedAt": "2026-11-03",
-        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg/1280px-%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-        "evidence": [
-          {
-            "evidenceId": "wikimedia-commons-(موقع قصر شمامك (كيليزو.jpg",
-            "source_url": "https://commons.wikimedia.org/wiki/File:(%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_(%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg/1280px-%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg"
-          }
-        ]
-      },
-      "license_tracking": {
-        "evidence_valid": true,
-        "automatically_approved": false,
-        "evidence_checks": [
-          {
-            "valid": true,
-            "source": {
-              "sourceId": "wikimedia-commons",
-              "sourceName": "Wikimedia Commons",
-              "url": "https://commons.wikimedia.org/wiki/File:(%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_(%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-              "evidenceId": "wikimedia-commons-(موقع قصر شمامك (كيليزو.jpg",
-              "accessedAt": "2026-11-03"
-            }
-          }
-        ]
-      },
-      "publication_approval": {
-        "status": "approved",
-        "siteId": "site-erbil-qasr-shemamok",
-        "site_verified": true,
-        "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg/1280px-%28%D9%85%D9%88%D9%82%D8%B9_%D9%82%D8%B5%D8%B1_%D8%B4%D9%85%D8%A7%D9%85%D9%83_%28%D9%83%D9%8A%D9%84%D9%8A%D8%B2%D9%88.jpg",
-        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
-        "reviewedAt": "2026-11-03",
-        "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
-      },
-      "variants": {
-        "base": "/images/sites/qasr-shemamok/7325f79620",
-        "hash": "7325f79620",
-        "width": 1280,
-        "height": 960,
-        "color": "#978f8b",
-        "avif": [
-          320,
-          640
-        ],
-        "webp": [
-          320,
-          640,
-          960,
-          1280
-        ],
-        "jpeg": [
-          640
-        ]
-      }
-    },
+    "coverImage": null,
     "galleryImages": [],
-    "image_status": "approved",
+    "image_status": "none",
     "sources": [
       {
         "sourceName": "Wikipedia — Qasr Shemamok",
@@ -3745,7 +3665,8 @@
     "latitude": 36.10561,
     "longitude": 43.75245,
     "coordinates_source": "wikidata:Q25404315",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "review_notes": "Cover withdrawn in the card review of 2026-11-06: At card size the photograph shows a power pylon and a track, with the mound barely visible on the horizon: not a recognisable view of the site."
   },
   {
     "id": "site-erbil-kurd-qaburstan",
@@ -7158,7 +7079,8 @@
         "jpeg": [
           640
         ]
-      }
+      },
+      "focus": "50% 0%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -9566,7 +9488,8 @@
         "jpeg": [
           640
         ]
-      }
+      },
+      "focus": "15% 50%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -13457,21 +13380,21 @@
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
       },
       "variants": {
-        "base": "/images/sites/dailam-monastery/cd0af6e779",
-        "hash": "cd0af6e779",
-        "width": 500,
-        "height": 273,
-        "color": "#a1948d",
+        "base": "/images/sites/dailam-monastery/691cd10943",
+        "hash": "691cd10943",
+        "width": 640,
+        "height": 350,
+        "color": "#a2948d",
         "avif": [
           320,
-          500
+          640
         ],
         "webp": [
           320,
-          500
+          640
         ],
         "jpeg": [
-          500
+          640
         ]
       }
     },
@@ -19495,7 +19418,8 @@
         "jpeg": [
           640
         ]
-      }
+      },
+      "focus": "90% 50%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -22098,21 +22022,21 @@
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
       },
       "variants": {
-        "base": "/images/sites/qishla-of-kirkuk/5cfe0a6a4d",
-        "hash": "5cfe0a6a4d",
-        "width": 330,
-        "height": 209,
+        "base": "/images/sites/qishla-of-kirkuk/ffb35f37da",
+        "hash": "ffb35f37da",
+        "width": 495,
+        "height": 314,
         "color": "#81807a",
         "avif": [
           320,
-          330
+          495
         ],
         "webp": [
           320,
-          330
+          495
         ],
         "jpeg": [
-          330
+          495
         ]
       }
     },
@@ -26733,7 +26657,8 @@
         "jpeg": [
           640
         ]
-      }
+      },
+      "focus": "50% 5%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -27578,7 +27503,8 @@
         "jpeg": [
           640
         ]
-      }
+      },
+      "focus": "50% 5%"
     },
     "galleryImages": [],
     "image_status": "approved",
@@ -29826,21 +29752,22 @@
         "method": "Candidate = Wikidata image (P18) of the card's own site item; license and creator from the Wikimedia Commons API; every candidate viewed on a labelled contact sheet and approved only when it shows the site itself."
       },
       "variants": {
-        "base": "/images/sites/shamash-school/bc893b1c5d",
-        "hash": "bc893b1c5d",
-        "width": 500,
-        "height": 382,
+        "base": "/images/sites/shamash-school/c317894d85",
+        "hash": "c317894d85",
+        "width": 710,
+        "height": 542,
         "color": "#818181",
         "avif": [
           320,
-          500
+          640
         ],
         "webp": [
           320,
-          500
+          640,
+          710
         ],
         "jpeg": [
-          500
+          640
         ]
       }
     },

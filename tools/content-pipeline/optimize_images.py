@@ -54,6 +54,7 @@ ENCODE = {
 # default quality; quality then steps down, never below FLOOR, which keeps degradation invisible.
 BUDGET = {320: 60_000, 640: 180_000, 960: 300_000, 1280: 500_000}
 FLOOR = {'avif': 36, 'webp': 56, 'jpeg': 62}
+RENDITION = re.compile(r'^[0-9a-f]{10}-\d+\.(avif|webp|jpeg)$')
 SETTINGS = json.dumps([ROLES, FORMATS, {k: v[1] for k, v in ENCODE.items()}, BUDGET, FLOOR], sort_keys=True)
 
 
@@ -142,7 +143,9 @@ def optimize(image_record, slug, check_only=False):
                 'height': round(image.height * min(image.width, ROLES['full']) / image.width),
                 'color': '#%02x%02x%02x' % image.resize((1, 1), Image.LANCZOS).getpixel((0, 0))}
     for fmt, roles in FORMATS.items():
-        existing = {int(p.name.split('-')[1].split('.')[0]) for p in folder.glob(f'{digest}-*.{fmt}')} if folder.exists() else set()
+        # Exact names only: sync services leave copies such as '<hash>-320 2.webp' beside the real files.
+        pattern = re.compile(rf'^{digest}-(\d+)\.{fmt}$')
+        existing = {int(m.group(1)) for p in folder.glob(f'{digest}-*') if (m := pattern.match(p.name))} if folder.exists() else set()
         variants[fmt] = []
         previous = 0
         for width in widths_for(roles, image.width):
@@ -200,9 +203,10 @@ def main():
     if missing:
         print(f'{missing} images could not be downloaded this run; their records are unchanged')
     SITES.write_text(json.dumps(sites, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    stale = {p.parent.name + '/' + p.name.split('-')[0] for p in OUT.rglob('*.*') if not p.name.endswith('.over-budget')} - {
+    ours = [p for p in OUT.rglob('*') if p.is_file() and RENDITION.match(p.name) and ' ' not in p.parent.name]
+    stale = {p.parent.name + '/' + p.name.split('-')[0] for p in ours} - {
         s['slug'] + '/' + i['variants']['hash'] for s in sites for i in [s.get('coverImage') or {}, *s.get('galleryImages', [])] if i.get('variants')}
-    files = [p for p in OUT.rglob('*.*') if not p.name.endswith('.over-budget')]
+    files = ours
     size = sum(p.stat().st_size for p in files)
     print(f'{done} images optimized; {len(files)} files, {size / 1e6:.1f} MB in {OUT.relative_to(ROOT)}')
     if stale:

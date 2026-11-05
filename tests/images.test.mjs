@@ -69,3 +69,12 @@ test('an image without renditions still renders its source', () => {
   const html = renderToStaticMarkup(React.createElement(ResponsiveImage, { image: { src: '/plain.jpg' }, alt: 'Plain' }));
   assert.match(html, /<img[^>]+src="\/plain\.jpg"[^>]+loading="lazy"/);
 });
+
+test('a reviewed focus point steers the card crop, and only the card crop', () => {
+  const focused = { ...image, focus: '50% 0%' };
+  assert.match(renderToStaticMarkup(React.createElement(ResponsiveImage, { image: focused, alt: 'Minaret', role: 'card' })), /object-position:50% 0%/);
+  assert.doesNotMatch(renderToStaticMarkup(React.createElement(ResponsiveImage, { image: focused, alt: 'Minaret', role: 'gallery' })), /object-position/);
+  for (const { id, coverImage } of approved) {
+    if (coverImage.focus !== undefined) assert.match(coverImage.focus, /^\d{1,3}% \d{1,3}%$/, id);
+  }
+});

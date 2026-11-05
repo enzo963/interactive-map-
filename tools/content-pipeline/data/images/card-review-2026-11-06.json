@@ -1,0 +1,23 @@
+{
+  "reviewer": "Claude (Anthropic), visual review of simulated card crops",
+  "reviewedAt": "2026-11-06",
+  "method": "Every approved cover was cropped as the card shows it (object-fit: cover in a frame of about 1.07:1) and viewed on labelled contact sheets, together with automated checks for missing files, external links, duplicate files, near-duplicate images, resolution and orientation. A focus point moves the crop; a withdrawal returns the card to the Heritage Bridge fallback.",
+  "entries": [
+    { "id": "site-erbil-choli-minaret", "action": "focus", "focus": "50% 0%", "reason": "The centred crop cut off the top of the minaret." },
+    { "id": "site-duhok-great-mosque-amedi", "action": "focus", "focus": "50% 0%", "reason": "The centred crop cut off the top of the minaret." },
+    { "id": "site-baghdad-uzbek-mosque", "action": "focus", "focus": "50% 5%", "reason": "The centred crop cut off the top of the minaret." },
+    { "id": "site-baghdad-ibn-bunnieh-mosque", "action": "focus", "focus": "50% 5%", "reason": "The centred crop cut off the top of the minaret." },
+    { "id": "site-nineveh-imam-al-bahir-shrine", "action": "focus", "focus": "15% 50%", "reason": "The centred crop cut the minaret at the left edge." },
+    { "id": "site-sulaymaniyah-sherwana-castle", "action": "focus", "focus": "90% 50%", "reason": "A statue filled half the centred crop; the castle is on the right." },
+    { "id": "site-erbil-qasr-shemamok", "action": "withdraw", "reason": "At card size the photograph shows a power pylon and a track, with the mound barely visible on the horizon: not a recognisable view of the site." }
+  ],
+  "checkedWithoutChange": [
+    "No missing rendition files; no card or gallery image is served from an external host.",
+    "No Commons file is used on two cards. Samarra and the Great Mosque of Samarra both show the Malwiya in different photographs: the minaret stands within the site, so this is a related view, not a misassignment.",
+    "The near-duplicate signal between Aghawat Mosque and Imam Dur Mausoleum is a false positive (a minaret at night and a mausoleum by day).",
+    "Shifting the crop of Samarra and of the Great Mosque of Samarra made them worse; their centred crops stay.",
+    "No watermarks seen. Images use object-fit: cover (cards, thumbnails) or contain with height auto (viewer), so none is stretched.",
+    "Small originals kept, as they show the right site and read acceptably at card size: Mar Behnam 384 px, Haydar-Khana 375 px, Baghdad Central Station 400 px, Bash Tapia 500 px. Better photographs would improve them on high-density screens.",
+    "Dailam Monastery, Qishla of Kirkuk and Shamash School were re-made from their full originals (640, 495 and 710 px) after a rate-limited first download."
+  ]
+}
