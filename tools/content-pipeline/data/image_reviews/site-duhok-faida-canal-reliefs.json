@@ -1,0 +1,719 @@
+{
+  "id": "site-duhok-faida-canal-reliefs",
+  "name": "Faida Archaeological Canal and Reliefs",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "period": "Assyrian",
+  "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    }
+  ],
+  "draft_id": "draft-faida-canal-reliefs-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Faida Archaeological Canal and Reliefs",
+  "candidate_summary": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+  "source_evidence": [
+    "krg-20261031T183030Z-520d663dfb"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://gov.krd/media/15800/2178409.jpg",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "2178409.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15800/2178409.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104529270000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "2178409.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15806/photo_2022-10-17_10-07-14.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643220000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2022-10-17_10-07-14.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15804/photo_2022-10-17_10-07-16.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2022-10-17_10-07-16.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15805/photo_2022-10-17_10-07-15.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2022-10-17_10-07-15.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15803/photo_2022-10-17_10-07-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2022-10-17_10-07-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/15787/photo_2022-10-16_13-23-54.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133103956630000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2022-10-16_13-23-54.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-faida-canal-reliefs",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "The source reports conditions in October 2022, not current visitor access or project progress.",
+      "A reversed regnal-year range occurs in the source. Exact regnal dates and present relief counts are excluded pending specialist review.",
+      "Governorate follows the KRG article; review administrative attribution under the project geographic policy."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "candidate_summary": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "image_candidates": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+      "json_pointer": "/paragraphs/0",
+      "text_match": "an irrigation canal in Faida in Duhok province"
+    }
+  ],
+  "image_extractions": [
+    {
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "source": {
+        "sourceId": "krg",
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+        "evidenceId": "krg-20261031T183030Z-520d663dfb",
+        "accessedAt": "2026-10-31T18:30:30+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "KRG inaugurated the first archaeological park with carvings dating back 2,700 years in Duhok province",
+        "canonical_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+        "meta_description": "Erbil, Kurdistan Region (GOV.KRD) - The Ministry of Municipalities and Tourism today inaugurated the first phase of an archaeological park at the site of an irrigation canal in Faida in Duhok province. The park is the first of its kind in Iraq and the region.",
+        "language": "en",
+        "headings": [
+          "KRG inaugurated the first archaeological park with carvings dating back 2,700 years in Duhok province"
+        ],
+        "paragraphs": [
+          "Erbil, Kurdistan Region (GOV.KRD) - The Ministry of Municipalities and Tourism today inaugurated the first phase of an archaeological park at the site of an irrigation canal in Faida in Duhok province. The park is the first of its kind in Iraq and the region.",
+          "Dating back by more than 2,700 years, the sculptures engraved on the walls stem from the era of the Assyrian king Sargon ll (705-721 BC) and his son Sennacherib who succeeded him.",
+          "The carvings at the site were discovered in several stages of excavations carried out by a joint mission of Duhok’s Directorate of Antiquities and Heritage and Italian archaeologists from the University of Udine in recent years.",
+          "The ceremony, held in the rugged mountains, was attended by the KRG’s Minister of Municipalities and Tourism, Sasan Awni and the Italian Ambassador to Iraq, Maurizio Griganti.",
+          "According to Duhok’s Director of Antiques and Heritage, Dr. Bekas Brifkani the site visits are currently restricted to foreign tourists, researchers and specialists only.",
+          "The site is located in the south of Duhok province. It includes a ten-kilometer long irrigation canal with 13 sculptures engraved on its walls. Brifkani said he hoped for “other parts to be discovered in the future.”",
+          "Faida park is one of five sites that will be included in the Archaeological Park project in the future."
+        ],
+        "image_candidates": [
+          {
+            "url": "https://gov.krd/media/15800/2178409.jpg",
+            "alt": "",
+            "caption": "",
+            "source": "og:image",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "og:image",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "2178409.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15800/2178409.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104529270000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "2178409.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15806/photo_2022-10-17_10-07-14.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643220000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "photo_2022-10-17_10-07-14.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15804/photo_2022-10-17_10-07-16.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "photo_2022-10-17_10-07-16.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15805/photo_2022-10-17_10-07-15.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "photo_2022-10-17_10-07-15.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15803/photo_2022-10-17_10-07-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "photo_2022-10-17_10-07-19.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/15787/photo_2022-10-16_13-23-54.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133103956630000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "photo_2022-10-16_13-23-54.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-faida-canal-reliefs",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-duhok-faida-canal-reliefs",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://gov.krd/media/15800/2178409.jpg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15800/2178409.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104529270000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15806/photo_2022-10-17_10-07-14.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643220000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15804/photo_2022-10-17_10-07-16.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15805/photo_2022-10-17_10-07-15.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15803/photo_2022-10-17_10-07-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133104643210000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/15787/photo_2022-10-16_13-23-54.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133103956630000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

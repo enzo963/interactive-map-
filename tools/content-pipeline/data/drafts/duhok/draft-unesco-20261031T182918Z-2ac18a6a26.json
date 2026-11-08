@@ -1,0 +1,43 @@
+{
+  "draft_id": "draft-unesco-20261031T182918Z-2ac18a6a26",
+  "governorate": "duhok",
+  "status": "needs-review",
+  "candidate_name": "Amedy city",
+  "candidate_summary": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+  "source_evidence": [
+    "unesco-20261031T182918Z-2ac18a6a26"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://www.unesco.org/sites/default/files/p.png",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "image_candidates": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ]
+  }
+}

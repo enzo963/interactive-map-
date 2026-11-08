@@ -1,0 +1,38 @@
+{
+  "evidence_id": "unesco-20261031T235346Z-498ce2b373-380342",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/tentativelists/5880/",
+  "final_url": "https://whc.unesco.org/en/tentativelists/5880/",
+  "governorate": "Baghdad",
+  "retrieved_at": "2026-10-31T23:53:46.504048+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "498ce2b373d0b42abf271ec8e22dd955698f5698548a2797c2155671d56c1cc9",
+  "html_path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.html",
+  "extraction_path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/tentativelists/5880/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL.",
+    "attempts": [
+      {
+        "url": "https://whc.unesco.org/robots.txt",
+        "attempt": 1,
+        "http_status": 200,
+        "retryable": false
+      }
+    ]
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ],
+  "change_type": "new",
+  "previous_evidence_id": null,
+  "previous_sha256": null
+}

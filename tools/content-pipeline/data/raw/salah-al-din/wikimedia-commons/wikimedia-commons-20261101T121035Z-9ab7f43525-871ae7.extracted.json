@@ -1,0 +1,149 @@
+{
+  "title": "File : Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+  "canonical_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+  "meta_description": "Picture taken with a Canon EOS, and scanned",
+  "language": "en",
+  "headings": [
+    "File : Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+    "Captions",
+    "Summary",
+    "Licensing",
+    "File history",
+    "File usage on Commons",
+    "File usage on other wikis",
+    "Metadata"
+  ],
+  "paragraphs": [
+    "Picture taken with a Canon EOS, and scanned",
+    "to share – to copy, distribute and transmit the work",
+    "attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.",
+    "share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.",
+    "Click on a date/time to view the file as it appeared at that time.",
+    "The following other wikis use this file:",
+    "This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong."
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg/1280px-Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "1280px-Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20180225185849",
+      "alt": "File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 800,
+      "height": 600,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20180225185849",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg/120px-Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20180225185849",
+      "alt": "Thumbnail for version as of 18:58, 25 February 2018",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 90,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 18:58, 25 February 2018",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7"
+    }
+  ]
+}

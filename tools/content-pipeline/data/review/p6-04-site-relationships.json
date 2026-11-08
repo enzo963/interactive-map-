@@ -1,0 +1,172 @@
+[
+  {
+    "siteId": "site-duhok-amedy-city",
+    "complexId": "site-duhok-amedy-city",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-duhok-delal-bridge",
+    "complexId": "site-duhok-delal-bridge",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-duhok-faida-canal-reliefs",
+    "complexId": "site-duhok-faida-canal-reliefs",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-erbil-choli-minaret",
+    "complexId": "site-erbil-choli-minaret",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-erbil-erbil-citadel",
+    "complexId": "site-erbil-erbil-citadel",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-erbil-shanidar-cave",
+    "complexId": "site-erbil-shanidar-cave",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-kirkuk-kirkuk-citadel",
+    "complexId": "site-kirkuk-kirkuk-citadel",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-kirkuk-mother-of-sorrows-church",
+    "complexId": "site-kirkuk-kirkuk-citadel",
+    "parentSiteId": "site-kirkuk-kirkuk-citadel"
+  },
+  {
+    "siteId": "site-kirkuk-prophet-daniel-mosque",
+    "complexId": "site-kirkuk-kirkuk-citadel",
+    "parentSiteId": "site-kirkuk-kirkuk-citadel"
+  },
+  {
+    "siteId": "site-kirkuk-green-dome",
+    "complexId": "site-kirkuk-kirkuk-citadel",
+    "parentSiteId": "site-kirkuk-kirkuk-citadel"
+  },
+  {
+    "siteId": "site-nineveh-al-nouri",
+    "complexId": "site-nineveh-old-mosul",
+    "parentSiteId": "site-nineveh-old-mosul"
+  },
+  {
+    "siteId": "site-nineveh-dominican-church",
+    "complexId": "site-nineveh-old-mosul",
+    "parentSiteId": "site-nineveh-old-mosul"
+  },
+  {
+    "siteId": "site-001",
+    "complexId": "site-001",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-nineveh-lalish",
+    "complexId": "site-nineveh-lalish",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-nineveh-nimrud",
+    "complexId": "site-nineveh-nimrud",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-nineveh-old-mosul",
+    "complexId": "site-nineveh-old-mosul",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-nineveh-ancient-nineveh",
+    "complexId": "site-nineveh-ancient-nineveh",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-sulaymaniyah-bestansur",
+    "complexId": "site-sulaymaniyah-bestansur",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-sulaymaniyah-qalatga-darband",
+    "complexId": "site-sulaymaniyah-qalatga-darband",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-sulaymaniyah-tell-shemshara",
+    "complexId": "site-sulaymaniyah-tell-shemshara",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-mustansiriya-madrasa",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-abbasid-palace",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-al-qishla",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-al-wazir-mosque",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-al-asifiyah-mosque",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-baghdad-house-of-wisdom-building",
+    "complexId": "baghdad-rusafa-riverbank-ensemble",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-salah-al-din-samarra",
+    "complexId": "site-salah-al-din-samarra",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-salah-al-din-great-mosque",
+    "complexId": "site-salah-al-din-samarra",
+    "parentSiteId": "site-salah-al-din-samarra"
+  },
+  {
+    "siteId": "site-salah-al-din-abu-dulaf",
+    "complexId": "site-salah-al-din-samarra",
+    "parentSiteId": "site-salah-al-din-samarra"
+  },
+  {
+    "siteId": "site-salah-al-din-caliphal-palace",
+    "complexId": "site-salah-al-din-samarra",
+    "parentSiteId": "site-salah-al-din-samarra"
+  },
+  {
+    "siteId": "site-salah-al-din-ashur",
+    "complexId": "site-salah-al-din-ashur",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-erbil-qaysari-bazaar",
+    "complexId": "site-erbil-qaysari-bazaar",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-sulaymaniyah-red-terror-museum",
+    "complexId": "site-sulaymaniyah-red-terror-museum",
+    "parentSiteId": null
+  },
+  {
+    "siteId": "site-kirkuk-qaysariyah-market",
+    "complexId": "site-kirkuk-kirkuk-citadel",
+    "parentSiteId": "site-kirkuk-kirkuk-citadel"
+  }
+]

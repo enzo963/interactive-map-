@@ -1,0 +1,27 @@
+{
+  "siteId": "site-erbil-erbil-citadel",
+  "assertions": [
+    {
+      "assertionId": "erbil-name-unesco",
+      "field": "name",
+      "value": "Erbil Citadel",
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "locator": {
+        "artifact": "data\\raw\\erbil\\unesco\\unesco-20261031T171953Z-183f6bd893.extracted.json",
+        "text_match": "Erbil Citadel is a fortified settlement",
+        "json_pointer": "/paragraphs/0"
+      }
+    },
+    {
+      "assertionId": "erbil-name-krg",
+      "field": "name",
+      "value": "Erbil Citadel",
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "locator": {
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172031Z-6fdcb793a0.extracted.json",
+        "text_match": "Erbil Citadel",
+        "json_pointer": "/paragraphs/0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "exported_at": "2026-10-31T22:35:26+00:00",
+  "input_records": 20,
+  "exported_records": 0,
+  "items": [
+    {
+      "id": "site-duhok-amedy-city",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-duhok-delal-bridge",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-duhok-faida-canal-reliefs",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-choli-minaret",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-erbil-citadel",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-shanidar-cave",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-kirkuk-citadel",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-mother-of-sorrows-church",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-prophet-daniel-mosque",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-green-dome",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-al-nouri",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-dominican-church",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-001",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-lalish",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-nimrud",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-old-mosul",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-ancient-nineveh",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-bestansur",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-qalatga-darband",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-tell-shemshara",
+      "status": "needs-review",
+      "included": false,
+      "reason": "No explicit review decision.",
+      "media_omissions": []
+    }
+  ],
+  "automatically_approved": 0,
+  "published": false
+}

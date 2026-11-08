@@ -1,0 +1,132 @@
+{
+  "draft_id": "draft-unesco-20261101T120911Z-dbd9292fc8-17df06",
+  "governorate": "Salah al-Din",
+  "status": "needs-review",
+  "candidate_name": "Ashur (Qal'at Sherqat)",
+  "candidate_summary": "The ancient city of Ashur is located on the Tigris River in northern Mesopotamia in a specific geo-ecological zone, at the borderline between rain-fed and irrigation agriculture. The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD.",
+  "source_evidence": [
+    "unesco-20261101T120911Z-dbd9292fc8-17df06"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1130_0007-1200-630-20151104154215-q70.webp",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://whc.unesco.org/en/list/1130/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_1130_0007-1200-630-20151104154215-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        },
+        {
+          "kind": "twitter:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_1130_0007-1200-630-20151104154215-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1130_0007-750-750-20151104154215-q35.webp",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/list/1130/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 400,
+      "height": 400,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "Ashur (Qal'at Sherqat)",
+          "filename": "site_1130_0007-750-750-20151104154215-q35.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1130_0007-750-750-20151104154215-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1130_0007-600-600-20151104154215-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1130_0007-400-400-20151104154215-q35.webp",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ],
+    "image_candidates": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ]
+  }
+}

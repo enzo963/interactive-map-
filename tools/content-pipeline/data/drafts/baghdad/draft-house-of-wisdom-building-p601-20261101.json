@@ -1,0 +1,117 @@
+{
+  "id": "site-baghdad-house-of-wisdom-building",
+  "name": "House of Wisdom (Industries School Building)",
+  "slug": "house-of-wisdom-building",
+  "alternativeNames": [
+    "Bait Al-Hikma",
+    "Al-Sanai school",
+    "Industries School"
+  ],
+  "governorate": "Baghdad",
+  "city": "Baghdad",
+  "country": "Iraq",
+  "category": "Historic School",
+  "period": "Ottoman",
+  "description": "An Ottoman-era school building in Baghdad, described as the Industries School or House of Wisdom, with two storeys and arcaded corridors overlooking gardens.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342"
+  ],
+  "draft_id": "draft-house-of-wisdom-building-p601-20261101",
+  "parent_draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "candidate_name": "House of Wisdom (Industries School Building)",
+  "candidate_summary": "An Ottoman-era school building in Baghdad, described as the Industries School or House of Wisdom, with two storeys and arcaded corridors overlooking gardens.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true
+  },
+  "unesco_status": "unknown",
+  "provenance": {
+    "name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "governorate": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "category": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "period": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "description": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/23",
+      "text_match": "Industries School (House of Wisdom) : Industries school (Al-Sanai school) constructed on the orders of the governor Med hat Pasha in the position of school building AL-alia (established by the governor Ali Pasha Katakhda1176/ 1762). It is a rectangular building of two stores measuring 64 m × 29 m. Entrance occupies the southern facade and leads to space vaulted dome hemispherical, the building includes rooms and halls with arches semi-circular overlooking the corridors is based on the columns and vaults semi-circular open to the gardens confined between parts of the building. The school building still stands tall in order to play its scientific role through the ages."
+    }
+  ],
+  "image_candidates": [],
+  "collection_task": "P6-01",
+  "collection_notes": [
+    "Historical facts checked against Iraq's submission hosted by UNESCO; not an independent archaeological survey.",
+    "Unknown 3D availability and individual inscription status remain null. Exact construction dates and coordinates are not asserted.",
+    "This record identifies the Ottoman school building; it does not identify the original Abbasid House of Wisdom library or claim survival of that library.",
+    "P6-01 review performed by Codex AI at the user's request. This is not human-curator or archaeological field verification. No frontend publication was performed.",
+    "No approved cover: absent site-specific imagery or failed HTTP image check. Use the existing frontend fallback.",
+    "Use the existing adapter's unknown UNESCO status value; the tentative ensemble explanation is retained in heritage_status, avoiding an unsupported inscription badge."
+  ],
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/23",
+        "text_match": "Industries School (House of Wisdom) : Industries school (Al-Sanai school) constructed on the orders of the governor Med hat Pasha in the position of school building AL-alia (established by the governor Ali Pasha Katakhda1176/ 1762). It is a rectangular building of two stores measuring 64 m × 29 m. Entrance occupies the southern facade and leads to space vaulted dome hemispherical, the building includes rooms and halls with arches semi-circular overlooking the corridors is based on the columns and vaults semi-circular open to the gardens confined between parts of the building. The school building still stands tall in order to play its scientific role through the ages."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/23",
+        "text_match": "Industries School (House of Wisdom) : Industries school (Al-Sanai school) constructed on the orders of the governor Med hat Pasha in the position of school building AL-alia (established by the governor Ali Pasha Katakhda1176/ 1762). It is a rectangular building of two stores measuring 64 m × 29 m. Entrance occupies the southern facade and leads to space vaulted dome hemispherical, the building includes rooms and halls with arches semi-circular overlooking the corridors is based on the columns and vaults semi-circular open to the gardens confined between parts of the building. The school building still stands tall in order to play its scientific role through the ages."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/23",
+        "text_match": "Industries School (House of Wisdom) : Industries school (Al-Sanai school) constructed on the orders of the governor Med hat Pasha in the position of school building AL-alia (established by the governor Ali Pasha Katakhda1176/ 1762). It is a rectangular building of two stores measuring 64 m × 29 m. Entrance occupies the southern facade and leads to space vaulted dome hemispherical, the building includes rooms and halls with arches semi-circular overlooking the corridors is based on the columns and vaults semi-circular open to the gardens confined between parts of the building. The school building still stands tall in order to play its scientific role through the ages."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/23",
+        "text_match": "Industries School (House of Wisdom) : Industries school (Al-Sanai school) constructed on the orders of the governor Med hat Pasha in the position of school building AL-alia (established by the governor Ali Pasha Katakhda1176/ 1762). It is a rectangular building of two stores measuring 64 m × 29 m. Entrance occupies the southern facade and leads to space vaulted dome hemispherical, the building includes rooms and halls with arches semi-circular overlooking the corridors is based on the columns and vaults semi-circular open to the gardens confined between parts of the building. The school building still stands tall in order to play its scientific role through the ages."
+      }
+    ]
+  },
+  "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription"
+}

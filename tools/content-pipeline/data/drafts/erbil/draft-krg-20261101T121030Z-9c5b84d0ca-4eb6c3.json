@@ -1,0 +1,499 @@
+{
+  "draft_id": "draft-krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+  "governorate": "Erbil",
+  "status": "needs-review",
+  "candidate_name": "KRG’s Council of Ministers Deliberates on Critical Issues",
+  "candidate_summary": "On 8 May 2024, the Kurdistan Regional Government’s (KRG) Prime Minister, Masrour Barzani, led a session of the Council of Ministers, with Deputy Prime Minister Qubad Talabani also present.",
+  "source_evidence": [
+    "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://gov.krd/media/26475/photo_7_2024-05-08_19-02-19.jpg",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_7_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26475/photo_7_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577490000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_7_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26479/photo_11_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577510000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_11_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26478/photo_10_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577500000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_10_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26477/photo_9_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577500000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_9_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26476/photo_8_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577490000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_8_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26474/photo_6_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577480000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_6_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26473/photo_5_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577480000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_5_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26472/photo_4_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577470000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_4_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26471/photo_3_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577470000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_3_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26470/photo_2_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577460000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_2_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    },
+    {
+      "url": "https://gov.krd/media/26469/photo_1_2024-05-08_19-02-19.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133596577450000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "photo_1_2024-05-08_19-02-19.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ],
+    "candidate_summary": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ],
+    "image_candidates": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ]
+  }
+}

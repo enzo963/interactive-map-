@@ -1,0 +1,114 @@
+{
+  "manifest": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\collections\\p6-01-baghdad-image-sources.json",
+  "items": [
+    {
+      "index": 0,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Baghdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "name": "Al-Mustansiriya Madrasa",
+        "alternativeNames": [
+          "Mustansiriya Madrasah",
+          "Munstansiriya Madrasah"
+        ]
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Baghdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "siteId": "site-baghdad-abbasid-palace",
+        "name": "Abbasid Palace",
+        "alternativeNames": [
+          "القصر العباسي"
+        ]
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Baghdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "name": "Al-Wazir Mosque",
+        "alternativeNames": [
+          "Al Wazeer Mosque"
+        ]
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Baghdad",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+        "siteId": "site-baghdad-al-qishla",
+        "name": "Al-Qishla and Clock Tower",
+        "alternativeNames": [
+          "Al Qishlah",
+          "Qushla",
+          "Qishleh"
+        ]
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "processed": 4,
+    "failed": 0
+  },
+  "automatically_approved": 0
+}

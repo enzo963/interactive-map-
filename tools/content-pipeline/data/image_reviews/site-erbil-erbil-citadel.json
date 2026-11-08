@@ -1,0 +1,593 @@
+{
+  "id": "site-erbil-erbil-citadel",
+  "name": "Erbil Citadel",
+  "governorate": "Erbil",
+  "category": "Citadel",
+  "period": "",
+  "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+  "unesco": true,
+  "has3D": null,
+  "coverImage": {
+    "src": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+    "alt": "",
+    "caption": "",
+    "credit": "",
+    "license": "",
+    "siteId": "site-erbil-erbil-citadel",
+    "sourceId": "unesco",
+    "sourceName": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/list/1437/",
+    "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+    "license_status": "unverified",
+    "verification_status": "unverified",
+    "review_required": true
+  },
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1437/",
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "accessedAt": "2026-10-31T17:19:53+00:00"
+    },
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "accessedAt": "2026-10-31T17:20:31+00:00"
+    }
+  ],
+  "draft_id": "draft-erbil-citadel-p501-20261031",
+  "status": "needs-review",
+  "candidate_name": "Erbil Citadel",
+  "candidate_summary": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+  "source_evidence": [
+    "unesco-20261031T171953Z-183f6bd893",
+    "krg-20261031T172031Z-6fdcb793a0"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/list/1437/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 400,
+      "height": 400,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "Erbil Citadel",
+          "filename": "site_1437_0003-750-750-20140621133845-q35.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-600-600-20140621133845-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-400-400-20140621133845-q35.webp",
+          "declared_width": null
+        }
+      ],
+      "siteId": "site-erbil-erbil-citadel",
+      "targetSiteId": "site-erbil-erbil-citadel",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "title",
+          "matched_names": [
+            "erbil citadel"
+          ],
+          "text": "Erbil Citadel"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "accessedAt": "2026-10-31T17:19:53+00:00"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-1200-630-20140621133845-q70.webp",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://whc.unesco.org/en/list/1437/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_1437_0003-1200-630-20140621133845-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        },
+        {
+          "kind": "twitter:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_1437_0003-1200-630-20140621133845-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-erbil-erbil-citadel",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "accessedAt": "2026-10-31T17:19:53+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-erbil-erbil-citadel",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "accessedAt": "2026-10-31T17:20:31+00:00"
+    },
+    {
+      "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=134006907750000000",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-erbil-erbil-citadel",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "accessedAt": "2026-10-31T17:20:31+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Site-focused draft derived from captured approved-source evidence; not published.",
+      "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+      "Use the UNESCO listing for designation and descriptive facts. The KRG restoration report is dated August 2025 and is not proof of current construction status."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T171953Z-183f6bd893"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T171953Z-183f6bd893"
+    ],
+    "image_candidates": [
+      "unesco-20261031T171953Z-183f6bd893",
+      "krg-20261031T172031Z-6fdcb793a0"
+    ],
+    "coverImage": [
+      "unesco-20261031T171953Z-183f6bd893"
+    ]
+  },
+  "image_extractions": [
+    {
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "source": {
+        "sourceId": "unesco",
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/1437/",
+        "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+        "accessedAt": "2026-10-31T17:19:53+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Erbil Citadel",
+        "canonical_url": "https://whc.unesco.org/en/list/1437/",
+        "meta_description": "Erbil Citadel is a fortified settlement on top of an imposing ovoid-shaped tell (a hill created by many generations of people living and rebuilding on the same spot) in the Kurdistan region, Erbil Governorate. A continuous wall of tall 19th-century façades still conveys the visual impression of an impregnable fortress, dominating the city of Erbil. The citadel features a peculiar fan-like pattern dating back to Erbil’s late Ottoman phase. Written and iconographic historical records document the antiquity of settlement on the site – Erbil corresponds to ancient Arbela, an important Assyrian political and religious centre – while archaeological finds and investigations suggest that the mound conceals the levels and remains of previous settlements.",
+        "language": "en",
+        "headings": [
+          "Erbil Citadel",
+          "Outstanding Universal Value"
+        ],
+        "paragraphs": [
+          "Erbil Citadel is a fortified settlement on top of an imposing ovoid-shaped tell (a hill created by many generations of people living and rebuilding on the same spot) in the Kurdistan region, Erbil Governorate. A continuous wall of tall 19th-century façades still conveys the visual impression of an impregnable fortress, dominating the city of Erbil. The citadel features a peculiar fan-like pattern dating back to Erbil’s late Ottoman phase. Written and iconographic historical records document the antiquity of settlement on the site – Erbil corresponds to ancient Arbela, an important Assyrian political and religious centre – while archaeological finds and investigations suggest that the mound conceals the levels and remains of previous settlements.",
+          "Description is available under license CC-BY-SA IGO 3.0",
+          "La citadelle d’Erbil est un établissement anciennement fortifié bâti au sommet d’un imposant tell ovoïde – un monticule créé par les générations qui se sont succédé sur le site et ont reconstruit au même endroit. Elle est située dans la région autonome du Kurdistan en Iraq, au nord du pays. Le mur ininterrompu de façades de maisons du XIX e siècle continue de donner l’impression visuelle d’une forteresse imprenable surplombant la ville d’Erbil. La citadelle présente un tracé de rues particulier, en éventail, datant de la phase ottomane tardive d’Erbil. Les sources écrites et iconographiques documentent l’antiquité de l’occupation du site – Erbil correspond à l’ancienne Arbèles, un important centre politique et religieux assyrien – tandis que les découvertes et fouilles archéologiques suggèrent que la colline cache les strates et les vestiges d’établissements plus anciens.",
+          "Укреплённое поселение на вершине внушительных размеров яйцеобразного холма, свидетельствующего о жизни и строительной деятельности многих поколений. Объект расположен в Курдистане, провинция Эрбиль. Протяжённая высокая фасадная стена, относящаяся к XIX веку, и в наше время производит зрелищное впечатление неприступной крепости, доминирующей над городом Эрбиль. Цитадель имеет своеобразную веерообразную форму, характерную для Эрбиля конца Османской эпохи. Письменные и иконографические исторические документы говорят о древности поселения, основанного в этом месте. Эрбиль был известен под названием «древняя Арбела» - важный ассирийский политический и религиозный центр. Археологические исследования и находки указывают на то, что холм скрывает многие уровни и следы бывших здесь поселений.",
+          "source: UNESCO/CPE Description is available under license CC-BY-SA IGO 3.0",
+          "Se trata de un asentamiento fortificado construido en la cima de un imponente tell ovoidal, es decir, un montículo creado por las generaciones que se sucedieron en el sitio y lo reconstruyeron en el mismo lugar. Los muros ininterrumpidos de fachadas y viviendas del siglo XIX continúan dando la impresión visual de una fortaleza inexpugnable que domina la ciudad de Erbil, situada en la región autónoma del Kurdistán (Iraq). El peculiar trazado de sus calles, en forma de abanico, data de la fase otomana tardía de Erbil. Las fuentes escritas e iconográficas documentan una ocupación del sitio antigua: Erbil corresponde a la antigua Arbela, un importante centro político y religioso asirio. Además, los descubrimientos y las excavaciones arqueológicas realizadas sugieren que la colina oculta estratos y vestigios todavía más antiguos.",
+          "Erbil Citadel is a rare surviving example of a formerly fortified settlement which has grown up on the top of an imposing ovoid-shaped tell. The artificial topography of the archaeological mound conditioned the urban form of the settlement, the structure of the Ottoman period urban fabric of which is clearly legible, in the maze of alleys and cul-de-sacs radiating from the main Grand Gate. The original fortifications of the Citadel were in time replaced by houses and the continuous wall of tall 19th century house façades still conveys the visual impression of an impregnable fortress dominating the city of Erbil. Written and iconographic historical records document the antiquity of settlement on the site: Erbil is associated with Arbela, an important Assyrian political and religious centre and is mentioned, with a remarkable continuity of its name (Irbilum, Urbilum, Urbel, Arbail, Arbira, Arbela, Erbil/Arbil), since pre-Sumerian times in several written sources. Archaeological finds and investigations suggest that the mound conceals the levels and remains of several layers of previous settlements, while the immediate and wider setting has revealed traces connected to the early development of the settlement.",
+          "Criterion (iv): Erbil Citadel is an imposing example of a multilayered archaeological mound still physically emerging from the surrounding landscape. The physical structure of the Citadel town is characterized by the permanence of the Ottoman period urban form and street pattern on top of the mound. Its shape with definite boundaries has in part dictated the transformations of the urban fabric which still exhibits the typical Ottoman period traditional articulation in functional districts and comprises some fine examples of residential buildings dating back to the 19th – 20th centuries, and, to a lesser degree, to the 18th century.",
+          "The property encompasses an intact archaeological tell which still keeps its role of landmark in the landscape of Erbil. It preserves over thirty metres of archaeological deposits going back to the very early beginnings of urbanization in Mesopotamia. The urban structure of the Citadel settlement is still clearly recognizable in its blocks division and alleyways. Some demolitions made by the previous regime have opened some spaces, the building stock has suffered from decay in the past fifty years, and the social and functional integrity of the Citadel as an inhabited settlement has suffered discontinuity, but these will be carefully addressed following the recommendations of the Erbil Citadel Management Plan, in order to return the Citadel to its role as the central place for Erbil and its citizens. Its buffer areas have some problems of integrity due to modern constructions encroaching on the streets and areas immediately surrounding the tell, but this is being addressed by the implementation of new guidelines regulating uses and form of modern activities in this area. The wider setting is also important to understand and appreciate Erbil Citadel as a landmark for the city.",
+          "The property sits on an archaeological tell where excavations at the site started under HCECR monitoring, therefore the site and its immediate and wider setting retain an important archaeological potential contributing to its historic authenticity. The urban structure of the formerly fortified settlement of the Ottoman period is preserved to a sufficient extent to allow its understanding and appreciation. Demolition and abandonment were not accompanied by replacements with modern, incompatible materials and forms, leaving substance and design of the historic city relatively preserved, despite that materials from existing buildings were used to erect temporary housing by newcomers who occupied the site for a couple of decades. This phenomenon however provides an insight on the archaeological mound-building process. If in terms of location the development scheme of Erbil has marked the central position of the Citadel, authenticity of setting is being improved thanks to specific guidelines. The site represents a physical and symbolic landmark of Erbil city landscape but also a popular venue for gatherings of former residents and Friday prayers: links and sense of belonging of the local populations and former inhabitants represent important aspects for a long-term revitalisation of Erbil Citadel and its reintegration into the city as a vital and living element.",
+          "The Citadel is a protected site under the legislation of Iraq and of the Kurdistan region. The authority in charge of its revitalization efforts, the High Commission for Erbil Citadel Revitalization (HCECR), is working in a strategic partnership with UNESCO and other agencies to conserve and rehabilitate the Citadel through programs of physical improvements within the framework of detailed studies and plans that have been the basis for the Conservation and Rehabilitation Master Plan for Erbil Citadel. HCECR action has resulted in the preparation of the Erbil Citadel Management Plan, the instrument that is now regulating all activities concerning the site’s future development and conservation. The buffer areas of the Citadel are not under the responsibility of HCECR, but of Erbil Municipality, which has benefited from UNESCO’s, HCECR’s and international assistance to generate the Urban Design Guidelines for the Buffer Zone of Erbil Citadel, which are under implementation. The important archaeological potential of the immediate and wider setting of the property requires the same level of attention for architectural and urban dimensions. The current efforts to revitalize the Citadel and the strong relationship that the people of Erbil have with it, will be determining factors in returning the Citadel to the role and position it has always held in its history, as a living place central to the life of the city of Erbil and the northern regions of Iraq, and as an urban landscape of importance for all humanity."
+        ],
+        "image_candidates": [
+          {
+            "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://whc.unesco.org/en/list/1437/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": 400,
+            "height": 400,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "Erbil Citadel",
+                "filename": "site_1437_0003-750-750-20140621133845-q35.webp",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [
+              {
+                "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+                "declared_width": null
+              },
+              {
+                "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-600-600-20140621133845-q35.webp",
+                "declared_width": null
+              },
+              {
+                "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-400-400-20140621133845-q35.webp",
+                "declared_width": null
+              }
+            ],
+            "siteId": "site-erbil-erbil-citadel",
+            "targetSiteId": "site-erbil-erbil-citadel",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "title",
+                "matched_names": [
+                  "erbil citadel"
+                ],
+                "text": "Erbil Citadel"
+              }
+            ],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+            "accessedAt": "2026-10-31T17:19:53+00:00"
+          },
+          {
+            "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-1200-630-20140621133845-q70.webp",
+            "alt": "",
+            "caption": "",
+            "source": "og:image",
+            "source_url": "https://whc.unesco.org/en/list/1437/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "og:image",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "site_1437_0003-1200-630-20140621133845-q70.webp",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              },
+              {
+                "kind": "twitter:image",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "site_1437_0003-1200-630-20140621133845-q70.webp",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-erbil-erbil-citadel",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+            "accessedAt": "2026-10-31T17:19:53+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "source": {
+        "sourceId": "krg",
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+        "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+        "accessedAt": "2026-10-31T17:20:31+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Erbil Citadel and Choli Minaret Undergo Major Restoration to Preserve Historic Identity",
+        "canonical_url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+        "meta_description": "As part of the Kurdistan Regional Government’s ongoing efforts to preserve cultural and historical heritage, extensive restoration is underway at the Erbil Citadel, while restoration work on the Choli Minaret is set to begin shortly. Both iconic landmarks are being carefully preserved to maintain their original character and to strengthen their status as major tourist destinations.",
+        "language": "en",
+        "headings": [
+          "Erbil Citadel and Choli Minaret Undergo Major Restoration to Preserve Historic Identity"
+        ],
+        "paragraphs": [
+          "As part of the Kurdistan Regional Government’s ongoing efforts to preserve cultural and historical heritage, extensive restoration is underway at the Erbil Citadel, while restoration work on the Choli Minaret is set to begin shortly. Both iconic landmarks are being carefully preserved to maintain their original character and to strengthen their status as major tourist destinations.",
+          "The Erbil Citadel - a UNESCO World Heritage Site and one of the world’s oldest continuously inhabited settlements - is being restored under the direct supervision of Prime Minister Masrour Barzani. The project is being implemented in line with international archaeological and cultural heritage standards, ensuring the preservation of the citadel’s historic appearance, architecture, and street layout.",
+          "Supervised by the High Commission for the Citadel’s Restoration, several major projects have been implemented within the past year, including:",
+          "- Restoration of the historic mosque within the Citadel - Stone paving of streets and alleyways in a traditional style (95% complete) - Structural measures to prevent the collapse or deterioration of ancient walls and buildings - Installation of safety points across the site - Modern lighting systems along external paths and interior spaces - Preparation for the opening of a dedicated Children’s Museum",
+          "Spanning 110,000 square metres and comprising 506 residential buildings, the Erbil Citadel will also feature a cultural teahouse, restaurant, and hotel — designed to offer an exceptional visitor experience.",
+          "Meanwhile, the Choli Minaret — rising 37 metres high and considered one of Kurdistan’s oldest and most prominent archaeological landmarks — is scheduled for restoration. The project will focus on:",
+          "- Replacing damaged sections of the minaret’s exterior walls - Filling structural gaps to improve stability - Installing surveillance systems to ensure protection - Removing hazards from the surrounding area",
+          "Upon completion, the project will secure the long-term preservation of the minaret and transform it into a prominent archaeological tourism site, welcoming both local and international visitors."
+        ],
+        "image_candidates": [
+          {
+            "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+            "alt": "",
+            "caption": "",
+            "source": "og:image",
+            "source_url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "og:image",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-erbil-erbil-citadel",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          },
+          {
+            "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=134006907750000000",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-erbil-erbil-citadel",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-erbil-erbil-citadel",
+    "proposed_coverImage": {
+      "src": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+      "alt": "",
+      "caption": "",
+      "credit": "",
+      "license": "",
+      "siteId": "site-erbil-erbil-citadel",
+      "sourceId": "unesco",
+      "sourceName": "UNESCO World Heritage Centre",
+      "sourceUrl": "https://whc.unesco.org/en/list/1437/",
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "license_status": "unverified",
+      "verification_status": "unverified",
+      "review_required": true
+    },
+    "status": "proposed-unverified",
+    "ranked_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-750-750-20140621133845-q35.webp",
+        "trust_tier": 1,
+        "rank": [
+          1,
+          -2,
+          -160000
+        ]
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-1200-630-20140621133845-q70.webp",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://gov.krd/media/34279/نۆژەنکردنەوەی_قەڵای_هەولێر_2025aug1.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=134006907750000000",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "site-duhok-amedy-city",
+  "name": "Amedy city",
+  "governorate": "Duhok",
+  "category": "Historic City",
+  "period": "",
+  "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5601/",
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "accessedAt": "2026-10-31T18:29:18+00:00"
+    }
+  ],
+  "draft_id": "draft-amedy-city-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Amedy city",
+  "candidate_summary": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+  "source_evidence": [
+    "unesco-20261031T182918Z-2ac18a6a26"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/tentativelists/5601/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "iq.svg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-amedy-city",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "accessedAt": "2026-10-31T18:29:18+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "Tentative status is not World Heritage inscription; the content is a State Party submission.",
+      "Exact construction dates, coordinates and individual monument boundaries require review."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "image_candidates": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "artifact": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "The nominated city is located 70km north of the city of Duhok."
+    }
+  ],
+  "image_extractions": [
+    {
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "source": {
+        "sourceId": "unesco",
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5601/",
+        "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+        "accessedAt": "2026-10-31T18:29:18+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Amedy city",
+        "canonical_url": "https://whc.unesco.org/en/tentativelists/5601/",
+        "meta_description": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+        "language": "en",
+        "headings": [
+          "Amedy city",
+          "Description",
+          "Justification of Outstanding Universal Value",
+          "Statements of authenticity and/or integrity",
+          "Comparison with other similar properties"
+        ],
+        "paragraphs": [
+          "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+          "The sole responsibility for the content of each Tentative List lies with the State Party concerned. The publication of the Tentative Lists does not imply the expression of any opinion whatsoever of the World Heritage Committee or of the World Heritage Centre or of the Secretariat of UNESCO concerning the legal status of any country, territory, city or area or of its boundaries.",
+          "Property names are listed in the language in which they have been submitted by the State Party",
+          "The nominated city is located 70km north of the city of Duhok. Amedy is one of the oldest cities in the world and one of the most important historic cities in North Iraq. The oldest written record belongs to the 9th century B.C. namely in the reign of the Assyrian Emperor 858-824 B.C. (Under the name of \" Kur a- ma- da- a- a\" which means the city of Medes, the city's history dates back more than 3,000 years. The city's significant geographical location had been troubled zones between the disputed forces of Medes, Persians and Assyrians since old history. Its placement on a hilltop had led the city to be ambitious for many forces throughout the history. The Medes were the first to concentrate on the city who adapted it as a capital for their Kingdom, then followed by Assyrian occupation in 855-824 B.C., and later the city was occupied by Parthian and Muslims. The long history of Amedy city, like other cities in Mesopotamia with different civilizations has left behind huge and valuable antiquities. Amedy City has two ancient gates dating to the period of Amedy castle, the eastern Zebar Gate and the western Mosul or Saqava Gate which is directed toward Mosul city. The City has also some other important historical remains, e.g. Zorsorent temple, Parthian engraving, the Minaret, and Bahdinan Principality's flag.",
+          "Criterion (i): As known historically, the urban human settlements ever existed were those in the anvient Mesopotamia, Egypt and Indus Valley, when the societies had elaborated religious, political and military hierarchies. The development of cities varied throughout successive civilization periods. However, there are a number of features of urban structure that were shered by the cities throughout different periods.",
+          "Researchers have linked the historical origins of cities to the defense functions. They asserted that the first city indicated in history was a military-based city. The fortification of a city involved the selection of the city site where there were fortress surrounded by walls and trenches, established towers, pillars and gates, and entrances designed in such a way that enhanced the city's hardness, defensive and offensive capability of standing against external raids. Cities took the form of circles and ovals. The agricultural lands were usually located outside cities. Elevated locations with difficult access were usually selected for the construction of citadels. The functions of many of these citadels were expanded politically and economically to become large cities.",
+          "By comparing these uniaue historical criteria with the evolution of Amedy City, it is evident that this city was not founded accidentally but there were some other factors that contributed to its establishment. What makes Amedy a unique city, is its location on a top of a hill plateau with its elliptical shape covering an area less than 1km2. In addition, the city has an outstanding urban structure and elements illustrated in its gates, walls and temple. Therefore the Amedy can be considered as a masterpiece of human creative genius that reflects human thinking in a certain historic period using natural landscape as a fortification tool.",
+          "Criterion (ii): Mosul gate is named after Mosul city because it is located towards it and leads to it, as the majority of comers to Amedy city were from Mosul. Therefore, it was crucial to take care of this gate, and some sculptures were engraved in order to create fear to the passersby, forcing them to realize the power of the city's rulers and sanctity. This style corresponds to the designs used by Mesopotamia's inhabitants, when they built the gates of their cities particularly in the Assyrian period. The gate has other historic features, for example the symbol of the God of Sun and the sculpture of the star. The use of this figure was known during the Assyrian period. Yhe symbols 9God of Sun and the star) are surrounded by two snakes with fabulous animal heads, similar to a wolf with large ears and open jaws, fighting against warriors wearing brocaded clothes which represent the Parthian warriors uniform. The innovative architectural design of Mosul gate, as well as the pictures and symbols that exist on itm are representing ancient beliefs and expressions. For these entities and other that the city has, Amedy City may well meet of the UNESCO requirements to become a world heritage site.",
+          "Criterion (iii): The historical stages that Amedy has went through indicate that it has had a remarkable political, administrative, commercial and cultural role and influence on the neighboring areas in different consecutive periods (especially between the 14th and 18th century). This influence became a rich subject for many writers, travelers, and researchers. The minaret of Amedy and its associated archaeological remains are evidence for this.",
+          "Criterion (vii): Amedy City is located on an elliptical hill top plateau that is not more that 1km2 and reaches 450m above the level of the surrounding areas. The distinctive and impressive shape and location of the city together woth the two mountains (Mateen and Gara) that surround it has made its landscape exceptional natural beauty. Therefore, these features ensure that this criterion is fulfilled.",
+          "Criterion (viii): Amedy City has very spectacular geological properties. It is located on a contiguous limestone bed of elliptical periphery that forms sharp cliffs on top of the Amedy high hill. The limestone bed belongs to the Pilaspi lismestone formation of Eocene age, The city war originally part of Mateen Mountain that was separated and settled far away as a result of geological processes which formed an elliptical rocky hill. Amedy is located on a contiguous limestone bed of elliptical periphery that forms sharp cliffs on top of the Amedy high hill. The limestone bed belongs to the Pilaspi limestone formation of Eocene age. The Pilapsi Formation was deposited in lagoonal marine environment 45 million years ago",
+          "The limestone in Amedy is laid on of younger rocks of the Upper Fars Formation. This formation consists of sand stones siltstones and mudstones which were deposited in the Upper Miocene age around 15 million years ago. The deposition of the Upper Fars Formation occurred in continental fluviatile environments.",
+          "The authentic features that the site are still kept (Mosel Gate, Minaret and the elliptical city site) have not been disturbed. The elliptical shape which is a part of the exceptional natural landscape beauty serves the site as area physical protection for the city.",
+          "The physical structure of the remaining properties (Mosel Gate amd Minaret) are in good condition and, the impact of deterioration are controlled, in addition the city elliptical shape on a hilltop plateau is representing the master piece that has been preserved. Furthermore, this elliptical shape of the city with its surrounding area gives the exceptional natural landscape beauty and representing the significant ongoing geological process in the land development platform since last 15 million years ago.",
+          "There are four other inscribed World Heritage Sites in the world which partly have similar attributes:",
+          "Minaret and Archaeological remains of Jam - Afghanistan",
+          "Uluru-Kuta Tjuta National Park - Australia"
+        ],
+        "image_candidates": [
+          {
+            "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://whc.unesco.org/en/tentativelists/5601/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "iq.svg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-amedy-city",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+            "accessedAt": "2026-10-31T18:29:18+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-duhok-amedy-city",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

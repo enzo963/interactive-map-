@@ -1,0 +1,38 @@
+{
+  "evidence_id": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/list/276/",
+  "final_url": "https://whc.unesco.org/en/list/276/",
+  "governorate": "Salah al-Din",
+  "retrieved_at": "2026-11-01T12:09:09.417126+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "9ea8d4ddb150917611b46be3331df990c7003518de0c4638ab1bf733dbb28646",
+  "html_path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.html",
+  "extraction_path": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/list/276/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL.",
+    "attempts": [
+      {
+        "url": "https://whc.unesco.org/robots.txt",
+        "attempt": 1,
+        "http_status": 200,
+        "retryable": false
+      }
+    ]
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ],
+  "change_type": "new",
+  "previous_evidence_id": null,
+  "previous_sha256": null
+}

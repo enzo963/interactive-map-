@@ -1,0 +1,62 @@
+{
+  "id": "site-sulaymaniyah-tell-shemshara",
+  "name": "Tell Shemshara",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Settlement",
+  "period": "",
+  "description": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+      "accessedAt": "2026-10-31T18:36:26+00:00"
+    }
+  ],
+  "draft_id": "draft-tell-shemshara-p503-20261031",
+  "status": "needs-review",
+  "candidate_name": "Tell Shemshara",
+  "candidate_summary": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+  "source_evidence": [
+    "krg-20261031T183626Z-ff9cb8fdbf"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed site draft; not approved or published.",
+      "No images assigned: image relevance, attribution and licenses need verification.",
+      "The evidence is a regional tourism overview, not an excavation publication. Detailed occupation dates and archaeological interpretations require specialist verification.",
+      "Sulaymaniyah grouping follows the Rania Plain context; confirm current administrative boundaries under the project geographic policy before import.",
+      "The list entry is preserved in raw HTML rather than paragraph extraction. No coordinates, UNESCO designation or 3D availability are inferred."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T183626Z-ff9cb8fdbf"
+    ],
+    "candidate_summary": [
+      "krg-20261031T183626Z-ff9cb8fdbf"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+      "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+      "selector": "li",
+      "text_match": "Tell Shemshara (Rania Plain, near Lake Dukan)"
+    },
+    {
+      "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+      "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+      "selector": "body",
+      "text_match": "Old Babylonian period"
+    }
+  ]
+}

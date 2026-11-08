@@ -1,0 +1,352 @@
+{
+  "id": "site-baghdad-mustansiriya-madrasa",
+  "name": "Al-Mustansiriya Madrasa",
+  "slug": "mustansiriya-madrasa",
+  "alternativeNames": [
+    "AL- Mustansiriya School",
+    "Mustansiriya Madrasah",
+    "Munstansiriya Madrasah"
+  ],
+  "governorate": "Baghdad",
+  "city": "Baghdad",
+  "country": "Iraq",
+  "category": "Historic School",
+  "period": "Abbasid",
+  "description": "An Abbasid school on the eastern bank of the Tigris in Baghdad, with rooms and iwans arranged around a large central space.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Mustansiriya Madrasa in Baghdad",
+      "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+      "credit": "Makaay31",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "unverified",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "sourceId": "wikimedia-commons",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source": "file-description",
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "evidenceIds": [
+        "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+      ],
+      "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+      "source_observations": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "alt": "Al-Mustansiriya Madrasa in Baghdad",
+          "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+          "source": "file-description",
+          "source_id": "wikimedia-commons",
+          "source_name": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+          "trust_tier": 2,
+          "license_status": "unverified",
+          "license_hint": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "credit": "Makaay31",
+          "contexts": [
+            {
+              "kind": "caption",
+              "caption": "English: The old Munstansiriya Madrasah in Baghdad",
+              "alt": "",
+              "title": "",
+              "filename": "Mustansiriya_Madrasah5.jpg"
+            }
+          ],
+          "siteId": "site-baghdad-mustansiriya-madrasa",
+          "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+          "association_status": "matched-unverified",
+          "association_evidence": [
+            {
+              "kind": "caption",
+              "matched_names": [
+                "munstansiriya madrasah"
+              ],
+              "text": "English: The old Munstansiriya Madrasah in Baghdad"
+            }
+          ],
+          "verification_status": "unverified",
+          "review_required": true,
+          "review_notes": [
+            "Explicit image metadata names the target; visual and identity review is still required."
+          ],
+          "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+          "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+            "selector": ".description",
+            "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+          }
+        }
+      ],
+      "url_validation": [
+        {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": true,
+          "status": "valid",
+          "checkedAt": "2026-10-31T23:58:37+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 200,
+              "retryable": false
+            }
+          ],
+          "reason": "HTTP response and complete supported image decoding passed.",
+          "bytes_read": 1774360,
+          "width": 2032,
+          "height": 1514,
+          "format": "JPEG",
+          "frames": 1,
+          "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+        }
+      ],
+      "metadata_findings": [],
+      "width": 2032,
+      "height": 1514,
+      "verification_status": "unverified",
+      "review_required": true
+    }
+  ],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+    },
+    {
+      "sourceName": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "accessedAt": "2026-10-31T23:56:40.662774+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342",
+    "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+  ],
+  "draft_id": "draft-mustansiriya-madrasa-p601-20261101",
+  "parent_draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "candidate_name": "Al-Mustansiriya Madrasa",
+  "candidate_summary": "An Abbasid school on the eastern bank of the Tigris in Baghdad, with rooms and iwans arranged around a large central space.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true
+  },
+  "unesco_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+  "provenance": {
+    "name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "governorate": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "category": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "period": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "description": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    ],
+    "galleryImages": [
+      "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/14",
+      "text_match": "Al-Mustansiriya school building: The school of Al-Mustansiriya created in 625 AH / (1227) AD, at the hands of the Abbasid Caliph al-Mustansir (623 AH - 640 AH / 1226 AD -1242 AD) on the eastern side of Baghdad, on the bank of the Tigris River considers the oldest universities in the Arab and Muslim universities that has taught Islamic jurisprudence according to the four schools. In terms of planning and architecture, Mustansiriya buildings of the vast area surrounded by rooms and Ewan represent an integrated system followed in the construction of many schools later, either in terms of decoration and Riyazh and architectural elements. It is indicative of the extent of the system and artistic flair high and development architect, which reached perfection of construction at the time stemming from a deep understanding of the surrounding environment and natural resources available and employed to meet the needs of humanity."
+    }
+  ],
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Mustansiriya Madrasa in Baghdad",
+      "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+      "source": "file-description",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "trust_tier": 2,
+      "license_status": "unverified",
+      "license_hint": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Makaay31",
+      "contexts": [
+        {
+          "kind": "caption",
+          "caption": "English: The old Munstansiriya Madrasah in Baghdad",
+          "alt": "",
+          "title": "",
+          "filename": "Mustansiriya_Madrasah5.jpg"
+        }
+      ],
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "caption",
+          "matched_names": [
+            "munstansiriya madrasah"
+          ],
+          "text": "English: The old Munstansiriya Madrasah in Baghdad"
+        }
+      ],
+      "verification_status": "unverified",
+      "review_required": true,
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+      "identity_evidence": {
+        "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+        "selector": ".description",
+        "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+      }
+    }
+  ],
+  "collection_task": "P6-01",
+  "collection_notes": [
+    "Historical facts checked against Iraq's submission hosted by UNESCO; not an independent archaeological survey.",
+    "Unknown 3D availability and individual inscription status remain null. Exact construction dates and coordinates are not asserted."
+  ],
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/14",
+        "text_match": "Al-Mustansiriya school building: The school of Al-Mustansiriya created in 625 AH / (1227) AD, at the hands of the Abbasid Caliph al-Mustansir (623 AH - 640 AH / 1226 AD -1242 AD) on the eastern side of Baghdad, on the bank of the Tigris River considers the oldest universities in the Arab and Muslim universities that has taught Islamic jurisprudence according to the four schools. In terms of planning and architecture, Mustansiriya buildings of the vast area surrounded by rooms and Ewan represent an integrated system followed in the construction of many schools later, either in terms of decoration and Riyazh and architectural elements. It is indicative of the extent of the system and artistic flair high and development architect, which reached perfection of construction at the time stemming from a deep understanding of the surrounding environment and natural resources available and employed to meet the needs of humanity."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/14",
+        "text_match": "Al-Mustansiriya school building: The school of Al-Mustansiriya created in 625 AH / (1227) AD, at the hands of the Abbasid Caliph al-Mustansir (623 AH - 640 AH / 1226 AD -1242 AD) on the eastern side of Baghdad, on the bank of the Tigris River considers the oldest universities in the Arab and Muslim universities that has taught Islamic jurisprudence according to the four schools. In terms of planning and architecture, Mustansiriya buildings of the vast area surrounded by rooms and Ewan represent an integrated system followed in the construction of many schools later, either in terms of decoration and Riyazh and architectural elements. It is indicative of the extent of the system and artistic flair high and development architect, which reached perfection of construction at the time stemming from a deep understanding of the surrounding environment and natural resources available and employed to meet the needs of humanity."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/14",
+        "text_match": "Al-Mustansiriya school building: The school of Al-Mustansiriya created in 625 AH / (1227) AD, at the hands of the Abbasid Caliph al-Mustansir (623 AH - 640 AH / 1226 AD -1242 AD) on the eastern side of Baghdad, on the bank of the Tigris River considers the oldest universities in the Arab and Muslim universities that has taught Islamic jurisprudence according to the four schools. In terms of planning and architecture, Mustansiriya buildings of the vast area surrounded by rooms and Ewan represent an integrated system followed in the construction of many schools later, either in terms of decoration and Riyazh and architectural elements. It is indicative of the extent of the system and artistic flair high and development architect, which reached perfection of construction at the time stemming from a deep understanding of the surrounding environment and natural resources available and employed to meet the needs of humanity."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/14",
+        "text_match": "Al-Mustansiriya school building: The school of Al-Mustansiriya created in 625 AH / (1227) AD, at the hands of the Abbasid Caliph al-Mustansir (623 AH - 640 AH / 1226 AD -1242 AD) on the eastern side of Baghdad, on the bank of the Tigris River considers the oldest universities in the Arab and Muslim universities that has taught Islamic jurisprudence according to the four schools. In terms of planning and architecture, Mustansiriya buildings of the vast area surrounded by rooms and Ewan represent an integrated system followed in the construction of many schools later, either in terms of decoration and Riyazh and architectural elements. It is indicative of the extent of the system and artistic flair high and development architect, which reached perfection of construction at the time stemming from a deep understanding of the surrounding environment and natural resources available and employed to meet the needs of humanity."
+      }
+    ]
+  },
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-10-31T23:58:37+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 1774360,
+        "width": 2032,
+        "height": 1514,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+      }
+    ],
+    "skipped_images": [],
+    "candidate_count": 1,
+    "gallery_count": 1,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  }
+}

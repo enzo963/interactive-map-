@@ -1,0 +1,38 @@
+{
+  "evidence_id": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+  "source_id": "wikimedia-commons",
+  "source_name": "Wikimedia Commons",
+  "trust_tier": 2,
+  "requested_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+  "final_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+  "governorate": "Baghdad",
+  "retrieved_at": "2026-10-31T23:56:44.907313+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "11ea656c3b0f30d4c41010656b1ad195ee98a9839a17bad338573671544a0b77",
+  "html_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+  "extraction_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://commons.wikimedia.org/robots.txt",
+    "target_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL.",
+    "attempts": [
+      {
+        "url": "https://commons.wikimedia.org/robots.txt",
+        "attempt": 1,
+        "http_status": 200,
+        "retryable": false
+      }
+    ]
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ],
+  "change_type": "new",
+  "previous_evidence_id": null,
+  "previous_sha256": null
+}

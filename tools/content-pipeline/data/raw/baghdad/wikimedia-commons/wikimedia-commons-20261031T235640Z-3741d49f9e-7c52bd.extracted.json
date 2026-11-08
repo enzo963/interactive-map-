@@ -1,0 +1,148 @@
+{
+  "title": "File : Mustansiriya Madrasah5.jpg",
+  "canonical_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+  "meta_description": "to share – to copy, distribute and transmit the work",
+  "language": "en",
+  "headings": [
+    "File : Mustansiriya Madrasah5.jpg",
+    "Captions",
+    "Summary",
+    "Licensing",
+    "File history",
+    "File usage on Commons",
+    "File usage on other wikis",
+    "Metadata"
+  ],
+  "paragraphs": [
+    "to share – to copy, distribute and transmit the work",
+    "attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.",
+    "share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the same or compatible license as the original.",
+    "Click on a date/time to view the file as it appeared at that time.",
+    "The following other wikis use this file:",
+    "This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong."
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1280px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "1280px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1920px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+      "alt": "File:Mustansiriya Madrasah5.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 800,
+      "height": 596,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Mustansiriya Madrasah5.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "1920px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1920px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/120px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+      "alt": "Thumbnail for version as of 12:12, 29 June 2011",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 89,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 12:12, 29 June 2011",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    }
+  ]
+}

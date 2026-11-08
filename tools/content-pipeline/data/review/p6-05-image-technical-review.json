@@ -1,0 +1,1195 @@
+{
+  "reviewedAt": "2026-11-01T12:12:01+00:00",
+  "items": [
+    {
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "validation": {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:04+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 1774360,
+        "width": 2032,
+        "height": 1514,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+      },
+      "visual_review": "pending",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Al-Mustansiriya Madrasa in Baghdad",
+        "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+        "credit": "Makaay31",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_status": "verified",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "sourceId": "wikimedia-commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+        "source": "file-description",
+        "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+        "evidenceIds": [
+          "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+        ],
+        "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+        "source_observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Al-Mustansiriya Madrasa in Baghdad",
+            "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+            "trust_tier": 2,
+            "license_status": "verified",
+            "license_hint": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+            "credit": "Makaay31",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "English: The old Munstansiriya Madrasah in Baghdad",
+                "alt": "",
+                "title": "",
+                "filename": "Mustansiriya_Madrasah5.jpg"
+              }
+            ],
+            "siteId": "site-baghdad-mustansiriya-madrasa",
+            "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "munstansiriya madrasah"
+                ],
+                "text": "English: The old Munstansiriya Madrasah in Baghdad"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+            "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+              "selector": ".description",
+              "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+            },
+            "license_review": {
+              "permission": "publication-permitted",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "license": "CC BY-SA 3.0",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "evidence": [
+                {
+                  "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                  "locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                    "selector": ".licensetpl_short",
+                    "text_match": "CC BY-SA 3.0"
+                  },
+                  "image_locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                    "selector": ".fullMedia a.internal",
+                    "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                  }
+                }
+              ],
+              "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+            },
+            "publication_approval": {
+              "status": "approved",
+              "siteId": "site-baghdad-mustansiriya-madrasa",
+              "site_verified": true,
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "identity_evidence": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                "selector": ".description",
+                "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+              },
+              "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+            },
+            "license_tracking": {
+              "reported_status": "verified",
+              "reported_publication_flags": {},
+              "evidence_valid": true,
+              "evidence_checks": [
+                {
+                  "valid": true,
+                  "source": {
+                    "sourceId": "wikimedia-commons",
+                    "sourceName": "Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                    "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                    "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+                    "trust_tier": 2,
+                    "recorded_trust_tier": 2
+                  },
+                  "original_evidence": {
+                    "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                      "selector": ".licensetpl_short",
+                      "text_match": "CC BY-SA 3.0"
+                    },
+                    "image_locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                      "selector": ".fullMedia a.internal",
+                      "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                    }
+                  }
+                }
+              ],
+              "issues": [],
+              "automatically_approved": false,
+              "notes": [
+                "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+                "License verification is separate from image identity and explicit publication approval."
+              ]
+            }
+          }
+        ],
+        "url_validation": [
+          {
+            "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "valid": true,
+            "status": "valid",
+            "checkedAt": "2026-10-31T23:58:37+00:00",
+            "http_status": 200,
+            "content_type": "image/jpeg",
+            "redirects": [],
+            "robots": [
+              {
+                "status": "allowed",
+                "robots_url": "https://upload.wikimedia.org/robots.txt",
+                "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+                "http_status": 200,
+                "reason": "robots.txt allows this user agent to fetch the target URL.",
+                "attempts": [
+                  {
+                    "url": "https://upload.wikimedia.org/robots.txt",
+                    "attempt": 1,
+                    "http_status": 200,
+                    "retryable": false
+                  }
+                ]
+              }
+            ],
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ],
+            "reason": "HTTP response and complete supported image decoding passed.",
+            "bytes_read": 1774360,
+            "width": 2032,
+            "height": 1514,
+            "format": "JPEG",
+            "frames": 1,
+            "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+          }
+        ],
+        "metadata_findings": [],
+        "width": 2032,
+        "height": 1514,
+        "verification_status": "approved-by-ai-evidence-review",
+        "review_required": false,
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 3.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 3.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          ],
+          "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+        },
+        "license_tracking": {
+          "reported_status": "verified",
+          "reported_publication_flags": {},
+          "evidence_valid": true,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              },
+              "original_evidence": {
+                "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 3.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            }
+          ],
+          "issues": [],
+          "automatically_approved": false,
+          "notes": [
+            "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+            "License verification is separate from image identity and explicit publication approval."
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-mustansiriya-madrasa",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+            "selector": ".description",
+            "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+          },
+          "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+        }
+      },
+      "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-baghdad-mustansiriya-madrasa.jpg"
+    },
+    {
+      "siteId": "site-baghdad-abbasid-palace",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "validation": {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:13+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 269804,
+        "width": 1280,
+        "height": 960,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "03615856b831f724c51575b77e525876eeb314d616b5f7ad3f6c54c7f3d4340e"
+      },
+      "visual_review": "pending",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Abbasid Palace in Baghdad",
+        "caption": "Abbasid Palace — Wikimedia Commons photograph",
+        "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_status": "verified",
+        "siteId": "site-baghdad-abbasid-palace",
+        "sourceId": "wikimedia-commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "source": "file-description",
+        "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+        "evidenceIds": [
+          "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+        ],
+        "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+        "source_observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Abbasid Palace in Baghdad",
+            "caption": "Abbasid Palace — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+            "trust_tier": 2,
+            "license_status": "verified",
+            "license_hint": "CC BY-SA 4.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+            "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "العربية: صورة للقصر العباسي في 2023 [English translation: Photograph of the Abbasid Palace in 2023.]",
+                "alt": "",
+                "title": "",
+                "filename": "Abbasid_Palace.jpg",
+                "translation_note": "AI translation of the archived Arabic image description; original Arabic is retained above."
+              }
+            ],
+            "siteId": "site-baghdad-abbasid-palace",
+            "targetSiteId": "site-baghdad-abbasid-palace",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "abbasid palace"
+                ],
+                "text": "العربية: صورة للقصر العباسي في 2023 [English translation: Photograph of the Abbasid Palace in 2023.]"
+              },
+              {
+                "kind": "filename",
+                "matched_names": [
+                  "abbasid palace"
+                ],
+                "text": "Abbasid_Palace.jpg"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+            "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+              "selector": ".description",
+              "text_match": "العربية: صورة للقصر العباسي في 2023"
+            },
+            "license_review": {
+              "permission": "publication-permitted",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "license": "CC BY-SA 4.0",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "evidence": [
+                {
+                  "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                  "locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                    "selector": ".licensetpl_short",
+                    "text_match": "CC BY-SA 4.0"
+                  },
+                  "image_locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                    "selector": ".fullMedia a.internal",
+                    "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                  }
+                }
+              ],
+              "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+            },
+            "publication_approval": {
+              "status": "approved",
+              "siteId": "site-baghdad-abbasid-palace",
+              "site_verified": true,
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "identity_evidence": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                "selector": ".description",
+                "text_match": "العربية: صورة للقصر العباسي في 2023"
+              },
+              "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+            },
+            "license_tracking": {
+              "reported_status": "verified",
+              "reported_publication_flags": {},
+              "evidence_valid": true,
+              "evidence_checks": [
+                {
+                  "valid": true,
+                  "source": {
+                    "sourceId": "wikimedia-commons",
+                    "sourceName": "Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                    "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                    "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+                    "trust_tier": 2,
+                    "recorded_trust_tier": 2
+                  },
+                  "original_evidence": {
+                    "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                      "selector": ".licensetpl_short",
+                      "text_match": "CC BY-SA 4.0"
+                    },
+                    "image_locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                      "selector": ".fullMedia a.internal",
+                      "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                    }
+                  }
+                }
+              ],
+              "issues": [],
+              "automatically_approved": false,
+              "notes": [
+                "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+                "License verification is separate from image identity and explicit publication approval."
+              ]
+            }
+          }
+        ],
+        "url_validation": [
+          {
+            "requested_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "final_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "valid": true,
+            "status": "valid",
+            "checkedAt": "2026-10-31T23:58:39+00:00",
+            "http_status": 200,
+            "content_type": "image/jpeg",
+            "redirects": [],
+            "robots": [
+              {
+                "status": "allowed",
+                "robots_url": "https://upload.wikimedia.org/robots.txt",
+                "target_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+                "http_status": 200,
+                "reason": "robots.txt allows this user agent to fetch the target URL.",
+                "attempts": [
+                  {
+                    "url": "https://upload.wikimedia.org/robots.txt",
+                    "attempt": 1,
+                    "http_status": 200,
+                    "retryable": false
+                  }
+                ]
+              }
+            ],
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ],
+            "reason": "HTTP response and complete supported image decoding passed.",
+            "bytes_read": 269804,
+            "width": 1280,
+            "height": 960,
+            "format": "JPEG",
+            "frames": 1,
+            "sha256": "03615856b831f724c51575b77e525876eeb314d616b5f7ad3f6c54c7f3d4340e"
+          }
+        ],
+        "metadata_findings": [],
+        "width": 1280,
+        "height": 960,
+        "verification_status": "approved-by-ai-evidence-review",
+        "review_required": false,
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 4.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 4.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          ],
+          "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+        },
+        "license_tracking": {
+          "reported_status": "verified",
+          "reported_publication_flags": {},
+          "evidence_valid": true,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              },
+              "original_evidence": {
+                "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 4.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            }
+          ],
+          "issues": [],
+          "automatically_approved": false,
+          "notes": [
+            "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+            "License verification is separate from image identity and explicit publication approval."
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-abbasid-palace",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+            "selector": ".description",
+            "text_match": "العربية: صورة للقصر العباسي في 2023"
+          },
+          "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+        }
+      },
+      "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-baghdad-abbasid-palace.jpg"
+    },
+    {
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "validation": {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:16+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 1405860,
+        "width": 2592,
+        "height": 1936,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2"
+      },
+      "visual_review": "pending",
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Al-Wazir Mosque in Baghdad",
+        "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+        "credit": "Mahmoudalrawi",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_status": "verified",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "sourceId": "wikimedia-commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "source": "file-description",
+        "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+        "evidenceIds": [
+          "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+        ],
+        "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+        "source_observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Al-Wazir Mosque in Baghdad",
+            "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+            "trust_tier": 2,
+            "license_status": "verified",
+            "license_hint": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+            "credit": "Mahmoudalrawi",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة.",
+                "alt": "",
+                "title": "",
+                "filename": "Al_Wazeer_Mosque.jpg"
+              }
+            ],
+            "siteId": "site-baghdad-al-wazir-mosque",
+            "targetSiteId": "site-baghdad-al-wazir-mosque",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "al wazeer mosque"
+                ],
+                "text": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+              },
+              {
+                "kind": "filename",
+                "matched_names": [
+                  "al wazeer mosque"
+                ],
+                "text": "Al_Wazeer_Mosque.jpg"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+            "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+              "selector": ".description",
+              "text_match": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+            },
+            "license_review": {
+              "permission": "publication-permitted",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "license": "CC BY-SA 3.0",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "evidence": [
+                {
+                  "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                  "locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                    "selector": ".licensetpl_short",
+                    "text_match": "CC BY-SA 3.0"
+                  },
+                  "image_locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                    "selector": ".fullMedia a.internal",
+                    "text_match": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                  }
+                }
+              ],
+              "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+            },
+            "publication_approval": {
+              "status": "approved",
+              "siteId": "site-baghdad-al-wazir-mosque",
+              "site_verified": true,
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "reviewedBy": "Codex (AI evidence review, P6-01)",
+              "reviewedAt": "2026-10-31T23:59:41+00:00",
+              "identity_evidence": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                "selector": ".description",
+                "text_match": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+              },
+              "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+            },
+            "license_tracking": {
+              "reported_status": "verified",
+              "reported_publication_flags": {},
+              "evidence_valid": true,
+              "evidence_checks": [
+                {
+                  "valid": true,
+                  "source": {
+                    "sourceId": "wikimedia-commons",
+                    "sourceName": "Wikimedia Commons",
+                    "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                    "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                    "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+                    "trust_tier": 2,
+                    "recorded_trust_tier": 2
+                  },
+                  "original_evidence": {
+                    "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                    "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                    "locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                      "selector": ".licensetpl_short",
+                      "text_match": "CC BY-SA 3.0"
+                    },
+                    "image_locator": {
+                      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                      "selector": ".fullMedia a.internal",
+                      "text_match": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                    }
+                  }
+                }
+              ],
+              "issues": [],
+              "automatically_approved": false,
+              "notes": [
+                "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+                "License verification is separate from image identity and explicit publication approval."
+              ]
+            }
+          }
+        ],
+        "url_validation": [
+          {
+            "requested_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "valid": true,
+            "status": "valid",
+            "checkedAt": "2026-10-31T23:58:43+00:00",
+            "http_status": 200,
+            "content_type": "image/jpeg",
+            "redirects": [],
+            "robots": [
+              {
+                "status": "allowed",
+                "robots_url": "https://upload.wikimedia.org/robots.txt",
+                "target_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+                "http_status": 200,
+                "reason": "robots.txt allows this user agent to fetch the target URL.",
+                "attempts": [
+                  {
+                    "url": "https://upload.wikimedia.org/robots.txt",
+                    "attempt": 1,
+                    "http_status": 200,
+                    "retryable": false
+                  }
+                ]
+              }
+            ],
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ],
+            "reason": "HTTP response and complete supported image decoding passed.",
+            "bytes_read": 1405860,
+            "width": 2592,
+            "height": 1936,
+            "format": "JPEG",
+            "frames": 1,
+            "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2"
+          }
+        ],
+        "metadata_findings": [],
+        "width": 2592,
+        "height": 1936,
+        "verification_status": "approved-by-ai-evidence-review",
+        "review_required": false,
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 3.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 3.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          ],
+          "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+        },
+        "license_tracking": {
+          "reported_status": "verified",
+          "reported_publication_flags": {},
+          "evidence_valid": true,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              },
+              "original_evidence": {
+                "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 3.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            }
+          ],
+          "issues": [],
+          "automatically_approved": false,
+          "notes": [
+            "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+            "License verification is separate from image identity and explicit publication approval."
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-al-wazir-mosque",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+            "selector": ".description",
+            "text_match": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+          },
+          "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+        }
+      },
+      "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-baghdad-al-wazir-mosque.jpg"
+    },
+    {
+      "siteId": "site-salah-al-din-great-mosque",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "validation": {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:29+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 429,
+            "retryable": true,
+            "retry_delay": 1
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 2,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 4587432,
+        "width": 3479,
+        "height": 5219,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd"
+      },
+      "visual_review": "pending",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Great Mosque of Samarra and Malwiya Minaret in Salah al-Din, Iraq",
+        "caption": "Great Mosque of Samarra and Malwiya Minaret",
+        "credit": "Fakhri Mahmood",
+        "license_hint": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_status": "unverified",
+        "source": "file-description",
+        "source_id": "wikimedia-commons",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+        "trust_tier": 2,
+        "siteId": "site-salah-al-din-great-mosque",
+        "targetSiteId": "site-salah-al-din-great-mosque",
+        "association_status": "matched-unverified",
+        "association_evidence": [
+          {
+            "kind": "caption",
+            "matched_names": [
+              "spiral minaret of samrraa mosque"
+            ],
+            "text": "English: the Spiral Minaret of samrraa mosque"
+          }
+        ],
+        "contexts": [
+          {
+            "kind": "caption",
+            "caption": "English: the Spiral Minaret of samrraa mosque",
+            "alt": "",
+            "title": "",
+            "filename": "Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "review_required": true,
+        "verification_status": "unverified",
+        "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+        "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+        "identity_evidence": {
+          "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+          "selector": ".description",
+          "text_match": "English: the Spiral Minaret of samrraa mosque"
+        }
+      },
+      "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-salah-al-din-great-mosque.jpg"
+    },
+    {
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "validation": {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:53+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 681911,
+        "width": 1880,
+        "height": 1409,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "c705405e25592bb2338100b2d742d8b5a790267bd6fde06c0f266d0cf6a89a01"
+      },
+      "visual_review": "pending",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Abu Dulaf Mosque in Salah al-Din, Iraq",
+        "caption": "Abu Dulaf Mosque",
+        "credit": "Lionel Aubert",
+        "license_hint": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_status": "unverified",
+        "source": "file-description",
+        "source_id": "wikimedia-commons",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+        "trust_tier": 2,
+        "siteId": "site-salah-al-din-abu-dulaf",
+        "targetSiteId": "site-salah-al-din-abu-dulaf",
+        "association_status": "matched-unverified",
+        "association_evidence": [
+          {
+            "kind": "caption",
+            "matched_names": [
+              "abu dulaf mosque"
+            ],
+            "text": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+          },
+          {
+            "kind": "filename",
+            "matched_names": [
+              "abu dulaf mosque"
+            ],
+            "text": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "contexts": [
+          {
+            "kind": "caption",
+            "caption": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret.",
+            "alt": "",
+            "title": "",
+            "filename": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "review_required": true,
+        "verification_status": "unverified",
+        "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+        "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+        "identity_evidence": {
+          "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+          "selector": ".description",
+          "text_match": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+        }
+      },
+      "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-salah-al-din-abu-dulaf.jpg"
+    }
+  ]
+}

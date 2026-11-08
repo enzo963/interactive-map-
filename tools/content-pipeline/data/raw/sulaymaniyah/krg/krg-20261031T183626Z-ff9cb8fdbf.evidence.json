@@ -1,0 +1,27 @@
+{
+  "evidence_id": "krg-20261031T183626Z-ff9cb8fdbf",
+  "source_id": "krg",
+  "source_name": "Kurdistan Regional Government",
+  "trust_tier": 1,
+  "requested_url": "https://us.gov.krd/visit-kurdistan/",
+  "final_url": "https://us.gov.krd/visit-kurdistan/",
+  "governorate": "sulaymaniyah",
+  "retrieved_at": "2026-10-31T18:36:26+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "ff9cb8fdbff08fae94bc6644cb319b8091ccdc4a45ee794951422c4a551db0d1",
+  "html_path": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+  "extraction_path": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://us.gov.krd/robots.txt",
+    "target_url": "https://us.gov.krd/visit-kurdistan/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

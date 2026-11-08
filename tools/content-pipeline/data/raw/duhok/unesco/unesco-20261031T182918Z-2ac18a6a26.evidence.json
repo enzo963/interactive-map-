@@ -1,0 +1,27 @@
+{
+  "evidence_id": "unesco-20261031T182918Z-2ac18a6a26",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/tentativelists/5601/",
+  "final_url": "https://whc.unesco.org/en/tentativelists/5601/",
+  "governorate": "duhok",
+  "retrieved_at": "2026-10-31T18:29:18+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "2ac18a6a26f722ae830a20095f7b2eb1074624db84680d05f88739f70e017614",
+  "html_path": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.html",
+  "extraction_path": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/tentativelists/5601/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

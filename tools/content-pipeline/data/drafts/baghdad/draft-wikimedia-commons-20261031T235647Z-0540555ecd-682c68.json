@@ -1,0 +1,184 @@
+{
+  "draft_id": "draft-wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+  "governorate": "Baghdad",
+  "status": "needs-review",
+  "candidate_name": "File : Al Qishlah in Baghdad.jpg",
+  "candidate_summary": "to share – to copy, distribute and transmit the work",
+  "source_evidence": [
+    "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Al_Qishlah_in_Baghdad.jpg/960px-Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141612",
+      "alt": "File:Al Qishlah in Baghdad.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 448,
+      "height": 600,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Al Qishlah in Baghdad.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "960px-Al_Qishlah_in_Baghdad.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Al_Qishlah_in_Baghdad.jpg/960px-Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141612",
+          "declared_width": null
+        }
+      ],
+      "siteId": "site-baghdad-al-qishla",
+      "targetSiteId": "site-baghdad-al-qishla",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "alt",
+          "matched_names": [
+            "al qishlah"
+          ],
+          "text": "File:Al Qishlah in Baghdad.jpg"
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al qishlah"
+          ],
+          "text": "960px-Al_Qishlah_in_Baghdad.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Al_Qishlah_in_Baghdad.jpg/960px-Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "960px-Al_Qishlah_in_Baghdad.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-al-qishla",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al qishlah"
+          ],
+          "text": "960px-Al_Qishlah_in_Baghdad.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Al_Qishlah_in_Baghdad.jpg/120px-Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141612",
+      "alt": "Thumbnail for version as of 14:16, 1 September 2014",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 90,
+      "height": 120,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 14:16, 1 September 2014",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Al_Qishlah_in_Baghdad.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-al-qishla",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al qishlah"
+          ],
+          "text": "120px-Al_Qishlah_in_Baghdad.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    ],
+    "candidate_summary": [
+      "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    ]
+  }
+}

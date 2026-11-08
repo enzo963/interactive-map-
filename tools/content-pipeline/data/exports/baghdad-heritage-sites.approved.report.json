@@ -1,0 +1,51 @@
+{
+  "exported_at": "2026-11-01T00:01:15+00:00",
+  "input_records": 6,
+  "exported_records": 6,
+  "items": [
+    {
+      "id": "site-baghdad-mustansiriya-madrasa",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-abbasid-palace",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-qishla",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-wazir-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-asifiyah-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-house-of-wisdom-building",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    }
+  ],
+  "automatically_approved": 0,
+  "published": false
+}

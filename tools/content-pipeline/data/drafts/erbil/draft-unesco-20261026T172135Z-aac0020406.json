@@ -1,0 +1,193 @@
+{
+  "draft_id": "draft-unesco-20261026T172135Z-aac0020406",
+  "governorate": "erbil",
+  "status": "needs-review",
+  "candidate_name": "Erbil Citadel",
+  "candidate_summary": "UNESCO World Heritage Centre",
+  "source_evidence": [
+    "unesco-20261026T172135Z-aac0020406"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-1200-630-20140621133845-q70.webp",
+      "source": "og:image",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/assets/images/logo.svg?2026",
+      "source": "img",
+      "alt": "UNESCO logo",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/document/128912/t=3by2sm&extension=webp",
+      "source": "img",
+      "alt": "Partnerships",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/document/190295/t=3by2sm&extension=webp",
+      "source": "img",
+      "alt": "Marketplace",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/document/128241/t=3by2sm&extension=webp",
+      "source": "img",
+      "alt": "Our Partners",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/document/226224/t=3by2sm&extension=webp",
+      "source": "img",
+      "alt": "Civil Society",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/document/190344/t=3by2sm&extension=webp",
+      "source": "img",
+      "alt": "Donate",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-400-400-20140621133845-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0001-40-40-20140606150627-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0002-40-40-20140606150628-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0003-40-40-20140621133845-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0004-40-40-20140606145414-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0005-40-40-20140606145438-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_1437_0006-40-40-20140606145451-q35.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/activity_1139-384-216-20230216133059.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/graphics/icons/rss.png",
+      "source": "img",
+      "alt": "rss",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_2791-384-216-20250708093617.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1632-384-216-20170228172534.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1287-384-216-20150529190842.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1187-384-216-20150130161214.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1176-384-216-20150130161344.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1170-384-216-20140718173129.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1162-384-216-20250911152726.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/news_1155-384-216-20140621223544.webp",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg-min/iq.svg",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://whc.unesco.org/graphics/2026-unesco-whc-en.svg",
+      "source": "img",
+      "alt": "logo",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://www.unesco.org/sites/default/files/p.png",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "No extracted field is considered verified in Phase 1.1.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261026T172135Z-aac0020406"
+    ],
+    "candidate_summary": [
+      "unesco-20261026T172135Z-aac0020406"
+    ],
+    "image_candidates": [
+      "unesco-20261026T172135Z-aac0020406"
+    ]
+  }
+}

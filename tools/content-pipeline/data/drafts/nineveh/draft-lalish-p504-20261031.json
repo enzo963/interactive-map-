@@ -1,0 +1,63 @@
+{
+  "id": "site-nineveh-lalish",
+  "name": "Lalish Temple",
+  "governorate": "Nineveh",
+  "category": "Religious Complex",
+  "period": "",
+  "description": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6467/",
+      "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+      "accessedAt": "2026-10-31T18:44:46+00:00"
+    }
+  ],
+  "draft_id": "draft-lalish-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Lalish Temple",
+  "candidate_summary": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+  "source_evidence": [
+    "unesco-20261031T184446Z-8092d8404a"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "Governorate follows the captured UNESCO-hosted Iraqi submission. Other regional descriptions differ; retain this attribution and review geographic policy before import.",
+      "Tentative status is not inscription. Historical conservation or conflict statements are not treated as present conditions."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184446Z-8092d8404a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184446Z-8092d8404a"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Nineveh Governorate"
+    }
+  ],
+  "heritage_focus": [
+    "religious",
+    "Yazidi heritage"
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6467/"
+  }
+}

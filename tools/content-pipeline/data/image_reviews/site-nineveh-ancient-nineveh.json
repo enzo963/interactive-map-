@@ -1,0 +1,207 @@
+{
+  "id": "site-nineveh-ancient-nineveh",
+  "name": "The Ancient City of Nineveh",
+  "governorate": "Nineveh",
+  "category": "Archaeological City",
+  "period": "Assyrian",
+  "description": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/1465/",
+      "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+      "accessedAt": "2026-10-31T18:44:32+00:00"
+    }
+  ],
+  "draft_id": "draft-ancient-nineveh-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "The Ancient City of Nineveh",
+  "candidate_summary": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+  "source_evidence": [
+    "unesco-20261031T184432Z-8a2b8dcdb2"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/tentativelists/1465/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "iq.svg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-nineveh-ancient-nineveh",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+      "accessedAt": "2026-10-31T18:44:32+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "The old source contains typographic errors and descriptions predating recent conflict. Current condition requires separate evidence.",
+      "The source Coordinates field is descriptive distance text, not usable numeric coordinates. No coordinates are assigned."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184432Z-8a2b8dcdb2"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184432Z-8a2b8dcdb2"
+    ],
+    "image_candidates": [
+      "unesco-20261031T184432Z-8a2b8dcdb2"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.body-extracted.json",
+      "json_pointer": "/paragraphs/0",
+      "text_match": "political seat"
+    }
+  ],
+  "heritage_focus": [
+    "historical",
+    "archaeological"
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/1465/"
+  },
+  "image_extractions": [
+    {
+      "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+      "source": {
+        "sourceId": "unesco",
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/1465/",
+        "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+        "accessedAt": "2026-10-31T18:44:32+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "The Ancient City of Nineveh",
+        "canonical_url": "https://whc.unesco.org/en/tentativelists/1465/",
+        "meta_description": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+        "language": "en",
+        "headings": [
+          "The Ancient City of Nineveh",
+          "Description"
+        ],
+        "paragraphs": [
+          "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+          "The sole responsibility for the content of each Tentative List lies with the State Party concerned. The publication of the Tentative Lists does not imply the expression of any opinion whatsoever of the World Heritage Committee or of the World Heritage Centre or of the Secretariat of UNESCO concerning the legal status of any country, territory, city or area or of its boundaries.",
+          "Property names are listed in the language in which they have been submitted by the State Party"
+        ],
+        "image_candidates": [
+          {
+            "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://whc.unesco.org/en/tentativelists/1465/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "iq.svg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-nineveh-ancient-nineveh",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+            "accessedAt": "2026-10-31T18:44:32+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-nineveh-ancient-nineveh",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

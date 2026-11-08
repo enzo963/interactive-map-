@@ -1,0 +1,60 @@
+{
+  "id": "site-kirkuk-prophet-daniel-mosque",
+  "name": "Prophet Daniel Mosque, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "period": "",
+  "description": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6522/",
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "accessedAt": "2026-10-31T18:54:41+00:00"
+    }
+  ],
+  "draft_id": "draft-prophet-daniel-mosque-p505-20261031",
+  "status": "needs-review",
+  "candidate_name": "Prophet Daniel Mosque, Kirkuk Citadel",
+  "candidate_summary": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+  "source_evidence": [
+    "unesco-20261031T185441Z-b226471f6a"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+      "No current preservation, visitor access or reconstruction claims are inferred.",
+      "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+      "Precise chronology and images require verification. No image or 3D claim is assigned."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+      "json_pointer": "/paragraphs/9",
+      "text_match": "Prophet Daniel Mosque"
+    }
+  ],
+  "unesco_context": {
+    "status": "documented-within-tentative-area",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+  },
+  "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+}

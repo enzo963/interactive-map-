@@ -1,0 +1,55 @@
+{
+  "id": "site-duhok-amedy-city",
+  "name": "Amedy city",
+  "governorate": "Duhok",
+  "category": "Historic City",
+  "period": "",
+  "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5601/",
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "accessedAt": "2026-10-31T18:29:18+00:00"
+    }
+  ],
+  "draft_id": "draft-amedy-city-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Amedy city",
+  "candidate_summary": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+  "source_evidence": [
+    "unesco-20261031T182918Z-2ac18a6a26"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "Tentative status is not World Heritage inscription; the content is a State Party submission.",
+      "Exact construction dates, coordinates and individual monument boundaries require review."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T182918Z-2ac18a6a26"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "artifact": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "The nominated city is located 70km north of the city of Duhok."
+    }
+  ]
+}

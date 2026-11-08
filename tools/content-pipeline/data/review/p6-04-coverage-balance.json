@@ -1,0 +1,205 @@
+{
+  "task": "P6-04",
+  "reviewedAt": "2026-11-01T12:19:11+00:00",
+  "reviewer": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+  "records": 34,
+  "counts_by_governorate": {
+    "Duhok": 3,
+    "Erbil": 4,
+    "Kirkuk": 5,
+    "Nineveh": 7,
+    "Sulaymaniyah": 4,
+    "Baghdad": 6,
+    "Salah al-Din": 5
+  },
+  "counts_by_category": {
+    "Historic City": 1,
+    "Historic Bridge": 1,
+    "Archaeological Site": 2,
+    "Minaret": 1,
+    "Citadel": 2,
+    "Archaeological Cave": 1,
+    "Church": 2,
+    "Mosque": 4,
+    "Historic Monument": 1,
+    "Mosque and Minaret": 2,
+    "Religious Complex": 1,
+    "Archaeological City": 5,
+    "Historic Urban Area": 1,
+    "Archaeological Settlement": 2,
+    "Historic School": 2,
+    "Historic Building": 1,
+    "Historic Complex": 1,
+    "Palace": 1,
+    "Historic Market": 2,
+    "Memorial Museum": 1
+  },
+  "counts_by_broad_theme": {
+    "Historic towns and urban areas": 2,
+    "Infrastructure": 1,
+    "Archaeology": 10,
+    "Religious architecture": 10,
+    "Fortifications": 2,
+    "Secular built heritage": 4,
+    "Education": 2,
+    "Commerce": 2,
+    "Memory and museums": 1
+  },
+  "distinct_ensemble_or_location_groups": {
+    "Duhok": 3,
+    "Erbil": 4,
+    "Kirkuk": 1,
+    "Nineveh": 5,
+    "Sulaymaniyah": 4,
+    "Baghdad": 1,
+    "Salah al-Din": 2
+  },
+  "editorial_checks": {
+    "minimum_named_records_per_governorate": 3,
+    "maximum_governorate_share": 0.25,
+    "maximum_broad_theme_share": 0.4,
+    "note": "Practical Phase 6 editorial thresholds chosen for this review, not an archaeological completeness standard. Grouped-location gaps are reported separately."
+  },
+  "checks": {
+    "all_seven_governorates_present": true,
+    "at_least_three_named_records_each": true,
+    "no_governorate_over_25_percent": true,
+    "no_broad_theme_over_40_percent": true
+  },
+  "largest_governorate_share": 0.20588235294117646,
+  "largest_theme_share": 0.29411764705882354,
+  "important_missing_research_leads": [
+    {
+      "governorate": "Nineveh",
+      "candidate": "Dur-Sharrukin / Khorsabad",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Nineveh",
+      "candidate": "Mar Behnam Monastery",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Erbil",
+      "candidate": "Khanzad Citadel",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Erbil",
+      "candidate": "Dwin / Dween Citadel",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Duhok",
+      "candidate": "Khinnis / Bavian reliefs",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Duhok",
+      "candidate": "Akre historic town",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Sulaymaniyah",
+      "candidate": "Jarmo",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Sulaymaniyah",
+      "candidate": "Qizqapan rock-cut tombs",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Kirkuk",
+      "candidate": "Qishla barracks",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Kirkuk",
+      "candidate": "Heritage locations outside the citadel precinct",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Baghdad",
+      "candidate": "Aqar Quf / Dur-Kurigalzu",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Baghdad",
+      "candidate": "Iraq Museum",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Baghdad",
+      "candidate": "Al-Kadhimiya shrine",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Salah al-Din",
+      "candidate": "Tikrit Citadel",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Salah al-Din",
+      "candidate": "Al-Askari shrine",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Salah al-Din",
+      "candidate": "Tell es-Sawwan",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    },
+    {
+      "governorate": "Salah al-Din",
+      "candidate": "Sayyid Muhammad shrine, Balad",
+      "status": "research-required-not-an-approved-record",
+      "verify_governorate_and_boundary": true,
+      "requirement": "Capture adequate approved-source evidence, exact identity and any needed image rights before creating an approved record."
+    }
+  ],
+  "spatial_gaps": [
+    "Kirkuk: five named records still lie within the single citadel precinct; a market improves category variety but does not resolve geographic concentration.",
+    "Baghdad: six monuments share the Rusafa riverbank tentative ensemble; additional districts and periods remain underrepresented.",
+    "Salah al-Din: four records belong to Samarra and one to Ashur. Tikrit, Balad and prehistoric locations remain research priorities."
+  ],
+  "media_gaps": {
+    "with_reviewed_media": 5,
+    "with_reviewed_cover": 4,
+    "without_cover": 30,
+    "note": "Missing images remain honest fallbacks; no uncertain media is inserted to make coverage look complete."
+  },
+  "interpretation": "Numerical governorate/theme balance passes for this source-backed Phase 6 export. Spatial breadth and image coverage remain incomplete and are explicitly queued; the dataset is not an exhaustive inventory. Balance applies to the prepared/exported dataset, not to unchanged live frontend data.",
+  "published": false
+}

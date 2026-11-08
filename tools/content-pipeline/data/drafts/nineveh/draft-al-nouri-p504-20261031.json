@@ -1,0 +1,64 @@
+{
+  "id": "site-nineveh-al-nouri",
+  "name": "Al-Nouri Mosque and al-Hadba Minaret",
+  "governorate": "Nineveh",
+  "category": "Mosque and Minaret",
+  "period": "",
+  "description": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6355/",
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "accessedAt": "2026-10-31T18:44:42+00:00"
+    }
+  ],
+  "draft_id": "draft-al-nouri-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Al-Nouri Mosque and al-Hadba Minaret",
+  "candidate_summary": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+  "source_evidence": [
+    "unesco-20261031T184442Z-7bdb2b4c35"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "Documented within the Old City submission; no separate UNESCO inscription or tentative entry is inferred.",
+      "The 2018 source records damage before later restoration. Verify current reconstruction and access separately."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+      "json_pointer": "/paragraphs/7",
+      "text_match": "al-Nouri Mosque"
+    }
+  ],
+  "heritage_focus": [
+    "religious",
+    "Islamic heritage"
+  ],
+  "unesco_context": {
+    "status": "documented-within-tentative-area",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+  },
+  "parent_draft_id": "draft-old-mosul-p504-20261031"
+}

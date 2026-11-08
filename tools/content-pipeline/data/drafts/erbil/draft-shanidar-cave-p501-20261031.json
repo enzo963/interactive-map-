@@ -1,0 +1,47 @@
+{
+  "id": "site-erbil-shanidar-cave",
+  "name": "Shanidar Cave",
+  "governorate": "Erbil",
+  "category": "Archaeological Cave",
+  "period": "",
+  "description": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+      "accessedAt": "2026-10-31T17:20:34+00:00"
+    }
+  ],
+  "draft_id": "draft-shanidar-cave-p501-20261031",
+  "status": "needs-review",
+  "candidate_name": "Shanidar Cave",
+  "candidate_summary": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+  "source_evidence": [
+    "krg-20261031T172034Z-34d8a5812e"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Site-focused draft derived from captured approved-source evidence; not published.",
+      "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+      "The source is a regional tourism overview, not a specialist excavation report.",
+      "Specific dates, burial interpretations and claims elsewhere on the overview require independent archaeological verification and are excluded from this summary."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ],
+    "candidate_summary": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ],
+    "image_candidates": []
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "alt": "Abbasid Palace in Baghdad",
+  "caption": "Abbasid Palace — Wikimedia Commons photograph",
+  "source": "file-description",
+  "source_id": "wikimedia-commons",
+  "source_name": "Wikimedia Commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+  "trust_tier": 2,
+  "license_status": "verified",
+  "license_hint": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+  "contexts": [
+    {
+      "kind": "caption",
+      "caption": "العربية: صورة للقصر العباسي في 2023 [English translation: Photograph of the Abbasid Palace in 2023.]",
+      "alt": "",
+      "title": "",
+      "filename": "Abbasid_Palace.jpg",
+      "translation_note": "AI translation of the archived Arabic image description; original Arabic is retained above."
+    }
+  ],
+  "siteId": "site-baghdad-abbasid-palace",
+  "targetSiteId": "site-baghdad-abbasid-palace",
+  "association_status": "matched-unverified",
+  "association_evidence": [
+    {
+      "kind": "caption",
+      "matched_names": [
+        "abbasid palace"
+      ],
+      "text": "العربية: صورة للقصر العباسي في 2023 [English translation: Photograph of the Abbasid Palace in 2023.]"
+    },
+    {
+      "kind": "filename",
+      "matched_names": [
+        "abbasid palace"
+      ],
+      "text": "Abbasid_Palace.jpg"
+    }
+  ],
+  "verification_status": "unverified",
+  "review_required": true,
+  "review_notes": [
+    "Explicit image metadata names the target; visual and identity review is still required."
+  ],
+  "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+  "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+  "identity_evidence": {
+    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+    "selector": ".description",
+    "text_match": "العربية: صورة للقصر العباسي في 2023"
+  },
+  "license_review": {
+    "permission": "publication-permitted",
+    "reviewedBy": "Codex (AI evidence review, P6-01)",
+    "reviewedAt": "2026-10-31T23:59:41+00:00",
+    "license": "CC BY-SA 4.0",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "evidence": [
+      {
+        "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "locator": {
+          "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+          "selector": ".licensetpl_short",
+          "text_match": "CC BY-SA 4.0"
+        },
+        "image_locator": {
+          "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+          "selector": ".fullMedia a.internal",
+          "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+        }
+      }
+    ],
+    "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+  },
+  "publication_approval": {
+    "status": "approved",
+    "siteId": "site-baghdad-abbasid-palace",
+    "site_verified": true,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "reviewedBy": "Codex (AI evidence review, P6-01)",
+    "reviewedAt": "2026-10-31T23:59:41+00:00",
+    "identity_evidence": {
+      "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+      "selector": ".description",
+      "text_match": "العربية: صورة للقصر العباسي في 2023"
+    },
+    "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+  },
+  "license_tracking": {
+    "reported_status": "verified",
+    "reported_publication_flags": {},
+    "evidence_valid": true,
+    "evidence_checks": [
+      {
+        "valid": true,
+        "source": {
+          "sourceId": "wikimedia-commons",
+          "sourceName": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+          "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+          "trust_tier": 2,
+          "recorded_trust_tier": 2
+        },
+        "original_evidence": {
+          "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "locator": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+            "selector": ".licensetpl_short",
+            "text_match": "CC BY-SA 4.0"
+          },
+          "image_locator": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html",
+            "selector": ".fullMedia a.internal",
+            "text_match": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        }
+      }
+    ],
+    "issues": [],
+    "automatically_approved": false,
+    "notes": [
+      "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+      "License verification is separate from image identity and explicit publication approval."
+    ]
+  }
+}

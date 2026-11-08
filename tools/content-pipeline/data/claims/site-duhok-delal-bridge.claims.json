@@ -1,0 +1,27 @@
+{
+  "siteId": "site-duhok-delal-bridge",
+  "assertions": [
+    {
+      "assertionId": "delal-origin-krg-us",
+      "field": "period",
+      "value": "Roman or medieval (uncertain)",
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "locator": {
+        "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+        "text_match": "An ancient stone bridge believed to be Roman or medieval in origin.",
+        "selector": "body"
+      }
+    },
+    {
+      "assertionId": "delal-origin-krg-history",
+      "field": "period",
+      "value": "Roman",
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "locator": {
+        "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+        "text_match": "Delal bridge from the Roman Era in Zakho",
+        "json_pointer": "/paragraphs/3"
+      }
+    }
+  ]
+}

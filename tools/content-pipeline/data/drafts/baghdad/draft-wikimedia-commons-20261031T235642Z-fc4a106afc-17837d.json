@@ -1,0 +1,228 @@
+{
+  "draft_id": "draft-wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+  "governorate": "Baghdad",
+  "status": "needs-review",
+  "candidate_name": "File : Abbasid Palace.jpg",
+  "candidate_summary": "to share – to copy, distribute and transmit the work",
+  "source_evidence": [
+    "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20231002174817",
+      "alt": "File:Abbasid Palace.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 800,
+      "height": 600,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Abbasid Palace.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "Abbasid_Palace.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20231002174817",
+          "declared_width": null
+        }
+      ],
+      "siteId": "site-baghdad-abbasid-palace",
+      "targetSiteId": "site-baghdad-abbasid-palace",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "alt",
+          "matched_names": [
+            "abbasid palace"
+          ],
+          "text": "File:Abbasid Palace.jpg"
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "abbasid palace"
+          ],
+          "text": "Abbasid_Palace.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "Abbasid_Palace.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-abbasid-palace",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "abbasid palace"
+          ],
+          "text": "Abbasid_Palace.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Abbasid_Palace.jpg/120px-Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231002174817",
+      "alt": "Thumbnail for version as of 17:48, 2 October 2023",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 90,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 17:48, 2 October 2023",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Abbasid_Palace.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-abbasid-palace",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "abbasid palace"
+          ],
+          "text": "120px-Abbasid_Palace.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mohammed_Qays_2025.jpg/250px-Mohammed_Qays_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "alt": "Mohammed Qays Kazem",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 166,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Mohammed Qays Kazem",
+          "caption": "",
+          "title": "",
+          "filename": "250px-Mohammed_Qays_2025.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Mohammed_Qays_2025.jpg/250px-Mohammed_Qays_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-abbasid-palace",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    ],
+    "candidate_summary": [
+      "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d"
+    ]
+  }
+}

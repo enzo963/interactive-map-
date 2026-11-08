@@ -1,0 +1,22 @@
+{
+  "status": "needs-review",
+  "published": false,
+  "project_saved_evidence_snapshots_verified": 15,
+  "existing_snapshot_issues": [
+    {
+      "evidenceId": "unesco-20261026T172135Z-aac0020406",
+      "error": "Raw snapshot hash does not match the evidence manifest.",
+      "referenced_by_prepared_catalog": false,
+      "manifest": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\raw\\erbil\\unesco\\unesco-20261026T172135Z-aac0020406.evidence.json",
+      "url": "https://whc.unesco.org/en/list/1437/"
+    }
+  ],
+  "project_review_counts": {
+    "needs-review": 20,
+    "approved": 0,
+    "rejected": 0
+  },
+  "real_project_approvals_created_by_tests": 0,
+  "production_dataset_modified_by_tests": false,
+  "live_e2e_report": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\e2e-real\\result.json"
+}

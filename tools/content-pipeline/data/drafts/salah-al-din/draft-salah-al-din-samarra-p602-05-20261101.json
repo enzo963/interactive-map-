@@ -1,0 +1,99 @@
+{
+  "id": "site-salah-al-din-samarra",
+  "name": "Samarra Archaeological City",
+  "slug": "al-din-samarra",
+  "alternativeNames": [
+    "Samarra Archaeological City"
+  ],
+  "governorate": "Salah al-Din",
+  "category": "Archaeological City",
+  "period": "Abbasid",
+  "description": "Samarra preserves the plan and monumental remains of an Abbasid capital beside the Tigris. Its mosques, palaces and decorative arts record a major stage in Islamic urban architecture.",
+  "unesco": true,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/276/",
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+  ],
+  "draft_id": "draft-salah-al-din-samarra-p602-05-20261101",
+  "candidate_name": "Samarra Archaeological City",
+  "candidate_summary": "Samarra preserves the plan and monumental remains of an Abbasid capital beside the Tigris. Its mosques, palaces and decorative arts record a major stage in Islamic urban architecture.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+      "json_pointer": "/paragraphs/8",
+      "text_match": "The ancient capital of Samarra dating from 836-892 provides outstanding evidence of the Abbasid Caliphate which was the major Islamic empire of the period, extending from Tunisia to Central Asia. It is the only surviving Islamic capital that retains its original plan, architecture and arts, such as mosaics and carvings. Samarra has the best preserved plan of an ancient large city, being abandoned relatively early and so avoiding the constant rebuilding of longer lasting cities."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "description": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "inscribed",
+  "review_scope": "P6-02 to P6-05",
+  "complexId": "site-salah-al-din-samarra",
+  "parent_draft_id": "draft-unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/8",
+        "text_match": "The ancient capital of Samarra dating from 836-892 provides outstanding evidence of the Abbasid Caliphate which was the major Islamic empire of the period, extending from Tunisia to Central Asia. It is the only surviving Islamic capital that retains its original plan, architecture and arts, such as mosaics and carvings. Samarra has the best preserved plan of an ancient large city, being abandoned relatively early and so avoiding the constant rebuilding of longer lasting cities."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/8",
+        "text_match": "The ancient capital of Samarra dating from 836-892 provides outstanding evidence of the Abbasid Caliphate which was the major Islamic empire of the period, extending from Tunisia to Central Asia. It is the only surviving Islamic capital that retains its original plan, architecture and arts, such as mosaics and carvings. Samarra has the best preserved plan of an ancient large city, being abandoned relatively early and so avoiding the constant rebuilding of longer lasting cities."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/8",
+        "text_match": "The ancient capital of Samarra dating from 836-892 provides outstanding evidence of the Abbasid Caliphate which was the major Islamic empire of the period, extending from Tunisia to Central Asia. It is the only surviving Islamic capital that retains its original plan, architecture and arts, such as mosaics and carvings. Samarra has the best preserved plan of an ancient large city, being abandoned relatively early and so avoiding the constant rebuilding of longer lasting cities."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/8",
+        "text_match": "The ancient capital of Samarra dating from 836-892 provides outstanding evidence of the Abbasid Caliphate which was the major Islamic empire of the period, extending from Tunisia to Central Asia. It is the only surviving Islamic capital that retains its original plan, architecture and arts, such as mosaics and carvings. Samarra has the best preserved plan of an ancient large city, being abandoned relatively early and so avoiding the constant rebuilding of longer lasting cities."
+      }
+    ]
+  }
+}

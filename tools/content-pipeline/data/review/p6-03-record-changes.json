@@ -1,0 +1,50 @@
+[
+  {
+    "siteId": "site-erbil-choli-minaret",
+    "field": "description",
+    "before": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+    "after": "Choli Minaret is a historic monument in Erbil. An August 2025 KRG report describes its 37-metre tower and planned structural and exterior restoration; that dated plan does not establish whether the work is complete today."
+  },
+  {
+    "siteId": "site-erbil-shanidar-cave",
+    "field": "description",
+    "before": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+    "after": "Shanidar Cave is an archaeological site in the Zagros Mountains of Erbil Governorate, associated with Neanderthal remains. The KRG tourism overview highlights its importance for studying early human history."
+  },
+  {
+    "siteId": "site-sulaymaniyah-qalatga-darband",
+    "field": "description",
+    "before": "The Kurdistan Regional Government representation in the United States identifies Qalatga Darband as a Hellenistic city in Sulaymaniyah Governorate. It is included among the archaeological sites highlighted in the representation's regional tourism overview.",
+    "after": "Qalatga Darband is a Hellenistic archaeological city in Sulaymaniyah Governorate. The KRG tourism overview associates its investigation with drone surveys and excavations led by the British Museum."
+  },
+  {
+    "siteId": "site-erbil-erbil-citadel",
+    "field": "period",
+    "before": "",
+    "after": "Multiple periods, including Ottoman"
+  },
+  {
+    "siteId": "site-kirkuk-mother-of-sorrows-church",
+    "field": "period",
+    "before": "",
+    "after": "19th century"
+  },
+  {
+    "siteId": "site-kirkuk-prophet-daniel-mosque",
+    "field": "period",
+    "before": "",
+    "after": "Medieval"
+  },
+  {
+    "siteId": "site-kirkuk-green-dome",
+    "field": "period",
+    "before": "",
+    "after": "Medieval"
+  },
+  {
+    "siteId": "site-sulaymaniyah-tell-shemshara",
+    "field": "period",
+    "before": "",
+    "after": "Multi-period, including Old Babylonian"
+  }
+]

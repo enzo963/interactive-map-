@@ -1,0 +1,98 @@
+{
+  "id": "site-erbil-qaysari-bazaar",
+  "name": "Qaysari Bazaar, Erbil",
+  "slug": "qaysari-bazaar",
+  "alternativeNames": [
+    "Qaysari Bazaar"
+  ],
+  "governorate": "Erbil",
+  "category": "Historic Market",
+  "period": "",
+  "description": "Qaysari Bazaar is a historic market in downtown Erbil. A May 2024 KRG report documents a fire and describes collaborative restoration efforts with UNESCO; it does not establish the market's current condition.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+      "accessedAt": "2026-11-01T12:10:30.961624+00:00"
+    }
+  ],
+  "source_evidence": [
+    "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+  ],
+  "draft_id": "draft-erbil-qaysari-bazaar-p602-05-20261101",
+  "candidate_name": "Qaysari Bazaar, Erbil",
+  "candidate_summary": "Qaysari Bazaar is a historic market in downtown Erbil. A May 2024 KRG report documents a fire and describes collaborative restoration efforts with UNESCO; it does not establish the market's current condition.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+      "artifact": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+      "json_pointer": "/paragraphs/1",
+      "text_match": "The session opened with Prime Minister Barzani expressing concern and sorrow on behalf of the Council for the recent fire at Qaysari Bazaar in downtown Erbil. He extended condolences to the victims and announced that he has directed relevant authorities to investigate the fire's causes. He praised the swift response of the fire brigade, emergency services, and security forces, emphasising the importance of adhering to health and safety guidelines in public spaces. Additionally, he mentioned ongoing collaborative efforts with UNESCO to restore the historic market."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ],
+    "description": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ],
+    "candidate_name": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ],
+    "candidate_summary": [
+      "krg-20261101T121030Z-9c5b84d0ca-4eb6c3"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "unknown",
+  "review_scope": "P6-02 to P6-05",
+  "complexId": "site-erbil-qaysari-bazaar",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+        "json_pointer": "/paragraphs/1",
+        "text_match": "The session opened with Prime Minister Barzani expressing concern and sorrow on behalf of the Council for the recent fire at Qaysari Bazaar in downtown Erbil. He extended condolences to the victims and announced that he has directed relevant authorities to investigate the fire's causes. He praised the swift response of the fire brigade, emergency services, and security forces, emphasising the importance of adhering to health and safety guidelines in public spaces. Additionally, he mentioned ongoing collaborative efforts with UNESCO to restore the historic market."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+        "json_pointer": "/paragraphs/1",
+        "text_match": "The session opened with Prime Minister Barzani expressing concern and sorrow on behalf of the Council for the recent fire at Qaysari Bazaar in downtown Erbil. He extended condolences to the victims and announced that he has directed relevant authorities to investigate the fire's causes. He praised the swift response of the fire brigade, emergency services, and security forces, emphasising the importance of adhering to health and safety guidelines in public spaces. Additionally, he mentioned ongoing collaborative efforts with UNESCO to restore the historic market."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+        "json_pointer": "/paragraphs/1",
+        "text_match": "The session opened with Prime Minister Barzani expressing concern and sorrow on behalf of the Council for the recent fire at Qaysari Bazaar in downtown Erbil. He extended condolences to the victims and announced that he has directed relevant authorities to investigate the fire's causes. He praised the swift response of the fire brigade, emergency services, and security forces, emphasising the importance of adhering to health and safety guidelines in public spaces. Additionally, he mentioned ongoing collaborative efforts with UNESCO to restore the historic market."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+        "json_pointer": "/paragraphs/1",
+        "text_match": "The session opened with Prime Minister Barzani expressing concern and sorrow on behalf of the Council for the recent fire at Qaysari Bazaar in downtown Erbil. He extended condolences to the victims and announced that he has directed relevant authorities to investigate the fire's causes. He praised the swift response of the fire brigade, emergency services, and security forces, emphasising the importance of adhering to health and safety guidelines in public spaces. Additionally, he mentioned ongoing collaborative efforts with UNESCO to restore the historic market."
+      }
+    ]
+  }
+}

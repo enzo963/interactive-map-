@@ -1,0 +1,64 @@
+{
+  "id": "site-001",
+  "name": "Hatra",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "period": "Parthian",
+  "description": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+  "unesco": true,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/277/",
+      "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+      "accessedAt": "2026-10-31T18:44:29+00:00"
+    }
+  ],
+  "draft_id": "draft-hatra-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Hatra",
+  "candidate_summary": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+  "source_evidence": [
+    "unesco-20261031T184429Z-c901278ca1"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "The frontend already has a Hatra record (site-001). Match and review this evidence against that record; do not import a second Hatra.",
+      "No current visitor access or preservation-condition claims are made."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184429Z-c901278ca1"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184429Z-c901278ca1"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.extracted.json",
+      "json_pointer": "/paragraphs/0",
+      "text_match": "A large fortified city"
+    }
+  ],
+  "heritage_focus": [
+    "historical",
+    "archaeological"
+  ],
+  "unesco_context": {
+    "status": "inscribed",
+    "source_url": "https://whc.unesco.org/en/list/277/"
+  },
+  "possible_existing_frontend_record_id": "site-001"
+}

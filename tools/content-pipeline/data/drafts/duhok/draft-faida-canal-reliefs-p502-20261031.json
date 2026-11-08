@@ -1,0 +1,56 @@
+{
+  "id": "site-duhok-faida-canal-reliefs",
+  "name": "Faida Archaeological Canal and Reliefs",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "period": "Assyrian",
+  "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "accessedAt": "2026-10-31T18:30:30+00:00"
+    }
+  ],
+  "draft_id": "draft-faida-canal-reliefs-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Faida Archaeological Canal and Reliefs",
+  "candidate_summary": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+  "source_evidence": [
+    "krg-20261031T183030Z-520d663dfb"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "The source reports conditions in October 2022, not current visitor access or project progress.",
+      "A reversed regnal-year range occurs in the source. Exact regnal dates and present relief counts are excluded pending specialist review.",
+      "Governorate follows the KRG article; review administrative attribution under the project geographic policy."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "candidate_summary": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+      "json_pointer": "/paragraphs/0",
+      "text_match": "an irrigation canal in Faida in Duhok province"
+    }
+  ]
+}

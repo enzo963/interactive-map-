@@ -1,0 +1,71 @@
+{
+  "id": "site-duhok-delal-bridge",
+  "name": "Delal Bridge",
+  "governorate": "Duhok",
+  "category": "Historic Bridge",
+  "period": "",
+  "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "accessedAt": "2026-10-31T18:30:32+00:00"
+    }
+  ],
+  "draft_id": "draft-delal-bridge-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Delal Bridge",
+  "candidate_summary": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "source_evidence": [
+    "krg-20261031T182919Z-d4c58de519",
+    "krg-20261031T183032Z-9a290bf891"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "The history page calls the bridge Roman; the tourism overview says Roman or medieval. No precise period is assigned.",
+      "The tourism entry occurs in raw HTML list content omitted by paragraph extraction. Its locator points to raw HTML; pipeline logic was not changed.",
+      "Confirm current administrative grouping of Zakho under the project geographic policy before import."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "candidate_summary": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+      "selector": "li",
+      "text_match": "Zakho Bridge (Delal Bridge)"
+    },
+    {
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Delal bridge"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "site-salah-al-din-caliphal-palace",
+  "name": "Caliphal Palace (Qasr al-Khalifa)",
+  "slug": "al-din-caliphal-palace",
+  "alternativeNames": [
+    "Qasr al-Khalifa"
+  ],
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "period": "Abbasid",
+  "description": "The Caliphal Palace, named Qasr al-Khalifa by UNESCO, is one of the palace remains within Samarra. It belongs to the monumental landscape of the former Abbasid capital.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/276/",
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+  ],
+  "draft_id": "draft-salah-al-din-caliphal-palace-p602-05-20261101",
+  "candidate_name": "Caliphal Palace (Qasr al-Khalifa)",
+  "candidate_summary": "The Caliphal Palace, named Qasr al-Khalifa by UNESCO, is one of the palace remains within Samarra. It belongs to the monumental landscape of the former Abbasid capital.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+      "json_pointer": "/paragraphs/10",
+      "text_match": "The city preserves two of the largest mosques (Al-Malwiya and Abu Dulaf) and the most unusual minarets, as well as the largest palaces in the Islamic world (the Caliphal Palace Qasr al-Khalifa, al-Ja'fari, al Ma'shuq, and others). Carved stucco known as the Samarra style was developed there and spread to other parts of the Islamic world at that time. A new type of ceramic known as Lustre Ware was also developed in Samarra, imitating utensils made of precious metals such as gold and silver."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "description": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "unknown",
+  "review_scope": "P6-02 to P6-05",
+  "parentSiteId": "site-salah-al-din-samarra",
+  "parent_draft_id": "draft-unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+  "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+  "complexId": "site-salah-al-din-samarra",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/10",
+        "text_match": "The city preserves two of the largest mosques (Al-Malwiya and Abu Dulaf) and the most unusual minarets, as well as the largest palaces in the Islamic world (the Caliphal Palace Qasr al-Khalifa, al-Ja'fari, al Ma'shuq, and others). Carved stucco known as the Samarra style was developed there and spread to other parts of the Islamic world at that time. A new type of ceramic known as Lustre Ware was also developed in Samarra, imitating utensils made of precious metals such as gold and silver."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/10",
+        "text_match": "The city preserves two of the largest mosques (Al-Malwiya and Abu Dulaf) and the most unusual minarets, as well as the largest palaces in the Islamic world (the Caliphal Palace Qasr al-Khalifa, al-Ja'fari, al Ma'shuq, and others). Carved stucco known as the Samarra style was developed there and spread to other parts of the Islamic world at that time. A new type of ceramic known as Lustre Ware was also developed in Samarra, imitating utensils made of precious metals such as gold and silver."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/10",
+        "text_match": "The city preserves two of the largest mosques (Al-Malwiya and Abu Dulaf) and the most unusual minarets, as well as the largest palaces in the Islamic world (the Caliphal Palace Qasr al-Khalifa, al-Ja'fari, al Ma'shuq, and others). Carved stucco known as the Samarra style was developed there and spread to other parts of the Islamic world at that time. A new type of ceramic known as Lustre Ware was also developed in Samarra, imitating utensils made of precious metals such as gold and silver."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/10",
+        "text_match": "The city preserves two of the largest mosques (Al-Malwiya and Abu Dulaf) and the most unusual minarets, as well as the largest palaces in the Islamic world (the Caliphal Palace Qasr al-Khalifa, al-Ja'fari, al Ma'shuq, and others). Carved stucco known as the Samarra style was developed there and spread to other parts of the Islamic world at that time. A new type of ceramic known as Lustre Ware was also developed in Samarra, imitating utensils made of precious metals such as gold and silver."
+      }
+    ]
+  }
+}

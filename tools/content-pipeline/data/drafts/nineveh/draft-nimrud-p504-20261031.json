@@ -1,0 +1,63 @@
+{
+  "id": "site-nineveh-nimrud",
+  "name": "Nimrud",
+  "governorate": "Nineveh",
+  "category": "Archaeological City",
+  "period": "Assyrian",
+  "description": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/1463/",
+      "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+      "accessedAt": "2026-10-31T18:44:36+00:00"
+    }
+  ],
+  "draft_id": "draft-nimrud-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Nimrud",
+  "candidate_summary": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+  "source_evidence": [
+    "unesco-20261031T184436Z-29b94f8d4a"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "Legacy descriptions and excavation references do not establish current preservation or visitor access.",
+      "Measurements and precise chronology require specialist review; no inferred coordinates are assigned."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184436Z-29b94f8d4a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184436Z-29b94f8d4a"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.body-extracted.json",
+      "json_pointer": "/paragraphs/0",
+      "text_match": "Ashurnasirpal"
+    }
+  ],
+  "heritage_focus": [
+    "historical",
+    "archaeological"
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/1463/"
+  }
+}

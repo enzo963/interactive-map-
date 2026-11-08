@@ -1,0 +1,59 @@
+{
+  "id": "site-kirkuk-kirkuk-citadel",
+  "name": "Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Citadel",
+  "period": "",
+  "description": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6522/",
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "accessedAt": "2026-10-31T18:54:41+00:00"
+    }
+  ],
+  "draft_id": "draft-kirkuk-citadel-p505-20261031",
+  "status": "needs-review",
+  "candidate_name": "Kirkuk Citadel",
+  "candidate_summary": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+  "source_evidence": [
+    "unesco-20261031T185441Z-b226471f6a"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+      "No current preservation, visitor access or reconstruction claims are inferred.",
+      "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+      "Precise chronology and images require verification. No image or 3D claim is assigned."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Kirkuk Citadel is located"
+    }
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+  }
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "site-salah-al-din-samarra",
+    "name": "Samarra Archaeological City",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Abbasid",
+    "description": "Samarra preserves the plan and monumental remains of an Abbasid capital beside the Tigris. Its mosques, palaces and decorative arts record a major stage in Islamic urban architecture.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      }
+    ],
+    "slug": "al-din-samarra",
+    "unesco_status": "inscribed",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-great-mosque",
+    "name": "Great Mosque of Samarra and Malwiya Minaret",
+    "governorate": "Salah al-Din",
+    "category": "Mosque and Minaret",
+    "period": "Abbasid",
+    "description": "The ninth-century Great Mosque and its spiral minaret are prominent monuments of Samarra. UNESCO identifies them within the archaeological remains of the Abbasid capital.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Malwiya spiral minaret at the Great Mosque of Samarra",
+      "caption": "Great Mosque of Samarra and Malwiya Minaret (photographed in 2021)",
+      "credit": "Fakhri Mahmood",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-great-mosque",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+              "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+              "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-great-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+          "credit": "Fakhri Mahmood",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+        "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+        "accessedAt": "2026-11-01T12:10:33.576160+00:00"
+      }
+    ],
+    "slug": "al-din-great-mosque",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-abu-dulaf",
+    "name": "Abu Dulaf Mosque",
+    "governorate": "Salah al-Din",
+    "category": "Mosque",
+    "period": "Abbasid",
+    "description": "Abu Dulaf is one of the large mosques preserved in Samarra. Its unusual minaret and architectural planning contribute to the Abbasid archaeological city documented by UNESCO.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Brick arcades and spiral minaret of Abu Dulaf Mosque, Samarra",
+      "caption": "Abu Dulaf Mosque (photographed in 2001)",
+      "credit": "Lionel Aubert",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+              "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+              "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-abu-dulaf",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "credit": "Lionel Aubert",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+        "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+        "accessedAt": "2026-11-01T12:10:35.694451+00:00"
+      }
+    ],
+    "slug": "al-din-abu-dulaf",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-caliphal-palace",
+    "name": "Caliphal Palace (Qasr al-Khalifa)",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "The Caliphal Palace, named Qasr al-Khalifa by UNESCO, is one of the palace remains within Samarra. It belongs to the monumental landscape of the former Abbasid capital.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      }
+    ],
+    "slug": "al-din-caliphal-palace",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-ashur",
+    "name": "Ashur (Qal'at Sherqat)",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Assyrian and Parthian",
+    "description": "Ashur is an ancient city beside the Tigris with temples, palaces and royal burials. It was an Assyrian political and religious centre and later revived under Parthian rule.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "accessedAt": "2026-11-01T12:09:11.000258+00:00"
+      }
+    ],
+    "slug": "al-din-ashur",
+    "unesco_status": "inscribed",
+    "latitude": 35.4566667,
+    "longitude": 43.2611111,
+    "status": "approved",
+    "verification_status": "approved"
+  }
+]

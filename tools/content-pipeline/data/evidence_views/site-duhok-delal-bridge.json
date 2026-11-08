@@ -1,0 +1,193 @@
+{
+  "id": "site-duhok-delal-bridge",
+  "name": "Delal Bridge",
+  "governorate": "Duhok",
+  "category": "Historic Bridge",
+  "period": "",
+  "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "accessedAt": "2026-10-31T18:30:32+00:00"
+    }
+  ],
+  "draft_id": "draft-delal-bridge-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Delal Bridge",
+  "candidate_summary": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "source_evidence": [
+    "krg-20261031T182919Z-d4c58de519",
+    "krg-20261031T183032Z-9a290bf891"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "The history page calls the bridge Roman; the tourism overview says Roman or medieval. No precise period is assigned.",
+      "The tourism entry occurs in raw HTML list content omitted by paragraph extraction. Its locator points to raw HTML; pipeline logic was not changed.",
+      "Confirm current administrative grouping of Zakho under the project geographic policy before import."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "candidate_summary": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "image_candidates": [],
+    "period": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+      "selector": "li",
+      "text_match": "Zakho Bridge (Delal Bridge)"
+    },
+    {
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Delal bridge"
+    }
+  ],
+  "evidence_assertions": [
+    {
+      "input_index": 0,
+      "original_claim": {
+        "assertionId": "delal-origin-krg-us",
+        "field": "period",
+        "value": "Roman or medieval (uncertain)",
+        "evidenceId": "krg-20261031T182919Z-d4c58de519",
+        "locator": {
+          "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+          "text_match": "An ancient stone bridge believed to be Roman or medieval in origin.",
+          "selector": "body"
+        }
+      },
+      "eligible": true,
+      "issues": [],
+      "assertionId": "delal-origin-krg-us",
+      "field": "period",
+      "value": "Roman or medieval (uncertain)",
+      "locator": {
+        "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+        "text_match": "An ancient stone bridge believed to be Roman or medieval in origin.",
+        "selector": "body"
+      },
+      "sourceId": "krg",
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00",
+      "trust_tier": 1,
+      "recorded_trust_tier": 1
+    },
+    {
+      "input_index": 1,
+      "original_claim": {
+        "assertionId": "delal-origin-krg-history",
+        "field": "period",
+        "value": "Roman",
+        "evidenceId": "krg-20261031T183032Z-9a290bf891",
+        "locator": {
+          "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+          "text_match": "Delal bridge from the Roman Era in Zakho",
+          "json_pointer": "/paragraphs/3"
+        }
+      },
+      "eligible": true,
+      "issues": [],
+      "assertionId": "delal-origin-krg-history",
+      "field": "period",
+      "value": "Roman",
+      "locator": {
+        "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+        "text_match": "Delal bridge from the Roman Era in Zakho",
+        "json_pointer": "/paragraphs/3"
+      },
+      "sourceId": "krg",
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "accessedAt": "2026-10-31T18:30:32+00:00",
+      "trust_tier": 1,
+      "recorded_trust_tier": 1
+    }
+  ],
+  "field_evidence": {
+    "period": {
+      "assertionIds": [
+        "delal-origin-krg-us",
+        "delal-origin-krg-history"
+      ],
+      "alternatives": [
+        {
+          "value": "Roman or medieval (uncertain)",
+          "assertionIds": [
+            "delal-origin-krg-us"
+          ],
+          "evidenceIds": [
+            "krg-20261031T182919Z-d4c58de519"
+          ],
+          "sourceIds": [
+            "krg"
+          ],
+          "best_trust_tier": 1
+        },
+        {
+          "value": "Roman",
+          "assertionIds": [
+            "delal-origin-krg-history"
+          ],
+          "evidenceIds": [
+            "krg-20261031T183032Z-9a290bf891"
+          ],
+          "sourceIds": [
+            "krg"
+          ],
+          "best_trust_tier": 1
+        }
+      ],
+      "preferred_value": null,
+      "preferred_assertion_ids": [],
+      "existing_value": "",
+      "differs_from_current": false,
+      "has_conflict": true,
+      "resolution_status": "tie-needs-review",
+      "review_required": true
+    }
+  },
+  "reliability_review": {
+    "policy": "Lower registry trust_tier is stronger; equal-tier disagreements remain unresolved.",
+    "conflict_fields": [
+      "period"
+    ],
+    "invalid_assertions": [],
+    "has_conflicts": true,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "repository_issues": []
+  }
+}

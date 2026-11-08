@@ -1,0 +1,62 @@
+{
+  "id": "site-sulaymaniyah-bestansur",
+  "name": "Bestansur Neolithic settlement",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Settlement",
+  "period": "Early Neolithic",
+  "description": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6172/",
+      "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+      "accessedAt": "2026-10-31T18:36:24+00:00"
+    }
+  ],
+  "draft_id": "draft-bestansur-p503-20261031",
+  "status": "needs-review",
+  "candidate_name": "Bestansur Neolithic settlement",
+  "candidate_summary": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+  "source_evidence": [
+    "unesco-20261031T183624Z-d52d1905cf"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed site draft; not approved or published.",
+      "No images assigned: image relevance, attribution and licenses need verification.",
+      "Tentative List status is not World Heritage inscription; the text is an Iraqi State Party submission.",
+      "The source labels longitude W45 despite locating the site in Iraq. Coordinates are not assigned or silently corrected; verify against a specialist authoritative map.",
+      "Historical excavation dates, protection arrangements and comparison-list counts reflect the source document and are not treated as current conditions."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T183624Z-d52d1905cf"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T183624Z-d52d1905cf"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+      "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Bestansur is located in the Zagros foothills"
+    },
+    {
+      "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+      "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.html",
+      "selector": "body",
+      "text_match": "20/01/2017"
+    }
+  ]
+}
