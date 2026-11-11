@@ -21,6 +21,7 @@ export default function ModelViewer({
   siteId,
   registerViewer = registerModelViewer,
   timeoutMs = 30000,
+  headingLevel = 3,
 }) {
   const embed =
     resource?.verified === true && (!siteId || resource.siteId === siteId)
@@ -34,11 +35,13 @@ export default function ModelViewer({
       name={name}
       registerViewer={registerViewer}
       timeoutMs={timeoutMs}
+      headingLevel={headingLevel}
     />
   );
 }
 
-function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
+function Viewer({ embed, resource, name, registerViewer, timeoutMs, headingLevel = 3 }) {
+  const Heading = `h${Math.min(Math.max(headingLevel, 2), 6)}`;
   const [state, setState] = useState('idle');
   const [progress, setProgress] = useState(0);
   const [attempt, setAttempt] = useState(0);
@@ -99,7 +102,8 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
   };
   return (
     <div className="hb-model" data-state={viewable ? state : 'unavailable'}>
-      <h3 className="hb-site__h3">{resource.title || t('3D resource')}</h3>
+      <Heading className="hb-site__h3">{resource.title || t('3D resource')}</Heading>
+      {resource.documentation && <DocumentationLabel resource={resource} />}
       {!viewable && (
         <p className="hb-model__notice">
           {t('This resource cannot be previewed here. Open or download it using the link below.')}
@@ -175,7 +179,9 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
         <p className="hb-model__credit">
           {[
             resource.credit && `${t('Credit:')} ${resource.credit}`,
-            resource.license && `${t('License:')} ${resource.license}`,
+            resource.rightsHolder && `© ${resource.rightsHolder}`,
+            resource.year,
+            resource.license && `${t('License:')} ${t(resource.license)}`,
           ]
             .filter(Boolean)
             .join(' · ')}
@@ -184,3 +190,38 @@ function Viewer({ embed, resource, name, registerViewer, timeoutMs }) {
     </div>
   );
 }
+
+const CREATOR_TYPES = {
+  'heritage-bridge': 'History in Cards',
+  'heritage-studio': 'Heritage documentation studio',
+  'archaeological-mission': 'Archaeological mission',
+  university: 'University',
+  researcher: 'Researcher',
+  independent: 'Independent creator',
+};
+
+/**
+ * What kind of record a 3D resource is: measured from the place, or modelled by hand. The class,
+ * the method, what state it shows, and whether the creator stated the method or it was judged from
+ * the model are always shown together, so a reconstruction is never mistaken for a survey.
+ */
+function DocumentationLabel({ resource }) {
+  const measured = resource.documentation === 'measured';
+  const creatorType = CREATOR_TYPES[resource.creatorType];
+  return (
+    <div className="hb-docclass" data-documentation={resource.documentation}>
+      <p className="hb-docclass__badges">
+        <span className="hb-docclass__class">{measured ? t('Measured documentation') : t('Modelled or reconstructed')}</span>
+        <span className="hb-docclass__method">{t(resource.methodLabel)}</span>
+      </p>
+      {resource.depicts && <p className="hb-docclass__depicts"><span className="hb-docclass__label">{t('Shows:')}</span> {resource.depicts}</p>}
+      {resource.note && <p className="hb-docclass__depicts"><span className="hb-docclass__label">{resource.relation === 'context' ? t('Related to this site:') : resource.relation === 'part' ? t('Part of this site:') : t('Note:')}</span> {resource.note}</p>}
+      <p className="hb-docclass__evidence">
+        {resource.methodEvidence === 'stated' ? t('Method stated by the creator:') : t('Method judged from the model; the creator does not state it:')}
+        {' '}{resource.methodNote}
+      </p>
+      {creatorType && <p className="hb-docclass__evidence">{t('Published by {creator}, {type}.', { creator: resource.credit, type: t(creatorType).toLowerCase() })}</p>}
+    </div>
+  );
+}
+

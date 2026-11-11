@@ -1,0 +1,1722 @@
+{
+  "reviewedAt": "2026-11-09",
+  "reviewer": "Claude (Anthropic), visual and metadata review",
+  "method": "Resources are matched to cards by the place they show. Each is classified as measured (geometry captured from the place itself: photogrammetry, aerial photogrammetry or laser scanning) or modeled (built by hand, including reconstructions of an earlier or lost state). methodEvidence is \"stated\" when the creator says how it was made (description or tags) and \"inferred\" when the class was judged from the model itself (photo-textured mesh recording damage as found, versus clean geometry, regular forms or no texture); methodNote gives the reason. Portable objects now in museums are not linked to sites. Ambiguous matches are left out.",
+  "documentationTypes": {
+    "measured": "Captured from the place itself",
+    "modeled": "Built by hand or reconstructed"
+  },
+  "methods": {
+    "photogrammetry": "Photogrammetry",
+    "aerial-photogrammetry": "Aerial photogrammetry",
+    "laser-scan-and-photogrammetry": "Laser scanning and photogrammetry",
+    "manual-modeling": "Manual 3D modelling"
+  },
+  "creatorTypes": [
+    "heritage-bridge",
+    "heritage-studio",
+    "archaeological-mission",
+    "university",
+    "researcher",
+    "independent"
+  ],
+  "creators": {
+    "Qaflab": {
+      "name": "QAF Lab",
+      "type": "heritage-studio",
+      "profileUrl": "https://sketchfab.com/Qaflab",
+      "note": "A Mosul team of architects and visual-effects designers; several of its Al-Nouri and Al-Tahira models are marked © UNESCO 2020."
+    },
+    "techforheritage": {
+      "name": "Tech 4 Heritage",
+      "type": "heritage-studio",
+      "profileUrl": "https://sketchfab.com/techforheritage",
+      "note": "Documentation workshops with Iraqi museums and sites."
+    },
+    "ats": {
+      "name": "ATS (Saving Hatra project)",
+      "type": "heritage-studio",
+      "profileUrl": "https://sketchfab.com/ats",
+      "note": "Survey firm documenting Hatra for the Saving Hatra project (savinghatra.org)."
+    },
+    "petr.vavrecka": {
+      "name": "Petr Vavrečka",
+      "type": "heritage-studio",
+      "profileUrl": "https://sketchfab.com/petr.vavrecka",
+      "note": "3D designer of the models for the exhibition Monuments of Mosul in Danger (Oriental Institute, Czech Academy of Sciences)."
+    },
+    "Shamlu": {
+      "name": "Shamlu Archaeological Mission",
+      "type": "archaeological-mission",
+      "profileUrl": "https://sketchfab.com/Shamlu",
+      "note": "LMU Munich mission, DFG Emmy Noether project."
+    },
+    "felixwolter": {
+      "name": "Felix Wolter (LMU Munich)",
+      "type": "archaeological-mission",
+      "profileUrl": "https://sketchfab.com/felixwolter",
+      "note": "Documentation for LMU Munich field projects in the Shahrizor and Peshdar plains."
+    },
+    "epas": {
+      "name": "Erbil Plain Archaeological Survey",
+      "type": "archaeological-mission",
+      "profileUrl": "https://sketchfab.com/epas",
+      "note": "Survey of the Erbil plain with the Erbil Directorate of Antiquities."
+    },
+    "jason.herrmann": {
+      "name": "Jason Herrmann (University of Tübingen)",
+      "type": "archaeological-mission",
+      "profileUrl": "https://sketchfab.com/jason.herrmann",
+      "note": "Eastern Ḫabur Archaeological Survey and KUGAMID, the Kurdish-German Archaeological Mission in Duhok."
+    },
+    "HusseinYaseen": {
+      "name": "Hussein Yaseen",
+      "type": "researcher",
+      "profileUrl": "https://sketchfab.com/HusseinYaseen",
+      "note": "Scans of Mosul churches and heritage, with notes on what was rebuilt."
+    },
+    "Twana_arch": {
+      "name": "Twana (architect)",
+      "type": "researcher",
+      "profileUrl": "https://sketchfab.com/Twana_arch",
+      "note": "Photogrammetric records of Erbil Citadel houses, with photo counts and software stated."
+    },
+    "Ameer.Sadam": {
+      "name": "Ameer Sadam",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/Ameer.Sadam"
+    },
+    "alqaba": {
+      "name": "Adil Al Qaba",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/alqaba"
+    },
+    "Abdulrhmanqynajjar": {
+      "name": "Al3nqaa",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/Abdulrhmanqynajjar"
+    },
+    "BasharAbbas": {
+      "name": "Bashar Abbas",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/BasharAbbas"
+    },
+    "farhad.Guli": {
+      "name": "Farhad Guli",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/farhad.Guli"
+    },
+    "MaxP7": {
+      "name": "MaxP",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/MaxP7"
+    }
+  },
+  "resources": [
+    {
+      "provider": "sketchfab",
+      "modelId": "e47476df1f7c4200a6dcb63819357215",
+      "url": "https://sketchfab.com/3d-models/e47476df1f7c4200a6dcb63819357215",
+      "title": "Al_Saa'a Church",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "An untextured architectural model with regular geometry.",
+      "depicts": "The church and clock tower as a volume model.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-07-30",
+      "faceCount": 330310,
+      "sites": [
+        {
+          "siteId": "site-nineveh-dominican-church",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "8d62d0c30fef46019b26476f55f7633f",
+      "url": "https://sketchfab.com/3d-models/8d62d0c30fef46019b26476f55f7633f",
+      "title": "Al-Nouri Mosque Complex-HQ",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh that records rubble, propping and scaffolding as they stood.",
+      "depicts": "The damaged complex during UNESCO’s reconstruction work (published October 2020).",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "rightsHolder": "UNESCO",
+      "published": "2020-10-07",
+      "faceCount": 1259694,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "0efb9d3397024447a3c6546a450f9344",
+      "url": "https://sketchfab.com/3d-models/0efb9d3397024447a3c6546a450f9344",
+      "title": "Al Hadba Minaret",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the broken minaret base with its temporary supports.",
+      "depicts": "The base of the minaret after its destruction in 2017 (published August 2020).",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "rightsHolder": "UNESCO",
+      "published": "2020-08-25",
+      "faceCount": 445899,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "part",
+          "note": "The surviving base of the al-Hadba minaret."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "72b67e11915e4e769f2035c3b11dccee",
+      "url": "https://sketchfab.com/3d-models/72b67e11915e4e769f2035c3b11dccee",
+      "title": "Al-Nouri Complex before 2017",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A clean architectural model of the whole complex in its setting, not a capture of the ruins.",
+      "depicts": "A reconstruction of the complex before its destruction in 2017.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "rightsHolder": "UNESCO",
+      "published": "2020-09-18",
+      "faceCount": 4579571,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "c8d4c62154904bb9a24216aabe47bf00",
+      "url": "https://sketchfab.com/3d-models/c8d4c62154904bb9a24216aabe47bf00",
+      "title": "Prayer Hall",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A clean, regular model of the prayer hall with its domes, not a capture of the ruins.",
+      "depicts": "A reconstruction of the prayer hall.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "rightsHolder": "UNESCO",
+      "published": "2020-09-30",
+      "faceCount": 6048561,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "part",
+          "note": "The prayer hall of the mosque."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "adefb309080844c6b78370e7c129d4c4",
+      "url": "https://sketchfab.com/3d-models/adefb309080844c6b78370e7c129d4c4",
+      "title": "Minaret Al-Hadba - Mosul",
+      "creator": "petr.vavrecka",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its author as a 3D reconstruction made for the exhibition Monuments of Mosul in Danger.",
+      "depicts": "A reconstruction of the minaret before 2017.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2016-11-15",
+      "faceCount": 726321,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "part",
+          "note": "The al-Hadba minaret."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "368a9811cead41df8a921412f53d9a60",
+      "url": "https://sketchfab.com/3d-models/368a9811cead41df8a921412f53d9a60",
+      "title": "Al-Tahira Church",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the damaged church seen from above.",
+      "depicts": "The damaged church before restoration (published August 2020).",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "rightsHolder": "UNESCO",
+      "published": "2020-08-11",
+      "faceCount": 516469,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+          "relation": "context",
+          "note": "The church of 1859–62 that stands beside the old church, restored by UNESCO."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "d1968dc6ad9c4d86aa3294cf880e8857",
+      "url": "https://sketchfab.com/3d-models/d1968dc6ad9c4d86aa3294cf880e8857",
+      "title": "The interior view of Al-Tahera Catholic Church",
+      "creator": "HusseinYaseen",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured interior mesh; the same creator tags his record of the restored church as photogrammetry.",
+      "depicts": "The interior during restoration.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-02-05",
+      "faceCount": 1998913,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+          "relation": "context",
+          "note": "The interior of the church of 1859–62 that stands beside the old church."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "86ec414acf074bb793f03a1fe31b33d2",
+      "url": "https://sketchfab.com/3d-models/86ec414acf074bb793f03a1fe31b33d2",
+      "title": "Al-Tahera Catholic Church (after Consecration)",
+      "creator": "HusseinYaseen",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator.",
+      "depicts": "The restored interior after the church was consecrated again.",
+      "license": "CC Attribution-NonCommercial-ShareAlike",
+      "licenseUrl": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "published": "2025-09-08",
+      "faceCount": 4995384,
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+          "relation": "context",
+          "note": "The church of 1859–62 that stands beside the old church, after its restoration."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "40da34fe9bec43fa8fb1a44eb29d6dc7",
+      "url": "https://sketchfab.com/3d-models/40da34fe9bec43fa8fb1a44eb29d6dc7",
+      "title": "Mosul Museum",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the damaged building.",
+      "depicts": "The damaged museum building (published October 2022).",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-10-13",
+      "faceCount": 2915188,
+      "sites": [
+        {
+          "siteId": "site-nineveh-mosul-museum",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "f43f0e19a7e74e2d80b6c78d351461a7",
+      "url": "https://sketchfab.com/3d-models/f43f0e19a7e74e2d80b6c78d351461a7",
+      "title": "Bashtabia Castle",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator.",
+      "depicts": "The castle ruins as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2026-04-07",
+      "faceCount": 5000216,
+      "sites": [
+        {
+          "siteId": "site-nineveh-bash-tapia-castle",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "39429bb5b4ad4215a466e974d941040e",
+      "url": "https://sketchfab.com/3d-models/39429bb5b4ad4215a466e974d941040e",
+      "title": "Qara_Saray",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry and PhotoScan by its creator.",
+      "depicts": "The ruined palace walls as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2024-07-28",
+      "faceCount": 1992944,
+      "sites": [
+        {
+          "siteId": "site-nineveh-qara-saray",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "bf5200a97c694a54ae6c353a7dbc8ba9",
+      "url": "https://sketchfab.com/3d-models/bf5200a97c694a54ae6c353a7dbc8ba9",
+      "title": "GunPowder Storehouse(BaroodKhana)",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the building and its ground.",
+      "depicts": "The storehouse as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2023-03-16",
+      "faceCount": 258040,
+      "sites": [
+        {
+          "siteId": "site-nineveh-barood-khana",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "3141aa5ba66e4a89bc4d4f15a0ad5ea5",
+      "url": "https://sketchfab.com/3d-models/3141aa5ba66e4a89bc4d4f15a0ad5ea5",
+      "title": "Mashki Gate",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the excavated gate.",
+      "depicts": "The excavated gate as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-11-05",
+      "faceCount": 3517888,
+      "sites": [
+        {
+          "siteId": "site-nineveh-mashki-gate",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "31c8ac584c4142cc9681c88866a895a9",
+      "url": "https://sketchfab.com/3d-models/31c8ac584c4142cc9681c88866a895a9",
+      "title": "Sheikh Al-Shaat",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator.",
+      "depicts": "The mosque site as captured after its destruction.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2026-07-15",
+      "faceCount": 4000000,
+      "sites": [
+        {
+          "siteId": "site-nineveh-shatt-al-jumi-mosque",
+          "relation": "site",
+          "note": "Matched by name: QAF Lab titles it Sheikh al-Shaat."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "bd87e028d7a94091a84252968ba00ac5",
+      "url": "https://sketchfab.com/3d-models/bd87e028d7a94091a84252968ba00ac5",
+      "title": "Jami Sheykh Shatt",
+      "creator": "petr.vavrecka",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its author as a 3D reconstruction made for the exhibition Monuments of Mosul in Danger.",
+      "depicts": "A reconstruction of the mosque before its destruction.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2016-11-22",
+      "faceCount": 29943,
+      "sites": [
+        {
+          "siteId": "site-nineveh-shatt-al-jumi-mosque",
+          "relation": "site",
+          "note": "Made for the Czech Academy of Sciences exhibition that lists this mosque."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "6e0c8297a38540b9965a2e3c01143ec1",
+      "url": "https://sketchfab.com/3d-models/6e0c8297a38540b9965a2e3c01143ec1",
+      "title": "Imam Yahya Abu al-Qasim",
+      "creator": "petr.vavrecka",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its author as a 3D reconstruction made for the exhibition Monuments of Mosul in Danger.",
+      "depicts": "A reconstruction of the mausoleum before its destruction in 2014.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2016-09-12",
+      "faceCount": 30263,
+      "sites": [
+        {
+          "siteId": "site-nineveh-yahya-abu-al-qasim-shrine",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "cea1be6f470d4b3da0cb01b8e7f4450a",
+      "url": "https://sketchfab.com/3d-models/cea1be6f470d4b3da0cb01b8e7f4450a",
+      "title": "احدى أبواب مرقد إلامام عون الدين | الموصل",
+      "creator": "Abdulrhmanqynajjar",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of a carved door.",
+      "depicts": "A door of the shrine as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-07-22",
+      "faceCount": 1217697,
+      "sites": [
+        {
+          "siteId": "site-nineveh-imam-awn-al-din-shrine",
+          "relation": "part",
+          "note": "One of the doors of the shrine."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "ed30619afbf54964a2b60d73f450c590",
+      "url": "https://sketchfab.com/3d-models/ed30619afbf54964a2b60d73f450c590",
+      "title": "3D model Imam Avnudinn - Mosul",
+      "creator": "petr.vavrecka",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its author as a 3D reconstruction made for the exhibition Monuments of Mosul in Danger.",
+      "depicts": "A reconstruction of the mausoleum before its destruction in 2014.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-02-05",
+      "faceCount": 13157,
+      "sites": [
+        {
+          "siteId": "site-nineveh-imam-awn-al-din-shrine",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "a37b0f62c15e46579be8759310e0fb00",
+      "url": "https://sketchfab.com/3d-models/a37b0f62c15e46579be8759310e0fb00",
+      "title": "Al_NabiYounis Mosque",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A clean model with regular domes and tiled textures, not a capture of the site.",
+      "depicts": "A reconstruction of the mosque and shrine.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-06-09",
+      "faceCount": 6890887,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nabi-yunus-mosque",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "3b9cdfc0acea410ab51f3069c86494f5",
+      "url": "https://sketchfab.com/3d-models/3b9cdfc0acea410ab51f3069c86494f5",
+      "title": "Nabi Yonus Model 1920 AD",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described as a 3D model made by Juan Aguilar.",
+      "depicts": "A reconstruction of the shrine around 1920.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-08-20",
+      "faceCount": 211566,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nabi-yunus-mosque",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "01c4f187dfae42e7b4960c5abef6ac81",
+      "url": "https://sketchfab.com/3d-models/01c4f187dfae42e7b4960c5abef6ac81",
+      "title": "Nineveh, unknown relief",
+      "creator": "Shamlu",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of a relief in place, published by an archaeological mission.",
+      "depicts": "The relief as found in the tunnel.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-02-05",
+      "faceCount": 59486,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nabi-yunus-mosque",
+          "relation": "context",
+          "note": "An Assyrian relief found in the looting tunnel dug under the destroyed shrine."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "40070989a39b448cb1d7e39a7678b289",
+      "url": "https://sketchfab.com/3d-models/40070989a39b448cb1d7e39a7678b289",
+      "title": "Al_Nabi Gargees",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "An untextured volume model with regular geometry.",
+      "depicts": "The mosque as a volume model.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-07-30",
+      "faceCount": 61642,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nabi-jirjis-mosque",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "7782c383b35e4e34b8bb22612571a631",
+      "url": "https://sketchfab.com/3d-models/7782c383b35e4e34b8bb22612571a631",
+      "title": "Al_Nabi Shiet",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "An untextured volume model with regular geometry.",
+      "depicts": "The mosque as a volume model.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-07-30",
+      "faceCount": 402233,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nabi-shith-mosque",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "b1c23363938b4b5fae34b37a0af5f9b6",
+      "url": "https://sketchfab.com/3d-models/b1c23363938b4b5fae34b37a0af5f9b6",
+      "title": "Al_Dabbagh Palace",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the damaged courtyard house.",
+      "depicts": "The damaged house as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2024-07-14",
+      "faceCount": 3999999,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "Al-Dabbagh Palace, a house in the Old City."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "10cf0e81ccba4036a231440c24a09bca",
+      "url": "https://sketchfab.com/3d-models/10cf0e81ccba4036a231440c24a09bca",
+      "title": "Al_Musafy Mosque Minaret",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the damaged minaret and its surroundings.",
+      "depicts": "The minaret as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2023-01-22",
+      "faceCount": 1986534,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "The minaret of the al-Musafi mosque, the mosque’s only surviving part."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "18db765e3e5c46d4b29f641da540d785",
+      "url": "https://sketchfab.com/3d-models/18db765e3e5c46d4b29f641da540d785",
+      "title": "The Haramlik (2nd courtyard) of Al-Jalili house",
+      "creator": "Ameer.Sadam",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the courtyard as it stands, with damage and graffiti.",
+      "depicts": "The courtyard as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-03-22",
+      "faceCount": 250000,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "The second courtyard of the al-Jalili house."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "117ddf0f543e463195aa1cf7ede62851",
+      "url": "https://sketchfab.com/3d-models/117ddf0f543e463195aa1cf7ede62851",
+      "title": "Qantara in Old City of Mosul (Arched Tunnel)",
+      "creator": "alqaba",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the passage as it stands.",
+      "depicts": "The passage as captured.",
+      "license": "CC Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+      "published": "2025-02-19",
+      "faceCount": 472660,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "A qantara, an arched passage under a house, typical of the Old City."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "e739743227c148bcb1a083370c8a5f0a",
+      "url": "https://sketchfab.com/3d-models/e739743227c148bcb1a083370c8a5f0a",
+      "title": "interior view of Orthodox Church of Al-Tahira",
+      "creator": "HusseinYaseen",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured interior mesh of the damaged church; the creator records it as not yet reconstructed.",
+      "depicts": "The damaged interior before reconstruction.",
+      "license": "CC Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+      "published": "2025-03-25",
+      "faceCount": 7000192,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "The Syriac Orthodox church of al-Tahira of 1895 in the Hosh al-Bay’a, not yet rebuilt."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "dc857e4b035447e4980537a6ad7df4d7",
+      "url": "https://sketchfab.com/3d-models/dc857e4b035447e4980537a6ad7df4d7",
+      "title": "Armenian Church",
+      "creator": "HusseinYaseen",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its creator as an interior scan.",
+      "depicts": "The interior as captured.",
+      "license": "CC Attribution-NonCommercial-ShareAlike",
+      "licenseUrl": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "published": "2025-09-06",
+      "faceCount": 2995820,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "The Armenian church in the church complex of the Hosh al-Bay’a."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "c37c763faa364b0293837e1f1ae96f88",
+      "url": "https://sketchfab.com/3d-models/c37c763faa364b0293837e1f1ae96f88",
+      "title": "Traditional Mosuly house",
+      "creator": "HusseinYaseen",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "stated",
+      "methodNote": "Described by its creator as the rebuild model of the house.",
+      "depicts": "The house as rebuilt.",
+      "license": "CC Attribution-NonCommercial-ShareAlike",
+      "licenseUrl": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "published": "2025-08-09",
+      "faceCount": 4726628,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "House no. 79 near the Tigris, rebuilt after 2017."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "8a296b36f860434c82ed68b343e64d40",
+      "url": "https://sketchfab.com/3d-models/8a296b36f860434c82ed68b343e64d40",
+      "title": "Sulayman Saigh House",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A clean, furnished interior model with regular geometry, not a capture of the house.",
+      "depicts": "A reconstruction of the house.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2021-06-08",
+      "faceCount": 1305711,
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "part",
+          "note": "The Sulayman Saigh house in the Old City."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "a19f5d52ea1e4260a510c6dcb2351a9b",
+      "url": "https://sketchfab.com/3d-models/a19f5d52ea1e4260a510c6dcb2351a9b",
+      "title": "Delal bridge Zakho",
+      "creator": "farhad.Guli",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A low-polygon model with tiled stone texture; its creator states that his other Delal Bridge model was made in SketchUp.",
+      "depicts": "The bridge as a simplified model.",
+      "license": "CC Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+      "published": "2023-03-22",
+      "faceCount": 9055,
+      "sites": [
+        {
+          "siteId": "site-duhok-delal-bridge",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "4a2f6806a78c4f048bdff70e876de93f",
+      "url": "https://sketchfab.com/3d-models/4a2f6806a78c4f048bdff70e876de93f",
+      "title": "Al-Emadiyah_Kurdistan",
+      "creator": "BasharAbbas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the gate and its rock setting.",
+      "depicts": "The gate as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2016-09-09",
+      "faceCount": 100000,
+      "sites": [
+        {
+          "siteId": "site-duhok-amedy-city",
+          "relation": "part",
+          "note": "A gate and stairway of the town."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "deafe50fffc94f7aac1661823c485967",
+      "url": "https://sketchfab.com/3d-models/deafe50fffc94f7aac1661823c485967",
+      "title": "EHAS-B001 Bassetki",
+      "creator": "jason.herrmann",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Images recorded with a DJI Phantom 2 Vision+ drone and processed in Agisoft PhotoScan.",
+      "depicts": "The site from the air as surveyed.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-06-24",
+      "faceCount": 4950841,
+      "sites": [
+        {
+          "siteId": "site-duhok-mardaman-bassetki",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "33ebb17e565b4585b9d5e6fb615fa5de",
+      "url": "https://sketchfab.com/3d-models/33ebb17e565b4585b9d5e6fb615fa5de",
+      "title": "Khinis hill ( King sennacherib rock )",
+      "creator": "Ameer.Sadam",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the carved rock face.",
+      "depicts": "The rock reliefs as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-10-19",
+      "faceCount": 92455,
+      "sites": [
+        {
+          "siteId": "site-nineveh-khinnis-reliefs",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "23d6d851cc5047178fce9c4264daeee5",
+      "url": "https://sketchfab.com/3d-models/23d6d851cc5047178fce9c4264daeee5",
+      "title": "The Turkmen Culture House- Erbil Citadel",
+      "creator": "Twana_arch",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Captured from 106 smartphone photographs of the façade and processed in Agisoft Metashape.",
+      "depicts": "The restored façade as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-03-10",
+      "faceCount": 4729076,
+      "sites": [
+        {
+          "siteId": "site-erbil-erbil-citadel",
+          "relation": "part",
+          "note": "The Turkmen Culture House in the Topkhana quarter of the citadel."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "ac763d298e254426920bffbb8aca295e",
+      "url": "https://sketchfab.com/3d-models/ac763d298e254426920bffbb8aca295e",
+      "title": "Fatah Chalabi House-Erbil Citadel",
+      "creator": "Twana_arch",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Captured from 1,121 photographs and processed in Agisoft Metashape.",
+      "depicts": "The house as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-03-10",
+      "faceCount": 2056725,
+      "sites": [
+        {
+          "siteId": "site-erbil-erbil-citadel",
+          "relation": "part",
+          "note": "The Fatah Chalabi house in the citadel."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "4f01cf29ee8d4de3ad7cdb1fbb022cd6",
+      "url": "https://sketchfab.com/3d-models/4f01cf29ee8d4de3ad7cdb1fbb022cd6",
+      "title": "erbil castle",
+      "creator": "farhad.Guli",
+      "type": "3d-model",
+      "documentation": "modeled",
+      "method": "manual-modeling",
+      "methodEvidence": "inferred",
+      "methodNote": "A low-polygon, untextured model of the citadel wall, not a capture.",
+      "depicts": "The citadel as a simplified model.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2021-07-31",
+      "faceCount": 6559,
+      "sites": [
+        {
+          "siteId": "site-erbil-erbil-citadel",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "5365515292774efea70046adbd757ba8",
+      "url": "https://sketchfab.com/3d-models/5365515292774efea70046adbd757ba8",
+      "title": "Rashid Agha’s Diwakhana – Heritage Building",
+      "creator": "Twana_arch",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Exterior and façade captured from 921 smartphone photographs and processed in Agisoft Metashape.",
+      "depicts": "The house in poor condition, as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2025-03-10",
+      "faceCount": 6165846,
+      "sites": [
+        {
+          "siteId": "site-erbil-rashid-agha-house",
+          "relation": "site",
+          "note": "Rashid Agha’s diwakhana in the Sarai quarter of Erbil Citadel."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "d6f868da4eaf49aebbcb48d371d58e19",
+      "url": "https://sketchfab.com/3d-models/d6f868da4eaf49aebbcb48d371d58e19",
+      "title": "Excavations at Qalinj Agha, Erbil",
+      "creator": "epas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged Agisoft PhotoScan by the survey.",
+      "depicts": "The excavation trenches as recorded.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-02-24",
+      "faceCount": 399999,
+      "sites": [
+        {
+          "siteId": "site-erbil-qalinj-agha",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "c5a0b53f676549148f8ed28c9cba2fdc",
+      "url": "https://sketchfab.com/3d-models/c5a0b53f676549148f8ed28c9cba2fdc",
+      "title": "Site 31 Kurd Qaburstan northern lower town",
+      "creator": "epas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged Agisoft PhotoScan by the survey; an aerial model of the mound.",
+      "depicts": "The lower town from the air as surveyed.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-01-20",
+      "faceCount": 59760,
+      "sites": [
+        {
+          "siteId": "site-erbil-kurd-qaburstan",
+          "relation": "part",
+          "note": "The northern lower town of Kurd Qaburstan."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "4b1f4d63f73e467185976698985cefaf",
+      "url": "https://sketchfab.com/3d-models/4b1f4d63f73e467185976698985cefaf",
+      "title": "Site 272 Tell Helawa",
+      "creator": "epas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged Agisoft PhotoScan by the survey; an aerial model of the mound.",
+      "depicts": "The mound from the air as surveyed.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2017-01-26",
+      "faceCount": 399999,
+      "sites": [
+        {
+          "siteId": "site-erbil-girdi-helawa",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "8b3ce4a4bbcc4e3a81f5429805ef4b1d",
+      "url": "https://sketchfab.com/3d-models/8b3ce4a4bbcc4e3a81f5429805ef4b1d",
+      "title": "Gird-i Shamlu | Spring 2019",
+      "creator": "Shamlu",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "An aerial photo-textured model published by the excavating mission.",
+      "depicts": "The mound and excavation in spring 2019.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2020-06-01",
+      "faceCount": 1552867,
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-gird-i-shamlu",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "748ab5e3ed7540ed9c05f4b863cf0cd3",
+      "url": "https://sketchfab.com/3d-models/748ab5e3ed7540ed9c05f4b863cf0cd3",
+      "title": "Gird-i Shamlu | Iraqi Kurdistan",
+      "creator": "felixwolter",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "An aerial photo-textured model published for the excavating mission.",
+      "depicts": "The mound from the air.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2019-06-14",
+      "faceCount": 4658604,
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-gird-i-shamlu",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "83e1a67db224421b976a732efe0d75b8",
+      "url": "https://sketchfab.com/3d-models/83e1a67db224421b976a732efe0d75b8",
+      "title": "Dinka Lower Town | Iraqi Kurdistan",
+      "creator": "felixwolter",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator for the Peshdar Plain Project.",
+      "depicts": "The lower town from the air.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2019-06-13",
+      "faceCount": 3486803,
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-qalat-i-dinka",
+          "relation": "part",
+          "note": "The lower town of Qalat-i Dinka."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "4e79cc9d20fb4b66b7f3787b2594ab8e",
+      "url": "https://sketchfab.com/3d-models/4e79cc9d20fb4b66b7f3787b2594ab8e",
+      "title": "Gird-î Qalrakh | Iraqi Kurdistan",
+      "creator": "felixwolter",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "An aerial photo-textured model published for the Qalrakh excavations.",
+      "depicts": "The mound from the air.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2019-06-13",
+      "faceCount": 432603,
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-gird-i-qalrakh",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "4acef93bf55d4f70a4dd09d0bef0d5e9",
+      "url": "https://sketchfab.com/3d-models/4acef93bf55d4f70a4dd09d0bef0d5e9",
+      "title": "Tepe Kal",
+      "creator": "techforheritage",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator.",
+      "depicts": "The mound from the air.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2024-10-09",
+      "faceCount": 499999,
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-tepe-kal",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "e9c174dede904ba2abdaa04b6b0c99b3",
+      "url": "https://sketchfab.com/3d-models/e9c174dede904ba2abdaa04b6b0c99b3",
+      "title": "RABBAN HORMIZD MONASTERY",
+      "creator": "BasharAbbas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged drone by its creator; a photo-textured model of the monastery in its cliff.",
+      "depicts": "The monastery and cliff as captured.",
+      "license": "Standard",
+      "licenseUrl": "https://sketchfab.com/licenses",
+      "published": "2020-07-26",
+      "faceCount": 2499999,
+      "sites": [
+        {
+          "siteId": "site-nineveh-rabban-hormizd-monastery",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "031a907081c847f7965bf1176016e18d",
+      "url": "https://sketchfab.com/3d-models/031a907081c847f7965bf1176016e18d",
+      "title": "Taq Kasra - Arch of Ctesiphon",
+      "creator": "BasharAbbas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged heritage photogrammetry by its creator.",
+      "depicts": "The arch as captured.",
+      "license": "CC Attribution",
+      "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+      "published": "2020-07-27",
+      "faceCount": 1007823,
+      "sites": [
+        {
+          "siteId": "site-baghdad-taq-kasra",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "62af5459cd0c4e99b8e7036cf3de375a",
+      "url": "https://sketchfab.com/3d-models/62af5459cd0c4e99b8e7036cf3de375a",
+      "title": "Sammara Great Mosque",
+      "creator": "BasharAbbas",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured aerial model of the mosque enclosure and minaret.",
+      "depicts": "The mosque and minaret as captured.",
+      "license": "Editorial",
+      "licenseUrl": "https://sketchfab.com/licenses",
+      "published": "2017-10-02",
+      "faceCount": 290592,
+      "sites": [
+        {
+          "siteId": "site-salah-al-din-great-mosque",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "bd69ee8a1f8543fa84bd2cb648c3aed3",
+      "url": "https://sketchfab.com/3d-models/bd69ee8a1f8543fa84bd2cb648c3aed3",
+      "title": "Entrance Nimrud",
+      "creator": "MaxP7",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the entrance, its sign and lamassu.",
+      "depicts": "The entrance before the destruction of 2015.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2015-10-22",
+      "faceCount": 1108084,
+      "sites": [
+        {
+          "siteId": "site-nineveh-nimrud-northwest-palace",
+          "relation": "part",
+          "note": "An entrance of the palace with its lamassu."
+        },
+        {
+          "siteId": "site-nineveh-nimrud",
+          "relation": "part",
+          "note": "An entrance of the Northwest Palace."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "853942cec25a418a854c630e78ff4f3c",
+      "url": "https://sketchfab.com/3d-models/853942cec25a418a854c630e78ff4f3c",
+      "title": "HATRA",
+      "creator": "ats",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "laser-scan-and-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged laser scanning and photogrammetry by the Saving Hatra survey.",
+      "depicts": "The sanctuary as surveyed.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-09-23",
+      "faceCount": 2499999,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "ef4bb81fbc0243c2ae976ae08b28560c",
+      "url": "https://sketchfab.com/3d-models/ef4bb81fbc0243c2ae976ae08b28560c",
+      "title": "Hatra archaeological site",
+      "creator": "techforheritage",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Described as an aerial model and tagged photogrammetry by its creator.",
+      "depicts": "The city from the air.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2024-08-28",
+      "faceCount": 200000,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "3099f846a9a54659b41f5c967e4605e6",
+      "url": "https://sketchfab.com/3d-models/3099f846a9a54659b41f5c967e4605e6",
+      "title": "Hatra (Arabayi)",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the ruins.",
+      "depicts": "The ruins as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2021-09-29",
+      "faceCount": 3806625,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "part",
+          "note": "The temple area and its colonnades."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "6a82f384b0464875aec244f2556c0cd5",
+      "url": "https://sketchfab.com/3d-models/6a82f384b0464875aec244f2556c0cd5",
+      "title": "Hatra Ewans",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the ruins.",
+      "depicts": "The iwans as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-06-09",
+      "faceCount": 274798,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "part",
+          "note": "The iwans of the great sanctuary."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "a717637903a146aeb67476ddbff9ab1e",
+      "url": "https://sketchfab.com/3d-models/a717637903a146aeb67476ddbff9ab1e",
+      "title": "Murn Temple",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the ruins.",
+      "depicts": "The temple as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-06-09",
+      "faceCount": 333958,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "part",
+          "note": "The Temple of Maran."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "0d97acb62c1345619b75b1cd5df1f8b2",
+      "url": "https://sketchfab.com/3d-models/0d97acb62c1345619b75b1cd5df1f8b2",
+      "title": "shihiro temple and the southren gate",
+      "creator": "Qaflab",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the ruins.",
+      "depicts": "The temple and gate as captured.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2022-06-09",
+      "faceCount": 498816,
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "part",
+          "note": "The Temple of Shahiru and the southern gate."
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-09"
+      }
+    }
+  ]
+}

@@ -78,3 +78,42 @@ test('a reviewed focus point steers the card crop, and only the card crop', () =
     if (coverImage.focus !== undefined) assert.match(coverImage.focus, /^\d{1,3}% \d{1,3}%$/, id);
   }
 });
+
+// Additional photographs (galleryImages) on flagship records: see tools/content-pipeline/apply_gallery_review.py.
+const galleryApproved = (img) => img.license_status === 'verified' && img.publication_approval?.status === 'approved';
+const galleries = records.flatMap((record) => (record.galleryImages || []).filter(galleryApproved).map((img) => ({ record, img })));
+
+test('every approved gallery image is bound to its site, attributed and optimized', () => {
+  assert.ok(galleries.length > 0);
+  for (const { record, img } of galleries) {
+    const label = `${record.id}: ${img.sourceUrl}`;
+    assert.equal(img.siteId, record.id, label);
+    assert.equal(img.publication_approval.siteId, record.id, label);
+    assert.equal(img.publication_approval.image_url, img.src, label);
+    assert.equal(img.license_review.image_url, img.src, label);
+    assert.ok(img.credit?.trim() && img.license?.trim() && img.alt?.trim(), `${label}: credit, license and alt`);
+    assert.doesNotMatch(img.credit, /[\u0000-\u001f\u200b-\u200f\ufeff\ufffc]/, `${label}: invisible characters in the credit`);
+    assert.match(img.sourceUrl, /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/, label);
+    if (!/public domain/i.test(img.license)) assert.match(img.license_url, /^https?:\/\//, `${label}: license URL`);
+    assert.doesNotMatch(img.license, /\b(NC|ND)\b/, label);
+    assert.ok(img.variants, `${label}: no variants (run tools/content-pipeline/optimize_images.py)`);
+    for (const format of ['avif', 'webp', 'jpeg']) {
+      for (const width of img.variants[format] || []) {
+        assert.ok(existsSync(file(`${img.variants.base}-${width}.${format}`)), `${label}: missing ${width}.${format}`);
+      }
+    }
+  }
+});
+
+test('galleries stay focused: at most six images, none repeats the cover or another record', () => {
+  const seen = new Map();
+  for (const record of records) {
+    const gallery = record.galleryImages || [];
+    assert.ok(gallery.length <= 6, `${record.id}: ${gallery.length} gallery images`);
+    const pages = [record.image_status === 'approved' ? record.coverImage?.sourceUrl : null, ...gallery.map((img) => img.sourceUrl)].filter(Boolean);
+    for (const page of pages) {
+      assert.ok(!seen.has(page), `${page} is used by ${seen.get(page)} and ${record.id}`);
+      seen.set(page, record.id);
+    }
+  }
+});

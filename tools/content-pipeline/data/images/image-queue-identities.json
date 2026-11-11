@@ -1,0 +1,26 @@
+{
+ "site-baghdad-al-qishla": {
+  "qid": "Q30687866",
+  "note": "Wikidata \"Qushla, building in Baghdad\", Commons category Qushla, coordinates at the Rusafa riverfront."
+ },
+ "site-nineveh-dominican-church": {
+  "qid": "Q24247948",
+  "note": "Wikidata \"Our Lady of the Hour Church, church in Mosul\": the Dominican (al-Saa’a) church."
+ },
+ "site-baghdad-al-asifiyah-mosque": {
+  "qid": "Q12241633",
+  "note": "Wikidata \"Alasifia school\", the mosque-madrasa of al-Asifiyah."
+ },
+ "site-salah-al-din-caliphal-palace": {
+  "qid": "Q141328273",
+  "note": "Wikidata \"Jawsaq al-Khaqani palace, building in Samarra\": the caliphal palace (Qasr al-Khalifa)."
+ },
+ "site-kirkuk-prophet-daniel-mosque": {
+  "qid": "Q42839071",
+  "note": "Wikidata \"The mosque of the prophet Daniel … within the citadel of Kirkuk\"."
+ },
+ "site-baghdad-house-of-wisdom-building": {
+  "qid": null,
+  "note": "No item for the Ottoman Industries School building; Q33018 is the medieval House of Wisdom, a different place, and is not used."
+ }
+}

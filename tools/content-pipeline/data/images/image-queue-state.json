@@ -1,0 +1,1809 @@
+{
+ "site-duhok-faida-canal-reliefs": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-kirkuk-mother-of-sorrows-church": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
+ },
+ "site-kirkuk-prophet-daniel-mosque": {
+  "status": "approved",
+  "qid": "Q42839071",
+  "matchedBy": "confirmed by hand: Wikidata \"The mosque of the prophet Daniel … within the citadel of Kirkuk\".; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "file": "Minaret of the shrine and mosque of the Prophet Daniel in Kirkuk Citadel 05.jpg"
+ },
+ "site-kirkuk-green-dome": {
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The only files naming 'Green' and 'Kirkuk' show a person, soldiers and hills; none shows the dome."
+ },
+ "site-nineveh-dominican-church": {
+  "status": "approved",
+  "qid": "Q24247948",
+  "matchedBy": "confirmed by hand: Wikidata \"Our Lady of the Hour Church, church in Mosul\": the Dominican (al-Saa’a) church.",
+  "category": "Latin church in Mosul",
+  "checkedAt": "2026-11-11",
+  "file": "كنيسة اللاتين (الموصل) 02.jpg"
+ },
+ "site-nineveh-old-mosul": {
+  "status": "approved",
+  "qid": "Q66058013",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "file": "Ancient Mosul, a Yezidi shrine to the left and the Nouri Mosque minaret to the right.jpg"
+ },
+ "site-sulaymaniyah-tell-shemshara": {
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q2273816",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
+ },
+ "site-baghdad-al-qishla": {
+  "status": "approved",
+  "qid": "Q30687866",
+  "matchedBy": "confirmed by hand: Wikidata \"Qushla, building in Baghdad\", Commons category Qushla, coordinates at the Rusafa riverfront.",
+  "category": "Qushla",
+  "checkedAt": "2026-11-11",
+  "file": "Qishla Building 1.jpg"
+ },
+ "site-baghdad-al-wazir-mosque": {
+  "status": "approved",
+  "qid": "Q22686775",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Al-Wazeer Mosque",
+  "checkedAt": "2026-11-11",
+  "file": "Al-Wazeer Mosque.png"
+ },
+ "site-baghdad-al-asifiyah-mosque": {
+  "status": "approved",
+  "qid": "Q12241633",
+  "matchedBy": "confirmed by hand: Wikidata \"Alasifia school\", the mosque-madrasa of al-Asifiyah.",
+  "category": "Mosque-Madrasa of al-Asifyah",
+  "checkedAt": "2026-11-11",
+  "file": "جامع الآصفية.jpg"
+ },
+ "site-baghdad-house-of-wisdom-building": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "confirmed by hand: No item for the Ottoman Industries School building; Q33018 is the medieval House of Wisdom, a different place, and is not used.",
+  "checkedAt": "2026-11-11"
+ },
+ "site-salah-al-din-caliphal-palace": {
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q141328273",
+  "matchedBy": "confirmed by hand: Wikidata \"Jawsaq al-Khaqani palace, building in Samarra\": the caliphal palace (Qasr al-Khalifa).",
+  "category": null,
+  "checkedAt": "2026-11-11"
+ },
+ "site-erbil-qaysari-bazaar": {
+  "status": "approved",
+  "qid": "Q7267223",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Qaysari bazaars",
+  "checkedAt": "2026-11-11",
+  "file": "Kurdistan - Erbil - Qaysari Market.jpg"
+ },
+ "site-kirkuk-qaysariyah-market": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-erbil-great-mosque-erbil-citadel": {
+  "status": "pending"
+ },
+ "site-erbil-erbil-citadel-hammam": {
+  "status": "pending"
+ },
+ "site-erbil-house-b13-topkhana": {
+  "status": "pending"
+ },
+ "site-erbil-rashid-agha-house": {
+  "status": "pending"
+ },
+ "site-erbil-selim-qaqa-house": {
+  "status": "pending"
+ },
+ "site-erbil-yaqub-aga-house": {
+  "status": "pending"
+ },
+ "site-erbil-khalidiya-khanqah-mosque": {
+  "status": "pending"
+ },
+ "site-erbil-mausoleum-sultan-muzaffar": {
+  "status": "pending"
+ },
+ "site-erbil-tomb-of-uzair": {
+  "status": "pending"
+ },
+ "site-erbil-erbil-jewish-cemetery": {
+  "status": "pending"
+ },
+ "site-erbil-st-george-church-ankawa": {
+  "status": "pending"
+ },
+ "site-erbil-melqi-mar-qardagh": {
+  "status": "pending"
+ },
+ "site-erbil-qasr-shemamok": {
+  "status": "pending"
+ },
+ "site-erbil-kurd-qaburstan": {
+  "status": "pending"
+ },
+ "site-erbil-tell-baqrta": {
+  "status": "pending"
+ },
+ "site-erbil-gird-i-matrab": {
+  "status": "pending"
+ },
+ "site-erbil-gird-lashkir": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-sheikh-ahmad": {
+  "status": "pending"
+ },
+ "site-erbil-tell-surezha": {
+  "status": "pending"
+ },
+ "site-erbil-tell-nader": {
+  "status": "pending"
+ },
+ "site-erbil-bash-tapa": {
+  "status": "pending"
+ },
+ "site-erbil-satu-qala": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-daghan": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-helawa": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-gozka": {
+  "status": "pending"
+ },
+ "site-erbil-qalinj-agha": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-khazna": {
+  "status": "pending"
+ },
+ "site-erbil-tell-quri-beg": {
+  "status": "pending"
+ },
+ "site-erbil-aliawa": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-abdulaziz": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-qawagh": {
+  "status": "pending"
+ },
+ "site-erbil-tell-abu-shita": {
+  "status": "pending"
+ },
+ "site-erbil-girdi-peshka": {
+  "status": "pending"
+ },
+ "site-erbil-zaga": {
+  "status": "pending"
+ },
+ "site-erbil-awena": {
+  "status": "pending"
+ },
+ "site-erbil-dwin-castle": {
+  "status": "pending"
+ },
+ "site-erbil-rabban-boya-shrine": {
+  "status": "pending"
+ },
+ "site-erbil-batas-harir-relief": {
+  "status": "pending"
+ },
+ "site-erbil-dere-castle": {
+  "status": "pending"
+ },
+ "site-erbil-rawanduz-old-town": {
+  "status": "pending"
+ },
+ "site-erbil-qalat-lokhan": {
+  "status": "pending"
+ },
+ "site-erbil-gird-i-dasht": {
+  "status": "pending"
+ },
+ "site-erbil-gund-i-topzawa": {
+  "status": "pending"
+ },
+ "site-erbil-topzawa-stele": {
+  "status": "pending"
+ },
+ "site-erbil-kelashin-stele": {
+  "status": "pending"
+ },
+ "site-erbil-mudjesir-haldi-temple": {
+  "status": "pending"
+ },
+ "site-erbil-bestoon-cave": {
+  "status": "pending"
+ },
+ "site-erbil-diyan-cave": {
+  "status": "pending"
+ },
+ "site-erbil-zawi-chemi-shanidar": {
+  "status": "pending"
+ },
+ "site-erbil-plngan-cave": {
+  "status": "pending"
+ },
+ "site-erbil-bana-helk": {
+  "status": "pending"
+ },
+ "site-erbil-mar-gewargis-bdeyal": {
+  "status": "pending"
+ },
+ "site-erbil-koya-old-town": {
+  "status": "pending"
+ },
+ "site-erbil-grand-mosque-koya": {
+  "status": "pending"
+ },
+ "site-erbil-koya-qaysari-bazaar": {
+  "status": "pending"
+ },
+ "site-erbil-mahmud-agha-khan-koya": {
+  "status": "pending"
+ },
+ "site-erbil-mulla-abdul-majid-house": {
+  "status": "pending"
+ },
+ "site-erbil-mulla-kura-house": {
+  "status": "pending"
+ },
+ "site-erbil-mar-bena-church-armota": {
+  "status": "pending"
+ },
+ "site-erbil-mart-mariam-church-armota": {
+  "status": "pending"
+ },
+ "site-duhok-charsteen-cave": {
+  "status": "pending"
+ },
+ "site-duhok-mar-ith-alaha-church": {
+  "status": "pending"
+ },
+ "site-duhok-duhok-grand-mosque": {
+  "status": "pending"
+ },
+ "site-duhok-duhok-old-bazaar": {
+  "status": "pending"
+ },
+ "site-duhok-sharya-yazidi-shrines": {
+  "status": "pending"
+ },
+ "site-duhok-khanke-hellenistic-tombs": {
+  "status": "pending"
+ },
+ "site-duhok-kemune-palace": {
+  "status": "pending"
+ },
+ "site-duhok-tell-gombass": {
+  "status": "pending"
+ },
+ "site-duhok-mardaman-bassetki": {
+  "status": "pending"
+ },
+ "site-duhok-muqable-i": {
+  "status": "pending"
+ },
+ "site-duhok-muqable-iii": {
+  "status": "pending"
+ },
+ "site-duhok-nemrik-9": {
+  "status": "pending"
+ },
+ "site-duhok-bakhetme-mar-daniel": {
+  "status": "pending"
+ },
+ "site-duhok-avzrog-sourp-vartan": {
+  "status": "pending"
+ },
+ "site-duhok-kanisban": {
+  "status": "pending"
+ },
+ "site-duhok-asinkran": {
+  "status": "pending"
+ },
+ "site-duhok-zakho-castle": {
+  "status": "pending"
+ },
+ "site-duhok-qubad-pasha-castle": {
+  "status": "pending"
+ },
+ "site-duhok-zakho-old-bazaar": {
+  "status": "pending"
+ },
+ "site-duhok-zakho-jewish-quarter": {
+  "status": "pending"
+ },
+ "site-duhok-sharanish-churches": {
+  "status": "pending"
+ },
+ "site-duhok-mar-atqen-monastery": {
+  "status": "pending"
+ },
+ "site-duhok-dayrabun-monastery": {
+  "status": "pending"
+ },
+ "site-duhok-tomb-of-hazkiel": {
+  "status": "pending"
+ },
+ "site-duhok-mosul-gate-amedi": {
+  "status": "pending"
+ },
+ "site-duhok-zebari-gate-amedi": {
+  "status": "pending"
+ },
+ "site-duhok-amedi-ancient-staircase": {
+  "status": "pending"
+ },
+ "site-duhok-amedi-parthian-reliefs": {
+  "status": "pending"
+ },
+ "site-duhok-qubahan-madrasa": {
+  "status": "pending"
+ },
+ "site-duhok-amedi-chaldean-archdiocese": {
+  "status": "pending"
+ },
+ "site-duhok-issa-bridge": {
+  "status": "pending"
+ },
+ "site-duhok-bani-kondi-mosque": {
+  "status": "pending"
+ },
+ "site-duhok-sultana-mahdokht-araden": {
+  "status": "pending"
+ },
+ "site-duhok-mar-abdisho-monastery-dere": {
+  "status": "pending"
+ },
+ "site-duhok-komane-churches": {
+  "status": "pending"
+ },
+ "site-duhok-dehi-churches": {
+  "status": "pending"
+ },
+ "site-duhok-mart-shmune-bebadi": {
+  "status": "pending"
+ },
+ "site-duhok-mar-yohanna-dawodiya": {
+  "status": "pending"
+ },
+ "site-duhok-mar-qayyoma-dooreh": {
+  "status": "pending"
+ },
+ "site-duhok-betanure-synagogue": {
+  "status": "pending"
+ },
+ "site-duhok-mangesh-mar-abraham": {
+  "status": "pending"
+ },
+ "site-duhok-deraluk-st-luke": {
+  "status": "pending"
+ },
+ "site-duhok-akre-qishla": {
+  "status": "pending"
+ },
+ "site-duhok-akre-castle": {
+  "status": "pending"
+ },
+ "site-duhok-akre-old-town": {
+  "status": "pending"
+ },
+ "site-duhok-gunduk-cave-reliefs": {
+  "status": "pending"
+ },
+ "site-duhok-mar-oudisho-kondak": {
+  "status": "pending"
+ },
+ "site-duhok-kalati-mosque-companions": {
+  "status": "pending"
+ },
+ "site-duhok-gali-zardak": {
+  "status": "pending"
+ },
+ "site-nineveh-baadre-mir-castle": {
+  "status": "pending"
+ },
+ "site-nineveh-ain-sifni-shrines": {
+  "status": "pending"
+ },
+ "site-nineveh-gir-e-gomel": {
+  "status": "pending"
+ },
+ "site-nineveh-mohamed-rashan-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-nabi-shith-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-imam-awn-al-din-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-shaykh-fathi-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-sultan-wais-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-qadib-al-ban-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-ibn-al-athir-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-imam-ibrahim-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-abu-al-ala-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-nabi-daniyal-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-muhammad-al-afghani-takiya": {
+  "status": "pending"
+ },
+ "site-nineveh-ali-al-asghar-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-abd-al-rahman-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-ali-al-hadi-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-imam-muhsin-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-isa-dadah-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-ridwani-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-sitt-nafisa-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-al-abariqi-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-abbas-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-zayd-ibn-ali-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-umm-al-tisa-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-abdal-mosque-madrasa": {
+  "status": "pending"
+ },
+ "site-nineveh-shaykh-mansur-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-abu-al-hawawin-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-awlad-al-hasan-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-imam-muhammad-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-rashid-lolan-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-hamid-and-mahmud-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-hammam-al-umariya": {
+  "status": "pending"
+ },
+ "site-nineveh-shaykh-ibrahim-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-mahmud-al-khidri-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-shatt-al-jumi-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-kharrazi-tomb": {
+  "status": "pending"
+ },
+ "site-nineveh-saray-police-station": {
+  "status": "pending"
+ },
+ "site-nineveh-al-juwayjati-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-umariyya-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-umar-al-aswad-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-umawi-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-dawsat-ali-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-al-khuzam-mosque": {
+  "status": "pending"
+ },
+ "site-nineveh-bab-al-sir": {
+  "status": "pending"
+ },
+ "site-nineveh-bab-al-qala": {
+  "status": "pending"
+ },
+ "site-nineveh-qara-saray": {
+  "status": "pending"
+ },
+ "site-nineveh-souq-bab-al-saray": {
+  "status": "pending"
+ },
+ "site-nineveh-khan-al-gumruk": {
+  "status": "pending"
+ },
+ "site-nineveh-ahmadeya-synagogue": {
+  "status": "pending"
+ },
+ "site-nineveh-barood-khana": {
+  "status": "pending"
+ },
+ "site-nineveh-english-war-cemetery-mosul": {
+  "status": "pending"
+ },
+ "site-nineveh-al-tahira-kharijiya": {
+  "status": "pending"
+ },
+ "site-nineveh-al-tahira-syriac-catholic-mosul": {
+  "status": "pending"
+ },
+ "site-nineveh-al-tahira-chaldean-mosul": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-touma-syriac-catholic": {
+  "status": "pending"
+ },
+ "site-nineveh-shamun-al-safa-church": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-ichaya-church": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-chaldean-mosul": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-monastery-mosul": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-petion-church": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-ahudeni-church": {
+  "status": "pending"
+ },
+ "site-nineveh-our-lady-of-the-seeds": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-oraha-monastery": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-barbara-karamles": {
+  "status": "pending"
+ },
+ "site-nineveh-tomb-of-nahum": {
+  "status": "pending"
+ },
+ "site-nineveh-al-tahira-qaraqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-yacoub-qaraqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-shmoni-qaraqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-sarkis-bakus-qaraqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-qaraqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-addai-karamles": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-bartella": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-mariam-bartella": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-shmoni-bartella": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-shmoni-bashiqa": {
+  "status": "pending"
+ },
+ "site-nineveh-mart-mariam-bashiqa": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-mikha-alqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-alqosh": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-baqofa": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-gorgis-tell-esqof": {
+  "status": "pending"
+ },
+ "site-nineveh-mar-qouryakos-batnaya": {
+  "status": "pending"
+ },
+ "site-nineveh-bozan-mausoleums": {
+  "status": "pending"
+ },
+ "site-nineveh-baba-noah-hatara": {
+  "status": "pending"
+ },
+ "site-nineveh-sheikh-bakeur-bahzani": {
+  "status": "pending"
+ },
+ "site-nineveh-melek-miran-bashiqa": {
+  "status": "pending"
+ },
+ "site-nineveh-sheikh-suwar-beban": {
+  "status": "pending"
+ },
+ "site-nineveh-ezdin-mir-shexka": {
+  "status": "pending"
+ },
+ "site-nineveh-mir-ali-beg-baadre": {
+  "status": "pending"
+ },
+ "site-nineveh-sultan-ezid-mahad": {
+  "status": "pending"
+ },
+ "site-nineveh-mam-rashan-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-sheikh-mand-temple": {
+  "status": "pending"
+ },
+ "site-nineveh-malak-sheikh-hassan-temple": {
+  "status": "pending"
+ },
+ "site-nineveh-sinjar-yazidi-mausoleums": {
+  "status": "pending"
+ },
+ "site-nineveh-sinjar-old-city": {
+  "status": "pending"
+ },
+ "site-nineveh-qutb-al-din-minaret-sinjar": {
+  "status": "pending"
+ },
+ "site-nineveh-sitt-zaynab-sinjar": {
+  "status": "pending"
+ },
+ "site-nineveh-saad-ibn-aqil-shrine": {
+  "status": "pending"
+ },
+ "site-nineveh-sharif-khan-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-kuyunjik": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-nebi-yunus": {
+  "status": "pending"
+ },
+ "site-nineveh-sennacherib-southwest-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-ashurbanipal-north-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-ishtar-temple-nineveh": {
+  "status": "pending"
+ },
+ "site-nineveh-nergal-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-mashki-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-adad-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-shamash-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-sin-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-assur-gate": {
+  "status": "pending"
+ },
+ "site-nineveh-nimrud-northwest-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-nimrud-burnt-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-fort-shalmaneser": {
+  "status": "pending"
+ },
+ "site-nineveh-nimrud-governors-palace": {
+  "status": "pending"
+ },
+ "site-nineveh-nimrud-ninurta-temple": {
+  "status": "pending"
+ },
+ "site-nineveh-nimrud-ziggurat": {
+  "status": "pending"
+ },
+ "site-nineveh-adad-nerari-palace-nimrud": {
+  "status": "pending"
+ },
+ "site-nineveh-khorsabad": {
+  "status": "pending"
+ },
+ "site-nineveh-balawat": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-billa": {
+  "status": "pending"
+ },
+ "site-nineveh-karamles-kar-mullissi": {
+  "status": "pending"
+ },
+ "site-nineveh-tepe-gawra": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-arpachiyah": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-hassuna": {
+  "status": "pending"
+ },
+ "site-nineveh-mlefaat": {
+  "status": "pending"
+ },
+ "site-nineveh-yarim-tepe": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-maghzaliyah": {
+  "status": "pending"
+ },
+ "site-nineveh-telul-eth-thalathat": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-al-rimah": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-taya": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-khoshi": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-deir-situn": {
+  "status": "pending"
+ },
+ "site-nineveh-ginnig": {
+  "status": "pending"
+ },
+ "site-nineveh-umm-dabaghiyah": {
+  "status": "pending"
+ },
+ "site-nineveh-tell-sotto": {
+  "status": "pending"
+ },
+ "site-nineveh-mezra": {
+  "status": "pending"
+ },
+ "site-nineveh-el-khan": {
+  "status": "pending"
+ },
+ "site-duhok-mam-chevan-mausoleums": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-sara-palace-and-bathhouse": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-sulaymaniyah-museum": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-jasana-cave": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-dailaija-relief": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-paikuli-tower": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qizqapan-tomb": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kur-u-kich-tomb": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-zarzi-rock-shelter": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-palegawra-cave": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kani-shaie": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-darbandikhan-khan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-karim-shahir": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-rabana-merquly": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-rostam": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-begum": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-shamlu": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-bazmusian": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-murad-rasu": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-sartka-castle": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-ashkawta-rash": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-bazar": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-pasha-palace-tazade": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tepe-kal": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-marif-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-girda-resh-barika": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-greza": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-bin-gird-i-muan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-saraw": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-qalrakh": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-shatwan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-hajji-abdallah": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-quruchiya": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-qara-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-sharif": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-qulkhurd": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-lamar-kazi": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kara-gol": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qalaja": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-sutik-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gird-i-shakar": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qalbaza-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-alan-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-maluan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tepe-kurra": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tepe-sheshak-hagg-hussain": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-duwanza-imam": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tholima": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-chragh": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-arbat": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qadar-kamala": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kalespi": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-bingird": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-raziana": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-satubist": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kani-goma": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-shekh-wisal-1": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-shekh-wisal-2": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-manswr-awa": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-zrgwez-kwer": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-barbakh": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-gulalan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-karima-swr": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-barika-tanjarow": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kamalan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-yakhimali": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qisirt-saru": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-saidwa-shekhrash": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-yakmala": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qaratoghan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kharajian": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-yakhimali-sarchawa": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kozaraqa": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kani-jine": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-kani-jine-cemetery": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-raza": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-caani-rash": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-quchika-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-hassil": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-haji": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-tell-bengel": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qala-tepe": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-ibrahim-kachal": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-boskin": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-ali-awa": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-qalat-said-ahmadan": {
+  "status": "pending"
+ },
+ "site-sulaymaniyah-turkaka": {
+  "status": "pending"
+ },
+ "site-kirkuk-great-mosque-kirkuk-citadel": {
+  "status": "pending"
+ },
+ "site-kirkuk-al-aryan-mosque": {
+  "status": "pending"
+ },
+ "site-kirkuk-hasan-pakiz-mosque": {
+  "status": "pending"
+ },
+ "site-kirkuk-al-midan-quarter": {
+  "status": "pending"
+ },
+ "site-kirkuk-aghaliq-quarter": {
+  "status": "pending"
+ },
+ "site-kirkuk-hammam-quarter": {
+  "status": "pending"
+ },
+ "site-kirkuk-stone-gate": {
+  "status": "pending"
+ },
+ "site-kirkuk-tob-qapi": {
+  "status": "pending"
+ },
+ "site-kirkuk-seven-girls-gate": {
+  "status": "pending"
+ },
+ "site-kirkuk-bab-al-halloujia": {
+  "status": "pending"
+ },
+ "site-kirkuk-ottoman-military-cemetery": {
+  "status": "pending"
+ },
+ "site-kirkuk-takiya-najib": {
+  "status": "pending"
+ },
+ "site-kirkuk-kirkuk-stone-bridge": {
+  "status": "pending"
+ },
+ "site-kirkuk-mariam-al-adra-koria": {
+  "status": "pending"
+ },
+ "site-kirkuk-tahmazgerd-red-church": {
+  "status": "pending"
+ },
+ "site-kirkuk-salih-malli-house": {
+  "status": "pending"
+ },
+ "site-kirkuk-nuzi": {
+  "status": "pending"
+ },
+ "site-kirkuk-nuzi-palace": {
+  "status": "pending"
+ },
+ "site-kirkuk-nuzi-temple": {
+  "status": "pending"
+ },
+ "site-kirkuk-nuzi-city-wall": {
+  "status": "pending"
+ },
+ "site-kirkuk-tell-al-fakhar": {
+  "status": "pending"
+ },
+ "site-kirkuk-tell-arab-kumbet": {
+  "status": "pending"
+ },
+ "site-kirkuk-altun-kupri-bridges": {
+  "status": "pending"
+ },
+ "site-kirkuk-daquq-ottoman-bridge": {
+  "status": "pending"
+ },
+ "site-kirkuk-sheikh-ismail-shrine": {
+  "status": "pending"
+ },
+ "site-anbar-ancient-anah": {
+  "status": "to-review",
+  "qid": "Q2627750",
+  "matchedBy": "linked-in-sources",
+  "category": "Anah",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-ana-qala-island": {
+  "status": "pending"
+ },
+ "site-anbar-mashhad-abu-reesha-mosque": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-shaykh-rajab-mosque": {
+  "status": "pending"
+ },
+ "site-anbar-rawa-ottoman-castle": {
+  "status": "pending"
+ },
+ "site-anbar-haradum": {
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3127717",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-usiyeh": {
+  "status": "pending"
+ },
+ "site-anbar-bijan-island": {
+  "status": "pending"
+ },
+ "site-anbar-sur-jureh": {
+  "status": "pending"
+ },
+ "site-anbar-yemniyeh": {
+  "status": "pending"
+ },
+ "site-anbar-kifrin": {
+  "status": "pending"
+ },
+ "site-anbar-glaia": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-telbis-island": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-telbis-burial-ground": {
+  "status": "pending"
+ },
+ "site-anbar-telbis-eastern-cemetery": {
+  "status": "pending"
+ },
+ "site-anbar-rijan-island": {
+  "status": "pending"
+ },
+ "site-anbar-tel-gubbain": {
+  "status": "pending"
+ },
+ "site-anbar-tel-al-darrajiya": {
+  "status": "pending"
+ },
+ "site-anbar-buttain-al-jannadiya": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-jafrin": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-al-khaliliya": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-al-owaina-canals": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-al-zawiya-site": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-shihma-cemetery": {
+  "status": "pending"
+ },
+ "site-anbar-shaikh-tayie-tomb": {
+  "status": "pending"
+ },
+ "site-anbar-imam-habib-al-najjar": {
+  "status": "pending"
+ },
+ "site-anbar-tell-aswad-haditha": {
+  "status": "pending"
+ },
+ "site-anbar-hit-old-town": {
+  "status": "to-review",
+  "qid": "Q2422345",
+  "matchedBy": "linked-in-sources",
+  "category": "Hīt",
+  "checkedAt": "2026-11-11"
+ },
+ "site-anbar-al-farouq-minaret-hit": {
+  "status": "pending"
+ },
+ "site-anbar-norias-of-hit": {
+  "status": "pending"
+ },
+ "site-anbar-hit-bitumen-springs": {
+  "status": "pending"
+ },
+ "site-anbar-ancient-anbar": {
+  "status": "pending"
+ },
+ "site-baghdad-round-city": {
+  "status": "pending"
+ },
+ "site-baghdad-khuld-palace": {
+  "status": "pending"
+ },
+ "site-baghdad-taj-palace": {
+  "status": "pending"
+ },
+ "site-baghdad-adudi-hospital": {
+  "status": "pending"
+ },
+ "site-baghdad-seleucia-on-tigris": {
+  "status": "pending"
+ },
+ "site-baghdad-kokhe-church": {
+  "status": "pending"
+ },
+ "site-baghdad-sippar": {
+  "status": "pending"
+ },
+ "site-baghdad-sippar-amnanum": {
+  "status": "pending"
+ },
+ "site-baghdad-tell-harmal": {
+  "status": "pending"
+ },
+ "site-baghdad-tell-muhammad": {
+  "status": "pending"
+ },
+ "site-baghdad-tell-al-dhibai": {
+  "status": "pending"
+ },
+ "site-baghdad-bab-al-wastani": {
+  "status": "pending"
+ },
+ "site-baghdad-talisman-gate": {
+  "status": "pending"
+ },
+ "site-baghdad-bab-al-muadham": {
+  "status": "pending"
+ },
+ "site-baghdad-mustasim-billah-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-arif-agha-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-al-muradiyya-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-al-ahmadiyya-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-adila-khatun-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-siraj-al-din-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-shabandar-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-fattah-pasha-mosque": {
+  "status": "pending"
+ },
+ "site-baghdad-bab-al-sheikh-quarter": {
+  "status": "pending"
+ },
+ "site-baghdad-bataween": {
+  "status": "pending"
+ },
+ "site-baghdad-sourp-asdvadzadzin": {
+  "status": "pending"
+ },
+ "site-baghdad-syriac-catholic-immaculate": {
+  "status": "pending"
+ },
+ "site-baghdad-armenian-sacred-heart": {
+  "status": "pending"
+ },
+ "site-baghdad-chaldean-st-joseph-karrada": {
+  "status": "pending"
+ },
+ "site-baghdad-queen-of-the-rosary": {
+  "status": "pending"
+ },
+ "site-baghdad-st-peter-and-paul-cathedral": {
+  "status": "pending"
+ },
+ "site-baghdad-mar-gorgis-new-baghdad": {
+  "status": "pending"
+ },
+ "site-baghdad-meir-taweig-synagogue": {
+  "status": "pending"
+ },
+ "site-baghdad-abd-al-karim-qasim-museum": {
+  "status": "pending"
+ },
+ "site-baghdad-white-palace": {
+  "status": "pending"
+ },
+ "site-baghdad-al-rehab-palace": {
+  "status": "pending"
+ },
+ "site-baghdad-markaziyah-high-school": {
+  "status": "pending"
+ },
+ "site-baghdad-university-of-baghdad-campus": {
+  "status": "pending"
+ },
+ "site-baghdad-north-gate-war-cemetery": {
+  "status": "pending"
+ },
+ "site-baghdad-freedom-monument": {
+  "status": "pending"
+ },
+ "site-baghdad-kahramana": {
+  "status": "pending"
+ },
+ "site-baghdad-al-shaheed-monument": {
+  "status": "pending"
+ },
+ "site-baghdad-unknown-soldier-monument": {
+  "status": "pending"
+ },
+ "site-baghdad-victory-arch": {
+  "status": "pending"
+ },
+ "site-salah-al-din-qubbat-al-sulaybiyya": {
+  "status": "pending"
+ },
+ "site-salah-al-din-balkuwara-palace": {
+  "status": "pending"
+ },
+ "site-salah-al-din-istabulat": {
+  "status": "pending"
+ },
+ "site-salah-al-din-al-jafari-palace": {
+  "status": "pending"
+ },
+ "site-salah-al-din-husn-al-qadisiyya": {
+  "status": "pending"
+ },
+ "site-salah-al-din-samarra-racecourses": {
+  "status": "pending"
+ },
+ "site-salah-al-din-tell-al-alij": {
+  "status": "pending"
+ },
+ "site-salah-al-din-tell-es-sawwan": {
+  "status": "pending"
+ },
+ "site-salah-al-din-sayyid-muhammad-shrine": {
+  "status": "pending"
+ },
+ "site-salah-al-din-tikrit-citadel": {
+  "status": "pending"
+ },
+ "site-salah-al-din-al-arbaeen-mosque": {
+  "status": "pending"
+ },
+ "site-salah-al-din-kar-tukulti-ninurta": {
+  "status": "pending"
+ },
+ "site-salah-al-din-ashur-temple": {
+  "status": "pending"
+ },
+ "site-salah-al-din-ashur-ziggurat": {
+  "status": "pending"
+ },
+ "site-salah-al-din-ishtar-temple-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-anu-adad-temple": {
+  "status": "pending"
+ },
+ "site-salah-al-din-old-palace-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-royal-tombs-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-parthian-palace-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-tabira-gate": {
+  "status": "pending"
+ },
+ "site-salah-al-din-ashur-city-walls": {
+  "status": "pending"
+ },
+ "site-salah-al-din-akitu-house-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-ottoman-barracks-ashur": {
+  "status": "pending"
+ },
+ "site-salah-al-din-german-expedition-house-ashur": {
+  "status": "pending"
+ },
+ "site-diyala-eshnunna": {
+  "status": "pending"
+ },
+ "site-diyala-khafajah": {
+  "status": "pending"
+ },
+ "site-diyala-tell-agrab": {
+  "status": "pending"
+ },
+ "site-diyala-tell-ishchali": {
+  "status": "pending"
+ },
+ "site-diyala-choga-mami": {
+  "status": "pending"
+ },
+ "site-diyala-tell-abada": {
+  "status": "pending"
+ },
+ "site-diyala-tell-rashid": {
+  "status": "pending"
+ },
+ "site-diyala-tell-madhur": {
+  "status": "pending"
+ },
+ "site-diyala-tell-saadiya": {
+  "status": "pending"
+ },
+ "site-diyala-tell-suleimah": {
+  "status": "pending"
+ },
+ "site-diyala-tell-yelkhi": {
+  "status": "pending"
+ },
+ "site-diyala-me-turan": {
+  "status": "pending"
+ },
+ "site-diyala-tell-razuk": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
+ },
+ "site-diyala-tell-ahmed-al-mughir": {
+  "status": "pending"
+ },
+ "site-diyala-tell-ajamat": {
+  "status": "pending"
+ },
+ "site-diyala-tell-atiqeh": {
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
+ },
+ "site-diyala-tell-gubba": {
+  "status": "pending"
+ },
+ "site-diyala-tell-songor": {
+  "status": "pending"
+ },
+ "site-diyala-tellul-hamediyat": {
+  "status": "pending"
+ },
+ "site-diyala-tell-rubeidheh": {
+  "status": "pending"
+ },
+ "site-diyala-tell-abu-husaini": {
+  "status": "pending"
+ },
+ "site-diyala-tell-hassan": {
+  "status": "pending"
+ },
+ "site-diyala-tell-kesaran": {
+  "status": "pending"
+ },
+ "site-diyala-kheit-qasim": {
+  "status": "pending"
+ },
+ "site-diyala-tell-abu-qasim": {
+  "status": "pending"
+ },
+ "site-diyala-dastagird": {
+  "status": "pending"
+ },
+ "site-diyala-tell-al-zendan": {
+  "status": "pending"
+ },
+ "site-diyala-adhaim-ancient-dam": {
+  "status": "pending"
+ },
+ "site-diyala-hawsh-kuri": {
+  "status": "pending"
+ },
+ "site-diyala-alwand-bridge": {
+  "status": "pending"
+ },
+ "site-diyala-khan-bani-saad": {
+  "status": "pending"
+ },
+ "site-diyala-baqubah-old-saray": {
+  "status": "pending"
+ },
+ "site-diyala-tel-abu-uthaina": {
+  "status": "pending"
+ },
+ "site-diyala-tel-shihab": {
+  "status": "pending"
+ },
+ "site-diyala-prophet-daniel-shrine-diyala": {
+  "status": "pending"
+ },
+ "site-diyala-khanaqin-war-cemetery": {
+  "status": "pending"
+ },
+ "site-diyala-eski-kifri": {
+  "status": "pending"
+ },
+ "site-diyala-kifri-bawa-shaswar": {
+  "status": "pending"
+ },
+ "site-diyala-kifri-saray": {
+  "status": "pending"
+ },
+ "site-diyala-kifri-qaysari-bazaar": {
+  "status": "pending"
+ },
+ "site-diyala-majid-pasha-palace-kifri": {
+  "status": "pending"
+ },
+ "site-diyala-dawood-zarifa-house": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-hafayir": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-umm-salim": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-al-bakhtariyah": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-deshtaneh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-daham": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-abu-khazef": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-kheit-imneithir": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-kheit-al-imheidiyed": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-at-turah": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-aq-tepe": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-al-khubari": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-beni-weis": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ayyash": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-hikmeh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ash-shair": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-mahmud-agha": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-shor-tepe": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-nebi-ismail": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-zawiyah": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ar-raha": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-imam-ali": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-mahatteh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-gauri": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-irsheidch": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-baradan": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-imleihiyeh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-imam-al-bairakdah": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ababra": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-harmaleh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-kheit-genj": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-abu-shufeh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-jeizalun": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tunneireh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-hablayeh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-kumeideh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-khuzeifi": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-seidalan": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tejli": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-abu-tahin": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-bustan": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-keshkul": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-greish": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-halawa": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-kheizif": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ahmed-al-hattu": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-al-baqa": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-tulul-al-yarmet": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ali-pasha": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-as-saray": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-abu-gubab": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-ash-shoureh": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-sabra": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-as-sara": {
+  "status": "pending"
+ },
+ "site-diyala-hamrin-abu-samad": {
+  "status": "pending"
+ }
+}
