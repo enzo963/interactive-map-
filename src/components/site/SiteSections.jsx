@@ -1,7 +1,9 @@
+import { useEffect, useRef, useState } from 'react';
 import { getVideoEmbed } from '../../utils/media';
+import { formatDuration } from '../../utils/siteVideos';
 import '../../styles/site-details.css';
 import '../../styles/phase4.css';
-import { t } from '../../i18n';
+import { currentLocale, t } from '../../i18n';
 
 // Scoped to this wrapper; map and card internals retain their own styles.
 const sectionLayoutStyles = `
@@ -118,6 +120,97 @@ export function VideoPlayer({ url, name }) {
     <p className="hb-prose">
       <a className="hb-link" href={embed.src} target="_blank" rel="noopener noreferrer">{t('Watch the video')}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
     </p>
+  );
+}
+
+const PUBLISHER_TYPES = {
+  intergovernmental: 'Intergovernmental organization',
+  'government-heritage-authority': 'Heritage authority',
+  'heritage-foundation': 'Heritage foundation',
+  museum: 'Museum',
+  university: 'University',
+  'archaeological-mission': 'Archaeological mission',
+  scholarly: 'Scholarly publisher',
+  'heritage-bridge': 'History in Cards',
+};
+const VIDEO_KINDS = {
+  overview: 'Overview',
+  restoration: 'Restoration',
+  excavation: 'Excavation',
+  'documentation-3d': '3D documentation',
+  lecture: 'Lecture',
+  'historic-district': 'Historic district',
+};
+const languageName = (code) => {
+  try { return new Intl.DisplayNames([currentLocale()], { type: 'language' }).of(code) ?? code; } catch { return code; }
+};
+
+/**
+ * One video: a still panel with a play button. Nothing loads from the video provider until the
+ * visitor chooses to play, then the privacy-enhanced player replaces the panel.
+ */
+function SiteVideo({ video, name }) {
+  const [playing, setPlaying] = useState(false);
+  const player = useRef(null);
+  // The play button disappears on activation: keep keyboard focus on the player that replaces it.
+  useEffect(() => { if (playing) player.current?.focus(); }, [playing]);
+  const duration = formatDuration(video.durationSeconds);
+  const language = video.language && video.language !== 'en' ? languageName(video.language) : '';
+  const typeLabel = PUBLISHER_TYPES[video.publisher.type];
+  const kindLabel = VIDEO_KINDS[video.kind];
+  const facts = [typeLabel && t(typeLabel), video.year, duration, kindLabel && t(kindLabel),
+    language && t('In {language}', { language })].filter(Boolean);
+  return (
+    <figure className="hb-video">
+      <div className="hb-embed hb-video__frame">
+        {playing ? (
+          <iframe
+            ref={player}
+            src={`${video.embedUrl}?autoplay=1&rel=0`}
+            title={t('{title} — video by {publisher}', { title: video.title, publisher: video.publisher.name })}
+            allow="autoplay; fullscreen; picture-in-picture"
+            referrerPolicy="strict-origin-when-cross-origin"
+            sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
+          />
+        ) : (
+          <button type="button" className="hb-video__play" onClick={() => setPlaying(true)}
+            aria-label={t('Play video: {title}, by {publisher}', { title: video.title, publisher: video.publisher.name })}>
+            <svg className="hb-video__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M19 15.5v17l14-8.5z" fill="currentColor" />
+            </svg>
+            <span className="hb-video__publisher">{video.publisher.name}</span>
+            <span className="hb-video__title">{video.title}</span>
+            {duration && <span className="hb-video__duration">{duration}</span>}
+            <span className="hb-video__notice">{t('Plays from YouTube; nothing loads until you press play.')}</span>
+          </button>
+        )}
+      </div>
+      <figcaption className="hb-video__caption">
+        <p className="hb-video__heading">
+          <a href={video.url} target="_blank" rel="noopener noreferrer">{video.title}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
+        </p>
+        <p className="hb-video__meta">
+          {video.publisher.website
+            ? <a href={video.publisher.website} target="_blank" rel="noopener noreferrer">{video.publisher.name}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
+            : video.publisher.name}
+          {facts.length > 0 && <> · {facts.join(' · ')}</>}
+        </p>
+        {video.summary && <p className="hb-video__summary">{video.summary}</p>}
+        {video.note && <p className="hb-video__note">{t('About this video and {name}:', { name })} {video.note}</p>}
+        {video.credit && <p className="hb-video__note">{t('Credit:')} {video.credit}</p>}
+      </figcaption>
+    </figure>
+  );
+}
+
+/** Videos from listed institutions, shown on Site Details when a card has any. */
+export function SiteVideos({ videos, name }) {
+  return (
+    <div className="hb-videos">
+      <p className="hb-site__section-intro">{t('Videos published by heritage institutions, museums, universities and archaeological missions. History in Cards links to them; their rights remain with the publishers.')}</p>
+      {videos.map((video) => <SiteVideo key={video.key} video={video} name={name} />)}
+    </div>
   );
 }
 

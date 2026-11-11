@@ -130,15 +130,43 @@ test('quality: Home and Explore distinguish an empty archive from filtered no-re
   assert.ok($('main [data-state="no-results"]'));
 });
 
-test('quality: missing geography has an explicit unavailable state and no invented map link', async () => {
+test('quality: missing geography drops the map section cleanly and invents no map link', async () => {
   sites[0].governorate = '';
   sites[0].latitude = null;
   sites[0].longitude = null;
   await mount('/sites/hatra');
-  assert.match($('#location').textContent, /Location unavailable/);
+  assert.equal($('#location'), null, 'no empty location section without verified coordinates');
+  assert.ok(!all('.hb-sectionnav a').some((a) => a.getAttribute('href') === '#location'));
   assert.match($('main').textContent, /Governorate not recorded/);
   assert.equal($('main a[href="/decks/"]'), null);
   assert.equal($('#location a[href^="/map"]'), null);
+});
+
+test('every published card opens a useful Site Details page with no empty sections', async () => {
+  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  assert.ok(sites.length > 600);
+  await mount(`/sites/${sites[0].slug}`);
+  for (const site of sites) {
+    await navigate(`/sites/${site.slug}`);
+    const label = site.slug;
+    assert.equal($('h1').textContent, site.name, `${label}: name`);
+    assert.ok(($('.hb-site__lede')?.textContent ?? '').trim().length >= 30, `${label}: description in the hero`);
+    assert.ok($('.hb-site__card img, .hb-site__card .hb-card__placeholder'), `${label}: hero image or fallback`);
+    const facts = $('.hb-site__metadata').textContent;
+    assert.ok(facts.includes('Governorate') && facts.includes(site.governorate), `${label}: governorate`);
+    assert.ok(facts.includes('Site type') && facts.includes(site.siteType), `${label}: category`);
+    assert.equal(facts.includes('Period'), Boolean(site.period), `${label}: period shown only when known`);
+    assert.doesNotMatch(facts, /\bsite-[a-z0-9-]+|needs-review/, `${label}: no raw codes in the facts`);
+    assert.ok(all('.hb-facts__row dd').every((dd) => !/^(unknown|not-established|not-recorded)$/i.test(dd.textContent.trim())), `${label}: no "unknown" values`);
+    assert.ok(all('#sources li').length >= 1, `${label}: sources`);
+    assert.equal(all('main .hb-state[data-state="unavailable"]').length, 0, `${label}: no empty-state panels`);
+    assert.equal(Boolean($('#location')), Number.isFinite(site.latitude) && Number.isFinite(site.longitude), `${label}: map only with coordinates`);
+    assert.equal(Boolean($('#model')), site.modelResources.length > 0, `${label}: 3D only when present`);
+    for (const section of all('main .hb-site__section')) {
+      const title = section.querySelector('h2').textContent;
+      assert.ok(section.textContent.trim().length > title.length + 20, `${label}: section ${section.id} has content`);
+    }
+  }
 });
 
 test('quality: card pagination focuses new cards and retains the final progress announcement', async () => {
@@ -393,7 +421,8 @@ test('selected site regression: Home → Explore card → Site Details → gover
   assert.equal(window.location.pathname, '/sites/hatra');
   assert.equal($('h1').textContent, 'Hatra');
   assert.ok($('.hb-site__badges').textContent.includes('UNESCO'));
-  assert.match($('#overview').textContent, /fortified city/);
+  assert.match($('.hb-site__lede').textContent, /fortified city/);
+  assert.ok($('#overview'), 'the historical background follows the description');
   assert.ok($('#sources a[href="https://whc.unesco.org/en/list/277/"]'));
   await click($('.hb-site__decks a[href="/decks/nineveh"]'));
   assert.equal($('h1').textContent, 'Nineveh Deck');
@@ -532,10 +561,12 @@ test('Missing sites and decks render 404 content through the real router', async
   await navigate('/decks/not-a-deck'); assert.match($('h1').textContent, /Deck not found/);
 });
 
-test('Navigating between polished pages deduplicates shared card styles', async () => {
+test('Navigating between card pages injects no per-card styles (the card system lives in heritage-card.css)', async () => {
   await mount();
-  await navigate('/explore'); await navigate('/decks/nineveh'); await navigate('/sites/hatra'); await navigate('/map');
-  assert.equal(all('style[data-href="hb-heritage-card-refinement"]').length, 1);
+  await navigate('/explore');
+  assert.ok(all('.hb-card').length > 0);
+  await navigate('/decks/nineveh'); await navigate('/sites/hatra'); await navigate('/map');
+  assert.equal(all('style[data-href^="hb-heritage-card"]').length, 0);
 });
 
 
@@ -654,7 +685,9 @@ test('Site Details shows cover-only and empty galleries, excluding restricted an
   sites.push(normalizeSites([{ id: 'imageless-site', name: 'Imageless test', slug: 'imageless-test', governorate: 'Erbil',
     description: 'A heritage record without any approved image.', coverImage: null, galleryImages: [], sources: [] }])[0]);
   await navigate('/sites/imageless-test');
-  assert.match($('#gallery').textContent, /No images are available/);
+  assert.equal($('#gallery'), null, 'no empty gallery section');
+  assert.ok($('.hb-site__card .hb-card__placeholder'), 'the card shows the Heritage Bridge fallback image');
+  assert.match($('.hb-site__lede').textContent, /without any approved image/);
 });
 
 
@@ -730,10 +763,13 @@ test('advanced filters combine governorate, period and explicit unknown statuses
   assert.match($('.hb-empty').textContent, /No sites match/);
   await navigate('/explore?unesco=yes');
   assert.equal(all('.hb-grid > li').length, 4);
+  // 9 of the 34 approved sites carry classified 3D documentation (src/data/digital-documentation.json).
   await navigate('/explore?model=unknown');
   assert.equal(all('.hb-grid > li').length, 24);
-  await click(button('Show 10 more'));
-  assert.equal(all('.hb-grid > li').length, 34);
+  await click(button('Show 1 more'));
+  assert.equal(all('.hb-grid > li').length, 25);
+  await navigate('/explore?model=yes');
+  assert.equal(all('.hb-grid > li').length, 9);
 });
 
 test('category and recorded-period discovery links open meaningful results', async () => {
@@ -809,8 +845,18 @@ test('UNESCO collection contains exactly the four approved World Heritage proper
   await navigate('/decks/unesco');
   assert.equal($('h1').textContent, 'UNESCO World Heritage Collection');
 });
-test('3D collection has an honest empty state and accepts only verified resources', async () => {
+test('3D collection lists approved sites with classified 3D documentation', async () => {
   sites.splice(0, sites.length, ...structuredClone(importedSites));
+  await mount('/3d-archive');
+  const titles = all('.hb-grid .hb-card__title').map((title) => title.textContent);
+  assert.equal(titles.length, 9);
+  assert.ok(titles.includes('Hatra') && titles.includes('Al-Nouri Mosque and al-Hadba Minaret'));
+});
+
+test('3D collection has an honest empty state and accepts only verified resources', async () => {
+  // Without the classified documentation the archive has no verified resource.
+  sites.splice(0, sites.length, ...structuredClone(importedSites).map((site) => ({
+    ...site, modelResources: site.modelResources.filter((resource) => !resource.documentation), hasModel: false, has3D: null })));
   await mount('/3d-archive');
   assert.match($('.hb-empty').textContent, /No verified 3D resources/);
   assert.equal($('model-viewer, iframe'), null);

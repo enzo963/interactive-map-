@@ -5,167 +5,18 @@ import { t, tDate } from '../../i18n';
 import { approvedCover } from '../../utils/coverApproval';
 import ResponsiveImage from '../common/ResponsiveImage';
 
-// Kept here to limit P4-01 to this component. React hoists and deduplicates
-// this stylesheet by href, even when a page renders several cards.
-const cardRefinementStyles = `
-.hb-card.hb-card--refined {
-  max-width: 100%;
-  min-width: 0;
-  isolation: isolate;
-}
-.hb-card--refined .hb-card__frame {
-  display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto auto;
-  gap: 2.5cqw;
-  padding: 3cqw;
-}
-.hb-card--refined .hb-card__frame > * { min-width: 0; }
-.hb-card--refined .hb-card__top { align-items: flex-start; gap: 3cqw; }
-.hb-card--refined .hb-card__archive,
-.hb-card--refined .hb-card__type { min-width: 0; max-width: 58%; }
-.hb-card--refined .hb-card__type { max-width: 42%; margin-left: auto; }
-.hb-card--refined .hb-card__code,
-.hb-card--refined .hb-card__type-name,
-.hb-card--refined .hb-card__rank { overflow-wrap: anywhere; }
-.hb-card--refined .hb-card__label,
-.hb-card--refined .hb-card__rank { font-size: clamp(.5rem, 2.6cqw, .75rem); letter-spacing: .07em; }
-.hb-card--refined .hb-card__code,
-.hb-card--refined .hb-card__type-name { font-size: clamp(.5625rem, 3.2cqw, .9375rem); }
-.hb-card--refined .hb-card__media { margin: 0; min-width: 0; }
-.hb-card--refined .hb-card__image {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.hb-card--refined .hb-card__placeholder {
-  padding: 2cqw;
-  text-align: center;
-  font-size: clamp(.5rem, 3cqw, .875rem);
-}
-.hb-card--refined .hb-card__media picture { display: contents; }
-.hb-card--refined .hb-card__placeholder--fallback {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2cqw;
-  background:
-    radial-gradient(circle at 50% 46%, rgba(255, 255, 255, 0.55), transparent 62%),
-    repeating-linear-gradient(45deg, rgba(29, 33, 30, 0.06) 0 1px, transparent 1px 2.5cqw),
-    var(--hb-sand);
-}
-.hb-card--refined .hb-card__fallback-mark {
-  width: 26cqw;
-  height: auto;
-  color: var(--hb-terracotta);
-  opacity: 0.85;
-}
-.hb-card--refined .hb-card__fallback-type {
-  max-width: 90%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  letter-spacing: 0.14em;
-}
-.hb-card--refined .hb-card__fallback-note {
-  font-size: max(0.5rem, 2.4cqw);
-  letter-spacing: 0.08em;
-  opacity: 0.75;
-  text-transform: none;
-}
-.hb-card--refined .hb-card__badges {
-  top: 2cqw;
-  bottom: auto;
-  right: 2cqw;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 1.5cqw;
-  pointer-events: none;
-}
-.hb-card--refined .hb-card__badges li {
-  display: inline-flex;
-  align-items: center;
-  min-height: 1.7em;
-  font-size: clamp(.5rem, 2.8cqw, .8125rem);
-  line-height: 1.15;
-  box-shadow: 0 1px 4px #0002;
-}
-.hb-card--refined .hb-card__cta {
-  max-width: calc(100% - 4cqw);
-  font-size: clamp(.5625rem, 3cqw, .875rem);
-  line-height: 1.2;
-}
-.hb-card--refined .hb-card__body { gap: 1.2cqw; }
-.hb-card--refined .hb-card__title {
-  font-size: clamp(.875rem, 7cqw, 2.5rem);
-  line-height: 1.12;
-  overflow-wrap: anywhere;
-}
-.hb-card--refined .hb-card__category,
-.hb-card--refined .hb-card__place,
-.hb-card--refined .hb-card__period {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow-wrap: anywhere;
-  line-height: 1.3;
-}
-.hb-card--refined .hb-card__category { font-size: clamp(.5625rem, 3.6cqw, 1rem); }
-.hb-card--refined .hb-card__place,
-.hb-card--refined .hb-card__period { font-size: clamp(.5rem, 2.9cqw, .8125rem); letter-spacing: .04em; }
-.hb-card--refined .hb-card__foot {
-  margin-top: 0;
-  align-items: center;
-  gap: 2cqw;
-  font-size: clamp(.5rem, 3cqw, .875rem);
-  line-height: 1.25;
-}
-.hb-card--refined .hb-card__date { min-width: 0; overflow-wrap: anywhere; }
-.hb-card--refined .hb-card__brand {
-  flex: 0 0 auto;
-  max-width: 45%;
-  text-align: right;
-  font-size: clamp(.4375rem, 2.4cqw, .6875rem);
-  letter-spacing: .08em;
-}
-/* Decorative and specimen cards should not suggest a clickable surface. */
-.hb-card--refined[data-linked='false']:hover { transform: none; }
-.hb-card--refined[data-linked='false']:hover .hb-card__image { transform: none; }
-@media (hover: hover) and (pointer: fine) {
-  .hb-card--refined[data-linked='true']:hover { transform: translateY(-4px); }
-  .hb-card--refined[data-linked='true']:hover .hb-card__image { transform: scale(1.025); }
-}
-@media (hover: none), (pointer: coarse) {
-  .hb-card--refined:hover { transform: none; }
-  .hb-card--refined:hover .hb-card__image { transform: none; }
-  .hb-card--refined .hb-card__cta { opacity: 1; transform: none; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .hb-card--refined,
-  .hb-card--refined .hb-card__image,
-  .hb-card--refined .hb-card__cta { transition: none; }
-  .hb-card--refined:hover .hb-card__image { transform: none; }
-}
-:root[data-motion='off'] .hb-card--refined:hover .hb-card__image,
-:root[data-motion='reduced'] .hb-card--refined:hover .hb-card__image { transform: none; }
-`;
-
-
 // Intentional fallback for a card without a verified photograph of the site itself: the Heritage
-// Bridge arch mark and the site type, never a stand-in photo of another place.
-function CardFallback({ name, siteType }) {
+// Bridge arch mark and the site type, never a stand-in photo of another place. A photograph that
+// fails to load shows the same plate with its own note, so a broken URL never breaks the grid.
+function CardFallback({ name, siteType, failed = false }) {
+  const label = failed ? t('Image unavailable for {name}', { name }) : t('No verified photograph of {name}', { name });
   return (
-    <div className="hb-card__placeholder hb-card__placeholder--fallback" role="img" aria-label={t('No verified photograph of {name}', { name })}>
+    <div className="hb-card__placeholder" role="img" aria-label={label}>
       <svg className="hb-card__fallback-mark" viewBox="0 0 64 32" aria-hidden="true" focusable="false">
         <path d="M4 30h56M10 30V18a22 14 0 0 1 44 0v12M22 30V21a10 7 0 0 1 20 0v9" fill="none" stroke="currentColor" strokeWidth="1.5" />
       </svg>
       {siteType && <span className="hb-card__fallback-type">{t(siteType)}</span>}
-      <span className="hb-card__fallback-note">{t('No verified photograph')}</span>
+      <span className="hb-card__fallback-note">{failed ? t('Image unavailable') : t('No verified photograph')}</span>
     </div>
   );
 }
@@ -173,13 +24,7 @@ function CardFallback({ name, siteType }) {
 function CardImage({ cover, name, siteType, priority }) {
   const [failed, setFailed] = useState(false);
   if (!cover) return <CardFallback name={name} siteType={siteType} />;
-  if (failed) {
-    return (
-      <div className="hb-card__placeholder" role="img" aria-label={t('Image unavailable for {name}', { name })}>
-        <span>{t('Image unavailable')}</span>
-      </div>
-    );
-  }
+  if (failed) return <CardFallback name={name} siteType={siteType} failed />;
   return (
     <ResponsiveImage className="hb-card__image" image={cover} alt={cover.alt || name} role="card"
       priority={priority} onError={() => setFailed(true)} />
@@ -205,21 +50,24 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
   const { cardType } = site;
 
   const place = [t(site.governorate), t(site.country)].filter(Boolean).join(' · ');
+  const category = site.siteType ? t(site.siteType) : '';
+  const period = site.period ? t(site.period) : '';
+  const date = tDate(site.dateLabel);
   const cover = approvedCover(site);
   const linked = interactive && Boolean(site.href);
 
   return (
-    <article className="hb-card hb-card--refined" data-tier={cardType.tier} data-type={cardType.id} data-linked={linked}>
-      <style href="hb-heritage-card-refinement" precedence="components">{cardRefinementStyles}</style>
+    <article className="hb-card" data-tier={cardType.tier} data-type={cardType.id} data-linked={linked}>
       <div className="hb-card__frame">
         <header className="hb-card__top">
           <p className="hb-card__archive">
             <span className="hb-card__label">{t('Archive No.')}</span>
-            <span className="hb-card__code">{site.archiveNo}</span>
+            <span className="hb-card__code" title={site.archiveNo}>{site.archiveNo}</span>
           </p>
           <p className="hb-card__type">
-            <span className="hb-card__type-name">{t(cardType.shortLabel)}</span>
-            {cardType.rankLabel && <span className="hb-card__rank">{t(cardType.rankLabel)}</span>}
+            <span className="hb-card__type-name" title={t(cardType.shortLabel)}>{t(cardType.shortLabel)}</span>
+            {/* The rank line is kept empty when a type has none, so every header has the same height. */}
+            <span className="hb-card__rank">{cardType.rankLabel ? t(cardType.rankLabel) : ''}</span>
           </p>
         </header>
 
@@ -250,13 +98,16 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
               site.name
             )}
           </Heading>
-          {site.siteType && <p className="hb-card__category" title={t(site.siteType)}>{t(site.siteType)}</p>}
-          {place && <p className="hb-card__place" title={place}>{place}</p>}
-          {site.period && <p className="hb-card__period" title={t(site.period)}>{t(site.period)}</p>}
+          {/* Every line is always rendered so all cards share one rhythm; long values end in an ellipsis. */}
+          <p className="hb-card__category" title={category || undefined}>{category}</p>
+          <p className="hb-card__place" title={place || undefined}>{place}</p>
+          {site.period
+            ? <p className="hb-card__period" title={period}>{period}</p>
+            : <p className="hb-card__period hb-card__period--missing">{t('Period not recorded')}</p>}
         </div>
 
         <footer className="hb-card__foot">
-          <span className="hb-card__date">{tDate(site.dateLabel)}</span>
+          <span className="hb-card__date">{date}</span>
           <span className="hb-card__brand">History in Cards</span>
         </footer>
       </div>

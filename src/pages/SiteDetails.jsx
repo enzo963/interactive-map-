@@ -4,7 +4,7 @@ import SmartLink from '../components/common/SmartLink';
 import Gallery from '../components/site/Gallery';
 import SiteLocation from '../components/site/SiteLocation';
 import SectionNav from '../components/site/SectionNav';
-import { Documentation, ModelViewer, Overview, Sources, SiteSection, Timeline, VideoPlayer } from '../components/site/SiteSections';
+import { Documentation, ModelViewer, Overview, Sources, SiteSection, SiteVideos, Timeline, VideoPlayer } from '../components/site/SiteSections';
 import NotFound from './NotFound';
 import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
@@ -118,10 +118,48 @@ function ImageAttribution({ image }) {
   </div>;
 }
 
+// Values that only say a fact is not recorded are treated as missing, so their rows disappear.
+const UNRECORDED = new Set(['unknown', 'not-recorded', 'not-established', 'n/a', 'none']);
+const known = (value) => (typeof value === 'string' && !UNRECORDED.has(value.trim().toLowerCase()) ? value : '');
+const VERIFICATION_LABELS = { approved: 'Reviewed and approved', 'needs-review': 'Published, review in progress', draft: 'Draft' };
+
+/** Text that names another record by its ID ("Monument within site-…") shows that record's name as a link. */
+function LinkedRecordText({ text, sites }) {
+  return text.split(/(site-[a-z0-9-]+)/).map((part, i) => {
+    const other = /^site-[a-z0-9-]+$/.test(part) && sites.find((item) => item.id === part);
+    return other ? <SmartLink key={i} href={other.href}>{other.name}</SmartLink> : part;
+  });
+}
+
+/** 3D documentation in two groups, so measured records and modelled reconstructions are never mixed. */
+function DocumentationGroups({ resources, site }) {
+  const groups = [
+    { id: 'measured', title: t('Measured documentation'), intro: t('Captured from the place itself by photogrammetry or laser scanning. These record the site as it was when captured, including damage.') },
+    { id: 'modeled', title: t('Modelled and reconstructed'), intro: t('Built by hand by architects and designers, often to show a lost or earlier state. These are interpretations, not measurements.') },
+  ];
+  const other = resources.filter((resource) => !resource.documentation);
+  return <>
+    {groups.map((group) => {
+      const items = resources.filter((resource) => resource.documentation === group.id);
+      return items.length > 0 && <section key={group.id} className="hb-docgroup" aria-labelledby={`doc-${group.id}`}>
+        <header className="hb-docgroup__head">
+          <h3 id={`doc-${group.id}`} className="hb-site__h3">{group.title} ({items.length})</h3>
+          <p className="hb-docgroup__intro">{group.intro}</p>
+        </header>
+        {items.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} headingLevel={4} />)}
+      </section>;
+    })}
+    {other.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />)}
+  </>;
+}
+
 /**
  * /sites/:slug — ONE template for every site.
- * `sections` is built first; optional media sections require data, while sources
- * always shows either references or an explicit missing-reference message.
+ * The hero always carries the name, the card image (or its fallback), the description and the
+ * site facts (place, governorate, category, period where known). `sections` is built next: optional
+ * sections (overview text beyond the description, timeline, gallery, map, 3D, videos, documentation,
+ * credits, related) appear only when they have content, so a sparse record never shows empty panels.
+ * Sources are part of the published-card contract and always present.
  * The page renders it, and the "On this page" list is generated from the same array,
  * so neither can drift out of sync.
  */
@@ -148,6 +186,10 @@ export default function SiteDetails({ params }) {
     && safeImageLink(image.src, true) && !restrictedUrls.has(image.src)
     && (!image.siteId || image.siteId === site.id) && all.findIndex((other) => other?.src === image.src) === index);
   const hasCredits = media.length > 0 || site.imageCredit;
+  // The description leads the page; a longer overview section appears only when there is more to say.
+  const lede = site.shortDescription || site.description;
+  const hasDocumentedModels = site.modelResources.some((resource) => resource.documentation);
+  const overviewText = site.shortDescription ? site.description : '';
 
   const factGroups = [
     {
@@ -168,24 +210,34 @@ export default function SiteDetails({ params }) {
     {
       title: t('Status and verification'),
       rows: [
-        [t('Heritage status'), t(site.heritageStatus)],
-        [t('Preservation'), site.preservationStatus],
-        [t('UNESCO status'), t(site.unescoStatus) || (site.isUnesco ? t('Yes') : '')],
-        [t('Verification'), t(site.verificationStatus)],
+        [t('Heritage status'), known(site.heritageStatus) && <LinkedRecordText text={t(site.heritageStatus)} sites={sites} />],
+        [t('Preservation'), known(site.preservationStatus)],
+        [t('UNESCO status'), t(known(site.unescoStatus)) || (site.isUnesco ? t('Yes') : '')],
+        [t('Verification'), VERIFICATION_LABELS[site.verificationStatus] ? t(VERIFICATION_LABELS[site.verificationStatus]) : t(known(site.verificationStatus))],
         [t('Last verified'), site.lastVerified],
       ],
     },
   ].map((group) => ({ ...group, rows: group.rows.filter(([, value]) => value) })).filter((group) => group.rows.length > 0);
 
   const sections = [
-    {
-      id: 'overview', title: t('Historical overview'), body: site.description || site.historicalBackground ? <Overview text={site.description} background={site.historicalBackground} /> : <StatePanel kind="unavailable" title={t('Historical overview unavailable')} description={t('A source-backed description has not been recorded yet.')} headingLevel={3} compact />,
-    },
+    overviewText
+      ? { id: 'overview', title: t('Historical overview'), body: <Overview text={overviewText} background={site.historicalBackground} /> }
+      : site.historicalBackground && { id: 'overview', title: t('Historical background'), body: <Overview text={site.historicalBackground} /> },
     site.timeline.length > 0 && { id: 'timeline', title: t('Historical timeline'), body: <Timeline items={site.timeline} /> },
-    { id: 'gallery', title: t('Gallery'), body: media.length > 0 ? <><p className="hb-site__section-intro">{tn('{n} image. Select an image to open the viewer.', '{n} images. Select an image to open the viewer.', media.length)}</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> : <StatePanel kind="unavailable" title={t('Images unavailable')} description={t('No images are available for this site yet.')} headingLevel={3} compact /> },
-    { id: 'location', title: t('Location'), body: hasLocation ? <SiteLocation site={site} neighbours={neighbours} /> : <StatePanel kind="unavailable" title={t('Location unavailable')} description={t('Verified coordinates have not been recorded. This site remains available in the archive without an invented map position.')} headingLevel={3} compact /> },
-    { id: 'model', title: t('3D model'), body: site.modelResources.length ? site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />) : <ModelViewer name={site.name} /> },
-    site.videoUrl && { id: 'video', title: t('Video'), body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
+    media.length > 0 && { id: 'gallery', title: t('Gallery'), body: <><p className="hb-site__section-intro">{tn('{n} image. Select an image to open the viewer.', '{n} images. Select an image to open the viewer.', media.length)}</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> },
+    // Governorate, city and country are always in the hero facts; the map appears only for verified coordinates.
+    hasLocation && { id: 'location', title: t('Location'), body: <SiteLocation site={site} neighbours={neighbours} /> },
+    site.modelResources.length > 0 && {
+      id: 'model',
+      title: hasDocumentedModels ? t('3D documentation') : t('3D model'),
+      body: hasDocumentedModels
+        ? <DocumentationGroups resources={site.modelResources} site={site} />
+        : site.modelResources.map((resource) => <ModelViewer key={resource.url} resource={resource} siteId={site.id} name={site.name} />),
+    },
+    // Optional: shown only when a card has videos; a card without one is complete without this section.
+    site.videos?.length > 0
+      ? { id: 'video', title: site.videos.length > 1 ? t('Videos') : t('Video'), body: <SiteVideos videos={site.videos} name={site.name} /> }
+      : site.videoUrl && { id: 'video', title: t('Video'), body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
     hasDocumentation && {
       id: 'documentation',
       title: t('Digital documentation'),
@@ -234,12 +286,12 @@ export default function SiteDetails({ params }) {
           <div className="hb-site__intro">
             <p className="hb-eyebrow">{[t(site.siteType), site.archiveNo].filter(Boolean).join(' · ')}</p>
             <h1 className="hb-site__title">{site.name}</h1>
-            {site.shortDescription && <p className="hb-site__lede">{site.shortDescription}</p>}
+            {lede && <p className="hb-site__lede">{lede}</p>}
 
             {(site.isUnesco || site.modelResources.length > 0) && (
               <ul className="hb-site__badges" aria-label={t('Designation and digital assets')}>
                 {site.isUnesco && <li><span className="hb-site__badge">UNESCO</span></li>}
-                {site.modelResources.length > 0 && <li>{site.modelResources.length ? <a className="hb-site__badge" href="#model">{t('View 3D model')}</a> : <span className="hb-site__badge">{t('3D documented · model link pending')}</span>}</li>}
+                {site.modelResources.length > 0 && <li><a className="hb-site__badge" href="#model">{hasDocumentedModels ? t('View 3D documentation') : t('View 3D model')}</a></li>}
               </ul>
             )}
             <ShareSite key={site.id} site={site} />

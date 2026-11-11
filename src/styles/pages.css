@@ -118,7 +118,9 @@ main[tabindex='-1']:focus { outline: none; }
 .hb-filters--wide .hb-filters__group:first-child { border-top: 1px solid var(--hb-rule); }
 
 /* ---------- Card grid ---------- */
-.hb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 2rem 1.25rem; list-style: none; }
+/* Card grid: as many columns of at least 12rem as fit; two columns on phones (below). */
+.hb-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr)); gap: 1.75rem 1.25rem; list-style: none; }
+.hb-grid > li { min-width: 0; }
 .hb-grid__more { display: flex; flex-direction: column; align-items: center; gap: 0.6rem; margin-top: 2.5rem; }
 .hb-grid__progress { font-family: var(--hb-font-mono); font-size: 0.8rem; color: var(--hb-earth-text); }
 .hb-empty { display: flex; flex-direction: column; align-items: flex-start; gap: 0.75rem; padding: 2rem; border: 1px dashed var(--hb-rule-strong); }
@@ -239,7 +241,6 @@ main[tabindex='-1']:focus { outline: none; }
 .hb-mapx__searchrow .hb-mapx__filterbtn { width: auto; }
 .hb-mapx__searchrow .hb-search { flex: 1 1 16rem; }
 .hb-regionpanel > a { margin-top: .75rem; margin-right: 1rem; }
-.hb-grid .hb-card[data-tier='0'] .hb-card__type-name { font-size: clamp(.4375rem, 2.4cqw, .75rem); white-space: nowrap; }
 @media (max-width: 40rem) {
   .hb-map-page .hb-mapx__searchrow .hb-mapx__filterbtn { width: 100%; }
 }

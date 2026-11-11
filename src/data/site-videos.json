@@ -1,0 +1,702 @@
+{
+  "reviewedAt": "2026-11-09",
+  "reviewer": "Claude (Anthropic), source and description review",
+  "method": "Videos come only from institutional publishers listed in `publishers`: intergovernmental bodies, heritage foundations, museums, universities and archaeological missions, scholarly bodies, and Heritage Bridge's own documented media. Each video was found through the publisher's own pages or a search, its channel confirmed with YouTube's oEmbed endpoint against the publisher's channel, and its published description read to confirm what it shows and which card it belongs to. News clips, travel vlogs and unattributed uploads are excluded. Videos are optional: a card never needs one to be published.",
+  "publisherTypes": [
+    "intergovernmental",
+    "government-heritage-authority",
+    "heritage-foundation",
+    "museum",
+    "university",
+    "archaeological-mission",
+    "scholarly",
+    "heritage-bridge"
+  ],
+  "publishers": {
+    "unesco": {
+      "name": "UNESCO",
+      "type": "intergovernmental",
+      "channelUrl": "https://www.youtube.com/@UNESCO",
+      "website": "https://www.unesco.org"
+    },
+    "ilo": {
+      "name": "International Labour Organization",
+      "type": "intergovernmental",
+      "channelUrl": "https://www.youtube.com/@ILO",
+      "website": "https://www.ilo.org"
+    },
+    "aliph": {
+      "name": "ALIPH Foundation",
+      "type": "heritage-foundation",
+      "channelUrl": "https://www.youtube.com/@ALIPHFoundation",
+      "website": "https://www.aliph-foundation.org"
+    },
+    "wmf": {
+      "name": "World Monuments Fund",
+      "type": "heritage-foundation",
+      "channelUrl": "https://www.youtube.com/@worldmonumentsfund",
+      "website": "https://www.wmf.org"
+    },
+    "smithsonian": {
+      "name": "Smithsonian Global",
+      "type": "museum",
+      "channelUrl": "https://www.youtube.com/@smithsonianglobal56",
+      "website": "https://global.si.edu",
+      "note": "Channel confirmed by the Smithsonian Museum Conservation Institute page that names its Nimrud video (mci.si.edu/iraqi-colleagues-recover-nimrud-smithsonian-support)."
+    },
+    "met": {
+      "name": "The Metropolitan Museum of Art",
+      "type": "museum",
+      "channelUrl": "https://www.youtube.com/@metmuseum",
+      "website": "https://www.metmuseum.org"
+    },
+    "british-museum": {
+      "name": "The British Museum",
+      "type": "museum",
+      "channelUrl": "https://www.youtube.com/@britishmuseum",
+      "website": "https://www.britishmuseum.org"
+    },
+    "penn-museum": {
+      "name": "Penn Museum (University of Pennsylvania)",
+      "type": "museum",
+      "channelUrl": "https://www.youtube.com/@pennmuseum",
+      "website": "https://www.penn.museum"
+    },
+    "getty": {
+      "name": "Getty Research Institute",
+      "type": "museum",
+      "channelUrl": "https://www.youtube.com/@gettyresearch",
+      "website": "https://www.getty.edu/research/",
+      "note": "Channel linked from getty.edu/research."
+    },
+    "lonap": {
+      "name": "Land of Nineveh Archaeological Project (University of Udine)",
+      "type": "archaeological-mission",
+      "channelUrl": "https://www.youtube.com/@landofninevehAP",
+      "website": "https://www.uniud.it"
+    },
+    "uniud": {
+      "name": "University of Udine",
+      "type": "university",
+      "channelUrl": "https://www.youtube.com/@UniversitaUdine",
+      "website": "https://www.uniud.it",
+      "note": "Channel linked from uniud.it."
+    },
+    "eamena": {
+      "name": "EAMENA Project (Endangered Archaeology in the Middle East and North Africa)",
+      "type": "university",
+      "channelUrl": "https://www.youtube.com/@eamenaproject7492",
+      "website": "https://eamena.org"
+    },
+    "antiquity": {
+      "name": "Antiquity (journal)",
+      "type": "scholarly",
+      "channelUrl": "https://www.youtube.com/@antiquityjournal7424",
+      "website": "https://www.antiquity.ac.uk"
+    },
+    "leakey": {
+      "name": "The Leakey Foundation",
+      "type": "scholarly",
+      "channelUrl": "https://www.youtube.com/@TheLeakeyFoundation",
+      "website": "https://leakeyfoundation.org"
+    }
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "videoId": "bWKb8NSq9VE",
+      "url": "https://www.youtube.com/watch?v=bWKb8NSq9VE",
+      "title": "Hatra (UNESCO/NHK)",
+      "publisher": "unesco",
+      "published": "2010-06-03",
+      "durationSeconds": 169,
+      "language": "en",
+      "kind": "overview",
+      "summary": "UNESCO's World Heritage film on Hatra: the fortified city's walls and towers and its temples, where Hellenistic and Roman architecture meets Eastern decoration.",
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "site"
+        }
+      ],
+      "credit": "UNESCO TV / © NHK Nippon Hoso Kyokai",
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "AnIEqIA7Jbw",
+      "url": "https://www.youtube.com/watch?v=AnIEqIA7Jbw",
+      "title": "Human Heritage: Preserving Palmyra, Petra, and Hatra",
+      "publisher": "getty",
+      "published": "2021-06-17",
+      "durationSeconds": 5131,
+      "language": "en",
+      "kind": "lecture",
+      "summary": "A Getty Research Institute and American Center of Research programme in which archaeologists from the region discuss protecting and preserving Hatra, Palmyra and Petra. Also available in Arabic.",
+      "sites": [
+        {
+          "siteId": "site-001",
+          "relation": "context",
+          "note": "Hatra is one of three sites discussed."
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@gettyresearch",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "ho7TRSd76oo",
+      "url": "https://www.youtube.com/watch?v=ho7TRSd76oo",
+      "title": "Ashur (Qal'at Sherqat) (UNESCO/NHK)",
+      "publisher": "unesco",
+      "published": "2010-06-03",
+      "durationSeconds": 177,
+      "language": "en",
+      "kind": "overview",
+      "summary": "UNESCO's World Heritage film on Ashur, first capital of the Assyrian Empire and its religious centre, on the Tigris.",
+      "sites": [
+        {
+          "siteId": "site-salah-al-din-ashur",
+          "relation": "site"
+        }
+      ],
+      "credit": "UNESCO TV / © NHK Nippon Hoso Kyokai",
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "wMXeO2wZwzY",
+      "url": "https://www.youtube.com/watch?v=wMXeO2wZwzY",
+      "title": "Development opportunities to save the Erbil Citadel",
+      "publisher": "unesco",
+      "published": "2011-11-16",
+      "durationSeconds": 301,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "UNESCO's Revitalization of the Erbil Citadel project with the High Commission for Erbil Citadel Revitalization: restoring damaged buildings and preparing a conservation master plan.",
+      "sites": [
+        {
+          "siteId": "site-erbil-erbil-citadel",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "X2Fl8U8_GRU",
+      "url": "https://www.youtube.com/watch?v=X2Fl8U8_GRU",
+      "title": "Employment intensive approaches create decent jobs in cultural heritage development in Iraq",
+      "publisher": "ilo",
+      "published": "2023-01-18",
+      "durationSeconds": 126,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The joint ILO, EU and UNESCO project conserving and rehabilitating buildings at the World Heritage site of the Erbil Citadel, and training the workers who carry it out.",
+      "sites": [
+        {
+          "siteId": "site-erbil-erbil-citadel",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@ILO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "KbQpw2sBYSU",
+      "url": "https://www.youtube.com/watch?v=KbQpw2sBYSU",
+      "title": "The restoration of Al-Nouri Mosque and Al-Hadba Minaret is underway.",
+      "publisher": "unesco",
+      "published": "2019-12-05",
+      "durationSeconds": 120,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "Stabilising the base of the al-Hadba minaret and propping the pillars of the mosque prayer hall, early in UNESCO’s reconstruction.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "Xg2pmvO-enw",
+      "url": "https://www.youtube.com/watch?v=Xg2pmvO-enw",
+      "title": "First stage of the reconstruction of Al-Nouri Mosque and Al-Hadba Minaret in Mosul",
+      "publisher": "unesco",
+      "published": "2020-04-24",
+      "durationSeconds": 224,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The completed first phase of the reconstruction: demining, rubble removal and temporary stabilisation of the surviving structures.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "Jm4x1iVfQHY",
+      "url": "https://www.youtube.com/watch?v=Jm4x1iVfQHY",
+      "title": "Revive the Spirit of Mosul - 3D immersion",
+      "publisher": "unesco",
+      "published": "2018-09-13",
+      "durationSeconds": 278,
+      "language": "en",
+      "kind": "documentation-3d",
+      "summary": "A 3D immersion built from images taken in Mosul in February 2018, showing the damaged monuments of the Old City; the 3D work produced the detailed maps used for their reconstruction.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "site"
+        },
+        {
+          "siteId": "site-nineveh-al-nouri",
+          "relation": "part",
+          "note": "Shown in the 3D survey of the Old City."
+        },
+        {
+          "siteId": "site-nineveh-beit-al-tutunji",
+          "relation": "part",
+          "note": "Shown in the 3D survey of the Old City."
+        },
+        {
+          "siteId": "site-nineveh-dominican-church",
+          "relation": "part",
+          "note": "Shown in the 3D survey as the Latin (Clock) Church."
+        },
+        {
+          "siteId": "site-nineveh-imam-muhsin-mosque",
+          "relation": "part",
+          "note": "Shown in the 3D survey of the Old City."
+        },
+        {
+          "siteId": "site-nineveh-bash-tapia-castle",
+          "relation": "part",
+          "note": "Shown in the 3D survey as the Bashtabiya fortress."
+        },
+        {
+          "siteId": "site-nineveh-imam-awn-al-din-shrine",
+          "relation": "part",
+          "note": "Shown in the 3D survey of the Old City."
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "uJ4p36Fxzz8",
+      "url": "https://www.youtube.com/watch?v=uJ4p36Fxzz8",
+      "title": "Mosul's revival: A lasting legacy built through international cooperation",
+      "publisher": "unesco",
+      "published": "2025-02-04",
+      "durationSeconds": 188,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "UNESCO's summary of the Revive the Spirit of Mosul initiative, launched in 2018 and completed at the Old City's landmark sites in 2025.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "4rR_QaukjH8",
+      "url": "https://www.youtube.com/watch?v=4rR_QaukjH8",
+      "title": "Start of the rehabilitation of heritage houses in the Old City of Mosul",
+      "publisher": "unesco",
+      "published": "2020-10-06",
+      "durationSeconds": 81,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The start of work on 43 historic houses of the Old City, after rubble and unexploded ordnance were cleared, with support from the European Union.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-old-mosul",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "J5Fd0w5sdNU",
+      "url": "https://www.youtube.com/watch?v=J5Fd0w5sdNU",
+      "title": "Restoration of the Al-Tahera Church in Mosul",
+      "publisher": "unesco",
+      "published": "2020-09-16",
+      "durationSeconds": 95,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "UNESCO's restoration of the al-Tahera church of 1859–62 in the Old City, severely damaged in 2017.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+          "relation": "context",
+          "note": "Shows the church of 1859–62 that stands beside the old church."
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UNESCO",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "UnLejho5CtI",
+      "url": "https://www.youtube.com/watch?v=UnLejho5CtI",
+      "title": "The rehabilitation of the Mosul Museum, Iraq",
+      "publisher": "aliph",
+      "published": "2021-10-11",
+      "durationSeconds": 365,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The rehabilitation of the Mosul Museum after its collection and building were damaged in 2015, by the State Board of Antiquities and Heritage with ALIPH, the Louvre and the Smithsonian.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-mosul-museum",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@ALIPHFoundation",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "juyta-SjAss",
+      "url": "https://www.youtube.com/watch?v=juyta-SjAss",
+      "title": "The restoration of the Mosul Cultural Museum in Iraq.",
+      "publisher": "wmf",
+      "published": "2022-09-11",
+      "durationSeconds": 407,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "World Monuments Fund on restoring Mohamed Makiya's museum building of the early 1970s and its collection.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-mosul-museum",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@worldmonumentsfund",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "saH28O56QOU",
+      "url": "https://www.youtube.com/watch?v=saH28O56QOU",
+      "title": "The Rehabilitation of the Monastery of Mar Behnam, Al-Khidr, Iraq",
+      "publisher": "aliph",
+      "published": "2021-03-04",
+      "durationSeconds": 347,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The rehabilitation of the monastery after the damage of 2015, carried out with the Syriac Catholic diocese of Mosul and local authorities.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-mar-behnam-monastery",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@ALIPHFoundation",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "2oVk9PKYKLY",
+      "url": "https://www.youtube.com/watch?v=2oVk9PKYKLY",
+      "title": "Helping Recover and Preserve Cultural Heritage in Iraq",
+      "publisher": "smithsonian",
+      "published": "2020-02-24",
+      "durationSeconds": 443,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The Nimrud Rescue Project launched in 2017 by the Smithsonian, the US Department of State and Iraqi colleagues to stabilise and recover the site.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-nimrud",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@smithsonianglobal56",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "5VCldg1TdHc",
+      "url": "https://www.youtube.com/watch?v=5VCldg1TdHc",
+      "title": "Digital Reconstruction of the Northwest Palace, Nimrud, Assyria",
+      "publisher": "met",
+      "published": "2014-09-30",
+      "durationSeconds": 176,
+      "language": "en",
+      "kind": "documentation-3d",
+      "summary": "A digital reconstruction of Ashurnasirpal II's Northwest Palace as it may have looked in the 9th century BC, from the courtyards into the throne room.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-nimrud",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@metmuseum",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "4M4CPeSD68g",
+      "url": "https://www.youtube.com/watch?v=4M4CPeSD68g",
+      "title": "New Insights into Ancient Nineveh and Nimrud",
+      "publisher": "penn-museum",
+      "published": "2024-11-18",
+      "durationSeconds": 3994,
+      "language": "en",
+      "kind": "lecture",
+      "summary": "Michael Danti on the Assyrian reliefs found at the Mashki Gate of Nineveh and on new work at the Ishtar Sharrat Niphi temple and the Palace of Adad-Nerari III at Nimrud.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-ancient-nineveh",
+          "relation": "site"
+        },
+        {
+          "siteId": "site-nineveh-nimrud",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@pennmuseum",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "3AuSWikhcts",
+      "url": "https://www.youtube.com/watch?v=3AuSWikhcts",
+      "title": "12 October 2023 - The Unveiling of the Khinis Great Relief's Restoration",
+      "publisher": "lonap",
+      "published": "2023-10-11",
+      "durationSeconds": 126,
+      "language": "en",
+      "kind": "restoration",
+      "summary": "The 2023 restoration of the Great Relief of Khinis by the University of Udine's project with the Directorate of Antiquities of Duhok.",
+      "sites": [
+        {
+          "siteId": "site-nineveh-khinnis-reliefs",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@landofninevehAP",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "Sdu2chr_95g",
+      "url": "https://www.youtube.com/watch?v=Sdu2chr_95g",
+      "title": "The Italian-Kurdish Faida Archaeological Project",
+      "publisher": "lonap",
+      "published": "2019-12-09",
+      "durationSeconds": 201,
+      "language": "en",
+      "kind": "excavation",
+      "summary": "The 2019 excavation of ten Assyrian rock reliefs on the Faida canal by the joint mission of the University of Udine and the Directorate of Antiquities of Duhok.",
+      "sites": [
+        {
+          "siteId": "site-duhok-faida-canal-reliefs",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@landofninevehAP",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "ZnwWnBvlSY8",
+      "url": "https://www.youtube.com/watch?v=ZnwWnBvlSY8",
+      "title": "Faida Archaeological Park",
+      "publisher": "uniud",
+      "published": "2022-10-13",
+      "durationSeconds": 49,
+      "language": "it",
+      "kind": "overview",
+      "summary": "The Faida Archaeological Park, the first archaeological park in Iraqi Kurdistan, created by the University of Udine and the Directorate of Antiquities of Duhok.",
+      "sites": [
+        {
+          "siteId": "site-duhok-faida-canal-reliefs",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@UniversitaUdine",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "01fBZVU38Mo",
+      "url": "https://www.youtube.com/watch?v=01fBZVU38Mo",
+      "title": "Taq Kasra through Time: Ancient City, Modern Challenges by Kristen Hopper and Mark Jackson",
+      "publisher": "eamena",
+      "published": "2021-11-11",
+      "durationSeconds": 497,
+      "language": "en",
+      "kind": "documentation-3d",
+      "summary": "Taq Kasra and the ancient cities around it through historic photographs, satellite imagery and 3D survey, by EAMENA (Durham University) and the Gertrude Bell Archive (Newcastle University).",
+      "sites": [
+        {
+          "siteId": "site-baghdad-taq-kasra",
+          "relation": "site"
+        },
+        {
+          "siteId": "site-baghdad-ctesiphon",
+          "relation": "part",
+          "note": "Taq Kasra is the main standing monument of Ctesiphon."
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@eamenaproject7492",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "dBh3gKZIzXg",
+      "url": "https://www.youtube.com/watch?v=dBh3gKZIzXg",
+      "title": "The Shanidar Cave Neanderthals",
+      "publisher": "leakey",
+      "published": "2025-08-28",
+      "durationSeconds": 2045,
+      "language": "en",
+      "kind": "excavation",
+      "summary": "The Neanderthal burials found at Shanidar Cave and the new excavations that returned to the cave more than 50 years later.",
+      "sites": [
+        {
+          "siteId": "site-erbil-shanidar-cave",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@TheLeakeyFoundation",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "2YdtzXK_fpQ",
+      "url": "https://www.youtube.com/watch?v=2YdtzXK_fpQ",
+      "title": "Discovering a new Neanderthal at an old site - Antiquity author interview: Emma Pomeroy",
+      "publisher": "antiquity",
+      "published": "2021-06-30",
+      "durationSeconds": 1007,
+      "language": "en",
+      "kind": "excavation",
+      "summary": "Emma Pomeroy on the new Neanderthal found at Shanidar Cave, the first articulated Neanderthal in over 20 years, from the prize-winning paper in Antiquity.",
+      "sites": [
+        {
+          "siteId": "site-erbil-shanidar-cave",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@antiquityjournal7424",
+        "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "youtube",
+      "videoId": "lDJb6Mgd-w4",
+      "url": "https://www.youtube.com/watch?v=lDJb6Mgd-w4",
+      "title": "The Iraq Scheme update: digs and discoveries",
+      "publisher": "british-museum",
+      "published": "2017-11-23",
+      "durationSeconds": 222,
+      "language": "en",
+      "kind": "excavation",
+      "summary": "The British Museum's Iraq Emergency Heritage Management Training Scheme, with field training at Tello and in Darband-i Rania, the area of Qalatga Darband.",
+      "sites": [
+        {
+          "siteId": "site-sulaymaniyah-qalatga-darband",
+          "relation": "context",
+          "note": "Covers the Darband-i Rania field training, where Qalatga Darband lies."
+        }
+      ],
+      "verification": {
+        "method": "youtube-oembed",
+        "channelUrl": "https://www.youtube.com/@britishmuseum",
+        "checkedAt": "2026-11-09"
+      }
+    }
+  ]
+}

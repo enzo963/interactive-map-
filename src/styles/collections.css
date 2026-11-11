@@ -21,3 +21,18 @@
   .hb-share__actions button { flex: 1; }
   .hb-model iframe, .hb-model model-viewer { height: 22rem; }
 }
+
+/* 3D documentation class: measured (solid mark) versus modelled or reconstructed (outlined mark) */
+.hb-docclass { display: grid; gap: .35rem; max-width: 66ch; }
+.hb-docclass__badges { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.hb-docclass__class,
+.hb-docclass__method { display: inline-flex; align-items: center; min-height: 1.9rem; padding: .2rem .65rem; font-family: var(--hb-font-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--hb-rule-strong); }
+.hb-docclass[data-documentation='measured'] .hb-docclass__class { background: var(--hb-ink); color: var(--hb-paper); border-color: var(--hb-ink); }
+.hb-docclass[data-documentation='modeled'] .hb-docclass__class { border-style: dashed; border-color: var(--hb-terracotta-deep); color: var(--hb-terracotta-deep); }
+.hb-docclass__method { color: var(--hb-earth-text); }
+.hb-docclass__label { font-weight: 600; }
+.hb-docclass__evidence { font-size: .9rem; color: var(--hb-earth-text); }
+.hb-docgroup { display: grid; gap: clamp(1.75rem, 4vw, 2.75rem); }
+.hb-docgroup + .hb-docgroup { margin-top: clamp(2rem, 5vw, 3rem); padding-top: clamp(1.5rem, 4vw, 2.25rem); border-top: 1px solid var(--hb-rule); }
+.hb-docgroup__head { display: grid; gap: .4rem; }
+.hb-docgroup__intro { color: var(--hb-earth-text); max-width: 66ch; }
