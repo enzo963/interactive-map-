@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "source": "krg",
+      "governorate": "Erbil",
+      "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/"
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Salah al-Din",
+      "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg"
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Salah al-Din",
+      "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg"
+    }
+  ]
+}

@@ -3,8 +3,8 @@ import { fileURLToPath } from 'node:url';
 
 /**
  * Dev-only API that writes map edits straight into src/data/sites.json.
- *   POST  /api/sites        -> add a new card (body: raw site fields)
- *   PATCH /api/sites/:id    -> update fields of an existing card (e.g. latitude/longitude)
+ *   POST   /api/sites        -> add a new card (body: raw site fields)
+ *   PATCH  /api/sites/:id    -> set the map position (latitude/longitude) of an existing card
  * Vite then hot-reloads the JSON, so the map updates on its own.
  * Not part of the production build: `apply: 'serve'`.
  */
@@ -13,22 +13,19 @@ const SITES_FILE = fileURLToPath(new URL('../src/data/sites.json', import.meta.u
 const slugify = (value) =>
   String(value ?? '')
     .normalize('NFKD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
-const EDITABLE = [
-  'name', 'governorate', 'city', 'latitude', 'longitude', 'site_type', 'historical_period',
-  'civilization', 'estimated_year', 'short_description', 'full_description', 'heritage_status',
-];
+const EDITABLE = ['name', 'governorate', 'latitude', 'longitude', 'category', 'period', 'description'];
 
 function clean(body) {
   const out = {};
   for (const key of EDITABLE) {
     if (!(key in body)) continue;
     let value = body[key];
-    if (['latitude', 'longitude', 'estimated_year'].includes(key)) {
+    if (key === 'latitude' || key === 'longitude') {
       value = value === '' || value === null ? null : Number(value);
       if (value !== null && !Number.isFinite(value)) throw new Error(`${key} must be a number`);
     } else {
@@ -41,43 +38,45 @@ function clean(body) {
   return out;
 }
 
+// Coordinates set with the map editor are marked so reviewers can tell them from sourced ones.
+const placedNote = () => ({ coordinates_source: 'map-editor', coordinates_placed_at: new Date().toISOString().slice(0, 10) });
+
+/**
+ * A draft record in the shape of src/data/sites.schema.json. It stays hidden (status draft) until it
+ * meets the visible card contract: a reliable source, a concise description and the other required fields.
+ */
 function newSite(fields, sites) {
   if (!fields.name) throw new Error('name is required');
   if (fields.latitude == null || fields.longitude == null) throw new Error('a map position is required');
 
-  const maxId = sites.reduce((max, s) => Math.max(max, Number(String(s.id).replace(/\D/g, '')) || 0), 0);
-  const base = slugify(fields.name) || `site-${maxId + 1}`;
+  const base = slugify(fields.name) || 'site';
   let slug = base;
   for (let n = 2; sites.some((s) => s.slug === slug); n += 1) slug = `${base}-${n}`;
-  const governorateDeck = slugify(fields.governorate);
+  const governorate = slugify(fields.governorate) || 'unknown';
+  let id = `site-${governorate}-${slug}`;
+  for (let n = 2; sites.some((s) => s.id === id); n += 1) id = `site-${governorate}-${slug}-${n}`;
 
   return {
-    id: `site-${String(maxId + 1).padStart(3, '0')}`,
-    slug,
+    id,
     name: fields.name,
     governorate: fields.governorate ?? '',
-    city: fields.city ?? '',
+    category: fields.category ?? '',
+    period: fields.period ?? '',
+    ...(fields.period ? {} : { period_status: 'not-established' }),
+    description: fields.description ?? '',
+    unesco: null,
+    has3D: null,
+    coverImage: null,
+    galleryImages: [],
+    image_status: 'none',
+    sources: [],
+    unesco_status: 'unknown',
+    status: 'draft',
+    verification_status: 'draft',
+    slug,
     latitude: fields.latitude,
     longitude: fields.longitude,
-    site_type: fields.site_type ?? '',
-    historical_period: fields.historical_period ?? '',
-    civilization: fields.civilization ?? '',
-    estimated_year: fields.estimated_year ?? null,
-    short_description: fields.short_description ?? '',
-    full_description: '',
-    main_image: '',
-    gallery: [],
-    decks: governorateDeck ? [governorateDeck] : [],
-    unesco_status: '',
-    heritage_status: fields.heritage_status || 'existing',
-    has_3d: false,
-    model_3d_url: '',
-    has_video: false,
-    video_url: '',
-    our_work: false,
-    our_work_types: [],
-    sources: [],
-    verification_status: 'needs-review',
+    ...placedNote(),
   };
 }
 
@@ -113,7 +112,9 @@ export default function sitesApi() {
           } else {
             site = sites.find((s) => String(s.id) === id);
             if (!site) return send(res, 404, { error: `no card with id ${id}` });
-            Object.assign(site, fields);
+            // Only the pin moves; the reviewed record itself is left alone.
+            if (fields.latitude == null || fields.longitude == null) return send(res, 400, { error: 'a map position is required' });
+            Object.assign(site, { latitude: fields.latitude, longitude: fields.longitude }, placedNote());
           }
           await writeFile(SITES_FILE, `${JSON.stringify(sites, null, 2)}\n`);
           return send(res, req.method === 'POST' ? 201 : 200, site);

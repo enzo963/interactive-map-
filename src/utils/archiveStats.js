@@ -1,5 +1,6 @@
 import { CARD_TYPES } from '../data/cardTypes';
 import { getGovernorateKey } from '../data/governorates';
+import { tn } from '../i18n';
 
 /** Headline numbers, always derived from the dataset. */
 export function getArchiveStats(sites) {
@@ -14,4 +15,4 @@ export function getArchiveStats(sites) {
 
 export const formatCount = (n) => String(n).padStart(2, '0');
 
-export const cardsLabel = (n) => `${n} ${n === 1 ? 'Card' : 'Cards'}`;
+export const cardsLabel = (n) => tn('{n} Card', '{n} Cards', n);

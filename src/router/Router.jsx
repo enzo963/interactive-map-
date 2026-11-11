@@ -1,6 +1,8 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { Suspense, useCallback, useEffect, useMemo, useState } from 'react';
 import { RouterContext, useRouter } from './RouterContext';
 import { matchRoute } from './matchRoute';
+import RouteBoundary from '../components/common/RouteBoundary';
+import PageLoading from '../components/common/PageLoading';
 
 const readLocation = () => ({
   pathname: window.location.pathname,
@@ -41,11 +43,27 @@ export function RouterProvider({ children }) {
 
 /** Renders the matching page. Pages receive `params`. Remounts when the path changes. */
 export function Routes({ routes, notFound: NotFound }) {
-  const { location, navType, scroll } = useRouter();
+  const { location } = useRouter();
   const match = matchRoute(routes, location.pathname);
   const Page = match ? match.route.component : NotFound;
+  return (
+    <RouteBoundary key={location.pathname}>
+      <Suspense fallback={<PageLoading />}>
+        <ResolvedRoute key={location.pathname} Page={Page} params={match ? match.params : {}} />
+      </Suspense>
+    </RouteBoundary>
+  );
+}
+
+// Effects inside Suspense commit only when the real page and its sections exist.
+function ResolvedRoute({ Page, params }) {
+  const { location, navType, scroll } = useRouter();
 
   useEffect(() => {
+    if (navType === 'init' && location.hash) {
+      document.getElementById(location.hash.slice(1))?.scrollIntoView();
+      return;
+    }
     if (navType === 'init' || navType === 'pop' || !scroll) return;
     if (location.hash) {
       const target = document.getElementById(location.hash.slice(1));
@@ -58,5 +76,5 @@ export function Routes({ routes, notFound: NotFound }) {
     document.getElementById('main')?.focus({ preventScroll: true }); // keyboard + screen-reader users land on the new page
   }, [location.pathname, location.hash, navType, scroll]);
 
-  return <Page key={location.pathname} params={match ? match.params : {}} />;
+  return <Page params={params} />;
 }

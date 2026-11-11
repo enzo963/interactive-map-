@@ -1,0 +1,2512 @@
+[
+  {
+    "id": "site-duhok-maltai-reliefs",
+    "name": "Maltai Rock Reliefs (Halamata Cave)",
+    "governorate": "Duhok",
+    "category": "Rock Relief",
+    "period": "Neo-Assyrian",
+    "description": "Four Neo-Assyrian reliefs on Mount Zawa, about 7 km south-west of Duhok above Geverke village. Each shows a procession of nine figures: the Assyrian king, most likely Sennacherib (704–681 BC), before gods standing on animals. They belong to his northern canal system. Gertrude Bell photographed them in 1909; they were vandalised in 2016 and again in 2023.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Halamata Cave",
+        "url": "https://en.wikipedia.org/wiki/Halamata_Cave",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Maltai Rock Reliefs"
+      },
+      {
+        "sourceName": "Rudaw, 4 March 2023 — Millennia-old Assyrian reliefs in Duhok vandalized",
+        "url": "https://www.rudaw.net/english/kurdistan/04032023",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q106371911 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q106371911",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "maltai-reliefs",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Halamata Cave",
+      "Maltai Reliefs",
+      "Malthai",
+      "Gali Maltai"
+    ],
+    "approximateLocation": "Mount Zawa, south-west of Duhok",
+    "estimated_year": "c. 700 BC",
+    "latitude": 36.838181,
+    "longitude": 42.940816,
+    "coordinates_source": "wikidata:Q106371911",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-charsteen-cave",
+    "name": "Charsteen Cave",
+    "governorate": "Duhok",
+    "category": "Archaeological Cave",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A large cave sanctuary just north of Duhok city, traditionally described as a Zoroastrian shrine, with reported occupation going back to the Palaeolithic. The KRG completed the first restoration phase in 2025, and it reopened to visitors.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government, April 2025 — First phase of Charsteen Cave restoration completed",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/april/first-phase-of-charsteen-cave-restoration-in-duhok-completed/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "SyriacPress, 3 May 2025 — Charsteen Cave reopens to visitors",
+        "url": "https://syriacpress.com/blog/2025/05/03/charsteen-cave-one-of-the-oldest-archaeological-sites-in-nohadra-duhok-reopens-to-visitors",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "charsteen-cave",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Chwar Stoun",
+      "Chwar Astoon",
+      "Çarstîn",
+      "Charstin"
+    ],
+    "approximateLocation": "Gali Duhok, north of Duhok city",
+    "review_notes": "Zoroastrian attribution and the 12,000-year date are reported claims; check against an archaeological report."
+  },
+  {
+    "id": "site-duhok-mar-ith-alaha-church",
+    "name": "Mar Ith-Alaha Church, Duhok",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A church in the Nohadra quarter of Duhok on a site with long Christian continuity. The present building has been rebuilt several times.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — Mar Ith-Alaha Church in Dohuk-Nouhadra",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/__trashed-3/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Location; Fragments of hagiography"
+      },
+      {
+        "sourceName": "Wikidata Q98967701 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q98967701",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-ith-alaha-church",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mar Itha Alaha",
+      "Saint Ithilaha",
+      "Mar Ith Allaha"
+    ],
+    "approximateLocation": "Duhok city",
+    "latitude": 36.861944,
+    "longitude": 42.985,
+    "coordinates_source": "wikidata:Q98967701",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-duhok-grand-mosque",
+    "name": "Grand Mosque of Duhok",
+    "governorate": "Duhok",
+    "category": "Mosque",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The historic congregational mosque of Duhok city centre, listed by the University of Duhok among the city’s heritage sites together with the old bazaar.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Duhok — Life in Duhok",
+        "url": "https://uod.ac/students/life-in-duhok/?lang=en",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Tourism and Heritage: Beyond the Classroom"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "duhok-grand-mosque",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Great Mosque of Duhok",
+      "Mizgefta Mezin"
+    ],
+    "approximateLocation": "Duhok city centre"
+  },
+  {
+    "id": "site-duhok-duhok-old-bazaar",
+    "name": "Old Bazaar of Duhok",
+    "governorate": "Duhok",
+    "category": "Historic Market",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The old covered market in Duhok city centre, listed by the University of Duhok among the city’s heritage sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Duhok — Duhok City",
+        "url": "https://uod.ac/about/duhok-city",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "duhok-old-bazaar",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Duhok Bazaar"
+    ],
+    "approximateLocation": "Duhok city centre",
+    "review_notes": "Source page now returns 404; content seen only in search results."
+  },
+  {
+    "id": "site-duhok-sharya-yazidi-shrines",
+    "name": "Yazidi Shrines of Sharya",
+    "governorate": "Duhok",
+    "category": "Shrine",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A group of Yazidi shrines around the town of Sharya, 15 km south of Duhok. They include Şêx Enzerût, Pîr Afat, Evdê Reş, Nasirdîn, Siltan Êzîd, Şêx Şems, Şahsiwar, Şêxûbekir, Kerecal, Şêx Hesen and Pîr Bûb.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Sharya, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Sharya,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q59343124 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q59343124",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sharya-yazidi-shrines",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Shariya",
+      "Şariya",
+      "شاريا",
+      "Sheikh Shams shrine",
+      "Siltan Ezid shrine"
+    ],
+    "approximateLocation": "Sharya, Simele district",
+    "latitude": 36.789444,
+    "longitude": 42.971944,
+    "coordinates_source": "wikidata:Q59343124",
+    "coordinates_precision": "settlement",
+    "review_notes": "Shrine list differs between Wikipedia revisions; individual shrines need separate verification."
+  },
+  {
+    "id": "site-duhok-khanke-hellenistic-tombs",
+    "name": "Khanke Hellenistic Tombs",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Hellenistic–Seleucid",
+    "description": "About 40 tombs exposed on the shore of the Mosul Dam reservoir near Khanke when drought lowered the water. Duhok’s antiquities director Bekas Brifkani dates them to the Hellenistic or Seleucid period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "CBS News, 30 August 2025 — Ancient tombs discovered in Iraq due to drought",
+        "url": "https://www.cbsnews.com/news/ancient-tombs-discovered-iraq-due-to-drought/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q59343218 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q59343218",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khanke-hellenistic-tombs",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Khanik",
+      "Khanek",
+      "Xankê"
+    ],
+    "approximateLocation": "Mosul Dam reservoir shore, Khanke sub-district",
+    "latitude": 36.79,
+    "longitude": 42.798056,
+    "coordinates_source": "wikidata:Q59343218",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-kemune-palace",
+    "name": "Kemune Mittani Palace",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Mittani (Late Bronze Age)",
+    "description": "A Bronze Age palace of the Mittani period on the east bank of the Tigris, exposed by the falling Mosul Dam reservoir in 2018. A German–Kurdish team found walls up to 2 m thick, rare red and blue wall paintings and ten cuneiform tablets; one tablet suggests the city was ancient Zakhiku.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Tübingen press release — Palace of the Mittani Empire in the Duhok province",
+        "url": "https://uni-tuebingen.de/en/university/news-and-publications/press-release/archaeologists-uncover-palace-of-the-mittani-empire-in-the-duhok-province-of-the-kurdistan-region-iraq/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kemune-palace",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Kemune",
+      "Zakhiku (proposed)"
+    ],
+    "approximateLocation": "East bank of the Tigris, Mosul Dam reservoir",
+    "estimated_year": "c. 1400 BC",
+    "review_notes": "Underwater for most of the year; Zakhiku identification is tentative."
+  },
+  {
+    "id": "site-duhok-tell-gombass",
+    "name": "Tell Gombass",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A mound on the Mosul Dam reservoir where Duhok archaeologists reported five superimposed settlement layers, part of a survey of 86 sites made between 2023 and 2025.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News — Duhok excavations reveal five ancient settlement layers (mirror)",
+        "url": "https://www.egerin.com/shafaq-news-duhok-excavations-reveal-five-ancient-settlement-layers/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet",
+        "sourceType": "news-report",
+        "sourceTypeNote": "Mirror of a Shafaq News report."
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-gombass",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Mosul Dam reservoir shore",
+    "review_notes": "Seen only in a search snippet of a mirrored article."
+  },
+  {
+    "id": "site-duhok-mardaman-bassetki",
+    "name": "Mardaman (Bassetki)",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Early Bronze Age to Neo-Assyrian",
+    "description": "A northern Mesopotamian city occupied from about 2900 to 600 BC beside Bassetki village. 92 cuneiform tablets excavated by the University of Tübingen in 2017 identified it as Mardaman, a royal city known from Akkadian and Old Babylonian texts.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mardaman",
+        "url": "https://en.wikipedia.org/wiki/Mardaman",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Tübingen — Bassetki project",
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description"
+      },
+      {
+        "sourceName": "Heidelberg University — Edition der Texte von Bassetki/Mardama",
+        "url": "https://www.ori.uni-heidelberg.de/assyriologie/forschung/bassetki.html",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q11935295 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q11935295",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mardaman-bassetki",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Bassetki",
+      "Mardama",
+      "Maridaban"
+    ],
+    "approximateLocation": "Bassetki, Simele district",
+    "latitude": 36.958778,
+    "longitude": 42.7215,
+    "coordinates_source": "wikidata:Q11935295",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-muqable-i",
+    "name": "Muqable I",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A numbered mound in the Bassetki settlement cluster investigated by the University of Tübingen.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Tübingen — Bassetki project",
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "muqable-i",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Bassetki cluster"
+  },
+  {
+    "id": "site-duhok-muqable-iii",
+    "name": "Muqable III",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A numbered mound in the Bassetki settlement cluster investigated by the University of Tübingen.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Tübingen — Bassetki project",
+        "url": "https://fit.uni-tuebingen.de/Project/Details?id=4125",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Abstract / short description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "muqable-iii",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Bassetki cluster"
+  },
+  {
+    "id": "site-duhok-nemrik-9",
+    "name": "Nemrik 9",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Pre-Pottery Neolithic A",
+    "description": "An early Neolithic (Pre-Pottery Neolithic A) settlement of about 1.8 hectares on a Tigris terrace, dated c. 9800–8270 BC. Polish archaeologists excavated its round houses, graves and stone tools in 1985–89 before the Mosul Dam flooded the area.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Nemrik 9",
+        "url": "https://en.wikipedia.org/wiki/Nemrik_9",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q13708140 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q13708140",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "nemrik-9",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Tigris terrace, Mosul Dam area",
+    "estimated_year": "c. 9000 BC",
+    "latitude": 36.716667,
+    "longitude": 42.85,
+    "coordinates_source": "wikidata:Q13708140",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-bakhetme-mar-daniel",
+    "name": "Monastery of Mar Daniel, Bakhetme",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Local tradition places the martyrdom of Saint Daniel the Physician at Bakhetme and dates his monastery to the 3rd century AD. The village keeps a church of Mar Gewargis; the churches of Mar Daniel and Mart Maryam are recorded as former.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bakhetme",
+        "url": "https://en.wikipedia.org/wiki/Bakhetme",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q30590774 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q30590774",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bakhetme-mar-daniel",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Bakhetme",
+      "Baxtimê",
+      "Beth Khatme"
+    ],
+    "approximateLocation": "Bakhetme, Simele district",
+    "latitude": 36.806944,
+    "longitude": 42.858889,
+    "coordinates_source": "wikidata:Q30590774",
+    "coordinates_precision": "settlement",
+    "review_notes": "Founding date is local tradition."
+  },
+  {
+    "id": "site-duhok-avzrog-sourp-vartan",
+    "name": "Sourp Vartan Armenian Church, Avzrog",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "20th century",
+    "description": "An Armenian Apostolic church in Avzrog Miri, a village founded in 1933 by Armenian survivors from near Van; neighbouring Avzrog Shano has an Assyrian church of Mar Gewargis.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Avzrog",
+        "url": "https://en.wikipedia.org/wiki/Avzrog",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4829588 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4829588",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "avzrog-sourp-vartan",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Avzrog Miri",
+      "Surp Vardan"
+    ],
+    "approximateLocation": "Avzrog, Simele district",
+    "latitude": 37.019722,
+    "longitude": 42.509167,
+    "coordinates_source": "wikidata:Q4829588",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-kanisban",
+    "name": "Kanisban",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Neolithic",
+    "description": "A Neolithic settlement of the 7th millennium BC in the Navkur plain near Rovia, announced in January 2025 by the Duhok antiquities directorate and the University of Udine.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 9 January 2025 — 8,000-year-old Neolithic site discovered in Duhok",
+        "url": "https://shafaq.com/en/Kurdistan/In-Kurdistan-s-Duhok-8-000-year-old-Neolithic-site-discovered",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "SyriacPress, 13 January 2025 — 8,000-year-old artifacts in Nohadra",
+        "url": "https://syriacpress.com/blog/2025/01/13/iraq-archaeologists-unearth-8000-year-old-artifacts-in-nohadra-duhok/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kanisban",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Kani Aspahan",
+      "Kanî Ispehan"
+    ],
+    "approximateLocation": "Navkur plain near Rovia",
+    "estimated_year": "7th millennium BC"
+  },
+  {
+    "id": "site-duhok-asinkran",
+    "name": "Asinkran",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Neolithic",
+    "description": "A Navkur-plain site near Rovia with evidence of pottery production and grain processing over 8,000 years old and two buildings of about 7,000 years ago, excavated by Duhok and the University of Udine.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 9 January 2025 — 8,000-year-old Neolithic site discovered in Duhok",
+        "url": "https://shafaq.com/en/Kurdistan/In-Kurdistan-s-Duhok-8-000-year-old-Neolithic-site-discovered",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "asinkran",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Gre Asngaran",
+      "Girê Asinkran"
+    ],
+    "approximateLocation": "Navkur plain near Rovia"
+  },
+  {
+    "id": "site-duhok-zakho-castle",
+    "name": "Zakho Castle",
+    "governorate": "Duhok",
+    "category": "Castle",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The castle in central Zakho on the bank of the Khabur, of which only a tower remains. It is said to have served as the governor’s house under the Bahdinan emirate; its true history is not known.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Zakho",
+        "url": "https://en.wikipedia.org/wiki/Zakho",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q167800 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q167800",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zakho-castle",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Qelay Zaxo"
+    ],
+    "approximateLocation": "Zakho city centre",
+    "latitude": 37.143611,
+    "longitude": 42.681911,
+    "coordinates_source": "wikidata:Q167800",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-qubad-pasha-castle",
+    "name": "Qubad Pasha Castle",
+    "governorate": "Duhok",
+    "category": "Castle",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A hexagonal structure with six windows and an entrance gate standing in Zakho’s cemetery.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Zakho, a Kurdish city with invisible wonders",
+        "url": "https://www.kurdistan24.net/en/story/386186/Zakho,-a-Kurdish-city-with-invisible-wonders",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qubad-pasha-castle",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Qelay Qubad Pasha",
+      "Qubad Pasha Tower"
+    ],
+    "approximateLocation": "Zakho cemetery"
+  },
+  {
+    "id": "site-duhok-zakho-old-bazaar",
+    "name": "Old Bazaar of Zakho",
+    "governorate": "Duhok",
+    "category": "Historic Market",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The old market of Zakho, the subject of a 2019 revitalisation and conservation study. A University of Mosul thesis found Zakho’s heritage buildings neglected.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Zakho, a Kurdish city with invisible wonders",
+        "url": "https://www.kurdistan24.net/en/story/386186/Zakho,-a-Kurdish-city-with-invisible-wonders",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "University of Mosul, College of Archaeology — Zakho heritage buildings",
+        "url": "https://uomosul.edu.iq/en/archeology/?p=37814",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zakho-old-bazaar",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Zakho city centre"
+  },
+  {
+    "id": "site-duhok-zakho-jewish-quarter",
+    "name": "Jewish Quarter of Zakho",
+    "governorate": "Duhok",
+    "category": "Historic Urban Area",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Zakho was a main spiritual centre of Kurdistan’s Jews. In 1848 a traveller counted 200 Jewish families with two large old synagogues, one with an inscription of 1780. The community left in the early 1950s.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Encyclopedia.com — Zakho",
+        "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/zakho",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zakho-jewish-quarter",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mahalla Yahudiya",
+      "Zaxo Jewish quarter"
+    ],
+    "approximateLocation": "Zakho",
+    "review_notes": "Present condition of the synagogues is not established."
+  },
+  {
+    "id": "site-duhok-mar-gorgis-cathedral-zakho",
+    "name": "Mar Gorgis Cathedral, Zakho",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "20th century",
+    "description": "The Chaldean cathedral of Zakho in the old Nasara (Christian) quarter, built in 1911 and later enlarged.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Mar Gorgis Cathedral in Zakho",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-chaldeenne-mar-guorguis-de-zakho/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Opening description; Location"
+      },
+      {
+        "sourceName": "Wikidata Q98967700 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q98967700",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-gorgis-cathedral-zakho",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mar Guorguis Cathedral",
+      "Mar Gewargis Cathedral",
+      "St George Cathedral, Zakho"
+    ],
+    "approximateLocation": "Nasara quarter, Zakho",
+    "estimated_year": 1911,
+    "latitude": 37.141,
+    "longitude": 42.677667,
+    "coordinates_source": "wikidata:Q98967700",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-sharanish-churches",
+    "name": "Churches of Sharanish",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Two Chaldean churches in Sharanish near the Turkish border: Mart Shmune, a converted former synagogue of the village’s old Jewish community, and Mar Kiriakos, said to be over 400 years old.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Sharanish",
+        "url": "https://en.wikipedia.org/wiki/Sharanish",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7489412 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7489412",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sharanish-churches",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mart Shmune Church, Sharanish",
+      "Mar Kiriakos Church",
+      "Shiranish"
+    ],
+    "approximateLocation": "Sharanish, Zakho district",
+    "latitude": 37.23,
+    "longitude": 42.844444,
+    "coordinates_source": "wikidata:Q7489412",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-mar-atqen-monastery",
+    "name": "Monastery of Mar Atqen, Dera Shish",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "Abbasid (first attested)",
+    "description": "A monastery near Dera Shish mentioned in the 9th-century Book of Chastity. The village church of Mar Ephrem and the monastery were demolished by the Iraqi government in 1975 and during the Anfal campaign of 1988.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dera Shish",
+        "url": "https://en.wikipedia.org/wiki/Dera_Shish",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q24883709 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q24883709",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-atqen-monastery",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Dera Shish",
+      "ʿŪmrā Shghisha",
+      "Deir Shish"
+    ],
+    "approximateLocation": "Dera Shish, Zakho district",
+    "latitude": 37.326667,
+    "longitude": 42.799444,
+    "coordinates_source": "wikidata:Q24883709",
+    "coordinates_precision": "settlement",
+    "review_notes": "Ruined or destroyed; record documents lost heritage."
+  },
+  {
+    "id": "site-duhok-dayrabun-monastery",
+    "name": "Dayrabun Monastery Site",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Dayrabun takes its name (“monastery of the father”) from an 11th–12th-century monastery traditionally dedicated to Noah that no longer survives. The village’s Chaldean church of the Sacred Heart dates from 1934–37.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dayrabun",
+        "url": "https://en.wikipedia.org/wiki/Dayrabun",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q5243304 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5243304",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dayrabun-monastery",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Dêrebûn",
+      "Deir Abun",
+      "Derabun"
+    ],
+    "approximateLocation": "Dayrabun, near the Iraq–Syria–Turkey border",
+    "latitude": 37.084167,
+    "longitude": 42.428333,
+    "coordinates_source": "wikidata:Q5243304",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-great-mosque-amedi",
+    "name": "Great Mosque of Amedi",
+    "governorate": "Duhok",
+    "category": "Mosque",
+    "period": "Abbasid; minaret Bahdinan",
+    "description": "Founded in 1177, the mosque has a 30 m minaret erected under Sultan Hussein al-Wali, often compared with the al-Nuri minaret of Mosul. It was damaged in an 18th-century raid and by airstrikes in 1961, and renovated several times.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Great Mosque of Amedi",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Amedi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Amadiya/Amedi Mosque and Minaret"
+      },
+      {
+        "sourceName": "Wikidata Q20410224 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20410224",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "great-mosque-amedi",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Great Mosque of Amadiya",
+      "Mizgefta Mezin a Amêdiyê",
+      "جامع العمادية الكبير"
+    ],
+    "approximateLocation": "Amedi",
+    "estimated_year": 1177,
+    "parentSite": "site-duhok-amedy-city",
+    "latitude": 37.093889,
+    "longitude": 43.488333,
+    "coordinates_source": "wikidata:Q20410224",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-tomb-of-hazkiel",
+    "name": "Tomb of the Prophet Hazkiel, Amedi",
+    "governorate": "Duhok",
+    "category": "Shrine",
+    "period": "Medieval",
+    "description": "A shrine revered by Muslims, Christians and Jews, once part of the synagogue Knis Navi Yehezqel, which was built around 1250. The KRG identifies the burial as the prophet Ezekiel; Jewish tradition names two brothers, Hazan David and Hazan Yosef.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tomb of the Prophet Hazkiel",
+        "url": "https://en.wikipedia.org/wiki/Tomb_of_the_Prophet_Hazkiel",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q42801503 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q42801503",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tomb-of-hazkiel",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Tomb of Hazana",
+      "Be Hazane",
+      "Knis Navi Yehezqel",
+      "Ezekiel’s Tomb, Amedi"
+    ],
+    "approximateLocation": "Amedi",
+    "estimated_year": "c. 1250",
+    "parentSite": "site-duhok-amedy-city",
+    "review_notes": "Wikidata Q42801503 places it about 9 km west of Amedi town; coordinates left out until a published position is found."
+  },
+  {
+    "id": "site-duhok-mosul-gate-amedi",
+    "name": "Mosul Gate, Amedi",
+    "governorate": "Duhok",
+    "category": "Gate",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A gate in the fortifications of Amedi, documented by Columbia’s Mapping Mesopotamian Monuments survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Mosul Gate"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mosul-gate-amedi",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Bahdinan Gate",
+      "Bab al-Mosul",
+      "Derge Mûsil"
+    ],
+    "approximateLocation": "Amedi",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-zebari-gate-amedi",
+    "name": "Zebari Gate, Amedi",
+    "governorate": "Duhok",
+    "category": "Gate",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The eastern gate of Amedi giving access to the high north-eastern plateau, closely tied to the former palace of the Bahdinan emirs.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia MCID — Amadiya/Amedi Citadel",
+        "url": "https://mcid.mcah.columbia.edu/node/87269",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zebari-gate-amedi",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Eastern Gate",
+      "Derge Zêbarê"
+    ],
+    "approximateLocation": "Amedi",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-amedi-ancient-staircase",
+    "name": "Ancient Staircase, Amedi",
+    "governorate": "Duhok",
+    "category": "Historic Monument",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A rock-cut stair of the Amedi fortifications documented by Columbia’s Mapping Mesopotamian Monuments survey.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Ancient Staircase"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "amedi-ancient-staircase",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Amedi",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-amedi-parthian-reliefs",
+    "name": "Parthian Reliefs at Amedi",
+    "governorate": "Duhok",
+    "category": "Rock Relief",
+    "period": "Parthian",
+    "description": "Rock reliefs near the Mosul Gate of Amedi attributed to the Parthian period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Parthian Reliefs"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "amedi-parthian-reliefs",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Amedi",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-qubahan-madrasa",
+    "name": "Qubahan Madrasa",
+    "governorate": "Duhok",
+    "category": "Historic School",
+    "period": "Bahdinan emirate",
+    "description": "The ruined Qubahan school below Amedi, founded under Sultan Hussein Wali (1534–76) as a centre of theology, philosophy, medicine and astronomy. It was being rehabilitated in 2026.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Qubahan Medrese"
+      },
+      {
+        "sourceName": "Kurdistan24, 20 July 2026 — Restoration campaign across Duhok",
+        "url": "https://www.kurdistan24.net/en/story/926986",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qubahan-madrasa",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Qubahan School",
+      "Medresa Qubahan",
+      "مدرسة قبهان"
+    ],
+    "approximateLocation": "Below Amedi",
+    "estimated_year": "16th century",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-amedi-chaldean-archdiocese",
+    "name": "Former Chaldean Archdiocese, Amedi",
+    "governorate": "Duhok",
+    "category": "Historic Building",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The former seat of the Chaldean archbishops of Amadiya in the north-west of the town, including its church.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The former Chaldean archdiocese in Amadiya",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/lancien-eveche-chaldeen-damadia/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Location; historical account"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "amedi-chaldean-archdiocese",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "North-west Amedi",
+    "parentSite": "site-duhok-amedy-city"
+  },
+  {
+    "id": "site-duhok-issa-bridge",
+    "name": "Issa Bridge",
+    "governorate": "Duhok",
+    "category": "Historic Bridge",
+    "period": "Bahdinan emirate",
+    "description": "A stone bridge on the Amedi river in the Bahdinan region, dated to the 16th century.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "PUKmedia — Ancient Issa Bridge in Duhok",
+        "url": "https://pukmedia.com/EN/GalleryDetails/4341",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "issa-bridge",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Pira Îsa"
+    ],
+    "approximateLocation": "Amedi river",
+    "estimated_year": "16th century"
+  },
+  {
+    "id": "site-duhok-bani-kondi-mosque",
+    "name": "Bani Kondi Mosque, Bamerne",
+    "governorate": "Duhok",
+    "category": "Mosque",
+    "period": "",
+    "period_status": "not-established",
+    "description": "An old mosque at Bamerne included in Duhok’s 2026 cleaning and maintenance programme.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q2123036 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2123036",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bani-kondi-mosque",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Bamarni",
+      "Bamerne"
+    ],
+    "approximateLocation": "Bamerne, Amedi district",
+    "latitude": 37.116667,
+    "longitude": 43.266667,
+    "coordinates_source": "wikidata:Q2123036",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-sultana-mahdokht-araden",
+    "name": "Church of Sultana Mahdokht, Araden",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "",
+    "period_status": "not-established",
+    "description": "One of three old churches of Araden in the Sapna valley, with Mart Shmune and Mar Awda, possibly over a thousand years old. Local tradition says a pilgrim built it after finding a relic of the saint. Araden was a manuscript-copying centre from at least 1571.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/catalogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Catalogue entry: Church of Sultan Madokht"
+      },
+      {
+        "sourceName": "Wikipedia — Araden",
+        "url": "https://en.wikipedia.org/wiki/Araden",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q624740 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q624740",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sultana-mahdokht-araden",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Sultan Madokht",
+      "Mart Shmune Church, Araden",
+      "Mar Awda Church",
+      "Aradin"
+    ],
+    "approximateLocation": "Araden, Sapna valley",
+    "latitude": 37.1095,
+    "longitude": 43.3179,
+    "coordinates_source": "wikidata:Q624740",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-mar-abdisho-monastery-dere",
+    "name": "Monastery of Mar Abdisho, Dere",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "Late Antique",
+    "description": "A Church of the East monastery founded in the 4th century on a hill above Dere, once served by 42 monks living in nearby caves. It was damaged by an earthquake before 1586, abandoned by 1753, and still draws over a thousand pilgrims on its feast day.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dere, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Dere,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Kurdistan24 — Saint Odisho: fourth-century monastery still serves worshippers",
+        "url": "https://www.kurdistan24.net/en/story/29990-Saint-Odisho:-fourth-century-monastery-still-serves-worshippers",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q24883512 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q24883512",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-abdisho-monastery-dere",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mar Odisho",
+      "Mar Oudisho",
+      "Mar Abdishu",
+      "Dêrê"
+    ],
+    "approximateLocation": "Dere, Sapna valley, east of Amedi",
+    "estimated_year": "4th century",
+    "latitude": 37.097639,
+    "longitude": 43.519889,
+    "coordinates_source": "wikidata:Q24883512",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-komane-churches",
+    "name": "Churches of Komane",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "Sasanian to Abbasid",
+    "description": "Komane, Dere’s sister village, has the monastery of Mart Maryam, believed founded in the 4th century, and a church of Mar Ephrem dated to the Sasanian period; an 8th-century monastery of Mar Quryaqos is also recorded.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Komane, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Komane,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "komane-churches",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mart Maryam Monastery, Komane",
+      "Mar Ephrem Church",
+      "Kowanê",
+      "Koma"
+    ],
+    "approximateLocation": "Komane, Sapna valley"
+  },
+  {
+    "id": "site-duhok-dehi-churches",
+    "name": "Churches of Dehi",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "Late Antique",
+    "description": "Dehi in the Sapna valley has the church of Mart Shmune, built in the 5th century, and Mar Qayouma of the 10th century, with a church of Mar Gewargis. The village was destroyed in 1988 and resettled.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dehi, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Dehi,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "SyriacPress, 29 June 2025 — Mar Qyama shrine and Syriac library opened in Dahi",
+        "url": "https://syriacpress.com/blog/2025/06/29/mar-qyama-shrine-and-syriac-library-opened-in-dahi-village-nohadra/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q5252260 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5252260",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dehi-churches",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Dahi",
+      "Mart Shmune Church, Dehi",
+      "Mar Qayouma Church"
+    ],
+    "approximateLocation": "Dehi, Sapna valley",
+    "estimated_year": "5th century",
+    "latitude": 37.134074,
+    "longitude": 43.178976,
+    "coordinates_source": "wikidata:Q5252260",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-mart-shmune-bebadi",
+    "name": "Church of Mart Shmune, Bebadi",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "Late Antique",
+    "description": "A church first built in the 6th century in Bebadi (Beth Bede). The village was the residence of the Church of the East patriarch Shimun XXI Eshai from 1927 to 1933.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bebadi",
+        "url": "https://en.wikipedia.org/wiki/Bebadi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4878295 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4878295",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mart-shmune-bebadi",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Beth Bede",
+      "Bêbadê"
+    ],
+    "approximateLocation": "Bebadi, Sapna valley",
+    "estimated_year": "6th century",
+    "latitude": 37.1,
+    "longitude": 43.45,
+    "coordinates_source": "wikidata:Q4878295",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-mar-yohanna-dawodiya",
+    "name": "Church of Mar Yohanna, Dawodiya",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "Achaemenid mound; 17th-century church",
+    "description": "Dawodiya stands on an archaeological mound of the 5th century BC. Its 17th-century church of Mar Yohanna al-Ma’amadan (John the Baptist) was destroyed in the 1988 Anfal campaign and rebuilt in 1991.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — Mar Yohanna Al-Ma’amadan church in Dawoodia",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-mar-yohanna-al-maamadan-saint-jean-baptiste-de-dawoodia/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Dawodiya",
+        "url": "https://en.wikipedia.org/wiki/Dawodiya",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-yohanna-dawodiya",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Dawoodia",
+      "Mar Yohanna Al-Ma’amadan",
+      "Monastery of Mar Daudo"
+    ],
+    "approximateLocation": "Dawodiya, Sapna valley",
+    "latitude": 37.089306,
+    "longitude": 43.220833,
+    "coordinates_source": "mesopotamiaheritage:dawoodia",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-duhok-mar-qayyoma-dooreh",
+    "name": "Monastery of Mar Qayyoma, Dooreh",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "Late Antique",
+    "description": "Ruins of a 4th-century monastery that became the seat of the Barwari diocese by 1610, beside the church of Mar Gewargis, first built in 909. Remains of a fortress near the village have been dated to the late 3rd millennium BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dooreh, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Dooreh,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Rudaw, 24 December 2022 — Mar Qayum Church among the oldest churches in Duhok",
+        "url": "https://www.rudaw.net/english/kurdistan/241220222-amp",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q28220077 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28220077",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-qayyoma-dooreh",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mar Qayyum",
+      "Mar Qayuma",
+      "Dore",
+      "Doreh"
+    ],
+    "approximateLocation": "Dooreh, Barwari Bala",
+    "estimated_year": "4th century",
+    "latitude": 37.223611,
+    "longitude": 43.468333,
+    "coordinates_source": "wikidata:Q28220077",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-betanure-synagogue",
+    "name": "Betanure Synagogue and Elijah Cave",
+    "governorate": "Duhok",
+    "category": "Synagogue",
+    "period": "Medieval",
+    "description": "Betanure was a Jewish village whose community kept a 10th-century synagogue, a study house and a cave where tradition says the Prophet Elijah stayed.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Betanure",
+        "url": "https://en.wikipedia.org/wiki/Betanure",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4897358 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4897358",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "betanure-synagogue",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Beth Tanura",
+      "Gūḏāye",
+      "Bêtenûrê"
+    ],
+    "approximateLocation": "Betanure, Barwari",
+    "estimated_year": "10th century",
+    "latitude": 37.2,
+    "longitude": 43.466667,
+    "coordinates_source": "wikidata:Q4897358",
+    "coordinates_precision": "settlement",
+    "review_notes": "Present condition unknown."
+  },
+  {
+    "id": "site-duhok-mangesh-mar-abraham",
+    "name": "Mangesh: Mar Gewargis Church and Mar Abraham Monastery Site",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Mangesh has a church of Mar Gewargis and a shrine of Mart Shmuni. The monastery of Mar Abraham of Shamrah nearby was abandoned in the 14th century; a Christian community here is attested in the 10th century.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mangesh, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Mangesh,_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6748991 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6748991",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mangesh-mar-abraham",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mangish",
+      "مانكيش",
+      "Mart Shmuni shrine"
+    ],
+    "approximateLocation": "Mangesh, Duhok district",
+    "latitude": 37.033333,
+    "longitude": 43.1,
+    "coordinates_source": "wikidata:Q6748991",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-deraluk-st-luke",
+    "name": "Ruined Monastery of St Luke, Deraluk",
+    "governorate": "Duhok",
+    "category": "Monastery",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Deraluk on the Great Zab is named after a ruined monastery of Saint Luke nearby. The town has churches of Mar Khnana and Mar Gewargis.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Deraluk",
+        "url": "https://en.wikipedia.org/wiki/Deraluk",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q10950935 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q10950935",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "deraluk-st-luke",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Deira d-Luqa",
+      "Dêrelûk"
+    ],
+    "approximateLocation": "Deraluk, Amedi district",
+    "latitude": 37.055,
+    "longitude": 43.651111,
+    "coordinates_source": "wikidata:Q10950935",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-duhok-great-mosque-akre",
+    "name": "Great Mosque of Akre",
+    "governorate": "Duhok",
+    "category": "Mosque",
+    "period": "Early Islamic (founded)",
+    "description": "One of Iraq’s oldest mosques, traditionally founded in AH 20 (640/641) under Caliph Umar and rebuilt several times, most recently in 1965. Madrasas surround it.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Great Mosque, Aqrah",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque,_Aqrah",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q20406162 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20406162",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "great-mosque-akre",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Great Mosque of Aqrah",
+      "الجامع الكبير عقرة",
+      "Mizgefta Mezin a Akrê"
+    ],
+    "approximateLocation": "Akre",
+    "estimated_year": 641,
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate.",
+    "review_notes": "Wikidata Q20406162 gives 36.48, 42.42, far west of Akre town (36.76, 43.89); coordinates left out until corrected."
+  },
+  {
+    "id": "site-duhok-akre-qishla",
+    "name": "Akre Qishla",
+    "governorate": "Duhok",
+    "category": "Historic Building",
+    "period": "Ottoman",
+    "description": "An Ottoman barracks of more than a century in Akre, being restored with German (BMZ/GIZ) funding to become a museum of the town’s heritage and antiquities.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — A museum in the making: Germany supports restoration of Akre’s historical fort",
+        "url": "https://www.kurdistan24.net/en/story/883314/a-museum-in-the-making-germany-supports-restoration-of-akres-historical-fort",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "PUKmedia — Renovation works continue in Akre’s Qishla",
+        "url": "https://www.pukmedia.com/EN/GalleryDetails/4548",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "akre-qishla",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Qishla of Aqra",
+      "Qişleya Akrê"
+    ],
+    "approximateLocation": "Akre",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate."
+  },
+  {
+    "id": "site-duhok-akre-castle",
+    "name": "Akre Castle",
+    "governorate": "Duhok",
+    "category": "Castle",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The castle on the heights of Akre, under restoration in 2026 alongside ongoing excavations.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "akre-castle",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Qelay Akrê",
+      "Akre Citadel",
+      "Prince Zand’s castle"
+    ],
+    "approximateLocation": "Akre",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate.",
+    "review_notes": "Tourism sources attribute it to a Median “Prince Zand” in 580 BC; no archaeological confirmation found."
+  },
+  {
+    "id": "site-duhok-akre-old-town",
+    "name": "Old Quarters of Akre",
+    "governorate": "Duhok",
+    "category": "Historic Town",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Akre climbs a hillside in terraces of stone houses; most of the district’s 760 archaeological sites lie in its historic neighbourhoods. A Chaldean cathedral of the Virgin Mary also stands in the town.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Why Kurdistan’s Akre is becoming a year-round cultural destination",
+        "url": "https://www.kurdistan24.net/en/story/927636",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan24 — Ancient sites and ecstatic traditions: Akre, the city on the hillside",
+        "url": "https://www.kurdistan24.net/en/story/373887/Ancient-sites-and-ecstatic-traditions:-Akre,-the-city-on-the-hillside",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Akre",
+        "url": "https://en.wikipedia.org/wiki/Akre",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q421302 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q421302",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "akre-old-town",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Aqrah",
+      "Aqra",
+      "Akrê",
+      "عقرة"
+    ],
+    "approximateLocation": "Akre",
+    "latitude": 36.759722,
+    "longitude": 43.894444,
+    "coordinates_source": "wikidata:Q421302",
+    "coordinates_precision": "settlement",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate."
+  },
+  {
+    "id": "site-duhok-gunduk-cave-reliefs",
+    "name": "Gunduk Cave Reliefs",
+    "governorate": "Duhok",
+    "category": "Rock Relief",
+    "period": "Early Bronze Age",
+    "description": "Rock carvings at and inside a hillside cave by Gunduk village, now dated to the mid-3rd millennium BC (Early Dynastic III or Akkadian). Two of three known reliefs were wrecked by an explosion in 1994; a fourth carving was identified later.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Columbia MCID — Gunduk Reliefs",
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/gunduk-reliefs",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Reade & Anderson 2013, Zeitschrift für Assyriologie 103 — Gunduk, Khanes, Gaugamela, Gali Zardak",
+        "url": "https://doi.org/10.1515/za-2013-0008",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gunduk-cave-reliefs",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Kondak Cave",
+      "Gundik",
+      "Gondak"
+    ],
+    "approximateLocation": "Gunduk (Kondak) village, Akre district",
+    "estimated_year": "mid-3rd millennium BC",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate."
+  },
+  {
+    "id": "site-duhok-mar-oudisho-kondak",
+    "name": "Church of Mar Oudisho, Kondak",
+    "governorate": "Duhok",
+    "category": "Church",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A church in Kondak village near the Gunduk cave, included in Duhok’s 2026 restoration programme.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-oudisho-kondak",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mar Odisho Church, Gunduk"
+    ],
+    "approximateLocation": "Kondak, Akre district",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate."
+  },
+  {
+    "id": "site-duhok-kalati-mosque-companions",
+    "name": "Mosque of the Companions, Kalati",
+    "governorate": "Duhok",
+    "category": "Mosque",
+    "period": "",
+    "period_status": "not-established",
+    "description": "An old mosque in Kalati village in Akre district under restoration in 2026.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News, 27 January 2026 — Duhok begins restoration of six key archaeological sites",
+        "url": "https://shafaq.com/en/Kurdistan/Duhok-begins-restoration-of-six-key-archaeological-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kalati-mosque-companions",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mizgefta Sehaban",
+      "Masjid al-Sahaba"
+    ],
+    "approximateLocation": "Kalati, Akre district",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate."
+  },
+  {
+    "id": "site-duhok-gali-zardak",
+    "name": "Gali Zardak Rock Sculptures",
+    "governorate": "Duhok",
+    "category": "Rock Relief",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Rock-cut sculptures discussed by Reade and Anderson with the Gunduk and Khinis carvings around the Navkur plain.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Reade & Anderson 2013, Zeitschrift für Assyriologie 103 — Gunduk, Khanes, Gaugamela, Gali Zardak",
+        "url": "https://doi.org/10.1515/za-2013-0008",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gali-zardak",
+    "discovery_batch": "duhok-2026-11-03",
+    "approximateLocation": "Near Akre",
+    "administrative_note": "Akre district: administered by the Kurdistan Region from Duhok; partly claimed by Nineveh Governorate.",
+    "review_notes": "Only the article title and abstract were seen; nature and date of the carvings need the full text."
+  },
+  {
+    "id": "site-nineveh-khinnis-reliefs",
+    "name": "Khinnis Reliefs",
+    "governorate": "Nineveh",
+    "category": "Rock Relief",
+    "period": "Neo-Assyrian",
+    "description": "Rock reliefs and the head-works of Sennacherib’s canal on the Gomel river, carved around 690 BC. The canal carried water about 51 km towards Nineveh; the University of Udine has documented and conserved the complex.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Khinnis Reliefs",
+        "url": "https://en.wikipedia.org/wiki/Khinnis_Reliefs",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Kurdistan24, 20 July 2026 — Restoration campaign across Duhok",
+        "url": "https://www.kurdistan24.net/en/story/926986",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q104874183 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q104874183",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khinnis-reliefs",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Khanes",
+      "Khinis",
+      "Bavian",
+      "Bawian",
+      "خنس"
+    ],
+    "approximateLocation": "Khinis village, Gomel river",
+    "estimated_year": "c. 690 BC",
+    "latitude": 36.758667,
+    "longitude": 43.425442,
+    "coordinates_source": "wikidata:Q104874183",
+    "coordinates_precision": "site",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+  },
+  {
+    "id": "site-nineveh-jerwan-aqueduct",
+    "name": "Jerwan Aqueduct",
+    "governorate": "Nineveh",
+    "category": "Archaeological Site",
+    "period": "Neo-Assyrian",
+    "description": "A stone aqueduct of 703–690 BC that carried Sennacherib’s Atrush canal across a wadi on its way to Nineveh. The Oriental Institute excavated it in 1933; it is part of the planned Jerwan–Faida archaeological park.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Jerwan",
+        "url": "https://en.wikipedia.org/wiki/Jerwan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Kurdistan24, 20 July 2026 — Restoration campaign across Duhok",
+        "url": "https://www.kurdistan24.net/en/story/926986",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q17064815 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q17064815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "jerwan-aqueduct",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Jarwana",
+      "جراونة",
+      "Sennacherib’s aqueduct"
+    ],
+    "approximateLocation": "Jerwan, Shekhan district",
+    "estimated_year": "c. 695 BC",
+    "latitude": 36.669722,
+    "longitude": 43.393611,
+    "coordinates_source": "wikidata:Q17064815",
+    "coordinates_precision": "site",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+  },
+  {
+    "id": "site-nineveh-baadre-mir-castle",
+    "name": "Castle of the Mir, Baadre",
+    "governorate": "Nineveh",
+    "category": "Castle",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Baadre is the historic seat of the Yazidi princes of Sheikhan, and the castle of the princely family stands there. The town, ancient Beth ʿEdrai, hosted a Church of the East synod in 485 AD.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baadre",
+        "url": "https://en.wikipedia.org/wiki/Baadre",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4837020 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4837020",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baadre-mir-castle",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Ba’adra",
+      "Baedrê",
+      "Beth ʿEdrai",
+      "Quba Haji Ali temple",
+      "Khiz Rahman shrine"
+    ],
+    "approximateLocation": "Baadre, Shekhan district",
+    "latitude": 36.718333,
+    "longitude": 43.254444,
+    "coordinates_source": "wikidata:Q4837020",
+    "coordinates_precision": "settlement",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+  },
+  {
+    "id": "site-nineveh-ain-sifni-shrines",
+    "name": "Yazidi Shrines of Ain Sifni",
+    "governorate": "Nineveh",
+    "category": "Shrine",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Ain Sifni (Shekhan town) has seven Yazidi religious monuments, among them the mausoleums of Sheikh ʿAlî Chamse and Sheikh Hantuch and shrines of Sheikh Adi, Nishingaha Peroz and Sheikh Mushelleh, besides the churches of Mar Yousif and Mar Gewargis.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Ain Sifni",
+        "url": "https://en.wikipedia.org/wiki/Ain_Sifni",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — List of Yazidi holy places",
+        "url": "https://en.wikipedia.org/wiki/List_of_Yazidi_holy_places",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Mesopotamia Heritage — The Yazidi mausoleums in Ain Sifni",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/les-mausolees-yezidis-de-ain-sifni/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4058903 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4058903",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ain-sifni-shrines",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Shekhan",
+      "Şêxan",
+      "Êsivnê",
+      "Nishingaha Peroz"
+    ],
+    "approximateLocation": "Ain Sifni, Shekhan district",
+    "latitude": 36.695833,
+    "longitude": 43.351944,
+    "coordinates_source": "wikidata:Q4058903",
+    "coordinates_precision": "settlement",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+  },
+  {
+    "id": "site-nineveh-gir-e-gomel",
+    "name": "Gir-e Gomel",
+    "governorate": "Nineveh",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell in the Navkur plain excavated since 2017 by a joint Kurdish–Italian team (KIGAP) with the Duhok antiquities directorate. The Navkur plain is the probable setting of the battle of Gaugamela in 331 BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Italian archaeologists make extraordinary discovery at Kurdistan Region site",
+        "url": "https://www.kurdistan24.net/en/photo-story/381686",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Reade & Anderson 2013, Zeitschrift für Assyriologie 103",
+        "url": "https://doi.org/10.1515/za-2013-0008",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "gir-e-gomel",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Gire Gomel",
+      "Tell Gomel",
+      "Gaugamela (proposed area)"
+    ],
+    "approximateLocation": "Navkur plain",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate.",
+    "review_notes": "Exact district not confirmed; link to Gaugamela is regional, not a site identification."
+  },
+  {
+    "id": "site-nineveh-mohamed-rashan-shrine",
+    "name": "Shrine of Mohamed Rashan, Bardarash",
+    "governorate": "Nineveh",
+    "category": "Shrine",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A Yazidi shrine on a mountainside facing the Erbil–Duhok road near Bardarash.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — List of Yazidi holy places",
+        "url": "https://en.wikipedia.org/wiki/List_of_Yazidi_holy_places",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q4121860 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4121860",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mohamed-rashan-shrine",
+    "discovery_batch": "duhok-2026-11-03",
+    "alternativeNames": [
+      "Mehmed Reşan",
+      "Mam Rashan (Bardarash)"
+    ],
+    "approximateLocation": "Bardarash",
+    "latitude": 36.503389,
+    "longitude": 43.587222,
+    "coordinates_source": "wikidata:Q4121860",
+    "coordinates_precision": "settlement",
+    "administrative_note": "Bardarash district: administered by the Kurdistan Region; de jure part of Nineveh Governorate.",
+    "review_notes": "Distinct from the Mam Rashan shrine in Sinjar."
+  }
+]

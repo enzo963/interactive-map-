@@ -1,0 +1,3866 @@
+[
+  {
+    "id": "site-baghdad-round-city",
+    "name": "Round City of Baghdad (Madinat al-Salam)",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Abbasid",
+    "description": "The circular core of Baghdad built by Caliph al-Mansur in 762–766 as the City of Peace, with four gates to Kufa, Damascus, Khurasan and Basra and the caliphal palace at its centre. Its remains lie under the modern city.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Round City of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Round_City_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q1191316 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1191316",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Baghdad i. The Iranian connection before the Mongol invasion",
+        "url": "https://www.iranicaonline.org/articles/baghdad/baghdad-iranian-connection-i-pr-mongol/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "round-city",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Madinat al-Salam",
+      "City of Peace",
+      "مدينة السلام",
+      "مدينة بغداد المدورة"
+    ],
+    "approximateLocation": "Karkh, west bank",
+    "estimated_year": 762,
+    "destruction_status": "Disappeared; no standing remains",
+    "latitude": 33.3475,
+    "longitude": 44.335,
+    "coordinates_source": "wikidata:Q1191316",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-khuld-palace",
+    "name": "Khuld Palace (site)",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "A principal early Abbasid palace begun by al-Mansur in 773 between the Round City and the Tigris, with extensive gardens; its site is now occupied by modern buildings.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Khuld Palace",
+        "url": "https://en.wikipedia.org/wiki/Khuld_Palace",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q65081154 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q65081154",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khuld-palace",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Qasr al-Khuld",
+      "Palace of Eternity",
+      "قصر الخلد"
+    ],
+    "approximateLocation": "West bank of the Tigris",
+    "estimated_year": 773,
+    "parentSite": "site-baghdad-round-city",
+    "destruction_status": "Disappeared",
+    "latitude": 33.35,
+    "longitude": 44.366667,
+    "coordinates_source": "wikidata:Q65081154",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-taj-palace",
+    "name": "Taj Palace (site)",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "A caliphal palace begun by al-Mu‘tadid (892–902) on the Tigris in East Baghdad, the southern part of the Dar al-Khilafa palace complex after the capital returned from Samarra.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Taj Palace",
+        "url": "https://en.wikipedia.org/wiki/Taj_Palace",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q65069409 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q65069409",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "taj-palace",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Qasr al-Taj",
+      "Palace of the Crown",
+      "قصر التاج"
+    ],
+    "approximateLocation": "Rusafa riverbank",
+    "estimated_year": "c. 900",
+    "destruction_status": "Disappeared",
+    "latitude": 33.333333,
+    "longitude": 44.397222,
+    "coordinates_source": "wikidata:Q65069409",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-adudi-hospital",
+    "name": "Al-‘Adudi Bimaristan (site)",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "Buyid",
+    "description": "One of the most advanced hospitals of the medieval Islamic world, founded by the Buyid ruler ‘Adud al-Dawla in West Baghdad shortly before his death in 983, and a centre of medical teaching.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-'Adudi Hospital",
+        "url": "https://en.wikipedia.org/wiki/Al-%27Adudi_Hospital",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4116635 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4116635",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "adudi-hospital",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Bimaristan al-Adudi",
+      "البيمارستان العضدي"
+    ],
+    "approximateLocation": "West bank of the Tigris",
+    "estimated_year": 982,
+    "destruction_status": "Disappeared",
+    "latitude": 33.35,
+    "longitude": 44.366667,
+    "coordinates_source": "wikidata:Q4116635",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-ctesiphon",
+    "name": "Ctesiphon",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Parthian–Sasanian",
+    "description": "The Parthian and Sasanian royal capital on the east bank of the Tigris 35 km south-east of Baghdad, capital of the Iranian empires for over 800 years until the Muslim conquest in 637.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Ctesiphon",
+        "url": "https://en.wikipedia.org/wiki/Ctesiphon",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q192541 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q192541",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Ctesiphon",
+        "url": "https://www.iranicaonline.org/articles/ctesiphon/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Madāʾen (Sasanian metropolitan area)",
+        "url": "https://www.iranicaonline.org/articles/madaen-sasanian-metropolitan-area/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ctesiphon",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Taysafun",
+      "al-Mada’in",
+      "قطيسفون",
+      "المدائن"
+    ],
+    "approximateLocation": "Salman Pak",
+    "latitude": 33.093611,
+    "longitude": 44.580833,
+    "coordinates_source": "wikidata:Q192541",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-taq-kasra",
+    "name": "Taq Kasra (Arch of Ctesiphon)",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Sasanian",
+    "description": "The great brick iwan that formed the façade of the main Sasanian palace at Ctesiphon, the only visible structure of the capital and a landmark in the history of vaulted architecture.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Taq Kasra",
+        "url": "https://en.wikipedia.org/wiki/Taq_Kasra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q1486703 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1486703",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "taq-kasra",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Iwan of Khosrow",
+      "Taq-i Kisra",
+      "طاق كسرى"
+    ],
+    "approximateLocation": "Salman Pak",
+    "estimated_year": "6th century",
+    "parentSite": "site-baghdad-ctesiphon",
+    "latitude": 33.093722,
+    "longitude": 44.580722,
+    "coordinates_source": "wikidata:Q1486703",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-seleucia-on-tigris",
+    "name": "Seleucia on the Tigris",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Hellenistic–Parthian",
+    "description": "The first capital of the Seleucid Empire, founded about 305 BC on the west bank of the Tigris; it flourished under the Parthians and was destroyed by the Romans in AD 165.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Seleucia",
+        "url": "https://en.wikipedia.org/wiki/Seleucia",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q1136681 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1136681",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Ctesiphon",
+        "url": "https://www.iranicaonline.org/articles/ctesiphon/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "seleucia-on-tigris",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Seleucia ad Tigrim",
+      "Tell Umar",
+      "سلوقية"
+    ],
+    "approximateLocation": "West bank opposite Ctesiphon",
+    "estimated_year": "c. 305 BC",
+    "latitude": 33.1,
+    "longitude": 44.52,
+    "coordinates_source": "wikidata:Q1136681",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-kokhe-church",
+    "name": "Church of Kokhe",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Late Antique to Abbasid",
+    "description": "Ruins of the church at Kokhe, successor to Seleucia, seat of the Catholicos of the Church of the East from 310 to 780 and starting point of missions to Persia, India and China; around twenty patriarchal graves remain.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Church in Kokhe",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-assyrienne-de-kokhe/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kokhe-church",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Koche",
+      "Kokhe"
+    ],
+    "approximateLocation": "West bank of the Tigris, 32 km south of Baghdad",
+    "estimated_year": "4th century",
+    "latitude": 33.099139,
+    "longitude": 44.551972,
+    "coordinates_source": "mesopotamiaheritage:kokhe-church",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-dur-kurigalzu",
+    "name": "Dur-Kurigalzu (Aqar Quf)",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Kassite",
+    "description": "A Kassite royal city founded by Kurigalzu I (d. c. 1375 BC) 30 km west of central Baghdad, whose ziggurat core still stands at Aqar Quf.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dur-Kurigalzu",
+        "url": "https://en.wikipedia.org/wiki/Dur-Kurigalzu",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q622719 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q622719",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "UNESCO World Heritage Centre — Archaeological site of Aqar Quf (ancient Dur-Kurigalzu), Tentative List",
+        "url": "https://whc.unesco.org/en/tentativelists/6797/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dur-kurigalzu",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Aqar Quf",
+      "Agargouf",
+      "زقورة عقرقوف"
+    ],
+    "approximateLocation": "Aqar Quf, west of Baghdad",
+    "estimated_year": "c. 1390 BC",
+    "latitude": 33.35372,
+    "longitude": 44.20229,
+    "coordinates_source": "wikidata:Q622719",
+    "coordinates_precision": "site",
+    "heritage_status": "On the UNESCO World Heritage Tentative List (added 31 January 2025)"
+  },
+  {
+    "id": "site-baghdad-sippar",
+    "name": "Sippar (Tell Abu Habbah)",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Early Dynastic to Neo-Babylonian",
+    "description": "A Sumerian and Babylonian city of the sun god Shamash on the Euphrates near Yusufiyah, 30 km south-west of Baghdad.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Sippar",
+        "url": "https://en.wikipedia.org/wiki/Sippar",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q619707 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q619707",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sippar",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Tell Abu Habbah",
+      "Zimbir",
+      "Sippar-Yahrurum"
+    ],
+    "approximateLocation": "Near Yusufiyah",
+    "latitude": 33.058829,
+    "longitude": 44.252153,
+    "coordinates_source": "wikidata:Q619707",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-sippar-amnanum",
+    "name": "Sippar-Amnanum (Tell ed-Der)",
+    "governorate": "Baghdad",
+    "category": "Archaeological City",
+    "period": "Akkadian to Old Babylonian",
+    "description": "Sippar’s sister city 6 km to the north-east, mainly developed in the Old Babylonian period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Sippar-Amnanum",
+        "url": "https://en.wikipedia.org/wiki/Sippar-Amnanum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7525818 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7525818",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "German Archaeological Institute library (Zenon) — Van Lerberghe and Voet, Sippar-Amnānum: the Ur-Utu archive (Ghent, 1991)",
+        "url": "https://zenon.dainst.org/Record/000145595",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sippar-amnanum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Tell ed-Der",
+      "Sippar-Annunitum"
+    ],
+    "approximateLocation": "South-west of Baghdad",
+    "latitude": 33.09979,
+    "longitude": 44.29833,
+    "coordinates_source": "wikidata:Q7525818",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-tell-harmal",
+    "name": "Tell Harmal (Shaduppum)",
+    "governorate": "Baghdad",
+    "category": "Archaeological Site",
+    "period": "Old Babylonian",
+    "description": "An Old Babylonian administrative town of the kingdom of Eshnunna inside modern Baghdad, known for its tablets.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Shaduppum",
+        "url": "https://en.wikipedia.org/wiki/Shaduppum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q3481186 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3481186",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-harmal",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Shaduppum",
+      "Tell Abu Harmal",
+      "تل حرمل"
+    ],
+    "approximateLocation": "New Baghdad",
+    "latitude": 33.366667,
+    "longitude": 44.466667,
+    "coordinates_source": "wikidata:Q3481186",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-tell-muhammad",
+    "name": "Tell Muhammad",
+    "governorate": "Baghdad",
+    "category": "Archaeological Site",
+    "period": "Old Babylonian",
+    "description": "An ancient mound on the Tigris near Tell Harmal, suggested as Diniktum.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Muhammad",
+        "url": "https://en.wikipedia.org/wiki/Tell_Muhammad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q125343267 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q125343267",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-muhammad",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Diniktum (proposed)",
+      "تل محمد"
+    ],
+    "approximateLocation": "South-east Baghdad",
+    "latitude": 33.3,
+    "longitude": 44.469444,
+    "coordinates_source": "wikidata:Q125343267",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-tell-al-dhibai",
+    "name": "Tell al-Dhiba‘i",
+    "governorate": "Baghdad",
+    "category": "Archaeological Site",
+    "period": "Old Babylonian",
+    "description": "A site in New Baghdad proposed as the Old Babylonian town of Uzarzalulu.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell al-Dhiba'i",
+        "url": "https://en.wikipedia.org/wiki/Tell_al-Dhiba%27i",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28716833 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28716833",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-al-dhibai",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Uzarzalulu (proposed)",
+      "تل الضباعي"
+    ],
+    "approximateLocation": "New Baghdad",
+    "latitude": 33.31,
+    "longitude": 44.48,
+    "coordinates_source": "wikidata:Q28716833",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-baghdad-bab-al-wastani",
+    "name": "Bab al-Wastani",
+    "governorate": "Baghdad",
+    "category": "Gate",
+    "period": "Abbasid",
+    "description": "The only surviving gate of Baghdad’s eastern wall, built under Caliph al-Mustazhir (1094–1118), near the Suhrawardi mausoleum and the Wardiyya cemetery. It was restored in the 20th century and later housed military museums.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bab al-Wastani",
+        "url": "https://en.wikipedia.org/wiki/Bab_al-Wastani",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Gates of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Gates_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q138647434 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q138647434",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Bab al-Wastani",
+        "url": "https://www.archnet.org/sites/4326",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bab-al-wastani",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Bab al-Dhafariyya",
+      "Middle Gate",
+      "باب الوسطاني"
+    ],
+    "approximateLocation": "Muhammad al-Qasim highway, Rusafa",
+    "estimated_year": "c. 1100",
+    "latitude": 33.351868,
+    "longitude": 44.404131,
+    "coordinates_source": "wikidata:Q138647434",
+    "coordinates_precision": "site",
+    "review_notes": "Pin from an unlabelled Wikidata city-gate item next to the Suhrawardi mausoleum; confirm identity. Archnet dates the gate to 1221 (618 AH), under al-Nasir; the card attributes it to al-Mustazhir (c. 1100). Possibly the wall and a later rebuilding of the gate; check."
+  },
+  {
+    "id": "site-baghdad-talisman-gate",
+    "name": "Talisman Gate (site)",
+    "governorate": "Baghdad",
+    "category": "Gate",
+    "period": "Abbasid",
+    "description": "A gate of the eastern wall described by Ibn Jubayr in 1185 and restored in 1220 by Caliph al-Nasir with decorative friezes and an inscription in his name. Murad IV bricked it up in 1638, and Ottoman troops destroyed it as they withdrew in 1917.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Gates of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Gates_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Bab al-Talsim",
+        "url": "https://www.archnet.org/sites/3832",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "talisman-gate",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Bab al-Talsim",
+      "Bab Halba",
+      "White Gate",
+      "باب الطلسم"
+    ],
+    "approximateLocation": "Eastern wall, Rusafa",
+    "estimated_year": 1220,
+    "destruction_status": "Destroyed (1917)",
+    "review_notes": "Archnet gives 1221 for the inscription; the card says 1220."
+  },
+  {
+    "id": "site-baghdad-bab-al-muadham",
+    "name": "Bab al-Mu‘adham",
+    "governorate": "Baghdad",
+    "category": "Gate",
+    "period": "Abbasid; Ottoman",
+    "description": "One of four gates built under Caliph al-Mustarshid in the late Abbasid wall, later the Ottoman gate towards the Abu Hanifa mosque. The gate itself was demolished after 1917; the district between the Sarafiya and Sinak bridges keeps late-Ottoman and later buildings.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bab al-Mu'adham",
+        "url": "https://en.wikipedia.org/wiki/Bab_al-Mu%27adham",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Gates of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Gates_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bab-al-muadham",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Bab al-Moatham",
+      "Bab al-Sultan",
+      "باب المعظم"
+    ],
+    "approximateLocation": "North Rusafa",
+    "destruction_status": "Gate demolished after 1917",
+    "review_notes": "Wikidata coordinates (33.315, 44.366) point to Karkh and were not used."
+  },
+  {
+    "id": "site-baghdad-abu-hanifa-mosque",
+    "name": "Abu Hanifa Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Abbasid foundation; later rebuildings",
+    "description": "The great mosque and shrine of A‘dhamiyya built around the tomb of Abu Hanifa, founder of the Hanafi school, rebuilt many times over the centuries.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Abu Hanifa Mosque",
+        "url": "https://en.wikipedia.org/wiki/Abu_Hanifa_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q334716 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q334716",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "abu-hanifa-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Grand Imam Mosque",
+      "جامع الإمام الأعظم"
+    ],
+    "approximateLocation": "A‘dhamiyya",
+    "latitude": 33.371981,
+    "longitude": 44.358406,
+    "coordinates_source": "wikidata:Q334716",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-kadhimiya-shrine",
+    "name": "Al-Kadhimiya Shrine",
+    "governorate": "Baghdad",
+    "category": "Shrine",
+    "period": "Abbasid foundation; later rebuildings",
+    "description": "The shrine of the seventh and ninth Twelver Imams, Musa al-Kadhim and Muhammad al-Jawad, where Shaykh al-Mufid and Nasir al-Din al-Tusi are also buried.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Kazimiyya Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Kazimiyya_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q154116 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q154116",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Mashhad al-Kazimiyya",
+        "url": "https://www.archnet.org/sites/3848",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kadhimiya-shrine",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Kadhimiyya Mosque",
+      "العتبة الكاظمية"
+    ],
+    "approximateLocation": "Kadhimiya",
+    "latitude": 33.37997,
+    "longitude": 44.33796,
+    "coordinates_source": "wikidata:Q154116",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-hadhrat-al-qadiriyya",
+    "name": "Hadhrat al-Qadiriyya",
+    "governorate": "Baghdad",
+    "category": "Shrine",
+    "period": "Abbasid foundation; Ottoman",
+    "description": "The mausoleum, mosque and library of Abd al-Qadir al-Gilani, founder of the Qadiriyya Sufi order, in Bab al-Sheikh; the Qadiriyya library holds rare manuscripts.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Hadhrat al-Qadiriyya",
+        "url": "https://en.wikipedia.org/wiki/Hadhrat_al-Qadiriyya",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12186500 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12186500",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' 'Abd al-Qadir al-Jaylani",
+        "url": "https://www.archnet.org/sites/3849",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hadhrat-al-qadiriyya",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Abd al-Qadir al-Gilani shrine",
+      "الحضرة القادرية",
+      "Mazar Ghous"
+    ],
+    "approximateLocation": "Bab al-Sheikh",
+    "latitude": 33.33645,
+    "longitude": 44.40799,
+    "coordinates_source": "wikidata:Q12186500",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-khulafa-mosque",
+    "name": "Al-Khulafa Mosque and Suq al-Ghazl Minaret",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Abbasid; Ilkhanid minaret",
+    "description": "Baghdad’s oldest surviving mosque site, first built in 908. Its Ilkhanid minaret, once the highest point of the city, survives beside a 1960s rebuilding.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Khulafa Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Khulafa_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204233 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204233",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' al-Khulafa",
+        "url": "https://www.archnet.org/sites/27",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Suq al-Ghazl Minaret",
+        "url": "https://www.archnet.org/sites/3842",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-khulafa-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Qasr Mosque",
+      "Suq al-Ghazl minaret",
+      "جامع الخلفاء"
+    ],
+    "approximateLocation": "Jumhuriya Street",
+    "estimated_year": 908,
+    "latitude": 33.339123,
+    "longitude": 44.397691,
+    "coordinates_source": "wikidata:Q12204233",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-qamariyya-mosque",
+    "name": "Qamariyya Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Late Abbasid",
+    "description": "A late-Abbasid mosque on the Karkh bank of the Tigris, one of the oldest in Baghdad, renovated repeatedly but keeping its architectural character.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Qamariyya Mosque",
+        "url": "https://en.wikipedia.org/wiki/Qamariyya_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q20410890 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20410890",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "qamariyya-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع قمرية"
+    ],
+    "approximateLocation": "Karkh riverbank",
+    "latitude": 33.339722,
+    "longitude": 44.383056,
+    "coordinates_source": "wikidata:Q20410890",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-zumurrud-khatun-mausoleum",
+    "name": "Zumurrud Khatun Mausoleum",
+    "governorate": "Baghdad",
+    "category": "Mausoleum",
+    "period": "Abbasid",
+    "description": "The muqarnas-domed tomb of Zumurrud Khatun, wife of Caliph al-Mustadi and mother of al-Nasir, in the Sheikh Ma‘ruf cemetery; popularly called the tomb of Sitt Zubayda.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Zumurrud Khatun Mosque and Mausoleum",
+        "url": "https://en.wikipedia.org/wiki/Zumurrud_Khatun_Mosque_and_Mausoleum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q22689849 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q22689849",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Turba Zumurrud Khatun",
+        "url": "https://www.archnet.org/sites/1696",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Zumurrud Khatun",
+        "url": "https://www.archnet.org/sites/4358",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "zumurrud-khatun-mausoleum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Tomb of Sitt Zubayda",
+      "قبر زمرد خاتون"
+    ],
+    "approximateLocation": "Sheikh Ma‘ruf cemetery, Karkh",
+    "estimated_year": "c. 1200",
+    "latitude": 33.331626,
+    "longitude": 44.372893,
+    "coordinates_source": "wikidata:Q22689849",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-suhrawardi-mausoleum",
+    "name": "Mausoleum of Umar al-Suhrawardi",
+    "governorate": "Baghdad",
+    "category": "Mausoleum",
+    "period": "Abbasid",
+    "description": "The Abbasid-era conical muqarnas-domed tomb of Shihab al-Din Umar al-Suhrawardi, founder of the Suhrawardiyya order, near Bab al-Wastani.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mausoleum of Umar Suhrawardi",
+        "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Umar_Suhrawardi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28716432 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28716432",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Darih al-Suhrawardi",
+        "url": "https://www.archnet.org/sites/4329",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "suhrawardi-mausoleum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع الشيخ عمر السهروردي"
+    ],
+    "approximateLocation": "Near Bab al-Wastani",
+    "estimated_year": "13th century",
+    "latitude": 33.350556,
+    "longitude": 44.401944,
+    "coordinates_source": "wikidata:Q28716432",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-mustasim-billah-mosque",
+    "name": "Al-Musta‘sim Billah Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Abbasid",
+    "description": "A shrine-mosque in A‘dhamiyya, originally Mashhad al-Wu‘ud over the grave of Ahmad al-Sabti, son of Harun al-Rashid, which holds the tomb of the last Abbasid caliph, al-Musta‘sim.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Musta'sim Billah Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Musta%27sim_Billah_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q42331281 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q42331281",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mustasim-billah-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Abu Rabi‘ah Mosque",
+      "Mashhad al-Wu‘ud"
+    ],
+    "approximateLocation": "A‘dhamiyya",
+    "latitude": 33.371456,
+    "longitude": 44.363286,
+    "coordinates_source": "wikidata:Q42331281",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-arif-agha-mosque",
+    "name": "Arif Agha Mosque (Imam Ahmad ibn Hanbal)",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A small Ottoman mosque with the mausoleum purported to hold Ahmad ibn Hanbal (780–855), moved there after a flood destroyed his original grave.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Arif Agha Mosque, Iraq",
+        "url": "https://en.wikipedia.org/wiki/Arif_Agha_Mosque%2C_Iraq",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q125447828 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q125447828",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "arif-agha-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Imam Ahmad ibn Hanbal Mosque",
+      "مسجد عارف آغا"
+    ],
+    "approximateLocation": "Rusafa",
+    "latitude": 33.344444,
+    "longitude": 44.388056,
+    "coordinates_source": "wikidata:Q125447828",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-buratha-mosque",
+    "name": "Buratha Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Early Islamic (tradition)",
+    "description": "A Twelver Shi‘i holy site in Karkh traditionally founded in the 7th century over a Nestorian monastery.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Buratha Mosque",
+        "url": "https://en.wikipedia.org/wiki/Buratha_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204312 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204312",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "buratha-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع براثا"
+    ],
+    "approximateLocation": "Karkh",
+    "latitude": 33.350944,
+    "longitude": 44.361028,
+    "coordinates_source": "wikidata:Q12204312",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-mirjan-mosque",
+    "name": "Mirjan Mosque (Madrasa al-Mirjaniyya)",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Jalayirid",
+    "description": "The walled mosque of the madrasa founded in 1356 by the Jalayirid governor Amin al-Din Mirjan, with the tombs of scholars such as Nu‘man al-Alusi.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mirjan Mosque",
+        "url": "https://en.wikipedia.org/wiki/Mirjan_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204368 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204368",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Madrasa al-Mirjaniyya",
+        "url": "https://www.archnet.org/sites/3844",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mirjan-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Madrasa al-Mirjaniyya",
+      "جامع مرجان"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "estimated_year": 1356,
+    "latitude": 33.339,
+    "longitude": 44.3935,
+    "coordinates_source": "wikidata:Q12204368",
+    "coordinates_precision": "site",
+    "review_notes": "Archnet says Mirjan was buried here in 1372 and describes the building as now destroyed; check whether that refers to the demolished madrasa or the surviving mosque."
+  },
+  {
+    "id": "site-baghdad-al-sarai-mosque",
+    "name": "Al-Sarai Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Abbasid; Ottoman",
+    "description": "A mosque said to have been laid out by Caliph al-Nasir in 1193 near Bab al-Sultan, rebuilt by Hassan Pasha; the kings of Iraq prayed here in the royal era.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Sarai Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Sarai_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204245 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204245",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-sarai-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Hassan Pasha Mosque",
+      "King Ghazi Mosque",
+      "جامع السراي"
+    ],
+    "approximateLocation": "Zuqaq al-Sarai",
+    "estimated_year": 1193,
+    "latitude": 33.3417,
+    "longitude": 44.3867,
+    "coordinates_source": "wikidata:Q12204245",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-muradiyya-mosque",
+    "name": "Al-Muradiyya Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "An early Ottoman mosque begun in 1566 by Murad Pasha on al-Maidan Square, whose minaret some consider the most beautiful in Baghdad.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Muradiyya Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Muradiyya_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204288 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204288",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Murad Basha",
+        "url": "https://www.archnet.org/sites/3850",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-muradiyya-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Murad Pasha Mosque",
+      "جامع المرادية"
+    ],
+    "approximateLocation": "Al-Maidan Square",
+    "estimated_year": 1566,
+    "latitude": 33.345451,
+    "longitude": 44.384826,
+    "coordinates_source": "wikidata:Q12204288",
+    "coordinates_precision": "site",
+    "review_notes": "Archnet dates the mosque to 1578 from its inscription; the card gives 1566 as the start."
+  },
+  {
+    "id": "site-baghdad-uzbek-mosque",
+    "name": "Uzbek Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A 17th-century mosque of Baghdad’s Uzbek community beside al-Maidan.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Uzbek Mosque",
+        "url": "https://en.wikipedia.org/wiki/Uzbek_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204185 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204185",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "uzbek-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Azbak Mosque",
+      "جامع الأزبك"
+    ],
+    "approximateLocation": "Al-Maidan",
+    "estimated_year": "17th century",
+    "latitude": 33.3463,
+    "longitude": 44.3833,
+    "coordinates_source": "wikidata:Q12204185",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-ahmadiyya-mosque",
+    "name": "Mosque-Madrasa of al-Ahmadiyya",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman (Mamluk)",
+    "description": "A mosque and madrasa built in 1796 by Ahmad al-Katkhuda, deputy of the Mamluk ruler Sulayman the Great, on al-Rashid Street at al-Maidan.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mosque-Madrasa of al-Ahmadiyya",
+        "url": "https://en.wikipedia.org/wiki/Mosque-Madrasa_of_al-Ahmadiyya",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204184 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204184",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' al-Ahmadiyya",
+        "url": "https://www.archnet.org/sites/3852",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-ahmadiyya-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Maidan Mosque",
+      "جامع الأحمدية"
+    ],
+    "approximateLocation": "Al-Maidan",
+    "estimated_year": 1796,
+    "latitude": 33.343611,
+    "longitude": 44.385833,
+    "coordinates_source": "wikidata:Q12204184",
+    "coordinates_precision": "site",
+    "review_notes": "Archnet says Ahmad Pasha, the Ottoman governor, began it in 1780 and his brother Abdallah Bey finished it in 1796; the card names Ahmad al-Katkhuda as builder in 1796."
+  },
+  {
+    "id": "site-baghdad-haydar-khana-mosque",
+    "name": "Haydar-Khana Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Abbasid origin; Ottoman (Mamluk)",
+    "description": "A 19th-century mosque and madrasa by the Mamluk governor Dawud Pasha on a 12th-century mosque of Caliph al-Nasir; a forum of anti-British agitation in 1920.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Haydar-Khana Mosque",
+        "url": "https://en.wikipedia.org/wiki/Haydar-Khana_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204223 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204223",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami' Haydar Khanah",
+        "url": "https://www.archnet.org/sites/3854",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "haydar-khana-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع الحيدرخانة"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "estimated_year": "19th century",
+    "latitude": 33.342545,
+    "longitude": 44.389423,
+    "coordinates_source": "wikidata:Q12204223",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-adila-khatun-mosque",
+    "name": "Adila Khatun Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman (Mamluk)",
+    "description": "A mosque founded by Adila Khatun, daughter of the Mamluk ruler Ahmad Pasha, near the Sarafiya bridge.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Adila Khatun Mosque",
+        "url": "https://en.wikipedia.org/wiki/Adila_Khatun_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28716074 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28716074",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "adila-khatun-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع عادلة خاتون"
+    ],
+    "approximateLocation": "Doctors’ Quarter, Rusafa",
+    "estimated_year": "18th century",
+    "latitude": 33.352013,
+    "longitude": 44.379085,
+    "coordinates_source": "wikidata:Q28716074",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-khilani-mosque",
+    "name": "Al-Khilani Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A Shi‘i mosque with an old shrine of disputed identity, once in the vanished Khilani cemetery; first recorded in 1726.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Khilani Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Khilani_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6756164 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6756164",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-khilani-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع الخلاني"
+    ],
+    "approximateLocation": "Khilani Square",
+    "estimated_year": 1726,
+    "latitude": 33.3335,
+    "longitude": 44.4052,
+    "coordinates_source": "wikidata:Q6756164",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-siraj-al-din-mosque",
+    "name": "Siraj al-Din Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman (Mamluk)",
+    "description": "A mosque of the Mamluk period under Hassan Pasha that names the Siraj al-Din quarter near the Qadiriyya shrine.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Siraj al-Din Mosque",
+        "url": "https://en.wikipedia.org/wiki/Siraj_al-Din_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q22686675 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q22686675",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "siraj-al-din-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع الشيخ سراج الدين"
+    ],
+    "approximateLocation": "Bab al-Sheikh",
+    "latitude": 33.3371,
+    "longitude": 44.4035,
+    "coordinates_source": "wikidata:Q22686675",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-sayyid-sultan-ali-mosque",
+    "name": "Sayyid Sultan Ali Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A mosque, madrasa and mausoleum on al-Rashid Street, headquarters of the Rifa‘i Sufi order in Baghdad, around a tomb of disputed identity.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Syed Sultan Ali Mosque",
+        "url": "https://en.wikipedia.org/wiki/Syed_Sultan_Ali_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q25450463 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q25450463",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sayyid-sultan-ali-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع سيد سلطان علي"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "latitude": 33.3324,
+    "longitude": 44.3983,
+    "coordinates_source": "wikidata:Q25450463",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-shabandar-mosque",
+    "name": "Shabandar Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A mosque completed in 1902 in A‘dhamiyya by the merchant Shabandar family.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Shabandar Mosque",
+        "url": "https://en.wikipedia.org/wiki/Shabandar_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q20424971 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20424971",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shabandar-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "مسجد الشابندر"
+    ],
+    "approximateLocation": "A‘dhamiyya",
+    "estimated_year": 1902,
+    "latitude": 33.371361,
+    "longitude": 44.355322,
+    "coordinates_source": "wikidata:Q20424971",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-fattah-pasha-mosque",
+    "name": "Fattah Pasha Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Royal era",
+    "description": "A congregational mosque in Kadhimiya built in the royal era by the sons of the Turkmen statesman Fattah Pasha.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Fattah Pasha Mosque",
+        "url": "https://en.wikipedia.org/wiki/Fattah_Pasha_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q20410871 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q20410871",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "fattah-pasha-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع فتاح باشا"
+    ],
+    "approximateLocation": "Kadhimiya",
+    "latitude": 33.37233,
+    "longitude": 44.34881,
+    "coordinates_source": "wikidata:Q20410871",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-shawy-mosque",
+    "name": "Al-Shawy Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Royal era",
+    "description": "A 1957 mosque in Karkh inaugurated in the presence of King Faisal II, noted for calligraphy by Hashem Muhammad al-Baghdadi.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Shawy Mosque",
+        "url": "https://en.wikipedia.org/wiki/Al-Shawy_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28714673 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28714673",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-shawy-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Khatib Mosque",
+      "جامع الشاوي"
+    ],
+    "approximateLocation": "Karkh",
+    "estimated_year": 1957,
+    "latitude": 33.3255,
+    "longitude": 44.3971,
+    "coordinates_source": "wikidata:Q28714673",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-ibn-bunnieh-mosque",
+    "name": "Ibn Bunnieh Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "20th century",
+    "description": "A modern Iraqi mosque with an egg-shaped dome and calligraphy by Hashem Muhammad al-Baghdadi, opposite Baghdad Central Station.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Ibn Bunnieh Mosque",
+        "url": "https://en.wikipedia.org/wiki/Ibn_Bunnieh_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12242715 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12242715",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "ibn-bunnieh-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Hajj al-Bunnieh Mosque",
+      "جامع ابن بنية"
+    ],
+    "approximateLocation": "Alawi, Karkh",
+    "latitude": 33.323705,
+    "longitude": 44.383568,
+    "coordinates_source": "wikidata:Q12242715",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-umm-al-tabul-mosque",
+    "name": "Umm al-Tabul Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "20th century",
+    "description": "A large mosque commemorating officers of the 1959 Mosul uprising, modelled on Cairo’s Citadel mosques.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Umm al-Tabul Mosque",
+        "url": "https://en.wikipedia.org/wiki/Umm_al-Tabul_Mosque",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12204308 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12204308",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "umm-al-tabul-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جامع أم الطبول"
+    ],
+    "approximateLocation": "Yarmouk",
+    "latitude": 33.287121,
+    "longitude": 44.344144,
+    "coordinates_source": "wikidata:Q12204308",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-salman-al-farsi-mosque",
+    "name": "Mosque of Salman al-Farsi",
+    "governorate": "Baghdad",
+    "category": "Shrine",
+    "period": "Early Islamic tomb; 1950 mosque",
+    "description": "The tomb of Salman the Persian, companion of the Prophet, at Salman Pak, with a mosque established over the older mausoleum in 1950.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mosque of Salman al-Farsi",
+        "url": "https://en.wikipedia.org/wiki/Mosque_of_Salman_al-Farsi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q40376648 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q40376648",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "salman-al-farsi-mosque",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Salman Pak shrine",
+      "مرقد سلمان الفارسي"
+    ],
+    "approximateLocation": "Salman Pak",
+    "latitude": 33.098333,
+    "longitude": 44.581111,
+    "coordinates_source": "wikidata:Q40376648",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-baba-nanak-shrine",
+    "name": "Baba Nanak Shrine",
+    "governorate": "Baghdad",
+    "category": "Shrine",
+    "period": "Ottoman (16th century)",
+    "description": "A Sikh shrine marking where Guru Nanak stayed outside Baghdad around 1511; rediscovered and rebuilt by Sikh soldiers in the two world wars, it survived in fair shape until 2003.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baba Nanak Shrine",
+        "url": "https://en.wikipedia.org/wiki/Baba_Nanak_Shrine",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q65951969 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q65951969",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baba-nanak-shrine",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Gurdwara Baba Nanak",
+      "مقام بابا نانك"
+    ],
+    "approximateLocation": "Karkh cemetery area",
+    "estimated_year": 1511,
+    "destruction_status": "Badly damaged after 2003",
+    "latitude": 33.336188,
+    "longitude": 44.363937,
+    "coordinates_source": "wikidata:Q65951969",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-khan-mirjan",
+    "name": "Khan Mirjan",
+    "governorate": "Baghdad",
+    "category": "Caravanserai",
+    "period": "Jalayirid",
+    "description": "A 14th-century caravanserai built by the Jalayirid governor Amin al-Din Mirjan, with a 13 m-high vaulted hall of brick arches; restored in the 1980s.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Khan Mirjan",
+        "url": "https://en.wikipedia.org/wiki/Khan_Mirjan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6400089 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6400089",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Khan Marjan",
+        "url": "https://www.archnet.org/sites/15578",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Aga Khan Award for Architecture (Archnet) — Mirjan Khan Restoration Project Summary",
+        "url": "https://www.archnet.org/publications/373",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khan-mirjan",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Khan Murjan",
+      "خان مرجان"
+    ],
+    "approximateLocation": "Souk area, Rusafa",
+    "estimated_year": "14th century",
+    "latitude": 33.3386,
+    "longitude": 44.3925,
+    "coordinates_source": "wikidata:Q6400089",
+    "coordinates_precision": "site",
+    "review_notes": "Archnet dates the khan to 1358 and lists a restoration in 1976; the card says restored in the 1980s."
+  },
+  {
+    "id": "site-baghdad-souk-al-safafeer",
+    "name": "Souk al-Safafeer",
+    "governorate": "Baghdad",
+    "category": "Historic Market",
+    "period": "Abbasid to present",
+    "description": "The coppersmiths’ market off al-Rashid Street, active since the Abbasid period and linked to the Mustansiriya madrasa; its craft is now in decline.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Souk al-Safafeer",
+        "url": "https://en.wikipedia.org/wiki/Souk_al-Safafeer",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Al Jazeera, 7 August 2018 — Baghdad’s coppersmith souk: a fading cultural treasure",
+        "url": "https://www.aljazeera.com/features/2018/8/7/baghdads-coppersmith-souk-a-fading-cultural-treasure",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q6802795 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6802795",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "souk-al-safafeer",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Coppersmiths’ market",
+      "سوق الصفافير"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "latitude": 33.339999,
+    "longitude": 44.39176,
+    "coordinates_source": "wikidata:Q6802795",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-shorja-market",
+    "name": "Shorja Market",
+    "governorate": "Baghdad",
+    "category": "Historic Market",
+    "period": "Late Abbasid to present",
+    "description": "One of Baghdad’s historic marketplaces, with late-Abbasid origins, stretching from al-Kifah Street to the Mirjan mosque.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Shorja",
+        "url": "https://en.wikipedia.org/wiki/Shorja",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6807626 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6807626",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shorja-market",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Shorja",
+      "الشورجة"
+    ],
+    "approximateLocation": "Rusafa",
+    "latitude": 33.339424,
+    "longitude": 44.400202,
+    "coordinates_source": "wikidata:Q6807626",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-mutanabbi-street",
+    "name": "Al-Mutanabbi Street",
+    "governorate": "Baghdad",
+    "category": "Historic Urban Area",
+    "period": "Ottoman and later",
+    "description": "The historic centre of Baghdad bookselling off al-Rashid Street, a gathering place of writers and intellectuals.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Mutanabbi Street",
+        "url": "https://en.wikipedia.org/wiki/Mutanabbi_Street",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q2562384 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2562384",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mutanabbi-street",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "شارع المتنبي"
+    ],
+    "approximateLocation": "Rusafa",
+    "latitude": 33.340954,
+    "longitude": 44.388843,
+    "coordinates_source": "wikidata:Q2562384",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-rashid-street",
+    "name": "Al-Rashid Street",
+    "governorate": "Baghdad",
+    "category": "Historic Urban Area",
+    "period": "Late Ottoman and royal era",
+    "description": "Baghdad’s first modern avenue, opened in 1916, lined with arcaded late-Ottoman and royal-era buildings and now a municipal conservation focus.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Rashid Street, Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Al-Rashid_Street%2C_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4704687 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4704687",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-rashid-street",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "شارع الرشيد"
+    ],
+    "approximateLocation": "Rusafa",
+    "estimated_year": 1916,
+    "latitude": 33.342702,
+    "longitude": 44.388671,
+    "coordinates_source": "wikidata:Q4704687",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-maidan-square",
+    "name": "Al-Maidan Square",
+    "governorate": "Baghdad",
+    "category": "Historic Urban Area",
+    "period": "Ottoman to royal era",
+    "description": "An old square from Bab al-Mu‘adham to al-Rashid Street with mosques, markets and the houses of royal-era politicians such as Nuri al-Said.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Maidan Square",
+        "url": "https://en.wikipedia.org/wiki/Al-Maidan_Square",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q120765111 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q120765111",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-maidan-square",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Maidan",
+      "ساحة الميدان"
+    ],
+    "approximateLocation": "Rusafa",
+    "latitude": 33.3443,
+    "longitude": 44.3852,
+    "coordinates_source": "wikidata:Q120765111",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-bab-al-sheikh-quarter",
+    "name": "Bab al-Sheikh Quarter",
+    "governorate": "Baghdad",
+    "category": "Historic Urban Area",
+    "period": "Abbasid to present",
+    "description": "An old Rusafa quarter around the Qadiriyya shrine, rich in Sufi lodges, tombs and mosques.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bab al-Sheikh",
+        "url": "https://en.wikipedia.org/wiki/Bab_al-Sheikh",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bab-al-sheikh-quarter",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "باب الشيخ"
+    ],
+    "approximateLocation": "Rusafa"
+  },
+  {
+    "id": "site-baghdad-bataween",
+    "name": "Bataween (former Jewish quarter)",
+    "governorate": "Baghdad",
+    "category": "Historic Urban Area",
+    "period": "Royal era",
+    "description": "A 1930s riverside quarter built by Iraqi Jews and Armenians, once home to synagogues, churches, schools and clubs, and the main Jewish quarter until the community left.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Bataween",
+        "url": "https://en.wikipedia.org/wiki/Bataween",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q130467025 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q130467025",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "bataween",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Bataween",
+      "البتاوين"
+    ],
+    "approximateLocation": "Karrada",
+    "latitude": 33.3201,
+    "longitude": 44.4205,
+    "coordinates_source": "wikidata:Q130467025",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-baghdad-sourp-asdvadzadzin",
+    "name": "Sourp Asdvadzadzin Church (Miskinta)",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "Baghdad’s oldest church still in use, built in 1639–40 by an Armenian artillery officer of Sultan Murad IV after the conquest of Baghdad; rebuilt several times, last in 1967–70.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The church Sourp Asdvadzadzin in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-sourp-asdwadzadzin-de-bagdad-eglise-de-la-sainte-mere-de-dieu-/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q114342026 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q114342026",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sourp-asdvadzadzin",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Holy Mother of God",
+      "Miskinta",
+      "كنيسة مريم العذراء للأرمن الأرثوذكس"
+    ],
+    "approximateLocation": "Al-Maidan",
+    "estimated_year": 1639,
+    "latitude": 33.346017,
+    "longitude": 44.386633,
+    "coordinates_source": "mesopotamiaheritage:sourp-asdvadzadzin",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-om-al-ahzan-church",
+    "name": "Om al-Ahzan Church (Mary Mother of Sorrows)",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "The old Chaldean patriarchal cathedral in Aqd al-Nasara, the historic Christian quarter of Shorja; built in 1843 and rebuilt 5 m higher in 1889 after floods, consecrated in 1898.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — Church of Mary mother of sorrows in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-om-al-ahzane-mere-des-douleurs-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Cathedral of Our Lady of Sorrows",
+        "url": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_of_Sorrows",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "om-al-ahzan-church",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Umm al-Ahzan",
+      "Our Lady of Sorrows",
+      "كنيسة أم الأحزان"
+    ],
+    "approximateLocation": "Aqd al-Nasara, Shorja",
+    "estimated_year": 1843,
+    "latitude": 33.338139,
+    "longitude": 44.395528,
+    "coordinates_source": "mesopotamiaheritage:om-al-ahzan-church",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-latin-st-joseph",
+    "name": "Latin Church of St Joseph",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "The Carmelite church consecrated in 1871, long the Latin cathedral, with a 32 m dome visible across the old Christian quarter; requisitioned by Ottoman forces in 1917.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Mar Youssef latin church in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-latine-mar-youssef-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Latin Cathedral of St. Joseph",
+        "url": "https://en.wikipedia.org/wiki/Latin_Cathedral_of_St._Joseph",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "latin-st-joseph",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Church of the Latins",
+      "كنيسة اللاتين"
+    ],
+    "approximateLocation": "Jumhuriya Street",
+    "estimated_year": 1871,
+    "latitude": 33.338861,
+    "longitude": 44.396528,
+    "coordinates_source": "mesopotamiaheritage:latin-st-joseph",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-syriac-catholic-immaculate",
+    "name": "Syriac Catholic Church of the Immaculate Conception (site)",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Ottoman",
+    "description": "A church completed in 1862 next to Om al-Ahzan; abandoned when its community moved to Karrada and demolished at the end of 2018, 156 years after it opened.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The syriac-catholic church of our Lady of the Immaculate in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-syriaque-catholique-vierge-marie-immaculee-conception-de-bagda/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "syriac-catholic-immaculate",
+    "discovery_batch": "baghdad-2026-11-03",
+    "approximateLocation": "Aqd al-Nasara, Shorja",
+    "estimated_year": 1862,
+    "destruction_status": "Demolished (December 2018)",
+    "latitude": 33.338425,
+    "longitude": 44.395672,
+    "coordinates_source": "mesopotamiaheritage:syriac-catholic-immaculate",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-armenian-sacred-heart",
+    "name": "Armenian Catholic Church of the Sacred Heart",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Royal era",
+    "description": "A western-style brick basilica in Karrada consecrated in 1938, funded by the Kasparkhan sisters.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Armenian Catholic church of the Sacred Heart of Jesus in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-armenienne-catholique-du-sacre-coeur-de-jesus-a-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "armenian-sacred-heart",
+    "discovery_batch": "baghdad-2026-11-03",
+    "approximateLocation": "Karrada",
+    "estimated_year": 1938,
+    "latitude": 33.304806,
+    "longitude": 44.42825,
+    "coordinates_source": "mesopotamiaheritage:armenian-sacred-heart",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-st-gregory-armenian-cathedral",
+    "name": "Sourp Krikor Loussavoritch Armenian Cathedral",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Royal era",
+    "description": "The Armenian Apostolic cathedral of 1954–57 with an octagonal cupola, on an estate holding an Armenian cemetery since 1904.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Armenian Apostolic Cathedral of Sourp Krikor Loussavoritch in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-armenienne-sourp-krikor-loussavoritch-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — St. Gregory Armenian Church",
+        "url": "https://en.wikipedia.org/wiki/St._Gregory_Armenian_Church",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "st-gregory-armenian-cathedral",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "St Gregory the Illuminator",
+      "كنيسة غريغور الأرمنية"
+    ],
+    "approximateLocation": "Bab al-Sharqi",
+    "estimated_year": 1957,
+    "latitude": 33.330108,
+    "longitude": 44.414344,
+    "coordinates_source": "mesopotamiaheritage:st-gregory-armenian-cathedral",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-chaldean-st-joseph-karrada",
+    "name": "Chaldean Cathedral of St Joseph, Karrada",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "Royal era",
+    "description": "The Chaldean cathedral begun in 1952 and consecrated in 1956, built when the community left Aqd al-Nasara for Karrada.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — Mar Yousef (St Joseph) cathedral in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-mar-youssef-kharbanda-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Chaldean Cathedral of St. Joseph",
+        "url": "https://en.wikipedia.org/wiki/Chaldean_Cathedral_of_St._Joseph",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "chaldean-st-joseph-karrada",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Mar Yusif",
+      "كاتدرائية مار يوسف"
+    ],
+    "approximateLocation": "Karrada",
+    "estimated_year": 1956,
+    "latitude": 33.301469,
+    "longitude": 44.428247,
+    "coordinates_source": "mesopotamiaheritage:chaldean-st-joseph-karrada",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-queen-of-the-rosary",
+    "name": "Chaldean Church of Our Lady Queen of the Rosary",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "20th century",
+    "description": "A domed church inaugurated in 1960 in Karrada, also called the church of Saint Rita.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Chaldean our Lady Queen of the Rosary church in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-chaldeenne-vierge-marie-reine-du-rosaire-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "queen-of-the-rosary",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Saint Rita Church"
+    ],
+    "approximateLocation": "Karrada",
+    "estimated_year": 1960,
+    "latitude": 33.293594,
+    "longitude": 44.419442,
+    "coordinates_source": "mesopotamiaheritage:queen-of-the-rosary",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-st-peter-and-paul-cathedral",
+    "name": "Syriac Orthodox Cathedral of St Peter and St Paul",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "20th century",
+    "description": "A large cathedral consecrated in 1964 by Patriarch Ignatius Yacoub III, twice targeted by car bombs after 2003.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — St Peter and St Paul Cathedral in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-mar-petros-et-mar-paulos-de-bagdad-saints-pierre-et-paul/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "st-peter-and-paul-cathedral",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Mar Petros and Mar Paulos"
+    ],
+    "approximateLocation": "Rusafa",
+    "estimated_year": 1964,
+    "latitude": 33.31305,
+    "longitude": 44.440561,
+    "coordinates_source": "mesopotamiaheritage:st-peter-and-paul-cathedral",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-sayidat-al-nejat",
+    "name": "Sayidat al-Nejat Cathedral",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "20th century",
+    "description": "The Syriac Catholic cathedral of 1968 in Karrada where 47 worshippers were killed in the attack of 31 October 2010.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — Cathedral Sayidat al Najat in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-sayidat-al-najatte-notre-dame-du-salut-ou-notre-dame-du-/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Sayidat al-Nejat Cathedral",
+        "url": "https://en.wikipedia.org/wiki/Sayidat_al-Nejat_Cathedral",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "sayidat-al-nejat",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Our Lady of Salvation",
+      "كنيسة سيدة النجاة"
+    ],
+    "approximateLocation": "Karrada",
+    "estimated_year": 1968,
+    "latitude": 33.307081,
+    "longitude": 44.426189,
+    "coordinates_source": "mesopotamiaheritage:sayidat-al-nejat",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-mar-gorgis-new-baghdad",
+    "name": "Mar Gorgis Chaldean Church, New Baghdad",
+    "governorate": "Baghdad",
+    "category": "Church",
+    "period": "20th century",
+    "description": "A church of 1969 in brick and concrete with a reverse arch and radiating apse, richly decorated with paintings, mosaics and stained glass.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Mesopotamia Heritage — The Mar Gorgis Chaldean Church in Baghdad",
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-chaldeenne-mar-guorguis-de-bagdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "mar-gorgis-new-baghdad",
+    "discovery_batch": "baghdad-2026-11-03",
+    "approximateLocation": "Al-Jidida (New Baghdad)",
+    "estimated_year": 1969,
+    "review_notes": "Source coordinates are garbled; no pin."
+  },
+  {
+    "id": "site-baghdad-great-synagogue",
+    "name": "Great Synagogue of Baghdad (Shaf ve-Yativ)",
+    "governorate": "Baghdad",
+    "category": "Synagogue",
+    "period": "Ottoman fabric; ancient tradition",
+    "description": "A synagogue traditionally on the site of one founded by the exiled King Jeconiah; rebuilt several times and now a Jewish museum.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Great Synagogue of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Great_Synagogue_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q5600071 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5600071",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "great-synagogue",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Shaf ve-Yativ",
+      "كنيس بغداد العظيم"
+    ],
+    "approximateLocation": "Old Jewish quarter, Rusafa",
+    "latitude": 33.3413,
+    "longitude": 44.3964,
+    "coordinates_source": "wikidata:Q5600071",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-meir-taweig-synagogue",
+    "name": "Meir Taweig Synagogue",
+    "governorate": "Baghdad",
+    "category": "Synagogue",
+    "period": "Royal era",
+    "description": "A 1942 synagogue complex with school, library and community centre in Bataween, one of the city’s last.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Meir Taweig Synagogue",
+        "url": "https://en.wikipedia.org/wiki/Meir_Taweig_Synagogue",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q5274677 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q5274677",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Diarna (Digital Heritage Mapping) — Meir Tweg Synagogue at Baghdad",
+        "url": "http://archive.diarna.org/site/detail/public/155/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "meir-taweig-synagogue",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Meir Tweg",
+      "كنيس مئير طويق"
+    ],
+    "approximateLocation": "Bataween",
+    "estimated_year": 1942,
+    "latitude": 33.322557,
+    "longitude": 44.416861,
+    "coordinates_source": "wikidata:Q5274677",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-shamash-school",
+    "name": "Shamash School",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "Royal era",
+    "description": "A Jewish high school founded on al-Rashid Street in 1928 with Anglo-Jewish support; after 1950 it passed through other uses and stood as a garage before reopening as a heritage site.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Shamash School",
+        "url": "https://en.wikipedia.org/wiki/Shamash_School",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7487432 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7487432",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Diarna (Digital Heritage Mapping) — Shamash Jewish School at Baghdad",
+        "url": "http://archive.diarna.org/site/detail/public/293/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "shamash-school",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "مدرسة شماش"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "estimated_year": 1928,
+    "latitude": 33.3201,
+    "longitude": 44.4205,
+    "coordinates_source": "wikidata:Q7487432",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-habibiyah-jewish-cemetery",
+    "name": "Al-Habibiyah Jewish Cemetery",
+    "governorate": "Baghdad",
+    "category": "Cemetery",
+    "period": "20th century",
+    "description": "Baghdad’s Jewish cemetery near Sadr City with more than 4,000 graves, moved here in 1975 from the old cemetery in al-Nahda.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Habibiyah Jewish Cemetery",
+        "url": "https://en.wikipedia.org/wiki/Al-Habibiyah_Jewish_Cemetery",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q130218654 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q130218654",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "habibiyah-jewish-cemetery",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "مقبرة الحبيبية"
+    ],
+    "approximateLocation": "Habibiya",
+    "estimated_year": 1975,
+    "latitude": 33.364167,
+    "longitude": 44.458889,
+    "coordinates_source": "wikidata:Q130218654",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-baghdadi-museum",
+    "name": "Baghdadi Museum",
+    "governorate": "Baghdad",
+    "category": "Museum",
+    "period": "Ottoman building",
+    "description": "A folk museum opened in 1970 in a riverside building of 1869, with 70 life-size scenes of Baghdad crafts and street life.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baghdadi Museum",
+        "url": "https://en.wikipedia.org/wiki/Baghdadi_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q10424690 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q10424690",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baghdadi-museum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "المتحف البغدادي"
+    ],
+    "approximateLocation": "Rusafa riverbank",
+    "estimated_year": 1869,
+    "latitude": 33.3401,
+    "longitude": 44.3895,
+    "coordinates_source": "wikidata:Q10424690",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-abd-al-karim-qasim-museum",
+    "name": "Abd al-Karim Qasim Museum",
+    "governorate": "Baghdad",
+    "category": "Museum",
+    "period": "Heritage house",
+    "description": "A museum to Iraq’s first republican leader in a heritage house on al-Rashid Street.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Abd al-Karim Qasim Museum",
+        "url": "https://en.wikipedia.org/wiki/Abd_al-Karim_Qasim_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q28716348 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q28716348",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "abd-al-karim-qasim-museum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Al-Za‘em Museum",
+      "متحف الزعيم"
+    ],
+    "approximateLocation": "Al-Rashid Street",
+    "latitude": 33.3272,
+    "longitude": 44.4054,
+    "coordinates_source": "wikidata:Q28716348",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-iraq-museum",
+    "name": "Iraq Museum",
+    "governorate": "Baghdad",
+    "category": "Museum",
+    "period": "20th century",
+    "description": "The national museum, founded after the First World War to keep excavated finds in Iraq; looted in 2003 and reopened in 2015.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Iraq Museum",
+        "url": "https://en.wikipedia.org/wiki/Iraq_Museum",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q521251 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q521251",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "iraq-museum",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "National Museum of Iraq",
+      "المتحف العراقي"
+    ],
+    "approximateLocation": "Karkh",
+    "latitude": 33.328611,
+    "longitude": 44.385833,
+    "coordinates_source": "wikidata:Q521251",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-white-palace",
+    "name": "White Palace (al-Qasr al-Abyadh)",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Royal era",
+    "description": "A domed royal guest house of 1934, built at King Ghazi’s order, where foreign heads of government were received.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — White Palace (Baghdad)",
+        "url": "https://en.wikipedia.org/wiki/White_Palace_(Baghdad)",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q114773770 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q114773770",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "white-palace",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "القصر الأبيض"
+    ],
+    "approximateLocation": "Above Bataween",
+    "estimated_year": 1934,
+    "latitude": 33.326018,
+    "longitude": 44.420482,
+    "coordinates_source": "wikidata:Q114773770",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-rehab-palace",
+    "name": "Al-Rehab Palace",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Royal era",
+    "description": "The private residence of the Iraqi royal family from 1937 to 1958, the last home of the monarchy.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Rehab Palace",
+        "url": "https://en.wikipedia.org/wiki/Al-Rehab_Palace",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6831994 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6831994",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-rehab-palace",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Qasr al-Rihab",
+      "قصر الرحاب"
+    ],
+    "approximateLocation": "Mansour",
+    "estimated_year": 1937,
+    "latitude": 33.320833,
+    "longitude": 44.390278,
+    "coordinates_source": "wikidata:Q6831994",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-republican-palace",
+    "name": "Republican Palace",
+    "governorate": "Baghdad",
+    "category": "Palace",
+    "period": "Royal era",
+    "description": "The third royal palace of the Hashemite kingdom, ordered by Faisal II and finished in the early 1960s; seat of the presidency from 1963 to 2003.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Republican Palace, Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Republican_Palace%2C_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q3564887 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3564887",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "republican-palace",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "القصر الجمهوري"
+    ],
+    "approximateLocation": "Karkh",
+    "estimated_year": "c. 1960",
+    "latitude": 33.304167,
+    "longitude": 44.408611,
+    "coordinates_source": "wikidata:Q3564887",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-royal-cemetery",
+    "name": "Royal Mausoleum (Iraqi Royal Cemetery)",
+    "governorate": "Baghdad",
+    "category": "Mausoleum",
+    "period": "Royal era",
+    "description": "The blue-domed mausoleum of the Iraqi royal family in A‘dhamiyya, designed by J. Brian Cooper and built in 1934–36 in Islamic style.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Iraqi Royal Cemetery",
+        "url": "https://en.wikipedia.org/wiki/Iraqi_Royal_Cemetery",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q16128350 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q16128350",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "royal-cemetery",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Royal Mausoleum",
+      "المقبرة الملكية"
+    ],
+    "approximateLocation": "A‘dhamiyya",
+    "estimated_year": 1936,
+    "latitude": 33.3655,
+    "longitude": 44.3578,
+    "coordinates_source": "wikidata:Q16128350",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-baghdad-central-station",
+    "name": "Baghdad Central Station",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "Royal era",
+    "description": "The domed main railway station designed by J. M. Wilson and built in 1948–53, described by the BBC as the “crown jewel” of Baghdad.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baghdad Central Station",
+        "url": "https://en.wikipedia.org/wiki/Baghdad_Central_Station",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q3544831 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3544831",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baghdad-central-station",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "محطة بغداد المركزية"
+    ],
+    "approximateLocation": "Alawi, Karkh",
+    "estimated_year": 1953,
+    "latitude": 33.323611,
+    "longitude": 44.380278,
+    "coordinates_source": "wikidata:Q3544831",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-markaziyah-high-school",
+    "name": "Al-Markaziyya High School",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "20th century",
+    "description": "Iraq’s oldest and most renowned high school, founded in 1918.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Markaziyah High School",
+        "url": "https://en.wikipedia.org/wiki/Markaziyah_High_School",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q6770580 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q6770580",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "markaziyah-high-school",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "الإعدادية المركزية"
+    ],
+    "approximateLocation": "Karkh",
+    "estimated_year": 1918,
+    "latitude": 33.315,
+    "longitude": 44.3661,
+    "coordinates_source": "wikidata:Q6770580",
+    "coordinates_precision": "site",
+    "review_notes": "Wikidata coordinate is rounded."
+  },
+  {
+    "id": "site-baghdad-university-of-baghdad-campus",
+    "name": "University of Baghdad Campus (Gropius)",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "20th century",
+    "description": "The Jadiriya campus planned by Walter Gropius and The Architects Collaborative, only partly built; its faculty office tower is among the surviving elements.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — University of Baghdad",
+        "url": "https://en.wikipedia.org/wiki/University_of_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Monocle — How Le Corbusier and Walter Gropius built modernist Baghdad",
+        "url": "https://monocle.com/design/architecture/how-le-corbusier-and-walter-gropius-built-modernist-baghdad/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Archnet — Jami‘a Baghdad",
+        "url": "https://archnet.org/sites/15908",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikidata Q550376 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q550376",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Jami'a Baghdad",
+        "url": "https://www.archnet.org/sites/15908",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "university-of-baghdad-campus",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Jami‘a Baghdad",
+      "جامعة بغداد"
+    ],
+    "approximateLocation": "Jadiriya",
+    "latitude": 33.270111,
+    "longitude": 44.381719,
+    "coordinates_source": "wikidata:Q550376",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-baghdad-gymnasium",
+    "name": "Baghdad Gymnasium (Le Corbusier)",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "20th century",
+    "description": "The only built part of the sports complex Le Corbusier designed from 1956 for King Faisal II; completed long after his death.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baghdad Gymnasium",
+        "url": "https://en.wikipedia.org/wiki/Baghdad_Gymnasium",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7397664 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7397664",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Baghdad Gymnasium",
+        "url": "https://www.archnet.org/sites/345",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baghdad-gymnasium",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Saddam Hussein Gymnasium",
+      "Le Corbusier Gym"
+    ],
+    "approximateLocation": "Al-Sha‘ab",
+    "latitude": 33.326389,
+    "longitude": 44.437778,
+    "coordinates_source": "wikidata:Q7397664",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-sarafiya-bridge",
+    "name": "Al-Sarafiya Bridge",
+    "governorate": "Baghdad",
+    "category": "Historic Bridge",
+    "period": "Royal era",
+    "description": "A steel truss bridge of the 1940s–50s linking Waziriyah and Utafiyah, damaged in 1991, partly destroyed by a truck bomb in 2007 and rebuilt in 2008.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Sarafiya Bridge",
+        "url": "https://en.wikipedia.org/wiki/Al-Sarafiya_Bridge",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q310579 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q310579",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-sarafiya-bridge",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "جسر الصرافية"
+    ],
+    "approximateLocation": "North Baghdad",
+    "destruction_status": "Partly destroyed (2007); rebuilt",
+    "latitude": 33.353611,
+    "longitude": 44.372778,
+    "coordinates_source": "wikidata:Q310579",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-north-gate-war-cemetery",
+    "name": "Baghdad (North Gate) War Cemetery",
+    "governorate": "Baghdad",
+    "category": "Cemetery",
+    "period": "20th century",
+    "description": "A Commonwealth war cemetery with 4,480 burials and commemorations of both world wars, including 100 Turkish graves; repaired in 2012.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Baghdad (North Gate) War Cemetery",
+        "url": "https://en.wikipedia.org/wiki/Baghdad_(North_Gate)_War_Cemetery",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q65242789 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q65242789",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Commonwealth War Graves Commission — Baghdad (North Gate) War Cemetery",
+        "url": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/57303/baghdad-north-gate-war-cemetery/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "north-gate-war-cemetery",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "مقبرة الإنكليز"
+    ],
+    "approximateLocation": "Bab al-Mu‘adham",
+    "latitude": 33.35442,
+    "longitude": 44.38648,
+    "coordinates_source": "wikidata:Q65242789",
+    "coordinates_precision": "site",
+    "review_notes": "The CWGC lists 4,487 identified casualties; the card says 4,480 burials."
+  },
+  {
+    "id": "site-baghdad-freedom-monument",
+    "name": "Freedom Monument (Nasb al-Hurriyah)",
+    "governorate": "Baghdad",
+    "category": "Historic Monument",
+    "period": "20th century",
+    "description": "Jawad Saleem’s 1961 bronze frieze on a travertine wall in Tahrir Square, telling the story of the 14 July Revolution in a language drawn from ancient Mesopotamian art.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Freedom Monument (Baghdad)",
+        "url": "https://en.wikipedia.org/wiki/Freedom_Monument_(Baghdad)",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q12248479 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q12248479",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "freedom-monument",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Nasb al-Hurriyah",
+      "نصب الحرية"
+    ],
+    "approximateLocation": "Tahrir Square",
+    "estimated_year": 1961,
+    "latitude": 33.328246,
+    "longitude": 44.409206,
+    "coordinates_source": "wikidata:Q12248479",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-kahramana",
+    "name": "Kahramana Fountain",
+    "governorate": "Baghdad",
+    "category": "Historic Monument",
+    "period": "20th century",
+    "description": "Mohammed Ghani Hikmat’s 1971 fountain of Marjana pouring oil on the forty thieves, one of Baghdad’s best-known public artworks.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Kahramana",
+        "url": "https://en.wikipedia.org/wiki/Kahramana",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q49006231 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q49006231",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kahramana",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "نصب كهرمانة"
+    ],
+    "approximateLocation": "Al-Sa‘doun Street",
+    "estimated_year": 1971,
+    "latitude": 33.311364,
+    "longitude": 44.424119,
+    "coordinates_source": "wikidata:Q49006231",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-al-shaheed-monument",
+    "name": "Al-Shaheed Monument",
+    "governorate": "Baghdad",
+    "category": "Historic Monument",
+    "period": "20th century",
+    "description": "Ismail Fatah al-Turk’s split turquoise dome of 1983 commemorating the dead of the Iran–Iraq War.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Al-Shaheed Monument",
+        "url": "https://en.wikipedia.org/wiki/Al-Shaheed_Monument",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q310023 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q310023",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Al-Shaheed Monument and Museum",
+        "url": "https://www.archnet.org/sites/433",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "al-shaheed-monument",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Martyr’s Memorial",
+      "نصب الشهيد"
+    ],
+    "approximateLocation": "East Baghdad",
+    "estimated_year": 1983,
+    "latitude": 33.3433,
+    "longitude": 44.4459,
+    "coordinates_source": "wikidata:Q310023",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-unknown-soldier-monument",
+    "name": "Monument to the Unknown Soldier",
+    "governorate": "Baghdad",
+    "category": "Historic Monument",
+    "period": "20th century",
+    "description": "A monument built in 1979–82 by the Italian architect Marcello D’Olivo after a concept by Khaled al-Rahal.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Monument to the Unknown Soldier, Baghdad",
+        "url": "https://en.wikipedia.org/wiki/Monument_to_the_Unknown_Soldier%2C_Baghdad",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q7752141 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q7752141",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Archnet (MIT / Aga Khan Trust for Culture) — Unknown Soldier Monument",
+        "url": "https://www.archnet.org/sites/693",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "unknown-soldier-monument",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "نصب الجندي المجهول"
+    ],
+    "approximateLocation": "Karkh",
+    "estimated_year": 1982,
+    "latitude": 33.3085,
+    "longitude": 44.389,
+    "coordinates_source": "wikidata:Q7752141",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-baghdad-victory-arch",
+    "name": "Victory Arch (Swords of Qadisiyah)",
+    "governorate": "Baghdad",
+    "category": "Historic Monument",
+    "period": "20th century",
+    "description": "Twin arches of hands holding crossed swords marking the entrances to the Grand Festivities Square, opened in 1989.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Victory Arch",
+        "url": "https://en.wikipedia.org/wiki/Victory_Arch",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q1340523 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1340523",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "victory-arch",
+    "discovery_batch": "baghdad-2026-11-03",
+    "alternativeNames": [
+      "Hands of Victory",
+      "Crossed Swords",
+      "قوس النصر"
+    ],
+    "approximateLocation": "Karkh",
+    "estimated_year": 1989,
+    "latitude": 33.305167,
+    "longitude": 44.386464,
+    "coordinates_source": "wikidata:Q1340523",
+    "coordinates_precision": "site"
+  }
+]

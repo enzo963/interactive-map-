@@ -170,6 +170,10 @@
 }
 .hb-sdeck__peek[data-peek='0'] { transform: translateY(-8%) rotate(-3deg); }
 .hb-sdeck__peek[data-peek='1'] { transform: translate(5%, -5%) rotate(4deg); }
+/* Reserve space for rotated decorative cards instead of widening the page. */
+@media (max-width: 30rem) {
+  .hb-sdeck__stage { width: calc(100% - 2rem); margin-inline: auto; }
+}
 .hb-sdeck:hover .hb-sdeck__peek[data-peek='0'],
 .hb-sdeck:focus-within .hb-sdeck__peek[data-peek='0'] { transform: translateY(-15%) rotate(-4deg); }
 .hb-sdeck:hover .hb-sdeck__peek[data-peek='1'],

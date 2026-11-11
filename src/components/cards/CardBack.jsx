@@ -176,6 +176,7 @@ export default function CardBack({ variant = 'plain', label, caption, className 
         </div>
       )}
       <span className="hb-cardback__mark">{t('brand.name')}</span>
+      <span className="hb-cardback__mark">History in Cards</span>
     </div>
   );
 }

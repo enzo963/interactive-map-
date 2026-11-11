@@ -1,0 +1,65 @@
+{
+  "sources": [
+    {
+      "id": "unesco",
+      "name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "domains": [
+        "whc.unesco.org"
+      ],
+      "allowed_content": [
+        "site_discovery",
+        "facts",
+        "coordinates",
+        "unesco_status",
+        "descriptions"
+      ],
+      "notes": "Primary source for UNESCO World Heritage and Tentative List information."
+    },
+    {
+      "id": "krg",
+      "name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "domains": [
+        "gov.krd",
+        "presidency.gov.krd"
+      ],
+      "allowed_content": [
+        "site_discovery",
+        "facts",
+        "heritage_programs",
+        "descriptions"
+      ],
+      "notes": "Official KRG sources. Verify page-specific authorship and dates."
+    },
+    {
+      "id": "iraqi-antiquities",
+      "name": "Iraqi Antiquities / Official Heritage Authorities",
+      "trust_tier": 1,
+      "domains": [
+        "sbah.gov.iq"
+      ],
+      "allowed_content": [
+        "site_discovery",
+        "facts",
+        "heritage_status",
+        "descriptions"
+      ],
+      "notes": "Official Iraqi heritage authority domain currently configured for Phase 1."
+    },
+    {
+      "id": "wikimedia-commons",
+      "name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "domains": [
+        "commons.wikimedia.org",
+        "upload.wikimedia.org"
+      ],
+      "allowed_content": [
+        "image_candidates",
+        "image_metadata"
+      ],
+      "notes": "Images require explicit license and attribution checks before publication."
+    }
+  ]
+}

@@ -3,16 +3,22 @@ import { DEFAULT_LANGUAGE, getLanguage, isSupportedLanguage } from './languages.
 const STORAGE_KEY = 'hb-lang';
 
 /** Region -> interface language. Every other region gets English. */
-const REGION_LANGUAGE = { IQ: 'ar', DE: 'de' };
+const REGION_LANGUAGE = { DE: 'de', AT: 'de', LI: 'de' };
+/** Multilingual regions: German only when the browser itself prefers German. */
+const GERMAN_IF_PREFERRED = new Set(['CH', 'LU', 'BE']);
 
 /**
- * Browsers expose the time zone, not the country, so the common zones of the
- * regions above are listed here. This needs no network request and no permission.
+ * Browsers expose the time zone, not the country, so the zones of the regions above are listed here.
+ * This needs no network request and no permission.
  */
 const TIMEZONE_REGION = {
-  'Asia/Baghdad': 'IQ',
   'Europe/Berlin': 'DE',
   'Europe/Busingen': 'DE',
+  'Europe/Vienna': 'AT',
+  'Europe/Vaduz': 'LI',
+  'Europe/Zurich': 'CH',
+  'Europe/Luxembourg': 'LU',
+  'Europe/Brussels': 'BE',
 };
 
 export function readStoredLanguage() {
@@ -32,7 +38,15 @@ export function storeLanguage(code) {
   }
 }
 
-/** Best guess of the visitor's country: time zone first, then the region of the browser locale (e.g. "de-DE"). */
+const browserTags = () => {
+  try {
+    return navigator.languages?.length ? navigator.languages : [navigator.language].filter(Boolean);
+  } catch {
+    return [];
+  }
+};
+
+/** Best guess of the visitor's country: time zone first, then the region of the browser locale (e.g. "de-AT"). */
 export function detectRegion() {
   try {
     const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -40,26 +54,30 @@ export function detectRegion() {
   } catch {
     /* ignore */
   }
-  try {
-    const tags = navigator.languages?.length ? navigator.languages : [navigator.language];
-    for (const tag of tags) {
+  for (const tag of browserTags()) {
+    try {
       const region = new Intl.Locale(tag).region;
       if (region) return region.toUpperCase();
+    } catch {
+      /* ignore malformed tags */
     }
-  } catch {
-    /* ignore */
   }
   return null;
 }
 
 /** A language the visitor chose beats the region; with neither, English. */
 export function detectLanguage() {
-  return readStoredLanguage() ?? REGION_LANGUAGE[detectRegion()] ?? DEFAULT_LANGUAGE;
+  const stored = readStoredLanguage();
+  if (stored) return stored;
+  const region = detectRegion();
+  if (REGION_LANGUAGE[region]) return REGION_LANGUAGE[region];
+  if (GERMAN_IF_PREFERRED.has(region) && /^de\b/i.test(browserTags()[0] ?? '')) return 'de';
+  return DEFAULT_LANGUAGE;
 }
 
-/** Keeps <html lang dir> in step with the language (screen readers, fonts, RTL layout). */
+/** Keeps <html lang dir> in step with the language (screen readers, hyphenation, fonts). */
 export function applyDocumentLanguage(code) {
-  const { dir } = getLanguage(code);
-  document.documentElement.lang = code;
+  const { locale, dir } = getLanguage(code);
+  document.documentElement.lang = locale;
   document.documentElement.dir = dir;
 }

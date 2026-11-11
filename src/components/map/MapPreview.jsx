@@ -3,10 +3,11 @@ import HeritageCard from '../cards/HeritageCard';
 import MapCanvas from './MapCanvas';
 import SmartLink from '../common/SmartLink';
 import { getGovernorateKey } from '../../data/governorates';
-import { useI18n } from '../../i18n/I18nContext';
+import { cardsLabel } from '../../utils/archiveStats';
 import { groupByGovernorate } from '../../utils/groupDecks';
 import { selectFeaturedSites } from '../../utils/selectSites';
 import '../../styles/home-sections.css';
+import { t } from '../../i18n';
 
 /**
  * Map preview, part of the card system: a pin = a card, a governorate = a deck.
@@ -16,7 +17,6 @@ import '../../styles/home-sections.css';
  * the map is a pointer convenience.
  */
 export default function MapPreview({ sites }) {
-  const { t, ld, cardsLabel, localize } = useI18n();
   const decks = useMemo(() => groupByGovernorate(sites), [sites]);
   const [selectedId, setSelectedId] = useState(null);
   const [pinned, setPinned] = useState(null);
@@ -26,7 +26,6 @@ export default function MapPreview({ sites }) {
   const hasPositions = positioned > 0;
 
   if (!selected) return null;
-  const selectedText = ld({ ...selected, kind: 'governorate' });
   // A selected pin leads its deck's preview, followed by the deck's featured cards.
   const featured = selectFeaturedSites(selected.sites, 3);
   const preview = pinned && selected.sites.some((s) => s.id === pinned.id)
@@ -37,8 +36,8 @@ export default function MapPreview({ sites }) {
     <section className="hb-map" aria-labelledby="map-title">
       <div className="hb-container">
         <header className="hb-section-head">
-          <h2 id="map-title" className="hb-section-title">{t('mapPreview.title')}</h2>
-          <SmartLink href="/map" className="hb-link">{t('mapPreview.open')}</SmartLink>
+          <h2 id="map-title" className="hb-section-title">{t('Cards on the map')}</h2>
+          <SmartLink href="/map" className="hb-link">{t('Open the map')}</SmartLink>
         </header>
 
         <div className={`hb-map__grid ${hasPositions ? '' : 'hb-map__grid--list'}`.trim()}>
@@ -50,13 +49,13 @@ export default function MapPreview({ sites }) {
                 selectedSite={pinned}
                 onSelect={(site) => { setPinned(site); setSelectedId(getGovernorateKey(site.governorate)); }}
                 size="compact"
-                caption={t('mapPreview.caption', { plotted: positioned, total: sites.length })}
+                caption={t('{n} of {total} cards plotted from recorded coordinates. Select a pin to open its governorate deck.', { n: positioned, total: sites.length })}
               />
             </figure>
           )}
 
           <div className="hb-map__side">
-            <div className="hb-map__list" role="group" aria-label={t('mapPreview.govs')}>
+            <div className="hb-map__list" role="group" aria-label={t('Governorates')}>
               {decks.map((deck) => (
                 <button
                   type="button"
@@ -65,16 +64,16 @@ export default function MapPreview({ sites }) {
                   onClick={() => { setSelectedId(deck.id); setPinned(null); }}
                   key={deck.id}
                 >
-                  <span>{localize.governorate(deck.name)}</span>
+                  <span>{t(deck.name)}</span>
                   <span>{cardsLabel(deck.count)}</span>
                 </button>
               ))}
             </div>
 
             <div className="hb-map__panel">
-              <h3 className="hb-map__panel-title">{selectedText.title}</h3>
+              <h3 className="hb-map__panel-title">{t('{name} Deck', { name: t(selected.name) })}</h3>
               <p className="sr-only" role="status">
-                {t('mapPreview.selected', { name: selectedText.name, cards: cardsLabel(selected.count) })}
+                {t('{name} deck selected. {cards}.', { name: t(selected.name), cards: cardsLabel(selected.count) })}
               </p>
               <ul className="hb-map__preview">
                 {preview.map((site) => (
@@ -84,7 +83,7 @@ export default function MapPreview({ sites }) {
                 ))}
               </ul>
               <SmartLink href={selected.href} className="hb-link">
-                {t('mapPreview.explore', { title: selectedText.title })}
+                {t('Explore {name} Deck', { name: t(selected.name) })}
               </SmartLink>
             </div>
           </div>

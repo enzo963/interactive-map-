@@ -1,0 +1,20 @@
+{
+  "task": "P6-02 to P6-05",
+  "jobs": [
+    {
+      "source": "unesco",
+      "governorate": "Salah al-Din",
+      "url": "https://whc.unesco.org/en/list/276/"
+    },
+    {
+      "source": "unesco",
+      "governorate": "Salah al-Din",
+      "url": "https://whc.unesco.org/en/list/1130/"
+    },
+    {
+      "source": "krg",
+      "governorate": "Erbil",
+      "url": "https://www.erbil.gov.krd/app/node/13677"
+    }
+  ]
+}

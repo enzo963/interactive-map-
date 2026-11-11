@@ -3,25 +3,67 @@ import CardGrid from '../components/common/CardGrid';
 import DeckPile from '../components/decks/DeckPile';
 import SmartLink from '../components/common/SmartLink';
 import NotFound from './NotFound';
+import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
-import { useI18n } from '../i18n/I18nContext';
 import { useNavigate } from '../router/RouterContext';
 import { CARD_TYPES } from '../data/cardTypes';
 import { getAllSites } from '../services/siteService';
 import { getDeckById } from '../utils/decks';
-import { formatCount } from '../utils/archiveStats';
+import { cardsLabel, formatCount } from '../utils/archiveStats';
 import { deckThickness } from '../utils/groupDecks';
+import { pickRandom } from '../utils/random';
 import { SORTS } from '../utils/filterSites';
 import '../styles/pages.css';
+import { t } from '../i18n';
 
-/** `byName` compares the names the visitor reads, in the language's own alphabet order. */
-const makeSortFns = (byName) => ({
+
+// Applies only to this page, including its existing 3D archive reuse.
+const deckPageStyles = `
+.hb-deck-page .hb-crumbs li { min-width: 0; overflow-wrap: anywhere; }
+.hb-deck-page .hb-deckhead { grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); padding-block: clamp(1.75rem, 4vw, 3rem); }
+.hb-deck-page .hb-deckhead__text { min-width: 0; gap: .875rem; }
+.hb-deck-page .hb-pagehead__title { max-width: 24ch; line-height: 1.1; overflow-wrap: anywhere; }
+.hb-deck-page .hb-pagehead__lede { margin-top: 0; max-width: 60ch; line-height: 1.65; overflow-wrap: anywhere; }
+.hb-deck-page .hb-deckhead__count { font-variant-numeric: tabular-nums; }
+.hb-deck-page .hb-deckhead__types { gap: .5rem 1.25rem; margin-bottom: .25rem; }
+.hb-deck-page .hb-deckhead__types li { display: inline-flex; align-items: baseline; gap: .5rem; }
+.hb-deck-page .hb-deckhead__text > .hb-btn { margin-top: .25rem; }
+.hb-deck-page .hb-deck-cards { min-width: 0; }
+.hb-deck-page .hb-explore__bar--ruled { align-items: center; gap: 1rem 2rem; padding-block: 1rem; margin-bottom: 1.25rem; }
+.hb-deck-page .hb-decks__title { line-height: 1.15; }
+.hb-deck-page .hb-sort { flex-wrap: wrap; gap: .5rem; }
+.hb-deck-page .hb-sort select { min-width: 0; max-width: 100%; min-height: 2.75rem; }
+.hb-deck-page .hb-chips--row { gap: .5rem; margin-block: 0 1.25rem; }
+.hb-deck-page .hb-tag { min-height: 2.75rem; white-space: normal; text-align: left; }
+.hb-deck-page .hb-deck-results { margin-bottom: 1rem; font-family: var(--hb-font-mono); font-size: .8125rem; color: var(--hb-earth-text); }
+.hb-deck-page .hb-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); gap: 2rem clamp(1rem, 2.5vw, 1.75rem); align-items: start; }
+.hb-deck-page .hb-grid > li { min-width: 0; }
+.hb-deck-page .hb-empty { padding: clamp(1.25rem, 4vw, 2.5rem); background: var(--hb-paper-raised); gap: .875rem; }
+.hb-deck-page .hb-empty__title { line-height: 1.25; }
+.hb-deck-page .hb-empty > p { max-width: 56ch; line-height: 1.65; }
+.hb-deck-page .hb-deck-empty__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; }
+@media (max-width: 40rem) {
+  .hb-deck-page .hb-deckhead { grid-template-columns: minmax(0, 1fr); }
+  .hb-deck-page .hb-deckhead__deck { width: 100%; max-width: 11rem; justify-self: center; }
+  .hb-deck-page .hb-sort { width: 100%; justify-content: space-between; }
+  .hb-deck-page .hb-sort select { flex: 1 1 10rem; }
+}
+@media (max-width: 30rem) {
+  .hb-deck-page .hb-grid { grid-template-columns: minmax(0, 1fr); }
+  .hb-deck-page .hb-grid > li { width: 100%; max-width: 22rem; justify-self: center; }
+  .hb-deck-page .hb-deckhead__text > .hb-btn { width: 100%; }
+}
+`;
+
+const DECK_KIND_LABEL = { governorate: 'Governorate Deck', special: 'Special Deck', thematic: 'Thematic Deck' };
+
+const SORT_FNS = {
   archive: (a, b) => a.archiveNo.localeCompare(b.archiveNo, undefined, { numeric: true }),
-  name: byName,
+  name: (a, b) => a.name.localeCompare(b.name),
   oldest: (a, b) => (b.ageYears ?? -1) - (a.ageYears ?? -1),
   newest: (a, b) => (a.ageYears ?? Infinity) - (b.ageYears ?? Infinity),
-  type: (a, b) => b.cardType.tier - a.cardType.tier || byName(a, b),
-});
+  type: (a, b) => b.cardType.tier - a.cardType.tier || a.name.localeCompare(b.name),
+};
 
 /** /decks/:deckId — also used for /3d-archive via the `deckId` prop. */
 export default function DeckPage({ params, deckId }) {
@@ -29,89 +71,100 @@ export default function DeckPage({ params, deckId }) {
   const sites = useMemo(() => getAllSites(), []);
   const deck = useMemo(() => getDeckById(sites, id), [sites, id]);
   const navigate = useNavigate();
-  const { t, ls, ld, localize, cardsLabel, pageTitle } = useI18n();
   const [tier, setTier] = useState('all');
   const [sort, setSort] = useState('archive');
 
-  const text = deck ? ld(deck) : null;
-  useDocumentTitle(pageTitle(text ? text.title : t('nf.deckTitle')));
+  useDocumentTitle(deck ? `${t(deck.title)} — History in Cards` : 'Deck not found — History in Cards');
 
   const tiers = useMemo(
-    () => (deck ? CARD_TYPES.map((type) => ({ type, label: localize.cardType(type), count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),
-    [deck, localize],
+    () => (deck ? CARD_TYPES.map((type) => ({ type, count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),
+    [deck],
   );
   const shown = useMemo(() => {
     if (!deck) return [];
     const base = tier === 'all' ? deck.sites : deck.sites.filter((s) => String(s.cardType.tier) === tier);
-    const byName = (a, b) => localize.compare(ls(a).name, ls(b).name);
-    return [...base].sort(makeSortFns(byName)[sort]);
-  }, [deck, tier, sort, ls, localize]);
+    return [...base].sort(SORT_FNS[sort]);
+  }, [deck, tier, sort]);
 
-  if (!deck) return <NotFound title={t('nf.deckTitle')} message={t('nf.deckMessage')} />;
+  if (!deck) return <NotFound title={t('Deck not found')} message={t('That deck is not in the archive.')} />;
 
   const drawFromDeck = () => {
-    if (deck.sites.length === 0) return;
-    const pick = deck.sites[Math.floor(Math.random() * deck.sites.length)];
-    navigate(pick.href);
+    const pick = pickRandom(deck.sites);
+    if (pick) navigate(pick.href);
   };
 
   return (
-    <main id="main" tabIndex={-1} className="hb-page">
+    <main id="main" tabIndex={-1} className="hb-page hb-deck-page">
+      <style href="hb-deck-page-polish" precedence="components">{deckPageStyles}</style>
       <div className="hb-container">
-        <nav className="hb-crumbs" aria-label={t('common.breadcrumb')}>
+        <nav className="hb-crumbs" aria-label={t('Breadcrumb')}>
           <ol>
-            <li><SmartLink href="/decks">{t('nav.decks')}</SmartLink></li>
-            <li aria-current="page">{text.title}</li>
+            <li><SmartLink href="/decks">{t('Decks')}</SmartLink></li>
+            <li aria-current="page">{t(deck.title)}</li>
           </ol>
         </nav>
 
         <header className="hb-deckhead">
           <div className="hb-deckhead__deck" aria-hidden="true">
-            <DeckPile variant={deck.back} label={deck.kind === 'governorate' ? text.name : text.title} thickness={deckThickness(deck.count)} />
+            <DeckPile variant={deck.back} label={deck.kind === 'governorate' ? t(deck.name) : t(deck.title)} thickness={deckThickness(deck.count)} />
           </div>
           <div className="hb-deckhead__text">
-            <p className="hb-eyebrow">{deck.kind === 'governorate' ? t('deck.kindGov') : t('deck.kindSpecial')}</p>
-            <h1 className="hb-pagehead__title">{text.title}</h1>
-            <p className="hb-pagehead__lede">{text.blurb}</p>
+            <p className="hb-eyebrow">{t(DECK_KIND_LABEL[deck.kind] ?? 'Deck')}</p>
+            <h1 className="hb-pagehead__title">{t(deck.title)}</h1>
+            {deck.blurb && <p className="hb-pagehead__lede">{t(deck.blurb)}</p>}
             <p className="hb-deckhead__count">{cardsLabel(deck.count)}</p>
             {tiers.length > 0 && (
-              <ul className="hb-deckhead__types" aria-label={t('deck.byType')}>
-                {tiers.map(({ type, label, count }) => (
-                  <li key={type.id}><span>{label.shortLabel}</span> <b>{formatCount(count)}</b></li>
+              <ul className="hb-deckhead__types" aria-label={t('Cards by type')}>
+                {tiers.map(({ type, count }) => (
+                  <li key={type.id}><span>{t(type.shortLabel)}</span> <b>{formatCount(count)}</b></li>
                 ))}
               </ul>
             )}
             {deck.count > 0 && (
-              <button type="button" className="hb-btn hb-btn--ink" onClick={drawFromDeck}>{t('deck.draw')}</button>
+              <button type="button" className="hb-btn hb-btn--ink" onClick={drawFromDeck}>{t('Draw from this deck')}</button>
             )}
           </div>
         </header>
 
         {deck.count > 0 ? (
-          <section aria-labelledby="deck-cards">
+          <section className="hb-deck-cards" aria-labelledby="deck-cards">
             <div className="hb-explore__bar hb-explore__bar--ruled">
-              <h2 id="deck-cards" className="hb-section-title hb-decks__title">{t('deck.cardsIn')}</h2>
+              <h2 id="deck-cards" className="hb-section-title hb-decks__title">{t('Cards in this deck')}</h2>
               <label className="hb-sort">
-                <span>{t('sort.label')}</span>
+                <span>{t('Sort by')}</span>
                 <select value={sort} onChange={(event) => setSort(event.target.value)}>
-                  {SORTS.map((s) => <option value={s.id} key={s.id}>{t(`sort.${s.id}`)}</option>)}
+                  {SORTS.map((s) => <option value={s.id} key={s.id}>{t(s.label)}</option>)}
                 </select>
               </label>
             </div>
             {tiers.length > 1 && (
-              <div className="hb-chips hb-chips--row" role="group" aria-label={t('deck.filterType')}>
-                <button type="button" className="hb-tag" aria-pressed={tier === 'all'} onClick={() => setTier('all')}>{t('deck.allTypes')}</button>
-                {tiers.map(({ type, label }) => (
+              <div className="hb-chips hb-chips--row" role="group" aria-label={t('Filter by card type')}>
+                <button type="button" className="hb-tag" aria-pressed={tier === 'all'} onClick={() => setTier('all')}>{t('All types')}</button>
+                {tiers.map(({ type }) => (
                   <button type="button" className="hb-tag" aria-pressed={tier === String(type.tier)} onClick={() => setTier(String(type.tier))} key={type.id}>
-                    {label.shortLabel}
+                    {t(type.shortLabel)}
                   </button>
                 ))}
               </div>
             )}
-            <CardGrid key={`${tier}-${sort}`} sites={shown} />
+            <p className="hb-deck-results" role="status" aria-live="polite">
+              {t('{cards} in this selection · {n} in the deck', { cards: cardsLabel(shown.length), n: formatCount(deck.count) })}
+            </p>
+            {shown.length > 0 ? (
+              <CardGrid key={`${tier}-${sort}`} sites={shown} />
+            ) : (
+              <StatePanel kind="no-results" title={t('No cards match this type')} description={t('Choose all types to see the cards available in this deck.')} headingLevel={3}>
+                <button type="button" className="hb-btn hb-btn--ink" onClick={() => setTier('all')}>{t('Show all types')}</button>
+              </StatePanel>
+            )}
           </section>
         ) : (
-          <p className="hb-empty__title">{t('deck.empty')}</p>
+          <StatePanel title={t('This deck has no cards yet')} description={t('There are no site records in this collection yet. Browse other decks or explore the full archive.')}>
+            <div className="hb-deck-empty__actions">
+              <SmartLink className="hb-btn hb-btn--ink" href="/decks">{t('Browse decks')}</SmartLink>
+              <SmartLink className="hb-link" href="/explore">{t('Explore all cards')}</SmartLink>
+            </div>
+          </StatePanel>
         )}
       </div>
     </main>

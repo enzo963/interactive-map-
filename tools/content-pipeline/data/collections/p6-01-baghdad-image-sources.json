@@ -1,0 +1,70 @@
+{
+  "task": "P6-01",
+  "jobs": [
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Baghdad",
+      "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "name": "Al-Mustansiriya Madrasa",
+      "alternativeNames": [
+        "Mustansiriya Madrasah",
+        "Munstansiriya Madrasah"
+      ]
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Baghdad",
+      "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "siteId": "site-baghdad-abbasid-palace",
+      "name": "Abbasid Palace",
+      "alternativeNames": [
+        "القصر العباسي"
+      ]
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Baghdad",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "name": "Al-Wazir Mosque",
+      "alternativeNames": [
+        "Al Wazeer Mosque"
+      ]
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Baghdad",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "siteId": "site-baghdad-al-qishla",
+      "name": "Al-Qishla and Clock Tower",
+      "alternativeNames": [
+        "Al Qishlah",
+        "Qushla",
+        "Qishleh"
+      ]
+    },
+    {
+      "source": "wikimedia-commons",
+      "governorate": "Baghdad",
+      "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+      "siteId": "site-baghdad-al-asifiyah-mosque",
+      "name": "Al-Asifiyah Mosque",
+      "alternativeNames": [
+        "Mosque-Madrasa of al-Asifyah",
+        "Alasifyah Mosque"
+      ]
+    }
+  ],
+  "facts_source": {
+    "source": "unesco",
+    "governorate": "Baghdad",
+    "url": "https://whc.unesco.org/en/tentativelists/5880/",
+    "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342"
+  },
+  "prepared_catalog": "data/prepared/baghdad-heritage-sites.json",
+  "review_ledger": "data/review/baghdad-decisions.json",
+  "approved_export": "data/exports/baghdad-heritage-sites.approved.json",
+  "reviewer": "Codex (AI evidence review, P6-01)",
+  "human_curator_review": false
+}

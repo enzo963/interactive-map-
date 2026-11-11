@@ -186,3 +186,62 @@ main[tabindex='-1']:focus { outline: none; }
   .hb-about__legend > div { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
   .hb-about__types li { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
 }
+
+/* Phase 6: search, discovery and in-flow mobile filters. */
+.hb-search { min-width: 0; }
+.hb-search__control { position: relative; min-width: 0; }
+.hb-search__input { font-size: 1rem; padding-right: 3rem; }
+.hb-search__clear { position: absolute; right: .15rem; top: .15rem; width: 2.75rem; height: 2.75rem; border: 0; background: transparent; font-size: 1.5rem; cursor: pointer; }
+.hb-check { min-height: 2.75rem; align-items: center; overflow-wrap: anywhere; }
+.hb-check input { margin-top: 0; }
+.hb-filters__options { clear: both; max-height: 20rem; overflow-y: auto; padding-right: .25rem; }
+.hb-filters__status { clear: both; display: flex; flex-direction: column; gap: .4rem; padding-block: .6rem; font-size: .9rem; }
+.hb-filters__status select { min-height: 2.75rem; width: 100%; min-width: 0; padding: .5rem; border: 1px solid var(--hb-rule-strong); border-radius: 2px; background: var(--hb-paper); color: var(--hb-ink); font: inherit; }
+.hb-filters__status small { color: var(--hb-earth-text); font-size: .75rem; }
+.hb-filters__extra { min-width: 0; padding-block: 1rem; }
+.hb-filters__extra summary, .hb-discovery summary { cursor: pointer; min-height: 2.75rem; align-content: center; }
+.hb-filters__actions { display: flex; gap: .75rem; flex-wrap: wrap; grid-column: 1 / -1; padding-block: .5rem; align-items: center; }
+.hb-explore__side .hb-filters__done { display: none; }
+.hb-explore__side { top: 9rem; max-height: calc(100dvh - 10rem); }
+.hb-explore__context { display: flex; justify-content: flex-end; }
+.hb-discovery { margin-bottom: 2rem; display: grid; gap: 1rem; }
+.hb-discovery h2 { font-family: var(--hb-font-serif); font-weight: 500; font-size: 1.5rem; }
+.hb-discovery p { color: var(--hb-earth-text); font-size: .9rem; margin-block: .4rem .8rem; }
+.hb-discovery__categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: .65rem; }
+.hb-discovery__category { display: flex; flex-direction: column; gap: .5rem; text-decoration: none; border: 1px solid var(--hb-rule); padding: 1rem; background: var(--hb-paper-raised); min-width: 0; overflow-wrap: anywhere; }
+.hb-discovery__category:hover { border-color: var(--hb-terracotta); }
+.hb-discovery__category strong { font-family: var(--hb-font-serif); font-size: 1.2rem; }
+.hb-discovery__category span { font-size: .8rem; color: var(--hb-earth-text); }
+.hb-discovery__category small { margin-top: auto; }
+.hb-discovery__periods { border-block: 1px solid var(--hb-rule); padding-block: .25rem; }
+.hb-discovery__periods ul { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding-bottom: .75rem; }
+.hb-discovery__periods li { max-width: 100%; }
+.hb-discovery__periods a { min-height: 2.75rem; overflow-wrap: anywhere; white-space: normal; }
+.hb-chips button { min-height: 2.75rem; white-space: normal; overflow-wrap: anywhere; }
+.hb-empty { display: flex; flex-direction: column; align-items: flex-start; gap: .75rem; }
+@media (max-width: 62rem) {
+  .hb-explore__side { max-height: none; position: static; }
+  .hb-explore__side .hb-filters__done { display: inline-flex; }
+  .hb-explore__panel.is-open { padding: .75rem 1rem; border: 1px solid var(--hb-rule); background: var(--hb-paper-raised); }
+  .hb-filters__options { max-height: 16rem; }
+  .hb-filters__actions .hb-btn { flex: 1; }
+}
+@media (max-width: 40rem) {
+  .hb-discovery__categories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hb-discovery__category { padding: .75rem; gap: .4rem; }
+  .hb-discovery__category span { display: none; }
+  .hb-discovery__category strong { font-size: 1rem; }
+  .hb-discovery { margin-bottom: 1rem; }
+  .hb-sort { width: 100%; justify-content: space-between; }
+  .hb-sort select { min-width: 0; max-width: 75%; min-height: 2.75rem; }
+  .hb-filters--wide { grid-template-columns: minmax(0, 1fr); }
+}
+.hb-mapx__searchrow .hb-mapx__filterbtn { width: auto; }
+.hb-mapx__searchrow .hb-search { flex: 1 1 16rem; }
+.hb-regionpanel > a { margin-top: .75rem; margin-right: 1rem; }
+.hb-grid .hb-card[data-tier='0'] .hb-card__type-name { font-size: clamp(.4375rem, 2.4cqw, .75rem); white-space: nowrap; }
+@media (max-width: 40rem) {
+  .hb-map-page .hb-mapx__searchrow .hb-mapx__filterbtn { width: 100%; }
+}
+
+.hb-search__input::-webkit-search-cancel-button { appearance: none; }

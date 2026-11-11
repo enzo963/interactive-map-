@@ -1,23 +1,45 @@
 import { useId } from 'react';
-import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/pages.css';
+import { t } from '../../i18n';
 
-export default function SearchField({ value, onChange, label, placeholder }) {
+export default function SearchField({
+  value,
+  onChange,
+  label = t('Search heritage sites'),
+  placeholder = t('Site name, alternative name or place'),
+}) {
   const id = useId();
-  const { t } = useI18n();
   return (
     <div className="hb-search">
-      <label className="hb-search__label" htmlFor={id}>{label ?? t('search.label')}</label>
-      <input
-        id={id}
-        className="hb-search__input"
-        type="search"
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        placeholder={placeholder ?? t('search.placeholder')}
-        autoComplete="off"
-        spellCheck="false"
-      />
+      <label className="hb-search__label" htmlFor={id}>
+        {label}
+      </label>
+      <div className="hb-search__control">
+        <input
+          id={id}
+          className="hb-search__input"
+          type="search"
+          value={value}
+          onChange={(event) => onChange(event.target.value)}
+          placeholder={placeholder}
+          enterKeyHint="search"
+          autoComplete="off"
+          spellCheck="false"
+        />
+        {value && (
+          <button
+            type="button"
+            className="hb-search__clear"
+            aria-label={t('Clear search')}
+            onClick={() => {
+              onChange('');
+              document.getElementById(id)?.focus();
+            }}
+          >
+            ×
+          </button>
+        )}
+      </div>
     </div>
   );
 }

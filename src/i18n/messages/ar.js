@@ -1,6 +1,6 @@
 /** النصوص العربية للواجهة. يجب أن تطابق مفاتيح en.js تماماً (npm run check:i18n). */
 export default {
-  'brand.name': 'Heritage Bridge',
+  'brand.name': 'History in Cards',
   'common.skip': 'انتقل إلى المحتوى',
   'common.unknown': 'غير معروف',
   'common.close': 'إغلاق',

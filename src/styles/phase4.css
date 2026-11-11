@@ -1,0 +1,98 @@
+/* =========================================================
+  Phase 4: Our Documentation, About the Archive, section list,
+  digital assets, governorate selector and panel, boundary map
+   ========================================================= */
+
+/* ---------- Home: Our Documentation ---------- */
+.hb-docs { padding-block: clamp(3.5rem, 8vw, 6rem) 0; }
+.hb-docs__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: start; }
+.hb-docs__lede { max-width: 42ch; font-size: 1.1rem; line-height: 1.6; }
+.hb-docs__types { margin-block: 1.5rem; border-top: 1px solid var(--hb-rule-strong); }
+.hb-docs__types > div { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--hb-rule); }
+.hb-docs__types dt { font-family: var(--hb-font-serif); font-size: 1.2rem; }
+.hb-docs__types dd { font-family: var(--hb-font-mono); font-size: 0.8rem; color: var(--hb-earth-text); }
+.hb-docs__cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(0.75rem, 2vw, 1.5rem); list-style: none; }
+
+/* ---------- Home: About the Archive (deliberately small) ---------- */
+.hb-about-home { margin-top: clamp(3.5rem, 8vw, 6rem); padding-block: clamp(2rem, 4vw, 3rem); border-top: 1px solid var(--hb-rule-strong); }
+.hb-about-home__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: start; }
+.hb-about-home__title { font-family: var(--hb-font-serif); font-size: clamp(1.5rem, 2.6vw, 2rem); font-weight: 500; letter-spacing: -0.01em; }
+.hb-about-home__lede { max-width: 32ch; margin-block: 0.6rem 0.5rem; font-size: 1rem; }
+.hb-about-home__points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 2rem; }
+.hb-about-home__points dt { font-weight: 600; font-size: 0.95rem; }
+.hb-about-home__points dd { margin-top: 0.2rem; font-size: 0.9rem; color: var(--hb-earth-text); }
+
+/* ---------- Site details ---------- */
+.hb-site__h3 { margin-block: 1.8rem 0.6rem; font-family: var(--hb-font-serif); font-size: 1.35rem; font-weight: 500; }
+.hb-sectionnav { padding-block: 0 1.5rem; }
+.hb-sectionnav ol { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; padding: 0.8rem 0; border-block: 1px solid var(--hb-rule-strong); list-style: none; }
+.hb-sectionnav a { display: inline-block; padding: 0.3rem 0; font-size: 0.9rem; text-decoration-color: var(--hb-terracotta); text-underline-offset: 0.3em; }
+.hb-facts--compact { margin-top: 1rem; }
+.hb-assets { display: flex; flex-direction: column; margin-top: 1rem; border-top: 1px solid var(--hb-rule-strong); list-style: none; }
+.hb-assets li { padding: 0.8rem 0; border-bottom: 1px solid var(--hb-rule); }
+.hb-assets__title { font-family: var(--hb-font-serif); font-size: 1.15rem; }
+.hb-assets__title a { text-decoration-color: var(--hb-terracotta); text-underline-offset: 0.25em; }
+.hb-assets__meta { margin-top: 0.15rem; font-family: var(--hb-font-mono); font-size: 0.78rem; color: var(--hb-earth-text); }
+.hb-assets__text { margin-top: 0.3rem; font-size: 0.95rem; line-height: 1.5; }
+.hb-credits { margin-top: 0.75rem; padding-left: 1.25rem; font-size: 0.95rem; }
+
+/* ---------- Map: governorate selector + panel ---------- */
+.hb-mapx__notice { margin-bottom: 0.75rem; padding: 0.7rem 0.9rem; border-left: 3px solid var(--hb-terracotta); background: var(--hb-paper-raised); font-size: 0.9rem; }
+.hb-regions { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.hb-region {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  min-height: 2.25rem;
+  padding: 0.3rem 0.7rem;
+  background: transparent;
+  border: 1px solid var(--hb-rule-strong);
+  border-radius: 2px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.2s var(--hb-ease), background-color 0.2s var(--hb-ease), color 0.2s var(--hb-ease);
+}
+.hb-region[data-represented='false'] { border-style: dashed; color: var(--hb-earth-text); }
+.hb-region:hover { border-color: var(--hb-ink); }
+.hb-region[aria-pressed='true'] { background: var(--hb-ink); border-color: var(--hb-ink); color: var(--hb-paper); }
+.hb-region__count { font-family: var(--hb-font-mono); font-size: 0.75rem; }
+
+.hb-regionpanel { padding-block: 1rem; border-block: 1px solid var(--hb-rule-strong); }
+.hb-regionpanel__title { font-family: var(--hb-font-serif); font-size: 1.7rem; font-weight: 500; letter-spacing: -0.01em; }
+.hb-regionpanel__count { margin-top: 0.15rem; font-family: var(--hb-font-mono); font-size: 0.9rem; }
+.hb-regionpanel__text { margin-top: 0.5rem; font-size: 0.92rem; color: var(--hb-earth-text); }
+.hb-regionpanel__h { margin-block: 1.1rem 0.4rem; font-family: var(--hb-font-mono); font-size: 0.72rem; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hb-earth-text); }
+.hb-regionpanel__facts { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; margin-block: 1rem; font-size: 0.9rem; }
+.hb-regionpanel__facts > div { display: flex; gap: 0.5rem; }
+.hb-regionpanel__facts dd { font-family: var(--hb-font-mono); }
+.hb-regionpanel .hb-btn { margin-top: 0.5rem; }
+
+.hb-bars { list-style: none; }
+.hb-bars li { display: grid; grid-template-columns: minmax(5rem, 9rem) minmax(0, 1fr) 2rem; align-items: center; gap: 0.6rem; padding: 0.2rem 0; font-size: 0.88rem; }
+.hb-bars__bar { position: relative; height: 0.5rem; background: var(--hb-sand); }
+.hb-bars__bar::before { content: ''; position: absolute; inset: 0 auto 0 0; width: var(--w); background: var(--hb-terracotta); }
+.hb-bars__count { font-family: var(--hb-font-mono); font-weight: 500; text-align: right; }
+
+.hb-mapx__plot[data-has-focus='true'] .hb-mapx__dot:not([data-in-focus='true']) { opacity: 0.3; }
+.hb-mapx__plot[data-has-focus='true'] .hb-mapx__dot[data-selected='true'] { opacity: 1; }
+
+/* ---------- Boundary map (renders only with verified, attributed geometry) ---------- */
+.hb-geomap { margin: 0; }
+.hb-geomap__svg { width: 100%; height: auto; background: var(--hb-paper-raised); border: 1px solid var(--hb-rule-strong); }
+.hb-geomap__area { fill: var(--hb-paper); stroke: var(--hb-earth); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill 0.2s var(--hb-ease); }
+.hb-geomap__area[data-represented='true'] { fill: var(--hb-sand); }
+.hb-geomap__area:hover,
+.hb-geomap__area:focus-visible { fill: var(--hb-brown); }
+.hb-geomap__area[data-selected='true'] { fill: var(--hb-terracotta); stroke: var(--hb-ink); stroke-width: 2; }
+.hb-geomap__area:focus-visible { outline: 2px solid var(--hb-terracotta-deep); outline-offset: 2px; }
+
+@media (max-width: 62rem) {
+  .hb-docs__grid,
+  .hb-about-home__grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 40rem) {
+  .hb-docs__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hb-docs__cards > li:nth-child(3) { display: none; }
+  .hb-about-home__points { grid-template-columns: minmax(0, 1fr); }
+  .hb-bars li { grid-template-columns: minmax(4.5rem, 7rem) minmax(0, 1fr) 1.75rem; }
+}

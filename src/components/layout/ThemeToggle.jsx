@@ -1,4 +1,4 @@
-import { useI18n } from '../../i18n/I18nContext';
+import { t } from '../../i18n';
 import { useTheme } from '../../theme/ThemeContext';
 
 const Icon = ({ children }) => (
@@ -10,8 +10,7 @@ const Icon = ({ children }) => (
 /** The icon shows what the button will switch to; the label says it in words. */
 export default function ThemeToggle() {
   const { theme, toggle } = useTheme();
-  const { t } = useI18n();
-  const label = t(theme === 'dark' ? 'tools.toLight' : 'tools.toDark');
+  const label = theme === 'dark' ? t('Switch to light theme') : t('Switch to dark theme');
 
   return (
     <button type="button" className="hb-theme" onClick={toggle} aria-label={label} title={label}>

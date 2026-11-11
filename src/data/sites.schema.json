@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Heritage site records",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "governorate",
+      "category",
+      "period",
+      "description",
+      "unesco",
+      "has3D",
+      "coverImage",
+      "galleryImages",
+      "sources"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "governorate": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "period": {
+        "type": "string"
+      },
+      "period_status": {
+        "enum": ["not-established"],
+        "description": "Set when the sources reviewed give no period, so an empty period is a recorded finding rather than an omission."
+      },
+      "image_status": {
+        "enum": ["none", "pending-review", "approved"],
+        "description": "none = no cover; pending-review = a cover without full license and publication approval; approved = a cover the card may show. Must match coverImage (src/utils/cardReadiness.js)."
+      },
+      "description": {
+        "type": "string"
+      },
+      "unesco": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "World Heritage inscription: true=inscribed, false=known not inscribed (including tentative), null=not established."
+      },
+      "has3D": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "Recorded 3D availability; null means not established. Never infer false from missing evidence."
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/source"
+        }
+      },
+      "coverImage": {
+        "description": "Cover image with attribution metadata, or null when no cover is assigned.",
+        "anyOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/definitions/image"
+          }
+        ]
+      },
+      "galleryImages": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/image"
+        }
+      }
+    },
+    "additionalProperties": true
+  },
+  "definitions": {
+    "source": {
+      "type": "object",
+      "required": [
+        "sourceName",
+        "url",
+        "evidenceId",
+        "accessedAt"
+      ],
+      "properties": {
+        "sourceName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "description": "An absolute HTTP(S) reference URL, or an empty string for a citation without a link.",
+          "pattern": "^(https?://[^\\s]+|)$"
+        },
+        "evidenceId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "description": "A real evidence record ID; null when not recorded."
+        },
+        "accessedAt": {
+          "description": "A recorded ISO date or timezone-qualified timestamp; null when unknown. Do not fill with the current date.",
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "string",
+              "format": "date-time"
+            }
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "src",
+        "alt",
+        "caption",
+        "credit",
+        "license"
+      ],
+      "properties": {
+        "src": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alt": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "credit": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "license_status": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "unverified",
+            "restricted",
+            "unknown"
+          ],
+          "description": "Image-specific licensing state. Verified licensing alone is not publication approval."
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

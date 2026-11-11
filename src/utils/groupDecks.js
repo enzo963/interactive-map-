@@ -1,5 +1,5 @@
 import { getGovernorateKey } from '../data/governorates';
-import { getDeckBack } from '../data/deckBacks';
+import { getGovernorateBack } from '../data/collections';
 
 /** Sites -> one deck per governorate (largest first). Counts always come from the data. */
 export function groupByGovernorate(sites) {
@@ -15,8 +15,8 @@ export function groupByGovernorate(sites) {
     .map((deck) => ({
       ...deck,
       count: deck.sites.length,
-      back: getDeckBack(deck.name),
-      href: `/decks/${deck.id}`, // Phase 3 route
+      back: getGovernorateBack(deck.name),
+      href: `/decks/${deck.id}`,
     }));
 }
 

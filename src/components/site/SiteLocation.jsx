@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 import SmartLink from '../common/SmartLink';
 import MapCanvas from '../map/MapCanvas';
-import { useI18n } from '../../i18n/I18nContext';
 import { useNavigate } from '../../router/RouterContext';
 import '../../styles/home-sections.css';
 import '../../styles/site-details.css';
+import { t, tn } from '../../i18n';
 
 const fmt = (n) => n.toFixed(4);
 
@@ -13,7 +13,6 @@ const fmt = (n) => n.toFixed(4);
  * Returns null without coordinates.
  */
 export default function SiteLocation({ site, neighbours }) {
-  const { t } = useI18n();
   const navigate = useNavigate();
   const mapSites = useMemo(() => [site, ...neighbours], [site, neighbours]);
   if (!Number.isFinite(site.latitude) || !Number.isFinite(site.longitude)) return null;
@@ -30,17 +29,17 @@ export default function SiteLocation({ site, neighbours }) {
           selectedSite={site}
           onSelect={(other) => { if (other.id !== site.id) navigate(other.href); }}
           size="compact"
-          caption={t('location.caption', { others: t('count.otherCards', { n: withCoords.length }) })}
+          caption={tn('Recorded position, shown with {n} other card from the same governorate. Select a pin to open that card.', 'Recorded position, shown with {n} other cards from the same governorate. Select a pin to open that card.', withCoords.length)}
         />
       </figure>
 
       <div className="hb-location__text">
         <dl className="hb-location__coords">
-          <div><dt>{t('location.lat')}</dt><dd><bdi dir="ltr">{fmt(site.latitude)}</bdi></dd></div>
-          <div><dt>{t('location.lon')}</dt><dd><bdi dir="ltr">{fmt(site.longitude)}</bdi></dd></div>
+          <div><dt>{t('Latitude')}</dt><dd>{fmt(site.latitude)}</dd></div>
+          <div><dt>{t('Longitude')}</dt><dd>{fmt(site.longitude)}</dd></div>
         </dl>
-        <p><SmartLink className="hb-link" href={`/map?site=${site.slug}`}>{t('location.viewMap')}</SmartLink></p>
-        <p><a className="hb-link" href={osm} target="_blank" rel="noopener noreferrer">{t('location.osm')}<span className="sr-only"> {t('common.newTab')}</span></a></p>
+        <p><SmartLink className="hb-link" href={`/map?site=${site.slug}`}>{t('View on the archive map')}</SmartLink></p>
+        <p><a className="hb-link" href={osm} target="_blank" rel="noopener noreferrer">{t('Open in OpenStreetMap')}<span className="sr-only"> ({t('opens in a new tab')})</span></a></p>
       </div>
     </div>
   );

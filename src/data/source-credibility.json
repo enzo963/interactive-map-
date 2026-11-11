@@ -1,0 +1,50 @@
+{
+  "about": "Citation credibility for heritage cards, by publisher domain. Lower tier is stronger, as in tools/content-pipeline/config/sources.json (which lists fetchable sources, not citations). Used by src/utils/sourceCredibility.js. A source whose domain is not listed counts as unclassified and supports no card until it is added here.",
+  "tiers": {
+    "1": { "id": "official", "label": "UNESCO, its advisory bodies and governmental heritage authorities", "credible": true },
+    "2": { "id": "scholarly", "label": "Academic publications, universities, archaeological missions, museums, archives, research institutes, reputable cultural heritage organisations and official government bodies", "credible": true },
+    "3": { "id": "reference", "label": "Encyclopaedias, established news organisations and non-specialist NGOs", "credible": true },
+    "4": { "id": "discovery", "label": "Tourism, travel, commercial and personal sites and user-contributed databases: useful for finding candidates, never the evidence for a card", "credible": false },
+    "locator": { "id": "locator", "label": "Coordinate lookups and media hosting: place or illustrate a site, do not document it", "credible": false }
+  },
+  "domains": {
+    "1": [
+      "whc.unesco.org", "unesco.org", "icomos.org",
+      "gov.krd", "us.gov.krd", "cdn.gov.krd", "sbah.gov.iq",
+      "slemani-antiquities.com",
+      "archeologie.culture.gouv.fr"
+    ],
+    "2": [
+      "investpromo.gov.iq", "iraq.un.org", "tika.gov.tr", "iasj.mohesr.gov.iq",
+      "alsudairy.org.sa", "aafu.journals.ekb.eg", "journals.plos.org", "doi.org", "mdpi.com", "persee.fr", "cambridge.org",
+      "shs.hal.science", "drarch.org", "search.emarefa.net", "iranicaonline.org",
+      "kokushikan.ac.jp", "discovery.ucl.ac.uk", "blogs.ucl.ac.uk", "mcid.mcah.columbia.edu", "umdb.um.u-tokyo.ac.jp",
+      "isac.uchicago.edu", "ninive.uni-heidelberg.de", "ori.uni-heidelberg.de", "edizionicafoscari.unive.it",
+      "assyriologie.uni-muenchen.de", "en.ag.geschichte.uni-muenchen.de", "epub.ub.uni-muenchen.de",
+      "fit.uni-tuebingen.de", "uni-tuebingen.de", "keibi.uni-tuebingen.de", "cris.fau.de", "gla.ac.uk", "podcasts.ox.ac.uk",
+      "penn.museum", "penntoday.upenn.edu", "web.sas.upenn.edu", "oracc.museum.upenn.edu", "oracc2.museum.upenn.edu",
+      "ucf.edu", "whoseculture.hsites.harvard.edu", "uod.ac", "uomosul.edu.iq", "athar.uomosul.edu.iq",
+      "basicedu.uodiyala.edu.iq", "sjh.univsul.edu.iq", "uebdc.uoanbar.edu.iq",
+      "centroscavitorino.it", "dainst.org", "cwgc.org", "bisi.ac.uk", "asor.org", "cdli.mpiwg-berlin.mpg.de", "syriaca.org", "pleiades.stoa.org",
+      "metmuseum.org", "resources.metmuseum.org",
+      "aliph-foundation.org", "wmf.org", "archnet.org", "3d.iconem.com",
+      "mesopotamiaheritage.org", "monumentsofmosul.com", "diarna.org"
+    ],
+    "3": [
+      "en.wikipedia.org", "worldhistory.org", "encyclopedia.com", "academia.edu", "artsandculture.google.com",
+      "kurdistan24.net", "shafaq.com", "rudaw.net", "pukmedia.com", "syriacpress.com", "kirkuknow.com",
+      "kurdistanchronicle.com", "aljazeera.net", "aljazeera.com", "cbsnews.com", "al-monitor.com", "monocle.com",
+      "channel8.com", "turkiyetoday.com", "iraqoilreport.com", "iraq-businessnews.com", "popular-archaeology.com",
+      "exaudi.org", "unpo.org", "nadiasinitiative.org", "wadi-online.org", "kurdishacademy.org", "mosul-eye.org"
+    ],
+    "4": [
+      "kurdipedia.org", "kurdshop.net", "showcaves.com", "mosul-heritage.com", "egerin.com", "tripadvisor.com", "lonelyplanet.com"
+    ],
+    "locator": ["wikidata.org", "commons.wikimedia.org", "upload.wikimedia.org"]
+  },
+  "sourceTypeTiers": {
+    "academic-publication": "2",
+    "excavation-report": "2",
+    "news-report": "3"
+  }
+}

@@ -5,7 +5,7 @@
  * `**word**` is rendered bold (only where the page uses the Rich component).
  */
 export default {
-  'brand.name': 'Heritage Bridge',
+  'brand.name': 'History in Cards',
   'common.skip': 'Skip to content',
   'common.unknown': 'Unknown',
   'common.close': 'Close',

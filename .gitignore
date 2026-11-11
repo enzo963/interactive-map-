@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Source downloads for image optimization (tools/content-pipeline/optimize_images.py)
+tools/content-pipeline/data/image-cache/

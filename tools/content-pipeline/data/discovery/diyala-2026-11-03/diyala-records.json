@@ -1,0 +1,3687 @@
+[
+  {
+    "id": "site-diyala-eshnunna",
+    "name": "Eshnunna (Tell Asmar)",
+    "governorate": "Diyala",
+    "category": "Archaeological City",
+    "period": "Early Dynastic to Old Babylonian",
+    "description": "A Sumerian and Akkadian city-state of the Diyala valley with Tishpak as its patron god; under its Old Babylonian kings it ruled Khafajah, Ishchali and the Hamrin. It was excavated by the University of Chicago’s Diyala project in the 1930s.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Eshnunna",
+        "url": "https://en.wikipedia.org/wiki/Eshnunna",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Chicago ISAC — Diyala Project",
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Overview"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "eshnunna",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Asmar",
+      "Ashnunnak",
+      "إشنونة",
+      "تل أسمر"
+    ],
+    "approximateLocation": "Lower Diyala valley",
+    "review_notes": "Wikidata gives the same rounded point (33.75, 44.75) for Eshnunna and Khafajah, so no pin is set."
+  },
+  {
+    "id": "site-diyala-khafajah",
+    "name": "Khafajah (Tutub)",
+    "governorate": "Diyala",
+    "category": "Archaeological City",
+    "period": "Uruk to Old Babylonian",
+    "description": "Ancient Tutub on the Diyala river 11 km east of Baghdad, occupied from the Uruk period to the end of the Old Babylonian period, known for its oval temple; later controlled by Eshnunna.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Khafajah",
+        "url": "https://en.wikipedia.org/wiki/Khafajah",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Chicago ISAC — Diyala Project",
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Overview"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khafajah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Khafaje",
+      "Tutub",
+      "خفاجة"
+    ],
+    "approximateLocation": "Diyala river east of Baghdad",
+    "review_notes": "No reliable coordinates (Wikidata point is rounded and shared with Eshnunna)."
+  },
+  {
+    "id": "site-diyala-tell-agrab",
+    "name": "Tell Agrab",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Jemdet Nasr to Larsa",
+    "description": "A walled mound of about 500 × 600 m south-east of Eshnunna, occupied from the Jemdet Nasr to the Larsa period, with the Early Dynastic Shara temple.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Agrab",
+        "url": "https://en.wikipedia.org/wiki/Tell_Agrab",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Chicago ISAC — Diyala Project",
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Overview"
+      },
+      {
+        "sourceName": "Wikidata Q1612336 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q1612336",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-agrab",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Aqrab",
+      "تل أغرب"
+    ],
+    "approximateLocation": "Lower Diyala",
+    "latitude": 33.566667,
+    "longitude": 44.766667,
+    "coordinates_source": "wikidata:Q1612336",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-diyala-tell-ishchali",
+    "name": "Tell Ishchali (Nerebtum)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Isin-Larsa to Old Babylonian",
+    "description": "A site near the Diyala river south of Khafajah, probably ancient Nerebtum, with Isin-Larsa and Old Babylonian levels; for part of its history it was controlled by Eshnunna.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Ishchali",
+        "url": "https://en.wikipedia.org/wiki/Tell_Ishchali",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Chicago ISAC — Diyala Project",
+        "url": "https://isac.uchicago.edu/research-projects/diyala-project",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Overview"
+      },
+      {
+        "sourceName": "Wikidata Q3338309 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3338309",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-ishchali",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Ishchali",
+      "Nerebtum",
+      "Kiti",
+      "تل إشجالي"
+    ],
+    "approximateLocation": "Lower Diyala",
+    "latitude": 33.3031,
+    "longitude": 44.5843,
+    "coordinates_source": "wikidata:Q3338309",
+    "coordinates_precision": "site",
+    "review_notes": "Wikipedia places it about 3 miles south-east of Baghdad; confirm the governorate."
+  },
+  {
+    "id": "site-diyala-choga-mami",
+    "name": "Choga Mami",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Samarra to Ubaid",
+    "description": "A Samarran-culture village near Mandali with the earliest known canal irrigation, about 6000 BC, and a guard tower at its entrance; occupied into the Ubaid period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Choga Mami",
+        "url": "https://en.wikipedia.org/wiki/Choga_Mami",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q3820171 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q3820171",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "choga-mami",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "تشوغا مامي"
+    ],
+    "approximateLocation": "Mandali",
+    "estimated_year": "c. 6000 BC",
+    "latitude": 33.88333,
+    "longitude": 45.44999,
+    "coordinates_source": "wikidata:Q3820171",
+    "coordinates_precision": "approximate"
+  },
+  {
+    "id": "site-diyala-tell-abada",
+    "name": "Tell Abada",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Ubaid",
+    "description": "An Ubaid 1–3 village excavated in full in the Hamrin salvage campaign, 12 km south-east of Sadiyah; one of the few Ubaid settlements excavated entirely.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Abada",
+        "url": "https://en.wikipedia.org/wiki/Tell_Abada",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1"
+      },
+      {
+        "sourceName": "Wikidata Q56300816 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q56300816",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-abada",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Abadah",
+      "تل عبادة"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.1,
+    "longitude": 45.12,
+    "coordinates_source": "wikidata:Q56300816",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-rashid",
+    "name": "Tell Rashid",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Ubaid",
+    "description": "A small Ubaid mound excavated in 1978, with four Ubaid occupation levels down to virgin soil.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Rashid",
+        "url": "https://en.wikipedia.org/wiki/Tell_Rashid",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q108022469 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108022469",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-rashid",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.03,
+    "longitude": 45.17,
+    "coordinates_source": "wikidata:Q108022469",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-madhur",
+    "name": "Tell Madhur",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Ubaid; Early Dynastic",
+    "description": "A mound best known for a well-preserved Ubaid house, with an Early Dynastic round building typical of the Hamrin.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Madhur",
+        "url": "https://en.wikipedia.org/wiki/Tell_Madhur",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1"
+      },
+      {
+        "sourceName": "Wikidata Q108047815 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108047815",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-madhur",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Madhhur",
+      "تل مظهر"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.38,
+    "longitude": 44.99,
+    "coordinates_source": "wikidata:Q108047815",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-saadiya",
+    "name": "Tell Saadiya",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A small tell excavated in 1979–80 by the Polish Centre of Mediterranean Archaeology in the Hamrin salvage programme.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Saadiya",
+        "url": "https://en.wikipedia.org/wiki/Tell_Saadiya",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q86671285 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q86671285",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-saadiya",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell es-Saadiya",
+      "تل سعدية"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.18,
+    "longitude": 45.11,
+    "coordinates_source": "wikidata:Q86671285",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-suleimah",
+    "name": "Tell Suleimah",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The largest site in the Hamrin inundation area, 1 km east of the Diyala river (Hamrin site 12); Awal and Batir have been proposed as its ancient name.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Suleimah",
+        "url": "https://en.wikipedia.org/wiki/Tell_Suleimah",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1"
+      },
+      {
+        "sourceName": "Wikidata Q135441002 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q135441002",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-suleimah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Suleimah",
+      "Tell Sleima",
+      "Awal (proposed)"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.1675,
+    "longitude": 45.103056,
+    "coordinates_source": "wikidata:Q135441002",
+    "coordinates_precision": "site",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-yelkhi",
+    "name": "Tell Yelkhi",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic to Kassite",
+    "description": "An oval mound settled in the early 3rd millennium BC and occupied into the Kassite period, excavated by an Italian team in 1977–80; it re-emerges when the lake falls.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Tell Yelkhi",
+        "url": "https://en.wikipedia.org/wiki/Tell_Yelkhi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Main article"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-yelkhi",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Telkhi",
+      "Tell Yalkhi",
+      "Awalki (proposed)"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-me-turan",
+    "name": "Me-Turan (Tell Haddad and Tell as-Sib)",
+    "governorate": "Diyala",
+    "category": "Archaeological City",
+    "period": "Isin-Larsa to Neo-Assyrian",
+    "description": "A city of the Isin-Larsa, Old Babylonian, Kassite and Neo-Assyrian periods (Me-Turnat), controlled first by Eshnunna and then Babylon, excavated in the Hamrin salvage campaign.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Me-Turan",
+        "url": "https://en.wikipedia.org/wiki/Me-Turan",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q86666193 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q86666193",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "me-turan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Haddad",
+      "Tell al-Sib",
+      "Me-Turnat",
+      "تل حداد"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.214444,
+    "longitude": 45.084722,
+    "coordinates_source": "wikidata:Q86666193",
+    "coordinates_precision": "site",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-razuk",
+    "name": "Tell Razuk",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic I",
+    "description": "An Early Dynastic I town of about 3000 BC at Uch Tepe, best known for its Round Building, excavated by the Chicago–Copenhagen expedition.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Title and description"
+      },
+      {
+        "sourceName": "University of Chicago Oriental Institute News & Notes — Hamrin excavations",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/nn59.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-razuk",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Razuk",
+      "Tell Razzuq"
+    ],
+    "approximateLocation": "Uch Tepe, Hamrin basin",
+    "estimated_year": "c. 3000 BC",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-ahmed-al-mughir",
+    "name": "Tell Ahmed al-Mughir",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell at Uch Tepe excavated by the Chicago–Copenhagen expedition.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Title and description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-ahmed-al-mughir",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "approximateLocation": "Uch Tepe, Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-ajamat",
+    "name": "Tell Ajamat",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell at Uch Tepe excavated by the Chicago–Copenhagen expedition.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Gibson (ed.) 1981 — Uch Tepe I: Tell Razuk, Tell Ahmed al-Mughir, Tell Ajamat (ISAC)",
+        "url": "https://isac.uchicago.edu/publications/uch-tepe-i-tell-razuk-tell-ahmed-al-mughir-tell-ajamat",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Title and description"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-ajamat",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Ajama"
+    ],
+    "approximateLocation": "Uch Tepe, Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-atiqeh",
+    "name": "Tell Atiqeh",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Akkadian",
+    "description": "The southernmost Uch Tepe mound, consisting of one large Akkadian palace of about 2300 BC.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Chicago Oriental Institute News & Notes — Hamrin excavations",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/nn59.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-atiqeh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tepe Atiqeh",
+      "Tell Atikeh"
+    ],
+    "approximateLocation": "Uch Tepe, Hamrin basin",
+    "estimated_year": "c. 2300 BC",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-gubba",
+    "name": "Tell Gubba",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Early Dynastic",
+    "description": "A Hamrin tell excavated by Kokushikan University, one of the circular Early Dynastic fortresses of the basin.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list"
+      },
+      {
+        "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-gubba",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Gubba",
+      "Tell Gubbah"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-songor",
+    "name": "Tell Songor (A, B and C)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A group of three mounds excavated by Kokushikan University in the Hamrin salvage campaign.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list"
+      },
+      {
+        "sourceName": "Wikidata Q108047701 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108047701",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-songor",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Sungur",
+      "Songor A",
+      "Songor B",
+      "Songor C"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.17,
+    "longitude": 45.0,
+    "coordinates_source": "wikidata:Q108047701",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tellul-hamediyat",
+    "name": "Tellul Hamediyat",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Mounds in the Hamrin basin excavated by Kokushikan University.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kokushikan University ICSAI — Hamrin excavation reports",
+        "url": "https://www.kokushikan.ac.jp/research/ICSAI/report/hamlin/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Excavation reports list"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tellul-hamediyat",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tulul al-Humeidiyat",
+      "Telul-Hamediyat"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-rubeidheh",
+    "name": "Tell Rubeidheh",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A Hamrin tell with its own section in the Oriental Institute’s Tell Abada volume; its character is not described in the excerpts found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Jasim 2021, OIP 147 — Tell Abada: An Ubaid Village in Central Mesopotamia (ISAC)",
+        "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/Publications/OIP/oip147.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Section TELL AR-RUBEIDHEH"
+      },
+      {
+        "sourceName": "Yaseen 2005, Adumatu 11 — Settlements of the Hamrin Basin, Map 1",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Map 1, site 69 (ar-Rubeideh)"
+      },
+      {
+        "sourceName": "Wikidata Q108047841 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q108047841",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-rubeidheh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tell ar-Rubeidheh",
+      "ar-Rubeideh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "latitude": 34.34,
+    "longitude": 44.91,
+    "coordinates_source": "wikidata:Q108047841",
+    "coordinates_precision": "approximate",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
+  },
+  {
+    "id": "site-diyala-tell-abu-husaini",
+    "name": "Tell Abu Husaini",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Ubaid",
+    "description": "An Ubaid-period site excavated by the Italian CRAST mission.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Main article"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-abu-husaini",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Abu Husaini"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-hassan",
+    "name": "Tell Hassan",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Halaf",
+    "description": "A Halaf-period site excavated by the Italian CRAST mission.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Main article"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-hassan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Hasan"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-kesaran",
+    "name": "Tell Kesaran",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A Hamrin site worked by the Italian CRAST mission.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Centro Scavi di Torino (CRAST) — Hamrin",
+        "url": "https://www.centroscavitorino.it/en/siti-di-scavo/hamrin-2/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Main article"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-kesaran",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-kheit-qasim",
+    "name": "Kheit Qasim (I–III)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A complex of a cemetery (I) and two mounds (II, III) in the northern Hamrin basin excavated by Jean-Daniel Forest.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Forest 1980, Paléorient 6 — Kheit Qasim excavations",
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Introduction"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kheit-qasim",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Kheit Qasim I",
+      "Kheit Qasim II",
+      "Kheit Qasim III"
+    ],
+    "approximateLocation": "Northern Hamrin basin",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low."
+  },
+  {
+    "id": "site-diyala-tell-abu-qasim",
+    "name": "Tell Abu Qasim",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A mound beside Kheit Qasim in the Hamrin basin.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Forest 1980, Paléorient 6 — Kheit Qasim excavations",
+        "url": "https://www.persee.fr/doc/paleo_0153-9345_1980_num_6_1_4271",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Introduction"
+      },
+      {
+        "sourceName": "Athar al-Rafidain (University of Mosul) — Tell Abu Qasim",
+        "url": "https://athar.uomosul.edu.iq/index.php/athar/en/article/view/63503",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "full-text",
+        "locator": "Abstract"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-abu-qasim",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Tell Abu-Qasim",
+      "Khibet al-Qasim (probable)"
+    ],
+    "approximateLocation": "Hamrin basin, beside Kheit Qasim",
+    "review_notes": "Excavated in the Hamrin Dam salvage campaign (1977–80); now in or beside Lake Hamrin and exposed only when the water is low. Probably the same site as Khibet al-Qasim on Yaseen’s map (no. 14)."
+  },
+  {
+    "id": "site-diyala-dastagird",
+    "name": "Dastagird (Royal Dastjerd)",
+    "governorate": "Diyala",
+    "category": "Archaeological City",
+    "period": "Parthian–Sasanian",
+    "description": "A Sasanian royal city near Ctesiphon, earlier Artemita, rebuilt under Hormizd I, enlarged under Khosrow I with palace and fortress, and a residence of Khosrow II until the Byzantine emperor Heraclius sacked it in 628.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Dastagird",
+        "url": "https://en.wikipedia.org/wiki/Dastagird",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q112246696 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q112246696",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dastagird",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Dastgerd",
+      "Daskara",
+      "Artemita",
+      "Daskarat al-Malik",
+      "دسكرة الملك"
+    ],
+    "approximateLocation": "Near Muqdadiya (Shahraban)",
+    "estimated_year": 628,
+    "destruction_status": "Sacked (628)",
+    "latitude": 33.93951,
+    "longitude": 44.92584,
+    "coordinates_source": "wikidata:Q112246696",
+    "coordinates_precision": "site"
+  },
+  {
+    "id": "site-diyala-tell-al-zendan",
+    "name": "Tell al-Zendan Fortress",
+    "governorate": "Diyala",
+    "category": "Castle",
+    "period": "Sasanian",
+    "description": "A large rectangular Sasanian fortress 12 km south of Muqdadiya with 16 towers (12 surviving), two gates and walls about 19 feet thick; Diyala prepared its file for the Tentative List in 2022.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News (Arabic), 5 March 2022 — Diyala begins listing two heritage monuments",
+        "url": "https://shafaq.com/ar/مجتـمع/ديالى-تشرع-بخطوات-ضم-معلمين-ثريين-الى-لا-حة-التراث-حدهما-يعود-للحقبة-الساسانية",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tell-al-zendan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Zindan",
+      "Zendan",
+      "تل الزندان"
+    ],
+    "approximateLocation": "12 km south of Muqdadiya",
+    "review_notes": "Dated by the source to the 2nd–3rd century CE, which is early for Sasanian; confirm."
+  },
+  {
+    "id": "site-diyala-adhaim-ancient-dam",
+    "name": "Ancient Adhaim Dam",
+    "governorate": "Diyala",
+    "category": "Historic Monument",
+    "period": "Late Antique to Abbasid",
+    "description": "An ancient dam on the Adhaim river beside the modern dam, said to date from the 4th century and to have watered farmland in Diyala and Salah al-Din until the 12th; reported as Iraq’s first ancient dam proposed for the heritage list of irrigation works.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Shafaq News (Arabic), 5 March 2022 — Diyala begins listing two heritage monuments",
+        "url": "https://shafaq.com/ar/مجتـمع/ديالى-تشرع-بخطوات-ضم-معلمين-ثريين-الى-لا-حة-التراث-حدهما-يعود-للحقبة-الساسانية",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites (Abbasid Dam on the Al-Uthaim)"
+      },
+      {
+        "sourceName": "Wikidata Q115679578 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q115679578",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "adhaim-ancient-dam",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Abbasid Dam on the Uthaim",
+      "سد العظيم الأثري"
+    ],
+    "approximateLocation": "Adhaim, northern Diyala",
+    "estimated_year": "4th century",
+    "latitude": 34.553656,
+    "longitude": 44.504018,
+    "coordinates_source": "wikidata:Q115679578",
+    "coordinates_precision": "site",
+    "review_notes": "The NIC list calls it Abbasid; Shafaq gives a 4th-century date. Listing status needs an official source."
+  },
+  {
+    "id": "site-diyala-hawsh-kuri",
+    "name": "Hawsh Kuri Palace",
+    "governorate": "Diyala",
+    "category": "Palace",
+    "period": "",
+    "period_status": "not-established",
+    "description": "An archaeological palace site in the Qara Tu subdistrict of Khanaqin district.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Diyala, College of Basic Education — Diyala in the Late Ottoman Period (Arabic)",
+        "url": "https://basicedu.uodiyala.edu.iq/uploads/basic%20basic/%D8%B3%D8%B9%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D9%84%D9%8A.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Chapter 1, p. 30"
+      },
+      {
+        "sourceName": "Wikidata Q139901467 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q139901467",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hawsh-kuri",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Hawsh Kri",
+      "Hawsh Korw",
+      "حوش كري"
+    ],
+    "approximateLocation": "Qara Tu, Khanaqin district",
+    "latitude": 34.571586,
+    "longitude": 45.472394,
+    "coordinates_source": "wikidata:Q139901467",
+    "coordinates_precision": "site",
+    "review_notes": "Period and description not found."
+  },
+  {
+    "id": "site-diyala-alwand-bridge",
+    "name": "Alwand Bridge, Khanaqin",
+    "governorate": "Diyala",
+    "category": "Historic Bridge",
+    "period": "",
+    "period_status": "not-established",
+    "description": "The historic bridge in the centre of Khanaqin joining the two banks of the Alwand (Helwan) river, named after Mount Alwand.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Wikipedia — Alwand Bridge",
+        "url": "https://en.wikipedia.org/wiki/Alwand_Bridge",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "University of Diyala, College of Basic Education — Diyala in the Late Ottoman Period (Arabic)",
+        "url": "https://basicedu.uodiyala.edu.iq/uploads/basic%20basic/%D8%B3%D8%B9%D8%AF%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D9%84%D9%8A.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Chapter 1, p. 30"
+      },
+      {
+        "sourceName": "Wikidata Q100258194 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q100258194",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "alwand-bridge",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Khanaqin bridge",
+      "جسر الوند",
+      "جسر خانقين"
+    ],
+    "approximateLocation": "Khanaqin",
+    "latitude": 34.34169,
+    "longitude": 45.37886,
+    "coordinates_source": "wikidata:Q100258194",
+    "coordinates_precision": "site",
+    "review_notes": "Construction date not established from the sources read, so no period is set."
+  },
+  {
+    "id": "site-diyala-khan-bani-saad",
+    "name": "Khan Bani Saad Caravanserai",
+    "governorate": "Diyala",
+    "category": "Caravanserai",
+    "period": "Ottoman",
+    "description": "A rare surviving Ottoman caravanserai of 1688 on the Khorasan road, 60 km north of Baghdad; partly demolished for road widening in the 1940s, damaged by a car bomb in 2015, and under conservation in 2024–26.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "ALIPH — Conservation and rehabilitation of the Khan Bani Saad caravanserai",
+        "url": "https://aliph-foundation.org/en/projects/conservation-and-rehabilitation-of-the-khan-bani-saad-caravanserai-diyala",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q4077311 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q4077311",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khan-bani-saad",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "خان بني سعد"
+    ],
+    "approximateLocation": "Bani Saad",
+    "estimated_year": 1688,
+    "destruction_status": "Partly demolished (1940s); damaged (2015)",
+    "latitude": 33.565556,
+    "longitude": 44.543333,
+    "coordinates_source": "wikidata:Q4077311",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-diyala-baqubah-old-saray",
+    "name": "Old Saray of Baqubah",
+    "governorate": "Diyala",
+    "category": "Historic Building",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "baqubah-old-saray",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "سراي بعقوبة القديم"
+    ],
+    "approximateLocation": "Baqubah"
+  },
+  {
+    "id": "site-diyala-tel-abu-uthaina",
+    "name": "Tel Abu Uthaina",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tel-abu-uthaina",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tel Abu Uthayna",
+      "تل أبو أذينة"
+    ]
+  },
+  {
+    "id": "site-diyala-tel-shihab",
+    "name": "Tel Shihab",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "tel-shihab",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited"
+  },
+  {
+    "id": "site-diyala-prophet-daniel-shrine-diyala",
+    "name": "Shrine of the Prophet Daniel (Diyala)",
+    "governorate": "Diyala",
+    "category": "Shrine",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Iraq National Investment Commission — Investment map, Province of Diyala, historical sites",
+        "url": "https://investpromo.gov.iq/investment-map/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Historical sites"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "prophet-daniel-shrine-diyala",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "مرقد النبي دانيال"
+    ],
+    "review_notes": "Not the Prophet Daniel mosque in Kirkuk Citadel; identity and location to establish."
+  },
+  {
+    "id": "site-diyala-khanaqin-war-cemetery",
+    "name": "Khanaqin War Cemetery",
+    "governorate": "Diyala",
+    "category": "Cemetery",
+    "period": "Second World War",
+    "description": "A Second World War cemetery holding 104 Commonwealth servicemen, 437 Polish soldiers and 3 Arab Legionnaires. Many of the Poles, former prisoners of war in Russia, reached Khanaqin by September 1942 in poor health and died there. As the site became too hard to maintain, the Commission commemorated them from 1965 on a memorial in Baghdad (North Gate) War Cemetery.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Commonwealth War Graves Commission — Baghdad (North Gate) (Khanaqin) Memorial",
+        "url": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/2090521/baghdad-north-gate-khanaqin-memorial/",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet",
+        "locator": "History"
+      },
+      {
+        "sourceName": "Wikidata Q70633320 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q70633320",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "khanaqin-war-cemetery",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Baghdad (North Gate) (Khanaqin) Memorial"
+    ],
+    "approximateLocation": "Khanaqin",
+    "estimated_year": 1942,
+    "destruction_status": "No longer maintained; commemorated in Baghdad since 1965",
+    "latitude": 34.345578,
+    "longitude": 45.373286,
+    "coordinates_source": "wikidata:Q70633320",
+    "coordinates_precision": "site",
+    "review_notes": "The CWGC page refused automated access (HTTP 403), so the facts come from search excerpts of it; confirm them on the page. Whether graves remain at Khanaqin is not stated."
+  },
+  {
+    "id": "site-diyala-eski-kifri",
+    "name": "Eski Kifri",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "Middle Assyrian; Sasanian",
+    "description": "A large site about 8 km south-west of Kifri where Claudius Rich found Sasanian and Middle Assyrian material in the 19th century.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "University of Sulaimani Journal of Humanities — Archaeological and cultural architecture in Kifri",
+        "url": "https://sjh.univsul.edu.iq/article?id=2012",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "eski-kifri",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "approximateLocation": "8 km south-west of Kifri"
+  },
+  {
+    "id": "site-diyala-kifri-bawa-shaswar",
+    "name": "Bawa Shaswar Quarter, Kifri",
+    "governorate": "Diyala",
+    "category": "Historic Urban Area",
+    "period": "",
+    "period_status": "not-established",
+    "description": "Kifri’s traditional quarter of stone, mud and gypsum houses; heritage houses fell from about 60 to 15 before a restoration campaign in April 2026.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24, 21 April 2026 — Kifri’s cultural heritage: restoration drive in Garmian",
+        "url": "https://www.kurdistan24.net/en/opinion/909509/kifris-cultural-heritage-kurdistan-region-authorities-lead-restoration-drive-in-garmian",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikidata Q2626532 (coordinates)",
+        "url": "https://www.wikidata.org/wiki/Q2626532",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "full-text"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kifri-bawa-shaswar",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "documented",
+    "alternativeNames": [
+      "Bawa Shaswar"
+    ],
+    "approximateLocation": "Kifri",
+    "latitude": 34.689444,
+    "longitude": 44.960556,
+    "coordinates_source": "wikidata:Q2626532",
+    "coordinates_precision": "settlement"
+  },
+  {
+    "id": "site-diyala-kifri-saray",
+    "name": "Kifri Saray",
+    "governorate": "Diyala",
+    "category": "Historic Building",
+    "period": "Ottoman",
+    "description": "The Ottoman government building of Kifri, named among the town’s heritage sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
+        "url": "https://www.kurdistan24.net/en/story/838316/kifri-launches-campaign-to-restore-historical-heritage-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "University of Sulaimani Journal of Humanities — Archaeological and cultural architecture in Kifri",
+        "url": "https://sjh.univsul.edu.iq/article?id=2012",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kifri-saray",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Qishla of Kifri"
+    ],
+    "approximateLocation": "Kifri",
+    "review_notes": "Named in lists only; no description found."
+  },
+  {
+    "id": "site-diyala-kifri-qaysari-bazaar",
+    "name": "Qaysari Bazaar, Kifri",
+    "governorate": "Diyala",
+    "category": "Historic Market",
+    "period": "Ottoman",
+    "description": "The traditional arched bazaar of Kifri with its khans.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
+        "url": "https://www.kurdistan24.net/en/story/838316/kifri-launches-campaign-to-restore-historical-heritage-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "PUKmedia — Kifri Keiseri, one of the ancient places of Kurdistan",
+        "url": "https://pukmedia.com/EN/Details/67896",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "kifri-qaysari-bazaar",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kifri Keiseri"
+    ],
+    "approximateLocation": "Kifri",
+    "review_notes": "Condition reported as neglected."
+  },
+  {
+    "id": "site-diyala-majid-pasha-palace-kifri",
+    "name": "Majid Pasha Baban Palace, Kifri",
+    "governorate": "Diyala",
+    "category": "Palace",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A palace named among Kifri’s heritage sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
+        "url": "https://www.kurdistan24.net/en/story/838316/kifri-launches-campaign-to-restore-historical-heritage-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "majid-pasha-palace-kifri",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "approximateLocation": "Kifri",
+    "review_notes": "Named only; no description found."
+  },
+  {
+    "id": "site-diyala-dawood-zarifa-house",
+    "name": "Dawood Zarifa House, Kifri",
+    "governorate": "Diyala",
+    "category": "Historic House",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A heritage house named among Kifri’s heritage sites.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
+        "url": "https://www.kurdistan24.net/en/story/838316/kifri-launches-campaign-to-restore-historical-heritage-sites",
+        "evidenceId": null,
+        "accessedAt": "2026-11-03",
+        "accessLevel": "search-snippet"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "dawood-zarifa-house",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "approximateLocation": "Kifri",
+    "review_notes": "Named only; no description found."
+  },
+  {
+    "id": "site-diyala-hamrin-al-hafayir",
+    "name": "al-Hafayir (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 1"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-hafayir",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "al-Hafayir"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-umm-salim",
+    "name": "Tulul Umm Salim (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 2"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-umm-salim",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul Umm Salim"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-al-bakhtariyah",
+    "name": "Tulul al-Bakhtariyah (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 4"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-al-bakhtariyah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul al-Bakhtariyah"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-deshtaneh",
+    "name": "Deshtaneh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 5"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-deshtaneh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Deshtaneh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-al-daham",
+    "name": "al-Daham (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 6"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-daham",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "al-Daham"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-abu-khazef",
+    "name": "Abu Khazef (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 8"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-abu-khazef",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Abu Khazef"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-kheit-imneithir",
+    "name": "Kheit Imneithir (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 9"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-kheit-imneithir",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kheit Imneithir"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-kheit-al-imheidiyed",
+    "name": "Kheit al-Imheidiyed (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 10"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-kheit-al-imheidiyed",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kheit al-Imheidiyed"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-at-turah",
+    "name": "at-Turah (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 11"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-at-turah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "at-Turah"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-aq-tepe",
+    "name": "Aq Tepe (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 13"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-aq-tepe",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Aq Tepe"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-al-khubari",
+    "name": "Tulul al-Khubari (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 15"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-al-khubari",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul al-Khubari"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-beni-weis",
+    "name": "Tulul Beni Weis (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 16"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-beni-weis",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul Beni Weis"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ayyash",
+    "name": "Ayyash (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 17"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ayyash",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Ayyash"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-hikmeh",
+    "name": "Hikmeh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 18"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-hikmeh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Hikmeh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ash-shair",
+    "name": "ash-Sha’ir (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 19"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ash-shair",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "ash-Sha’ir"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-mahmud-agha",
+    "name": "Mahmud Agha (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 20"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-mahmud-agha",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Mahmud Agha"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-shor-tepe",
+    "name": "Shor Tepe (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 21"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-shor-tepe",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Shor Tepe"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-nebi-ismail",
+    "name": "Nebi Ismail (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 22"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-nebi-ismail",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Nebi Ismail"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-al-zawiyah",
+    "name": "al-Zawiyah (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 23"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-zawiyah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "al-Zawiyah"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ar-raha",
+    "name": "ar-Raha (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 24"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ar-raha",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "ar-Raha"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-imam-ali",
+    "name": "Imam Ali (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 25"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-imam-ali",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Imam Ali"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-al-mahatteh",
+    "name": "al-Mahatteh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 26"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-mahatteh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "al-Mahatteh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-gauri",
+    "name": "Gauri (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 27"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-gauri",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Gauri"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-irsheidch",
+    "name": "Irsheidch (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 28"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-irsheidch",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Irsheidch"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-baradan",
+    "name": "Tulul Baradan (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 29"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-baradan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul Baradan"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-imleihiyeh",
+    "name": "Imleihiyeh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 32"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-imleihiyeh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Imleihiyeh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-al-imam-al-bairakdah",
+    "name": "Al-Imam al-Bairakdah (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 33"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-imam-al-bairakdah",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Al-Imam al-Bairakdah"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ababra",
+    "name": "Ababra (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 34"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ababra",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Ababra"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-harmaleh",
+    "name": "Harmaleh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 37"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-harmaleh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Harmaleh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-kheit-genj",
+    "name": "Kheit Genj (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 38"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-kheit-genj",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kheit Genj"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-abu-shufeh",
+    "name": "Abu Shufeh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 39"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-abu-shufeh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Abu Shufeh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-jeizalun",
+    "name": "Jeizalun (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 40"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-jeizalun",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Jeizalun"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tunneireh",
+    "name": "Tunneireh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 41"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tunneireh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tunneireh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-hablayeh",
+    "name": "Hablayeh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 43"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-hablayeh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Hablayeh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-kumeideh",
+    "name": "Kumeideh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 44"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-kumeideh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kumeideh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin. Possibly the same site as Tell Rubeidheh. Yaseen’s numbering is unclear: his map gives ar-Rubeideh as site 69 and Kumeideh as site 44, but his text calls site 44 Rubeidheh. Kumeideh is kept as a separate card until the original map is checked."
+  },
+  {
+    "id": "site-diyala-hamrin-khuzeifi",
+    "name": "Khuzeifi (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 45"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-khuzeifi",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Khuzeifi"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-seidalan",
+    "name": "Seidalan (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 46"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-seidalan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Seidalan"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tejli",
+    "name": "Tejli (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 47"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tejli",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tejli"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-abu-tahin",
+    "name": "Abu Tahin (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 48"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-abu-tahin",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Abu Tahin"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-bustan",
+    "name": "Bustan (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 49"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-bustan",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Bustan"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-keshkul",
+    "name": "Keshkul (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 50"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-keshkul",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Keshkul"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-greish",
+    "name": "Greish (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 51"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-greish",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Greish"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-halawa",
+    "name": "Halawa (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 52"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-halawa",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Halawa"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-kheizif",
+    "name": "Kheizif (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 56"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-kheizif",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Kheizif"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ahmed-al-hattu",
+    "name": "Ahmed al-Hattu (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 57"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ahmed-al-hattu",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Ahmed al-Hattu"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-al-baqa",
+    "name": "al-Baqa (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 58"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-al-baqa",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "al-Baqa"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-tulul-al-yarmet",
+    "name": "Tulul al-Yarmet (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 59"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-tulul-al-yarmet",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Tulul al-Yarmet"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ali-pasha",
+    "name": "Ali Pasha (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 60"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ali-pasha",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Ali Pasha"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-as-saray",
+    "name": "as-Saray (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 61"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-as-saray",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "as-Saray"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-abu-gubab",
+    "name": "Abu Gubab (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 62"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-abu-gubab",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Abu Gubab"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-ash-shoureh",
+    "name": "ash-Shoureh (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 63"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-ash-shoureh",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "ash-Shoureh"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-sabra",
+    "name": "Sabra (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 66"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-sabra",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Sabra"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-as-sara",
+    "name": "as-Sara (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 68"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-as-sara",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "as-Sara"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  },
+  {
+    "id": "site-diyala-hamrin-abu-samad",
+    "name": "Abu Samad (Hamrin tell)",
+    "governorate": "Diyala",
+    "category": "Archaeological Site",
+    "period": "",
+    "period_status": "not-established",
+    "description": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "image_status": "none",
+    "sources": [
+      {
+        "sourceName": "Settlements of the Hamrin Basin, Iraq, from Early Times to the End of the Old Babylonian Period",
+        "url": "https://alsudairy.org.sa/wp-content/uploads/2024/06/Issue11-E_P027-038.pdf",
+        "evidenceId": null,
+        "accessedAt": "2026-11-02",
+        "accessLevel": "search-snippet",
+        "locator": "Ghassan Taha Yaseen (2005), Adumatu 11, pp. 27–38, Map 1 (p. 28), site 70"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "needs-review",
+    "verification_status": "needs-review",
+    "slug": "hamrin-abu-samad",
+    "discovery_batch": "diyala-2026-11-03",
+    "evidence_level": "limited",
+    "alternativeNames": [
+      "Abu Samad"
+    ],
+    "approximateLocation": "Hamrin basin",
+    "review_notes": "Map-name only (search excerpt of the map list). Governorate inferred from the Hamrin basin; likely flooded by Lake Hamrin."
+  }
+]

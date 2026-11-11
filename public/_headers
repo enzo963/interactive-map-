@@ -1,0 +1,6 @@
+# Long-lived caching for files whose names change whenever their content changes.
+# Read by Netlify and Cloudflare Pages; other hosts need the same rule in their own config.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/images/sites/*
+  Cache-Control: public, max-age=31536000, immutable
