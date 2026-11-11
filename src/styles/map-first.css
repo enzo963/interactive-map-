@@ -1,0 +1,138 @@
+/* =========================================================
+   Map-first layout, shared by the home page and the Map page: the map fills the
+   window below the sticky header, a rectangular control panel holds the right edge.
+   --hb-header-height is measured from the header by useHeaderHeight.js.
+   ========================================================= */
+.hb-mapfirst {
+  --panel-w: clamp(22rem, 27vw, 26rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--panel-w);
+  height: calc(100svh - var(--hb-header-height, 7rem));
+  min-height: 32rem;
+  border-bottom: 1px solid var(--hb-rule-strong);
+}
+
+/* map: everything left of the panel */
+.hb-mapfirst__map { position: relative; min-width: 0; min-height: 0; }
+.hb-mapfirst__map .hb-mapx { position: absolute; inset: 0; }
+.hb-mapfirst__map .hb-mapx__leaflet[data-size='fill'] { height: 100%; border: 0; }
+.hb-mapfirst__map .hb-map__caption {
+  position: absolute;
+  left: .75rem;
+  bottom: 1.75rem;
+  z-index: 500;
+  max-width: min(28rem, calc(100% - 1.5rem));
+  margin: 0;
+  padding: .4rem .65rem;
+  background: var(--hb-overlay);
+  border: 1px solid var(--hb-rule);
+  font-size: .78rem;
+  line-height: 1.4;
+  color: var(--hb-ink);
+  pointer-events: none;
+}
+
+/* panel: a rectangle that scrolls on its own */
+.hb-mapfirst__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: clamp(1.25rem, 2vw, 1.75rem);
+  background: var(--hb-paper);
+  border-left: 1px solid var(--hb-rule-strong);
+  scrollbar-width: thin;
+  scrollbar-color: var(--hb-rule-strong) transparent;
+}
+.hb-mapfirst__intro { display: grid; gap: .6rem; }
+.hb-mapfirst__title {
+  font-family: var(--hb-font-serif);
+  font-size: clamp(1.75rem, 2.4vw, 2.35rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.hb-mapfirst__lede { color: var(--hb-earth-text); line-height: 1.55; }
+.hb-mapfirst__h2 {
+  font-family: var(--hb-font-mono);
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--hb-earth-text);
+}
+.hb-mapfirst__h2:focus { outline: none; }
+.hb-mapfirst__h2:focus-visible { outline: 2px solid var(--hb-terracotta-deep); outline-offset: 3px; }
+
+/* search */
+.hb-mapfirst__search { display: grid; gap: .45rem; }
+.hb-mapfirst__label { font-weight: 600; font-size: .9rem; }
+.hb-mapfirst__searchrow { display: flex; gap: .5rem; }
+.hb-mapfirst__searchrow .hb-input { flex: 1 1 auto; min-width: 0; min-height: 2.75rem; }
+.hb-mapfirst__searchrow .hb-btn { flex: 0 0 auto; min-height: 2.75rem; }
+.hb-mapfirst__count { font-family: var(--hb-font-mono); font-size: .8rem; color: var(--hb-earth-text); font-variant-numeric: tabular-nums; }
+
+/* selected card */
+.hb-mapfirst__selected { display: grid; gap: .75rem; padding: 1rem; background: var(--hb-paper-raised); border: 1px solid var(--hb-rule-strong); }
+.hb-mapfirst__card { width: min(100%, 13rem); }
+.hb-mapfirst__selected-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.hb-mapfirst__selected-actions .hb-link { background: none; border: 0; padding: 0; cursor: pointer; font: inherit; }
+
+/* governorates */
+.hb-mapfirst__regions { display: grid; gap: .6rem; }
+.hb-mapfirst__regionlist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; list-style: none; }
+.hb-mapfirst__region {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  width: 100%;
+  min-height: 2.75rem;
+  padding: .45rem .55rem;
+  background: transparent;
+  border: 1px solid var(--hb-rule-strong);
+  color: var(--hb-ink);
+  font: inherit;
+  font-size: .875rem;
+  text-align: left;
+  cursor: pointer;
+}
+.hb-mapfirst__region > span:first-child { min-width: 0; overflow-wrap: break-word; hyphens: auto; }
+.hb-mapfirst__region[aria-pressed='true'] { background: var(--hb-ink); color: var(--hb-paper); border-color: var(--hb-ink); }
+.hb-mapfirst__region:focus-visible { outline: 2px solid var(--hb-terracotta-deep); outline-offset: 2px; }
+@media (hover: hover) {
+  .hb-mapfirst__region:hover:not([aria-pressed='true']) { border-color: var(--hb-ink); background: var(--hb-paper-raised); }
+}
+.hb-mapfirst__n { flex: 0 0 auto; font-family: var(--hb-font-mono); font-size: .78rem; font-variant-numeric: tabular-nums; opacity: .8; }
+
+/* numbers, actions, onward */
+.hb-mapfirst__panel .hb-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; }
+.hb-mapfirst__panel .hb-stats__item { padding: .75rem .25rem; }
+.hb-mapfirst__panel .hb-stats__value { font-size: 1.75rem; }
+.hb-mapfirst__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; }
+.hb-mapfirst__more {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--hb-rule);
+  font-family: var(--hb-font-mono);
+  font-size: .8rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--hb-earth-text);
+  text-decoration: none;
+}
+.hb-mapfirst__more:hover { color: var(--hb-ink); }
+
+/* tablets and phones: the map first, the panel below it as a normal block */
+@media (max-width: 62rem) {
+  .hb-mapfirst { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto; height: auto; min-height: 0; }
+  .hb-mapfirst__map { height: clamp(22rem, 62svh, 40rem); }
+  .hb-mapfirst__panel { overflow: visible; border-left: 0; border-top: 1px solid var(--hb-rule-strong); }
+  .hb-mapfirst__more { display: none; }
+}
+@media (max-width: 30rem) {
+  .hb-mapfirst__map .hb-map__caption { bottom: 1.6rem; font-size: .72rem; }
+}

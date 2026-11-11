@@ -411,6 +411,44 @@ for (const [path, href] of [['/about/', '/about'], ['/decks/unesco/', '/unesco']
   });
 }
 
+test('Home opens map first: the map and its control panel search, focus a governorate and lead on', async () => {
+  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  await mount();
+  const section = $('main > .hb-mapfirst');
+  assert.ok(section, 'the map section is the first thing in the page');
+  assert.equal($('main').firstElementChild.tagName === 'STYLE' ? $('main').children[1] : $('main').firstElementChild, section);
+  assert.ok(section.querySelector('.hb-mapfirst__map .hb-mapx__leaflet[data-size="fill"]'));
+  assert.ok(section.querySelector('aside.hb-mapfirst__panel h1'));
+  assert.match($('.hb-mapfirst__count').textContent, new RegExp(`${sites.length} Cards`));
+  await act(async () => {
+    const input = $('#mapfirst-search');
+    Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set.call(input, 'Hatra');
+    input.dispatchEvent(new window.Event('input', { bubbles: true }));
+  });
+  assert.match($('.hb-mapfirst__count').textContent, /card(s)? match/);
+  const nineveh = all('.hb-mapfirst__region').find((b) => b.textContent.startsWith('Nineveh'));
+  await click(nineveh);
+  assert.equal(nineveh.getAttribute('aria-pressed'), 'true');
+  assert.ok($('.hb-mapfirst__regions a[href="/decks/nineveh"]'), 'the selected governorate offers its deck');
+  await act(async () => { $('.hb-mapfirst__search').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })); });
+  assert.equal(window.location.pathname, '/explore');
+  assert.equal(new URLSearchParams(window.location.search).get('q'), 'Hatra');
+});
+
+test('Map page uses the same map-first layout, with every control in the right panel', async () => {
+  sites.splice(0, sites.length, ...structuredClone(importedSites));
+  await mount('/map?region=nineveh');
+  const section = $('main.hb-map-page > .hb-mapfirst');
+  assert.ok(section, 'the map section fills the page like the home page');
+  assert.ok(section.querySelector('.hb-mapfirst__map .hb-mapx__leaflet[data-size="fill"]'));
+  const panel = section.querySelector('aside.hb-mapfirst__panel');
+  assert.equal(panel.querySelector('h1').textContent, 'Cards on the map');
+  for (const selector of ['.hb-search', '.hb-mapx__filterbtn', '.hb-regions', '#map-result-heading', '.hb-mapx__list']) {
+    assert.ok(panel.querySelector(selector), `panel holds ${selector}`);
+  }
+  assert.equal(panel.querySelector('.hb-region[aria-pressed="true"]').textContent.startsWith('Nineveh'), true);
+});
+
 test('selected site regression: Home → Explore card → Site Details → governorate deck', async () => {
   await mount();
   assert.match($('h1').textContent, /Discover history/);

@@ -857,5 +857,17 @@ export default {
   "View 3D documentation": "3D-Dokumentation ansehen",
   "Reviewed and approved": "Geprüft und freigegeben",
   "Published, review in progress": "Veröffentlicht, Prüfung läuft",
-  "Draft": "Entwurf"
+  "Draft": "Entwurf",
+  "{n} of {total} cards shown as pins from recorded coordinates. Select a pin to see its card.": "{n} von {total} Karten als Stecknadeln nach erfassten Koordinaten. Wählen Sie eine Nadel, um ihre Karte zu sehen.",
+  "Map controls": "Kartensteuerung",
+  "Every pin is a heritage card from Iraq’s archaeological, architectural and cultural record.": "Jede Nadel ist eine Kulturerbe-Karte aus dem archäologischen, architektonischen und kulturellen Erbe des Irak.",
+  "Find a site on the map": "Eine Stätte auf der Karte finden",
+  "Name, place or period": "Name, Ort oder Epoche",
+  "Selected card": "Ausgewählte Karte",
+  "All of Iraq": "Ganzer Irak",
+  "Open the {name} deck": "Deck {name} öffnen",
+  "Full map with filters": "Vollständige Karte mit Filtern",
+  "More from the archive": "Mehr aus dem Archiv",
+  "{n} card matches|{n} cards match": {"one": "{n} Karte passt", "other": "{n} Karten passen"},
+  "Map controls, governorates, selected card and results": "Kartensteuerung, Gouvernements, ausgewählte Karte und Ergebnisse"
 };
