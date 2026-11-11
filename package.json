@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "node --test tests/*.test.mjs",
     "check:i18n": "node scripts/check-i18n.mjs",
-    "check:cards": "node scripts/check-cards.mjs"
+    "check:cards": "node scripts/check-cards.mjs",
+    "report:coverage": "node scripts/coverage-report.mjs"
   },
   "dependencies": {
     "@google/model-viewer": "4.4.0",
