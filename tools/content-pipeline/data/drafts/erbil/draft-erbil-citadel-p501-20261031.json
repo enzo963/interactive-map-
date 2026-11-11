@@ -1,0 +1,53 @@
+{
+  "id": "site-erbil-erbil-citadel",
+  "name": "Erbil Citadel",
+  "governorate": "Erbil",
+  "category": "Citadel",
+  "period": "",
+  "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+  "unesco": true,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1437/",
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "accessedAt": "2026-10-31T17:19:53+00:00"
+    },
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "accessedAt": "2026-10-31T17:20:31+00:00"
+    }
+  ],
+  "draft_id": "draft-erbil-citadel-p501-20261031",
+  "status": "needs-review",
+  "candidate_name": "Erbil Citadel",
+  "candidate_summary": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+  "source_evidence": [
+    "unesco-20261031T171953Z-183f6bd893",
+    "krg-20261031T172031Z-6fdcb793a0"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Site-focused draft derived from captured approved-source evidence; not published.",
+      "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+      "Use the UNESCO listing for designation and descriptive facts. The KRG restoration report is dated August 2025 and is not proof of current construction status."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T171953Z-183f6bd893"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T171953Z-183f6bd893"
+    ],
+    "image_candidates": []
+  }
+}

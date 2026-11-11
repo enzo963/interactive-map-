@@ -1,0 +1,101 @@
+{
+  "id": "site-kirkuk-qaysariyah-market",
+  "name": "Al-Qaysariyah Market, Kirkuk",
+  "slug": "qaysariyah-market",
+  "alternativeNames": [
+    "Al-Qaysariyah Market"
+  ],
+  "governorate": "Kirkuk",
+  "category": "Historic Market",
+  "period": "",
+  "description": "Al-Qaysariyah Market stands on the eastern side of Kirkuk Citadel. Iraq's UNESCO submission describes its commercial rooms, shops and arched upper-storey architecture.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6522/",
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "accessedAt": "2026-10-31T18:54:41+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T185441Z-b226471f6a"
+  ],
+  "draft_id": "draft-kirkuk-qaysariyah-market-p602-05-20261101",
+  "candidate_name": "Al-Qaysariyah Market, Kirkuk",
+  "candidate_summary": "Al-Qaysariyah Market stands on the eastern side of Kirkuk Citadel. Iraq's UNESCO submission describes its commercial rooms, shops and arched upper-storey architecture.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+      "json_pointer": "/paragraphs/6",
+      "text_match": "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store)."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "description": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "candidate_name": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "unknown",
+  "review_scope": "P6-02 to P6-05",
+  "parentSiteId": "site-kirkuk-kirkuk-citadel",
+  "parent_draft_id": "draft-unesco-20261031T185441Z-b226471f6a",
+  "heritage_status": "Monument within site-kirkuk-kirkuk-citadel; no separate UNESCO inscription is asserted.",
+  "complexId": "site-kirkuk-kirkuk-citadel",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+        "json_pointer": "/paragraphs/6",
+        "text_match": "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store)."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+        "json_pointer": "/paragraphs/6",
+        "text_match": "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store)."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+        "json_pointer": "/paragraphs/6",
+        "text_match": "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store)."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+        "json_pointer": "/paragraphs/6",
+        "text_match": "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "snapshots": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "sha256": "498ce2b373d0b42abf271ec8e22dd955698f5698548a2797c2155671d56c1cc9",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "raw_path": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.html"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "sha256": "3741d49f9e72b9ceac8dc9c42ece7760a51aac97398755910675027564f8ece4",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "raw_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+      "sha256": "fc4a106afce77f6105cb0b4ea5f492f9151cdd1d6bf2d38c1b443b35f6636839",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "raw_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235642Z-fc4a106afc-17837d.html"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "sha256": "11ea656c3b0f30d4c41010656b1ad195ee98a9839a17bad338573671544a0b77",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "raw_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+      "sha256": "0540555ecdd5ecea730ee13246b3357c61717273b2bc1230d56b8d2f86db9274",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "raw_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.html"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+      "sha256": "22136ec8f75706417d317fb69f7aed8314af20ef1ff381b00e8d91f1ef9dfb69",
+      "hash_matches": true,
+      "robots": "allowed",
+      "http_status": 200,
+      "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+      "raw_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.html"
+    }
+  ],
+  "snapshots_checked": 6,
+  "failures": 0,
+  "approved_record_revisions_current": 6,
+  "exported_records_valid": 6,
+  "python_tests_passed": 228
+}

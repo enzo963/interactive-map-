@@ -1,0 +1,27 @@
+{
+  "evidence_id": "unesco-20261031T185441Z-b226471f6a",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/tentativelists/6522/",
+  "final_url": "https://whc.unesco.org/en/tentativelists/6522/",
+  "governorate": "kirkuk",
+  "retrieved_at": "2026-10-31T18:54:41+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "b226471f6aab1d9a5eda243c09a9803912ee8284d1e1d1a3ad92060f04b043c4",
+  "html_path": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.html",
+  "extraction_path": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/tentativelists/6522/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

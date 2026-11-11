@@ -1,0 +1,47 @@
+[
+  {
+    "siteId": "site-baghdad-mustansiriya-madrasa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Makaay31",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+    "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b",
+    "archived_review_file": "data\\image_reviews\\p6-05\\originals\\site-baghdad-mustansiriya-madrasa.jpg"
+  },
+  {
+    "siteId": "site-baghdad-abbasid-palace",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+    "sha256": "03615856b831f724c51575b77e525876eeb314d616b5f7ad3f6c54c7f3d4340e",
+    "archived_review_file": "data\\image_reviews\\p6-05\\originals\\site-baghdad-abbasid-palace.jpg"
+  },
+  {
+    "siteId": "site-baghdad-al-wazir-mosque",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Mahmoudalrawi",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+    "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2",
+    "archived_review_file": "data\\image_reviews\\p6-05\\originals\\site-baghdad-al-wazir-mosque.jpg"
+  },
+  {
+    "siteId": "site-salah-al-din-great-mosque",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Fakhri Mahmood",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+    "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd",
+    "archived_review_file": "data\\image_reviews\\p6-05\\originals\\site-salah-al-din-great-mosque.jpg"
+  },
+  {
+    "siteId": "site-salah-al-din-abu-dulaf",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "credit": "Lionel Aubert",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+    "sha256": "c705405e25592bb2338100b2d742d8b5a790267bd6fde06c0f266d0cf6a89a01",
+    "archived_review_file": "data\\image_reviews\\p6-05\\originals\\site-salah-al-din-abu-dulaf.jpg"
+  }
+]

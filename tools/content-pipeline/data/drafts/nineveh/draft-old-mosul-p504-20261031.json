@@ -1,0 +1,63 @@
+{
+  "id": "site-nineveh-old-mosul",
+  "name": "Old City of Mosul",
+  "governorate": "Nineveh",
+  "category": "Historic Urban Area",
+  "period": "",
+  "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6355/",
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "accessedAt": "2026-10-31T18:44:42+00:00"
+    }
+  ],
+  "draft_id": "draft-old-mosul-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Old City of Mosul",
+  "candidate_summary": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+  "source_evidence": [
+    "unesco-20261031T184442Z-7bdb2b4c35"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "The 2018 submission contains historical and geographic inconsistencies. Its individual chronology claims are not copied into the summary.",
+      "The source predates later reconstruction; its damage descriptions are not treated as current condition."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "image_candidates": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "West Bank of the Tigris"
+    }
+  ],
+  "heritage_focus": [
+    "historical",
+    "urban heritage"
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+  }
+}

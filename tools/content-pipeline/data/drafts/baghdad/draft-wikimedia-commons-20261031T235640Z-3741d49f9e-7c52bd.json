@@ -1,0 +1,153 @@
+{
+  "draft_id": "draft-wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+  "governorate": "Baghdad",
+  "status": "needs-review",
+  "candidate_name": "File : Mustansiriya Madrasah5.jpg",
+  "candidate_summary": "to share – to copy, distribute and transmit the work",
+  "source_evidence": [
+    "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1280px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "1280px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1920px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+      "alt": "File:Mustansiriya Madrasah5.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 800,
+      "height": 596,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Mustansiriya Madrasah5.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "1920px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/1920px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mustansiriya_Madrasah5.jpg/120px-Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20110629121216",
+      "alt": "Thumbnail for version as of 12:12, 29 June 2011",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 89,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 12:12, 29 June 2011",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Mustansiriya_Madrasah5.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    ],
+    "candidate_summary": [
+      "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+    ]
+  }
+}

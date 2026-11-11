@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "siteId": "site-erbil-erbil-citadel",
+      "latitude": 36.1911111,
+      "longitude": 44.0091667,
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "locator": {
+        "artifact": "data\\raw\\erbil\\unesco\\unesco-20261031T171953Z-183f6bd893.html",
+        "selector": "*",
+        "text_match": "N36 11 28 E44 0 33"
+      },
+      "source": "https://whc.unesco.org/en/list/1437/",
+      "scope": "Recorded UNESCO property location; not copied to individual component monuments."
+    },
+    {
+      "siteId": "site-001",
+      "latitude": 35.5880611,
+      "longitude": 42.7183306,
+      "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+      "locator": {
+        "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.html",
+        "selector": "*",
+        "text_match": "N35 35 17.02 E42 43 5.99"
+      },
+      "source": "https://whc.unesco.org/en/list/277/",
+      "scope": "Recorded UNESCO property location; not copied to individual component monuments."
+    },
+    {
+      "siteId": "site-salah-al-din-ashur",
+      "latitude": 35.4566667,
+      "longitude": 43.2611111,
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+      "locator": {
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.html",
+        "selector": "*",
+        "text_match": "N35 27 24 E43 15 40"
+      },
+      "source": "https://whc.unesco.org/en/list/1130/",
+      "scope": "Recorded UNESCO property location; not copied to individual component monuments."
+    }
+  ],
+  "unplotted_records": 31,
+  "schema_changed": false
+}

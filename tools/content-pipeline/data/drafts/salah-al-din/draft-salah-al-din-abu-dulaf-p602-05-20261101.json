@@ -1,0 +1,504 @@
+{
+  "id": "site-salah-al-din-abu-dulaf",
+  "name": "Abu Dulaf Mosque",
+  "slug": "al-din-abu-dulaf",
+  "alternativeNames": [
+    "Abu Dulaf mosque"
+  ],
+  "governorate": "Salah al-Din",
+  "category": "Mosque",
+  "period": "Abbasid",
+  "description": "Abu Dulaf is one of the large mosques preserved in Samarra. Its unusual minaret and architectural planning contribute to the Abbasid archaeological city documented by UNESCO.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "alt": "Brick arcades and spiral minaret of Abu Dulaf Mosque, Samarra",
+    "caption": "Abu Dulaf Mosque (photographed in 2001)",
+    "credit": "Lionel Aubert",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "siteId": "site-salah-al-din-abu-dulaf",
+    "sourceName": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+    "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+    "license_status": "verified",
+    "license_review": {
+      "permission": "publication-permitted",
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00",
+      "license": "CC BY-SA 4.0",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "evidence": [
+        {
+          "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "locator": {
+            "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+            "selector": ".licensetpl_short",
+            "text_match": "CC BY-SA 4.0"
+          },
+          "image_locator": {
+            "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+            "selector": ".fullMedia a.internal",
+            "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        }
+      ],
+      "review_note": "Explicit archived file-specific CC BY-SA 4.0, creator credit and original URL checked. Preserve attribution/license links and ShareAlike for adaptations. Review performed by AI, not a human curator."
+    },
+    "license_tracking": {
+      "reported_status": "verified",
+      "reported_publication_flags": {},
+      "evidence_valid": true,
+      "evidence_checks": [
+        {
+          "valid": true,
+          "source": {
+            "sourceId": "wikimedia-commons",
+            "sourceName": "Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+            "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+            "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+            "trust_tier": 2,
+            "recorded_trust_tier": 2
+          },
+          "original_evidence": {
+            "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+              "selector": ".licensetpl_short",
+              "text_match": "CC BY-SA 4.0"
+            },
+            "image_locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+              "selector": ".fullMedia a.internal",
+              "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          }
+        }
+      ],
+      "issues": [],
+      "automatically_approved": false,
+      "notes": [
+        "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+        "License verification is separate from image identity and explicit publication approval."
+      ]
+    },
+    "publication_approval": {
+      "status": "approved",
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "site_verified": true,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00"
+    },
+    "source_observations": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Abu Dulaf Mosque in Salah al-Din, Iraq",
+        "caption": "Abu Dulaf Mosque",
+        "credit": "Lionel Aubert",
+        "license_hint": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_status": "verified",
+        "source": "file-description",
+        "source_id": "wikimedia-commons",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+        "trust_tier": 2,
+        "siteId": "site-salah-al-din-abu-dulaf",
+        "targetSiteId": "site-salah-al-din-abu-dulaf",
+        "association_status": "matched-unverified",
+        "association_evidence": [
+          {
+            "kind": "caption",
+            "matched_names": [
+              "abu dulaf mosque"
+            ],
+            "text": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+          },
+          {
+            "kind": "filename",
+            "matched_names": [
+              "abu dulaf mosque"
+            ],
+            "text": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "contexts": [
+          {
+            "kind": "caption",
+            "caption": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret.",
+            "alt": "",
+            "title": "",
+            "filename": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "review_required": true,
+        "verification_status": "unverified",
+        "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+        "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+        "identity_evidence": {
+          "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+          "selector": ".description",
+          "text_match": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+          "reviewedAt": "2026-11-01T12:16:53+00:00",
+          "license": "CC BY-SA 4.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 4.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          ],
+          "review_note": "Explicit archived file-specific CC BY-SA 4.0, creator credit and original URL checked. Preserve attribution/license links and ShareAlike for adaptations. Review performed by AI, not a human curator."
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-salah-al-din-abu-dulaf",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+          "reviewedAt": "2026-11-01T12:16:53+00:00"
+        },
+        "license_tracking": {
+          "reported_status": "verified",
+          "reported_publication_flags": {},
+          "evidence_valid": true,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+                "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+                "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              },
+              "original_evidence": {
+                "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 4.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            }
+          ],
+          "issues": [],
+          "automatically_approved": false,
+          "notes": [
+            "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+            "License verification is separate from image identity and explicit publication approval."
+          ]
+        }
+      }
+    ],
+    "url_validation": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:53+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 681911,
+        "width": 1880,
+        "height": 1409,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "c705405e25592bb2338100b2d742d8b5a790267bd6fde06c0f266d0cf6a89a01"
+      }
+    ],
+    "visual_review": {
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00",
+      "method": "AI visual inspection of the exact original-image bytes after pipeline robots/HTTP/MIME/decoder validation",
+      "sha256": "c705405e25592bb2338100b2d742d8b5a790267bd6fde06c0f266d0cf6a89a01",
+      "role": "cover",
+      "note": "Site-specific landscape view includes repeated brick arches and the characteristic minaret. The older scanned photograph is slightly soft but clearly shows architectural form at adequate resolution; retain as a historical-view cover, not a statement of present condition.",
+      "human_curator_review": false
+    },
+    "verification_status": "approved-by-ai-evidence-and-visual-review",
+    "review_required": false
+  },
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/276/",
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+    },
+    {
+      "sourceName": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+      "accessedAt": "2026-11-01T12:10:35.694451+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+    "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7"
+  ],
+  "draft_id": "draft-salah-al-din-abu-dulaf-p602-05-20261101",
+  "candidate_name": "Abu Dulaf Mosque",
+  "candidate_summary": "Abu Dulaf is one of the large mosques preserved in Samarra. Its unusual minaret and architectural planning contribute to the Abbasid archaeological city documented by UNESCO.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+      "json_pointer": "/paragraphs/13",
+      "text_match": "Criterion (iv): The buildings of Samarra represent a new artistic concept in Islamic architecture in the Malwiya and Abu Dulaf mosques, in the form of a unique example in the planning, capacity and construction of Islamic mosques by comparison with those which preceded and succeeded it. In their large dimensions and unique minarets, these mosques demonstrate the pride and political and religious strength that correspond with the strength and pride of the empire at that time."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "description": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "coverImage": [
+      "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7"
+    ],
+    "galleryImages": []
+  },
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Abu Dulaf Mosque in Salah al-Din, Iraq",
+      "caption": "Abu Dulaf Mosque",
+      "credit": "Lionel Aubert",
+      "license_hint": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "verified",
+      "source": "file-description",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "trust_tier": 2,
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "targetSiteId": "site-salah-al-din-abu-dulaf",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "caption",
+          "matched_names": [
+            "abu dulaf mosque"
+          ],
+          "text": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "abu dulaf mosque"
+          ],
+          "text": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+        }
+      ],
+      "contexts": [
+        {
+          "kind": "caption",
+          "caption": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret.",
+          "alt": "",
+          "title": "",
+          "filename": "Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+      "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+      "identity_evidence": {
+        "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+        "selector": ".description",
+        "text_match": "العربية: آثار مسجد أبو دلف في مدينة سُر من رأى (سامرَّاء العبَّاسية) مع مئذنته الحلزونيَّة Français : Vestiges de la mosquée Abou Doulaf à Samarra (Irak) et son minaret hélicoïdal, tous deux en partie rénovés. English: Ruins of Abu Dulaf mosque in Samarra, Iraq, with its spiral minaret."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+              "selector": ".licensetpl_short",
+              "text_match": "CC BY-SA 4.0"
+            },
+            "image_locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+              "selector": ".fullMedia a.internal",
+              "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          }
+        ],
+        "review_note": "Explicit archived file-specific CC BY-SA 4.0, creator credit and original URL checked. Preserve attribution/license links and ShareAlike for adaptations. Review performed by AI, not a human curator."
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-abu-dulaf",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "license_tracking": {
+        "reported_status": "verified",
+        "reported_publication_flags": {},
+        "evidence_valid": true,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+              "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+              "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            },
+            "original_evidence": {
+              "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 4.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          }
+        ],
+        "issues": [],
+        "automatically_approved": false,
+        "notes": [
+          "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+          "License verification is separate from image identity and explicit publication approval."
+        ]
+      }
+    }
+  ],
+  "unesco_status": "unknown",
+  "review_scope": "P6-02 to P6-05",
+  "parentSiteId": "site-salah-al-din-samarra",
+  "parent_draft_id": "draft-unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+  "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+  "complexId": "site-salah-al-din-samarra",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Criterion (iv): The buildings of Samarra represent a new artistic concept in Islamic architecture in the Malwiya and Abu Dulaf mosques, in the form of a unique example in the planning, capacity and construction of Islamic mosques by comparison with those which preceded and succeeded it. In their large dimensions and unique minarets, these mosques demonstrate the pride and political and religious strength that correspond with the strength and pride of the empire at that time."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Criterion (iv): The buildings of Samarra represent a new artistic concept in Islamic architecture in the Malwiya and Abu Dulaf mosques, in the form of a unique example in the planning, capacity and construction of Islamic mosques by comparison with those which preceded and succeeded it. In their large dimensions and unique minarets, these mosques demonstrate the pride and political and religious strength that correspond with the strength and pride of the empire at that time."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Criterion (iv): The buildings of Samarra represent a new artistic concept in Islamic architecture in the Malwiya and Abu Dulaf mosques, in the form of a unique example in the planning, capacity and construction of Islamic mosques by comparison with those which preceded and succeeded it. In their large dimensions and unique minarets, these mosques demonstrate the pride and political and religious strength that correspond with the strength and pride of the empire at that time."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120909Z-9ea8d4ddb1-8a6577.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Criterion (iv): The buildings of Samarra represent a new artistic concept in Islamic architecture in the Malwiya and Abu Dulaf mosques, in the form of a unique example in the planning, capacity and construction of Islamic mosques by comparison with those which preceded and succeeded it. In their large dimensions and unique minarets, these mosques demonstrate the pride and political and religious strength that correspond with the strength and pride of the empire at that time."
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "draft_id": "draft-wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+  "governorate": "Salah al-Din",
+  "status": "needs-review",
+  "candidate_name": "File : Samrraa 01.jpg",
+  "candidate_summary": "to share – to copy, distribute and transmit the work",
+  "source_evidence": [
+    "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Samrraa_01.jpg/960px-Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "960px-Samrraa_01.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Samrraa_01.jpg/960px-Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20211024203040",
+      "alt": "File:Samrraa 01.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 399,
+      "height": 599,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Samrraa 01.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "960px-Samrraa_01.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Samrraa_01.jpg/960px-Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20211024203040",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Samrraa_01.jpg/120px-Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20211024203040",
+      "alt": "Thumbnail for version as of 20:30, 24 October 2021",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 80,
+      "height": 120,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 20:30, 24 October 2021",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Samrraa_01.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    ],
+    "candidate_summary": [
+      "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393"
+    ]
+  }
+}

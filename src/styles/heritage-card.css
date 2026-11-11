@@ -84,11 +84,21 @@
   padding-bottom: 2cqw;
   border-bottom: 1px solid var(--card-rule);
 }
-.hb-card__archive,
-.hb-card__type { display: flex; flex-direction: column; gap: 0.5cqw; min-width: 0; line-height: 1.2; }
-/* The archive number is data and never shrinks; the type label gives way first. */
-.hb-card__archive { flex: 0 0 auto; }
-.hb-card__type { flex: 0 1 auto; align-items: flex-end; text-align: right; }
+.hb-card__archive {
+  flex: 0 0 auto;
+}
+
+.hb-card__type {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5cqw;
+  min-width: 0;
+  line-height: 1.15;
+  flex: 0 1 auto;
+  align-items: flex-end;
+  text-align: end;
+}
+
 .hb-card__label {
   font-family: var(--hb-font-sans);
   font-size: var(--fs-label);
@@ -465,3 +475,6 @@
   from { opacity: 0; transform: translate(-14%, 3%) rotate(-4deg); }
   to   { opacity: 1; transform: none; }
 }
+/* Longer translated dates (e.g. "ca. 100 v. Chr.") stay on one line; the brand name wraps instead. */
+.hb-card__date { white-space: nowrap; }
+.hb-card__brand { text-align: end; }

@@ -1,0 +1,225 @@
+{
+  "id": "site-nineveh-old-mosul",
+  "name": "Old City of Mosul",
+  "governorate": "Nineveh",
+  "category": "Historic Urban Area",
+  "period": "",
+  "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+  "unesco": false,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6355/",
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "accessedAt": "2026-10-31T18:44:42+00:00"
+    }
+  ],
+  "draft_id": "draft-old-mosul-p504-20261031",
+  "status": "needs-review",
+  "candidate_name": "Old City of Mosul",
+  "candidate_summary": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+  "source_evidence": [
+    "unesco-20261031T184442Z-7bdb2b4c35"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/tentativelists/6355/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "iq.svg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-nineveh-old-mosul",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "accessedAt": "2026-10-31T18:44:42+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed review draft; not approved or published.",
+      "Images are unassigned; relevance, attribution and licensing require review.",
+      "The 2018 submission contains historical and geographic inconsistencies. Its individual chronology claims are not copied into the summary.",
+      "The source predates later reconstruction; its damage descriptions are not treated as current condition."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "image_candidates": [
+      "unesco-20261031T184442Z-7bdb2b4c35"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "West Bank of the Tigris"
+    }
+  ],
+  "heritage_focus": [
+    "historical",
+    "urban heritage"
+  ],
+  "unesco_context": {
+    "status": "tentative",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+  },
+  "image_extractions": [
+    {
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "source": {
+        "sourceId": "unesco",
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6355/",
+        "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+        "accessedAt": "2026-10-31T18:44:42+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Old City of Mosul",
+        "canonical_url": "https://whc.unesco.org/en/tentativelists/6355/",
+        "meta_description": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+        "language": "en",
+        "headings": [
+          "Old City of Mosul",
+          "Description",
+          "Justification of Outstanding Universal Value",
+          "Statements of authenticity and/or integrity",
+          "Comparison with other similar properties"
+        ],
+        "paragraphs": [
+          "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+          "The sole responsibility for the content of each Tentative List lies with the State Party concerned. The publication of the Tentative Lists does not imply the expression of any opinion whatsoever of the World Heritage Committee or of the World Heritage Centre or of the Secretariat of UNESCO concerning the legal status of any country, territory, city or area or of its boundaries.",
+          "Property names are listed in the language in which they have been submitted by the State Party",
+          "Located 465 km northwest of Baghdad, Mosul is the center of the Governorate of Ninewah that was well known for its commercial prominence and its culturally diverse population. Its Old City is located on the West Bank of the Tigris River opposite the archaeological remains of the ancient Assyrian City of Nineveh and the mosque and shrine of Nabi Younis (Jonah’s Tomb).",
+          "At ancient Nineveh, evidence of occupation can be traced back to as early as 6000 BC. As part of the Assyrian Empire, it rose to prominence during the third millennium BC. After the fall of Assyria (612-559 BC), Mosul is considered to have been first established along the western bank of the Tigris in the location that is presently known as the Old City of Mosul. It succeeded Ninevah in importance during the Median, Achaemenid and Seleucid Empires. In 225 BC, Mosul became part of a Sassanian province, while in AD 641 it was annexed to the Rashidun Caliphate during the Islamic Conquests. Christianity in Mosul could be traced back to as early as the 1st century AD, and, by the 6 th century, Mosul became the episcopal seat of the Assyrian Church of the East.",
+          "Mosul had a strategic location, connecting China to the east with the Mediterranean to the west, and Anatolia to the north, with Mesopotamia to the south. It became a regional center on an important route connecting Baghdad and Samarra, two capitals of the Abbasid Empire, with the northern provinces and the eastern Mediterranean. The city reached the pinnacle of its influence and development under the rule of the Seljuk Zengids (Atabeg dynasty) in the 12 th century AD. In subsequent centuries, the old city, surrounded by a wall until the 19 th century, retained the medieval architecture and layout of its historic nucleus to which Ottoman buildings were added. Until very recently, Mosul was one of the most populous urban centers of the region, and, it was known for its places of knowledge and learning, commerce and exchanges. Its Old City was distinguished by its medieval city plan, the concentration of Islamic buildings spanning the 12 th to the 19 th century, religious buildings of other religious communities (particularly Christian), Ottoman domestic architecture and an extraordinary multifarious ethnic and religious mixture of inhabitants.",
+          "Established in the 7th century BC, Mosul succeeded the Assyrian Capital of Nineveh in importance during several historical periods. However, it is during the 12th century AD that Mosul reached the peak of its influence, when it was reigned by the Zangid Dynasty. The oldest and most significant visible layer of the Old City of Mosul's architecture dates back to the 12th-13th centuries AD, reflecting the city’s great significance, power and influence during the Zangid Dynasty.",
+          "The Zangid Dynasty, was founded by Imad ad-Din Zangi who became the governor of Mosul in AD 1127. This Dynasty ruled the area comprising northern Iraq and Syria during AD 1127–1222. The great al-Nouri Mosque and its al-Hadba minaret (the hunchback) in Mosul are thought to have been originally built by Nur ad-Din Zangi in 1172–1173, shortly before he died. Mosul’s early schools of metalwork and painting of the 13th century are attributed to the Zangids. Miniature paintings and the finest metal inlay pieces of the Islamic world were produced in Mosul, with its craftsmen bringing their techniques to other cities like Aleppo, Cairo and Baghdad.",
+          "Al-Nouri mosque became well known for its leaning minaret that had architectural similarities with Persian and Central Asian minarets. By the 14 th century, it had already acquired its nickname, al-Hadba, as evidenced by the description of Ibn Battuta. According to the 19 th traveler Gratten Greary, the minaret’s “… attitude is that of a man bowing”.",
+          "Al-Nouri mosque was mostly reconstructed in 1942, while the minaret had remained unrestored until it was largely destroyed in June 2017 by ISIL/Daesh. Traditionally, there are various stories linked to the reason of the minaret’s tilt, while few scientific studies that have been carried since the last part of the 20 th century out addressing its causes.",
+          "Additionally, Mosul still has the remains of the so-called Citadel of Bashtabia that is also thought to have been built sometime during the 12 century AD, though various sources attribute earlier possible dates to the site. Bashtabia is known to have played an important role in the various invasions and sieges of Mosul. Originally, it had a clearly defined and fortified structure with two main gates: one of the gates (Bab al-Sir) that led directly to the Tigris River, while the other gate (Bab al-Qal'a) opened to the city square.",
+          "When the Ottomans gained control of the city in 1534, Mosul was rebuilt and was transformed into the region's commercial and administrative center. The largest segment of the architectural monuments was - and still is – private houses and palaces from the late Ottoman period (18th-19th centuries). Mosul is considered as the only city along the eastern bank of the Euphrates that is predominantly built of stone and brick. The dominant form of its domestic architecture is houses with cellars (sardib). Extensive use of local alabaster stone from Mosul itself gave its architecture a characteristic style by adorning the arcades, doors and windows of buildings. A group of late Ottoman monumental buildings and the traditional central bazaar, with khans and qaysariyas, is situated on the southern edge of the Old City.",
+          "The Old City of Mosul, with its intricate labyrinth of small streets used to be a very well-preserved heritage environment. In contrast to other towns in Iraq, it had been little affected by modernization, and retained much of its traditional ethnic and religious heterogeneity. The network of streets, alleyways and cul-de-sacs represented one of the best examples of the spontaneously-grown pattern of cities in the Middle East. All of the buildings, together with the domestic architecture and medieval urban plan, gave Mosul a distinctive cityscape.",
+          "Moreover, Mosul, and particularly its Old City, is the physical representation of the cultural diversity that characterized Iraq. Throughout 2500 years, Mosul was the melting pot of diverse cultures and groups, representing Iraq’s pluralistic identity and co-existence among its various ethnic, linguistic, and religious groups. This is due to the fact that most, if not all, of the various components of Iraq’s society were represented in Mosul. Before the takeover of Mosul in June 2014 by ISIL/Daesh, and the subsequent battle for its liberation, the Old City of Mosul was a physical reflection of this diversity due to its abundant shrines dedicated to various religious figures – some of whom are revered by the three monotheistic religions – as well as its numerous, churches, mosques, madrassas and cemeteries. The Great al-Nouri Mosque was undoubtedly one of the most significant buildings in the Old City. Its renowned, 44 meter-high al-Hadba minaret represented an important architectural element of the city and became its icon and the symbol by which Mosul’s population identified. Together with the Clock Tower of the Dominican Church, al-Hadba dominated the skyline of Mosul. Other outstanding buildings (such as palaces, mausoleums, etc.) belonged to the 12th century so-called Mosul School that synthesized Egypt's Fatimid and local Christian Nestorian architecture and decorative elements, including highly decorated brick facades, marble interiors and muqarnas vaults. During the reigns of the Mongol and Turkic dynasties, as well as the early Ottoman period, Mosul was further improved by the building of numerous mosques and madrassas, especially in the southern part of the town. Later on, shrines were built for the prophets al-Khidr, Seth and Daniel. The existence of the graves of five Muslim prophets in Mosul gave the town the honorable title of 'the town of prophets'.",
+          "Criterion (iii): Established in the 7 th century BC, Mosul reached the height of its influence in the 12 th century AD, when it was reigned by the Zangid Dynasty. The Old City of Mosul bears witness to the power and influence of the Zangid Dynasty with its iconic monuments. It was then that the metal craftsmanship and paining schools were established in Mosul, yielding to a flourishing crafts industry by the 13 th century, and continuing throughout centuries. Criterion (v): The Old City of Mosul represents a complete ensemble of an evolved traditional town through centuries, mainly covering the Ottoman period. With its labyrinth of intricate alleyways, it comprises dwellings, schools, diverse religious buildings, and markets. Buildings are characterized by the use of masonry that is often carved with decorative motives and inscriptions, adorning doors, windows and arcades. This alabaster stone that is locally found (often dubbed as Mosul marble) renders the City its characteristic appearance reflecting architectural sophistication that gives Mosul its distinctive character.",
+          "Criterion (vi): The Old City of Mosul, with its various monuments and buildings reflects an interchange of values of tolerance and co-existence throughout hundreds of years. In its tangible and intangible forms, it is a testimony to the rich cultural diversity of Iraq and the region as a whole, as demonstrated by its numerous monuments representing the different cultural groups, while blending the different elements of Islamic architecture with Christian Nestorian architecture and decorative elements that are characteristic of Mosul.",
+          "The takeover of Mosul by ISIL/Daesh on 10 June 2014, and the subsequent conflict until the liberation of the Old City of Mosul in July 2017, caused much devastation to the city and its population. The city lost many of its significant sites, and, centers of social life and memory. In particular, several religious buildings were destroyed or largely damaged, such as al-Nouri Mosque and al-Hadba Minaret, a number of shrines, and several mausolea of the Mosul School. Nevertheless, several invaluable religious structures have survived the conflict. Ottoman mosques in the southern part of the city (al-Basha, Shaykh Abdal, al-Juwayjati, al-Umariyya, Umar al-Aswad, al-Umawi, Dawsat Ali and Umm al-Tis'a and others) stand out as examples of unharmed buildings, even though they stood in urban neighbourhoods that were otherwise totally levelled. This situation also applies to the majority of churches which suffered only light structural damage. Some of the aforementioned sites, such as al-Juwayjati, al-Khuzam and al-Basha Mosques, have already been subject to renovation, which has been funded and carried out by religious endowments. Several other significant monuments, such as the palace of Qara Saray, Bashtabia castle, etc., entirely escaped the recent destruction. Even within the group of buildings that were targeted by ISIL/Daesh, there are differences in the state of preservation. Some buildings were razed to the ground and their sites were either given over to a new, different use or have been built up again. Some sites have a great potential for conservation and revitalization. Also, despite the high degree of the destruction of the housing neighborhoods, some late Ottoman courtyard houses, palaces, and other buildings have remained in place. The recovery of the city, its monuments and heritage sites, will take into consideration their tangible and intangible values, and will be revitalized within a holistic integrated approach that will bring the Old City back as a living heritage.",
+          "The main properties to be used for comparison (old city centers of comparable size) are: Jerusalem, Aleppo (Syria), Gaziantep (Turkey), and Samarra (in Iraq)."
+        ],
+        "image_candidates": [
+          {
+            "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "iq.svg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-nineveh-old-mosul",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-nineveh-old-mosul",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

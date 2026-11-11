@@ -1,0 +1,173 @@
+{
+  "records_checked": 34,
+  "current_approvals": 34,
+  "unique_ids": 34,
+  "source_snapshots_checked": 26,
+  "source_hash_failures": 0,
+  "snapshots": [
+    {
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "sha256": "6fdcb793a009d844539924af05368aac3089de96d03837ba46f8ca8b78653b50",
+      "valid": true,
+      "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/"
+    },
+    {
+      "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+      "sha256": "34d8a5812ec58f91f58ae83e03e8b1b00872b10e50602f73d6a814e5462b3424",
+      "valid": true,
+      "url": "https://us.gov.krd/visit-kurdistan/"
+    },
+    {
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "sha256": "d4c58de519421b888f031686f71fe474eb72112620247feaeb0bedb9cd39df37",
+      "valid": true,
+      "url": "https://us.gov.krd/visit-kurdistan/"
+    },
+    {
+      "evidenceId": "krg-20261031T183030Z-520d663dfb",
+      "sha256": "520d663dfb9fa92a6ebf000bf1d776c20a34bd410cf0768160df8348de5a060f",
+      "valid": true,
+      "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/"
+    },
+    {
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "sha256": "9a290bf891c79cec2e4fb01bc19b3bcdefab9ccab70c0dbd3cea04efa98e70fc",
+      "valid": true,
+      "url": "https://gov.krd/boi-en/why-kurdistan/region/history/"
+    },
+    {
+      "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+      "sha256": "ff9cb8fdbff08fae94bc6644cb319b8091ccdc4a45ee794951422c4a551db0d1",
+      "valid": true,
+      "url": "https://us.gov.krd/visit-kurdistan/"
+    },
+    {
+      "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+      "sha256": "9c5b84d0ca2764decc1892141e37880ed8daaabfa1e433423fd659a96d548019",
+      "valid": true,
+      "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/"
+    },
+    {
+      "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+      "sha256": "183f6bd8939a8be4e9212a6d7f22316b65e3929ec362c4501084df6c60e013a3",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/list/1437/"
+    },
+    {
+      "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+      "sha256": "2ac18a6a26f722ae830a20095f7b2eb1074624db84680d05f88739f70e017614",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/5601/"
+    },
+    {
+      "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+      "sha256": "d52d1905cf31137bc86b878cff86706d6e30f1fe4cbc41c7a54b281db1f3f657",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/6172/"
+    },
+    {
+      "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+      "sha256": "c901278ca12b0506ec8ea48b087497ab528e341b5eb10cc90d84aed3742df1ac",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/list/277/"
+    },
+    {
+      "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+      "sha256": "8a2b8dcdb20b78f247defba57e9f980dbb4362a99c5ee14426b3a6efbbfa62c3",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/1465/"
+    },
+    {
+      "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+      "sha256": "29b94f8d4a28297ea6007eb2fb4fadf291d81f2fc8704116eebee50a79e036cd",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/1463/"
+    },
+    {
+      "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+      "sha256": "7bdb2b4c35a14a3b1acc1dbec7bdb64830319a9d334b170f59dfa3d1e7519455",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/6355/"
+    },
+    {
+      "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+      "sha256": "8092d8404a754fe78e5689176b069cd5191afcf95142aeaaebb3a20f41e4be44",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/6467/"
+    },
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "sha256": "b226471f6aab1d9a5eda243c09a9803912ee8284d1e1d1a3ad92060f04b043c4",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/6522/"
+    },
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "sha256": "498ce2b373d0b42abf271ec8e22dd955698f5698548a2797c2155671d56c1cc9",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/tentativelists/5880/"
+    },
+    {
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "sha256": "9ea8d4ddb150917611b46be3331df990c7003518de0c4638ab1bf733dbb28646",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/list/276/"
+    },
+    {
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+      "sha256": "dbd9292fc88a8537d9c1314c51e46bc9fe3a0215fcf7c8b3628869b97bf2ef0c",
+      "valid": true,
+      "url": "https://whc.unesco.org/en/list/1130/"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "sha256": "3741d49f9e72b9ceac8dc9c42ece7760a51aac97398755910675027564f8ece4",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+      "sha256": "fc4a106afce77f6105cb0b4ea5f492f9151cdd1d6bf2d38c1b443b35f6636839",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "sha256": "11ea656c3b0f30d4c41010656b1ad195ee98a9839a17bad338573671544a0b77",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+      "sha256": "0540555ecdd5ecea730ee13246b3357c61717273b2bc1230d56b8d2f86db9274",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+      "sha256": "22136ec8f75706417d317fb69f7aed8314af20ef1ff381b00e8d91f1ef9dfb69",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+      "sha256": "b45f9ad27e8902fbcfc578baea1f47776962d26c0091a26b969d203f1547c02b",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg"
+    },
+    {
+      "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+      "sha256": "9ab7f4352510aa60cec8fa92d945db2b8ce3434a1406ef7719f1ef83da90254d",
+      "valid": true,
+      "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg"
+    }
+  ],
+  "missing_required_fields": 0,
+  "blank_periods": 11,
+  "unknown_unesco_flags": 25,
+  "unknown_3D_flags": 34,
+  "thin_description_under_120_chars": 0,
+  "without_cover": 30,
+  "single_source_records": 25,
+  "human_curator_review": false
+}

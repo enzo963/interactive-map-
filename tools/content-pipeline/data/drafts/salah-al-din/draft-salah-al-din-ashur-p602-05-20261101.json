@@ -1,0 +1,99 @@
+{
+  "id": "site-salah-al-din-ashur",
+  "name": "Ashur (Qal'at Sherqat)",
+  "slug": "al-din-ashur",
+  "alternativeNames": [
+    "Ashur",
+    "Assur"
+  ],
+  "governorate": "Salah al-Din",
+  "category": "Archaeological City",
+  "period": "Assyrian and Parthian",
+  "description": "Ashur is an ancient city beside the Tigris with temples, palaces and royal burials. It was an Assyrian political and religious centre and later revived under Parthian rule.",
+  "unesco": true,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1130/",
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+      "accessedAt": "2026-11-01T12:09:11.000258+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261101T120911Z-dbd9292fc8-17df06"
+  ],
+  "draft_id": "draft-salah-al-din-ashur-p602-05-20261101",
+  "candidate_name": "Ashur (Qal'at Sherqat)",
+  "candidate_summary": "Ashur is an ancient city beside the Tigris with temples, palaces and royal burials. It was an Assyrian political and religious centre and later revived under Parthian rule.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+      "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+      "json_pointer": "/paragraphs/9",
+      "text_match": "The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC, it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD."
+    }
+  ],
+  "provenance": {
+    "name": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ],
+    "description": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ],
+    "candidate_name": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120911Z-dbd9292fc8-17df06"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "inscribed",
+  "review_scope": "P6-02 to P6-05",
+  "complexId": "site-salah-al-din-ashur",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+        "json_pointer": "/paragraphs/9",
+        "text_match": "The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC, it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+        "json_pointer": "/paragraphs/9",
+        "text_match": "The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC, it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+        "json_pointer": "/paragraphs/9",
+        "text_match": "The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC, it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "artifact": "data\\raw\\salah-al-din\\unesco\\unesco-20261101T120911Z-dbd9292fc8-17df06.extracted.json",
+        "json_pointer": "/paragraphs/9",
+        "text_match": "The city dates back to the 3rd millennium BC. From the 14th to the 9th centuries BC, it was the first capital of the Assyrian Empire, a city-state and trading platform of international importance. It also served as the religious capital of the Assyrians, associated with the god Ashur. The city was destroyed by the Babylonians, but revived during the Parthian period in the 1st and 2nd centuries AD."
+      }
+    ]
+  }
+}

@@ -1,4 +1,7 @@
 import de from './messages/de.js';
+import arText from './messages/ar-text.js';
+import en from './messages/en.js';
+import { createTranslator } from './translator.js';
 import { DEFAULT_LANGUAGE, getLanguage, isSupportedLanguage } from './languages.js';
 
 /**
@@ -9,15 +12,21 @@ import { DEFAULT_LANGUAGE, getLanguage, isSupportedLanguage } from './languages.
  * A text with no German entry is shown in English, so new strings never break the page.
  * `npm run check:i18n` lists strings that still need a German translation.
  */
-const CATALOGS = { de };
+// Text written as English in components: German, and Arabic for the parts not in the keyed ar.js catalogue.
+const CATALOGS = { de, ar: arText };
+const legacyKeys = new Map(
+  Object.entries(en).filter(([, value]) => typeof value === 'string').map(([key, value]) => [value, key]),
+);
 
 let current = DEFAULT_LANGUAGE;
+let translateLegacy = createTranslator(current);
 let rules = new Intl.PluralRules(getLanguage(current).locale);
 
 /** Set by I18nProvider before the app renders; components re-render (remount) on change. */
 export function setCurrentLanguage(code) {
   current = isSupportedLanguage(code) ? code : DEFAULT_LANGUAGE;
   rules = new Intl.PluralRules(getLanguage(current).locale);
+  translateLegacy = createTranslator(current);
 }
 
 export const currentLanguage = () => current;
@@ -28,7 +37,12 @@ const interpolate = (text, vars) =>
 
 export function t(text, vars) {
   if (typeof text !== 'string' || text === '') return text;
-  return interpolate(CATALOGS[current]?.[text] ?? text, vars);
+  const translation = CATALOGS[current]?.[text];
+  if (typeof translation === 'string') return interpolate(translation, vars);
+
+  // The merged interface uses both English strings and legacy catalog keys.
+  const legacyKey = Object.hasOwn(en, text) ? text : current === 'ar' ? legacyKeys.get(text) : undefined;
+  return legacyKey ? translateLegacy(legacyKey, vars) : interpolate(text, vars);
 }
 
 export function tn(one, other, n, vars) {

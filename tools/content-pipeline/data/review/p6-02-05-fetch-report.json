@@ -1,0 +1,77 @@
+{
+  "manifest": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\collections\\p6-02-05-sources.json",
+  "items": [
+    {
+      "index": 0,
+      "job": {
+        "source": "unesco",
+        "governorate": "Salah al-Din",
+        "url": "https://whc.unesco.org/en/list/276/"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+      "attempts": [
+        {
+          "url": "https://whc.unesco.org/en/list/276/",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "job": {
+        "source": "unesco",
+        "governorate": "Salah al-Din",
+        "url": "https://whc.unesco.org/en/list/1130/"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+      "attempts": [
+        {
+          "url": "https://whc.unesco.org/en/list/1130/",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "job": {
+        "source": "krg",
+        "governorate": "Erbil",
+        "url": "https://www.erbil.gov.krd/app/node/13677"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "failed",
+      "error": {
+        "type": "RobotsPolicyError",
+        "code": "robots-unavailable",
+        "message": "Cannot fetch https://www.erbil.gov.krd/app/node/13677: robots status=unavailable. robots.txt was not found. Phase 1.1 uses a conservative stop policy. Checked: https://www.erbil.gov.krd/robots.txt",
+        "http_status": 404,
+        "retryable": false,
+        "attempts": [
+          {
+            "url": "https://www.erbil.gov.krd/robots.txt",
+            "attempt": 1,
+            "http_status": 404,
+            "retryable": false
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "processed": 2,
+    "failed": 1
+  },
+  "automatically_approved": 0
+}

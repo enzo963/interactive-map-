@@ -1,0 +1,554 @@
+[
+  {
+    "id": "site-baghdad-mustansiriya-madrasa",
+    "name": "Al-Mustansiriya Madrasa",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "Abbasid",
+    "description": "An Abbasid school on the eastern bank of the Tigris in Baghdad, with rooms and iwans arranged around a large central space.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Mustansiriya Madrasa in Baghdad",
+      "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+      "credit": "Makaay31",
+      "license": "CC BY-SA 3.0",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 3.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+          "credit": "Makaay31",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Al-Mustansiriya Madrasa in Baghdad",
+        "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+        "credit": "Makaay31",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "license_status": "verified",
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 3.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-mustansiriya-madrasa",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00"
+        },
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_observations": [
+          {
+            "sourceName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+            "credit": "Makaay31",
+            "license_status": "verified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+        "accessedAt": "2026-10-31T23:56:40.662774+00:00"
+      }
+    ],
+    "slug": "mustansiriya-madrasa",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-abbasid-palace",
+    "name": "Abbasid Palace",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "Abbasid",
+    "description": "A surviving Abbasid building beside the Tigris in Baghdad, distinguished by its brick-and-lime construction and ornamental brickwork.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Abbasid Palace in Baghdad",
+      "caption": "Abbasid Palace — Wikimedia Commons photograph",
+      "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-abbasid-palace",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+              "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-abbasid-palace",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Abbasid Palace in Baghdad",
+        "caption": "Abbasid Palace — Wikimedia Commons photograph",
+        "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-baghdad-abbasid-palace",
+        "license_status": "verified",
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 4.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+                "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-abbasid-palace",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00"
+        },
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source_observations": [
+          {
+            "sourceName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+            "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+            "license_status": "verified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+        "accessedAt": "2026-10-31T23:56:42.764141+00:00"
+      }
+    ],
+    "slug": "abbasid-palace",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-qishla",
+    "name": "Al-Qishla and Clock Tower",
+    "governorate": "Baghdad",
+    "category": "Historic Complex",
+    "period": "Ottoman and British periods",
+    "description": "A riverside heritage complex in Baghdad, with Ottoman barracks and a clock tower. Its architecture also records later additions during British rule.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+        "accessedAt": "2026-10-31T23:56:47.016885+00:00"
+      }
+    ],
+    "slug": "al-qishla",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-wazir-mosque",
+    "name": "Al-Wazir Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A historic Baghdad mosque associated with the Ottoman governor Hassan Pasha. Its fabric has undergone successive restoration and rebuilding campaigns.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Wazir Mosque in Baghdad",
+      "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+      "credit": "Mahmoudalrawi",
+      "license": "CC BY-SA 3.0",
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 3.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+              "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+          "credit": "Mahmoudalrawi",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Al-Wazir Mosque in Baghdad",
+        "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+        "credit": "Mahmoudalrawi",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "license_status": "verified",
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 3.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-al-wazir-mosque",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00"
+        },
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_observations": [
+          {
+            "sourceName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+            "credit": "Mahmoudalrawi",
+            "license_status": "verified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+        "accessedAt": "2026-10-31T23:56:44.907313+00:00"
+      }
+    ],
+    "slug": "al-wazir-mosque",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-asifiyah-mosque",
+    "name": "Al-Asifiyah Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "An Ottoman-era mosque in Baghdad. The Iraqi submission describes a prayer hall with two domes, two minarets and later restoration.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+        "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+        "accessedAt": "2026-10-31T23:57:14.176337+00:00"
+      }
+    ],
+    "slug": "al-asifiyah-mosque",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-house-of-wisdom-building",
+    "name": "House of Wisdom (Industries School Building)",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "Ottoman",
+    "description": "An Ottoman-era school building in Baghdad, described as the Industries School or House of Wisdom, with two storeys and arcaded corridors overlooking gardens.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      }
+    ],
+    "slug": "house-of-wisdom-building",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  }
+]

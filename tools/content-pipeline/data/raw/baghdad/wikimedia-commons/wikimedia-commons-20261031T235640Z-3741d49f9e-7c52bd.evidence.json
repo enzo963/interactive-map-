@@ -1,0 +1,38 @@
+{
+  "evidence_id": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+  "source_id": "wikimedia-commons",
+  "source_name": "Wikimedia Commons",
+  "trust_tier": 2,
+  "requested_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+  "final_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+  "governorate": "Baghdad",
+  "retrieved_at": "2026-10-31T23:56:40.662774+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "3741d49f9e72b9ceac8dc9c42ece7760a51aac97398755910675027564f8ece4",
+  "html_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+  "extraction_path": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://commons.wikimedia.org/robots.txt",
+    "target_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL.",
+    "attempts": [
+      {
+        "url": "https://commons.wikimedia.org/robots.txt",
+        "attempt": 1,
+        "http_status": 200,
+        "retryable": false
+      }
+    ]
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ],
+  "change_type": "new",
+  "previous_evidence_id": null,
+  "previous_sha256": null
+}

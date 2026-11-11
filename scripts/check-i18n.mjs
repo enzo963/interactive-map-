@@ -4,13 +4,14 @@
 // Keys are the English texts passed to t()/tn(), plus the label/title/blurb texts of the data modules
 // listed below, which components translate when they render them.
 import { readFileSync, readdirSync, statSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, relative, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import de from '../src/i18n/messages/de.js';
 
 const require = createRequire(import.meta.url);
 const espree = require('espree');
-const ROOT = new URL('../src/', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('../src/', import.meta.url));
 const DATA_FILES = new Set([
   'data/navigation.js', 'data/collections.js', 'data/specialDecks.js', 'data/drawFilters.js', 'data/cardTypeNotes.js',
   'utils/heritageCategories.js', 'utils/filterSites.js', 'utils/related.js', 'utils/documentation.js', 'utils/modelResources.js',
@@ -27,9 +28,9 @@ const walk = (dir) => readdirSync(dir).forEach((name) => {
 walk(ROOT);
 
 const keys = new Map(); // key -> first file
-const add = (key, file) => { if (!keys.has(key)) keys.set(key, file.replace(ROOT, '')); };
+const add = (key, file) => { if (!keys.has(key)) keys.set(key, relative(ROOT, file).split(sep).join('/')); };
 for (const file of files) {
-  const rel = file.replace(ROOT, '');
+  const rel = relative(ROOT, file).split(sep).join('/');
   const ast = espree.parse(readFileSync(file, 'utf8'), { ecmaVersion: 'latest', sourceType: 'module', ecmaFeatures: { jsx: true } });
   const visit = (node, parentKey) => {
     if (!node || typeof node.type !== 'string') return;

@@ -1,0 +1,221 @@
+{
+  "id": "site-kirkuk-green-dome",
+  "name": "The Green Dome, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Monument",
+  "period": "",
+  "description": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/6522/",
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "accessedAt": "2026-10-31T18:54:41+00:00"
+    }
+  ],
+  "draft_id": "draft-green-dome-p505-20261031",
+  "status": "needs-review",
+  "candidate_name": "The Green Dome, Kirkuk Citadel",
+  "candidate_summary": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+  "source_evidence": [
+    "unesco-20261031T185441Z-b226471f6a"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/tentativelists/6522/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "iq.svg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-kirkuk-green-dome",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "accessedAt": "2026-10-31T18:54:41+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+      "No current preservation, visitor access or reconstruction claims are inferred.",
+      "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+      "Precise chronology and images require verification. No image or 3D claim is assigned."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "image_candidates": [
+      "unesco-20261031T185441Z-b226471f6a"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+      "json_pointer": "/paragraphs/11",
+      "text_match": "octagonal building"
+    }
+  ],
+  "unesco_context": {
+    "status": "documented-within-tentative-area",
+    "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+  },
+  "parent_draft_id": "draft-kirkuk-citadel-p505-20261031",
+  "image_extractions": [
+    {
+      "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+      "source": {
+        "sourceId": "unesco",
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Kirkuk Citadel",
+        "canonical_url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "meta_description": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+        "language": "en",
+        "headings": [
+          "Kirkuk Citadel",
+          "Description",
+          "Justification of Outstanding Universal Value",
+          "Statements of authenticity and/or integrity",
+          "Comparison with other similar properties"
+        ],
+        "paragraphs": [
+          "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+          "The sole responsibility for the content of each Tentative List lies with the State Party concerned. The publication of the Tentative Lists does not imply the expression of any opinion whatsoever of the World Heritage Committee or of the World Heritage Centre or of the Secretariat of UNESCO concerning the legal status of any country, territory, city or area or of its boundaries.",
+          "Property names are listed in the language in which they have been submitted by the State Party",
+          "Kirkuk Citadel is located in the center of the city of Kirkuk, and considered one of the oldest parts of the urban city. Some historians believe that Gutians were the ones who built the Citadel, based on an old cuneiform tablet, and it can be said that this high settlement, now called Kirkuk Citadel, was famous since the middle of the second millennium BC as “Citadel of the city of Beni Shilwa”, while other historians believe that this citadel was built during the reign of the Assyrian king “Ashur Nasirpal II” between 850 and 884 BC. Kirkuk Citadel was originally built on a rounded hill, which rises about 120 feet from the surrounding plains, and overlooks a small river valley known as Al Khasa River. This citadel in itself is considered an integrated city, as it includes many old heritage buildings. The citadel is divided into three main sections: 1- Al-Midan locality, located in the north. 2- The district of citadel, located in the center, is also called “Aghaliq” district, so it was called by this name due to the residence of the Janissary soldiers' leaders there. 3- The Hammam district, located in the south, was named by that name because there is a large bathhouse in it, the exact date of its construction is unknown.",
+          "The citadel has four main entrances: 1- The stone door or the main door with terraces, and this entrance connected to the stone bridge by stepped stairs. 2- Bab al-Toub (Toub Qabu), which is one of the four main gates located on the western façade of Kirkuk Citadel and overlooks Khassa Sow River, and it is the only remaining gate of the four main gates, and it is the only one that preserved in its current form and dates back to more than 150 years and distinguished by its pointed arches The semi-circular shape and its semi-oval vault are built of stone and plaster, and the height of the gate from the inside is 7 m. The length of the entrance is 4 m and its width is 3 m. 3- Seven Girls Gate, overlooking (Jute Qahwah - The Double Café 4- Bab Al-Halloujia, overlooking the sweet sellers market",
+          "The most prominent, archaeological and historical urban landmarks of the Kirkuk Citadel are:",
+          "Al-Qaysariyah Market: It is located in the eastern side of the citadel. It dates back more than 150 years, and it is one of the unique markets due to its arches decorating the second floor rooms, and it includes about 300 rooms and shop (commercial store).",
+          "The Great Mosque: This mosque is one of the important buildings in the citadel due to its unique Islamic architectural style in terms of domes, arches and columns, and its construction dates back to the beginning of the thirteenth century AD. And it is still known among the public as the Mosque of Virgin Mary.",
+          "Al-Aryan Mosque: Al-Aryan Mosque is located in the middle of the citadel, dating back to the year 1142 AH, as is evidenced by the stone fragment installed at its entrance. This mosque is distinguished by its Mihrab, which is decorated with floral and geometric motifs in many colors in the form of flowers, after removing a portion of these motifs, it turned out to be renewed, as under it appeared plant motifs, topped with the words of a Quranic verse which is (Whenever Zachariah went to her in the sanctuary,) (Al Imran: 37). As for the pulpit of the mosque, built with stucco and stone, and its sides decorated with stucco decoration representing geometric shapes, including hexagonal stars surrounded by a frame of parchment. The mosque contains two domes of different sizes.",
+          "Prophet Daniel Mosque: The Mosque of the Prophet Daniel is considered the oldest and most famous mosque with distinguished minaret dating back to the late Mongol era or the beginning of the Timurid era (of the ninth century AH - fifteenth century AD). The minaret of the mosque built of bricks and as evidence point can be seen from other part of citadel. The mosque has arches still standing and sits on an octagonal base next to the minaret, and the mosque contains two adjacent scenes and a chapel overlooking an open courtyard, and the mosque has a social-spiritual value, as it is constantly visited by people, especially on Saturdays. The mosque was built on the ruins of the arches of an old building.",
+          "Chaldean Church: The Church of (Mother of Sorrows) was built on the ruins of an old cathedral, and it is one of the huge, large churches with very high walls. It was for the Chaldean Christians who lived in Hammam locality in the citadel. It is built with stone and plaster and its ceilings and arcades are based on arches and marble columns that are considered to be luxurious crowns in the architectural building, and its first construction dates back to the year (1862 AD), and its building was renewed in 1903 AD and became two entrances, one on the passage to the main entrance and the second on the courtyard. At the present time, its walls have been damaged and need scientific preservation to keep them from disappearing.",
+          "The Green Dome: It is an octagonal building from the outside. It is adorned with exquisite decorations and inscriptions of various colors of Qashani and dates back to the era of the Atabegs, it was built in 762 AH (1361 AD). The building consists of two floors, with two vaults on the ground floor above which were collapsed as a result of cracking, but minor features remained for them on the sides of the wall on which these two vaults are based.",
+          "Heritage Houses: It is a group of heritage houses in the citadel characterized by a beautiful architectural character with exquisite stucco ornaments and arches, and their ceilings are based on marble columns. During the time of the former regime, many of these homes were removed under the pretext of cracking them.",
+          "Criterion (iii): Kirkuk Citadel represents a unique testimony to an existing civilization that has not disappeared, as urban monuments, especially the heritage houses inhabited so far, as well as the places of worship in the citadel.",
+          "Criterion (iv): The architectural styles on which the architectural features of the citadel were built are unique, and they adopted the construction methods prevailing in Iraq during that period, and those architectural styles were preserved through the restoration and preservation work that was carried out in the citadel.",
+          "Accordingly, the property (Kirkuk Citadel) included all the necessary features and characteristics that announce the outstanding universal value (OUV) of the site, which is located within the protected boundaries of the property, and despite the loss of some urban fabric of the site, the major parts of the citadel, especially its outer wall, were preserved and sustained will be in the nomination file. The high level of authenticity of the site indicates its current location in the city center and the importance of its original defensive location. Although the defensive use of the citadel was evident from the originality of the shape and design. Moreover, the historical design of the citadel was preserved through the relationship between the components of the citadel and the citadel is still vibrant and inhabited by the people. The preservation and restoration process is still taking place in the citadel and the use of traditional building materials and archaeological investigations are underway in many parts of the castle, to link existing landmarks to each other and establish a sequence (stratigraphy) for the site's layers.",
+          "By searching for a site that can be compared to the Kirkuk Citadel from among the sites listed on the World Heritage List, or those sites that are not listed, we have chosen Qal'a of Beni Hammad in Algeria. Qal'a of Beni Hammad is located in Al-Maadid in the northeast of the Messila state in Algeria, 36 km away. It was the first capital (before Bejaia) of the Hammadid state, which reached its zenith in the eleventh century. Qal'a of Beni Hammad in Al-Maadid belonging to the state of Al-M'sila is considered one of the symbols of the Islamic state in Algeria and is considered an extension of the state of Hammad Bin Belkin, who tried to refine and establish the Islamic identity. Despite the importance of this great historical and Islamic monument, the citadel was abandoned and did not reside. The period of construction of this great Islamic monument lasted 30 years, during which the original Islamic architecture was used with motifs and designs that reflect the Islamic heritage extending through the bygone centuries in any place where Islam exists. And the citadel at the present time has become a shrine and did not live. As for the Kirkuk Citadel, it preserved its cultural fabric for centuries and is still inhabited, Also, all the civilizational roles that have passed in Iraq have been represented by the citadel. Therefore, the Kirkuk citadel surpasses Qal'a of Beni Hammad in this regard, and the criteria for listing it qualify it to receive the honor of being listed on the World Heritage List."
+        ],
+        "image_candidates": [
+          {
+            "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+            "alt": "",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "source_id": "unesco",
+            "source_name": "UNESCO World Heritage Centre",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "iq.svg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-kirkuk-green-dome",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ]
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-kirkuk-green-dome",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "evidence_id": "unesco-20261031T183624Z-d52d1905cf",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/tentativelists/6172/",
+  "final_url": "https://whc.unesco.org/en/tentativelists/6172/",
+  "governorate": "sulaymaniyah",
+  "retrieved_at": "2026-10-31T18:36:24+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "d52d1905cf31137bc86b878cff86706d6e30f1fe4cbc41c7a54b281db1f3f657",
+  "html_path": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.html",
+  "extraction_path": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/tentativelists/6172/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

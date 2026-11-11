@@ -1,0 +1,47 @@
+[33m< 3a98c76[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feat/map-dark-mode-german[m[33m, [m[1;31morigin/HEAD[m[33m)[m Let the Hatra import test read the larger sites.json from git
+[33m< 54a4720[m Merge verified site images from feat/map-dark-mode-german
+[33m< 949b194[m Give 113 cards a verified image of the site itself
+[33m< 180b615[m Merge approved site descriptions from feat/map-dark-mode-german
+[33m< 428e8b6[m Write source-checked descriptions for every approved site
+[33m< bb73cf5[m Merge Baghdad corroboration pass from feat/map-dark-mode-german
+[33m< 770ef45[m Add institutional sources to 23 Baghdad cards
+[33m< 9e93778[m Merge source credibility tiers from feat/map-dark-mode-german
+[33m< 30f65da[m Rate source credibility and require a credible source for every card
+[33m< c10d3bb[m Merge minimum card contract from feat/map-dark-mode-german
+[33m< f1f41f7[m Show only records that meet the minimum card contract
+[33m< f0f658c[m Merge site duplicate review from feat/map-dark-mode-german
+[33m< 204259a[m Merge duplicate site cards and link monuments to their complexes
+[33m< 6f6f012[m Merge Diyala heritage batch from feat/map-dark-mode-german
+[33m< b609d7a[m Add 96 Diyala heritage sites for review
+[33m< 82defe1[m Merge pull request #3 from enzo963/feat/map-dark-mode-german
+[33m< 5ed0e70[m Add 29 Salah al-Din heritage sites for review
+[33m< fd282fc[m Add 85 Baghdad heritage sites for review
+[33m< 0f9e1e5[m Add 33 Anbar heritage sites for review
+[33m< b31cd0c[m Add 27 Kirkuk heritage sites for review
+[33m< 3c9d849[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcodex/seo-metadata[m[33m)[m Add 101 Sulaymaniyah heritage sites for review
+[33m< bc92f6e[m Add 154 Nineveh heritage sites and fix Duhok batch
+[33m< aaf917e[m Add 60 Duhok heritage sites for review
+[33m< 7fc898c[m Add 65 Erbil heritage sites for review
+[33m< 5499041[m[33m ([m[1;32mmain[m[33m)[m Add Leaflet map, dark mode and German interface
+[33m< e3ddd59[m Merge branch 'codex/site-quality-audit'
+[33m< b215bfc[m Merge branch 'main' of https://github.com/enzo963/interactive-map-
+[33m< 1fef688[m[33m ([m[1;31morigin/codex/site-quality-audit[m[33m, [m[1;32mcodex/site-quality-audit[m[33m)[m Refactor code structure for improved readability and maintainability
+[33m< 6bf93de[m feat: update implementation plan with completed tasks and performance metrics
+[33m< ca7639d[m feat: implement route-level code splitting and loading states
+[33m< bc01d0b[m fix: correct indentation for improved readability in track_image_licenses.py
+[33m< a2bf28a[m[33m ([m[1;31morigin/codex/project-pages[m[33m, [m[1;32mcodex/project-pages[m[33m)[m feat: Implement project pages and navigation for History in Cards
+[33m< a0e657b[m feat: add DiscoveryBrowse and ModelViewer components for enhanced site exploration
+[33m< 85d73b9[m Add JSON files for P6-02 to P6-05 sources and supplemental sources
+[33m< ad947d0[m Refactor code structure for improved readability and maintainability
+[33m< bb9d007[m Add comprehensive tests for logging, retries, scalability, and image license tracking
+[33m< 7ef3286[m Add comprehensive tests for site ingestion, validation, and review processes
+[33m< 7d6e991[m feat: Standardize heritage site records and update schema
+[33m< 84a12a0[m feat(data): update sites.json structure and add schema validation
+[33m< 287ee83[m Refactor content pipeline: Enhance validation, error handling, and extraction processes
+[33m< e7f02ec[m feat(ui): refine deck pages, map interactions, and site details
+[33m< 4dce472[m feat: Enhance layout styles for HeritageCard, SiteSections, and Home components
+[33m< 5603c7b[m feat: Implement content pipeline for Heritage Bridge project
+[33m> 25a9505[m[33m ([m[1;31morigin/feat/leaflet-map-add-places[m[33m)[m Add Arabic/German/English and dark theme
+[33m> 19dac02[m Use the Leaflet map on the home page and site pages
+[33m> 07a0690[m Add credited photos to the ten Nineveh cards
+[33m> 8c0e27a[m Add Leaflet map with in-map place editor and Nineveh starter cards

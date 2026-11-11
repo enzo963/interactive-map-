@@ -1,0 +1,27 @@
+{
+  "evidence_id": "krg-20261031T183030Z-520d663dfb",
+  "source_id": "krg",
+  "source_name": "Kurdistan Regional Government",
+  "trust_tier": 1,
+  "requested_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+  "final_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+  "governorate": "duhok",
+  "retrieved_at": "2026-10-31T18:30:30+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "520d663dfb9fa92a6ebf000bf1d776c20a34bd410cf0768160df8348de5a060f",
+  "html_path": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.html",
+  "extraction_path": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://gov.krd/robots.txt",
+    "target_url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

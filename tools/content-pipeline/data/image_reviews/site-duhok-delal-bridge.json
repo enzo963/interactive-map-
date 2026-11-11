@@ -1,0 +1,555 @@
+{
+  "id": "site-duhok-delal-bridge",
+  "name": "Delal Bridge",
+  "governorate": "Duhok",
+  "category": "Historic Bridge",
+  "period": "",
+  "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "accessedAt": "2026-10-31T18:30:32+00:00"
+    }
+  ],
+  "draft_id": "draft-delal-bridge-p502-20261031",
+  "status": "needs-review",
+  "candidate_name": "Delal Bridge",
+  "candidate_summary": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+  "source_evidence": [
+    "krg-20261031T182919Z-d4c58de519",
+    "krg-20261031T183032Z-9a290bf891"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2025/06/2234343-min-768x576.png",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://us.gov.krd/visit-kurdistan/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "2234343-min-768x576.png",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-delal-bridge",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/Screenshot-2026-09-30-160548.png",
+      "alt": "image",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://us.gov.krd/visit-kurdistan/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "image",
+          "caption": "",
+          "title": "",
+          "filename": "Screenshot-2026-09-30-160548.png",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-delal-bridge",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/1788865349_kurdistan24-768x431.jpg",
+      "alt": "image",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://us.gov.krd/visit-kurdistan/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "image",
+          "caption": "",
+          "title": "",
+          "filename": "1788865349_kurdistan24-768x431.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-delal-bridge",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/unnamed-1-768x512.jpg",
+      "alt": "image",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://us.gov.krd/visit-kurdistan/",
+      "source_id": "krg",
+      "source_name": "Kurdistan Regional Government",
+      "trust_tier": 1,
+      "license_status": "unverified",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "image",
+          "caption": "",
+          "title": "",
+          "filename": "unnamed-1-768x512.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-duhok-delal-bridge",
+      "association_status": "unmatched",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No image-specific name or alias match; governorate and page placement are insufficient."
+      ],
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "accessedAt": "2026-10-31T18:29:19+00:00"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Evidence-backed draft; not approved or published.",
+      "No images assigned: relevance, attribution and licenses require review.",
+      "The history page calls the bridge Roman; the tourism overview says Roman or medieval. No precise period is assigned.",
+      "The tourism entry occurs in raw HTML list content omitted by paragraph extraction. Its locator points to raw HTML; pipeline logic was not changed.",
+      "Confirm current administrative grouping of Zakho under the project geographic policy before import."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "candidate_summary": [
+      "krg-20261031T182919Z-d4c58de519",
+      "krg-20261031T183032Z-9a290bf891"
+    ],
+    "image_candidates": [
+      "krg-20261031T182919Z-d4c58de519"
+    ],
+    "coverImage": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+      "selector": "li",
+      "text_match": "Zakho Bridge (Delal Bridge)"
+    },
+    {
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+      "json_pointer": "/paragraphs/3",
+      "text_match": "Delal bridge"
+    }
+  ],
+  "image_extractions": [
+    {
+      "evidenceId": "krg-20261031T182919Z-d4c58de519",
+      "source": {
+        "sourceId": "krg",
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T182919Z-d4c58de519",
+        "accessedAt": "2026-10-31T18:29:19+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "Visit Kurdistan - Representation in the United States",
+        "canonical_url": "https://us.gov.krd/visit-kurdistan/",
+        "meta_description": "VISIT KURDISTAN VISITING KURDISTAN: Archaeology in Kurdistan & Tourism Archaeology in Kurdistan Kurdistan is not only a land of resilience – it is a cradle of some of humanity’s earliest civilizations. Archaeological discoveries in the Kurdistan Region reveal a rich, layered history dating back more than 10,000 years. The Kurdistan Region is part of ancient […]",
+        "language": "en-US",
+        "headings": [
+          "VISIT KURDISTAN",
+          "Latest News",
+          "KRG-US Supports Kurdish Storytelling at the 10th New York Kurdish Film Festival",
+          "Kurdish Art and Heritage Take Center Stage Across the Region and Abroad",
+          "Deaf Leader Becomes First Kurd to Attend Prestigious Leadership Institute"
+        ],
+        "paragraphs": [
+          "VISITING KURDISTAN: Archaeology in Kurdistan & Tourism",
+          "Kurdistan is not only a land of resilience – it is a cradle of some of humanity’s earliest civilizations. Archaeological discoveries in the Kurdistan Region reveal a rich, layered history dating back more than 10,000 years. The Kurdistan Region is part of ancient Mesopotamia’s northern cultural sphere , influencing and being influenced by empires such as: Sumerians, Assyrians, Babylonians, Mitanni, Medes, Persians, Hellenistic Greeks, Romans and Sassanids.",
+          "The Region’s unique geography has made it a vital hub of cultural development, trade, and imperial ambition throughout history. Across its valleys and mountain ranges lie traces of early human settlements, ziggurats, fortresses, citadels, and temples.",
+          "Recent archaeological research has dramatically expanded global understanding of ancient Kurdistan. International teams- including scholars from the University of British Columbia, the University of Cambridge, and the French Mission at Qasr Shemamok- have undertaken major excavations across the Region¹.",
+          "Shanidar Cave (Zagros Mountains, Erbil Governorate)",
+          "Significance: One of the most famous Neanderthal sites in the world.",
+          "Highlights: Remains of 10 Neanderthals were found, some buried with flowers, interpreted as evidence of ritual burial.",
+          "Period: Middle Paleolithic (over 50,000 years ago).",
+          "Qalatga Darband (Sulaymaniyah Governorate)",
+          "Significance: A Hellenistic city believed to have been founded after Alexander the Great’s conquest.",
+          "Discovered by: Drone surveys and excavations led by the British Museum.",
+          "Tell Shemshara (Rania Plain, near Lake Dukan)",
+          "Significance: An important early urban settlement.",
+          "Period: Occupied from the Halaf period (6000 BCE) through the Islamic era.",
+          "Findings: Archives of tablets from the Old Babylonian period",
+          "Significance: A temple and settlement site dating to the Mitanni and Assyrian periods.",
+          "Notes: Recent excavations uncovered a temple dedicated to Ishtar.",
+          "Significance: An ancient stone bridge believed to be Roman or medieval in origin.",
+          "Current status: A tourist site and symbol of the region’s architectural heritage.",
+          "Significance: One of the oldest continuously inhabited cities in the world.",
+          "Period: At least 6,000 years of continuous settlement.",
+          "Notes: Ongoing restoration and archaeological projects are revealing deep layers of history.",
+          "Description: Carvings of royal figures, possibly King Shapur I, depicting victories over the Romans.",
+          "The Kurdistan Regional Government (KRG) has recognized the vital importance of archaeology to cultural heritage, national identity, and tourism development³. Preservation and protection of archaeological sites have become a strategic priority. The KRG’s General Directorate of Antiquities and Heritage, under the Ministry of Municipalities and Tourism, oversees site management, licensing of excavations, and the conservation of historic monuments³.",
+          "Importantly, academic programs within Kurdistan itself are training a new generation of archaeologists and heritage professionals. Several universities in the Region now offer undergraduate and postgraduate studies in archaeology and related fields, including: ● Salahaddin University-Erbil : Home to one of Kurdistan’s leading archaeology departments, offering Bachelor’s and Master’s degrees in archaeology, ancient history, and heritage conservation⁴. ● University of Sulaimani : Offers programs focusing on archaeology, cultural resource management, and historical studies of the Zagros Mountains region⁵. ● University of Duhok : Supports archaeological fieldwork initiatives and training programs in cooperation with international missions. ● University of Kurdistan-Hewlêr (UKH) : Although primarily a center for political science and management studies, UKH promotes interdisciplinary research, including support for cultural heritage projects.",
+          "These programs are instrumental in ensuring that the study and preservation of Kurdistan’s heritage are increasingly led by Kurdish scholars themselves, building local capacity for future exploration and stewardship.",
+          "In addition to formal education, the KRG has collaborated with institutions such as the German Archaeological Institute (DAI), Italian and French archaeological missions, and UNESCO initiatives aimed at protecting endangered heritage, especially following the ISIS destruction of sites in neighboring areas⁷.",
+          "Despite the challenges posed by conflict, development pressures, and limited resources, the Kurdistan Region has succeeded in preserving many of its treasures. Sites like the Erbil Citadel , which was inscribed on the UNESCO World Heritage Tentative List⁶, and ancient temples such as those at Lalish (sacred to the Yezidi community), remain vital living connections to the Region’s ancient past.",
+          "The KRG’s commitment to archaeology reflects more than historical curiosity; it affirms a vision of Kurdistan as a custodian of civilization, with a deep respect for all the cultures and peoples that have passed through its lands. In celebrating its heritage, Kurdistan reasserts its role as a bridge between civilizations — a place where the memory of humanity’s earliest achievements is preserved, studied, and honored.",
+          "University of British Columbia and University of Cambridge, Bestansur Archaeological Project Reports, 2023–2024.",
+          "Jason Ur, “The Evolution of the Assyrian Landscape in the Kurdistan Region,” Harvard University Field Research, 2023.",
+          "Kurdistan Regional Government, General Directorate of Antiquities and Heritage, Annual Report, 2024.",
+          "Salahaddin University-Erbil, Department of Archaeology Program Description, 2024.",
+          "University of Sulaimani, Department of Archaeology and Heritage Studies Overview, 2024.",
+          "UNESCO, “World Heritage Tentative List: Erbil Citadel,” 2022.",
+          "KRG Ministry of Municipalities and Tourism, Strategic Heritage Protection Plan, 2024.",
+          "An Emerging Destination for Culture, History, and Sustainable Tourism",
+          "The Kurdistan Region of Iraq, an autonomous region in the country’s north, has long served as a refuge amid its mountainous terrain and striking natural beauty. In recent years, it has emerged as a dynamic destination for domestic and international tourism. With major investments in infrastructure, a strong focus on cultural preservation, and a commitment to sustainable and inclusive development, the Kurdistan Region offers visitors a rich and multifaceted travel experience.",
+          "Kurdistan’s dramatic landscape and varied topography offer an exceptional environment for adventure tourism. Majestic mountain ranges, including Halgurd, Pera Magrun, Korek, Bradost, Sheren, and Saffen, attract hikers, climbers, and outdoor enthusiasts seeking immersive experiences in nature. The recently upgraded cable car on Korek Mountain provides visitors with effortless access to elevated viewpoints, offering sweeping vistas of the surrounding region. Winter tourism continues to expand, with resorts such as the Radisson Blu on Mount Korek welcoming both domestic and international travelers for skiing and snow-based recreation. Additional attractions- such as cave exploration, river expeditions, and guided valley tours, enhance the Region’s appeal, with numerous caves and peaks yet to be fully explored. Additional attractions include spelunking, river excursions, and guided tours of largely unexplored cave systems and alpine areas.¹",
+          "Kurdistan is home to a rich tapestry of religious and ethnic communities, including Muslims, Christians, Yezidis, and Kakais, who have coexisted peacefully for generations. This pluralistic environment, supported by a stable security framework, has made the Region an increasingly attractive destination for religious tourism. Pilgrims and heritage travelers alike visit historic mosques, churches, and temples across the four governorates. The Kurdistan Regional Government (KRG) has worked to ensure a welcoming atmosphere, drawing over a million annual visitors to sacred and historical religious sites.²",
+          "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²",
+          "Kurdistan’s cultural richness stems from its ethnically diverse population- comprising Kurds, Assyrians, Turkmen, Chaldeans, Armenians, and Arabs- each contributing to the Region’s heritage through unique languages, cuisines, clothing, and rituals. Traditional Kurdish dress, characterized by vibrant textiles and ornate gold jewelry, symbolizes the enduring pride in cultural identity. Visitors are invited to participate in local festivals and cuisine, while regional museums in Erbil, Sulaimani, Duhok, and Kalar exhibit traditional crafts, including textile weaving, metalwork, and folk art.²",
+          "With over 3,500 documented archaeological sites, the Kurdistan Region is a treasure trove for historians and archaeologists. The Erbil Citadel- recognized as a UNESCO World Heritage Site- is among the oldest continuously inhabited urban settlements in the world. Shanidar Cave, the site of 60,000-year-old Neanderthal remains, offers insights into early human history. The Neolithic villages of Zawia and Charmo, dating to between 10,000 and 7,000 BCE, provide evidence of some of the earliest agricultural communities. Artifacts from these and other sites are preserved and displayed in regional museums.²",
+          "Tourism in the Kurdistan Region is experiencing rapid growth, with over 1.5 million visitors recorded in the first three months of 2024 alone. The KRG has announced ambitious plans to welcome 20 million tourists annually by 2030. To meet this goal, more than $7.5 billion has been invested in over 3,100 tourism-related facilities, including hotels, restaurants, and tour agencies, over the past five years. Major cities such as Erbil, Duhok, and Sulaimani continue to expand their hospitality and transportation infrastructure to support growing visitor demand.³",
+          "Tourism development in Kurdistan is closely tied to social and economic inclusion. A landmark regulation now requires that at least 75% of jobs in tourism-related projects be allocated to local residents.⁴ In partnership with UNDP and USAID, the KRG has launched the Tourism Enterprise Development Program, which supports microenterprise initiatives across the Region. This program has enabled hundreds of women and youth to establish tourism-related businesses, advancing local entrepreneurship and sustainable development.⁵",
+          "Kurdistan offers a compelling blend of natural beauty, cultural depth, historical significance, and forward-looking development. As tourism continues to expand, the Region stands out not only as a destination of scenic and cultural richness but also as a model of inclusive and sustainable tourism. For travelers seeking authenticity, diversity, and meaning, the Kurdistan Region of Iraq remains one of the Middle East’s most promising emerging destinations.",
+          "“The Revival of Winter Tourism in the Kurdistan Region.” Kurdistan24 , January 2024. Link",
+          "“Visiting Kurdistan.” KRG Representation in the United States . Link",
+          "“Tourism in Kurdistan: Over 3,000 Facilities, $7.5B Investments.” Shafaq News , April 2024. Link",
+          "“Kurdistan Region Mandates 75% Local Employment in Tourism Projects.” Kurdistan24 , April 2024. Link",
+          "“Developing Tourism Enterprises in the Kurdistan Region of Iraq.” UNDP Arab States , April 2024. Link"
+        ],
+        "image_candidates": [
+          {
+            "url": "https://us.gov.krd/wp-content/uploads/2025/06/2234343-min-768x576.png",
+            "alt": "",
+            "caption": "",
+            "source": "og:image",
+            "source_url": "https://us.gov.krd/visit-kurdistan/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "og:image",
+                "alt": "",
+                "caption": "",
+                "title": "",
+                "filename": "2234343-min-768x576.png",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-delal-bridge",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          },
+          {
+            "url": "https://us.gov.krd/wp-content/uploads/2026/09/Screenshot-2026-09-30-160548.png",
+            "alt": "image",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://us.gov.krd/visit-kurdistan/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "image",
+                "caption": "",
+                "title": "",
+                "filename": "Screenshot-2026-09-30-160548.png",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-delal-bridge",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          },
+          {
+            "url": "https://us.gov.krd/wp-content/uploads/2026/09/1788865349_kurdistan24-768x431.jpg",
+            "alt": "image",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://us.gov.krd/visit-kurdistan/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "image",
+                "caption": "",
+                "title": "",
+                "filename": "1788865349_kurdistan24-768x431.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-delal-bridge",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          },
+          {
+            "url": "https://us.gov.krd/wp-content/uploads/2026/09/unnamed-1-768x512.jpg",
+            "alt": "image",
+            "caption": "",
+            "source": "img",
+            "source_url": "https://us.gov.krd/visit-kurdistan/",
+            "source_id": "krg",
+            "source_name": "Kurdistan Regional Government",
+            "trust_tier": 1,
+            "license_status": "unverified",
+            "license_hint": "",
+            "license_url": "",
+            "credit": "",
+            "width": null,
+            "height": null,
+            "contexts": [
+              {
+                "kind": "img",
+                "alt": "image",
+                "caption": "",
+                "title": "",
+                "filename": "unnamed-1-768x512.jpg",
+                "license_hint": "",
+                "license_url": "",
+                "credit": ""
+              }
+            ],
+            "variants": [],
+            "siteId": null,
+            "targetSiteId": "site-duhok-delal-bridge",
+            "association_status": "unmatched",
+            "association_evidence": [],
+            "review_required": true,
+            "verification_status": "unverified",
+            "review_notes": [
+              "No image-specific name or alias match; governorate and page placement are insufficient."
+            ],
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "evidenceId": "krg-20261031T183032Z-9a290bf891",
+      "source": {
+        "sourceId": "krg",
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+        "evidenceId": "krg-20261031T183032Z-9a290bf891",
+        "accessedAt": "2026-10-31T18:30:32+00:00",
+        "trust_tier": 1,
+        "recorded_trust_tier": 1
+      },
+      "extraction": {
+        "title": "History",
+        "canonical_url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+        "meta_description": "The Board of Investment is responsible for promoting and supporting investment opportunities in the Kurdistan Region, assisting investors, and authorising licenses across all sectors.",
+        "language": "en",
+        "headings": [
+          "Board of Investment",
+          "History",
+          "Early History"
+        ],
+        "paragraphs": [
+          "The Board of Investment is responsible for promoting and supporting investment opportunities in the Kurdistan Region, assisting investors, and authorising licenses across all sectors.",
+          "Kurdistan is an area rich in history and is one of the oldest regions in the world. Located in one of the most important crossroads and the birthplace of much in the dawn of man.",
+          "Historians and scientists from many nations, including the United States, believe that Kurdistan is where humans first domesticated animals and planted crops. Recent archaeological finds place the beginning of agriculture before 7000 B.C. and animal domestication (mostly dogs used as hunting aids) thousands of years before that. There is some evidence that the people of Shanidar, in Kurdistan, were domesticating sheep and planting wheat as long ago as 9800 B.C.",
+          "Kurdistan is also a region that is rich in history and includes such archeological sites as the Sumerian-built citadel known as Qallat in Erbil, the infamous Shanidar cave where Neanderthals first buried their dead with flowers, the Zoroastrian and Assyrian sites in Dohuk, what is believed to be the home of the biblical Three Wise Menâ in Amadiyah, and the Delal bridge from the Roman Era in Zakho.",
+          "The first mention of the Kurds in historical records was in cuneiform writings from the Sumerians (3,000 B.C.), who talked of the land of the Karda. It would appear that from the earliest times the Kurds were generally unaffected by shifts in the empires around them, as they tended their flocks and obeyed their tribal leaders with a minimum of interference from outsiders. This lack of interference was very probably due to the inaccessibility of the area in which they lived, although they early on gained a reputation for being excellent fighters. At one time or another in their early history, some or all of them came under the dominance of the Sumerians, the Akkadians, the Babylonians, the Assyrians, the Parthians, the Persians, the Romans, and the Armenians. In the 7th century A.D., the Arabs conquered the area and in time converted everyone in it including the Kurds to Islam. The Kurdish area became a border area between the Muslim Caliphate and the Christian Byzantine Empire, and the Caliphate utilized Kurdish troops in securing the frontier area against the Byzantines based in Istanbul."
+        ],
+        "image_candidates": []
+      }
+    }
+  ],
+  "cover_selection": {
+    "siteId": "site-duhok-delal-bridge",
+    "proposed_coverImage": null,
+    "status": "no-eligible-image",
+    "ranked_candidates": [],
+    "rejected_candidates": [
+      {
+        "url": "https://us.gov.krd/wp-content/uploads/2025/06/2234343-min-768x576.png",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://us.gov.krd/wp-content/uploads/2026/09/Screenshot-2026-09-30-160548.png",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://us.gov.krd/wp-content/uploads/2026/09/1788865349_kurdistan24-768x431.jpg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      },
+      {
+        "url": "https://us.gov.krd/wp-content/uploads/2026/09/unnamed-1-768x512.jpg",
+        "reasons": [
+          "No explicit, unambiguous association with the requested siteId."
+        ]
+      }
+    ],
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "Lower registry trust tier ranks first, then explicit name match and declared image area.",
+      "Equal best ranks require manual selection. Dimensions, visual identity, licenses and attribution require review.",
+      "A trusted page is not proof of image ownership or a reuse license. No image was downloaded."
+    ]
+  },
+  "image_review": {
+    "errors": [],
+    "repository_issues": [],
+    "original_coverImage": null,
+    "original_image_candidates": [],
+    "manual_review_required": true,
+    "automatically_approved": false
+  }
+}

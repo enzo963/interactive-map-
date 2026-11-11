@@ -42,7 +42,7 @@ const mapPageStyles = `
 .hb-map-page .hb-mapx__results { display: grid; gap: .6rem; }
 .hb-map-page .hb-mapx__list { max-height: none; }
 .hb-map-page .hb-mapx__summary { margin-bottom: 0; }
-.hb-map-page .hb-region { min-height: 2.75rem; text-align: left; }
+.hb-map-page .hb-region { min-height: 2.75rem; text-align: start; }
 .hb-map-page .hb-region__count { min-width: 1.75rem; padding: .15rem .4rem; border-radius: 2px; background: color-mix(in srgb, var(--hb-earth) 10%, transparent); text-align: center; font-variant-numeric: tabular-nums; }
 .hb-map-page .hb-region[aria-pressed='true'] { border-width: 2px; padding: calc(.45rem - 1px) calc(.55rem - 1px); }
 .hb-map-page .hb-region[aria-pressed='true'] .hb-region__count { background: #ffffff20; }

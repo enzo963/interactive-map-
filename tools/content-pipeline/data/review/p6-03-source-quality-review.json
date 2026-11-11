@@ -1,0 +1,27 @@
+{
+  "reviewer": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+  "items": [
+    {
+      "source": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+      "locator": {
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.html",
+        "selector": "*",
+        "text_match": "UNESCO World Heritage Tentative List"
+      },
+      "issue": "The regional tourism overview calls Erbil a tentative-list site in one passage but a World Heritage Site elsewhere.",
+      "resolution": "Use the separate UNESCO property record for inscription status; retain only conservative site-specific facts from this overview. Do not import its disputed status or speculative ritual-burial claim.",
+      "priority": "manual-source-quality-warning-retained"
+    },
+    {
+      "siteId": "site-duhok-delal-bridge",
+      "issue": "Construction/origin attribution is not established consistently by the saved tourism sources.",
+      "resolution": "Leave period blank and avoid assigning a construction dynasty."
+    },
+    {
+      "siteId": "site-kirkuk-kirkuk-citadel",
+      "issue": "The nomination recounts alternative founding attributions.",
+      "resolution": "Do not select an exact founding year or builder."
+    }
+  ]
+}

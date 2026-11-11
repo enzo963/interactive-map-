@@ -1,0 +1,27 @@
+{
+  "evidence_id": "krg-20261031T172034Z-34d8a5812e",
+  "source_id": "krg",
+  "source_name": "Kurdistan Regional Government",
+  "trust_tier": 1,
+  "requested_url": "https://us.gov.krd/visit-kurdistan/",
+  "final_url": "https://us.gov.krd/visit-kurdistan/",
+  "governorate": "erbil",
+  "retrieved_at": "2026-10-31T17:20:34+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "34d8a5812ec58f91f58ae83e03e8b1b00872b10e50602f73d6a814e5462b3424",
+  "html_path": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.html",
+  "extraction_path": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://us.gov.krd/robots.txt",
+    "target_url": "https://us.gov.krd/visit-kurdistan/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

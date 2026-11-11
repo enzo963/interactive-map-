@@ -2,13 +2,12 @@ import PageHeader from '../components/common/PageHeader';
 import HeritageCard from '../components/cards/HeritageCard';
 import SmartLink from '../components/common/SmartLink';
 import useDocumentTitle from '../hooks/useDocumentTitle';
+import Rich from '../i18n/Rich';
+import { useI18n } from '../i18n/I18nContext';
 import { CARD_TYPES } from '../data/cardTypes';
-import { CARD_TYPE_NOTES } from '../data/cardTypeNotes';
 import { makeSpecimen } from '../utils/specimen';
 import '../styles/pages.css';
 import '../styles/project-pages.css';
-import { t } from '../i18n';
-import Rich from '../i18n/Rich';
 
 const LEGEND = [
   ['Archive number', 'A catalogue identifier: the archive’s legacy “HB” prefix, then a two-letter governorate code, then the record number. Existing identifiers are retained so records stay consistent.'],
@@ -19,8 +18,18 @@ const LEGEND = [
   ['Date', 'The approximate date recorded for the site.'],
 ];
 
+const CARD_TYPE_NOTES = {
+  1: 'Prehistoric and early urban foundations',
+  2: 'Ancient empires, Babylonia and Assyria',
+  3: 'Classical, Hellenistic, Parthian and Sasanian eras',
+  4: 'Islamic periods, early medieval to Ottoman',
+  5: 'Late Ottoman, modern and recent heritage',
+};
+
 export default function About() {
-  useDocumentTitle(t('About History in Cards'));
+  const { t, pageTitle } = useI18n();
+  const title = pageTitle ? pageTitle(t('About History in Cards')) : t('About History in Cards');
+  useDocumentTitle(title);
   const specimen = makeSpecimen(CARD_TYPES[CARD_TYPES.length - 1]);
 
   return (
@@ -87,7 +96,7 @@ export default function About() {
               <li key={type.id}>
                 <span className="hb-about__type-name">{t(type.shortLabel)}{type.rankLabel ? ` · ${t(type.rankLabel)}` : ''}</span>
                 <span className="hb-about__type-range">{t(type.rangeLabel)}</span>
-                <span className="hb-about__type-note">{t(CARD_TYPE_NOTES[type.tier])}</span>
+                <span className="hb-about__type-note">{t(CARD_TYPE_NOTES[type.tier] || '')}</span>
               </li>
             ))}
           </ul>

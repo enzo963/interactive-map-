@@ -1,0 +1,27 @@
+{
+  "evidence_id": "unesco-20261031T184429Z-c901278ca1",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/list/277/",
+  "final_url": "https://whc.unesco.org/en/list/277/",
+  "governorate": "nineveh",
+  "retrieved_at": "2026-10-31T18:44:29+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "c901278ca12b0506ec8ea48b087497ab528e341b5eb10cc90d84aed3742df1ac",
+  "html_path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.html",
+  "extraction_path": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/list/277/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

@@ -1,7 +1,6 @@
 import { useId } from 'react';
 import { useI18n } from '../../i18n/I18nContext';
 import { LANGUAGES } from '../../i18n/languages';
-import { t } from '../../i18n';
 
 function GlobeIcon() {
   return (
@@ -16,12 +15,12 @@ function GlobeIcon() {
 
 /** Each language is written in its own language, so it can always be found. */
 export default function LanguageSwitcher() {
-  const { lang, setLang } = useI18n();
+  const { lang, setLang, t } = useI18n();
   const id = useId();
 
   return (
     <div className="hb-lang">
-      <label className="sr-only" htmlFor={id}>{t('Language')}</label>
+      <label className="sr-only" htmlFor={id}>{t('tools.language')}</label>
       <GlobeIcon />
       <select id={id} className="hb-lang__select" value={lang} onChange={(event) => setLang(event.target.value)}>
         {LANGUAGES.map((language) => (

@@ -1,0 +1,366 @@
+{
+  "id": "site-baghdad-al-wazir-mosque",
+  "name": "Al-Wazir Mosque",
+  "slug": "al-wazir-mosque",
+  "alternativeNames": [
+    "AL-Wazeer Mosque",
+    "Al Wazeer Mosque",
+    "The minister mosque"
+  ],
+  "governorate": "Baghdad",
+  "city": "Baghdad",
+  "country": "Iraq",
+  "category": "Mosque",
+  "period": "Ottoman",
+  "description": "A historic Baghdad mosque associated with the Ottoman governor Hassan Pasha. Its fabric has undergone successive restoration and rebuilding campaigns.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Wazir Mosque in Baghdad",
+      "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+      "credit": "Mahmoudalrawi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "unverified",
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "sourceId": "wikimedia-commons",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "source": "file-description",
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "evidenceIds": [
+        "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+      ],
+      "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+      "source_observations": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "alt": "Al-Wazir Mosque in Baghdad",
+          "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+          "source": "file-description",
+          "source_id": "wikimedia-commons",
+          "source_name": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+          "trust_tier": 2,
+          "license_status": "unverified",
+          "license_hint": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "credit": "Mahmoudalrawi",
+          "contexts": [
+            {
+              "kind": "caption",
+              "caption": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة.",
+              "alt": "",
+              "title": "",
+              "filename": "Al_Wazeer_Mosque.jpg"
+            }
+          ],
+          "siteId": "site-baghdad-al-wazir-mosque",
+          "targetSiteId": "site-baghdad-al-wazir-mosque",
+          "association_status": "matched-unverified",
+          "association_evidence": [
+            {
+              "kind": "caption",
+              "matched_names": [
+                "al wazeer mosque"
+              ],
+              "text": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+            },
+            {
+              "kind": "filename",
+              "matched_names": [
+                "al wazeer mosque"
+              ],
+              "text": "Al_Wazeer_Mosque.jpg"
+            }
+          ],
+          "verification_status": "unverified",
+          "review_required": true,
+          "review_notes": [
+            "Explicit image metadata names the target; visual and identity review is still required."
+          ],
+          "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+          "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+            "selector": ".description",
+            "text_match": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+          }
+        }
+      ],
+      "url_validation": [
+        {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": true,
+          "status": "valid",
+          "checkedAt": "2026-10-31T23:58:43+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 200,
+              "retryable": false
+            }
+          ],
+          "reason": "HTTP response and complete supported image decoding passed.",
+          "bytes_read": 1405860,
+          "width": 2592,
+          "height": 1936,
+          "format": "JPEG",
+          "frames": 1,
+          "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2"
+        }
+      ],
+      "metadata_findings": [],
+      "width": 2592,
+      "height": 1936,
+      "verification_status": "unverified",
+      "review_required": true
+    }
+  ],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+    },
+    {
+      "sourceName": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "accessedAt": "2026-10-31T23:56:44.907313+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342",
+    "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+  ],
+  "draft_id": "draft-al-wazir-mosque-p601-20261101",
+  "parent_draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "candidate_name": "Al-Wazir Mosque",
+  "candidate_summary": "A historic Baghdad mosque associated with the Ottoman governor Hassan Pasha. Its fabric has undergone successive restoration and rebuilding campaigns.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true
+  },
+  "unesco_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+  "provenance": {
+    "name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "governorate": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "category": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "period": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "description": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    ],
+    "galleryImages": [
+      "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/16",
+      "text_match": "Al-wazir Mosque (The minister mosque) : This mosque was built by Walli of Baghdad the minister Hassan Pasha, who took over the mandate of Baghdad (1003-1012 AH / 1594-1603 AD).The mosque has witnessed since its construction in 1008 AH / 1599 AD restoration and reconstruction work. Where the minister (Hassan Pasha) reconstruction of what might demolish the mosque during his reign (1052-1054 AH / 1642-1644 AD). An army officer named Ahmed Agha has ordered to rebuild the western side of the mosque and the high dome built upon and expanded it in (1089 AH / 1686 AD) and renewed inclusive architecture in the new era of Hassan Pasha, who ruled from the period (116 AH / 1136AD). Finally, the Ministry of Awqaf built it after injury and demolish under the supervision of Antiquities and heritage to take the approach of what it is now."
+    }
+  ],
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Wazir Mosque in Baghdad",
+      "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+      "source": "file-description",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "trust_tier": 2,
+      "license_status": "unverified",
+      "license_hint": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Mahmoudalrawi",
+      "contexts": [
+        {
+          "kind": "caption",
+          "caption": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة.",
+          "alt": "",
+          "title": "",
+          "filename": "Al_Wazeer_Mosque.jpg"
+        }
+      ],
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "targetSiteId": "site-baghdad-al-wazir-mosque",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "caption",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "Al_Wazeer_Mosque.jpg"
+        }
+      ],
+      "verification_status": "unverified",
+      "review_required": true,
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+      "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+      "identity_evidence": {
+        "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510.html",
+        "selector": ".description",
+        "text_match": "English: Al Wazeer Mosque - the mosque of the minister Old mosque in Souq Al Sarai, the Old Bazar in Baghdad - Rasafa العربية: جامع الوزير هو من مساجد بغداد القديمة، وجرى بناؤه في عام 1008 هـ/ 1600م، ولقد بناهُ الوزير حسن باشا بن محمد باشا الطويل زمن ولايتهِ لبغداد في أيام السلطان محمد خان، وجرى ترميمه وإعادة بنائه في عهد الدولة العثمانية عام 1070هـ/ 1660م، ويقع في جانب الرصافة من مدينة بغداد، خلف سوق السراي على ضفاف نهر دجلة، ولقد هُدم هذا المسجد وأُضيفت بعض مساحتهِ إلى مدخل جسر المأمون (جسر الشهداء حالياً) في عام 1939م، ثم أنشئ في بعض أرضهِ مصلى حديث بهيئة لا صلة لها بما كان عليهِ المسجد الأثري سابقا، ويحتوي المسجد على مصلى حرم واسع يتسع لأكثر من 400 مصل، وتعلو الحرم قبة مزكرشة بالكاشي الكربلائي، وعلى يسارها منارة مئذنة تستند على أربع ركائز مدورة ويوجد فيه أيضا مصلى صيفي يتسع لأكثر من 250 مصل، وفي الجامع حديقة تطل على ضفاف نهر دجلة."
+      }
+    }
+  ],
+  "collection_task": "P6-01",
+  "collection_notes": [
+    "Historical facts checked against Iraq's submission hosted by UNESCO; not an independent archaeological survey.",
+    "Unknown 3D availability and individual inscription status remain null. Exact construction dates and coordinates are not asserted."
+  ],
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/16",
+        "text_match": "Al-wazir Mosque (The minister mosque) : This mosque was built by Walli of Baghdad the minister Hassan Pasha, who took over the mandate of Baghdad (1003-1012 AH / 1594-1603 AD).The mosque has witnessed since its construction in 1008 AH / 1599 AD restoration and reconstruction work. Where the minister (Hassan Pasha) reconstruction of what might demolish the mosque during his reign (1052-1054 AH / 1642-1644 AD). An army officer named Ahmed Agha has ordered to rebuild the western side of the mosque and the high dome built upon and expanded it in (1089 AH / 1686 AD) and renewed inclusive architecture in the new era of Hassan Pasha, who ruled from the period (116 AH / 1136AD). Finally, the Ministry of Awqaf built it after injury and demolish under the supervision of Antiquities and heritage to take the approach of what it is now."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/16",
+        "text_match": "Al-wazir Mosque (The minister mosque) : This mosque was built by Walli of Baghdad the minister Hassan Pasha, who took over the mandate of Baghdad (1003-1012 AH / 1594-1603 AD).The mosque has witnessed since its construction in 1008 AH / 1599 AD restoration and reconstruction work. Where the minister (Hassan Pasha) reconstruction of what might demolish the mosque during his reign (1052-1054 AH / 1642-1644 AD). An army officer named Ahmed Agha has ordered to rebuild the western side of the mosque and the high dome built upon and expanded it in (1089 AH / 1686 AD) and renewed inclusive architecture in the new era of Hassan Pasha, who ruled from the period (116 AH / 1136AD). Finally, the Ministry of Awqaf built it after injury and demolish under the supervision of Antiquities and heritage to take the approach of what it is now."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/16",
+        "text_match": "Al-wazir Mosque (The minister mosque) : This mosque was built by Walli of Baghdad the minister Hassan Pasha, who took over the mandate of Baghdad (1003-1012 AH / 1594-1603 AD).The mosque has witnessed since its construction in 1008 AH / 1599 AD restoration and reconstruction work. Where the minister (Hassan Pasha) reconstruction of what might demolish the mosque during his reign (1052-1054 AH / 1642-1644 AD). An army officer named Ahmed Agha has ordered to rebuild the western side of the mosque and the high dome built upon and expanded it in (1089 AH / 1686 AD) and renewed inclusive architecture in the new era of Hassan Pasha, who ruled from the period (116 AH / 1136AD). Finally, the Ministry of Awqaf built it after injury and demolish under the supervision of Antiquities and heritage to take the approach of what it is now."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/16",
+        "text_match": "Al-wazir Mosque (The minister mosque) : This mosque was built by Walli of Baghdad the minister Hassan Pasha, who took over the mandate of Baghdad (1003-1012 AH / 1594-1603 AD).The mosque has witnessed since its construction in 1008 AH / 1599 AD restoration and reconstruction work. Where the minister (Hassan Pasha) reconstruction of what might demolish the mosque during his reign (1052-1054 AH / 1642-1644 AD). An army officer named Ahmed Agha has ordered to rebuild the western side of the mosque and the high dome built upon and expanded it in (1089 AH / 1686 AD) and renewed inclusive architecture in the new era of Hassan Pasha, who ruled from the period (116 AH / 1136AD). Finally, the Ministry of Awqaf built it after injury and demolish under the supervision of Antiquities and heritage to take the approach of what it is now."
+      }
+    ]
+  },
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-10-31T23:58:43+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 1405860,
+        "width": 2592,
+        "height": 1936,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "a71f4fe45bba96685d241cfef5de19f71935df896a7a20718d13d5b9c93d18e2"
+      }
+    ],
+    "skipped_images": [],
+    "candidate_count": 1,
+    "gallery_count": 1,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  }
+}

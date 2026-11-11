@@ -1,0 +1,67 @@
+{
+  "draft_id": "draft-krg-20261031T182919Z-d4c58de519",
+  "governorate": "duhok",
+  "status": "needs-review",
+  "candidate_name": "VISIT KURDISTAN",
+  "candidate_summary": "VISIT KURDISTAN VISITING KURDISTAN: Archaeology in Kurdistan & Tourism Archaeology in Kurdistan Kurdistan is not only a land of resilience – it is a cradle of some of humanity’s earliest civilizations. Archaeological discoveries in the Kurdistan Region reveal a rich, layered history dating back more than 10,000 years. The Kurdistan Region is part of ancient […]",
+  "source_evidence": [
+    "krg-20261031T182919Z-d4c58de519"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2025/06/2234343-min-768x576.png",
+      "source": "og:image",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2024/08/krg_english_en_new.png",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2024/08/ku_krg.png",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/Screenshot-2026-09-30-160548.png",
+      "source": "img",
+      "alt": "image",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/1788865349_kurdistan24-768x431.jpg",
+      "source": "img",
+      "alt": "image",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://us.gov.krd/wp-content/uploads/2026/09/unnamed-1-768x512.jpg",
+      "source": "img",
+      "alt": "image",
+      "license_status": "unverified"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T182919Z-d4c58de519"
+    ],
+    "candidate_summary": [
+      "krg-20261031T182919Z-d4c58de519"
+    ],
+    "image_candidates": [
+      "krg-20261031T182919Z-d4c58de519"
+    ]
+  }
+}

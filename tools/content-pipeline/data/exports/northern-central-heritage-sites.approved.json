@@ -1,0 +1,1177 @@
+[
+  {
+    "id": "site-duhok-amedy-city",
+    "name": "Amedy city",
+    "governorate": "Duhok",
+    "category": "Historic City",
+    "period": "",
+    "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5601/",
+        "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+        "accessedAt": "2026-10-31T18:29:18+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-duhok-delal-bridge",
+    "name": "Delal Bridge",
+    "governorate": "Duhok",
+    "category": "Historic Bridge",
+    "period": "",
+    "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T182919Z-d4c58de519",
+        "accessedAt": "2026-10-31T18:29:19+00:00"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+        "evidenceId": "krg-20261031T183032Z-9a290bf891",
+        "accessedAt": "2026-10-31T18:30:32+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-duhok-faida-canal-reliefs",
+    "name": "Faida Archaeological Canal and Reliefs",
+    "governorate": "Duhok",
+    "category": "Archaeological Site",
+    "period": "Assyrian",
+    "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+        "evidenceId": "krg-20261031T183030Z-520d663dfb",
+        "accessedAt": "2026-10-31T18:30:30+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-erbil-choli-minaret",
+    "name": "Choli Minaret",
+    "governorate": "Erbil",
+    "category": "Minaret",
+    "period": "",
+    "description": "Choli Minaret is a historic monument in Erbil. An August 2025 KRG report describes its 37-metre tower and planned structural and exterior restoration; that dated plan does not establish whether the work is complete today.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+        "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+        "accessedAt": "2026-10-31T17:20:31+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-erbil-erbil-citadel",
+    "name": "Erbil Citadel",
+    "governorate": "Erbil",
+    "category": "Citadel",
+    "period": "Multiple periods, including Ottoman",
+    "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/1437/",
+        "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+        "accessedAt": "2026-10-31T17:19:53+00:00"
+      },
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+        "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+        "accessedAt": "2026-10-31T17:20:31+00:00"
+      }
+    ],
+    "unesco_status": "inscribed",
+    "latitude": 36.1911111,
+    "longitude": 44.0091667,
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-erbil-shanidar-cave",
+    "name": "Shanidar Cave",
+    "governorate": "Erbil",
+    "category": "Archaeological Cave",
+    "period": "",
+    "description": "Shanidar Cave is an archaeological site in the Zagros Mountains of Erbil Governorate, associated with Neanderthal remains. The KRG tourism overview highlights its importance for studying early human history.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "accessedAt": "2026-10-31T17:20:34+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-kirkuk-kirkuk-citadel",
+    "name": "Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Citadel",
+    "period": "",
+    "description": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-kirkuk-mother-of-sorrows-church",
+    "name": "Mother of Sorrows Church, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Church",
+    "period": "19th century",
+    "description": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-kirkuk-prophet-daniel-mosque",
+    "name": "Prophet Daniel Mosque, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Mosque",
+    "period": "Medieval",
+    "description": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-kirkuk-green-dome",
+    "name": "The Green Dome, Kirkuk Citadel",
+    "governorate": "Kirkuk",
+    "category": "Historic Monument",
+    "period": "Medieval",
+    "description": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-al-nouri",
+    "name": "Al-Nouri Mosque and al-Hadba Minaret",
+    "governorate": "Nineveh",
+    "category": "Mosque and Minaret",
+    "period": "",
+    "description": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6355/",
+        "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+        "accessedAt": "2026-10-31T18:44:42+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-dominican-church",
+    "name": "Dominican Church and Clock Tower, Mosul",
+    "governorate": "Nineveh",
+    "category": "Church",
+    "period": "",
+    "description": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6355/",
+        "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+        "accessedAt": "2026-10-31T18:44:42+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-001",
+    "name": "Hatra",
+    "governorate": "Nineveh",
+    "category": "Archaeological Site",
+    "period": "Parthian",
+    "description": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/277/",
+        "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+        "accessedAt": "2026-10-31T18:44:29+00:00"
+      }
+    ],
+    "unesco_status": "inscribed",
+    "latitude": 35.5880611,
+    "longitude": 42.7183306,
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-lalish",
+    "name": "Lalish Temple",
+    "governorate": "Nineveh",
+    "category": "Religious Complex",
+    "period": "",
+    "description": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6467/",
+        "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+        "accessedAt": "2026-10-31T18:44:46+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-nimrud",
+    "name": "Nimrud",
+    "governorate": "Nineveh",
+    "category": "Archaeological City",
+    "period": "Assyrian",
+    "description": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/1463/",
+        "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+        "accessedAt": "2026-10-31T18:44:36+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-old-mosul",
+    "name": "Old City of Mosul",
+    "governorate": "Nineveh",
+    "category": "Historic Urban Area",
+    "period": "",
+    "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6355/",
+        "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+        "accessedAt": "2026-10-31T18:44:42+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-nineveh-ancient-nineveh",
+    "name": "The Ancient City of Nineveh",
+    "governorate": "Nineveh",
+    "category": "Archaeological City",
+    "period": "Assyrian",
+    "description": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+    "unesco": false,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/1465/",
+        "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+        "accessedAt": "2026-10-31T18:44:32+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-sulaymaniyah-bestansur",
+    "name": "Bestansur Neolithic settlement",
+    "governorate": "Sulaymaniyah",
+    "category": "Archaeological Settlement",
+    "period": "Early Neolithic",
+    "description": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6172/",
+        "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+        "accessedAt": "2026-10-31T18:36:24+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-sulaymaniyah-qalatga-darband",
+    "name": "Qalatga Darband",
+    "governorate": "Sulaymaniyah",
+    "category": "Archaeological City",
+    "period": "Hellenistic",
+    "description": "Qalatga Darband is a Hellenistic archaeological city in Sulaymaniyah Governorate. The KRG tourism overview associates its investigation with drone surveys and excavations led by the British Museum.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+        "accessedAt": "2026-10-31T18:36:26+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-sulaymaniyah-tell-shemshara",
+    "name": "Tell Shemshara",
+    "governorate": "Sulaymaniyah",
+    "category": "Archaeological Settlement",
+    "period": "Multi-period, including Old Babylonian",
+    "description": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+        "accessedAt": "2026-10-31T18:36:26+00:00"
+      }
+    ],
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-mustansiriya-madrasa",
+    "name": "Al-Mustansiriya Madrasa",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "Abbasid",
+    "description": "An Abbasid school on the eastern bank of the Tigris in Baghdad, with rooms and iwans arranged around a large central space.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Ornamental brick portal at Al-Mustansiriya Madrasa, Baghdad",
+      "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+      "credit": "Makaay31",
+      "license": "CC BY-SA 3.0",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 3.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+          "credit": "Makaay31",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+        "accessedAt": "2026-10-31T23:56:40.662774+00:00"
+      }
+    ],
+    "slug": "mustansiriya-madrasa",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-abbasid-palace",
+    "name": "Abbasid Palace",
+    "governorate": "Baghdad",
+    "category": "Historic Building",
+    "period": "Abbasid",
+    "description": "A surviving Abbasid building beside the Tigris in Baghdad, distinguished by its brick-and-lime construction and ornamental brickwork.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Decorated entrance of the Abbasid Palace, Baghdad",
+      "caption": "Abbasid Palace — Wikimedia Commons photograph",
+      "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-abbasid-palace",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+              "accessedAt": "2026-10-31T23:56:42.764141+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-abbasid-palace",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Abbasid_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+          "credit": "Mohammed Qays Kazem (Mohammed Qays)",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
+        "accessedAt": "2026-10-31T23:56:42.764141+00:00"
+      }
+    ],
+    "slug": "abbasid-palace",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-qishla",
+    "name": "Al-Qishla and Clock Tower",
+    "governorate": "Baghdad",
+    "category": "Historic Complex",
+    "period": "Ottoman and British periods",
+    "description": "A riverside heritage complex in Baghdad, with Ottoman barracks and a clock tower. Its architecture also records later additions during British rule.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+        "accessedAt": "2026-10-31T23:56:47.016885+00:00"
+      }
+    ],
+    "slug": "al-qishla",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-wazir-mosque",
+    "name": "Al-Wazir Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "A historic Baghdad mosque associated with the Ottoman governor Hassan Pasha. Its fabric has undergone successive restoration and rebuilding campaigns.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Interior tilework and mihrab of Al-Wazir Mosque, Baghdad",
+        "caption": "Al-Wazir Mosque — Wikimedia Commons photograph",
+        "credit": "Mahmoudalrawi",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "license_status": "verified",
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence review, P6-01)",
+          "reviewedAt": "2026-10-31T23:59:41+00:00",
+          "license": "CC BY-SA 3.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+                "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+                "accessedAt": "2026-10-31T23:56:44.907313+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-baghdad-al-wazir-mosque",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+          "reviewedAt": "2026-11-01T12:16:53+00:00"
+        },
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source_observations": [
+          {
+            "sourceName": "Wikimedia Commons",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+            "credit": "Mahmoudalrawi",
+            "license_status": "verified"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+        "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+        "accessedAt": "2026-10-31T23:56:44.907313+00:00"
+      }
+    ],
+    "slug": "al-wazir-mosque",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-al-asifiyah-mosque",
+    "name": "Al-Asifiyah Mosque",
+    "governorate": "Baghdad",
+    "category": "Mosque",
+    "period": "Ottoman",
+    "description": "An Ottoman-era mosque in Baghdad. The Iraqi submission describes a prayer hall with two domes, two minarets and later restoration.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+        "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+        "accessedAt": "2026-10-31T23:57:14.176337+00:00"
+      }
+    ],
+    "slug": "al-asifiyah-mosque",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-baghdad-house-of-wisdom-building",
+    "name": "House of Wisdom (Industries School Building)",
+    "governorate": "Baghdad",
+    "category": "Historic School",
+    "period": "Ottoman",
+    "description": "An Ottoman-era school building in Baghdad, described as the Industries School or House of Wisdom, with two storeys and arcaded corridors overlooking gardens.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+      }
+    ],
+    "slug": "house-of-wisdom-building",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-samarra",
+    "name": "Samarra Archaeological City",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Abbasid",
+    "description": "Samarra preserves the plan and monumental remains of an Abbasid capital beside the Tigris. Its mosques, palaces and decorative arts record a major stage in Islamic urban architecture.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      }
+    ],
+    "slug": "al-din-samarra",
+    "unesco_status": "inscribed",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-great-mosque",
+    "name": "Great Mosque of Samarra and Malwiya Minaret",
+    "governorate": "Salah al-Din",
+    "category": "Mosque and Minaret",
+    "period": "Abbasid",
+    "description": "The ninth-century Great Mosque and its spiral minaret are prominent monuments of Samarra. UNESCO identifies them within the archaeological remains of the Abbasid capital.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Malwiya spiral minaret at the Great Mosque of Samarra",
+      "caption": "Great Mosque of Samarra and Malwiya Minaret (photographed in 2021)",
+      "credit": "Fakhri Mahmood",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-great-mosque",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+              "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+              "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-great-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+          "credit": "Fakhri Mahmood",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+        "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+        "accessedAt": "2026-11-01T12:10:33.576160+00:00"
+      }
+    ],
+    "slug": "al-din-great-mosque",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-abu-dulaf",
+    "name": "Abu Dulaf Mosque",
+    "governorate": "Salah al-Din",
+    "category": "Mosque",
+    "period": "Abbasid",
+    "description": "Abu Dulaf is one of the large mosques preserved in Samarra. Its unusual minaret and architectural planning contribute to the Abbasid archaeological city documented by UNESCO.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Brick arcades and spiral minaret of Abu Dulaf Mosque, Samarra",
+      "caption": "Abu Dulaf Mosque (photographed in 2001)",
+      "credit": "Lionel Aubert",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "license_status": "verified",
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00",
+        "license": "CC BY-SA 4.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+              "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+              "accessedAt": "2026-11-01T12:10:35.694451+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-abu-dulaf",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Abu-Dulaf-mosque-with-minaret-samarra.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+        "reviewedAt": "2026-11-01T12:16:53+00:00"
+      },
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_observations": [
+        {
+          "sourceName": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "credit": "Lionel Aubert",
+          "license_status": "verified"
+        }
+      ]
+    },
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      },
+      {
+        "sourceName": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+        "evidenceId": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+        "accessedAt": "2026-11-01T12:10:35.694451+00:00"
+      }
+    ],
+    "slug": "al-din-abu-dulaf",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-caliphal-palace",
+    "name": "Caliphal Palace (Qasr al-Khalifa)",
+    "governorate": "Salah al-Din",
+    "category": "Palace",
+    "period": "Abbasid",
+    "description": "The Caliphal Palace, named Qasr al-Khalifa by UNESCO, is one of the palace remains within Samarra. It belongs to the monumental landscape of the former Abbasid capital.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/276/",
+        "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+        "accessedAt": "2026-11-01T12:09:09.417126+00:00"
+      }
+    ],
+    "slug": "al-din-caliphal-palace",
+    "heritage_status": "Monument within site-salah-al-din-samarra; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-salah-al-din-ashur",
+    "name": "Ashur (Qal'at Sherqat)",
+    "governorate": "Salah al-Din",
+    "category": "Archaeological City",
+    "period": "Assyrian and Parthian",
+    "description": "Ashur is an ancient city beside the Tigris with temples, palaces and royal burials. It was an Assyrian political and religious centre and later revived under Parthian rule.",
+    "unesco": true,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/1130/",
+        "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
+        "accessedAt": "2026-11-01T12:09:11.000258+00:00"
+      }
+    ],
+    "slug": "al-din-ashur",
+    "unesco_status": "inscribed",
+    "latitude": 35.4566667,
+    "longitude": 43.2611111,
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-erbil-qaysari-bazaar",
+    "name": "Qaysari Bazaar, Erbil",
+    "governorate": "Erbil",
+    "category": "Historic Market",
+    "period": "",
+    "description": "Qaysari Bazaar is a historic market in downtown Erbil. A May 2024 KRG report documents a fire and describes collaborative restoration efforts with UNESCO; it does not establish the market's current condition.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+        "evidenceId": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+        "accessedAt": "2026-11-01T12:10:30.961624+00:00"
+      }
+    ],
+    "slug": "qaysari-bazaar",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-sulaymaniyah-red-terror-museum",
+    "name": "Red Terror Museum, Slemani",
+    "governorate": "Sulaymaniyah",
+    "category": "Memorial Museum",
+    "period": "Modern",
+    "description": "The Red Terror Museum in Slemani interprets repression under Ba'athist rule. The KRG's regional tourism overview identifies it as a place for learning about the region's modern history.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "Kurdistan Regional Government",
+        "url": "https://us.gov.krd/visit-kurdistan/",
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "accessedAt": "2026-10-31T17:20:34+00:00"
+      }
+    ],
+    "slug": "red-terror-museum",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  },
+  {
+    "id": "site-kirkuk-qaysariyah-market",
+    "name": "Al-Qaysariyah Market, Kirkuk",
+    "governorate": "Kirkuk",
+    "category": "Historic Market",
+    "period": "",
+    "description": "Al-Qaysariyah Market stands on the eastern side of Kirkuk Citadel. Iraq's UNESCO submission describes its commercial rooms, shops and arched upper-storey architecture.",
+    "unesco": null,
+    "has3D": null,
+    "coverImage": null,
+    "galleryImages": [],
+    "sources": [
+      {
+        "sourceName": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/tentativelists/6522/",
+        "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+        "accessedAt": "2026-10-31T18:54:41+00:00"
+      }
+    ],
+    "slug": "qaysariyah-market",
+    "heritage_status": "Monument within site-kirkuk-kirkuk-citadel; no separate UNESCO inscription is asserted.",
+    "unesco_status": "unknown",
+    "status": "approved",
+    "verification_status": "approved"
+  }
+]

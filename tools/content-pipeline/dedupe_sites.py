@@ -1,11 +1,12 @@
 """Find the same heritage site recorded twice, and apply reviewed identity decisions.
 
-  python3 dedupe_sites.py report   # candidate pairs not yet settled by a decision
-  python3 dedupe_sites.py apply    # apply data/site-identity-decisions.json to sites.json
+python3 dedupe_sites.py report   # candidate pairs not yet settled by a decision
+python3 dedupe_sites.py apply    # apply data/site-identity-decisions.json to sites.json
 
 Run `report` after adding a discovery batch and before publishing its cards. Settle every
 pair it lists with a merge, component or distinct decision, then run `apply`. Run `apply`
 again after rebuilding any batch, so merged records do not come back.
+
 """
 import argparse
 import json
@@ -18,6 +19,7 @@ from hb_pipeline.site_merge import DecisionError, apply_decisions, decision_pair
 BASE = Path(__file__).resolve().parent
 SITES = BASE.parents[1] / "src" / "data" / "sites.json"
 DECISIONS = BASE / "data" / "site-identity-decisions.json"
+
 
 
 def load(path):

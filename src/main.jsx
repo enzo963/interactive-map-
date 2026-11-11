@@ -2,12 +2,12 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles/global.css';
 import App from './App';
+import { applyDocumentLanguage, detectLanguage } from './i18n/detectLanguage';
 import { routes } from './routes';
 import { matchRoute } from './router/matchRoute';
 import { preloadInitialRoute } from './router/preloadInitialRoute';
-import { applyDocumentLanguage, detectLanguage } from './i18n/detectLanguage';
 
-// Set <html lang> before the first paint (screen readers, hyphenation).
+// Set <html lang dir> before the first paint so right-to-left pages never flash left-to-right.
 applyDocumentLanguage(detectLanguage());
 
 // Give the requested route a short head start. If it stalls, mount navigation

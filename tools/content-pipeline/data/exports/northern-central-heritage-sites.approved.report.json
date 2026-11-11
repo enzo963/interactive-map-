@@ -1,0 +1,247 @@
+{
+  "exported_at": "2026-11-01T13:17:43+00:00",
+  "input_records": 34,
+  "exported_records": 34,
+  "items": [
+    {
+      "id": "site-duhok-amedy-city",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-duhok-delal-bridge",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-duhok-faida-canal-reliefs",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-choli-minaret",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-erbil-citadel",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-shanidar-cave",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-kirkuk-citadel",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-mother-of-sorrows-church",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-prophet-daniel-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-green-dome",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-al-nouri",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-dominican-church",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-001",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-lalish",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-nimrud",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-old-mosul",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-nineveh-ancient-nineveh",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-bestansur",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-qalatga-darband",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-tell-shemshara",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-mustansiriya-madrasa",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-abbasid-palace",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-qishla",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-wazir-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-al-asifiyah-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-baghdad-house-of-wisdom-building",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-samarra",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-great-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-abu-dulaf",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-caliphal-palace",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-ashur",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-erbil-qaysari-bazaar",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-sulaymaniyah-red-terror-museum",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-kirkuk-qaysariyah-market",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    }
+  ],
+  "automatically_approved": 0,
+  "published": false
+}

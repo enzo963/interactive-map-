@@ -1,8 +1,10 @@
+import { useI18n } from '../../i18n/I18nContext';
 import '../../styles/pages.css';
-import { t, tn } from '../../i18n';
-const toggle = (list, id) => (list.includes(id) ? list.filter((item) => item !== id) : [...list, id]);
+
+const toggle = (list = [], id) => (list.includes(id) ? list.filter((item) => item !== id) : [...list, id]);
+
 function Group({ legend, options = [], selected = [], onToggle }) {
-  if (!options.length) return null;
+  if (!options?.length) return null;
   return (
     <fieldset className="hb-filters__group">
       <legend className="hb-filters__legend">{legend}</legend>
@@ -29,7 +31,9 @@ function Group({ legend, options = [], selected = [], onToggle }) {
     </fieldset>
   );
 }
+
 function Status({ label, options = [], value, onChange }) {
+  const { t } = useI18n();
   return (
     <label className="hb-filters__status">
       <span>{label}</span>
@@ -45,17 +49,21 @@ function Status({ label, options = [], value, onChange }) {
     </label>
   );
 }
+
+/** Shared by Explore (sidebar) and the Map (wide). Counts reflect the other active filters. */
 export default function FilterPanel({
-  facets,
-  filters,
+  facets = {},
+  filters = {},
   onChange,
   onClear,
-  activeCount,
+  activeCount = 0,
   layout = 'column',
   onDone,
   resultCount,
   hideGovernorate = false,
 }) {
+  const { t, tn } = useI18n();
+
   const group = (key, legend) => (
     <Group
       legend={legend}
@@ -64,6 +72,7 @@ export default function FilterPanel({
       onToggle={(id) => onChange({ [key]: toggle(filters[key] ?? [], id) })}
     />
   );
+
   return (
     <div className={`hb-filters hb-filters--${layout}`}>
       {!hideGovernorate && group('governorates', t('Governorate'))}

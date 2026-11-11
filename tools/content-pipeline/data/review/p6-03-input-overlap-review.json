@@ -1,0 +1,38 @@
+{
+  "input_records": 27,
+  "pairs": [
+    {
+      "left_index": 3,
+      "right_index": 4,
+      "confidence": "low",
+      "reasons": [
+        "shared_source_url"
+      ],
+      "matched_names": [],
+      "similar_name": null,
+      "shared_source_urls": [
+        "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/"
+      ],
+      "governorate_conflict": false,
+      "review_required": true
+    },
+    {
+      "left_index": 12,
+      "right_index": 26,
+      "confidence": "high",
+      "reasons": [
+        "same_id",
+        "same_name"
+      ],
+      "matched_names": [
+        "hatra"
+      ],
+      "similar_name": null,
+      "shared_source_urls": [],
+      "governorate_conflict": false,
+      "review_required": true
+    }
+  ],
+  "resolution": "The frontend Hatra record and prepared Hatra record share site-001. They are versions of the same site, not two destinations. The evidence-rich prepared version is used in the combined collection; both original files are preserved.",
+  "reviewer": "Codex (AI evidence and visual review, P6-02 to P6-05)"
+}

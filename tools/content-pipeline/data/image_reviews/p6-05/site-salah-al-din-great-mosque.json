@@ -1,0 +1,288 @@
+{
+  "before_cover": null,
+  "before_gallery": [],
+  "after_cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "alt": "Malwiya spiral minaret at the Great Mosque of Samarra",
+    "caption": "Great Mosque of Samarra and Malwiya Minaret (photographed in 2021)",
+    "credit": "Fakhri Mahmood",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "siteId": "site-salah-al-din-great-mosque",
+    "sourceName": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+    "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+    "license_status": "verified",
+    "license_review": {
+      "permission": "publication-permitted",
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00",
+      "license": "CC BY-SA 4.0",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "evidence": [
+        {
+          "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "locator": {
+            "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+            "selector": ".licensetpl_short",
+            "text_match": "CC BY-SA 4.0"
+          },
+          "image_locator": {
+            "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+            "selector": ".fullMedia a.internal",
+            "text_match": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        }
+      ],
+      "review_note": "Explicit archived file-specific CC BY-SA 4.0, creator credit and original URL checked. Preserve attribution/license links and ShareAlike for adaptations. Review performed by AI, not a human curator."
+    },
+    "license_tracking": {
+      "reported_status": "verified",
+      "reported_publication_flags": {},
+      "evidence_valid": true,
+      "evidence_checks": [
+        {
+          "valid": true,
+          "source": {
+            "sourceId": "wikimedia-commons",
+            "sourceName": "Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+            "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+            "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+            "trust_tier": 2,
+            "recorded_trust_tier": 2
+          },
+          "original_evidence": {
+            "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+              "selector": ".licensetpl_short",
+              "text_match": "CC BY-SA 4.0"
+            },
+            "image_locator": {
+              "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+              "selector": ".fullMedia a.internal",
+              "text_match": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          }
+        }
+      ],
+      "issues": [],
+      "automatically_approved": false,
+      "notes": [
+        "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+        "License verification is separate from image identity and explicit publication approval."
+      ]
+    },
+    "publication_approval": {
+      "status": "approved",
+      "siteId": "site-salah-al-din-great-mosque",
+      "site_verified": true,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00"
+    },
+    "source_observations": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "alt": "Great Mosque of Samarra and Malwiya Minaret in Salah al-Din, Iraq",
+        "caption": "Great Mosque of Samarra and Malwiya Minaret",
+        "credit": "Fakhri Mahmood",
+        "license_hint": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_status": "verified",
+        "source": "file-description",
+        "source_id": "wikimedia-commons",
+        "source_name": "Wikimedia Commons",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+        "trust_tier": 2,
+        "siteId": "site-salah-al-din-great-mosque",
+        "targetSiteId": "site-salah-al-din-great-mosque",
+        "association_status": "matched-unverified",
+        "association_evidence": [
+          {
+            "kind": "caption",
+            "matched_names": [
+              "spiral minaret of samrraa mosque"
+            ],
+            "text": "English: the Spiral Minaret of samrraa mosque"
+          }
+        ],
+        "contexts": [
+          {
+            "kind": "caption",
+            "caption": "English: the Spiral Minaret of samrraa mosque",
+            "alt": "",
+            "title": "",
+            "filename": "Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+          }
+        ],
+        "review_required": true,
+        "verification_status": "unverified",
+        "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+        "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+        "identity_evidence": {
+          "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+          "selector": ".description",
+          "text_match": "English: the Spiral Minaret of samrraa mosque"
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+          "reviewedAt": "2026-11-01T12:16:53+00:00",
+          "license": "CC BY-SA 4.0",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 4.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          ],
+          "review_note": "Explicit archived file-specific CC BY-SA 4.0, creator credit and original URL checked. Preserve attribution/license links and ShareAlike for adaptations. Review performed by AI, not a human curator."
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-salah-al-din-great-mosque",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+          "reviewedAt": "2026-11-01T12:16:53+00:00"
+        },
+        "license_tracking": {
+          "reported_status": "verified",
+          "reported_publication_flags": {},
+          "evidence_valid": true,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+                "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+                "accessedAt": "2026-11-01T12:10:33.576160+00:00",
+                "trust_tier": 2,
+                "recorded_trust_tier": 2
+              },
+              "original_evidence": {
+                "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 4.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\salah-al-din\\wikimedia-commons\\wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            }
+          ],
+          "issues": [],
+          "automatically_approved": false,
+          "notes": [
+            "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+            "License verification is separate from image identity and explicit publication approval."
+          ]
+        }
+      }
+    ],
+    "url_validation": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-11-01T12:12:29+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 429,
+            "retryable": true,
+            "retry_delay": 1
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 2,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 4587432,
+        "width": 3479,
+        "height": 5219,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd"
+      }
+    ],
+    "visual_review": {
+      "reviewedBy": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+      "reviewedAt": "2026-11-01T12:16:53+00:00",
+      "method": "AI visual inspection of the exact original-image bytes after pipeline robots/HTTP/MIME/decoder validation",
+      "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd",
+      "role": "cover",
+      "note": "Clear full-height spiral minaret with recognizable ramp and brickwork. High-resolution portrait composition; retain as the best currently available cover. A wide crop will show only part of the tower, so record the portrait orientation for later asset curation.",
+      "human_curator_review": false
+    },
+    "verification_status": "approved-by-ai-evidence-and-visual-review",
+    "review_required": false
+  },
+  "after_gallery": [],
+  "review": {
+    "siteId": "site-salah-al-din-great-mosque",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Samrraa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "role": "cover",
+    "decision": "retained",
+    "alt": "Malwiya spiral minaret at the Great Mosque of Samarra",
+    "note": "Clear full-height spiral minaret with recognizable ramp and brickwork. High-resolution portrait composition; retain as the best currently available cover. A wide crop will show only part of the tower, so record the portrait orientation for later asset curation.",
+    "credit": "Fakhri Mahmood",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+    "sha256": "571b3488d6b61ee5ae653cf90810a27bfe64c2d213e3e8290b79ad2bc6cd02cd",
+    "local_visual_file": "C:\\Users\\MSR\\Documents\\Codex\\2026-10-31\\can-x20\\work\\p6-visual-review\\site-salah-al-din-great-mosque.jpg",
+    "reviewer": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+    "human_curator_review": false
+  }
+}

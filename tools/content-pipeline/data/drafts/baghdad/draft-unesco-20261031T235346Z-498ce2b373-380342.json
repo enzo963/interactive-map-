@@ -1,0 +1,70 @@
+{
+  "draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "governorate": "Baghdad",
+  "status": "needs-review",
+  "candidate_name": "Historical Features of the Tigris River in Baghdad Rusafa, which extends from the school Al-Mustansiriya to the Abbasid Palace",
+  "candidate_summary": "The Tentative Lists of States Parties are published by the World Heritage Centre at its website and/or in working documents in order to ensure transparency, access to information and to facilitate harmonization of Tentative Lists at regional and thematic levels.",
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/states/svg/iq.svg",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "iq.svg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "image_candidates": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ]
+  }
+}

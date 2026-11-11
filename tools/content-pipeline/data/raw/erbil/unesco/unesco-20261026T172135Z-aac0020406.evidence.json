@@ -1,0 +1,27 @@
+{
+  "evidence_id": "unesco-20261026T172135Z-aac0020406",
+  "source_id": "unesco",
+  "source_name": "UNESCO World Heritage Centre",
+  "trust_tier": 1,
+  "requested_url": "https://whc.unesco.org/en/list/1437/",
+  "final_url": "https://whc.unesco.org/en/list/1437/",
+  "governorate": "erbil",
+  "retrieved_at": "2026-10-26T17:21:35+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "aac00204066a3b2215d6a5a72e2dcc98d075627371122b3190e875a08347137d",
+  "html_path": "data\\raw\\erbil\\unesco\\unesco-20261026T172135Z-aac0020406.html",
+  "extraction_path": "data\\raw\\erbil\\unesco\\unesco-20261026T172135Z-aac0020406.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://whc.unesco.org/robots.txt",
+    "target_url": "https://whc.unesco.org/en/list/1437/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

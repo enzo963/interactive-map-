@@ -1,0 +1,67 @@
+{
+  "task": "P6-01",
+  "reviewedAt": "2026-11-01T00:01:14+00:00",
+  "reviewer": "Codex (AI evidence review, P6-01)",
+  "human_curator_review": false,
+  "published": false,
+  "sites": 6,
+  "valid_records": 6,
+  "duplicate_pairs": 0,
+  "saved_source_snapshots": 6,
+  "image_candidates": 5,
+  "approved_unique_images": 3,
+  "approved_covers": 3,
+  "http_429_candidates_excluded": 2,
+  "exported_records": 6,
+  "record_statuses": [
+    {
+      "id": "site-baghdad-mustansiriya-madrasa",
+      "name": "Al-Mustansiriya Madrasa",
+      "effective_status": "approved",
+      "cover": true,
+      "gallery_count": 1
+    },
+    {
+      "id": "site-baghdad-abbasid-palace",
+      "name": "Abbasid Palace",
+      "effective_status": "approved",
+      "cover": true,
+      "gallery_count": 1
+    },
+    {
+      "id": "site-baghdad-al-qishla",
+      "name": "Al-Qishla and Clock Tower",
+      "effective_status": "approved",
+      "cover": false,
+      "gallery_count": 0
+    },
+    {
+      "id": "site-baghdad-al-wazir-mosque",
+      "name": "Al-Wazir Mosque",
+      "effective_status": "approved",
+      "cover": true,
+      "gallery_count": 1
+    },
+    {
+      "id": "site-baghdad-al-asifiyah-mosque",
+      "name": "Al-Asifiyah Mosque",
+      "effective_status": "approved",
+      "cover": false,
+      "gallery_count": 0
+    },
+    {
+      "id": "site-baghdad-house-of-wisdom-building",
+      "name": "House of Wisdom (Industries School Building)",
+      "effective_status": "approved",
+      "cover": false,
+      "gallery_count": 0
+    }
+  ],
+  "limitations": [
+    "Source-based AI verification only; no human-curator or field verification.",
+    "Each monument is documented as a component of a tentative-list ensemble, not as an individual inscription. Unknown booleans stay null.",
+    "Two candidate image requests returned HTTP 429 after bounded retries; neither is approved or exported.",
+    "No sufficiently specific photograph was located for the Ottoman Industries School building; no image of the original Abbasid library was substituted.",
+    "Only prepared data/review/export files were generated; frontend, pipeline logic and existing governorate catalogs remain unchanged."
+  ]
+}

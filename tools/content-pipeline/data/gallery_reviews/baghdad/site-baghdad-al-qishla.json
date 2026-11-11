@@ -1,0 +1,175 @@
+{
+  "siteId": "site-baghdad-al-qishla",
+  "galleryImages": [],
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": false,
+        "status": "http-error",
+        "checkedAt": "2026-10-31T23:58:40+00:00",
+        "http_status": 429,
+        "content_type": null,
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 429,
+            "retryable": true,
+            "retry_delay": 1
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 2,
+            "http_status": 429,
+            "retryable": true
+          }
+        ],
+        "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+        "bytes_read": 0
+      }
+    ],
+    "skipped_images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reason": "Image URL/content validation failed.",
+        "validation": {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": false,
+          "status": "http-error",
+          "checkedAt": "2026-10-31T23:58:40+00:00",
+          "http_status": 429,
+          "content_type": null,
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 429,
+              "retryable": true,
+              "retry_delay": 1
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 2,
+              "http_status": 429,
+              "retryable": true
+            }
+          ],
+          "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+          "bytes_read": 0
+        },
+        "observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Al-Qishla and Clock Tower in Baghdad",
+            "caption": "Al-Qishla and Clock Tower — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+            "trust_tier": 2,
+            "license_status": "unverified",
+            "license_hint": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+            "credit": "Mahmoudalrawi",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد",
+                "alt": "",
+                "title": "",
+                "filename": "Al_Qishlah_in_Baghdad.jpg"
+              }
+            ],
+            "siteId": "site-baghdad-al-qishla",
+            "targetSiteId": "site-baghdad-al-qishla",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "al qishlah",
+                  "القشلة"
+                ],
+                "text": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+              },
+              {
+                "kind": "filename",
+                "matched_names": [
+                  "al qishlah"
+                ],
+                "text": "Al_Qishlah_in_Baghdad.jpg"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+            "accessedAt": "2026-10-31T23:56:47.016885+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.html",
+              "selector": ".description",
+              "text_match": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+            }
+          }
+        ]
+      }
+    ],
+    "candidate_count": 1,
+    "gallery_count": 0,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  },
+  "reviewedBy": "Codex (AI evidence review, P6-01)",
+  "reviewedAt": "2026-10-31T23:59:41+00:00"
+}

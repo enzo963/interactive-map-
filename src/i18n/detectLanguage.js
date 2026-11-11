@@ -75,7 +75,9 @@ export function detectLanguage() {
   return DEFAULT_LANGUAGE;
 }
 
-/** Keeps <html lang> in step with the language (screen readers, hyphenation, fonts). */
+/** Keeps <html lang dir> in step with the language (screen readers, hyphenation, fonts). */
 export function applyDocumentLanguage(code) {
-  document.documentElement.lang = getLanguage(code).locale;
+  const { locale, dir } = getLanguage(code);
+  document.documentElement.lang = locale;
+  document.documentElement.dir = dir;
 }

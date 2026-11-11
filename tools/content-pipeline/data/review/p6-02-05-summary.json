@@ -1,0 +1,63 @@
+{
+  "tasks": [
+    "P6-02",
+    "P6-03",
+    "P6-04",
+    "P6-05"
+  ],
+  "completedAt": "2026-11-01T12:26:04+00:00",
+  "reviewer": "Codex (AI evidence and visual review, P6-02 to P6-05)",
+  "human_curator_review": false,
+  "published": false,
+  "existing_records_reviewed": 26,
+  "new_salah_al_din_records": 5,
+  "new_balance_records": 3,
+  "final_records": 34,
+  "governorate_counts": {
+    "Duhok": 3,
+    "Erbil": 4,
+    "Kirkuk": 5,
+    "Nineveh": 7,
+    "Sulaymaniyah": 4,
+    "Baghdad": 6,
+    "Salah al-Din": 5
+  },
+  "raw_source_snapshots_verified": 26,
+  "active_source_integrity_failures": 0,
+  "unused_archive_hash_failures": 1,
+  "missing_required_fields": 0,
+  "blank_periods": 11,
+  "unknown_3D_flags": 34,
+  "shared_url_duplicate_signals_resolved": 3,
+  "cross_input_same_site_representation": "Hatra (site-001) in frontend and prepared catalogs; retain one prepared identity in the combined export, preserve original inputs",
+  "images_visually_reviewed": 5,
+  "approved_covers": 4,
+  "gallery_only_images": 1,
+  "repeated_cover_gallery_instances_removed": 2,
+  "priority_research_leads": 17,
+  "python_tests": {
+    "passed": 228,
+    "failed": 0
+  },
+  "javascript_tests": {
+    "passed": 33,
+    "skipped": 1,
+    "failed": 0
+  },
+  "export_render_checks": {
+    "records": 34,
+    "schema_valid": true,
+    "unique_ids": 34,
+    "unique_slugs": 34,
+    "cards_rendered": 34,
+    "show_more_pagination_checked": true,
+    "detail_pages_checked": 34,
+    "cover_images": 4,
+    "detail_pages_with_images": 5,
+    "unsupported_unesco_badges": 0,
+    "frontend_files_changed": false,
+    "published": false
+  },
+  "frontend_changed": false,
+  "pipeline_implementation_changed": false
+}

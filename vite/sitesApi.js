@@ -3,8 +3,8 @@ import { fileURLToPath } from 'node:url';
 
 /**
  * Dev-only API that writes map edits straight into src/data/sites.json.
- *   POST  /api/sites        -> add a new card (body: raw site fields)
- *   PATCH /api/sites/:id    -> set the map position (latitude/longitude) of an existing card
+ *   POST   /api/sites        -> add a new card (body: raw site fields)
+ *   PATCH  /api/sites/:id    -> set the map position (latitude/longitude) of an existing card
  * Vite then hot-reloads the JSON, so the map updates on its own.
  * Not part of the production build: `apply: 'serve'`.
  */

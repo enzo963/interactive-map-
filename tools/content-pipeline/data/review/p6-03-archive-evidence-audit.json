@@ -1,0 +1,14 @@
+{
+  "all_indexed_snapshots": 27,
+  "active_collection_references": 26,
+  "issues": [
+    {
+      "evidenceId": "unesco-20261026T172135Z-aac0020406",
+      "used_by_final_collection": false,
+      "issue": "Raw snapshot hash does not match the evidence manifest.",
+      "action": "Keep original snapshot unchanged and flagged for investigation; not eligible for this export."
+    }
+  ],
+  "active_collection_failures": 0,
+  "repository_index_issues": []
+}

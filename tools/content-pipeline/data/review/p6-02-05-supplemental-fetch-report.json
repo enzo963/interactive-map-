@@ -1,0 +1,71 @@
+{
+  "manifest": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\collections\\p6-02-05-supplemental-sources.json",
+  "items": [
+    {
+      "index": 0,
+      "job": {
+        "source": "krg",
+        "governorate": "Erbil",
+        "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+      "attempts": [
+        {
+          "url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Salah al-Din",
+        "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "job": {
+        "source": "wikimedia-commons",
+        "governorate": "Salah al-Din",
+        "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg"
+      },
+      "status": "needs-review",
+      "automatically_approved": false,
+      "outcome": "processed",
+      "evidence_id": "wikimedia-commons-20261101T121035Z-9ab7f43525-871ae7",
+      "attempts": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Abu-Dulaf-mosque-with-minaret-samarra.jpg",
+          "attempt": 1,
+          "http_status": 200,
+          "retryable": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "processed": 3,
+    "failed": 0
+  },
+  "automatically_approved": 0
+}

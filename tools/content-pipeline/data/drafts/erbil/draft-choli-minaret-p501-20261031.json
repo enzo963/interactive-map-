@@ -1,0 +1,47 @@
+{
+  "id": "site-erbil-choli-minaret",
+  "name": "Choli Minaret",
+  "governorate": "Erbil",
+  "category": "Minaret",
+  "period": "",
+  "description": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+      "accessedAt": "2026-10-31T17:20:31+00:00"
+    }
+  ],
+  "draft_id": "draft-choli-minaret-p501-20261031",
+  "status": "needs-review",
+  "candidate_name": "Choli Minaret",
+  "candidate_summary": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+  "source_evidence": [
+    "krg-20261031T172031Z-6fdcb793a0"
+  ],
+  "image_candidates": [],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Site-focused draft derived from captured approved-source evidence; not published.",
+      "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+      "Restoration plans are reported as of August 2025, not confirmed completed.",
+      "Construction date, coordinates, alternate names and UNESCO designation have not been established by this captured source."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T172031Z-6fdcb793a0"
+    ],
+    "candidate_summary": [
+      "krg-20261031T172031Z-6fdcb793a0"
+    ],
+    "image_candidates": []
+  }
+}

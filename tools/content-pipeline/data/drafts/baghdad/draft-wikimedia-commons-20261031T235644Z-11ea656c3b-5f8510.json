@@ -1,0 +1,184 @@
+{
+  "draft_id": "draft-wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510",
+  "governorate": "Baghdad",
+  "status": "needs-review",
+  "candidate_name": "File : Al Wazeer Mosque.jpg",
+  "candidate_summary": "to share – to copy, distribute and transmit the work",
+  "source_evidence": [
+    "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Al_Wazeer_Mosque.jpg/1920px-Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141621",
+      "alt": "File:Al Wazeer Mosque.jpg",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 800,
+      "height": 598,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "File:Al Wazeer Mosque.jpg",
+          "caption": "",
+          "title": "",
+          "filename": "1920px-Al_Wazeer_Mosque.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Al_Wazeer_Mosque.jpg/1920px-Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141621",
+          "declared_width": null
+        }
+      ],
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "targetSiteId": "site-baghdad-al-wazir-mosque",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "alt",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "File:Al Wazeer Mosque.jpg"
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "1920px-Al_Wazeer_Mosque.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Al_Wazeer_Mosque.jpg/1280px-Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "1280px-Al_Wazeer_Mosque.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-al-wazir-mosque",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "1280px-Al_Wazeer_Mosque.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Al_Wazeer_Mosque.jpg/120px-Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140901141621",
+      "alt": "Thumbnail for version as of 14:16, 1 September 2014",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Wazeer_Mosque.jpg",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "trust_tier": 2,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 120,
+      "height": 90,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "Thumbnail for version as of 14:16, 1 September 2014",
+          "caption": "",
+          "title": "",
+          "filename": "120px-Al_Wazeer_Mosque.jpg",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": "site-baghdad-al-wazir-mosque",
+      "association_status": "uncertain",
+      "association_evidence": [
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al wazeer mosque"
+          ],
+          "text": "120px-Al_Wazeer_Mosque.jpg"
+        }
+      ],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "Only the image filename matches. No siteId was assigned."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    ],
+    "candidate_summary": [
+      "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235644Z-11ea656c3b-5f8510"
+    ]
+  }
+}

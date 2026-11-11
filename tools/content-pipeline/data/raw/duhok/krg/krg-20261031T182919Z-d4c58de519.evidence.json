@@ -1,0 +1,27 @@
+{
+  "evidence_id": "krg-20261031T182919Z-d4c58de519",
+  "source_id": "krg",
+  "source_name": "Kurdistan Regional Government",
+  "trust_tier": 1,
+  "requested_url": "https://us.gov.krd/visit-kurdistan/",
+  "final_url": "https://us.gov.krd/visit-kurdistan/",
+  "governorate": "duhok",
+  "retrieved_at": "2026-10-31T18:29:19+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "d4c58de519421b888f031686f71fe474eb72112620247feaeb0bedb9cd39df37",
+  "html_path": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+  "extraction_path": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://us.gov.krd/robots.txt",
+    "target_url": "https://us.gov.krd/visit-kurdistan/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL."
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ]
+}

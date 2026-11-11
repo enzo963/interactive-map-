@@ -1,0 +1,132 @@
+{
+  "draft_id": "draft-unesco-20261101T120909Z-9ea8d4ddb1-8a6577",
+  "governorate": "Salah al-Din",
+  "status": "needs-review",
+  "candidate_name": "Samarra Archaeological City",
+  "candidate_summary": "Samarra Archaeological City is the site of a powerful Islamic capital city that ruled over the provinces of the Abbasid Empire extending from Tunisia to Central Asia for a century. Located on both sides of the River Tigris 130 km north of Baghdad, the length of the site from north to south is 41.5 km; its width varying from 8 km to 4 km. It testifies to the architectural and artistic innovations that developed there and spread to the other regions of the Islamic world and beyond. The 9th-century Great Mosque and its spiral minaret are among the numerous remarkable architectural monuments of the site, 80% of which remain to be excavated.",
+  "source_evidence": [
+    "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_0276_0005-1200-630-20151104154400-q70.webp",
+      "alt": "",
+      "caption": "",
+      "source": "og:image",
+      "source_url": "https://whc.unesco.org/en/list/276/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": null,
+      "height": null,
+      "contexts": [
+        {
+          "kind": "og:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_0276_0005-1200-630-20151104154400-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        },
+        {
+          "kind": "twitter:image",
+          "alt": "",
+          "caption": "",
+          "title": "",
+          "filename": "site_0276_0005-1200-630-20151104154400-q70.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    },
+    {
+      "url": "https://whc.unesco.org/uploads/thumbs/site_0276_0005-750-750-20151104154400-q35.webp",
+      "alt": "",
+      "caption": "",
+      "source": "img",
+      "source_url": "https://whc.unesco.org/en/list/276/",
+      "source_id": "unesco",
+      "source_name": "UNESCO World Heritage Centre",
+      "trust_tier": 1,
+      "license_status": "unknown",
+      "license_hint": "",
+      "license_url": "",
+      "credit": "",
+      "width": 400,
+      "height": 400,
+      "contexts": [
+        {
+          "kind": "img",
+          "alt": "",
+          "caption": "",
+          "title": "Samarra Archaeological City",
+          "filename": "site_0276_0005-750-750-20151104154400-q35.webp",
+          "license_hint": "",
+          "license_url": "",
+          "credit": ""
+        }
+      ],
+      "variants": [
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_0276_0005-750-750-20151104154400-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_0276_0005-600-600-20151104154400-q35.webp",
+          "declared_width": null
+        },
+        {
+          "url": "https://whc.unesco.org/uploads/thumbs/site_0276_0005-400-400-20151104154400-q35.webp",
+          "declared_width": null
+        }
+      ],
+      "siteId": null,
+      "targetSiteId": null,
+      "association_status": "unassigned",
+      "association_evidence": [],
+      "review_required": true,
+      "verification_status": "unverified",
+      "review_notes": [
+        "No target site was supplied; page location is not an identity match."
+      ],
+      "evidenceId": "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "candidate_summary": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ],
+    "image_candidates": [
+      "unesco-20261101T120909Z-9ea8d4ddb1-8a6577"
+    ]
+  }
+}

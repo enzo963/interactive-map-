@@ -1,0 +1,79 @@
+{
+  "draft_id": "draft-krg-20261031T183030Z-520d663dfb",
+  "governorate": "duhok",
+  "status": "needs-review",
+  "candidate_name": "KRG inaugurated the first archaeological park with carvings dating back 2,700 years in Duhok province",
+  "candidate_summary": "Erbil, Kurdistan Region (GOV.KRD) - The Ministry of Municipalities and Tourism today inaugurated the first phase of an archaeological park at the site of an irrigation canal in Faida in Duhok province. The park is the first of its kind in Iraq and the region.",
+  "source_evidence": [
+    "krg-20261031T183030Z-520d663dfb"
+  ],
+  "image_candidates": [
+    {
+      "url": "https://gov.krd/media/15800/2178409.jpg",
+      "source": "og:image",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/1099/govkrdlogobig.svg",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15800/2178409.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133104529270000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15806/photo_2022-10-17_10-07-14.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133104643220000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15804/photo_2022-10-17_10-07-16.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133104643210000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15805/photo_2022-10-17_10-07-15.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133104643210000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15803/photo_2022-10-17_10-07-19.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133104643210000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    },
+    {
+      "url": "https://gov.krd/media/15787/photo_2022-10-16_13-23-54.jpg?anchor=center&mode=crop&width=120&height=63&rnd=133103956630000000",
+      "source": "img",
+      "alt": "",
+      "license_status": "unverified"
+    }
+  ],
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Extracted fields require human verification.",
+      "Image licenses have not been checked."
+    ]
+  },
+  "provenance": {
+    "candidate_name": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "candidate_summary": [
+      "krg-20261031T183030Z-520d663dfb"
+    ],
+    "image_candidates": [
+      "krg-20261031T183030Z-520d663dfb"
+    ]
+  }
+}

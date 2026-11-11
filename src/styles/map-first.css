@@ -97,7 +97,7 @@
   color: var(--hb-ink);
   font: inherit;
   font-size: .875rem;
-  text-align: left;
+  text-align: start;
   cursor: pointer;
 }
 .hb-mapfirst__region > span:first-child { min-width: 0; overflow-wrap: break-word; hyphens: auto; }
@@ -126,12 +126,22 @@
 }
 .hb-mapfirst__more:hover { color: var(--hb-ink); }
 
+/* The panel stays on the right in every language: right-to-left pages would otherwise mirror it to the left. */
+:root[dir='rtl'] .hb-mapfirst { grid-template-columns: var(--panel-w) minmax(0, 1fr); }
+:root[dir='rtl'] .hb-mapfirst__panel { grid-column: 1; grid-row: 1; }
+:root[dir='rtl'] .hb-mapfirst__map { grid-column: 2; grid-row: 1; }
+/* Letter spacing breaks the joining of Arabic letters: labels in the panel and on the map keep normal spacing. */
+:root[dir='rtl'] .hb-mapfirst * { letter-spacing: 0; }
+
 /* tablets and phones: the map first, the panel below it as a normal block */
 @media (max-width: 62rem) {
   .hb-mapfirst { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto; height: auto; min-height: 0; }
   .hb-mapfirst__map { height: clamp(22rem, 62svh, 40rem); }
   .hb-mapfirst__panel { overflow: visible; border-left: 0; border-top: 1px solid var(--hb-rule-strong); }
   .hb-mapfirst__more { display: none; }
+  :root[dir='rtl'] .hb-mapfirst { grid-template-columns: minmax(0, 1fr); }
+  :root[dir='rtl'] .hb-mapfirst__map { grid-column: 1; grid-row: 1; }
+  :root[dir='rtl'] .hb-mapfirst__panel { grid-column: 1; grid-row: 2; }
 }
 @media (max-width: 30rem) {
   .hb-mapfirst__map .hb-map__caption { bottom: 1.6rem; font-size: .72rem; }

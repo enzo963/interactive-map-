@@ -1,0 +1,38 @@
+{
+  "evidence_id": "krg-20261101T121030Z-9c5b84d0ca-4eb6c3",
+  "source_id": "krg",
+  "source_name": "Kurdistan Regional Government",
+  "trust_tier": 1,
+  "requested_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+  "final_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+  "governorate": "Erbil",
+  "retrieved_at": "2026-11-01T12:10:30.961624+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "9c5b84d0ca2764decc1892141e37880ed8daaabfa1e433423fd659a96d548019",
+  "html_path": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.html",
+  "extraction_path": "data\\raw\\erbil\\krg\\krg-20261101T121030Z-9c5b84d0ca-4eb6c3.extracted.json",
+  "robots": {
+    "status": "allowed",
+    "robots_url": "https://gov.krd/robots.txt",
+    "target_url": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+    "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+    "http_status": 200,
+    "reason": "robots.txt allows this user agent to fetch the target URL.",
+    "attempts": [
+      {
+        "url": "https://gov.krd/robots.txt",
+        "attempt": 1,
+        "http_status": 200,
+        "retryable": false
+      }
+    ]
+  },
+  "notes": [
+    "Evidence snapshot only.",
+    "Extracted text and images require verification before publication."
+  ],
+  "change_type": "new",
+  "previous_evidence_id": null,
+  "previous_sha256": null
+}

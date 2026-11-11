@@ -1,0 +1,98 @@
+{
+  "id": "site-sulaymaniyah-red-terror-museum",
+  "name": "Red Terror Museum, Slemani",
+  "slug": "red-terror-museum",
+  "alternativeNames": [
+    "Red Terror Museum"
+  ],
+  "governorate": "Sulaymaniyah",
+  "category": "Memorial Museum",
+  "period": "Modern",
+  "description": "The Red Terror Museum in Slemani interprets repression under Ba'athist rule. The KRG's regional tourism overview identifies it as a place for learning about the region's modern history.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "Kurdistan Regional Government",
+      "url": "https://us.gov.krd/visit-kurdistan/",
+      "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+      "accessedAt": "2026-10-31T17:20:34+00:00"
+    }
+  ],
+  "source_evidence": [
+    "krg-20261031T172034Z-34d8a5812e"
+  ],
+  "draft_id": "draft-sulaymaniyah-red-terror-museum-p602-05-20261101",
+  "candidate_name": "Red Terror Museum, Slemani",
+  "candidate_summary": "The Red Terror Museum in Slemani interprets repression under Ba'athist rule. The KRG's regional tourism overview identifies it as a place for learning about the region's modern history.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true,
+    "notes": [
+      "Draft state is preserved. Effective approval, if granted, is recorded in the separate revision-bound P6 review ledger. Unknown periods, 3D and missing images are acknowledged rather than fabricated."
+    ]
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+      "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+      "json_pointer": "/paragraphs/13",
+      "text_match": "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²"
+    }
+  ],
+  "provenance": {
+    "name": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ],
+    "description": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ],
+    "candidate_name": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ],
+    "candidate_summary": [
+      "krg-20261031T172034Z-34d8a5812e"
+    ]
+  },
+  "image_candidates": [],
+  "unesco_status": "unknown",
+  "review_scope": "P6-02 to P6-05",
+  "complexId": "site-sulaymaniyah-red-terror-museum",
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²"
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²"
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²"
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+        "artifact": "data\\raw\\erbil\\krg\\krg-20261031T172034Z-34d8a5812e.extracted.json",
+        "json_pointer": "/paragraphs/13",
+        "text_match": "Steeped in millennia of history, the Kurdistan Region offers unique opportunities for those interested in world history and modern geopolitics. Notable landmarks include the battlefield of Gaugamela near Erbil, where Alexander the Great defeated Persian King Darius III. Museums such as the Halabja Monument and Peace Museum memorialize the victims of the Anfal Campaign, in which over 182,000 Kurds were killed under Saddam Hussein’s regime. The Red Terror Museum in Slemani provides a sobering look at the oppression endured under Ba’athist rule. These sites offer deeply educational and reflective experiences that highlight Kurdish resilience.²"
+      }
+    ]
+  }
+}

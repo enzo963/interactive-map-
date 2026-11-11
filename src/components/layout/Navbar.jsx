@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import SmartLink from '../common/SmartLink';
-import { useLocation, useNavigate } from '../../router/RouterContext';
-import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
-import { t } from '../../i18n';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
+import { useI18n } from '../../i18n/I18nContext';
+import { useLocation, useNavigate } from '../../router/RouterContext';
+import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
 
 function BrandMark() {
@@ -20,6 +20,7 @@ function BrandMark() {
 }
 
 export default function Navbar() {
+  const { t } = useI18n();
   const location = useLocation();
   const pathname = location.pathname.replace(/\/+$/, '') || '/';
   const locationKey = `${location.pathname}${location.search}${location.hash}`;
@@ -79,12 +80,12 @@ export default function Navbar() {
   return (
     <header className={`hb-header ${open ? 'is-open' : ''}`.trim()}>
       <a className="hb-skip" href="#main">
-        {t('Skip to content')}
+        {t('common.skip')}
       </a>
       <div className="hb-container hb-header__bar">
         <SmartLink href="/" className="hb-brand">
           <BrandMark />
-          <span className="hb-brand__name">History in Cards</span>
+          <span className="hb-brand__name">{t('brand.name')}</span>
         </SmartLink>
 
         <button
@@ -98,7 +99,7 @@ export default function Navbar() {
             if (projectMenu.current) projectMenu.current.open = false;
           }}
         >
-          {open ? t('Close') : t('Menu')}
+          {open ? t('common.close') : t('nav.menu')}
         </button>
 
         <div className="hb-tools">
@@ -131,7 +132,8 @@ export default function Navbar() {
           />
           <button type="submit">{t('Search')}</button>
         </form>
-        <nav id="primary-nav" className="hb-nav" aria-label={t('Primary')} onClick={closeOnLink}>
+
+        <nav id="primary-nav" className="hb-nav" aria-label={t('nav.primary')} onClick={closeOnLink}>
           <ul className="hb-nav__list">
             {PRIMARY_NAV.map((item) => (
               <li key={item.href}>
@@ -146,7 +148,9 @@ export default function Navbar() {
             ))}
           </ul>
           <details className="hb-project-menu" ref={projectMenu}>
-            <summary className="hb-nav__link" data-current={projectCurrent ? 'true' : undefined}>{t('Project')}</summary>
+            <summary className="hb-nav__link" data-current={projectCurrent ? 'true' : undefined}>
+              {t('Project')}
+            </summary>
             <ul className="hb-project-menu__list">
               {PROJECT_NAV.map((item) => (
                 <li key={item.href}>
@@ -158,7 +162,7 @@ export default function Navbar() {
             </ul>
           </details>
           <SmartLink href="/#draw" className="hb-btn hb-btn--ink hb-nav__cta">
-            {t('Draw a Card')}
+            {t('nav.draw')}
           </SmartLink>
         </nav>
       </div>

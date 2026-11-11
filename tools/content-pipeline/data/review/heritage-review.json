@@ -1,0 +1,3250 @@
+{
+  "tasks": [
+    "P5-07",
+    "P5-08"
+  ],
+  "reviewed_at": "2026-10-31T19:25:13+00:00",
+  "status": "needs-review",
+  "automatically_approved": 0,
+  "deleted_records": 0,
+  "merged_records": 0,
+  "summary": {
+    "input_items": 21,
+    "invalid_items": 1,
+    "incomplete_items": 21,
+    "items_flagged_as_possible_duplicates": 4,
+    "possible_duplicate_pairs": 2
+  },
+  "items": [
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[0]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-duhok-amedy-city",
+        "name": "Amedy city",
+        "governorate": "Duhok",
+        "category": "Historic City",
+        "period": "",
+        "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/5601/",
+            "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+            "accessedAt": "2026-10-31T18:29:18+00:00"
+          }
+        ],
+        "draft_id": "draft-amedy-city-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Amedy city",
+        "candidate_summary": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T182918Z-2ac18a6a26"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "Tentative status is not World Heritage inscription; the content is a State Party submission.",
+            "Exact construction dates, coordinates and individual monument boundaries require review."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T182918Z-2ac18a6a26"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T182918Z-2ac18a6a26"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+            "artifact": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "The nominated city is located 70km north of the city of Duhok."
+          }
+        ]
+      },
+      "record": {
+        "id": "site-duhok-amedy-city",
+        "name": "Amedy city",
+        "governorate": "Duhok",
+        "category": "Historic City",
+        "period": "",
+        "description": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/5601/",
+            "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+            "accessedAt": "2026-10-31T18:29:18+00:00"
+          }
+        ],
+        "draft_id": "draft-amedy-city-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Amedy city",
+        "candidate_summary": "Amedy is a historic hilltop city north of Duhok. The Iraqi submission published by the UNESCO World Heritage Centre describes its elevated plateau setting, ancient gates, minaret and other historic remains. The city appears on Iraq's Tentative List, with a submission date of 2 February 2011; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T182918Z-2ac18a6a26"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "Tentative status is not World Heritage inscription; the content is a State Party submission.",
+            "Exact construction dates, coordinates and individual monument boundaries require review."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T182918Z-2ac18a6a26"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T182918Z-2ac18a6a26"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
+            "artifact": "data\\raw\\duhok\\unesco\\unesco-20261031T182918Z-2ac18a6a26.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "The nominated city is located 70km north of the city of Duhok."
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[1]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-duhok-delal-bridge",
+        "name": "Delal Bridge",
+        "governorate": "Duhok",
+        "category": "Historic Bridge",
+        "period": "",
+        "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          },
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+            "evidenceId": "krg-20261031T183032Z-9a290bf891",
+            "accessedAt": "2026-10-31T18:30:32+00:00"
+          }
+        ],
+        "draft_id": "draft-delal-bridge-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Delal Bridge",
+        "candidate_summary": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+        "source_evidence": [
+          "krg-20261031T182919Z-d4c58de519",
+          "krg-20261031T183032Z-9a290bf891"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "The history page calls the bridge Roman; the tourism overview says Roman or medieval. No precise period is assigned.",
+            "The tourism entry occurs in raw HTML list content omitted by paragraph extraction. Its locator points to raw HTML; pipeline logic was not changed.",
+            "Confirm current administrative grouping of Zakho under the project geographic policy before import."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T182919Z-d4c58de519",
+            "krg-20261031T183032Z-9a290bf891"
+          ],
+          "candidate_summary": [
+            "krg-20261031T182919Z-d4c58de519",
+            "krg-20261031T183032Z-9a290bf891"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+            "selector": "li",
+            "text_match": "Zakho Bridge (Delal Bridge)"
+          },
+          {
+            "evidenceId": "krg-20261031T183032Z-9a290bf891",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Delal bridge"
+          }
+        ]
+      },
+      "record": {
+        "id": "site-duhok-delal-bridge",
+        "name": "Delal Bridge",
+        "governorate": "Duhok",
+        "category": "Historic Bridge",
+        "period": "",
+        "description": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "accessedAt": "2026-10-31T18:29:19+00:00"
+          },
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+            "evidenceId": "krg-20261031T183032Z-9a290bf891",
+            "accessedAt": "2026-10-31T18:30:32+00:00"
+          }
+        ],
+        "draft_id": "draft-delal-bridge-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Delal Bridge",
+        "candidate_summary": "Delal Bridge, also identified as Zakho Bridge in the KRG United States representation's tourism overview, is a historic stone bridge in Zakho. Approved KRG sources identify it as part of the region's architectural heritage. Its construction period is not established in this draft because the captured sources describe its origin with differing levels of certainty.",
+        "source_evidence": [
+          "krg-20261031T182919Z-d4c58de519",
+          "krg-20261031T183032Z-9a290bf891"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "The history page calls the bridge Roman; the tourism overview says Roman or medieval. No precise period is assigned.",
+            "The tourism entry occurs in raw HTML list content omitted by paragraph extraction. Its locator points to raw HTML; pipeline logic was not changed.",
+            "Confirm current administrative grouping of Zakho under the project geographic policy before import."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T182919Z-d4c58de519",
+            "krg-20261031T183032Z-9a290bf891"
+          ],
+          "candidate_summary": [
+            "krg-20261031T182919Z-d4c58de519",
+            "krg-20261031T183032Z-9a290bf891"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T182919Z-d4c58de519",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T182919Z-d4c58de519.html",
+            "selector": "li",
+            "text_match": "Zakho Bridge (Delal Bridge)"
+          },
+          {
+            "evidenceId": "krg-20261031T183032Z-9a290bf891",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183032Z-9a290bf891.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Delal bridge"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[2]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-duhok-faida-canal-reliefs",
+        "name": "Faida Archaeological Canal and Reliefs",
+        "governorate": "Duhok",
+        "category": "Archaeological Site",
+        "period": "Assyrian",
+        "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          }
+        ],
+        "draft_id": "draft-faida-canal-reliefs-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Faida Archaeological Canal and Reliefs",
+        "candidate_summary": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+        "source_evidence": [
+          "krg-20261031T183030Z-520d663dfb"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "The source reports conditions in October 2022, not current visitor access or project progress.",
+            "A reversed regnal-year range occurs in the source. Exact regnal dates and present relief counts are excluded pending specialist review.",
+            "Governorate follows the KRG article; review administrative attribution under the project geographic policy."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183030Z-520d663dfb"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183030Z-520d663dfb"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "an irrigation canal in Faida in Duhok province"
+          }
+        ]
+      },
+      "record": {
+        "id": "site-duhok-faida-canal-reliefs",
+        "name": "Faida Archaeological Canal and Reliefs",
+        "governorate": "Duhok",
+        "category": "Archaeological Site",
+        "period": "Assyrian",
+        "description": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "accessedAt": "2026-10-31T18:30:30+00:00"
+          }
+        ],
+        "draft_id": "draft-faida-canal-reliefs-p502-20261031",
+        "status": "needs-review",
+        "candidate_name": "Faida Archaeological Canal and Reliefs",
+        "candidate_summary": "The Faida archaeological site includes an irrigation canal with rock-carved reliefs in the southern part of Duhok province, as described by the Kurdistan Regional Government. A Ministry of Municipalities and Tourism report dated 16 October 2022 records the inauguration of the first phase of an archaeological park and attributes the carvings to the Assyrian period.",
+        "source_evidence": [
+          "krg-20261031T183030Z-520d663dfb"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed draft; not approved or published.",
+            "No images assigned: relevance, attribution and licenses require review.",
+            "The source reports conditions in October 2022, not current visitor access or project progress.",
+            "A reversed regnal-year range occurs in the source. Exact regnal dates and present relief counts are excluded pending specialist review.",
+            "Governorate follows the KRG article; review administrative attribution under the project geographic policy."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183030Z-520d663dfb"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183030Z-520d663dfb"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183030Z-520d663dfb",
+            "artifact": "data\\raw\\duhok\\krg\\krg-20261031T183030Z-520d663dfb.extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "an irrigation canal in Faida in Duhok province"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[3]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-erbil-choli-minaret",
+        "name": "Choli Minaret",
+        "governorate": "Erbil",
+        "category": "Minaret",
+        "period": "",
+        "description": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          }
+        ],
+        "draft_id": "draft-choli-minaret-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Choli Minaret",
+        "candidate_summary": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+        "source_evidence": [
+          "krg-20261031T172031Z-6fdcb793a0"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "Restoration plans are reported as of August 2025, not confirmed completed.",
+            "Construction date, coordinates, alternate names and UNESCO designation have not been established by this captured source."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T172031Z-6fdcb793a0"
+          ],
+          "candidate_summary": [
+            "krg-20261031T172031Z-6fdcb793a0"
+          ],
+          "image_candidates": []
+        }
+      },
+      "record": {
+        "id": "site-erbil-choli-minaret",
+        "name": "Choli Minaret",
+        "governorate": "Erbil",
+        "category": "Minaret",
+        "period": "",
+        "description": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          }
+        ],
+        "draft_id": "draft-choli-minaret-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Choli Minaret",
+        "candidate_summary": "A Kurdistan Regional Government article published in August 2025 identifies Choli Minaret as a historic landmark in Erbil, reports its height as 37 metres, and describes planned restoration of its exterior and structure. The article provides evidence of the monument and its conservation context rather than a complete architectural history.",
+        "source_evidence": [
+          "krg-20261031T172031Z-6fdcb793a0"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "Restoration plans are reported as of August 2025, not confirmed completed.",
+            "Construction date, coordinates, alternate names and UNESCO designation have not been established by this captured source."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T172031Z-6fdcb793a0"
+          ],
+          "candidate_summary": [
+            "krg-20261031T172031Z-6fdcb793a0"
+          ],
+          "image_candidates": []
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": [
+        {
+          "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[4]",
+          "confidence": "low",
+          "reasons": [
+            "shared_source_url"
+          ]
+        }
+      ]
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[4]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-erbil-erbil-citadel",
+        "name": "Erbil Citadel",
+        "governorate": "Erbil",
+        "category": "Citadel",
+        "period": "",
+        "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+        "unesco": true,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/list/1437/",
+            "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+            "accessedAt": "2026-10-31T17:19:53+00:00"
+          },
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          }
+        ],
+        "draft_id": "draft-erbil-citadel-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Erbil Citadel",
+        "candidate_summary": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+        "source_evidence": [
+          "unesco-20261031T171953Z-183f6bd893",
+          "krg-20261031T172031Z-6fdcb793a0"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "Use the UNESCO listing for designation and descriptive facts. The KRG restoration report is dated August 2025 and is not proof of current construction status."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T171953Z-183f6bd893"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T171953Z-183f6bd893"
+          ],
+          "image_candidates": []
+        }
+      },
+      "record": {
+        "id": "site-erbil-erbil-citadel",
+        "name": "Erbil Citadel",
+        "governorate": "Erbil",
+        "category": "Citadel",
+        "period": "",
+        "description": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+        "unesco": true,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/list/1437/",
+            "evidenceId": "unesco-20261031T171953Z-183f6bd893",
+            "accessedAt": "2026-10-31T17:19:53+00:00"
+          },
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+            "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
+            "accessedAt": "2026-10-31T17:20:31+00:00"
+          }
+        ],
+        "draft_id": "draft-erbil-citadel-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Erbil Citadel",
+        "candidate_summary": "Erbil Citadel is a fortified settlement built on an archaeological mound in Erbil Governorate. Its urban layout preserves features of the Ottoman period, with historic houses and streets forming a distinctive settlement above the surrounding city. UNESCO inscribed the property on the World Heritage List in 2014.",
+        "source_evidence": [
+          "unesco-20261031T171953Z-183f6bd893",
+          "krg-20261031T172031Z-6fdcb793a0"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "Use the UNESCO listing for designation and descriptive facts. The KRG restoration report is dated August 2025 and is not proof of current construction status."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T171953Z-183f6bd893"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T171953Z-183f6bd893"
+          ],
+          "image_candidates": []
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": [
+        {
+          "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[3]",
+          "confidence": "low",
+          "reasons": [
+            "shared_source_url"
+          ]
+        }
+      ]
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[5]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-erbil-shanidar-cave",
+        "name": "Shanidar Cave",
+        "governorate": "Erbil",
+        "category": "Archaeological Cave",
+        "period": "",
+        "description": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+            "accessedAt": "2026-10-31T17:20:34+00:00"
+          }
+        ],
+        "draft_id": "draft-shanidar-cave-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Shanidar Cave",
+        "candidate_summary": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+        "source_evidence": [
+          "krg-20261031T172034Z-34d8a5812e"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "The source is a regional tourism overview, not a specialist excavation report.",
+            "Specific dates, burial interpretations and claims elsewhere on the overview require independent archaeological verification and are excluded from this summary."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T172034Z-34d8a5812e"
+          ],
+          "candidate_summary": [
+            "krg-20261031T172034Z-34d8a5812e"
+          ],
+          "image_candidates": []
+        }
+      },
+      "record": {
+        "id": "site-erbil-shanidar-cave",
+        "name": "Shanidar Cave",
+        "governorate": "Erbil",
+        "category": "Archaeological Cave",
+        "period": "",
+        "description": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T172034Z-34d8a5812e",
+            "accessedAt": "2026-10-31T17:20:34+00:00"
+          }
+        ],
+        "draft_id": "draft-shanidar-cave-p501-20261031",
+        "status": "needs-review",
+        "candidate_name": "Shanidar Cave",
+        "candidate_summary": "Shanidar Cave is an archaeological site in the Zagros Mountains in Erbil Governorate. The Kurdistan Regional Government representation in the United States identifies it as a major site associated with Neanderthal remains. Its significance relates to the study of early human history in the region.",
+        "source_evidence": [
+          "krg-20261031T172034Z-34d8a5812e"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Site-focused draft derived from captured approved-source evidence; not published.",
+            "No images assigned: page image candidates may be logos or unrelated images; attribution and licenses require review.",
+            "The source is a regional tourism overview, not a specialist excavation report.",
+            "Specific dates, burial interpretations and claims elsewhere on the overview require independent archaeological verification and are excluded from this summary."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T172034Z-34d8a5812e"
+          ],
+          "candidate_summary": [
+            "krg-20261031T172034Z-34d8a5812e"
+          ],
+          "image_candidates": []
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[6]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-kirkuk-kirkuk-citadel",
+        "name": "Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Citadel",
+        "period": "",
+        "description": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-kirkuk-citadel-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Kirkuk Citadel",
+        "candidate_summary": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Kirkuk Citadel is located"
+          }
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        }
+      },
+      "record": {
+        "id": "site-kirkuk-kirkuk-citadel",
+        "name": "Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Citadel",
+        "period": "",
+        "description": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-kirkuk-citadel-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Kirkuk Citadel",
+        "candidate_summary": "Kirkuk Citadel is a historic elevated settlement in the centre of Kirkuk. The Iraqi submission describes traditional neighbourhoods, entrances and religious buildings. The property appears on Iraq's Tentative List, submitted on 6 April 2021.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Kirkuk Citadel is located"
+          }
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[7]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-kirkuk-mother-of-sorrows-church",
+        "name": "Mother of Sorrows Church, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Church",
+        "period": "",
+        "description": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-mother-of-sorrows-church-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Mother of Sorrows Church, Kirkuk Citadel",
+        "candidate_summary": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/10",
+            "text_match": "Mother of Sorrows"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "record": {
+        "id": "site-kirkuk-mother-of-sorrows-church",
+        "name": "Mother of Sorrows Church, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Church",
+        "period": "",
+        "description": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-mother-of-sorrows-church-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Mother of Sorrows Church, Kirkuk Citadel",
+        "candidate_summary": "The Mother of Sorrows Church is a Chaldean Christian heritage building in Kirkuk Citadel. The Iraqi submission associates it with the Hammam neighbourhood and describes stone-and-plaster construction, arches and marble columns.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/10",
+            "text_match": "Mother of Sorrows"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[8]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-kirkuk-prophet-daniel-mosque",
+        "name": "Prophet Daniel Mosque, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Mosque",
+        "period": "",
+        "description": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-prophet-daniel-mosque-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Prophet Daniel Mosque, Kirkuk Citadel",
+        "candidate_summary": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/9",
+            "text_match": "Prophet Daniel Mosque"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "record": {
+        "id": "site-kirkuk-prophet-daniel-mosque",
+        "name": "Prophet Daniel Mosque, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Mosque",
+        "period": "",
+        "description": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-prophet-daniel-mosque-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "Prophet Daniel Mosque, Kirkuk Citadel",
+        "candidate_summary": "Prophet Daniel Mosque is a religious monument within Kirkuk Citadel. The Iraqi submission describes its brick minaret, arches and courtyard, and records its social and spiritual significance.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/9",
+            "text_match": "Prophet Daniel Mosque"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[9]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-kirkuk-green-dome",
+        "name": "The Green Dome, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Historic Monument",
+        "period": "",
+        "description": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-green-dome-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "The Green Dome, Kirkuk Citadel",
+        "candidate_summary": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/11",
+            "text_match": "octagonal building"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "record": {
+        "id": "site-kirkuk-green-dome",
+        "name": "The Green Dome, Kirkuk Citadel",
+        "governorate": "Kirkuk",
+        "category": "Historic Monument",
+        "period": "",
+        "description": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6522/",
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "accessedAt": "2026-10-31T18:54:41+00:00"
+          }
+        ],
+        "draft_id": "draft-green-dome-p505-20261031",
+        "status": "needs-review",
+        "candidate_name": "The Green Dome, Kirkuk Citadel",
+        "candidate_summary": "The Green Dome is a decorated octagonal building within Kirkuk Citadel. The Iraqi submission describes its architectural form, coloured tile decoration and inscriptions as part of the citadel's historic fabric.",
+        "source_evidence": [
+          "unesco-20261031T185441Z-b226471f6a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Iraqi State Party submission; Tentative List publication is not World Heritage inscription.",
+            "No current preservation, visitor access or reconstruction claims are inferred.",
+            "The source coordinates are not in a reliably interpretable format. They remain unassigned.",
+            "Precise chronology and images require verification. No image or 3D claim is assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T185441Z-b226471f6a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T185441Z-b226471f6a",
+            "artifact": "data\\raw\\kirkuk\\unesco\\unesco-20261031T185441Z-b226471f6a.extracted.json",
+            "json_pointer": "/paragraphs/11",
+            "text_match": "octagonal building"
+          }
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6522/"
+        },
+        "parent_draft_id": "draft-kirkuk-citadel-p505-20261031"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[10]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-al-nouri",
+        "name": "Al-Nouri Mosque and al-Hadba Minaret",
+        "governorate": "Nineveh",
+        "category": "Mosque and Minaret",
+        "period": "",
+        "description": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-al-nouri-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Al-Nouri Mosque and al-Hadba Minaret",
+        "candidate_summary": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Documented within the Old City submission; no separate UNESCO inscription or tentative entry is inferred.",
+            "The 2018 source records damage before later restoration. Verify current reconstruction and access separately."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/7",
+            "text_match": "al-Nouri Mosque"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Islamic heritage"
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        },
+        "parent_draft_id": "draft-old-mosul-p504-20261031"
+      },
+      "record": {
+        "id": "site-nineveh-al-nouri",
+        "name": "Al-Nouri Mosque and al-Hadba Minaret",
+        "governorate": "Nineveh",
+        "category": "Mosque and Minaret",
+        "period": "",
+        "description": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-al-nouri-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Al-Nouri Mosque and al-Hadba Minaret",
+        "candidate_summary": "Al-Nouri Mosque and its al-Hadba minaret are significant Islamic monuments in Mosul's Old City. The Iraqi submission describes the minaret's architectural role and its importance as a symbol of the city.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Documented within the Old City submission; no separate UNESCO inscription or tentative entry is inferred.",
+            "The 2018 source records damage before later restoration. Verify current reconstruction and access separately."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/7",
+            "text_match": "al-Nouri Mosque"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Islamic heritage"
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        },
+        "parent_draft_id": "draft-old-mosul-p504-20261031"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[11]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-dominican-church",
+        "name": "Dominican Church and Clock Tower, Mosul",
+        "governorate": "Nineveh",
+        "category": "Church",
+        "period": "",
+        "description": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-dominican-church-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Dominican Church and Clock Tower, Mosul",
+        "candidate_summary": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The source mentions the church and clock tower but does not establish precise construction dates or full architectural history.",
+            "No separate UNESCO listing, current restoration condition or visitor access is inferred."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/13",
+            "text_match": "Dominican Church"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Christian heritage"
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        },
+        "parent_draft_id": "draft-old-mosul-p504-20261031"
+      },
+      "record": {
+        "id": "site-nineveh-dominican-church",
+        "name": "Dominican Church and Clock Tower, Mosul",
+        "governorate": "Nineveh",
+        "category": "Church",
+        "period": "",
+        "description": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-dominican-church-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Dominican Church and Clock Tower, Mosul",
+        "candidate_summary": "The Dominican Church is a Christian heritage landmark in Mosul. The Iraqi Old City submission identifies its clock tower as a prominent part of the historic skyline alongside the al-Hadba minaret.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The source mentions the church and clock tower but does not establish precise construction dates or full architectural history.",
+            "No separate UNESCO listing, current restoration condition or visitor access is inferred."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/13",
+            "text_match": "Dominican Church"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Christian heritage"
+        ],
+        "unesco_context": {
+          "status": "documented-within-tentative-area",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        },
+        "parent_draft_id": "draft-old-mosul-p504-20261031"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[12]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-001",
+        "name": "Hatra",
+        "governorate": "Nineveh",
+        "category": "Archaeological Site",
+        "period": "Parthian",
+        "description": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+        "unesco": true,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/list/277/",
+            "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+            "accessedAt": "2026-10-31T18:44:29+00:00"
+          }
+        ],
+        "draft_id": "draft-hatra-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Hatra",
+        "candidate_summary": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+        "source_evidence": [
+          "unesco-20261031T184429Z-c901278ca1"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The frontend already has a Hatra record (site-001). Match and review this evidence against that record; do not import a second Hatra.",
+            "No current visitor access or preservation-condition claims are made."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184429Z-c901278ca1"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184429Z-c901278ca1"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "A large fortified city"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "inscribed",
+          "source_url": "https://whc.unesco.org/en/list/277/"
+        },
+        "possible_existing_frontend_record_id": "site-001"
+      },
+      "record": {
+        "id": "site-001",
+        "name": "Hatra",
+        "governorate": "Nineveh",
+        "category": "Archaeological Site",
+        "period": "Parthian",
+        "description": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+        "unesco": true,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/list/277/",
+            "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+            "accessedAt": "2026-10-31T18:44:29+00:00"
+          }
+        ],
+        "draft_id": "draft-hatra-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Hatra",
+        "candidate_summary": "Hatra is an ancient fortified city southwest of Mosul associated with the Parthian world. UNESCO describes its circular urban form, defensive walls and temples, whose architecture combines several regional traditions. The property was inscribed on the World Heritage List in 1985.",
+        "source_evidence": [
+          "unesco-20261031T184429Z-c901278ca1"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The frontend already has a Hatra record (site-001). Match and review this evidence against that record; do not import a second Hatra.",
+            "No current visitor access or preservation-condition claims are made."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184429Z-c901278ca1"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184429Z-c901278ca1"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184429Z-c901278ca1",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184429Z-c901278ca1.extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "A large fortified city"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "inscribed",
+          "source_url": "https://whc.unesco.org/en/list/277/"
+        },
+        "possible_existing_frontend_record_id": "site-001"
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": [
+        {
+          "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\src\\data\\sites.json#record[0]",
+          "confidence": "high",
+          "reasons": [
+            "same_id",
+            "same_name"
+          ]
+        }
+      ]
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[13]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-lalish",
+        "name": "Lalish Temple",
+        "governorate": "Nineveh",
+        "category": "Religious Complex",
+        "period": "",
+        "description": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6467/",
+            "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+            "accessedAt": "2026-10-31T18:44:46+00:00"
+          }
+        ],
+        "draft_id": "draft-lalish-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Lalish Temple",
+        "candidate_summary": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+        "source_evidence": [
+          "unesco-20261031T184446Z-8092d8404a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Governorate follows the captured UNESCO-hosted Iraqi submission. Other regional descriptions differ; retain this attribution and review geographic policy before import.",
+            "Tentative status is not inscription. Historical conservation or conflict statements are not treated as present conditions."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184446Z-8092d8404a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184446Z-8092d8404a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Nineveh Governorate"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Yazidi heritage"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6467/"
+        }
+      },
+      "record": {
+        "id": "site-nineveh-lalish",
+        "name": "Lalish Temple",
+        "governorate": "Nineveh",
+        "category": "Religious Complex",
+        "period": "",
+        "description": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6467/",
+            "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+            "accessedAt": "2026-10-31T18:44:46+00:00"
+          }
+        ],
+        "draft_id": "draft-lalish-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Lalish Temple",
+        "candidate_summary": "Lalish is a major Yazidi religious complex and pilgrimage centre. The Iraqi submission describes the sacred valley, temple architecture and the tomb of Sheikh Uday bin Musafir. It identifies the site in Sheikhan, Nineveh Governorate, and places it on Iraq's Tentative List with a submission date of 15 April 2020.",
+        "source_evidence": [
+          "unesco-20261031T184446Z-8092d8404a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Governorate follows the captured UNESCO-hosted Iraqi submission. Other regional descriptions differ; retain this attribution and review geographic policy before import.",
+            "Tentative status is not inscription. Historical conservation or conflict statements are not treated as present conditions."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184446Z-8092d8404a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184446Z-8092d8404a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184446Z-8092d8404a",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184446Z-8092d8404a.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Nineveh Governorate"
+          }
+        ],
+        "heritage_focus": [
+          "religious",
+          "Yazidi heritage"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6467/"
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[14]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-nimrud",
+        "name": "Nimrud",
+        "governorate": "Nineveh",
+        "category": "Archaeological City",
+        "period": "Assyrian",
+        "description": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/1463/",
+            "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+            "accessedAt": "2026-10-31T18:44:36+00:00"
+          }
+        ],
+        "draft_id": "draft-nimrud-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Nimrud",
+        "candidate_summary": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T184436Z-29b94f8d4a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Legacy descriptions and excavation references do not establish current preservation or visitor access.",
+            "Measurements and precise chronology require specialist review; no inferred coordinates are assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184436Z-29b94f8d4a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184436Z-29b94f8d4a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.body-extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "Ashurnasirpal"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/1463/"
+        }
+      },
+      "record": {
+        "id": "site-nineveh-nimrud",
+        "name": "Nimrud",
+        "governorate": "Nineveh",
+        "category": "Archaeological City",
+        "period": "Assyrian",
+        "description": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/1463/",
+            "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+            "accessedAt": "2026-10-31T18:44:36+00:00"
+          }
+        ],
+        "draft_id": "draft-nimrud-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Nimrud",
+        "candidate_summary": "Nimrud, also known as Kalhu, is an Assyrian archaeological city south of Mosul. The Iraqi submission describes defensive walls, raised architectural areas and royal tomb discoveries. The site appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T184436Z-29b94f8d4a"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "Legacy descriptions and excavation references do not establish current preservation or visitor access.",
+            "Measurements and precise chronology require specialist review; no inferred coordinates are assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184436Z-29b94f8d4a"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184436Z-29b94f8d4a"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184436Z-29b94f8d4a",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184436Z-29b94f8d4a.body-extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "Ashurnasirpal"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/1463/"
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[15]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-old-mosul",
+        "name": "Old City of Mosul",
+        "governorate": "Nineveh",
+        "category": "Historic Urban Area",
+        "period": "",
+        "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-old-mosul-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Old City of Mosul",
+        "candidate_summary": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The 2018 submission contains historical and geographic inconsistencies. Its individual chronology claims are not copied into the summary.",
+            "The source predates later reconstruction; its damage descriptions are not treated as current condition."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "West Bank of the Tigris"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "urban heritage"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        }
+      },
+      "record": {
+        "id": "site-nineveh-old-mosul",
+        "name": "Old City of Mosul",
+        "governorate": "Nineveh",
+        "category": "Historic Urban Area",
+        "period": "",
+        "description": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6355/",
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "accessedAt": "2026-10-31T18:44:42+00:00"
+          }
+        ],
+        "draft_id": "draft-old-mosul-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "Old City of Mosul",
+        "candidate_summary": "Mosul's Old City is a historic urban area on the western bank of the Tigris in Ninewa. The Iraqi submission describes traditional streets, houses, markets and diverse religious buildings. It appears on Iraq's Tentative List, submitted on 17 August 2018.",
+        "source_evidence": [
+          "unesco-20261031T184442Z-7bdb2b4c35"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The 2018 submission contains historical and geographic inconsistencies. Its individual chronology claims are not copied into the summary.",
+            "The source predates later reconstruction; its damage descriptions are not treated as current condition."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184442Z-7bdb2b4c35"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184442Z-7bdb2b4c35",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184442Z-7bdb2b4c35.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "West Bank of the Tigris"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "urban heritage"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6355/"
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[16]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-nineveh-ancient-nineveh",
+        "name": "The Ancient City of Nineveh",
+        "governorate": "Nineveh",
+        "category": "Archaeological City",
+        "period": "Assyrian",
+        "description": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/1465/",
+            "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+            "accessedAt": "2026-10-31T18:44:32+00:00"
+          }
+        ],
+        "draft_id": "draft-ancient-nineveh-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "The Ancient City of Nineveh",
+        "candidate_summary": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T184432Z-8a2b8dcdb2"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The old source contains typographic errors and descriptions predating recent conflict. Current condition requires separate evidence.",
+            "The source Coordinates field is descriptive distance text, not usable numeric coordinates. No coordinates are assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184432Z-8a2b8dcdb2"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184432Z-8a2b8dcdb2"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.body-extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "political seat"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/1465/"
+        }
+      },
+      "record": {
+        "id": "site-nineveh-ancient-nineveh",
+        "name": "The Ancient City of Nineveh",
+        "governorate": "Nineveh",
+        "category": "Archaeological City",
+        "period": "Assyrian",
+        "description": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "unesco": false,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/1465/",
+            "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+            "accessedAt": "2026-10-31T18:44:32+00:00"
+          }
+        ],
+        "draft_id": "draft-ancient-nineveh-p504-20261031",
+        "status": "needs-review",
+        "candidate_name": "The Ancient City of Nineveh",
+        "candidate_summary": "Ancient Nineveh was an important Assyrian political centre on the eastern side of the Tigris at Mosul. The Iraqi submission describes its walls, gateways, mounds and palace remains. It appears on Iraq's Tentative List, submitted on 7 July 2000; this is not World Heritage inscription.",
+        "source_evidence": [
+          "unesco-20261031T184432Z-8a2b8dcdb2"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed review draft; not approved or published.",
+            "Images are unassigned; relevance, attribution and licensing require review.",
+            "The old source contains typographic errors and descriptions predating recent conflict. Current condition requires separate evidence.",
+            "The source Coordinates field is descriptive distance text, not usable numeric coordinates. No coordinates are assigned."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T184432Z-8a2b8dcdb2"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T184432Z-8a2b8dcdb2"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T184432Z-8a2b8dcdb2",
+            "artifact": "data\\raw\\nineveh\\unesco\\unesco-20261031T184432Z-8a2b8dcdb2.body-extracted.json",
+            "json_pointer": "/paragraphs/0",
+            "text_match": "political seat"
+          }
+        ],
+        "heritage_focus": [
+          "historical",
+          "archaeological"
+        ],
+        "unesco_context": {
+          "status": "tentative",
+          "source_url": "https://whc.unesco.org/en/tentativelists/1465/"
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[17]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-sulaymaniyah-bestansur",
+        "name": "Bestansur Neolithic settlement",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological Settlement",
+        "period": "Early Neolithic",
+        "description": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6172/",
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "accessedAt": "2026-10-31T18:36:24+00:00"
+          }
+        ],
+        "draft_id": "draft-bestansur-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Bestansur Neolithic settlement",
+        "candidate_summary": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+        "source_evidence": [
+          "unesco-20261031T183624Z-d52d1905cf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "Tentative List status is not World Heritage inscription; the text is an Iraqi State Party submission.",
+            "The source labels longitude W45 despite locating the site in Iraq. Coordinates are not assigned or silently corrected; verify against a specialist authoritative map.",
+            "Historical excavation dates, protection arrangements and comparison-list counts reflect the source document and are not treated as current conditions."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T183624Z-d52d1905cf"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T183624Z-d52d1905cf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Bestansur is located in the Zagros foothills"
+          },
+          {
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.html",
+            "selector": "body",
+            "text_match": "20/01/2017"
+          }
+        ]
+      },
+      "record": {
+        "id": "site-sulaymaniyah-bestansur",
+        "name": "Bestansur Neolithic settlement",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological Settlement",
+        "period": "Early Neolithic",
+        "description": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "UNESCO World Heritage Centre",
+            "url": "https://whc.unesco.org/en/tentativelists/6172/",
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "accessedAt": "2026-10-31T18:36:24+00:00"
+          }
+        ],
+        "draft_id": "draft-bestansur-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Bestansur Neolithic settlement",
+        "candidate_summary": "Bestansur is an Early Neolithic archaeological settlement on the edge of the Shahrizor Plain in Sulaymaniyah province. The Iraqi submission published by UNESCO describes mud-brick buildings and evidence of early village life. The site appears on Iraq's Tentative List, with a submission date of 20 January 2017.",
+        "source_evidence": [
+          "unesco-20261031T183624Z-d52d1905cf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "Tentative List status is not World Heritage inscription; the text is an Iraqi State Party submission.",
+            "The source labels longitude W45 despite locating the site in Iraq. Coordinates are not assigned or silently corrected; verify against a specialist authoritative map.",
+            "Historical excavation dates, protection arrangements and comparison-list counts reflect the source document and are not treated as current conditions."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "unesco-20261031T183624Z-d52d1905cf"
+          ],
+          "candidate_summary": [
+            "unesco-20261031T183624Z-d52d1905cf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.extracted.json",
+            "json_pointer": "/paragraphs/3",
+            "text_match": "Bestansur is located in the Zagros foothills"
+          },
+          {
+            "evidenceId": "unesco-20261031T183624Z-d52d1905cf",
+            "artifact": "data\\raw\\sulaymaniyah\\unesco\\unesco-20261031T183624Z-d52d1905cf.html",
+            "selector": "body",
+            "text_match": "20/01/2017"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[18]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-sulaymaniyah-qalatga-darband",
+        "name": "Qalatga Darband",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological City",
+        "period": "Hellenistic",
+        "description": "The Kurdistan Regional Government representation in the United States identifies Qalatga Darband as a Hellenistic city in Sulaymaniyah Governorate. It is included among the archaeological sites highlighted in the representation's regional tourism overview.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "accessedAt": "2026-10-31T18:36:26+00:00"
+          }
+        ],
+        "draft_id": "draft-qalatga-darband-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Qalatga Darband",
+        "candidate_summary": "The Kurdistan Regional Government representation in the United States identifies Qalatga Darband as a Hellenistic city in Sulaymaniyah Governorate. It is included among the archaeological sites highlighted in the representation's regional tourism overview.",
+        "source_evidence": [
+          "krg-20261031T183626Z-ff9cb8fdbf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "The evidence is a regional tourism overview rather than a site-specific excavation report.",
+            "Specific founding narratives, claimed discovery methods and precise dating are not adopted without specialist corroboration.",
+            "The site entry occurs in raw HTML list content omitted by paragraph extraction; use the supplied raw locator."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "li",
+            "text_match": "Qalatga Darband (Sulaymaniyah Governorate)"
+          },
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "body",
+            "text_match": "A Hellenistic city"
+          }
+        ]
+      },
+      "record": {
+        "id": "site-sulaymaniyah-qalatga-darband",
+        "name": "Qalatga Darband",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological City",
+        "period": "Hellenistic",
+        "description": "The Kurdistan Regional Government representation in the United States identifies Qalatga Darband as a Hellenistic city in Sulaymaniyah Governorate. It is included among the archaeological sites highlighted in the representation's regional tourism overview.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "accessedAt": "2026-10-31T18:36:26+00:00"
+          }
+        ],
+        "draft_id": "draft-qalatga-darband-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Qalatga Darband",
+        "candidate_summary": "The Kurdistan Regional Government representation in the United States identifies Qalatga Darband as a Hellenistic city in Sulaymaniyah Governorate. It is included among the archaeological sites highlighted in the representation's regional tourism overview.",
+        "source_evidence": [
+          "krg-20261031T183626Z-ff9cb8fdbf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "The evidence is a regional tourism overview rather than a site-specific excavation report.",
+            "Specific founding narratives, claimed discovery methods and precise dating are not adopted without specialist corroboration.",
+            "The site entry occurs in raw HTML list content omitted by paragraph extraction; use the supplied raw locator."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "li",
+            "text_match": "Qalatga Darband (Sulaymaniyah Governorate)"
+          },
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "body",
+            "text_match": "A Hellenistic city"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[19]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json",
+      "original_record": {
+        "id": "site-sulaymaniyah-tell-shemshara",
+        "name": "Tell Shemshara",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological Settlement",
+        "period": "",
+        "description": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "accessedAt": "2026-10-31T18:36:26+00:00"
+          }
+        ],
+        "draft_id": "draft-tell-shemshara-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Tell Shemshara",
+        "candidate_summary": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+        "source_evidence": [
+          "krg-20261031T183626Z-ff9cb8fdbf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "The evidence is a regional tourism overview, not an excavation publication. Detailed occupation dates and archaeological interpretations require specialist verification.",
+            "Sulaymaniyah grouping follows the Rania Plain context; confirm current administrative boundaries under the project geographic policy before import.",
+            "The list entry is preserved in raw HTML rather than paragraph extraction. No coordinates, UNESCO designation or 3D availability are inferred."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "li",
+            "text_match": "Tell Shemshara (Rania Plain, near Lake Dukan)"
+          },
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "body",
+            "text_match": "Old Babylonian period"
+          }
+        ]
+      },
+      "record": {
+        "id": "site-sulaymaniyah-tell-shemshara",
+        "name": "Tell Shemshara",
+        "governorate": "Sulaymaniyah",
+        "category": "Archaeological Settlement",
+        "period": "",
+        "description": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+        "unesco": null,
+        "has3D": null,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [
+          {
+            "sourceName": "Kurdistan Regional Government",
+            "url": "https://us.gov.krd/visit-kurdistan/",
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "accessedAt": "2026-10-31T18:36:26+00:00"
+          }
+        ],
+        "draft_id": "draft-tell-shemshara-p503-20261031",
+        "status": "needs-review",
+        "candidate_name": "Tell Shemshara",
+        "candidate_summary": "Tell Shemshara is an archaeological settlement on the Rania Plain near Lake Dukan. The Kurdistan Regional Government representation in the United States describes it as an early urban settlement and mentions tablet finds associated with the Old Babylonian period.",
+        "source_evidence": [
+          "krg-20261031T183626Z-ff9cb8fdbf"
+        ],
+        "image_candidates": [],
+        "verification": {
+          "status": "unverified",
+          "review_required": true,
+          "notes": [
+            "Evidence-backed site draft; not approved or published.",
+            "No images assigned: image relevance, attribution and licenses need verification.",
+            "The evidence is a regional tourism overview, not an excavation publication. Detailed occupation dates and archaeological interpretations require specialist verification.",
+            "Sulaymaniyah grouping follows the Rania Plain context; confirm current administrative boundaries under the project geographic policy before import.",
+            "The list entry is preserved in raw HTML rather than paragraph extraction. No coordinates, UNESCO designation or 3D availability are inferred."
+          ]
+        },
+        "provenance": {
+          "candidate_name": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "candidate_summary": [
+            "krg-20261031T183626Z-ff9cb8fdbf"
+          ],
+          "image_candidates": []
+        },
+        "evidence_locations": [
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "li",
+            "text_match": "Tell Shemshara (Rania Plain, near Lake Dukan)"
+          },
+          {
+            "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
+            "artifact": "data\\raw\\sulaymaniyah\\krg\\krg-20261031T183626Z-ff9cb8fdbf.html",
+            "selector": "body",
+            "text_match": "Old Babylonian period"
+          }
+        ]
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": true,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "period",
+            "code": "incomplete",
+            "message": "Value has not been recorded.",
+            "severity": "warning"
+          },
+          {
+            "field": "unesco",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "has3D",
+            "code": "unknown",
+            "message": "Value is unknown; do not infer false.",
+            "severity": "warning"
+          },
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          }
+        ]
+      },
+      "possible_duplicates": []
+    },
+    {
+      "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\src\\data\\sites.json#record[0]",
+      "input_path": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\src\\data\\sites.json",
+      "original_record": {
+        "id": "site-001",
+        "name": "Hatra",
+        "governorate": "Nineveh",
+        "category": "Archaeological Site",
+        "period": "Parthian",
+        "description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
+        "unesco": true,
+        "has3D": false,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [],
+        "slug": "hatra",
+        "city": "Hatra",
+        "latitude": 35.5872,
+        "longitude": 42.7185,
+        "civilization": "Hatra Kingdom",
+        "estimated_year": -100,
+        "short_description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
+        "decks": [
+          "nineveh",
+          "unesco"
+        ],
+        "unesco_status": "world-heritage",
+        "heritage_status": "existing",
+        "model_3d_url": "",
+        "has_video": false,
+        "video_url": "",
+        "our_work": false,
+        "our_work_types": [],
+        "verification_status": "needs-review"
+      },
+      "record": {
+        "id": "site-001",
+        "name": "Hatra",
+        "governorate": "Nineveh",
+        "category": "Archaeological Site",
+        "period": "Parthian",
+        "description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
+        "unesco": true,
+        "has3D": false,
+        "coverImage": null,
+        "galleryImages": [],
+        "sources": [],
+        "slug": "hatra",
+        "city": "Hatra",
+        "latitude": 35.5872,
+        "longitude": 42.7185,
+        "civilization": "Hatra Kingdom",
+        "estimated_year": -100,
+        "short_description": "An ancient fortified city known for its monumental temples and unique blend of cultural influences.",
+        "decks": [
+          "nineveh",
+          "unesco"
+        ],
+        "unesco_status": "world-heritage",
+        "heritage_status": "existing",
+        "model_3d_url": "",
+        "has_video": false,
+        "video_url": "",
+        "our_work": false,
+        "our_work_types": [],
+        "verification_status": "needs-review",
+        "status": "needs-review",
+        "verification": {
+          "status": "unverified",
+          "review_required": true
+        }
+      },
+      "status": "needs-review",
+      "review_required": true,
+      "validation": {
+        "is_valid": false,
+        "status": "needs-review",
+        "issues": [
+          {
+            "field": "coverImage",
+            "code": "unassigned",
+            "message": "No reviewed cover image is assigned.",
+            "severity": "warning"
+          },
+          {
+            "field": "sources",
+            "code": "missing_sources",
+            "message": "At least one real source is required before approval.",
+            "severity": "error"
+          }
+        ]
+      },
+      "possible_duplicates": [
+        {
+          "record_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[12]",
+          "confidence": "high",
+          "reasons": [
+            "same_id",
+            "same_name"
+          ]
+        }
+      ]
+    }
+  ],
+  "possible_duplicates": [
+    {
+      "left_index": 3,
+      "right_index": 4,
+      "confidence": "low",
+      "reasons": [
+        "shared_source_url"
+      ],
+      "matched_names": [],
+      "similar_name": null,
+      "shared_source_urls": [
+        "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/"
+      ],
+      "governorate_conflict": false,
+      "review_required": true,
+      "left_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[3]",
+      "right_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[4]"
+    },
+    {
+      "left_index": 12,
+      "right_index": 20,
+      "confidence": "high",
+      "reasons": [
+        "same_id",
+        "same_name"
+      ],
+      "matched_names": [
+        "hatra"
+      ],
+      "similar_name": null,
+      "shared_source_urls": [],
+      "governorate_conflict": false,
+      "review_required": true,
+      "left_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\tools\\content-pipeline\\data\\prepared\\heritage-sites.json#record[12]",
+      "right_ref": "C:\\Users\\MSR\\Desktop\\Web-Crads\\interactive-map-backup\\src\\data\\sites.json#record[0]"
+    }
+  ],
+  "notes": [
+    "Automated checks never constitute approval. Valid records also await manual approval.",
+    "Original records and malformed bytes are retained; source files are never rewritten.",
+    "Shared-source-only matches are weak: one page may describe several different sites.",
+    "Name similarity is heuristic and does not establish identity."
+  ],
+  "evidence_index_issues": []
+}

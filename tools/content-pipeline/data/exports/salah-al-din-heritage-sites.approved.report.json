@@ -1,0 +1,44 @@
+{
+  "exported_at": "2026-11-01T12:23:06+00:00",
+  "input_records": 5,
+  "exported_records": 5,
+  "items": [
+    {
+      "id": "site-salah-al-din-samarra",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-great-mosque",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-abu-dulaf",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-caliphal-palace",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    },
+    {
+      "id": "site-salah-al-din-ashur",
+      "status": "approved",
+      "included": true,
+      "reason": "Explicit current approval; internal research/review fields removed.",
+      "media_omissions": []
+    }
+  ],
+  "automatically_approved": 0,
+  "published": false
+}

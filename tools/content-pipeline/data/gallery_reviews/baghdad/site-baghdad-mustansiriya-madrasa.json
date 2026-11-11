@@ -1,0 +1,343 @@
+{
+  "siteId": "site-baghdad-mustansiriya-madrasa",
+  "galleryImages": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Mustansiriya Madrasa in Baghdad",
+      "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+      "credit": "Makaay31",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "verified",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "sourceId": "wikimedia-commons",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+      "source": "file-description",
+      "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+      "evidenceIds": [
+        "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd"
+      ],
+      "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+      "source_observations": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "alt": "Al-Mustansiriya Madrasa in Baghdad",
+          "caption": "Al-Mustansiriya Madrasa — Wikimedia Commons photograph",
+          "source": "file-description",
+          "source_id": "wikimedia-commons",
+          "source_name": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+          "trust_tier": 2,
+          "license_status": "verified",
+          "license_hint": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "credit": "Makaay31",
+          "contexts": [
+            {
+              "kind": "caption",
+              "caption": "English: The old Munstansiriya Madrasah in Baghdad",
+              "alt": "",
+              "title": "",
+              "filename": "Mustansiriya_Madrasah5.jpg"
+            }
+          ],
+          "siteId": "site-baghdad-mustansiriya-madrasa",
+          "targetSiteId": "site-baghdad-mustansiriya-madrasa",
+          "association_status": "matched-unverified",
+          "association_evidence": [
+            {
+              "kind": "caption",
+              "matched_names": [
+                "munstansiriya madrasah"
+              ],
+              "text": "English: The old Munstansiriya Madrasah in Baghdad"
+            }
+          ],
+          "verification_status": "unverified",
+          "review_required": true,
+          "review_notes": [
+            "Explicit image metadata names the target; visual and identity review is still required."
+          ],
+          "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+          "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+          "identity_evidence": {
+            "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+            "selector": ".description",
+            "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+          },
+          "license_review": {
+            "permission": "publication-permitted",
+            "reviewedBy": "Codex (AI evidence review, P6-01)",
+            "reviewedAt": "2026-10-31T23:59:41+00:00",
+            "license": "CC BY-SA 3.0",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "evidence": [
+              {
+                "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                "locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                  "selector": ".licensetpl_short",
+                  "text_match": "CC BY-SA 3.0"
+                },
+                "image_locator": {
+                  "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                  "selector": ".fullMedia a.internal",
+                  "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                }
+              }
+            ],
+            "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+          },
+          "publication_approval": {
+            "status": "approved",
+            "siteId": "site-baghdad-mustansiriya-madrasa",
+            "site_verified": true,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "reviewedBy": "Codex (AI evidence review, P6-01)",
+            "reviewedAt": "2026-10-31T23:59:41+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+              "selector": ".description",
+              "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+            },
+            "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+          },
+          "license_tracking": {
+            "reported_status": "verified",
+            "reported_publication_flags": {},
+            "evidence_valid": true,
+            "evidence_checks": [
+              {
+                "valid": true,
+                "source": {
+                  "sourceId": "wikimedia-commons",
+                  "sourceName": "Wikimedia Commons",
+                  "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                  "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                  "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+                  "trust_tier": 2,
+                  "recorded_trust_tier": 2
+                },
+                "original_evidence": {
+                  "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+                  "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+                  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+                  "locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                    "selector": ".licensetpl_short",
+                    "text_match": "CC BY-SA 3.0"
+                  },
+                  "image_locator": {
+                    "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                    "selector": ".fullMedia a.internal",
+                    "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                  }
+                }
+              }
+            ],
+            "issues": [],
+            "automatically_approved": false,
+            "notes": [
+              "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+              "License verification is separate from image identity and explicit publication approval."
+            ]
+          }
+        }
+      ],
+      "url_validation": [
+        {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": true,
+          "status": "valid",
+          "checkedAt": "2026-10-31T23:58:37+00:00",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 200,
+              "retryable": false
+            }
+          ],
+          "reason": "HTTP response and complete supported image decoding passed.",
+          "bytes_read": 1774360,
+          "width": 2032,
+          "height": 1514,
+          "format": "JPEG",
+          "frames": 1,
+          "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+        }
+      ],
+      "metadata_findings": [],
+      "width": 2032,
+      "height": 1514,
+      "verification_status": "approved-by-ai-evidence-review",
+      "review_required": false,
+      "license_review": {
+        "permission": "publication-permitted",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "license": "CC BY-SA 3.0",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "locator": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+              "selector": ".licensetpl_short",
+              "text_match": "CC BY-SA 3.0"
+            },
+            "image_locator": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+              "selector": ".fullMedia a.internal",
+              "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+            }
+          }
+        ],
+        "review_note": "AI evidence review of the explicit file-specific license and exact original-image link. Reuse must retain source/creator credit, license link and any change notice; ShareAlike applies to adaptations under CC BY-SA. No human-curator identity is claimed."
+      },
+      "license_tracking": {
+        "reported_status": "verified",
+        "reported_publication_flags": {},
+        "evidence_valid": true,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "accessedAt": "2026-10-31T23:56:40.662774+00:00",
+              "trust_tier": 2,
+              "recorded_trust_tier": 2
+            },
+            "original_evidence": {
+              "evidenceId": "wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Mustansiriya_Madrasah5.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                "selector": ".licensetpl_short",
+                "text_match": "CC BY-SA 3.0"
+              },
+              "image_locator": {
+                "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+                "selector": ".fullMedia a.internal",
+                "text_match": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+              }
+            }
+          }
+        ],
+        "issues": [],
+        "automatically_approved": false,
+        "notes": [
+          "A reviewer must determine rights and applicable conditions; text matching only verifies provenance.",
+          "License verification is separate from image identity and explicit publication approval."
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-mustansiriya-madrasa",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reviewedBy": "Codex (AI evidence review, P6-01)",
+        "reviewedAt": "2026-10-31T23:59:41+00:00",
+        "identity_evidence": {
+          "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235640Z-3741d49f9e-7c52bd.html",
+          "selector": ".description",
+          "text_match": "English: The old Munstansiriya Madrasah in Baghdad"
+        },
+        "review_note": "Image description explicitly identifies this monument; not inferred from governorate, category membership or page placement."
+      }
+    }
+  ],
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": true,
+        "status": "valid",
+        "checkedAt": "2026-10-31T23:58:37+00:00",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mustansiriya_Madrasah5.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 200,
+            "retryable": false
+          }
+        ],
+        "reason": "HTTP response and complete supported image decoding passed.",
+        "bytes_read": 1774360,
+        "width": 2032,
+        "height": 1514,
+        "format": "JPEG",
+        "frames": 1,
+        "sha256": "9a8fbaedb83971a46d1874fda76e19d9185283c1571c88ba80c00b5f61c5f31b"
+      }
+    ],
+    "skipped_images": [],
+    "candidate_count": 1,
+    "gallery_count": 1,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  },
+  "reviewedBy": "Codex (AI evidence review, P6-01)",
+  "reviewedAt": "2026-10-31T23:59:41+00:00"
+}

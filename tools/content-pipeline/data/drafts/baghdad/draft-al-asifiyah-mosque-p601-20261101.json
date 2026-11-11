@@ -1,0 +1,350 @@
+{
+  "id": "site-baghdad-al-asifiyah-mosque",
+  "name": "Al-Asifiyah Mosque",
+  "slug": "al-asifiyah-mosque",
+  "alternativeNames": [
+    "Alasifyah Mosque",
+    "Mosque-Madrasa of al-Asifyah",
+    "جامع الآصفية"
+  ],
+  "governorate": "Baghdad",
+  "city": "Baghdad",
+  "country": "Iraq",
+  "category": "Mosque",
+  "period": "Ottoman",
+  "description": "An Ottoman-era mosque in Baghdad. The Iraqi submission describes a prayer hall with two domes, two minarets and later restoration.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+    },
+    {
+      "sourceName": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+      "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+      "accessedAt": "2026-10-31T23:57:14.176337+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342",
+    "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054"
+  ],
+  "draft_id": "draft-al-asifiyah-mosque-p601-20261101",
+  "parent_draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "candidate_name": "Al-Asifiyah Mosque",
+  "candidate_summary": "An Ottoman-era mosque in Baghdad. The Iraqi submission describes a prayer hall with two domes, two minarets and later restoration.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true
+  },
+  "unesco_status": "unknown",
+  "provenance": {
+    "name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "governorate": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "category": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "period": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "description": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054"
+    ],
+    "galleryImages": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/15",
+      "text_match": "Alasifyah Mosque : The current mosque was built by the Ottoman governor Daoud Pasha in 1825. The whole area is 400 m2 and accommodates 500 worshipers. It has combined the large oratory by two domes and built at its sides two minarets. Renewedin year 1384 AH / 1964 AD by the Department of Awqaf and still held a prayer in addition to festivals and religious events and Koran courses."
+    }
+  ],
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Asifiyah Mosque in Baghdad",
+      "caption": "Al-Asifiyah Mosque — Wikimedia Commons photograph",
+      "source": "file-description",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+      "trust_tier": 2,
+      "license_status": "unverified",
+      "license_hint": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "credit": "Ayham4002",
+      "contexts": [
+        {
+          "kind": "caption",
+          "caption": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023.",
+          "alt": "",
+          "title": "",
+          "filename": "Mosque-Madrasa_of_al-Asifyah.png"
+        }
+      ],
+      "siteId": "site-baghdad-al-asifiyah-mosque",
+      "targetSiteId": "site-baghdad-al-asifiyah-mosque",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "caption",
+          "matched_names": [
+            "mosque madrasa of al asifyah"
+          ],
+          "text": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023."
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "mosque madrasa of al asifyah"
+          ],
+          "text": "Mosque-Madrasa_of_al-Asifyah.png"
+        }
+      ],
+      "verification_status": "unverified",
+      "review_required": true,
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+      "accessedAt": "2026-10-31T23:57:14.176337+00:00",
+      "identity_evidence": {
+        "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.html",
+        "selector": ".description",
+        "text_match": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023."
+      }
+    }
+  ],
+  "collection_task": "P6-01",
+  "collection_notes": [
+    "Historical facts checked against Iraq's submission hosted by UNESCO; not an independent archaeological survey.",
+    "Unknown 3D availability and individual inscription status remain null. Exact construction dates and coordinates are not asserted.",
+    "P6-01 review performed by Codex AI at the user's request. This is not human-curator or archaeological field verification. No frontend publication was performed.",
+    "No approved cover: absent site-specific imagery or failed HTTP image check. Use the existing frontend fallback.",
+    "Use the existing adapter's unknown UNESCO status value; the tentative ensemble explanation is retained in heritage_status, avoiding an unsupported inscription badge."
+  ],
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/15",
+        "text_match": "Alasifyah Mosque : The current mosque was built by the Ottoman governor Daoud Pasha in 1825. The whole area is 400 m2 and accommodates 500 worshipers. It has combined the large oratory by two domes and built at its sides two minarets. Renewedin year 1384 AH / 1964 AD by the Department of Awqaf and still held a prayer in addition to festivals and religious events and Koran courses."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/15",
+        "text_match": "Alasifyah Mosque : The current mosque was built by the Ottoman governor Daoud Pasha in 1825. The whole area is 400 m2 and accommodates 500 worshipers. It has combined the large oratory by two domes and built at its sides two minarets. Renewedin year 1384 AH / 1964 AD by the Department of Awqaf and still held a prayer in addition to festivals and religious events and Koran courses."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/15",
+        "text_match": "Alasifyah Mosque : The current mosque was built by the Ottoman governor Daoud Pasha in 1825. The whole area is 400 m2 and accommodates 500 worshipers. It has combined the large oratory by two domes and built at its sides two minarets. Renewedin year 1384 AH / 1964 AD by the Department of Awqaf and still held a prayer in addition to festivals and religious events and Koran courses."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/15",
+        "text_match": "Alasifyah Mosque : The current mosque was built by the Ottoman governor Daoud Pasha in 1825. The whole area is 400 m2 and accommodates 500 worshipers. It has combined the large oratory by two domes and built at its sides two minarets. Renewedin year 1384 AH / 1964 AD by the Department of Awqaf and still held a prayer in addition to festivals and religious events and Koran courses."
+      }
+    ]
+  },
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": false,
+        "status": "http-error",
+        "checkedAt": "2026-10-31T23:58:47+00:00",
+        "http_status": 429,
+        "content_type": null,
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 429,
+            "retryable": true,
+            "retry_delay": 1
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 2,
+            "http_status": 429,
+            "retryable": true
+          }
+        ],
+        "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+        "bytes_read": 0
+      }
+    ],
+    "skipped_images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reason": "Image URL/content validation failed.",
+        "validation": {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": false,
+          "status": "http-error",
+          "checkedAt": "2026-10-31T23:58:47+00:00",
+          "http_status": 429,
+          "content_type": null,
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 429,
+              "retryable": true,
+              "retry_delay": 1
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 2,
+              "http_status": 429,
+              "retryable": true
+            }
+          ],
+          "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+          "bytes_read": 0
+        },
+        "observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mosque-Madrasa_of_al-Asifyah.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Al-Asifiyah Mosque in Baghdad",
+            "caption": "Al-Asifiyah Mosque — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mosque-Madrasa_of_al-Asifyah.png",
+            "trust_tier": 2,
+            "license_status": "unverified",
+            "license_hint": "CC0",
+            "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "credit": "Ayham4002",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023.",
+                "alt": "",
+                "title": "",
+                "filename": "Mosque-Madrasa_of_al-Asifyah.png"
+              }
+            ],
+            "siteId": "site-baghdad-al-asifiyah-mosque",
+            "targetSiteId": "site-baghdad-al-asifiyah-mosque",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "mosque madrasa of al asifyah"
+                ],
+                "text": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023."
+              },
+              {
+                "kind": "filename",
+                "matched_names": [
+                  "mosque madrasa of al asifyah"
+                ],
+                "text": "Mosque-Madrasa_of_al-Asifyah.png"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054",
+            "accessedAt": "2026-10-31T23:57:14.176337+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235714Z-22136ec8f7-9cb054.html",
+              "selector": ".description",
+              "text_match": "English: Mosque-Madrasa of al-Asifyah in Baghdad, Iraq, in 2023."
+            }
+          }
+        ]
+      }
+    ],
+    "candidate_count": 1,
+    "gallery_count": 0,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  },
+  "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription"
+}

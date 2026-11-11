@@ -1,0 +1,10 @@
+{
+  "schema_valid": true,
+  "records": 6,
+  "unique_ids": 6,
+  "unique_slugs": 6,
+  "approved_covers": 3,
+  "fallback_covers": 3,
+  "incorrect_unesco_badges": 0,
+  "frontend_files_modified": false
+}

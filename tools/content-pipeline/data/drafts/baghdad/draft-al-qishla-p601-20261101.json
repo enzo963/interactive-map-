@@ -1,0 +1,384 @@
+{
+  "id": "site-baghdad-al-qishla",
+  "name": "Al-Qishla and Clock Tower",
+  "slug": "al-qishla",
+  "alternativeNames": [
+    "Al-Qushla",
+    "Al Qishlah",
+    "Qushla",
+    "Qishleh",
+    "القشلة"
+  ],
+  "governorate": "Baghdad",
+  "city": "Baghdad",
+  "country": "Iraq",
+  "category": "Historic Complex",
+  "period": "Ottoman and British periods",
+  "description": "A riverside heritage complex in Baghdad, with Ottoman barracks and a clock tower. Its architecture also records later additions during British rule.",
+  "unesco": null,
+  "has3D": null,
+  "coverImage": null,
+  "galleryImages": [],
+  "sources": [
+    {
+      "sourceName": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5880/",
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "accessedAt": "2026-10-31T23:53:46.504048+00:00"
+    },
+    {
+      "sourceName": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+      "accessedAt": "2026-10-31T23:56:47.016885+00:00"
+    }
+  ],
+  "source_evidence": [
+    "unesco-20261031T235346Z-498ce2b373-380342",
+    "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+  ],
+  "draft_id": "draft-al-qishla-p601-20261101",
+  "parent_draft_id": "draft-unesco-20261031T235346Z-498ce2b373-380342",
+  "candidate_name": "Al-Qishla and Clock Tower",
+  "candidate_summary": "A riverside heritage complex in Baghdad, with Ottoman barracks and a clock tower. Its architecture also records later additions during British rule.",
+  "status": "needs-review",
+  "verification": {
+    "status": "unverified",
+    "review_required": true
+  },
+  "unesco_status": "unknown",
+  "provenance": {
+    "name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "governorate": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "category": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "period": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "description": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_name": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "candidate_summary": [
+      "unesco-20261031T235346Z-498ce2b373-380342"
+    ],
+    "image_candidates": [
+      "wikimedia-commons-20261031T235647Z-0540555ecd-682c68"
+    ],
+    "galleryImages": []
+  },
+  "evidence_locations": [
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/18",
+      "text_match": "Al-Qushla Building : The Qishleh building is one of a series of historical heritage buildings along the bank of the Tigris River. Architecture of the building affected during periods of Ottoman rule and the British occupation (1914 - 1958 AD) in Iraq and illustrated by the additions to the building, materials, construction & roofing techniques used forefront of landmarks that reflect the emergence of a renaissance and civilization of society and reflect identity of Iraqi Baghdadi. This building possesses a group of constituents, including jobs carried out and events witnessed and geographical location and the way built it all paid off protection and maintenance."
+    },
+    {
+      "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+      "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+      "json_pointer": "/paragraphs/19",
+      "text_match": "Tower and clock of Al- Qishleh: The beautiful clock of Al- Qishleh with its slim tower was built after building Al-Qishleh. The military barracks of the Ottomans in the time of the Ottoman governor (Namik Basha), completed during the reign of (Medhat Pasha) (1868 AD) to wake the soldiers to the times military training. The clock of Qishleh was a wonder, the Baghdadis did not see clock placed above this altitude and beacon four aspects. At the peak indicator of iron shows the direction of the wind. It is important to note here that the clock has been donated by the king of Britain's George V to the Iraqi government. This gifting written inside."
+    }
+  ],
+  "image_candidates": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "alt": "Al-Qishla and Clock Tower in Baghdad",
+      "caption": "Al-Qishla and Clock Tower — Wikimedia Commons photograph",
+      "source": "file-description",
+      "source_id": "wikimedia-commons",
+      "source_name": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+      "trust_tier": 2,
+      "license_status": "unverified",
+      "license_hint": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "credit": "Mahmoudalrawi",
+      "contexts": [
+        {
+          "kind": "caption",
+          "caption": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد",
+          "alt": "",
+          "title": "",
+          "filename": "Al_Qishlah_in_Baghdad.jpg"
+        }
+      ],
+      "siteId": "site-baghdad-al-qishla",
+      "targetSiteId": "site-baghdad-al-qishla",
+      "association_status": "matched-unverified",
+      "association_evidence": [
+        {
+          "kind": "caption",
+          "matched_names": [
+            "al qishlah",
+            "القشلة"
+          ],
+          "text": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+        },
+        {
+          "kind": "filename",
+          "matched_names": [
+            "al qishlah"
+          ],
+          "text": "Al_Qishlah_in_Baghdad.jpg"
+        }
+      ],
+      "verification_status": "unverified",
+      "review_required": true,
+      "review_notes": [
+        "Explicit image metadata names the target; visual and identity review is still required."
+      ],
+      "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+      "accessedAt": "2026-10-31T23:56:47.016885+00:00",
+      "identity_evidence": {
+        "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.html",
+        "selector": ".description",
+        "text_match": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+      }
+    }
+  ],
+  "collection_task": "P6-01",
+  "collection_notes": [
+    "Historical facts checked against Iraq's submission hosted by UNESCO; not an independent archaeological survey.",
+    "Unknown 3D availability and individual inscription status remain null. Exact construction dates and coordinates are not asserted.",
+    "P6-01 review performed by Codex AI at the user's request. This is not human-curator or archaeological field verification. No frontend publication was performed.",
+    "No approved cover: absent site-specific imagery or failed HTTP image check. Use the existing frontend fallback.",
+    "Use the existing adapter's unknown UNESCO status value; the tentative ensemble explanation is retained in heritage_status, avoiding an unsupported inscription badge."
+  ],
+  "field_evidence": {
+    "name": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/18",
+        "text_match": "Al-Qushla Building : The Qishleh building is one of a series of historical heritage buildings along the bank of the Tigris River. Architecture of the building affected during periods of Ottoman rule and the British occupation (1914 - 1958 AD) in Iraq and illustrated by the additions to the building, materials, construction & roofing techniques used forefront of landmarks that reflect the emergence of a renaissance and civilization of society and reflect identity of Iraqi Baghdadi. This building possesses a group of constituents, including jobs carried out and events witnessed and geographical location and the way built it all paid off protection and maintenance."
+      },
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/19",
+        "text_match": "Tower and clock of Al- Qishleh: The beautiful clock of Al- Qishleh with its slim tower was built after building Al-Qishleh. The military barracks of the Ottomans in the time of the Ottoman governor (Namik Basha), completed during the reign of (Medhat Pasha) (1868 AD) to wake the soldiers to the times military training. The clock of Qishleh was a wonder, the Baghdadis did not see clock placed above this altitude and beacon four aspects. At the peak indicator of iron shows the direction of the wind. It is important to note here that the clock has been donated by the king of Britain's George V to the Iraqi government. This gifting written inside."
+      }
+    ],
+    "category": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/18",
+        "text_match": "Al-Qushla Building : The Qishleh building is one of a series of historical heritage buildings along the bank of the Tigris River. Architecture of the building affected during periods of Ottoman rule and the British occupation (1914 - 1958 AD) in Iraq and illustrated by the additions to the building, materials, construction & roofing techniques used forefront of landmarks that reflect the emergence of a renaissance and civilization of society and reflect identity of Iraqi Baghdadi. This building possesses a group of constituents, including jobs carried out and events witnessed and geographical location and the way built it all paid off protection and maintenance."
+      },
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/19",
+        "text_match": "Tower and clock of Al- Qishleh: The beautiful clock of Al- Qishleh with its slim tower was built after building Al-Qishleh. The military barracks of the Ottomans in the time of the Ottoman governor (Namik Basha), completed during the reign of (Medhat Pasha) (1868 AD) to wake the soldiers to the times military training. The clock of Qishleh was a wonder, the Baghdadis did not see clock placed above this altitude and beacon four aspects. At the peak indicator of iron shows the direction of the wind. It is important to note here that the clock has been donated by the king of Britain's George V to the Iraqi government. This gifting written inside."
+      }
+    ],
+    "period": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/18",
+        "text_match": "Al-Qushla Building : The Qishleh building is one of a series of historical heritage buildings along the bank of the Tigris River. Architecture of the building affected during periods of Ottoman rule and the British occupation (1914 - 1958 AD) in Iraq and illustrated by the additions to the building, materials, construction & roofing techniques used forefront of landmarks that reflect the emergence of a renaissance and civilization of society and reflect identity of Iraqi Baghdadi. This building possesses a group of constituents, including jobs carried out and events witnessed and geographical location and the way built it all paid off protection and maintenance."
+      },
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/19",
+        "text_match": "Tower and clock of Al- Qishleh: The beautiful clock of Al- Qishleh with its slim tower was built after building Al-Qishleh. The military barracks of the Ottomans in the time of the Ottoman governor (Namik Basha), completed during the reign of (Medhat Pasha) (1868 AD) to wake the soldiers to the times military training. The clock of Qishleh was a wonder, the Baghdadis did not see clock placed above this altitude and beacon four aspects. At the peak indicator of iron shows the direction of the wind. It is important to note here that the clock has been donated by the king of Britain's George V to the Iraqi government. This gifting written inside."
+      }
+    ],
+    "description": [
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/18",
+        "text_match": "Al-Qushla Building : The Qishleh building is one of a series of historical heritage buildings along the bank of the Tigris River. Architecture of the building affected during periods of Ottoman rule and the British occupation (1914 - 1958 AD) in Iraq and illustrated by the additions to the building, materials, construction & roofing techniques used forefront of landmarks that reflect the emergence of a renaissance and civilization of society and reflect identity of Iraqi Baghdadi. This building possesses a group of constituents, including jobs carried out and events witnessed and geographical location and the way built it all paid off protection and maintenance."
+      },
+      {
+        "evidenceId": "unesco-20261031T235346Z-498ce2b373-380342",
+        "artifact": "data\\raw\\baghdad\\unesco\\unesco-20261031T235346Z-498ce2b373-380342.extracted.json",
+        "json_pointer": "/paragraphs/19",
+        "text_match": "Tower and clock of Al- Qishleh: The beautiful clock of Al- Qishleh with its slim tower was built after building Al-Qishleh. The military barracks of the Ottomans in the time of the Ottoman governor (Namik Basha), completed during the reign of (Medhat Pasha) (1868 AD) to wake the soldiers to the times military training. The clock of Qishleh was a wonder, the Baghdadis did not see clock placed above this altitude and beacon four aspects. At the peak indicator of iron shows the direction of the wind. It is important to note here that the clock has been donated by the king of Britain's George V to the Iraqi government. This gifting written inside."
+      }
+    ]
+  },
+  "gallery_review": {
+    "original_galleryImages": [],
+    "network_checks": [
+      {
+        "requested_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "valid": false,
+        "status": "http-error",
+        "checkedAt": "2026-10-31T23:58:40+00:00",
+        "http_status": 429,
+        "content_type": null,
+        "redirects": [],
+        "robots": [
+          {
+            "status": "allowed",
+            "robots_url": "https://upload.wikimedia.org/robots.txt",
+            "target_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+            "http_status": 200,
+            "reason": "robots.txt allows this user agent to fetch the target URL.",
+            "attempts": [
+              {
+                "url": "https://upload.wikimedia.org/robots.txt",
+                "attempt": 1,
+                "http_status": 200,
+                "retryable": false
+              }
+            ]
+          }
+        ],
+        "attempts": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 1,
+            "http_status": 429,
+            "retryable": true,
+            "retry_delay": 1
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "attempt": 2,
+            "http_status": 429,
+            "retryable": true
+          }
+        ],
+        "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+        "bytes_read": 0
+      }
+    ],
+    "skipped_images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "reason": "Image URL/content validation failed.",
+        "validation": {
+          "requested_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "valid": false,
+          "status": "http-error",
+          "checkedAt": "2026-10-31T23:58:40+00:00",
+          "http_status": 429,
+          "content_type": null,
+          "redirects": [],
+          "robots": [
+            {
+              "status": "allowed",
+              "robots_url": "https://upload.wikimedia.org/robots.txt",
+              "target_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "user_agent": "HeritageBridgeResearchBot/0.1.1 (academic heritage research; respectful crawler; manual review required)",
+              "http_status": 200,
+              "reason": "robots.txt allows this user agent to fetch the target URL.",
+              "attempts": [
+                {
+                  "url": "https://upload.wikimedia.org/robots.txt",
+                  "attempt": 1,
+                  "http_status": 200,
+                  "retryable": false
+                }
+              ]
+            }
+          ],
+          "attempts": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 1,
+              "http_status": 429,
+              "retryable": true,
+              "retry_delay": 1
+            },
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+              "attempt": 2,
+              "http_status": 429,
+              "retryable": true
+            }
+          ],
+          "reason": "Expected a complete HTTP 200 image; received HTTP 429.",
+          "bytes_read": 0
+        },
+        "observations": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_Qishlah_in_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+            "alt": "Al-Qishla and Clock Tower in Baghdad",
+            "caption": "Al-Qishla and Clock Tower — Wikimedia Commons photograph",
+            "source": "file-description",
+            "source_id": "wikimedia-commons",
+            "source_name": "Wikimedia Commons",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al_Qishlah_in_Baghdad.jpg",
+            "trust_tier": 2,
+            "license_status": "unverified",
+            "license_hint": "CC BY-SA 3.0",
+            "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+            "credit": "Mahmoudalrawi",
+            "contexts": [
+              {
+                "kind": "caption",
+                "caption": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد",
+                "alt": "",
+                "title": "",
+                "filename": "Al_Qishlah_in_Baghdad.jpg"
+              }
+            ],
+            "siteId": "site-baghdad-al-qishla",
+            "targetSiteId": "site-baghdad-al-qishla",
+            "association_status": "matched-unverified",
+            "association_evidence": [
+              {
+                "kind": "caption",
+                "matched_names": [
+                  "al qishlah",
+                  "القشلة"
+                ],
+                "text": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+              },
+              {
+                "kind": "filename",
+                "matched_names": [
+                  "al qishlah"
+                ],
+                "text": "Al_Qishlah_in_Baghdad.jpg"
+              }
+            ],
+            "verification_status": "unverified",
+            "review_required": true,
+            "review_notes": [
+              "Explicit image metadata names the target; visual and identity review is still required."
+            ],
+            "evidenceId": "wikimedia-commons-20261031T235647Z-0540555ecd-682c68",
+            "accessedAt": "2026-10-31T23:56:47.016885+00:00",
+            "identity_evidence": {
+              "artifact": "data\\raw\\baghdad\\wikimedia-commons\\wikimedia-commons-20261031T235647Z-0540555ecd-682c68.html",
+              "selector": ".description",
+              "text_match": "English: Al Qishlah in Baghdad - Rasafa العربية: ساعة القشلة في الرصافة في بغداد"
+            }
+          }
+        ]
+      }
+    ],
+    "candidate_count": 1,
+    "gallery_count": 0,
+    "duplicates_removed": 0,
+    "manual_review_required": true,
+    "automatically_approved": false,
+    "notes": [
+      "URL/content validity is a point-in-time technical check, not site identity or licensing approval.",
+      "All candidate/source observations and license hints are preserved; unknown licenses remain unverified.",
+      "Cover selection and frontend files are not updated by gallery preparation."
+    ],
+    "original_gallery_provenance": null
+  },
+  "heritage_status": "Component of the Baghdad Rusafa Tigris riverbank ensemble on Iraq's Tentative List; not an individual World Heritage inscription"
+}
