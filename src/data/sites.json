@@ -2296,9 +2296,90 @@
     "description": "The oldest and best-known mosque of Kirkuk Citadel, still visited by people of the city, especially on Saturdays. Its brick minaret probably dates from the late Mongol or early Timurid period.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Prophet Daniel Mosque, Kirkuk Citadel, Kirkuk",
+      "caption": "",
+      "credit": "Enasiqph",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-kirkuk-prophet-daniel-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q42839071",
+        "matchedBy": "confirmed by hand: Wikidata \"The mosque of the prophet Daniel … within the citadel of Kirkuk\".; Commons files naming the site and its place; commons-file-search",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The minaret and turquoise domes of the shrine and mosque of the Prophet Daniel in Kirkuk Citadel, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Minaret of the shrine and mosque of the Prophet Daniel in Kirkuk Citadel 05.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg",
+              "evidenceId": "wikimedia-commons-Minaret of the shrine and mosque of the Prophet Daniel in Kirkuk Citadel 05.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-kirkuk-prophet-daniel-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Minaret_of_the_shrine_and_mosque_of_the_Prophet_Daniel_in_Kirkuk_Citadel_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/prophet-daniel-mosque-kirkuk-citadel/a8510a37e0",
+        "hash": "a8510a37e0",
+        "width": 1280,
+        "height": 853,
+        "color": "#606a7c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -2800,9 +2881,90 @@
     "description": "The Dominican church and convent in Mosul’s Old City, whose clock tower stood with the al-Hadba minaret as the defining features of the city’s skyline.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_%28%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Dominican Church and Clock Tower, Mosul, Nineveh",
+      "caption": "",
+      "credit": "Ali.tinbo",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-dominican-church",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_(%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84)_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_%28%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4000,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q24247948",
+        "matchedBy": "confirmed by hand: Wikidata \"Our Lady of the Hour Church, church in Mosul\": the Dominican (al-Saa’a) church.; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The Latin (al-Saa'a) church with its clock tower, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_%28%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-كنيسة اللاتين (الموصل) 02.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_(%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84)_02.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_%28%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_(%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84)_02.jpg",
+              "evidenceId": "wikimedia-commons-كنيسة اللاتين (الموصل) 02.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-dominican-church",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%8A%D9%86_%28%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/dominican-church-and-clock-tower-mosul/2c45e9fb0a",
+        "hash": "2c45e9fb0a",
+        "width": 1280,
+        "height": 968,
+        "color": "#bcbcb8",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -4075,9 +4237,90 @@
     "description": "The historic city on the west bank of the Tigris, with traditional streets, houses and markets and the mosques, churches and shrines of its many communities. The al-Hadba minaret and the Dominican clock tower defined its skyline.",
     "unesco": false,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ancient_Mosul%2C_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Old City of Mosul, Nineveh",
+      "caption": "",
+      "credit": "American colony photographers.",
+      "license": "Public domain",
+      "siteId": "site-nineveh-old-mosul",
+      "license_status": "verified",
+      "license_url": "",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Mosul,_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ancient_Mosul%2C_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4263,
+      "height": 2739,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q66058013",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "American Colony photograph of the heart of old Mosul with a Yezidi shrine and the al-Nouri minaret; public domain."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "Public domain",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ancient_Mosul%2C_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Ancient Mosul, a Yezidi shrine to the left and the Nouri Mosque minaret to the right.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Mosul,_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ancient_Mosul%2C_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Ancient_Mosul,_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg",
+              "evidenceId": "wikimedia-commons-Ancient Mosul, a Yezidi shrine to the left and the Nouri Mosque minaret to the right.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-old-mosul",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ancient_Mosul%2C_a_Yezidi_shrine_to_the_left_and_the_Nouri_Mosque_minaret_to_the_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/old-city-of-mosul/4c4c15b036",
+        "hash": "4c4c15b036",
+        "width": 1280,
+        "height": 822,
+        "color": "#aeaeae",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -5678,9 +5921,90 @@
     "description": "The Ottoman barracks and clock tower on the Tigris in Baghdad, whose architecture also records additions made under British rule.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Qishla_Building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Qishla and Clock Tower, Baghdad",
+      "caption": "",
+      "credit": "Ahmed khalil kaite",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-al-qishla",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qishla_Building_1.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Qishla_Building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1920,
+      "height": 2560,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q30687866",
+        "matchedBy": "confirmed by hand: Wikidata \"Qushla, building in Baghdad\", Commons category Qushla, coordinates at the Rusafa riverfront.; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The Qishla clock tower; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Qishla_Building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Qishla Building 1.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Qishla_Building_1.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Qishla_Building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Qishla_Building_1.jpg",
+              "evidenceId": "wikimedia-commons-Qishla Building 1.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-qishla",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Qishla_Building_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-qishla/7ed6201737",
+        "hash": "7ed6201737",
+        "width": 1280,
+        "height": 1707,
+        "color": "#778095",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -5720,7 +6044,88 @@
     "description": "A riverside mosque in Baghdad built in 1599 by the Ottoman governor Hassan Pasha and repeatedly restored since.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Al-Wazeer_Mosque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Wazir Mosque, Baghdad",
+      "caption": "",
+      "credit": "Ayham4002",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al-Wazeer_Mosque.png",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Al-Wazeer_Mosque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3296,
+      "height": 2760,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q22686775",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "Exterior of al-Wazir Mosque with its tiled minaret, dome and name sign; the item's own image (the interior photograph is already in the gallery)."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Al-Wazeer_Mosque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Al-Wazeer Mosque.png",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al-Wazeer_Mosque.png",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Al-Wazeer_Mosque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Al-Wazeer_Mosque.png",
+              "evidenceId": "wikimedia-commons-Al-Wazeer Mosque.png",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-wazir-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Al-Wazeer_Mosque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-wazir-mosque/a26a4fe931",
+        "hash": "a26a4fe931",
+        "width": 1280,
+        "height": 1072,
+        "color": "#6e88b1",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Al_Wazeer_Mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
@@ -5803,7 +6208,7 @@
         }
       }
     ],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -5841,9 +6246,90 @@
     "description": "A mosque on the Rusafa riverfront whose present building was raised in 1825 by the Ottoman governor Dawud Pasha, with a prayer hall under two domes and two minarets.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Asifiyah Mosque, Baghdad",
+      "caption": "",
+      "credit": "Tuka altekrety",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-al-asifiyah-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4608,
+      "height": 3072,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q12241633",
+        "matchedBy": "confirmed by hand: Wikidata \"Alasifia school\", the mosque-madrasa of al-Asifiyah.; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The al-Asifiyah mosque with its domes and minaret by the Tigris; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-جامع الآصفية.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg",
+              "evidenceId": "wikimedia-commons-جامع الآصفية.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-asifiyah-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A2%D8%B5%D9%81%D9%8A%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-asifiyah-mosque/57a8dc2380",
+        "hash": "57a8dc2380",
+        "width": 1280,
+        "height": 853,
+        "color": "#89abaf",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -7576,9 +8062,90 @@
     "description": "A historic market in downtown Erbil, where restoration with UNESCO began after a fire in 2024.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kurdistan_-_Erbil_-_Qaysari_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Qaysari Bazaar, Erbil, Erbil",
+      "caption": "",
+      "credit": "Lamacchiacosta",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-erbil-qaysari-bazaar",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kurdistan_-_Erbil_-_Qaysari_Market.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kurdistan_-_Erbil_-_Qaysari_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3264,
+      "height": 1836,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q7267223",
+        "matchedBy": "name match of an item in Iraq; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "Interior of the Qaysari market in Erbil, named in the file; the panorama would blur when cropped to the card."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kurdistan_-_Erbil_-_Qaysari_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Kurdistan - Erbil - Qaysari Market.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Kurdistan_-_Erbil_-_Qaysari_Market.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kurdistan_-_Erbil_-_Qaysari_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Kurdistan_-_Erbil_-_Qaysari_Market.jpg",
+              "evidenceId": "wikimedia-commons-Kurdistan - Erbil - Qaysari Market.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-erbil-qaysari-bazaar",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kurdistan_-_Erbil_-_Qaysari_Market.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/qaysari-bazaar/0e69885066",
+        "hash": "0e69885066",
+        "width": 1280,
+        "height": 720,
+        "color": "#65543c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Kurdistan Regional Government",

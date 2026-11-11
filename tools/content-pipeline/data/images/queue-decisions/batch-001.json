@@ -1,0 +1,13 @@
+{
+ "reviewedAt": "2026-11-11",
+ "decisions": [
+  {"id": "site-kirkuk-prophet-daniel-mosque", "approve": 5, "reason": "The minaret and turquoise domes of the shrine and mosque of the Prophet Daniel in Kirkuk Citadel, named in the file."},
+  {"id": "site-kirkuk-green-dome", "flag": "only-unrelated-images", "detail": "The only files naming 'Green' and 'Kirkuk' show a person, soldiers and hills; none shows the dome."},
+  {"id": "site-erbil-qaysari-bazaar", "approve": 5, "reason": "Interior of the Qaysari market in Erbil, named in the file; the panorama would blur when cropped to the card."},
+  {"id": "site-nineveh-old-mosul", "approve": 1, "reason": "American Colony photograph of the heart of old Mosul with a Yezidi shrine and the al-Nouri minaret; public domain."},
+  {"id": "site-nineveh-dominican-church", "approve": 3, "reason": "The Latin (al-Saa'a) church with its clock tower, named in the file."},
+  {"id": "site-baghdad-al-asifiyah-mosque", "approve": 1, "reason": "The al-Asifiyah mosque with its domes and minaret by the Tigris; the item's own image."},
+  {"id": "site-baghdad-al-qishla", "approve": 1, "reason": "The Qishla clock tower; the item's own image."},
+  {"id": "site-baghdad-al-wazir-mosque", "approve": 1, "reason": "Exterior of al-Wazir Mosque with its tiled minaret, dome and name sign; the item's own image (the interior photograph is already in the gallery)."}
+ ]
+}

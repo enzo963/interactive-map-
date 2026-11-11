@@ -1,0 +1,7131 @@
+[
+ {
+  "id": "site-duhok-faida-canal-reliefs",
+  "name": "Faida Archaeological Canal and Reliefs",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "A",
+  "score": 110,
+  "why": [
+   "approved",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-qaysariyah-market",
+  "name": "Al-Qaysariyah Market, Kirkuk",
+  "governorate": "Kirkuk",
+  "category": "Historic Market",
+  "band": "A",
+  "score": 130,
+  "why": [
+   "approved",
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-mother-of-sorrows-church",
+  "name": "Mother of Sorrows Church, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Church",
+  "band": "A",
+  "score": 110,
+  "why": [
+   "approved",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-green-dome",
+  "name": "The Green Dome, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Monument",
+  "band": "A",
+  "score": 110,
+  "why": [
+   "approved",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "only-unrelated-images"
+ },
+ {
+  "id": "site-sulaymaniyah-tell-shemshara",
+  "name": "Tell Shemshara",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Settlement",
+  "band": "A",
+  "score": 110,
+  "why": [
+   "approved",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-salah-al-din-caliphal-palace",
+  "name": "Caliphal Palace (Qasr al-Khalifa)",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "A",
+  "score": 130,
+  "why": [
+   "approved",
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-baghdad-house-of-wisdom-building",
+  "name": "House of Wisdom (Industries School Building)",
+  "governorate": "Baghdad",
+  "category": "Historic School",
+  "band": "A",
+  "score": 110,
+  "why": [
+   "approved",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-diyala-tell-atiqeh",
+  "name": "Tell Atiqeh",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-razuk",
+  "name": "Tell Razuk",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-ancient-anah",
+  "name": "Ancient Anah (Anat)",
+  "governorate": "Anbar",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "2 components",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-telbis-island",
+  "name": "Telbis Island",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "2 components",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-haradum",
+  "name": "Haradum (Khirbet ed-Diniye)",
+  "governorate": "Anbar",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "tier 1 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-al-khaliliya",
+  "name": "Al-Khaliliya Settlement, Mosque and Minaret",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-al-owaina-canals",
+  "name": "Al-Owaina Canals",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-al-zawiya-site",
+  "name": "Al-Zawiya Archaeological Site",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-buttain-al-jannadiya",
+  "name": "Buttain al-Jannadiya",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-glaia",
+  "name": "Glai‘a",
+  "governorate": "Anbar",
+  "category": "Castle",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-jafrin",
+  "name": "Jafrin and the Majul Caverns",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-mashhad-abu-reesha-mosque",
+  "name": "Mash‘had (Abu Reesha) Mosque",
+  "governorate": "Anbar",
+  "category": "Mosque",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-hit-old-town",
+  "name": "Old Town and Citadel of Hit",
+  "governorate": "Anbar",
+  "category": "Historic Town",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "1 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-rawa-ottoman-castle",
+  "name": "Ottoman Castle of Rawa",
+  "governorate": "Anbar",
+  "category": "Castle",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-ana-qala-island",
+  "name": "Qal‘a Island (Lubbad), Anah",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-rijan-island",
+  "name": "Rijan Island",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-shihma-cemetery",
+  "name": "Shihma Cemetery",
+  "governorate": "Anbar",
+  "category": "Cemetery",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-imam-habib-al-najjar",
+  "name": "Shrine of Imam Habib al-Najjar",
+  "governorate": "Anbar",
+  "category": "Shrine",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-sur-jureh",
+  "name": "Sur Jur‘eh",
+  "governorate": "Anbar",
+  "category": "Castle",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-tel-gubbain",
+  "name": "Tel Gubbain",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-tel-al-darrajiya",
+  "name": "Tel al-Darrajiya",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-telbis-burial-ground",
+  "name": "Telbis Burial Ground (west bank)",
+  "governorate": "Anbar",
+  "category": "Cemetery",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-telbis-eastern-cemetery",
+  "name": "Telbis Eastern Cemetery and Mounds",
+  "governorate": "Anbar",
+  "category": "Cemetery",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-shaikh-tayie-tomb",
+  "name": "Tomb of Shaikh Tay‘ie",
+  "governorate": "Anbar",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-usiyeh",
+  "name": "‘Usiyeh",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-charsteen-cave",
+  "name": "Charsteen Cave",
+  "governorate": "Duhok",
+  "category": "Archaeological Cave",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-gunduk-cave-reliefs",
+  "name": "Gunduk Cave Reliefs",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-kemune-palace",
+  "name": "Kemune Mittani Palace",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-aghaliq-quarter",
+  "name": "Aghaliq Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-al-aryan-mosque",
+  "name": "Al-Aryan Mosque",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-al-midan-quarter",
+  "name": "Al-Midan Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-bab-al-halloujia",
+  "name": "Bab al-Halloujia, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-tob-qapi",
+  "name": "Bab al-Toub (Tob Qapi), Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-great-mosque-kirkuk-citadel",
+  "name": "Great Mosque of Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-hammam-quarter",
+  "name": "Hammam Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-seven-girls-gate",
+  "name": "Seven Girls Gate, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-stone-gate",
+  "name": "Stone Gate, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-hasan-pakiz-mosque",
+  "name": "Hasan Pakiz Mosque",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-nuzi",
+  "name": "Nuzi (Yorghan Tepe)",
+  "governorate": "Kirkuk",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "3 components",
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-ottoman-military-cemetery",
+  "name": "Ottoman Military Cemetery, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Cemetery",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-koya-old-town",
+  "name": "Old Town of Koya",
+  "governorate": "Erbil",
+  "category": "Historic Town",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "5 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-gund-i-topzawa",
+  "name": "Gund-i Topzawa",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "1 components",
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-bestoon-cave",
+  "name": "Bestoon Cave",
+  "governorate": "Erbil",
+  "category": "Archaeological Cave",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-diyan-cave",
+  "name": "Diyan Cave",
+  "governorate": "Erbil",
+  "category": "Cave",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-erbil-citadel-hammam",
+  "name": "Erbil Citadel Hammam",
+  "governorate": "Erbil",
+  "category": "Historic Bath",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-great-mosque-erbil-citadel",
+  "name": "Great Mosque of Erbil Citadel",
+  "governorate": "Erbil",
+  "category": "Mosque",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-kurd-qaburstan",
+  "name": "Kurd Qaburstan",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-rabban-boya-shrine",
+  "name": "Rabban Boya Shrine",
+  "governorate": "Erbil",
+  "category": "Shrine",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-rabana-merquly",
+  "name": "Rabana-Merquly",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "2 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-ashkawta-rash",
+  "name": "Ashkawta Rash (Black Cave), Alla Quli",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Cave",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-dailaija-relief",
+  "name": "Dailaija Rock Relief (Darband-i Basara)",
+  "governorate": "Sulaymaniyah",
+  "category": "Rock Relief",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kur-u-kich-tomb",
+  "name": "Kur u Kich Rock-cut Tomb",
+  "governorate": "Sulaymaniyah",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-murad-rasu",
+  "name": "Murad Rasu",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qizqapan-tomb",
+  "name": "Qizqapan Rock-cut Tomb",
+  "governorate": "Sulaymaniyah",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-sara-palace-and-bathhouse",
+  "name": "Sara (Saray) Building and Fatima Khan Bathhouse",
+  "governorate": "Sulaymaniyah",
+  "category": "Historic Building",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-juwayjati-mosque",
+  "name": "Al-Juwayjati Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-khuzam-mosque",
+  "name": "Al-Khuzam Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-umariyya-mosque",
+  "name": "Al-Umariyya Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-bab-al-qala",
+  "name": "Bab al-Qal‘a",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-bab-al-sir",
+  "name": "Bab al-Sir",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-dawsat-ali-mosque",
+  "name": "Dawsat Ali Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-umm-al-tisa-mosque",
+  "name": "Mosque and Tomb of Umm al-Tis‘a and Cemetery",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-qara-saray",
+  "name": "Qara Saray",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-abdal-mosque-madrasa",
+  "name": "Shaykh Abdal Mosque and Madrasa",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-umar-al-aswad-mosque",
+  "name": "Umar al-Aswad Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-umawi-mosque",
+  "name": "Umayyad Mosque of Mosul",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-saray-police-station",
+  "name": "Al-Saray Police Station (Madrasat al-Sana’i‘)",
+  "governorate": "Nineveh",
+  "category": "Historic Building",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-tahira-syriac-catholic-mosul",
+  "name": "Al-Tahira Syriac Catholic Church (old), Mosul",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-tahira-kharijiya",
+  "name": "Al-Tahira Syriac Orthodox Church (al-Tahira al-Kharijiya)",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sitt-nafisa-shrine",
+  "name": "Hammam al-Saray Mosque and Shrine of al-Sitt Nafisa",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-hammam-al-umariya",
+  "name": "Hammam al-Umariya",
+  "governorate": "Nineveh",
+  "category": "Historic Bath",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-chaldean-mosul",
+  "name": "Mar Gorgis Chaldean Church, Mosul",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-ichaya-church",
+  "name": "Mar Ichaya Chaldean Church",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-touma-syriac-catholic",
+  "name": "Mar Touma Syriac Catholic Church, Mosul",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-imam-awn-al-din-shrine",
+  "name": "Mausoleum of Imam Awn al-Din",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-ridwani-mosque",
+  "name": "Mosque and Madrasa of al-Ridwani",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-awlad-al-hasan-mosque",
+  "name": "Mosque and Shrine of Awlad al-Hasan (Bayt Shahidu)",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-imam-ibrahim-mosque",
+  "name": "Mosque and Shrine of Imam Ibrahim",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-imam-muhsin-mosque",
+  "name": "Mosque and Shrine of Imam Muhsin (Madrasa al-Nuriya)",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-abbas-mosque",
+  "name": "Mosque and Shrine of al-Abbas",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-zayd-ibn-ali-mosque",
+  "name": "Mosque and Tomb of Imam Zayd ibn Ali",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-isa-dadah-mosque",
+  "name": "Mosque and Tomb of Isa Dadah",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nabi-daniyal-mosque",
+  "name": "Mosque and Tomb of Nabi Daniyal",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-abariqi-mosque",
+  "name": "Mosque and Tomb of Shaykh Muhammad al-Abariqi",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-qadib-al-ban-mosque",
+  "name": "Mosque and Tomb of Shaykh Qadib al-Ban",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-kharrazi-tomb",
+  "name": "Mosque and Tomb of al-Kharrazi",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-imam-muhammad-mosque",
+  "name": "Mosque of Imam Muhammad (al-Sab‘awi)",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mahmud-al-khidri-mosque",
+  "name": "Mosque of Mahmud al-Khidri",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-abu-al-ala-mosque",
+  "name": "Mosque of Shaykh Abu al-Ala",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shamun-al-safa-church",
+  "name": "Shamun al-Safa Chaldean Church",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shatt-al-jumi-mosque",
+  "name": "Shatt al-Jumi Mosque and Tomb of Shaykh Ibrahim al-Naqshbandi",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-abd-al-rahman-shrine",
+  "name": "Shrine of Imam Abd al-Rahman (Madrasa al-Izziya)",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ali-al-asghar-shrine",
+  "name": "Shrine of Imam Ali al-Asghar",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ali-al-hadi-shrine",
+  "name": "Shrine of Imam Ali al-Hadi",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-hamid-and-mahmud-shrine",
+  "name": "Shrine of Imams Hamid and Mahmud",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sultan-wais-mosque",
+  "name": "Sultan Wais Mosque",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-muhammad-al-afghani-takiya",
+  "name": "Takiya and Tomb of Muhammad al-Afghani",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-abu-al-hawawin-tomb",
+  "name": "Tomb of Abu al-Hawawin (Shaykh Amir)",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ibn-al-athir-tomb",
+  "name": "Tomb of Ibn al-Athir (Qabr al-Bint)",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shaykh-ibrahim-tomb",
+  "name": "Tomb of Shaykh Ibrahim",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shaykh-mansur-tomb",
+  "name": "Tomb of Shaykh Mansur",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-khan-al-gumruk",
+  "name": "Khan al-Gumruk",
+  "governorate": "Nineveh",
+  "category": "Caravanserai",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "UNESCO"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-ahudeni-church",
+  "name": "Mar Ahudeni Church",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "UNESCO"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-petion-church",
+  "name": "Mar Petion Church",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "UNESCO"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-souq-bab-al-saray",
+  "name": "Souq Bab al-Saray",
+  "governorate": "Nineveh",
+  "category": "Historic Market",
+  "band": "B",
+  "score": 20,
+  "why": [
+   "UNESCO"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-fort-shalmaneser",
+  "name": "Fort Shalmaneser",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "tier 1 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-khorsabad",
+  "name": "Khorsabad (Dur-Sharrukin)",
+  "governorate": "Nineveh",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "tier 1 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nimrud-northwest-palace",
+  "name": "Northwest Palace of Nimrud",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "tier 1 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sinjar-old-city",
+  "name": "Sinjar Historic Town (Singara)",
+  "governorate": "Nineveh",
+  "category": "Historic Town",
+  "band": "B",
+  "score": 15,
+  "why": [
+   "2 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nimrud-burnt-palace",
+  "name": "Burnt Palace of Nimrud",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ashurbanipal-north-palace",
+  "name": "North Palace of Ashurbanipal",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sennacherib-southwest-palace",
+  "name": "Southwest Palace of Sennacherib",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-hassuna",
+  "name": "Tell Hassuna",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-nebi-yunus",
+  "name": "Tell Nebi Yunus (Nineveh arsenal mound)",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "1 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-yarim-tepe",
+  "name": "Yarim Tepe",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-samarra-racecourses",
+  "name": "Abbasid Racecourses of Samarra",
+  "governorate": "Salah al-Din",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-istabulat",
+  "name": "Al-Istabulat (al-‘Arus Palace)",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-al-jafari-palace",
+  "name": "Al-Ja‘fari Palace (al-Mutawakkiliyya)",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-balkuwara-palace",
+  "name": "Balkuwara Palace",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-ashur-city-walls",
+  "name": "City Walls of Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Historic Monument",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-german-expedition-house-ashur",
+  "name": "German Expedition House, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Historic Building",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-husn-al-qadisiyya",
+  "name": "Husn al-Qadisiyya (Octagon of Harun al-Rashid)",
+  "governorate": "Salah al-Din",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-ishtar-temple-ashur",
+  "name": "Ishtar Temple, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Temple",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-akitu-house-ashur",
+  "name": "New Year Festival House (Akitu), Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Temple",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-old-palace-ashur",
+  "name": "Old Palace of Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-ottoman-barracks-ashur",
+  "name": "Ottoman Barracks, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Historic Building",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-parthian-palace-ashur",
+  "name": "Parthian Palace, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Palace",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-qubbat-al-sulaybiyya",
+  "name": "Qubbat al-Sulaybiyya",
+  "governorate": "Salah al-Din",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-royal-tombs-ashur",
+  "name": "Royal Burials of Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Mausoleum",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-tabira-gate",
+  "name": "Tabira Gate, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-tell-al-alij",
+  "name": "Tell al-‘Alij",
+  "governorate": "Salah al-Din",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-anu-adad-temple",
+  "name": "Temple of Anu and Adad, Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Temple",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-ashur-temple",
+  "name": "Temple of Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Temple",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-ashur-ziggurat",
+  "name": "Ziggurat of Ashur",
+  "governorate": "Salah al-Din",
+  "category": "Historic Monument",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-kar-tukulti-ninurta",
+  "name": "Kar-Tukulti-Ninurta (Tulul al-Aqar)",
+  "governorate": "Salah al-Din",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-round-city",
+  "name": "Round City of Baghdad (Madinat al-Salam)",
+  "governorate": "Baghdad",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "1 components",
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-seleucia-on-tigris",
+  "name": "Seleucia on the Tigris",
+  "governorate": "Baghdad",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ababra",
+  "name": "Ababra (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-abu-gubab",
+  "name": "Abu Gubab (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-abu-khazef",
+  "name": "Abu Khazef (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-abu-samad",
+  "name": "Abu Samad (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-abu-shufeh",
+  "name": "Abu Shufeh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-abu-tahin",
+  "name": "Abu Tahin (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ahmed-al-hattu",
+  "name": "Ahmed al-Hattu (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-imam-al-bairakdah",
+  "name": "Al-Imam al-Bairakdah (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ali-pasha",
+  "name": "Ali Pasha (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-alwand-bridge",
+  "name": "Alwand Bridge, Khanaqin",
+  "governorate": "Diyala",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-adhaim-ancient-dam",
+  "name": "Ancient Adhaim Dam",
+  "governorate": "Diyala",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-aq-tepe",
+  "name": "Aq Tepe (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ayyash",
+  "name": "Ayyash (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-bustan",
+  "name": "Bustan (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-choga-mami",
+  "name": "Choga Mami",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-deshtaneh",
+  "name": "Deshtaneh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-eshnunna",
+  "name": "Eshnunna (Tell Asmar)",
+  "governorate": "Diyala",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-eski-kifri",
+  "name": "Eski Kifri",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-gauri",
+  "name": "Gauri (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-greish",
+  "name": "Greish (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-hablayeh",
+  "name": "Hablayeh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-halawa",
+  "name": "Halawa (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-harmaleh",
+  "name": "Harmaleh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hawsh-kuri",
+  "name": "Hawsh Kuri Palace",
+  "governorate": "Diyala",
+  "category": "Palace",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-hikmeh",
+  "name": "Hikmeh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-imam-ali",
+  "name": "Imam Ali (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-imleihiyeh",
+  "name": "Imleihiyeh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-irsheidch",
+  "name": "Irsheidch (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-jeizalun",
+  "name": "Jeizalun (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-keshkul",
+  "name": "Keshkul (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-khafajah",
+  "name": "Khafajah (Tutub)",
+  "governorate": "Diyala",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-khan-bani-saad",
+  "name": "Khan Bani Saad Caravanserai",
+  "governorate": "Diyala",
+  "category": "Caravanserai",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-khanaqin-war-cemetery",
+  "name": "Khanaqin War Cemetery",
+  "governorate": "Diyala",
+  "category": "Cemetery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-kheit-genj",
+  "name": "Kheit Genj (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-kheit-imneithir",
+  "name": "Kheit Imneithir (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-kheit-qasim",
+  "name": "Kheit Qasim (I–III)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-kheit-al-imheidiyed",
+  "name": "Kheit al-Imheidiyed (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-kheizif",
+  "name": "Kheizif (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-khuzeifi",
+  "name": "Khuzeifi (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-kifri-saray",
+  "name": "Kifri Saray",
+  "governorate": "Diyala",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-kumeideh",
+  "name": "Kumeideh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-mahmud-agha",
+  "name": "Mahmud Agha (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-nebi-ismail",
+  "name": "Nebi Ismail (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-baqubah-old-saray",
+  "name": "Old Saray of Baqubah",
+  "governorate": "Diyala",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-sabra",
+  "name": "Sabra (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-seidalan",
+  "name": "Seidalan (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-shor-tepe",
+  "name": "Shor Tepe (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-prophet-daniel-shrine-diyala",
+  "name": "Shrine of the Prophet Daniel (Diyala)",
+  "governorate": "Diyala",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tejli",
+  "name": "Tejli (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tel-abu-uthaina",
+  "name": "Tel Abu Uthaina",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tel-shihab",
+  "name": "Tel Shihab",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-abada",
+  "name": "Tell Abada",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-abu-husaini",
+  "name": "Tell Abu Husaini",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-abu-qasim",
+  "name": "Tell Abu Qasim",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-agrab",
+  "name": "Tell Agrab",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-ahmed-al-mughir",
+  "name": "Tell Ahmed al-Mughir",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-ajamat",
+  "name": "Tell Ajamat",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-gubba",
+  "name": "Tell Gubba",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-hassan",
+  "name": "Tell Hassan",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-ishchali",
+  "name": "Tell Ishchali (Nerebtum)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-kesaran",
+  "name": "Tell Kesaran",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-madhur",
+  "name": "Tell Madhur",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-rubeidheh",
+  "name": "Tell Rubeidheh",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-songor",
+  "name": "Tell Songor (A, B and C)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-suleimah",
+  "name": "Tell Suleimah",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-yelkhi",
+  "name": "Tell Yelkhi",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-al-zendan",
+  "name": "Tell al-Zendan Fortress",
+  "governorate": "Diyala",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tellul-hamediyat",
+  "name": "Tellul Hamediyat",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-baradan",
+  "name": "Tulul Baradan (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-beni-weis",
+  "name": "Tulul Beni Weis (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-umm-salim",
+  "name": "Tulul Umm Salim (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-al-bakhtariyah",
+  "name": "Tulul al-Bakhtariyah (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-al-khubari",
+  "name": "Tulul al-Khubari (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tulul-al-yarmet",
+  "name": "Tulul al-Yarmet (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-tunneireh",
+  "name": "Tunneireh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-baqa",
+  "name": "al-Baqa (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-daham",
+  "name": "al-Daham (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-hafayir",
+  "name": "al-Hafayir (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-mahatteh",
+  "name": "al-Mahatteh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-al-zawiyah",
+  "name": "al-Zawiyah (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ar-raha",
+  "name": "ar-Raha (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-as-sara",
+  "name": "as-Sara (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-as-saray",
+  "name": "as-Saray (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ash-shair",
+  "name": "ash-Sha’ir (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-ash-shoureh",
+  "name": "ash-Shoureh (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-hamrin-at-turah",
+  "name": "at-Turah (Hamrin tell)",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-kifri-bawa-shaswar",
+  "name": "Bawa Shaswar Quarter, Kifri",
+  "governorate": "Diyala",
+  "category": "Historic Urban Area",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-dastagird",
+  "name": "Dastagird (Royal Dastjerd)",
+  "governorate": "Diyala",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-dawood-zarifa-house",
+  "name": "Dawood Zarifa House, Kifri",
+  "governorate": "Diyala",
+  "category": "Historic House",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-majid-pasha-palace-kifri",
+  "name": "Majid Pasha Baban Palace, Kifri",
+  "governorate": "Diyala",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-me-turan",
+  "name": "Me-Turan (Tell Haddad and Tell as-Sib)",
+  "governorate": "Diyala",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-kifri-qaysari-bazaar",
+  "name": "Qaysari Bazaar, Kifri",
+  "governorate": "Diyala",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-rashid",
+  "name": "Tell Rashid",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-diyala-tell-saadiya",
+  "name": "Tell Saadiya",
+  "governorate": "Diyala",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-ancient-anbar",
+  "name": "Ancient Anbar (Peroz-Shapur)",
+  "governorate": "Anbar",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-kifrin",
+  "name": "Kifrin",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-yemniyeh",
+  "name": "Yemniyeh",
+  "governorate": "Anbar",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-al-farouq-minaret-hit",
+  "name": "Al-Farouq Mosque and Minaret, Hit",
+  "governorate": "Anbar",
+  "category": "Minaret",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-bijan-island",
+  "name": "Bijan Island",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-hit-bitumen-springs",
+  "name": "Bitumen Springs of Hit",
+  "governorate": "Anbar",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-norias-of-hit",
+  "name": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im)",
+  "governorate": "Anbar",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-shaykh-rajab-mosque",
+  "name": "Shaykh Rajab Mosque (al-Barani), Rawa",
+  "governorate": "Anbar",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-anbar-tell-aswad-haditha",
+  "name": "Tell Aswad (Haditha)",
+  "governorate": "Anbar",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-amedi-ancient-staircase",
+  "name": "Ancient Staircase, Amedi",
+  "governorate": "Duhok",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-yohanna-dawodiya",
+  "name": "Church of Mar Yohanna, Dawodiya",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-sultana-mahdokht-araden",
+  "name": "Church of Sultana Mahdokht, Araden",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-amedi-chaldean-archdiocese",
+  "name": "Former Chaldean Archdiocese, Amedi",
+  "governorate": "Duhok",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-gali-zardak",
+  "name": "Gali Zardak Rock Sculptures",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-duhok-grand-mosque",
+  "name": "Grand Mosque of Duhok",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-kanisban",
+  "name": "Kanisban",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-ith-alaha-church",
+  "name": "Mar Ith-Alaha Church, Duhok",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mardaman-bassetki",
+  "name": "Mardaman (Bassetki)",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mosul-gate-amedi",
+  "name": "Mosul Gate, Amedi",
+  "governorate": "Duhok",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-muqable-i",
+  "name": "Muqable I",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-muqable-iii",
+  "name": "Muqable III",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-nemrik-9",
+  "name": "Nemrik 9",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-duhok-old-bazaar",
+  "name": "Old Bazaar of Duhok",
+  "governorate": "Duhok",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-zakho-old-bazaar",
+  "name": "Old Bazaar of Zakho",
+  "governorate": "Duhok",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-amedi-parthian-reliefs",
+  "name": "Parthian Reliefs at Amedi",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-qubahan-madrasa",
+  "name": "Qubahan Madrasa",
+  "governorate": "Duhok",
+  "category": "Historic School",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mam-chevan-mausoleums",
+  "name": "Yazidi Mausoleums of Mam Chevan",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-zebari-gate-amedi",
+  "name": "Zebari Gate, Amedi",
+  "governorate": "Duhok",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-akre-castle",
+  "name": "Akre Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-akre-qishla",
+  "name": "Akre Qishla",
+  "governorate": "Duhok",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-asinkran",
+  "name": "Asinkran",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-bani-kondi-mosque",
+  "name": "Bani Kondi Mosque, Bamerne",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-betanure-synagogue",
+  "name": "Betanure Synagogue and Elijah Cave",
+  "governorate": "Duhok",
+  "category": "Synagogue",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-oudisho-kondak",
+  "name": "Church of Mar Oudisho, Kondak",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mart-shmune-bebadi",
+  "name": "Church of Mart Shmune, Bebadi",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-dehi-churches",
+  "name": "Churches of Dehi",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-komane-churches",
+  "name": "Churches of Komane",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-sharanish-churches",
+  "name": "Churches of Sharanish",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-dayrabun-monastery",
+  "name": "Dayrabun Monastery Site",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-issa-bridge",
+  "name": "Issa Bridge",
+  "governorate": "Duhok",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-zakho-jewish-quarter",
+  "name": "Jewish Quarter of Zakho",
+  "governorate": "Duhok",
+  "category": "Historic Urban Area",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-khanke-hellenistic-tombs",
+  "name": "Khanke Hellenistic Tombs",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mangesh-mar-abraham",
+  "name": "Mangesh: Mar Gewargis Church and Mar Abraham Monastery Site",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-abdisho-monastery-dere",
+  "name": "Monastery of Mar Abdisho, Dere",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-atqen-monastery",
+  "name": "Monastery of Mar Atqen, Dera Shish",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-bakhetme-mar-daniel",
+  "name": "Monastery of Mar Daniel, Bakhetme",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-mar-qayyoma-dooreh",
+  "name": "Monastery of Mar Qayyoma, Dooreh",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-kalati-mosque-companions",
+  "name": "Mosque of the Companions, Kalati",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-akre-old-town",
+  "name": "Old Quarters of Akre",
+  "governorate": "Duhok",
+  "category": "Historic Town",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-qubad-pasha-castle",
+  "name": "Qubad Pasha Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-deraluk-st-luke",
+  "name": "Ruined Monastery of St Luke, Deraluk",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-avzrog-sourp-vartan",
+  "name": "Sourp Vartan Armenian Church, Avzrog",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-tell-gombass",
+  "name": "Tell Gombass",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-tomb-of-hazkiel",
+  "name": "Tomb of the Prophet Hazkiel, Amedi",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-sharya-yazidi-shrines",
+  "name": "Yazidi Shrines of Sharya",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-duhok-zakho-castle",
+  "name": "Zakho Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-nuzi-city-wall",
+  "name": "City Wall of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-mariam-al-adra-koria",
+  "name": "Mariam al-Adra Church, Koria",
+  "governorate": "Kirkuk",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-altun-kupri-bridges",
+  "name": "Ottoman Bridges of Altun Kupri",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-nuzi-palace",
+  "name": "Palace of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Palace",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-sheikh-ismail-shrine",
+  "name": "Shrine of Sheikh Ismail, Hbejh",
+  "governorate": "Kirkuk",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-tahmazgerd-red-church",
+  "name": "Tahmazgerd Church (Red Church)",
+  "governorate": "Kirkuk",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-tell-arab-kumbet",
+  "name": "Tell Arab Kumbet",
+  "governorate": "Kirkuk",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-tell-al-fakhar",
+  "name": "Tell al-Fakhar",
+  "governorate": "Kirkuk",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-nuzi-temple",
+  "name": "Temple of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Temple",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-daquq-ottoman-bridge",
+  "name": "Ottoman Bridge of Daquq",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-kirkuk-stone-bridge",
+  "name": "Ottoman Stone Bridge, Kirkuk",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-salih-malli-house",
+  "name": "Salih Malli House",
+  "governorate": "Kirkuk",
+  "category": "Historic House",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-kirkuk-takiya-najib",
+  "name": "Takiya of Najib",
+  "governorate": "Kirkuk",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-dere-castle",
+  "name": "Dere Castle",
+  "governorate": "Erbil",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-dwin-castle",
+  "name": "Dwin Castle",
+  "governorate": "Erbil",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-gird-i-dasht",
+  "name": "Gird-i Dasht",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-grand-mosque-koya",
+  "name": "Grand Mosque of Koya",
+  "governorate": "Erbil",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-house-b13-topkhana",
+  "name": "House B13 (37 Topkhana)",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-kelashin-stele",
+  "name": "Kelashin Stele",
+  "governorate": "Erbil",
+  "category": "Stele",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mar-bena-church-armota",
+  "name": "Mar Bena Church, Armota",
+  "governorate": "Erbil",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mudjesir-haldi-temple",
+  "name": "Mudjesir (proposed Musasir temple of Haldi)",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-qalat-lokhan",
+  "name": "Qalat Lokhan",
+  "governorate": "Erbil",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-qasr-shemamok",
+  "name": "Qasr Shemamok (Kilizu)",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-rashid-agha-house",
+  "name": "Rashid Agha House",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-selim-qaqa-house",
+  "name": "Selim Qaqa House",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-topzawa-stele",
+  "name": "Topzawa Stele",
+  "governorate": "Erbil",
+  "category": "Stele",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-yaqub-aga-house",
+  "name": "Yaqub Aga House",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-zawi-chemi-shanidar",
+  "name": "Zawi Chemi Shanidar",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-aliawa",
+  "name": "Aliawa",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-awena",
+  "name": "Awena",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-bana-helk",
+  "name": "Bana Helk",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-bash-tapa",
+  "name": "Bash Tapa",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-batas-harir-relief",
+  "name": "Batas-Harir Rock Relief",
+  "governorate": "Erbil",
+  "category": "Rock Relief",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-gird-lashkir",
+  "name": "Gird Lashkir",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-gird-i-matrab",
+  "name": "Gird-i Matrab",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-abdulaziz",
+  "name": "Girdi Abdulaziz",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-daghan",
+  "name": "Girdi Daghan",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-gozka",
+  "name": "Girdi Gozka",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-helawa",
+  "name": "Girdi Helawa",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-khazna",
+  "name": "Girdi Khazna",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-peshka",
+  "name": "Girdi Peshka",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-qawagh",
+  "name": "Girdi Qawagh",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tomb-of-uzair",
+  "name": "Grave of Prophet Uzair (Ezra), Erbil",
+  "governorate": "Erbil",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-koya-qaysari-bazaar",
+  "name": "Haji Bakr Agha Qaysari, Koya",
+  "governorate": "Erbil",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-erbil-jewish-cemetery",
+  "name": "Jewish Cemetery of Erbil",
+  "governorate": "Erbil",
+  "category": "Cemetery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-khalidiya-khanqah-mosque",
+  "name": "Khalidiya Khanqah Mosque and Tekke",
+  "governorate": "Erbil",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mahmud-agha-khan-koya",
+  "name": "Mahmud Agha Khan, Koya",
+  "governorate": "Erbil",
+  "category": "Caravanserai",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mar-gewargis-bdeyal",
+  "name": "Mar Gewargis Church, Bedyal",
+  "governorate": "Erbil",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mart-mariam-church-armota",
+  "name": "Mart Mariam Church, Armota",
+  "governorate": "Erbil",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mausoleum-sultan-muzaffar",
+  "name": "Mausoleum of Sultan Muzaffar",
+  "governorate": "Erbil",
+  "category": "Mausoleum",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-melqi-mar-qardagh",
+  "name": "Melqi (Mar Qardagh tradition), Ankawa",
+  "governorate": "Erbil",
+  "category": "Religious Heritage Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mulla-abdul-majid-house",
+  "name": "Mulla Abdul Majid House, Koya",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-mulla-kura-house",
+  "name": "Mulla Kura House, Koya",
+  "governorate": "Erbil",
+  "category": "Historic House",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-plngan-cave",
+  "name": "Plngan Cave",
+  "governorate": "Erbil",
+  "category": "Archaeological Cave",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-qalinj-agha",
+  "name": "Qalinj Agha",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-rawanduz-old-town",
+  "name": "Rawanduz Old Town",
+  "governorate": "Erbil",
+  "category": "Historic Town",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-satu-qala",
+  "name": "Satu Qala (Idu)",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-girdi-sheikh-ahmad",
+  "name": "Sheikh Ahmad archaeological site",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-st-george-church-ankawa",
+  "name": "St. George’s Church, Ankawa",
+  "governorate": "Erbil",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tell-surezha",
+  "name": "Surezha",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tell-abu-shita",
+  "name": "Tell Abu Shita",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tell-baqrta",
+  "name": "Tell Baqrta",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tell-nader",
+  "name": "Tell Nader",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-tell-quri-beg",
+  "name": "Tell Quri Beg",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-erbil-zaga",
+  "name": "Zaga",
+  "governorate": "Erbil",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-alan-tepe",
+  "name": "Alan Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-ali-awa",
+  "name": "Ali Awa",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-barbakh",
+  "name": "Barbakh",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-barika-tanjarow",
+  "name": "Barika Tanjarow",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-bin-gird-i-muan",
+  "name": "Bin Gird-i Muan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-bingird",
+  "name": "Bingird",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-boskin",
+  "name": "Boskin",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-caani-rash",
+  "name": "Caani Rash",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-darbandikhan-khan",
+  "name": "Darbandikhan Khan",
+  "governorate": "Sulaymaniyah",
+  "category": "Caravanserai",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-duwanza-imam",
+  "name": "Duwanza Imam",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-bazar",
+  "name": "Gird-i Bazar",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-qalrakh",
+  "name": "Gird-i Qalrakh",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-qara-tepe",
+  "name": "Gird-i Qara Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-qulkhurd",
+  "name": "Gird-i Qulkhurd",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-rostam",
+  "name": "Gird-i Rostam",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-saraw",
+  "name": "Gird-i Saraw",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-shakar",
+  "name": "Gird-i Shakar",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-shamlu",
+  "name": "Gird-i Shamlu",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-sharif",
+  "name": "Gird-i Sharif",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gird-i-shatwan",
+  "name": "Gird-i Shatwan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-girda-resh-barika",
+  "name": "Girda Resh Barika",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-greza",
+  "name": "Greza",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-gulalan",
+  "name": "Gulalan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-ibrahim-kachal",
+  "name": "Ibrahim Kachal",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kalespi",
+  "name": "Kalespi",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kamalan",
+  "name": "Kamalan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kani-goma",
+  "name": "Kani Goma",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kani-jine",
+  "name": "Kani Jine",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kani-jine-cemetery",
+  "name": "Kani Jine cemetery",
+  "governorate": "Sulaymaniyah",
+  "category": "Cemetery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kani-shaie",
+  "name": "Kani Shaie",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kara-gol",
+  "name": "Kara Gol",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-karim-shahir",
+  "name": "Karim Shahir",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-karima-swr",
+  "name": "Karima Swr",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kharajian",
+  "name": "Kharajian",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-kozaraqa",
+  "name": "Kozaraqa",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-lamar-kazi",
+  "name": "Lamar kazi",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-maluan",
+  "name": "Maluan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-manswr-awa",
+  "name": "Manswr Awa",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-marif-tepe",
+  "name": "Marif Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-paikuli-tower",
+  "name": "Paikuli Tower and Inscription",
+  "governorate": "Sulaymaniyah",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-palegawra-cave",
+  "name": "Palegawra Cave",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Cave",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qadar-kamala",
+  "name": "Qadar Kamala",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qala-tepe",
+  "name": "Qala Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qalaja",
+  "name": "Qalaja",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qalat-said-ahmadan",
+  "name": "Qalat Said Ahmadan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qalbaza-tepe",
+  "name": "Qalbaza Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qaratoghan",
+  "name": "Qaratoghan",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-qisirt-saru",
+  "name": "Qisirt Saru",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-quchika-tepe",
+  "name": "Quchika Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-quruchiya",
+  "name": "Quruchiya",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-raziana",
+  "name": "Raziana",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-saidwa-shekhrash",
+  "name": "Saidwa-Shekhrash",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-sartka-castle",
+  "name": "Sartka Castle",
+  "governorate": "Sulaymaniyah",
+  "category": "Castle",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-satubist",
+  "name": "Satubist",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-shekh-wisal-1",
+  "name": "Shekh Wisal 1",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-shekh-wisal-2",
+  "name": "Shekh Wisal 2",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-sutik-tepe",
+  "name": "Sutik Tepe",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-arbat",
+  "name": "Tell Arbat",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-bengel",
+  "name": "Tell Bengel",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-chragh",
+  "name": "Tell Chragh",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-haji",
+  "name": "Tell Haji",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-hajji-abdallah",
+  "name": "Tell Hajji Abdallah",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-hassil",
+  "name": "Tell Hassil",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-raza",
+  "name": "Tell Raza",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tepe-kal",
+  "name": "Tepe Kal",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tepe-kurra",
+  "name": "Tepe Kurra",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tepe-sheshak-hagg-hussain",
+  "name": "Tepe Sheshak Hagg Hussain",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tholima",
+  "name": "Tholima",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-turkaka",
+  "name": "Turkaka",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-yakhimali",
+  "name": "Yakhimali",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-yakhimali-sarchawa",
+  "name": "Yakhimali-Sarchawa",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-yakmala",
+  "name": "Yakmala",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-zarzi-rock-shelter",
+  "name": "Zarzi Rock Shelter",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Cave",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-zrgwez-kwer",
+  "name": "Zrgwez Kwer",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-jasana-cave",
+  "name": "Jasana Cave",
+  "governorate": "Sulaymaniyah",
+  "category": "Cave",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-pasha-palace-tazade",
+  "name": "Pasha Palace, Tazade",
+  "governorate": "Sulaymaniyah",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-sulaymaniyah-museum",
+  "name": "Sulaymaniyah Museum",
+  "governorate": "Sulaymaniyah",
+  "category": "Museum",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-bazmusian",
+  "name": "Tell Bazmusian",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-sulaymaniyah-tell-begum",
+  "name": "Tell Begum",
+  "governorate": "Sulaymaniyah",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-adad-gate",
+  "name": "Adad Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-tahira-chaldean-mosul",
+  "name": "Al-Tahira Chaldean Church, Mosul",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-assur-gate",
+  "name": "Assur Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-balawat",
+  "name": "Balawat (Imgur-Enlil)",
+  "governorate": "Nineveh",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-barood-khana",
+  "name": "Barood Khana",
+  "governorate": "Nineveh",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-el-khan",
+  "name": "El Khan",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ezdin-mir-shexka",
+  "name": "Ezdin Mîr Chamsani Mausoleum, Shexka",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-gir-e-gomel",
+  "name": "Gir-e Gomel",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nimrud-governors-palace",
+  "name": "Governor’s Palace, Nimrud",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ishtar-temple-nineveh",
+  "name": "Ishtar Temple of Nineveh",
+  "governorate": "Nineveh",
+  "category": "Temple",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mam-rashan-shrine",
+  "name": "Mam Rashan Shrine",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-addai-karamles",
+  "name": "Mar Addai Church, Karamles",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-alqosh",
+  "name": "Mar Gorgis Church, Alqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-baqofa",
+  "name": "Mar Gorgis Church, Baqofa",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-bartella",
+  "name": "Mar Gorgis Church, Bartella",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-qaraqosh",
+  "name": "Mar Gorgis Church, Qaraqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-tell-esqof",
+  "name": "Mar Gorgis Church, Tell Esqof",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-mikha-alqosh",
+  "name": "Mar Mikha Church, Alqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-qouryakos-batnaya",
+  "name": "Mar Qouryakos Church, Batnaya",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-sarkis-bakus-qaraqosh",
+  "name": "Mar Sarkis and Bakus Church, Qaraqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-yacoub-qaraqosh",
+  "name": "Mar Yacoub al-Muqataa Church, Qaraqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-barbara-karamles",
+  "name": "Mart Barbara Monastery, Karamles",
+  "governorate": "Nineveh",
+  "category": "Monastery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-mariam-bartella",
+  "name": "Mart Mariam Church, Bartella",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-mariam-bashiqa",
+  "name": "Mart Mariam al-Adra Church, Bashiqa",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-shmoni-bartella",
+  "name": "Mart Shmoni Church, Bartella",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-shmoni-bashiqa",
+  "name": "Mart Shmoni Church, Bashiqa",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mart-shmoni-qaraqosh",
+  "name": "Mart Shmoni Church, Qaraqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mashki-gate",
+  "name": "Mashki Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-melek-miran-bashiqa",
+  "name": "Mausoleum of Melek Miran, Bashiqa",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mir-ali-beg-baadre",
+  "name": "Mausoleum of Mîr Alî Beg, Baadre",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sheikh-bakeur-bahzani",
+  "name": "Mausoleum of Sheikh Bakeur al-Qatani, Bahzani",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sheikh-suwar-beban",
+  "name": "Mausoleum of Sheikh Suwar, Beban",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mezra",
+  "name": "Mezra (Qara Tepe)",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-qutb-al-din-minaret-sinjar",
+  "name": "Minaret of Sultan Qutb al-Din’s Madrasa, Sinjar",
+  "governorate": "Nineveh",
+  "category": "Minaret",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-our-lady-of-the-seeds",
+  "name": "Monastery of Our Lady of the Seeds",
+  "governorate": "Nineveh",
+  "category": "Monastery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nabi-shith-mosque",
+  "name": "Mosque of Nabi Shith",
+  "governorate": "Nineveh",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-english-war-cemetery-mosul",
+  "name": "Mosul War Cemetery",
+  "governorate": "Nineveh",
+  "category": "Cemetery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mlefaat",
+  "name": "M’lefaat",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nergal-gate",
+  "name": "Nergal Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-adad-nerari-palace-nimrud",
+  "name": "Palace of Adad-nerari III, Nimrud",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shamash-gate",
+  "name": "Shamash Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sheikh-mand-temple",
+  "name": "Sheikh Mand Temple, Gedala",
+  "governorate": "Nineveh",
+  "category": "Temple",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-shaykh-fathi-shrine",
+  "name": "Shrine of Shaykh Fathi al-Mawsili",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sitt-zaynab-sinjar",
+  "name": "Shrine of Sitt Zaynab, Sinjar",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sin-gate",
+  "name": "Sin Gate",
+  "governorate": "Nineveh",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-al-tahira-qaraqosh",
+  "name": "St Mary al-Tahira Church, Qaraqosh",
+  "governorate": "Nineveh",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sultan-ezid-mahad",
+  "name": "Sultan Ezid Mausoleum, Mahad",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-arpachiyah",
+  "name": "Tell Arpachiyah",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-billa",
+  "name": "Tell Billa (Shibaniba)",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-kuyunjik",
+  "name": "Tell Kuyunjik",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-sotto",
+  "name": "Tell Sotto",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-telul-eth-thalathat",
+  "name": "Telul eth-Thalathat",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nimrud-ninurta-temple",
+  "name": "Temple of Ninurta, Nimrud",
+  "governorate": "Nineveh",
+  "category": "Temple",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tepe-gawra",
+  "name": "Tepe Gawra",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-rashid-lolan-tomb",
+  "name": "Tomb of Shaykh Rashid Lolan",
+  "governorate": "Nineveh",
+  "category": "Mausoleum",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tomb-of-nahum",
+  "name": "Tomb of the Prophet Nahum, Alqosh",
+  "governorate": "Nineveh",
+  "category": "Synagogue",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-umm-dabaghiyah",
+  "name": "Umm Dabaghiyah",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-baba-noah-hatara",
+  "name": "Yazidi Mausoleum of Baba Noah, Hatara",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-bozan-mausoleums",
+  "name": "Yazidi Mausoleums of Bozan",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sinjar-yazidi-mausoleums",
+  "name": "Yazidi Mausoleums of Mount Sinjar",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ain-sifni-shrines",
+  "name": "Yazidi Shrines of Ain Sifni",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-nimrud-ziggurat",
+  "name": "Ziggurat of Nimrud",
+  "governorate": "Nineveh",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-baadre-mir-castle",
+  "name": "Castle of the Mir, Baadre",
+  "governorate": "Nineveh",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-ginnig",
+  "name": "Ginnig",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-karamles-kar-mullissi",
+  "name": "Karamles mounds (Kar-Mullissi)",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-malak-sheikh-hassan-temple",
+  "name": "Malak Sheikh Hassan Temple, Sinjar",
+  "governorate": "Nineveh",
+  "category": "Temple",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-oraha-monastery",
+  "name": "Mar Oraha Monastery",
+  "governorate": "Nineveh",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mar-gorgis-monastery-mosul",
+  "name": "Monastery of Mar Gorgis, Mosul",
+  "governorate": "Nineveh",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-sharif-khan-palace",
+  "name": "Sharif Khan Palace (Tarbisu)",
+  "governorate": "Nineveh",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-saad-ibn-aqil-shrine",
+  "name": "Shrine of Imam Saad ibn Aqil, Tal Afar",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-mohamed-rashan-shrine",
+  "name": "Shrine of Mohamed Rashan, Bardarash",
+  "governorate": "Nineveh",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-deir-situn",
+  "name": "Tell Deir Situn",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-khoshi",
+  "name": "Tell Khoshi",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-maghzaliyah",
+  "name": "Tell Maghzaliyah",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-taya",
+  "name": "Tell Taya",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-nineveh-tell-al-rimah",
+  "name": "Tell al-Rimah",
+  "governorate": "Nineveh",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-sayyid-muhammad-shrine",
+  "name": "Shrine of Sayyid Muhammad ibn Ali al-Hadi, Balad",
+  "governorate": "Salah al-Din",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-tell-es-sawwan",
+  "name": "Tell es-Sawwan",
+  "governorate": "Salah al-Din",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-al-arbaeen-mosque",
+  "name": "Al-Arba‘een Mosque, Tikrit",
+  "governorate": "Salah al-Din",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-salah-al-din-tikrit-citadel",
+  "name": "Tikrit Citadel and Walls",
+  "governorate": "Salah al-Din",
+  "category": "Citadel",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-al-muradiyya-mosque",
+  "name": "Al-Muradiyya Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-al-shaheed-monument",
+  "name": "Al-Shaheed Monument",
+  "governorate": "Baghdad",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-armenian-sacred-heart",
+  "name": "Armenian Catholic Church of the Sacred Heart",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-bab-al-wastani",
+  "name": "Bab al-Wastani",
+  "governorate": "Baghdad",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-north-gate-war-cemetery",
+  "name": "Baghdad (North Gate) War Cemetery",
+  "governorate": "Baghdad",
+  "category": "Cemetery",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-chaldean-st-joseph-karrada",
+  "name": "Chaldean Cathedral of St Joseph, Karrada",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-queen-of-the-rosary",
+  "name": "Chaldean Church of Our Lady Queen of the Rosary",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-kokhe-church",
+  "name": "Church of Kokhe",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-mar-gorgis-new-baghdad",
+  "name": "Mar Gorgis Chaldean Church, New Baghdad",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-meir-taweig-synagogue",
+  "name": "Meir Taweig Synagogue",
+  "governorate": "Baghdad",
+  "category": "Synagogue",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-unknown-soldier-monument",
+  "name": "Monument to the Unknown Soldier",
+  "governorate": "Baghdad",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-al-ahmadiyya-mosque",
+  "name": "Mosque-Madrasa of al-Ahmadiyya",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-sippar-amnanum",
+  "name": "Sippar-Amnanum (Tell ed-Der)",
+  "governorate": "Baghdad",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-sourp-asdvadzadzin",
+  "name": "Sourp Asdvadzadzin Church (Miskinta)",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-syriac-catholic-immaculate",
+  "name": "Syriac Catholic Church of the Immaculate Conception (site)",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-st-peter-and-paul-cathedral",
+  "name": "Syriac Orthodox Cathedral of St Peter and St Paul",
+  "governorate": "Baghdad",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-talisman-gate",
+  "name": "Talisman Gate (site)",
+  "governorate": "Baghdad",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-university-of-baghdad-campus",
+  "name": "University of Baghdad Campus (Gropius)",
+  "governorate": "Baghdad",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-abd-al-karim-qasim-museum",
+  "name": "Abd al-Karim Qasim Museum",
+  "governorate": "Baghdad",
+  "category": "Museum",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-adila-khatun-mosque",
+  "name": "Adila Khatun Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-markaziyah-high-school",
+  "name": "Al-Markaziyya High School",
+  "governorate": "Baghdad",
+  "category": "Historic School",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-mustasim-billah-mosque",
+  "name": "Al-Musta‘sim Billah Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-al-rehab-palace",
+  "name": "Al-Rehab Palace",
+  "governorate": "Baghdad",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-adudi-hospital",
+  "name": "Al-‘Adudi Bimaristan (site)",
+  "governorate": "Baghdad",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-arif-agha-mosque",
+  "name": "Arif Agha Mosque (Imam Ahmad ibn Hanbal)",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-bab-al-muadham",
+  "name": "Bab al-Mu‘adham",
+  "governorate": "Baghdad",
+  "category": "Gate",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-bab-al-sheikh-quarter",
+  "name": "Bab al-Sheikh Quarter",
+  "governorate": "Baghdad",
+  "category": "Historic Urban Area",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-bataween",
+  "name": "Bataween (former Jewish quarter)",
+  "governorate": "Baghdad",
+  "category": "Historic Urban Area",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-fattah-pasha-mosque",
+  "name": "Fattah Pasha Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-freedom-monument",
+  "name": "Freedom Monument (Nasb al-Hurriyah)",
+  "governorate": "Baghdad",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-kahramana",
+  "name": "Kahramana Fountain",
+  "governorate": "Baghdad",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-khuld-palace",
+  "name": "Khuld Palace (site)",
+  "governorate": "Baghdad",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-shabandar-mosque",
+  "name": "Shabandar Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-sippar",
+  "name": "Sippar (Tell Abu Habbah)",
+  "governorate": "Baghdad",
+  "category": "Archaeological City",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-siraj-al-din-mosque",
+  "name": "Siraj al-Din Mosque",
+  "governorate": "Baghdad",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-taj-palace",
+  "name": "Taj Palace (site)",
+  "governorate": "Baghdad",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-tell-harmal",
+  "name": "Tell Harmal (Shaduppum)",
+  "governorate": "Baghdad",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-tell-muhammad",
+  "name": "Tell Muhammad",
+  "governorate": "Baghdad",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-tell-al-dhibai",
+  "name": "Tell al-Dhiba‘i",
+  "governorate": "Baghdad",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-victory-arch",
+  "name": "Victory Arch (Swords of Qadisiyah)",
+  "governorate": "Baghdad",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ },
+ {
+  "id": "site-baghdad-white-palace",
+  "name": "White Palace (al-Qasr al-Abyadh)",
+  "governorate": "Baghdad",
+  "category": "Palace",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "pending",
+  "reason": ""
+ }
+]
