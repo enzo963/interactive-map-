@@ -1002,3 +1002,49 @@ Final checks: 228 Python tests, 34 JavaScript tests with E2E enabled, lint and
 production build passed. Large-run figures measure synthetic local processing;
 they do not establish live crawler throughput or capacity for arbitrary larger
 pages/datasets. Full metrics and test-only traces are saved with the task report.
+
+## Additional photographs for flagship records
+
+Covers come from `apply_cover_review.py`; renditions from `optimize_images.py`. Flagship
+records then receive additional reviewed photographs (`galleryImages`):
+
+```bash
+python3 gallery_candidates.py --date 2026-11-09 --sheets /path/to/contact-sheets   # add --only <ids> to resume
+python3 apply_gallery_review.py data/images/gallery-review-2026-11-09.json
+python3 optimize_images.py && python3 optimize_images.py --check
+```
+
+- `gallery_candidates.py` reads the Commons category of each flagship's own Wikidata item
+  (P373, a Commons category sitelink, or the item's main category P910) and its direct
+  sub-categories. It keeps free-license JPEGs of at least 1200 px, drops NC/ND, maps and
+  drawings, objects now in museums (except on museum cards), the cover file and near-duplicates
+  (difference hash), and writes `data/images/gallery-candidates-<date>.json` plus one contact
+  sheet per site. It calls the APIs through `curl` with back-off for Wikimedia rate limits.
+- The review file records a decision for every candidate: approved images name the viewpoint
+  they add (it becomes the caption), rejected ones give the reason.
+- `apply_gallery_review.py` writes each approved image with its own credit, license, license
+  URL, Commons file page, identity, license review and publication approval bound to the site
+  and the image, as covers have. It accepts free licenses only, skips the cover and files
+  already present, and stops at six images per record.
+
+## Site videos — verification
+
+`verify_videos.py` checks `src/data/site-videos.json`: every video is still available on YouTube,
+its title matches, its channel is its listed publisher's channel, and every linked card exists with a
+known relation (`part` and `context` links need a note). `--stamp` records the check date when all
+pass. Requests use curl with the `HistoryInCards-research/1.0` user agent; sites that refuse automated
+requests (403/429) are not retried around. See `src/data/README.md` for the publisher rules.
+
+    python3 verify_videos.py
+    python3 verify_videos.py --stamp
+
+## 3D documentation — verification
+
+`verify_documentation.py` checks `src/data/digital-documentation.json` against the Sketchfab API: each
+model is still public under the same title, creator account and license, every resource is classified
+(measured or modeled, a known method, stated or inferred evidence with a note, and the state it shows),
+manual modelling is never classed as measured, and every linked card exists. `--stamp` records the check
+date when all pass.
+
+    python3 verify_documentation.py
+    python3 verify_documentation.py --stamp

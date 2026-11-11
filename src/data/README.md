@@ -82,6 +82,32 @@ its size limit.
 A card without an approved cover shows the Heritage Bridge fallback: the arch mark, the
 site type and "No verified photograph". It never borrows a photograph of another place.
 
+## Additional photographs (galleries)
+
+Flagship records also carry `galleryImages`, shown in the Site Details gallery and listed one
+by one under Credits. Flagships are the World Heritage properties, the largest archaeological
+cities, and complexes (citadels, monasteries, shrines, palaces) whose plan, interior or setting
+one photograph cannot show; the list is `FLAGSHIPS` in
+`tools/content-pipeline/gallery_candidates.py`. A missing gallery never holds a record back.
+
+1. **Candidates.** Photographs in the Wikimedia Commons category of the card's own Wikidata
+   item and its direct sub-categories. Free licenses only (as for covers), JPEG of at least
+   1200 px, never the cover file, never a near-duplicate of it, and never an object from the
+   site now in a museum (except on museum cards).
+2. **Review.** Each candidate is viewed on a contact sheet beside the cover and approved only
+   when it shows the site itself and adds a viewpoint the cover and the other approved images
+   do not: the setting or an aerial view, the plan, an interior, a carved detail, or another
+   monument of the complex. Repeats of the cover's view, people- or vehicle-dominated scenes
+   and unidentified views are rejected. Decisions and reasons are in
+   `tools/content-pipeline/data/images/gallery-review-<date>.json`.
+3. **Record.** Each image keeps its own attribution and approval: `caption` (the viewpoint),
+   `alt`, `credit`, `license`, `license_url`, `sourceUrl` (the Commons file page),
+   `original_url`, `identity` (item and Commons category), `license_review`,
+   `license_tracking` and `publication_approval`, bound to the site and the image. At most
+   six per record, and no file appears on two records.
+
+`tests/images.test.mjs` checks the binding, attribution, renditions and these limits.
+
 ## Source verification
 
 `source-credibility.json` rates every cited publisher (lower tier is stronger):
@@ -174,3 +200,67 @@ explicit image/site publication approval; a bare license label, legacy image
 alias or gallery entry does not authorize a card cover. See
 ../../tools/content-pipeline/README.md for the review/approval metadata contract.
 The frontend dataset is not populated automatically from pipeline review files.
+
+## Site videos (optional)
+
+`site-videos.json` links videos to cards for the Site Details page. A video is enrichment only: the
+card contract (`src/utils/cardReadiness.js`) never reads it, and a card without video is complete.
+
+- **Who may publish:** only institutions listed in `publishers`, each with a type from
+  `publisherTypes` — intergovernmental bodies, heritage authorities, heritage foundations, museums,
+  universities, archaeological missions, scholarly bodies, and `heritage-bridge` for our own
+  documented media. News clips, travel vlogs and unattributed uploads are not listed.
+- **Verification:** each video's channel must be its publisher's channel (`channelUrl`), checked with
+  YouTube's oEmbed endpoint by `tools/content-pipeline/verify_videos.py`, and its published description
+  read to confirm what it shows. A publisher's channel is accepted when the institution's own site
+  links to it or names the video (see `note`).
+- **Links:** `sites[]` names each card with a relation: `site` (the video is about this card), `part`
+  (the card is one monument shown in a wider video) or `context` (related work nearby); `part` and
+  `context` need a `note`, shown on the page. A card shows at most three videos, its own first.
+- **Display:** a still panel with a play button; nothing is requested from YouTube until the visitor
+  presses play, then the privacy-enhanced player (youtube-nocookie.com) loads. Each video credits its
+  publisher, year, length, kind and language, with our one-line summary and a link to the original.
+- **Adding a video:** add the publisher if new (with the reason its channel is official), add the
+  video with `summary`, `kind`, `language`, `published`, `durationSeconds` and its card links, then run
+  `python3 verify_videos.py --stamp` and `npm test`.
+
+## 3D documentation (optional)
+
+`digital-documentation.json` links 3D models (today all on Sketchfab) to cards. Like videos, it never
+affects whether a card is published; a card with resources gains the 3D badge and a "3D documentation"
+section on Site Details.
+
+- **Two classes, never mixed:** `measured` — geometry captured from the place itself (photogrammetry,
+  aerial photogrammetry, laser scanning), recording the site as it was when captured, damage included;
+  `modeled` — built by hand (method `manual-modeling`), including reconstructions of a lost or earlier
+  state. Site Details shows them in separate groups, measured first, with a solid badge for measured and
+  a dashed one for modelled.
+- **How the class is known:** `methodEvidence` is `stated` when the creator says how the model was made
+  (description or tags) and `inferred` when it was judged from the model itself — a photo-textured mesh
+  recording damage as found, versus clean geometry, regular forms or no texture. `methodNote` gives the
+  reason and is shown on the page.
+- **What it shows:** `depicts` names the state and, where known, the date (e.g. "the damaged complex
+  during reconstruction, 2020" or "a reconstruction of the shrine around 1920").
+- **Links:** `sites[]` with relation `site`, `part` (a building or element within the card's site) or
+  `context` (related, e.g. the newer church beside an old one); `part` and `context` need a note.
+  Portable objects now in museums are not linked to sites.
+- **Creators:** listed in `creators` with a type (`heritage-bridge` for our own scans, heritage studio,
+  archaeological mission, university, researcher, independent). Rights are recorded as published
+  (`license`, `rightsHolder`, e.g. © UNESCO); models are embedded with Sketchfab's own viewer, loaded only
+  when the visitor asks.
+- **Adding a resource:** add it with its class, method, evidence, note and card links, then run
+  `python3 tools/content-pipeline/verify_documentation.py --stamp` and `npm test`.
+
+## Governorate coverage report (daily)
+
+`npm run report:coverage` prints, for each of the nine governorates: discovered candidates, approved
+records, published cards, cards with a primary image, with a gallery, with coordinates, with two or more
+credible publishers, and records still needing review. It ranks the governorates on the mean of their
+approved, image, gallery, coordinate and multiple-source shares of published cards, names the lagging one,
+and says how many cards it needs on each measure to reach the median governorate.
+
+Each run updates `reports/coverage/latest.md` and adds the day's snapshot to `reports/coverage/history.json`;
+the next day's run shows the change in brackets. Definitions live in `src/utils/coverage.js`, which uses
+the same rules as the site (card contract, approved covers, credible sources), and
+`tests/coverage.test.mjs` checks that the totals match the published archive. Use `-- --no-write` to print
+without updating the files.
