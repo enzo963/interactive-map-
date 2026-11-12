@@ -264,3 +264,21 @@ the next day's run shows the change in brackets. Definitions live in `src/utils/
 the same rules as the site (card contract, approved covers, credible sources), and
 `tests/coverage.test.mjs` checks that the totals match the published archive. Use `-- --no-write` to print
 without updating the files.
+
+## Field-completeness queue
+
+`npm run report:fields` (rules in `src/utils/fieldQueue.js`) writes `reports/fields/field-queue.md` and
+`field-queue.json`. It separates two kinds of gap:
+
+- **Blocking**: a required field of the card contract is missing (description, category, period or
+  `period_status: not-established`, a credible source, a recognised governorate, ID, name, status, image
+  status), or an image the site shows lacks its credit, licence, source page or, for Creative Commons, its
+  licence link. Blocking problems are fixed first and cannot be waived.
+- **Enrichment**: place description, coordinates, period, a second credible source, alternative names,
+  primary image (worked in the image queue), estimated year, preservation status, UNESCO status. These never
+  hide a card. They are worked in passes, one field across all cards, highest-value cards first, each
+  attempt time-boxed. A gap that cannot be filled in its time box is recorded as `not-found` in
+  `tools/content-pipeline/data/fields/field-decisions.json` and leaves the queue.
+
+The report's next batch lists each card at most once, so a batch never becomes perfecting one card.
+`tests/field-queue.test.mjs` checks the rules; the script exits 1 if an approved record is blocked.

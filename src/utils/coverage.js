@@ -31,7 +31,7 @@ export const COVERAGE_RATES = [
   ['multiSource', 'Multiple sources'],
 ];
 
-const approvedGalleryImage = (image, siteId) => image?.license_status === 'verified'
+export const approvedGalleryImage = (image, siteId) => image?.license_status === 'verified'
   && image.publication_approval?.status === 'approved' && (!image.siteId || image.siteId === siteId);
 const hasCoordinates = (record) => Number.isFinite(record.latitude) && Number.isFinite(record.longitude);
 
