@@ -8,6 +8,12 @@ export default function DiscoveryBrowse({ sites }) {
   const href = (patch) => `/explore?${serializeFilters({ ...EMPTY_FILTERS, ...patch })}`;
   return (
     <section className="hb-discovery hb-container" aria-label={t('Explore heritage collections')}>
+      <nav className="hb-discovery__links" aria-label={t('Archive tools')}>
+        <a className="hb-btn" href="#draw">{t('Draw a Card')}</a>
+        <SmartLink className="hb-btn" href="/decks">{t('Decks')}</SmartLink>
+        <SmartLink className="hb-btn" href="/unesco">{t('UNESCO')}</SmartLink>
+        <SmartLink className="hb-btn" href="/3d-archive">{t('3D Archive')}</SmartLink>
+      </nav>
       <div>
         <h2>{t('Explore by heritage category')}</h2>
         <p>{t('Browse places by their recorded site type. A place may belong to more than one category.')}</p>

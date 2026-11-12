@@ -67,12 +67,6 @@
 .hb-mapfirst__h2:focus { outline: none; }
 .hb-mapfirst__h2:focus-visible { outline: 2px solid var(--hb-terracotta-deep); outline-offset: 3px; }
 
-/* search */
-.hb-mapfirst__search { display: grid; gap: .45rem; }
-.hb-mapfirst__label { font-weight: 600; font-size: .9rem; }
-.hb-mapfirst__searchrow { display: flex; gap: .5rem; }
-.hb-mapfirst__searchrow .hb-input { flex: 1 1 auto; min-width: 0; min-height: 2.75rem; }
-.hb-mapfirst__searchrow .hb-btn { flex: 0 0 auto; min-height: 2.75rem; }
 .hb-mapfirst__count { font-family: var(--hb-font-mono); font-size: .8rem; color: var(--hb-earth-text); font-variant-numeric: tabular-nums; }
 
 /* selected card */

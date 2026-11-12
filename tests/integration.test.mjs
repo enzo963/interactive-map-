@@ -327,25 +327,28 @@ test('project pages: Our Work separates intended methods from approved documenta
   assert.doesNotMatch($('main').textContent, /Unapproved survey|External research/);
 });
 
-test('project navigation: every major destination appears in the footer and project menu', async () => {
-  await mount('/about');
-  for (const href of ['/about', '/methodology', '/our-work', '/contact']) {
-    assert.ok($(`header details a[href="${href}"]`));
-    assert.ok($(`footer a[href="${href}"]`));
-  }
-  for (const href of ['/', '/explore', '/map', '/decks', '/unesco', '/3d-archive', '/decks/our-work']) {
+test('compact navigation keeps archive tools on Cards and every major destination reachable', async () => {
+  await mount('/sites/hatra');
+  assert.deepEqual(all('header nav a').map((link) => [link.textContent.trim(), link.getAttribute('href')]), [
+    ['Map', '/map'], ['Cards', '/explore'], ['DocH Project', '/our-work'], ['About us', '/about'],
+  ]);
+  assert.ok($('header button[type="submit"] svg'));
+  for (const href of ['/', '/explore', '/map', '/decks', '/unesco', '/3d-archive', '/decks/our-work',
+    '/about', '/methodology', '/our-work', '/contact']) {
     assert.ok($(`footer a[href="${href}"]`), `Missing footer destination: ${href}`);
   }
-  for (const link of all('header a[href^="/"], footer a[href^="/"]')) {
-    assert.ok(matchRoute(routes, new URL(link.href).pathname), `Unresolved navigation link: ${link.href}`);
+  await click($('header nav a[href="/explore"]'));
+  for (const href of ['#draw', '/decks', '/unesco', '/3d-archive']) {
+    assert.ok($(`main .hb-discovery__links a[href="${href}"]`), `Missing Cards destination: ${href}`);
   }
+  assert.ok($('main #draw button'));
 });
 
 for (const [path, href] of [
-    ['/decks/unesco', '/unesco'], ['/decks/3d', '/3d-archive'],
-    ['/decks/our-work', '/decks'], ['/sites/hatra', '/explore'], ['/methodology', '/methodology'],
+    ['/decks/unesco', '/explore'], ['/decks/3d', '/explore'], ['/unesco', '/explore'],
+    ['/decks/our-work', '/explore'], ['/sites/hatra', '/explore'], ['/our-work', '/our-work'],
 ]) {
-  test(`project navigation: ${path} highlights exactly one destination`, async () => {
+  test(`compact navigation: ${path} highlights exactly one destination`, async () => {
     await mount(path);
     const current = all('header a[aria-current="page"]');
     assert.equal(current.length, 1, path);
@@ -353,37 +356,25 @@ for (const [path, href] of [
   });
 }
 
-test('project navigation: Escape closes project disclosure then mobile menu and restores focus', async () => {
+test('compact navigation: Escape closes the mobile menu and restores focus', async () => {
   await mount('/about');
   const toggle = $('.hb-header__toggle');
   await click(toggle);
-  const disclosure = $('header details');
-  assert.ok(disclosure, 'Project disclosure must exist');
-  await click(disclosure.querySelector('summary'));
-  assert.equal(disclosure.open, true);
-  disclosure.querySelector('a').focus();
-  await act(async () => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
-  assert.equal(disclosure.open, false);
-  assert.equal(document.activeElement, disclosure.querySelector('summary'));
-  assert.equal(toggle.getAttribute('aria-expanded'), 'true');
+  $('header nav a').focus();
   await act(async () => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
   assert.equal(toggle.getAttribute('aria-expanded'), 'false');
   assert.equal(document.activeElement, toggle);
 });
 
-test('project navigation: same-page links and history changes close menus', async () => {
+test('compact navigation: same-page links and history changes close the menu', async () => {
   await mount('/about');
   const toggle = $('.hb-header__toggle');
   await click(toggle);
-  await click($('header details summary'));
-  await click($('header details a[href="/about"]'));
+  await click($('header nav a[href="/about"]'));
   assert.equal(toggle.getAttribute('aria-expanded'), 'false');
-  assert.equal($('header details').open, false);
   await click(toggle);
-  await click($('header details summary'));
   await navigate('/methodology');
-  assert.equal($('.hb-header__toggle').getAttribute('aria-expanded'), 'false');
-  assert.equal($('header details').open, false);
+  assert.equal(toggle.getAttribute('aria-expanded'), 'false');
 });
 
 test('project navigation: repeated global searches retain input value and keyboard focus', async () => {
@@ -402,7 +393,7 @@ test('project navigation: repeated global searches retain input value and keyboa
   }
 });
 
-for (const [path, href] of [['/about/', '/about'], ['/decks/unesco/', '/unesco']]) {
+for (const [path, href] of [['/about/', '/about'], ['/decks/unesco/', '/explore']]) {
   test(`project navigation: trailing slash ${path} highlights its destination`, async () => {
     await mount(path);
     const current = all('header a[aria-current="page"]');
@@ -411,7 +402,7 @@ for (const [path, href] of [['/about/', '/about'], ['/decks/unesco/', '/unesco']
   });
 }
 
-test('Home opens map first: the map and its control panel search, focus a governorate and lead on', async () => {
+test('Home opens map first: one header search filters the map and opens full results', async () => {
   sites.splice(0, sites.length, ...structuredClone(importedSites));
   await mount();
   const section = $('main > .hb-mapfirst');
@@ -419,9 +410,13 @@ test('Home opens map first: the map and its control panel search, focus a govern
   assert.equal($('main').firstElementChild.tagName === 'STYLE' ? $('main').children[1] : $('main').firstElementChild, section);
   assert.ok(section.querySelector('.hb-mapfirst__map .hb-mapx__leaflet[data-size="fill"]'));
   assert.ok(section.querySelector('aside.hb-mapfirst__panel h1'));
+  assert.equal(all('input[type="search"]').length, 1);
+  assert.deepEqual(all('header nav a').map((link) => [link.textContent.trim(), link.getAttribute('href')]), [
+    ['Map', '/map'], ['Cards', '/explore'], ['DocH Project', '/our-work'], ['About us', '/about'],
+  ]);
   assert.match($('.hb-mapfirst__count').textContent, new RegExp(`${sites.length} Cards`));
   await act(async () => {
-    const input = $('#mapfirst-search');
+    const input = $('#global-heritage-search');
     Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set.call(input, 'Hatra');
     input.dispatchEvent(new window.Event('input', { bubbles: true }));
   });
@@ -430,9 +425,44 @@ test('Home opens map first: the map and its control panel search, focus a govern
   await click(nineveh);
   assert.equal(nineveh.getAttribute('aria-pressed'), 'true');
   assert.ok($('.hb-mapfirst__regions a[href="/decks/nineveh"]'), 'the selected governorate offers its deck');
-  await act(async () => { $('.hb-mapfirst__search').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })); });
+  await act(async () => { $('.hb-global-search').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })); });
   assert.equal(window.location.pathname, '/explore');
   assert.equal(new URLSearchParams(window.location.search).get('q'), 'Hatra');
+});
+
+test('Home stack reveals filtered random cards only after a draw and keeps previous draws', async () => {
+  const pool = ['hatra', 'khinnis-reliefs', 'erbil-citadel'].map((slug) => importedSites.find((site) => site.slug === slug));
+  sites.splice(0, sites.length, ...structuredClone(pool));
+  await mount();
+
+  const preview = $('.hb-mapfirst__preview');
+  const card = () => preview.querySelector('.hb-card');
+  const reveal = () => preview.querySelector('button[aria-label="Draw a card"]');
+  assert.equal(card(), null, 'the card front is hidden on arrival');
+  const nineveh = all('.hb-mapfirst__region').find((item) => item.textContent.startsWith('Nineveh'));
+  await click(nineveh);
+  assert.equal(card(), null, 'changing governorate keeps the stack face-down');
+
+  await click(reveal());
+  const firstCard = card();
+  const title = () => card().querySelector('.hb-card__title').textContent;
+  const firstTitle = title();
+  assert.match(firstCard.textContent, /Nineveh/i);
+  await click(button('Draw another card'));
+  assert.notEqual(title(), firstTitle);
+  await click(button('Previous'));
+  assert.equal(title(), firstTitle);
+  await click(button('Previous'));
+  assert.equal(card(), null, 'going back from the first draw hides the front');
+
+  await act(async () => {
+    const input = $('#global-heritage-search');
+    Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set.call(input, 'Hatra');
+    input.dispatchEvent(new window.Event('input', { bubbles: true }));
+  });
+  assert.equal(card(), null, 'search results start face-down');
+  await click(reveal());
+  assert.match(title(), /Hatra/);
 });
 
 test('Map page uses the same map-first layout, with every control in the right panel', async () => {

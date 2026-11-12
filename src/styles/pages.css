@@ -207,6 +207,7 @@ main[tabindex='-1']:focus { outline: none; }
 .hb-explore__side { top: 9rem; max-height: calc(100dvh - 10rem); }
 .hb-explore__context { display: flex; justify-content: flex-end; }
 .hb-discovery { margin-bottom: 2rem; display: grid; gap: 1rem; }
+.hb-discovery__links { display: flex; flex-wrap: wrap; gap: .5rem; }
 .hb-discovery h2 { font-family: var(--hb-font-serif); font-weight: 500; font-size: 1.5rem; }
 .hb-discovery p { color: var(--hb-earth-text); font-size: .9rem; margin-block: .4rem .8rem; }
 .hb-discovery__categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: .65rem; }

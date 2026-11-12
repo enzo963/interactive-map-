@@ -4,7 +4,6 @@ import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
 import { useI18n } from '../../i18n/I18nContext';
 import { useLocation, useNavigate } from '../../router/RouterContext';
-import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
 import '../../styles/layout.css';
 
 function BrandMark() {
@@ -19,13 +18,20 @@ function BrandMark() {
   );
 }
 
-export default function Navbar() {
+const NAV_LINKS = [
+  { label: 'Map', href: '/map' },
+  { label: 'Cards', href: '/explore' },
+  { label: 'DocH Project', href: '/our-work' },
+  { label: 'About us', href: '/about' },
+];
+
+export default function Navbar({ query, setQuery }) {
   const { t } = useI18n();
   const location = useLocation();
   const pathname = location.pathname.replace(/\/+$/, '') || '/';
+  const isHome = pathname === '/';
   const locationKey = `${location.pathname}${location.search}${location.hash}`;
   const navigate = useNavigate();
-  const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [menuLocation, setMenuLocation] = useState(locationKey);
   // Reset only menu state on navigation; preserve the search field and its focus.
@@ -34,56 +40,28 @@ export default function Navbar() {
     setOpen(false);
   }
   const menuToggle = useRef(null);
-  const projectMenu = useRef(null);
-  const projectCurrent = PROJECT_NAV.some((item) => item.href === pathname);
-  const isCurrent = (href) => {
-    const aliases = { '/decks/unesco': '/unesco', '/decks/3d': '/3d-archive' };
-    const here = aliases[pathname] ?? (pathname.startsWith('/sites/') ? '/explore' : pathname);
-    return here === href || (href === '/decks' && here.startsWith('/decks/'));
-  };
+  const currentPage = pathname.startsWith('/sites/') || pathname.startsWith('/decks/') ||
+    ['/decks', '/unesco', '/3d-archive'].includes(pathname) ? '/explore' : pathname;
 
   useEffect(() => {
-    if (projectMenu.current) projectMenu.current.open = false;
-  }, [locationKey]);
-
-  useEffect(() => {
+    if (!open) return;
     const onKey = (event) => {
       if (event.key !== 'Escape') return;
-      if (projectMenu.current?.open) {
-        event.preventDefault();
-        projectMenu.current.open = false;
-        projectMenu.current.querySelector('summary')?.focus();
-      } else if (open) {
-        event.preventDefault();
-        setOpen(false);
-        menuToggle.current?.focus();
-      }
-    };
-    const onPointer = (event) => {
-      if (projectMenu.current && !projectMenu.current.contains(event.target)) projectMenu.current.open = false;
+      event.preventDefault();
+      setOpen(false);
+      menuToggle.current?.focus();
     };
     document.addEventListener('keydown', onKey);
-    document.addEventListener('pointerdown', onPointer);
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.removeEventListener('pointerdown', onPointer);
-    };
+    return () => document.removeEventListener('keydown', onKey);
   }, [open]);
 
-  const closeOnLink = (event) => {
-    if (event.target.closest('a')) {
-      setOpen(false);
-      if (projectMenu.current) projectMenu.current.open = false;
-    }
-  };
-
   return (
-    <header className={`hb-header ${open ? 'is-open' : ''}`.trim()}>
+    <header className={`hb-header${open ? ' is-open' : ''}`}>
       <a className="hb-skip" href="#main">
         {t('common.skip')}
       </a>
       <div className="hb-container hb-header__bar">
-        <SmartLink href="/" className="hb-brand">
+        <SmartLink href="/" className="hb-brand" onClick={() => setOpen(false)}>
           <BrandMark />
           <span className="hb-brand__name">{t('brand.name')}</span>
         </SmartLink>
@@ -94,10 +72,7 @@ export default function Navbar() {
           className="hb-header__toggle"
           aria-expanded={open}
           aria-controls="primary-nav"
-          onClick={() => {
-            setOpen((value) => !value);
-            if (projectMenu.current) projectMenu.current.open = false;
-          }}
+          onClick={() => setOpen((value) => !value)}
         >
           {open ? t('common.close') : t('nav.menu')}
         </button>
@@ -127,43 +102,32 @@ export default function Navbar() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={t('Find a heritage site')}
+            placeholder={isHome ? t('Name, place or period') : t('Find a heritage site')}
             enterKeyHint="search"
           />
-          <button type="submit">{t('Search')}</button>
+          <button type="submit" className="hb-global-search__icon" aria-label={t('Search')}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="5.5" />
+              <path d="m15 15 4 4" />
+            </svg>
+          </button>
         </form>
 
-        <nav id="primary-nav" className="hb-nav" aria-label={t('nav.primary')} onClick={closeOnLink}>
+        <nav id="primary-nav" className="hb-nav" aria-label={t('nav.primary')}>
           <ul className="hb-nav__list">
-            {PRIMARY_NAV.map((item) => (
+            {NAV_LINKS.map((item) => (
               <li key={item.href}>
                 <SmartLink
                   className="hb-nav__link"
                   href={item.href}
-                  aria-current={isCurrent(item.href) ? 'page' : undefined}
+                  aria-current={currentPage === item.href ? 'page' : undefined}
+                  onClick={() => setOpen(false)}
                 >
                   {t(item.label)}
                 </SmartLink>
               </li>
             ))}
           </ul>
-          <details className="hb-project-menu" ref={projectMenu}>
-            <summary className="hb-nav__link" data-current={projectCurrent ? 'true' : undefined}>
-              {t('Project')}
-            </summary>
-            <ul className="hb-project-menu__list">
-              {PROJECT_NAV.map((item) => (
-                <li key={item.href}>
-                  <SmartLink href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
-                    {t(item.label)}
-                  </SmartLink>
-                </li>
-              ))}
-            </ul>
-          </details>
-          <SmartLink href="/#draw" className="hb-btn hb-btn--ink hb-nav__cta">
-            {t('nav.draw')}
-          </SmartLink>
         </nav>
       </div>
     </header>

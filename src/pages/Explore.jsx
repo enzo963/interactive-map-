@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import DrawCard from '../components/home/DrawCard';
 import DiscoveryBrowse from '../components/explore/DiscoveryBrowse';
 import SmartLink from '../components/common/SmartLink';
 import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
@@ -128,6 +129,7 @@ export default function Explore() {
           )}
         </div>
       </div>
+      <DrawCard sites={sites} />
     </main>
   );
 }

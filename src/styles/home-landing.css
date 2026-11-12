@@ -1,0 +1,177 @@
+/* Home-only map panel. Its width aligns with the shared header search. */
+.hb-mapfirst--home { --panel-w: var(--hb-header-search-width); }
+
+.hb-mapfirst--home .hb-mapfirst__panel {
+  gap: 0;
+  padding: 0;
+}
+
+.hb-mapfirst--home .hb-mapfirst__intro,
+.hb-mapfirst--home .hb-mapfirst__regions,
+.hb-mapfirst--home .hb-mapfirst__preview,
+.hb-mapfirst--home .hb-mapfirst__actions,
+.hb-mapfirst--home .hb-mapfirst__more {
+  padding-inline: var(--hb-header-gutter);
+}
+
+.hb-mapfirst--home .hb-mapfirst__intro {
+  gap: .4rem;
+  padding-block: 1.125rem .9rem;
+}
+
+.hb-mapfirst--home .hb-mapfirst__title {
+  max-width: 19ch;
+  font-size: clamp(1.8rem, 2.35vw, 2.45rem);
+}
+
+.hb-mapfirst--home .hb-mapfirst__lede {
+  max-width: 44ch;
+  font-size: .875rem;
+  line-height: 1.45;
+}
+
+.hb-mapfirst--home .hb-mapfirst__regions { padding-block: .75rem 1rem; }
+
+.hb-mapfirst__regionbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.hb-mapfirst--home .hb-mapfirst__regionlist {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .45rem;
+}
+
+.hb-mapfirst--home .hb-mapfirst__regionlist > li { display: flex; min-width: 0; }
+
+.hb-mapfirst--home .hb-mapfirst__regionlist .hb-mapfirst__region {
+  flex-direction: column;
+  justify-content: center;
+  gap: .15rem;
+  min-height: 3rem;
+  padding: .25rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hb-mapfirst--home .hb-mapfirst__region--all {
+  width: auto;
+  min-height: 2.75rem;
+  padding: .3rem .6rem;
+}
+
+.hb-mapfirst--home .hb-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: var(--hb-desk);
+}
+
+.hb-home--map .hb-mapfirst--home .hb-stats__item {
+  min-height: 0;
+  padding: .7rem .2rem;
+  gap: .3rem;
+  border-top: 0;
+  text-align: center;
+}
+
+.hb-mapfirst--home .hb-stats__item + .hb-stats__item { border-inline-start: 1px solid var(--hb-rule); }
+.hb-mapfirst--home .hb-stats__label { font-size: .72rem; line-height: 1.25; }
+
+.hb-mapfirst__preview {
+  display: grid;
+  gap: 1rem;
+  padding-block: 1rem 1.25rem;
+}
+
+.hb-mapfirst__preview-title {
+  font-family: var(--hb-font-serif);
+  font-size: clamp(1.45rem, 2vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.hb-mapfirst__preview-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 13rem) minmax(5.75rem, 1fr);
+  align-items: center;
+  gap: clamp(.75rem, 1.8vw, 1.5rem);
+}
+
+.hb-mapfirst__stack {
+  position: relative;
+  isolation: isolate;
+  margin: .35rem;
+}
+
+.hb-mapfirst__stack[data-stacked='true']::before,
+.hb-mapfirst__stack[data-stacked='true']::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border: 1px solid var(--hb-rule-strong);
+  border-radius: 3px;
+  background: var(--hb-sand);
+  transform: rotate(-4deg);
+}
+
+.hb-mapfirst__stack[data-stacked='true']::after {
+  transform: rotate(3deg);
+  background: var(--hb-paper-raised);
+}
+
+.hb-mapfirst__preview-controls {
+  display: grid;
+  justify-items: stretch;
+  gap: .5rem;
+  min-width: 0;
+}
+
+.hb-mapfirst__reveal {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hb-mapfirst__reveal:hover { box-shadow: inset 0 0 0 2px var(--hb-terracotta-deep); }
+
+.hb-mapfirst__preview-hint {
+  font-size: .875rem;
+  color: var(--hb-earth-text);
+}
+
+.hb-mapfirst__preview-controls .hb-btn {
+  min-height: 2.75rem;
+  padding: .4rem .5rem;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.hb-mapfirst__preview-controls .hb-btn:disabled {
+  opacity: .6;
+  cursor: default;
+  border-color: var(--hb-rule-strong);
+  background: transparent;
+  color: var(--hb-earth-text);
+}
+
+.hb-mapfirst--home .hb-mapfirst__actions {
+  margin: 0;
+  padding-block: 1rem;
+  border-top: 1px solid var(--hb-rule);
+}
+
+.hb-mapfirst--home .hb-mapfirst__more {
+  display: block;
+  margin: 0;
+  padding-block: .75rem;
+}
+
+@media (max-width: 62rem) {
+  .hb-mapfirst--home .hb-mapfirst__map { height: clamp(16rem, 46svh, 28rem); }
+  .hb-mapfirst__preview-grid { grid-template-columns: minmax(0, 13rem) minmax(5.75rem, 10rem); }
+}
