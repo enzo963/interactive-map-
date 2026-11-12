@@ -90,5 +90,97 @@
       "multiSource": 10,
       "review": 33
     }
+  },
+  "2026-11-13": {
+    "nineveh": {
+      "discovered": 167,
+      "approved": 7,
+      "published": 166,
+      "image": 41,
+      "gallery": 11,
+      "coordinates": 80,
+      "multiSource": 51,
+      "review": 160
+    },
+    "duhok": {
+      "discovered": 57,
+      "approved": 3,
+      "published": 57,
+      "image": 9,
+      "gallery": 2,
+      "coordinates": 8,
+      "multiSource": 16,
+      "review": 54
+    },
+    "erbil": {
+      "discovered": 69,
+      "approved": 4,
+      "published": 69,
+      "image": 10,
+      "gallery": 2,
+      "coordinates": 18,
+      "multiSource": 22,
+      "review": 65
+    },
+    "sulaymaniyah": {
+      "discovered": 105,
+      "approved": 4,
+      "published": 105,
+      "image": 21,
+      "gallery": 1,
+      "coordinates": 22,
+      "multiSource": 10,
+      "review": 101
+    },
+    "kirkuk": {
+      "discovered": 32,
+      "approved": 5,
+      "published": 32,
+      "image": 6,
+      "gallery": 1,
+      "coordinates": 6,
+      "multiSource": 10,
+      "review": 27
+    },
+    "salahaldin": {
+      "discovered": 34,
+      "approved": 5,
+      "published": 33,
+      "image": 10,
+      "gallery": 6,
+      "coordinates": 7,
+      "multiSource": 9,
+      "review": 28
+    },
+    "diyala": {
+      "discovered": 96,
+      "approved": 0,
+      "published": 96,
+      "image": 0,
+      "gallery": 0,
+      "coordinates": 8,
+      "multiSource": 18,
+      "review": 96
+    },
+    "baghdad": {
+      "discovered": 91,
+      "approved": 6,
+      "published": 91,
+      "image": 52,
+      "gallery": 13,
+      "coordinates": 71,
+      "multiSource": 31,
+      "review": 85
+    },
+    "anbar": {
+      "discovered": 33,
+      "approved": 0,
+      "published": 33,
+      "image": 1,
+      "gallery": 0,
+      "coordinates": 3,
+      "multiSource": 10,
+      "review": 33
+    }
   }
 }

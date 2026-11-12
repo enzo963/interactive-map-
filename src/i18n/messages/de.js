@@ -1148,5 +1148,18 @@ export default {
   "Full map with filters": "Vollständige Karte mit Filtern",
   "More from the archive": "Mehr aus dem Archiv",
   "{n} card matches|{n} cards match": {"one": "{n} Karte passt", "other": "{n} Karten passen"},
-  "Map controls, governorates, selected card and results": "Kartensteuerung, Gouvernements, ausgewählte Karte und Ergebnisse"
+  "Map controls, governorates, selected card and results": "Kartensteuerung, Gouvernements, ausgewählte Karte und Ergebnisse",
+  "{n} of {total} cards have a verified position and appear as pins. Colour shows the card type; governorate labels count all cards, including those not yet on the map.": "{n} von {total} Karten haben eine geprüfte Position und erscheinen als Stecknadeln. Die Farbe zeigt den Kartentyp; die Gouvernementsbeschriftungen zählen alle Karten, auch die noch nicht auf der Karte.",
+  "No card in the archive has a verified position yet. Use the governorate list to browse without map positions.": "Noch keine Karte im Archiv hat eine geprüfte Position. Nutze die Gouvernementsliste, um ohne Kartenpositionen zu stöbern.",
+  "{n} of {total} cards shown as pins at verified positions; the others are listed without a pin. Select a pin to see its card.": "{n} von {total} Karten als Stecknadeln an geprüften Positionen; die übrigen sind ohne Stecknadel aufgeführt. Wähle eine Stecknadel, um ihre Karte zu sehen.",
+  "{cards} matching · {n} on the map": "{cards} passend · {n} auf der Karte",
+  "{n} on the map; the rest have no verified position yet": "{n} auf der Karte; die übrigen haben noch keine geprüfte Position",
+  "Map position": "Kartenposition",
+  "Verified position": "Geprüfte Position",
+  "Approximate area only": "Nur ungefähres Gebiet",
+  "No map position yet": "Noch keine Kartenposition",
+  "The pin marks the site itself, from a checked source.": "Die Stecknadel markiert die Stätte selbst, nach einer geprüften Quelle.",
+  "The recorded point is the town or area, not the site itself, so it is not shown as a pin.": "Der erfasste Punkt ist der Ort oder das Gebiet, nicht die Stätte selbst, daher wird er nicht als Stecknadel gezeigt.",
+  "No reliable position has been recorded yet, so the card is not shown on the map.": "Es ist noch keine verlässliche Position erfasst, daher erscheint die Karte nicht auf der Karte.",
+  "Verified position, shown with {n} other card from the same governorate. Select a pin to open that card.|Verified position, shown with {n} other cards from the same governorate. Select a pin to open that card.": {"one": "Geprüfte Position, gezeigt mit {n} weiteren Karte aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen.", "other": "Geprüfte Position, gezeigt mit {n} weiteren Karten aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen."}
 };

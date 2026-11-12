@@ -2,6 +2,7 @@ import { checkCardReadiness, verificationFlags } from './cardReadiness';
 import { approvedCover } from './coverApproval';
 import { approvedGalleryImage } from './coverage';
 import { bestTier } from './sourceCredibility';
+import { hasVerifiedPosition } from './mapPosition';
 
 /**
  * Field-completeness queue (npm run report:fields). It splits every gap in src/data/sites.json into:
@@ -61,7 +62,7 @@ export function blockingProblems(record) {
   return problems;
 }
 
-const hasCoordinates = (record) => Number.isFinite(record.latitude) && Number.isFinite(record.longitude);
+const hasCoordinates = hasVerifiedPosition;
 
 /**
  * Enrichment passes, in the order they are worked. Each pass is one field across every card
@@ -75,8 +76,8 @@ export const PASSES = [
     missing: (record) => !hasCoordinates(record) && !text(record.approximateLocation) && !text(record.city),
   },
   {
-    field: 'coordinates', label: 'Coordinates', timeboxMinutes: 10,
-    why: 'Without coordinates the card has no pin on the map.',
+    field: 'coordinates', label: 'Verified position', timeboxMinutes: 10,
+    why: 'Without a verified position of the site itself the card has no pin; town- or area-level points count as missing.',
     missing: (record) => !hasCoordinates(record),
   },
   {

@@ -1,6 +1,7 @@
 import { checkCardReadiness } from './cardReadiness';
 import { approvedCover } from './coverApproval';
 import { crediblePublishers } from './sourceCredibility';
+import { hasVerifiedPosition } from './mapPosition';
 import { getGovernorateKey } from '../data/governorates';
 
 /**
@@ -33,7 +34,7 @@ export const COVERAGE_RATES = [
 
 export const approvedGalleryImage = (image, siteId) => image?.license_status === 'verified'
   && image.publication_approval?.status === 'approved' && (!image.siteId || image.siteId === siteId);
-const hasCoordinates = (record) => Number.isFinite(record.latitude) && Number.isFinite(record.longitude);
+const hasCoordinates = hasVerifiedPosition;
 
 /**
  * records:    the archive (src/data/sites.json)

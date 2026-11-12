@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "totals": {
     "records": 683,
     "published": 682,
@@ -29,10 +29,16 @@
       "label": "Place description",
       "why": "Neither coordinates nor a place description: a reader cannot tell where in the governorate the site is.",
       "timeboxMinutes": 5,
-      "missing": 25,
+      "missing": 26,
       "settled": 0,
-      "open": 25,
+      "open": 26,
       "sites": [
+        {
+          "id": "site-salah-al-din-samarra",
+          "name": "Samarra Archaeological City",
+          "governorate": "Salah al-Din",
+          "status": "approved"
+        },
         {
           "id": "site-kirkuk-kirkuk-citadel",
           "name": "Kirkuk Citadel",
@@ -188,13 +194,19 @@
     {
       "order": 2,
       "field": "coordinates",
-      "label": "Coordinates",
-      "why": "Without coordinates the card has no pin on the map.",
+      "label": "Verified position",
+      "why": "Without a verified position of the site itself the card has no pin; town- or area-level points count as missing.",
       "timeboxMinutes": 10,
-      "missing": 396,
+      "missing": 459,
       "settled": 0,
-      "open": 396,
+      "open": 459,
       "sites": [
+        {
+          "id": "site-salah-al-din-samarra",
+          "name": "Samarra Archaeological City",
+          "governorate": "Salah al-Din",
+          "status": "approved"
+        },
         {
           "id": "site-kirkuk-kirkuk-citadel",
           "name": "Kirkuk Citadel",
@@ -376,9 +388,39 @@
           "status": "approved"
         },
         {
+          "id": "site-erbil-koya-old-town",
+          "name": "Old Town of Koya",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-anbar-ancient-anah",
+          "name": "Ancient Anah (Anat)",
+          "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
           "id": "site-anbar-telbis-island",
           "name": "Telbis Island",
           "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-nineveh-sinjar-old-city",
+          "name": "Sinjar Historic Town (Singara)",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-anbar-hit-old-town",
+          "name": "Old Town and Citadel of Hit",
+          "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-round-city",
+          "name": "Round City of Baghdad (Madinat al-Salam)",
+          "governorate": "Baghdad",
           "status": "needs-review"
         },
         {
@@ -426,6 +468,12 @@
         {
           "id": "site-anbar-glaia",
           "name": "Glai‘a",
+          "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-anbar-haradum",
+          "name": "Haradum (Khirbet ed-Diniye)",
           "governorate": "Anbar",
           "status": "needs-review"
         },
@@ -778,6 +826,18 @@
           "status": "needs-review"
         },
         {
+          "id": "site-sulaymaniyah-sara-palace-and-bathhouse",
+          "name": "Sara (Saray) Building and Fatima Khan Bathhouse",
+          "governorate": "Sulaymaniyah",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-anbar-ancient-anbar",
+          "name": "Ancient Anbar (Peroz-Shapur)",
+          "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
           "id": "site-anbar-kifrin",
           "name": "Kifrin",
           "governorate": "Anbar",
@@ -798,6 +858,18 @@
         {
           "id": "site-baghdad-mar-gorgis-new-baghdad",
           "name": "Mar Gorgis Chaldean Church, New Baghdad",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-seleucia-on-tigris",
+          "name": "Seleucia on the Tigris",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-shamash-school",
+          "name": "Shamash School",
           "governorate": "Baghdad",
           "status": "needs-review"
         },
@@ -1156,6 +1228,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-diyala-khan-bani-saad",
+          "name": "Khan Bani Saad Caravanserai",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
           "id": "site-diyala-kheit-qasim",
           "name": "Kheit Qasim (I–III)",
           "governorate": "Diyala",
@@ -1186,6 +1264,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-diyala-tell-abada",
+          "name": "Tell Abada",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
           "id": "site-diyala-tell-abu-husaini",
           "name": "Tell Abu Husaini",
           "governorate": "Diyala",
@@ -1194,6 +1278,12 @@
         {
           "id": "site-diyala-tell-abu-qasim",
           "name": "Tell Abu Qasim",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-tell-agrab",
+          "name": "Tell Agrab",
           "governorate": "Diyala",
           "status": "needs-review"
         },
@@ -1240,8 +1330,26 @@
           "status": "needs-review"
         },
         {
+          "id": "site-diyala-tell-madhur",
+          "name": "Tell Madhur",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
           "id": "site-diyala-tell-razuk",
           "name": "Tell Razuk",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-tell-rubeidheh",
+          "name": "Tell Rubeidheh",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-tell-songor",
+          "name": "Tell Songor (A, B and C)",
           "governorate": "Diyala",
           "status": "needs-review"
         },
@@ -1326,6 +1434,12 @@
         {
           "id": "site-duhok-qubahan-madrasa",
           "name": "Qubahan Madrasa",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-sultana-mahdokht-araden",
+          "name": "Church of Sultana Mahdokht, Araden",
           "governorate": "Duhok",
           "status": "needs-review"
         },
@@ -1416,6 +1530,12 @@
         {
           "id": "site-erbil-house-b13-topkhana",
           "name": "House B13 (37 Topkhana)",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-erbil-mar-bena-church-armota",
+          "name": "Mar Bena Church, Armota",
           "governorate": "Erbil",
           "status": "needs-review"
         },
@@ -1564,6 +1684,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-nineveh-ain-sifni-shrines",
+          "name": "Yazidi Shrines of Ain Sifni",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
           "id": "site-nineveh-al-abariqi-mosque",
           "name": "Mosque and Tomb of Shaykh Muhammad al-Abariqi",
           "governorate": "Nineveh",
@@ -1708,6 +1834,18 @@
           "status": "needs-review"
         },
         {
+          "id": "site-nineveh-mir-ali-beg-baadre",
+          "name": "Mausoleum of Mîr Alî Beg, Baadre",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-nineveh-mlefaat",
+          "name": "M’lefaat",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
           "id": "site-nineveh-muhammad-al-afghani-takiya",
           "name": "Takiya and Tomb of Muhammad al-Afghani",
           "governorate": "Nineveh",
@@ -1804,6 +1942,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-nineveh-sinjar-yazidi-mausoleums",
+          "name": "Yazidi Mausoleums of Mount Sinjar",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
           "id": "site-nineveh-sitt-nafisa-shrine",
           "name": "Hammam al-Saray Mosque and Shrine of al-Sitt Nafisa",
           "governorate": "Nineveh",
@@ -1822,6 +1966,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-nineveh-tell-hassuna",
+          "name": "Tell Hassuna",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
           "id": "site-nineveh-tell-sotto",
           "name": "Tell Sotto",
           "governorate": "Nineveh",
@@ -1831,6 +1981,12 @@
           "id": "site-nineveh-zayd-ibn-ali-mosque",
           "name": "Mosque and Tomb of Imam Zayd ibn Ali",
           "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-salah-al-din-sayyid-muhammad-shrine",
+          "name": "Shrine of Sayyid Muhammad ibn Ali al-Hadi, Balad",
+          "governorate": "Salah al-Din",
           "status": "needs-review"
         },
         {
@@ -2284,9 +2440,21 @@
           "status": "needs-review"
         },
         {
+          "id": "site-anbar-norias-of-hit",
+          "name": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im)",
+          "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
           "id": "site-anbar-tell-aswad-haditha",
           "name": "Tell Aswad (Haditha)",
           "governorate": "Anbar",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-adudi-hospital",
+          "name": "Al-‘Adudi Bimaristan (site)",
+          "governorate": "Baghdad",
           "status": "needs-review"
         },
         {
@@ -2302,8 +2470,56 @@
           "status": "needs-review"
         },
         {
+          "id": "site-baghdad-bataween",
+          "name": "Bataween (former Jewish quarter)",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-khuld-palace",
+          "name": "Khuld Palace (site)",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-taj-palace",
+          "name": "Taj Palace (site)",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-tell-al-dhibai",
+          "name": "Tell al-Dhiba‘i",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-tell-harmal",
+          "name": "Tell Harmal (Shaduppum)",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-tell-muhammad",
+          "name": "Tell Muhammad",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-choga-mami",
+          "name": "Choga Mami",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
           "id": "site-diyala-dawood-zarifa-house",
           "name": "Dawood Zarifa House, Kifri",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-kifri-bawa-shaswar",
+          "name": "Bawa Shaswar Quarter, Kifri",
           "governorate": "Diyala",
           "status": "needs-review"
         },
@@ -2320,8 +2536,26 @@
           "status": "needs-review"
         },
         {
+          "id": "site-diyala-tell-rashid",
+          "name": "Tell Rashid",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-diyala-tell-saadiya",
+          "name": "Tell Saadiya",
+          "governorate": "Diyala",
+          "status": "needs-review"
+        },
+        {
           "id": "site-duhok-akre-castle",
           "name": "Akre Castle",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-akre-old-town",
+          "name": "Old Quarters of Akre",
           "governorate": "Duhok",
           "status": "needs-review"
         },
@@ -2334,6 +2568,48 @@
         {
           "id": "site-duhok-asinkran",
           "name": "Asinkran",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-avzrog-sourp-vartan",
+          "name": "Sourp Vartan Armenian Church, Avzrog",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-bakhetme-mar-daniel",
+          "name": "Monastery of Mar Daniel, Bakhetme",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-bani-kondi-mosque",
+          "name": "Bani Kondi Mosque, Bamerne",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-betanure-synagogue",
+          "name": "Betanure Synagogue and Elijah Cave",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-dayrabun-monastery",
+          "name": "Dayrabun Monastery Site",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-dehi-churches",
+          "name": "Churches of Dehi",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-deraluk-st-luke",
+          "name": "Ruined Monastery of St Luke, Deraluk",
           "governorate": "Duhok",
           "status": "needs-review"
         },
@@ -2362,8 +2638,32 @@
           "status": "needs-review"
         },
         {
+          "id": "site-duhok-khanke-hellenistic-tombs",
+          "name": "Khanke Hellenistic Tombs",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
           "id": "site-duhok-komane-churches",
           "name": "Churches of Komane",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-mangesh-mar-abraham",
+          "name": "Mangesh: Mar Gewargis Church and Mar Abraham Monastery Site",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-mar-abdisho-monastery-dere",
+          "name": "Monastery of Mar Abdisho, Dere",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-mar-atqen-monastery",
+          "name": "Monastery of Mar Atqen, Dera Shish",
           "governorate": "Duhok",
           "status": "needs-review"
         },
@@ -2374,8 +2674,32 @@
           "status": "needs-review"
         },
         {
+          "id": "site-duhok-mar-qayyoma-dooreh",
+          "name": "Monastery of Mar Qayyoma, Dooreh",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-mart-shmune-bebadi",
+          "name": "Church of Mart Shmune, Bebadi",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
           "id": "site-duhok-qubad-pasha-castle",
           "name": "Qubad Pasha Castle",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-sharanish-churches",
+          "name": "Churches of Sharanish",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-duhok-sharya-yazidi-shrines",
+          "name": "Yazidi Shrines of Sharya",
           "governorate": "Duhok",
           "status": "needs-review"
         },
@@ -2392,6 +2716,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-duhok-zakho-castle",
+          "name": "Zakho Castle",
+          "governorate": "Duhok",
+          "status": "needs-review"
+        },
+        {
           "id": "site-duhok-zakho-jewish-quarter",
           "name": "Jewish Quarter of Zakho",
           "governorate": "Duhok",
@@ -2400,6 +2730,12 @@
         {
           "id": "site-erbil-bana-helk",
           "name": "Bana Helk",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-erbil-batas-harir-relief",
+          "name": "Batas-Harir Rock Relief",
           "governorate": "Erbil",
           "status": "needs-review"
         },
@@ -2422,6 +2758,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-erbil-kelashin-stele",
+          "name": "Kelashin Stele",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
           "id": "site-erbil-koya-qaysari-bazaar",
           "name": "Haji Bakr Agha Qaysari, Koya",
           "governorate": "Erbil",
@@ -2436,6 +2778,12 @@
         {
           "id": "site-erbil-mar-gewargis-bdeyal",
           "name": "Mar Gewargis Church, Bedyal",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-erbil-mart-mariam-church-armota",
+          "name": "Mart Mariam Church, Armota",
           "governorate": "Erbil",
           "status": "needs-review"
         },
@@ -2466,6 +2814,12 @@
         {
           "id": "site-erbil-plngan-cave",
           "name": "Plngan Cave",
+          "governorate": "Erbil",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-erbil-rawanduz-old-town",
+          "name": "Rawanduz Old Town",
           "governorate": "Erbil",
           "status": "needs-review"
         },
@@ -2512,6 +2866,18 @@
           "status": "needs-review"
         },
         {
+          "id": "site-nineveh-baadre-mir-castle",
+          "name": "Castle of the Mir, Baadre",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-nineveh-karamles-kar-mullissi",
+          "name": "Karamles mounds (Kar-Mullissi)",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
           "id": "site-nineveh-malak-sheikh-hassan-temple",
           "name": "Malak Sheikh Hassan Temple, Sinjar",
           "governorate": "Nineveh",
@@ -2532,6 +2898,12 @@
         {
           "id": "site-nineveh-mar-petion-church",
           "name": "Mar Petion Church",
+          "governorate": "Nineveh",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-nineveh-mohamed-rashan-shrine",
+          "name": "Shrine of Mohamed Rashan, Bardarash",
           "governorate": "Nineveh",
           "status": "needs-review"
         },
@@ -2560,6 +2932,12 @@
           "status": "needs-review"
         },
         {
+          "id": "site-salah-al-din-tell-es-sawwan",
+          "name": "Tell es-Sawwan",
+          "governorate": "Salah al-Din",
+          "status": "needs-review"
+        },
+        {
           "id": "site-sulaymaniyah-hazar-merd-caves",
           "name": "Hazar Merd Caves",
           "governorate": "Sulaymaniyah",
@@ -2568,6 +2946,12 @@
         {
           "id": "site-sulaymaniyah-pasha-palace-tazade",
           "name": "Pasha Palace, Tazade",
+          "governorate": "Sulaymaniyah",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-sulaymaniyah-srochik-castle",
+          "name": "Srochik Castle",
           "governorate": "Sulaymaniyah",
           "status": "needs-review"
         }
@@ -17329,12 +17713,12 @@
   ],
   "byGapCount": {
     "0": 1,
-    "1": 21,
-    "2": 77,
-    "3": 125,
-    "4": 136,
-    "5": 175,
-    "6": 133,
+    "1": 20,
+    "2": 69,
+    "3": 114,
+    "4": 138,
+    "5": 177,
+    "6": 149,
     "7": 13,
     "8": 1
   },
@@ -17346,6 +17730,15 @@
       "fields": [
         "sources"
       ]
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-salah-al-din-samarra",
+      "name": "Samarra Archaeological City",
+      "fields": [
+        "location"
+      ],
+      "timeboxMinutes": 5
     },
     {
       "kind": "enrichment",
@@ -17549,15 +17942,6 @@
       "kind": "enrichment",
       "id": "site-diyala-prophet-daniel-shrine-diyala",
       "name": "Shrine of the Prophet Daniel (Diyala)",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-diyala-tel-abu-uthaina",
-      "name": "Tel Abu Uthaina",
       "fields": [
         "location"
       ],

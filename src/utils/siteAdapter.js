@@ -3,6 +3,7 @@ import { getCardType } from './getCardType';
 import { formatYearLabel, getSiteAgeYears } from './siteYears';
 import { getGovernorateCode, normalizeGovernorate } from '../data/governorates';
 import { normalizeCategory } from '../data/categories';
+import { mapPosition } from './mapPosition';
 import { resolveImage } from './resolveImage';
 import slugify from './slugify';
 import { normalizeModelResources } from './modelResources';
@@ -267,6 +268,9 @@ export function normalizeSites(input) {
       country: raw.country ?? 'Iraq',
       latitude: toCoordinate(raw.latitude),
       longitude: toCoordinate(raw.longitude),
+      coordinatesPrecision: text(raw.coordinates_precision),
+      coordinatesSource: text(raw.coordinates_source),
+      mapPosition: mapPosition({ latitude: toCoordinate(raw.latitude), longitude: toCoordinate(raw.longitude), coordinates_precision: raw.coordinates_precision, coordinates_source: raw.coordinates_source }),
       alternativeNames: [...new Set(['alternativeNames', 'alternative_names', 'altNames', 'aliases'].flatMap((key) => Array.isArray(raw[key]) ? raw[key] : []).filter((name) => typeof name === 'string' && name.trim()))],
       siteType,
       category: siteType,

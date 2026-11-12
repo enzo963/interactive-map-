@@ -1,0 +1,310 @@
+{
+  "about": "Manual decisions on positions flagged by verify_coordinates.py. keep: the flag is explained and the pin stays. downgrade: the point is a town or area centre, not the site; precision is set to settlement or approximate so it is not a pin. remove: the point is wrong and is taken off the record.",
+  "decisions": {
+    "site-erbil-erbil-citadel": {
+      "action": "keep",
+      "note": "Point matches Wikidata Q206236 (Citadel of Erbil) within 20 m; source recorded.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-001": {
+      "action": "keep",
+      "note": "Point matches Wikidata Q466614 (Hatra) exactly; source recorded.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-salah-al-din-ashur": {
+      "action": "keep",
+      "note": "Point matches Wikidata Q200200 (Assur) within 130 m; source recorded. Ashur lies in Salah al-Din (Shirqat district); the nearest capital is Mosul.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-erbil-great-mosque-erbil-citadel": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-erbil-dwin-castle": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-erbil-mar-bena-church-armota": {
+      "action": "keep",
+      "note": "Settlement precision (Armota village point): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-erbil-mart-mariam-church-armota": {
+      "action": "keep",
+      "note": "Settlement precision (Armota village point): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-duhok-great-mosque-amedi": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-duhok-dehi-churches": {
+      "action": "keep",
+      "note": "Dehi is in the Sapna valley, Amedi district, Duhok; the Wikidata administrative chain stops at the Kurdistan Region.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-khinnis-reliefs": {
+      "action": "keep",
+      "note": "Khinis lies in Shekhan district, de jure Nineveh Governorate, administered from Duhok; Wikidata places it under Duhok.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-baadre-mir-castle": {
+      "action": "keep",
+      "note": "Settlement precision (Baadre town point): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-khan-al-gumruk": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-mosul-museum": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-rabban-hormizd-monastery": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-our-lady-of-the-seeds": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-tomb-of-nahum": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-mar-mikha-alqosh": {
+      "action": "keep",
+      "note": "Distinct point 40 m from Mar Gorgis church: both stand in the old quarter of Alqosh. Alqosh is in Nineveh (Tel Keppe district); the nearest capital is Duhok.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-mar-gorgis-alqosh": {
+      "action": "keep",
+      "note": "Distinct point 40 m from Mar Mikha church: both stand in the old quarter of Alqosh.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-bozan-mausoleums": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-baba-noah-hatara": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-sheikh-suwar-beban": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-ezdin-mir-shexka": {
+      "action": "keep",
+      "note": "In the Alqosh and Shekhan area of Nineveh Governorate, nearer to Duhok city than to Mosul; point matches the cited survey location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-mir-ali-beg-baadre": {
+      "action": "downgrade",
+      "note": "Point is the centre of Baadre town (40 m from the town item), not the mausoleum in the cemetery: precision set to settlement, no pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-qutb-al-din-minaret-sinjar": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-tell-kuyunjik": {
+      "action": "keep",
+      "note": "Source item is the Library of Ashurbanipal, which stood on Kuyunjik; no item exists for the mound itself. The point lies on the mound.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-sulaymaniyah-great-mosque-sulaymaniyah": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-sulaymaniyah-sulaymaniyah-museum": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-sulaymaniyah-jasana-cave": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-kirkuk-great-mosque-kirkuk-citadel": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-kirkuk-daquq-ottoman-bridge": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-anbar-minaret-of-anah": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-anbar-hit-old-town": {
+      "action": "keep",
+      "note": "Settlement precision (Hit town point): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-anbar-al-farouq-minaret-hit": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-anbar-norias-of-hit": {
+      "action": "keep",
+      "note": "Settlement precision (Hit town point); the card covers norias along the Euphrates: not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-anbar-ancient-anbar": {
+      "action": "keep",
+      "note": "Approximate precision: not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-khuld-palace": {
+      "action": "keep",
+      "note": "Approximate precision (vanished Abbasid building): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-adudi-hospital": {
+      "action": "keep",
+      "note": "Approximate precision (vanished Abbasid building): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-taq-kasra": {
+      "action": "keep",
+      "note": "Salman Pak (al-Mada’in district) is in Baghdad Governorate; the Wikidata chain does not reach the governorate.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-seleucia-on-tigris": {
+      "action": "keep",
+      "note": "Approximate precision: not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-bab-al-wastani": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-kadhimiya-shrine": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-al-khulafa-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-qamariyya-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-mirjan-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-al-muradiyya-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-al-ahmadiyya-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-adila-khatun-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-al-khilani-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-ibn-bunnieh-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-umm-al-tabul-mosque": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-al-rashid-street": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-bataween": {
+      "action": "keep",
+      "note": "Settlement precision (neighbourhood centroid): not shown as a pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-om-al-ahzan-church": {
+      "action": "keep",
+      "note": "Distinct point 34 m from the old Syriac Catholic church: both stand in Aqd al-Nasara.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-syriac-catholic-immaculate": {
+      "action": "keep",
+      "note": "Distinct point 34 m from Om al-Ahzan church: both stand in Aqd al-Nasara.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-baghdad-shamash-school": {
+      "action": "downgrade",
+      "note": "Wikidata point is identical to the Bataween neighbourhood centroid, not the school building: precision set to settlement, no pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-salah-al-din-qasr-al-ashiq": {
+      "action": "keep",
+      "note": "Component of Samarra Archaeological City, a property about 40 km long; the palace is on the west bank opposite the city.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-salah-al-din-istabulat": {
+      "action": "keep",
+      "note": "Component of Samarra Archaeological City, at its southern end; the parent point is the modern city.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-salah-al-din-tikrit-citadel": {
+      "action": "keep",
+      "note": "Item is the site itself under another transliteration or an English label that names only generic words; point checked against the item and the card location.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-erbil-kelashin-stele": {
+      "action": "downgrade",
+      "note": "Source point is rounded to one decimal (error up to ~5 km): precision set to approximate, no pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-tell-hassuna": {
+      "action": "downgrade",
+      "note": "Source point is rounded to one decimal (error up to ~5 km): precision set to approximate, no pin.",
+      "decidedAt": "2026-11-13"
+    },
+    "site-nineveh-mlefaat": {
+      "action": "downgrade",
+      "note": "Source point is rounded to one decimal (error up to ~5 km): precision set to approximate, no pin.",
+      "decidedAt": "2026-11-13"
+    }
+  }
+}

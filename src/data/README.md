@@ -314,3 +314,20 @@ becomes a separate filter option. `npm run check:values` lists records whose val
 `npm run check:values -- --write` stores the canonical value for recognised variants. Unknown values are never guessed: correct
 the record or add the spelling to the alias table. `tests/controlled-values.test.mjs` checks that every
 card appears under exactly its own governorate and type filters.
+
+## Map positions
+
+Only a verified position becomes a pin (`src/utils/mapPosition.js`): a point of the site itself
+(`coordinates_precision: "site"`) with a recorded `coordinates_source`. A point known only to the town,
+neighbourhood or area (`settlement` or `approximate`) is kept in the record but not drawn. A card without
+a verified position is still published: the Map list and Site Details say "Approximate area only" or "No
+map position yet". Coverage and the field queue count verified positions only.
+
+`python3 tools/content-pipeline/verify_coordinates.py` checks every recorded point. It checks that the
+source and precision are recorded and that the point is in Iraq. For a Wikidata source, it checks that
+the item still gives the same point, is the site itself and lies in the card's governorate. It also
+flags points shared with an unrelated card, components far from their parent site, and site points
+rounded to one decimal. Each flag needs a manual decision in
+`tools/content-pipeline/data/coordinates/coordinate-decisions.json`: `keep` (with the reason),
+`downgrade` (precision lowered so the point is no pin) or `remove`. `tests/map-position.test.mjs` fails
+while a flag is undecided or two unrelated pins share a point.

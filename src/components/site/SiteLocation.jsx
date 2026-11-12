@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import SmartLink from '../common/SmartLink';
+import { hasVerifiedPosition } from '../../utils/mapPosition';
 import MapCanvas from '../map/MapCanvas';
 import { useNavigate } from '../../router/RouterContext';
 import '../../styles/home-sections.css';
@@ -15,10 +16,10 @@ const fmt = (n) => n.toFixed(4);
 export default function SiteLocation({ site, neighbours }) {
   const navigate = useNavigate();
   const mapSites = useMemo(() => [site, ...neighbours], [site, neighbours]);
-  if (!Number.isFinite(site.latitude) || !Number.isFinite(site.longitude)) return null;
+  if (!hasVerifiedPosition(site)) return null;
 
   const osm = `https://www.openstreetmap.org/?mlat=${site.latitude}&mlon=${site.longitude}#map=13/${site.latitude}/${site.longitude}`;
-  const withCoords = neighbours.filter((n) => Number.isFinite(n.latitude) && Number.isFinite(n.longitude));
+  const withCoords = neighbours.filter(hasVerifiedPosition);
 
   return (
     <div className="hb-location">
@@ -29,7 +30,7 @@ export default function SiteLocation({ site, neighbours }) {
           selectedSite={site}
           onSelect={(other) => { if (other.id !== site.id) navigate(other.href); }}
           size="compact"
-          caption={tn('Recorded position, shown with {n} other card from the same governorate. Select a pin to open that card.', 'Recorded position, shown with {n} other cards from the same governorate. Select a pin to open that card.', withCoords.length)}
+          caption={tn('Verified position, shown with {n} other card from the same governorate. Select a pin to open that card.', 'Verified position, shown with {n} other cards from the same governorate. Select a pin to open that card.', withCoords.length)}
         />
       </figure>
 

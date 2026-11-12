@@ -160,7 +160,8 @@ test('every published card opens a useful Site Details page with no empty sectio
     assert.ok(all('.hb-facts__row dd').every((dd) => !/^(unknown|not-established|not-recorded)$/i.test(dd.textContent.trim())), `${label}: no "unknown" values`);
     assert.ok(all('#sources li').length >= 1, `${label}: sources`);
     assert.equal(all('main .hb-state[data-state="unavailable"]').length, 0, `${label}: no empty-state panels`);
-    assert.equal(Boolean($('#location')), Number.isFinite(site.latitude) && Number.isFinite(site.longitude), `${label}: map only with coordinates`);
+    assert.equal(Boolean($('#location')), site.mapPosition === 'verified', `${label}: map only with a verified position`);
+    assert.match(facts, /Map position/, `${label}: map position status is stated`);
     assert.equal(Boolean($('#model')), site.modelResources.length > 0, `${label}: 3D only when present`);
     for (const section of all('main .hb-site__section')) {
       const title = section.querySelector('h2').textContent;
@@ -588,7 +589,7 @@ test('Empty data does not crash Home, Map, Decks, Explore or 3D Archive', async 
   sites.splice(0);
   await mount();
   assert.ok($('h1'));
-  await navigate('/map'); assert.match($('main').textContent, /No card in the archive has recorded coordinates/);
+  await navigate('/map'); assert.match($('main').textContent, /No card in the archive has a verified position/);
   await navigate('/decks'); assert.match($('main').textContent, /No decks to show/);
   await navigate('/explore'); assert.match($('.hb-empty').textContent, /No heritage sites yet/);
   await navigate('/3d-archive'); assert.match($('.hb-empty').textContent, /No verified 3D resources/);

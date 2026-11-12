@@ -1470,6 +1470,8 @@
     "unesco_status": "inscribed",
     "latitude": 36.1911111,
     "longitude": 44.0091667,
+    "coordinates_source": "wikidata:Q206236",
+    "coordinates_precision": "site",
     "status": "approved",
     "verification_status": "approved",
     "slug": "erbil-citadel",
@@ -3526,6 +3528,8 @@
     "unesco_status": "inscribed",
     "latitude": 35.5880611,
     "longitude": 42.7183306,
+    "coordinates_source": "wikidata:Q466614",
+    "coordinates_precision": "site",
     "status": "approved",
     "verification_status": "approved",
     "slug": "hatra",
@@ -8076,6 +8080,8 @@
     "unesco_status": "inscribed",
     "latitude": 35.4566667,
     "longitude": 43.2611111,
+    "coordinates_source": "wikidata:Q200200",
+    "coordinates_precision": "site",
     "status": "approved",
     "verification_status": "approved",
     "alternativeNames": [
@@ -10833,7 +10839,7 @@
     "latitude": 36.9,
     "longitude": 44.933333,
     "coordinates_source": "wikidata:Q3849877",
-    "coordinates_precision": "site",
+    "coordinates_precision": "approximate",
     "review_notes": "The stele sits on the Iraq–Iran border; sources disagree on its present custody."
   },
   {
@@ -22676,7 +22682,7 @@
     "latitude": 36.718056,
     "longitude": 43.254167,
     "coordinates_source": "mesopotamiaheritage:mir-ali-beg",
-    "coordinates_precision": "site",
+    "coordinates_precision": "settlement",
     "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
   },
   {
@@ -24410,7 +24416,7 @@
     "latitude": 36.166667,
     "longitude": 43.1,
     "coordinates_source": "wikidata:Q2733421",
-    "coordinates_precision": "site"
+    "coordinates_precision": "approximate"
   },
   {
     "id": "site-nineveh-mlefaat",
@@ -24461,7 +24467,7 @@
     "latitude": 36.3,
     "longitude": 43.55,
     "coordinates_source": "wikidata:Q3523239",
-    "coordinates_precision": "site",
+    "coordinates_precision": "approximate",
     "review_notes": "Near the Khazir boundary; governorate to confirm."
   },
   {
@@ -41078,7 +41084,7 @@
     "latitude": 33.3201,
     "longitude": 44.4205,
     "coordinates_source": "wikidata:Q7487432",
-    "coordinates_precision": "site"
+    "coordinates_precision": "settlement"
   },
   {
     "id": "site-baghdad-habibiyah-jewish-cemetery",

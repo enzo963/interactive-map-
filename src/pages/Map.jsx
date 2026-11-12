@@ -15,6 +15,7 @@ import useHeaderHeight from '../hooks/useHeaderHeight';
 import { useSearchParams } from '../router/RouterContext';
 import { getAllSites } from '../services/siteService';
 import { getGovernorateKey } from '../data/governorates';
+import { hasVerifiedPosition, MAP_POSITION_LABELS } from '../utils/mapPosition';
 import { applyFilters, getFacets, sortSites, serializeFilters } from '../utils/filterSites';
 import { cardsLabel } from '../utils/archiveStats';
 import { getGovernorateStats } from '../utils/governorateStats';
@@ -113,7 +114,7 @@ export default function MapPage() {
   const regionResults = region
     ? results.filter((s) => getGovernorateKey(s.governorate) === region.key)
     : results;
-  const plotted = regionResults.filter((s) => Number.isFinite(s.latitude) && Number.isFinite(s.longitude));
+  const plotted = regionResults.filter(hasVerifiedPosition);
 
   const selected = regionResults.find((s) => s.slug === params.get('site')) ?? null;
   const requestedSite = params.get('site');
@@ -287,7 +288,7 @@ export default function MapPage() {
           <div className="hb-mapx__summary">
             <div>
               <p role="status" aria-live="polite">
-                <strong>{t(region?.name ?? 'All governorates')}</strong> · {t('{cards} matching · {n} with coordinates', { cards: cardsLabel(regionResults.length), n: plotted.length })}
+                <strong>{t(region?.name ?? 'All governorates')}</strong> · {t('{cards} matching · {n} on the map', { cards: cardsLabel(regionResults.length), n: plotted.length })}
               </p>
               {selected && (
                 <p className="hb-mapx__selected-name">
@@ -350,7 +351,7 @@ export default function MapPage() {
             </h2>
             <p className="hb-explore__count" role="status">
               {cardsLabel(regionResults.length)}
-              {plotted.length !== regionResults.length && `, ${t('{n} with coordinates', { n: plotted.length })}`}
+              {plotted.length !== regionResults.length && `, ${t('{n} on the map; the rest have no verified position yet', { n: plotted.length })}`}
               {` · ${t('Showing {shown} of {total}', { shown: Math.min(listSize, regionResults.length), total: regionResults.length })}`}
             </p>
             {regionResults.length > 0 ? (
@@ -367,6 +368,9 @@ export default function MapPage() {
                       <span className="hb-mapx__item-meta">
                         {[t(site.cardType.shortLabel), t(site.governorate)].filter(Boolean).join(' · ')}
                       </span>
+                      {site.mapPosition !== 'verified' && (
+                        <span className={`hb-mappos hb-mappos--${site.mapPosition}`}>{t(MAP_POSITION_LABELS[site.mapPosition])}</span>
+                      )}
                     </button>
                   </li>
                 ))}

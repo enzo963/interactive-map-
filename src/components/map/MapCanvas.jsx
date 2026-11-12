@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import L from '../../lib/leaflet';
 import { getGovernorateKey } from '../../data/governorates';
+import { hasVerifiedPosition } from '../../utils/mapPosition';
 import { GOVERNORATE_CENTRES } from '../../data/geo/governorateCentres';
 import { cardsLabel } from '../../utils/archiveStats';
 import '../../styles/map-explorer.css';
@@ -13,7 +14,8 @@ const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">Op
 const LABEL_MAX_ZOOM = 9;
 const REGION_ZOOM = 8;
 
-const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
+// Only a verified position is drawn as a pin (utils/mapPosition.js).
+const hasPosition = hasVerifiedPosition;
 const escapeHtml = (text) =>
   String(text ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -278,8 +280,8 @@ export default function MapCanvas({
           ? t('Click the map to place the pin, then drag it to fine-tune.')
           : caption ??
             (allSites.some(hasPosition)
-              ? t('{n} of {total} cards have recorded coordinates and appear as pins. Colour shows the card type; governorate labels show all cards.', { n: placed, total: visibleSites.length })
-              : t('No card in the archive has recorded coordinates yet. Use the governorate list to browse without map positions.'))}
+              ? t('{n} of {total} cards have a verified position and appear as pins. Colour shows the card type; governorate labels count all cards, including those not yet on the map.', { n: placed, total: visibleSites.length })
+              : t('No card in the archive has a verified position yet. Use the governorate list to browse without map positions.'))}
       </p>
     </div>
   );

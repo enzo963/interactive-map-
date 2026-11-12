@@ -78,4 +78,22 @@ export default {
   Nineveh: 'نينوى', Duhok: 'دهوك', Erbil: 'أربيل', Sulaymaniyah: 'السليمانية', Kirkuk: 'كركوك', 'Salah al-Din': 'صلاح الدين',
   Diyala: 'ديالى', Baghdad: 'بغداد', Anbar: 'الأنبار', Babylon: 'بابل', Basra: 'البصرة', 'Dhi Qar': 'ذي قار', Karbala: 'كربلاء',
   Maysan: 'ميسان', Muthanna: 'المثنى', Najaf: 'النجف', Qadisiyyah: 'القادسية', Wasit: 'واسط',
+  // Map position status (utils/mapPosition.js).
+  "{n} of {total} cards have a verified position and appear as pins. Colour shows the card type; governorate labels count all cards, including those not yet on the map.": "{n} من {total} بطاقة لها موقع مؤكد وتظهر كدبابيس. اللون يدل على نوع البطاقة، وأسماء المحافظات تعدّ كل البطاقات، ومنها التي لم تظهر على الخريطة بعد.",
+  "No card in the archive has a verified position yet. Use the governorate list to browse without map positions.": "لا توجد بطاقة لها موقع مؤكد بعد. استعمل قائمة المحافظات للتصفح دون مواقع على الخريطة.",
+  "{n} of {total} cards shown as pins at verified positions; the others are listed without a pin. Select a pin to see its card.": "{n} من {total} بطاقة ظاهرة كدبابيس في مواقع مؤكدة، والبقية مدرجة دون دبوس. اختر دبوساً لترى بطاقته.",
+  "{cards} matching · {n} on the map": "{cards} مطابقة · {n} على الخريطة",
+  "{n} on the map; the rest have no verified position yet": "{n} على الخريطة، والبقية ليس لها موقع مؤكد بعد",
+  "Map position": "الموقع على الخريطة",
+  "Verified position": "موقع مؤكد",
+  "Approximate area only": "منطقة تقريبية فقط",
+  "No map position yet": "لا موقع على الخريطة بعد",
+  "The pin marks the site itself, from a checked source.": "الدبوس يحدد الموقع نفسه، من مصدر تم التحقق منه.",
+  "The recorded point is the town or area, not the site itself, so it is not shown as a pin.": "النقطة المسجلة هي البلدة أو المنطقة وليست الموقع نفسه، لذلك لا تظهر كدبوس.",
+  "No reliable position has been recorded yet, so the card is not shown on the map.": "لم يُسجَّل موقع موثوق بعد، لذلك لا تظهر البطاقة على الخريطة.",
+  "Location": "الموقع",
+  "Verified position, shown with {n} other card from the same governorate. Select a pin to open that card.|Verified position, shown with {n} other cards from the same governorate. Select a pin to open that card.": {
+    zero: "موقع مؤكد.", one: "موقع مؤكد، مع بطاقة أخرى من المحافظة نفسها. اختر دبوساً لفتح تلك البطاقة.", two: "موقع مؤكد، مع بطاقتين أخريين من المحافظة نفسها. اختر دبوساً لفتح البطاقة.",
+    few: "موقع مؤكد، مع {n} بطاقات أخرى من المحافظة نفسها. اختر دبوساً لفتح البطاقة.", many: "موقع مؤكد، مع {n} بطاقة أخرى من المحافظة نفسها. اختر دبوساً لفتح البطاقة.", other: "موقع مؤكد، مع {n} بطاقة أخرى من المحافظة نفسها. اختر دبوساً لفتح البطاقة.",
+  },
 };

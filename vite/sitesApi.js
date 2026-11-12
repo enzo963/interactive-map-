@@ -41,7 +41,7 @@ function clean(body) {
 }
 
 // Coordinates set with the map editor are marked so reviewers can tell them from sourced ones.
-const placedNote = () => ({ coordinates_source: 'map-editor', coordinates_placed_at: new Date().toISOString().slice(0, 10) });
+const placedNote = () => ({ coordinates_source: 'map-editor', coordinates_precision: 'site', coordinates_placed_at: new Date().toISOString().slice(0, 10) });
 
 /**
  * A draft record in the shape of src/data/sites.schema.json. It stays hidden (status draft) until it
