@@ -261,6 +261,7 @@ export function normalizeSites(input) {
       name,
       governorate: raw.governorate ?? '',
       city: raw.city ?? '',
+      approximateLocation: text(raw.approximateLocation),
       country: raw.country ?? 'Iraq',
       latitude: toCoordinate(raw.latitude),
       longitude: toCoordinate(raw.longitude),

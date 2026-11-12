@@ -774,7 +774,8 @@ test('global search finds an approved alternative name and opens its record', as
   });
   await act(async () => $('form[aria-label="Global heritage search"]').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })));
   assert.equal(window.location.pathname, '/explore');
-  assert.equal(all('.hb-grid > li').length, 1);
+  // The exact alias ranks first; spelling-tolerant matches (Al-Khulafa, "Al-Qasr Mosque") may follow.
+  assert.ok(all('.hb-grid > li').length >= 1);
   assert.match($('.hb-grid .hb-card__title').textContent, /Caliphal Palace/);
   await click($('.hb-grid .hb-card__link'));
   assert.match($('h1').textContent, /Caliphal Palace/);

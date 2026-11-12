@@ -282,3 +282,20 @@ without updating the files.
 
 The report's next batch lists each card at most once, so a batch never becomes perfecting one card.
 `tests/field-queue.test.mjs` checks the rules; the script exits 1 if an approved record is blocked.
+
+## Search discoverability
+
+Search (`src/utils/search.js`) matches every query word against the start of a word in a card's
+names, aliases, governorate, location text, type, period and tradition. It folds punctuation,
+apostrophes and Arabic letter forms, tolerates common transliterations (Tell/Tal, Sheikh/Shaykh,
+Qal'at/Kalat, Kadhimiya/Kazimiya, Ashur/Assur) and knows equivalent terms in English, transliterated
+Arabic, Kurdish and Arabic (mosque/masjid/جامع, castle/qala/قلعة, Abbasid/عباسي). Every governorate
+is searchable however it is written (Hawler, Slemani, Ninawa, دهوك …).
+
+`npm run check:search` runs, for every record from a discovery batch, the searches a visitor would
+type (name and its variants, each alias, name plus governorate spellings, category and its plural and
+Arabic, period in English and Arabic), plus the real-world searches in
+`tests/fixtures/search-expectations.json`. Add a line there whenever a search should have found a card
+and did not. If a card cannot be found because a well-known name is missing, add it to the record's
+`alternativeNames`. `tests/search-discoverability.test.mjs` runs the same checks and guards against
+spelling tolerance returning unrelated cards.

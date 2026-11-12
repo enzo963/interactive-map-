@@ -1022,6 +1022,11 @@
   {
     "id": "site-erbil-erbil-citadel",
     "name": "Erbil Citadel",
+    "alternativeNames": [
+      "Arbela",
+      "Qelay Hewlêr",
+      "قلعة أربيل"
+    ],
     "governorate": "Erbil",
     "category": "Citadel",
     "period": "Multiple periods, including Ottoman",
@@ -1473,10 +1478,14 @@
   {
     "id": "site-erbil-shanidar-cave",
     "name": "Shanidar Cave",
+    "alternativeNames": [
+      "Shanidar",
+      "Şaneder",
+      "كهف شانيدر"
+    ],
     "governorate": "Erbil",
     "category": "Archaeological Cave",
-    "period": "",
-    "period_status": "not-established",
+    "period": "Middle Palaeolithic",
     "description": "A cave in the Zagros mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
     "unesco": null,
     "has3D": null,
@@ -1822,11 +1831,17 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "shanidar-cave",
-    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites."
+    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites.",
+    "review_notes": "Period set to Middle Palaeolithic from the recorded Neanderthal remains (2026-11-12 search audit)."
   },
   {
     "id": "site-kirkuk-kirkuk-citadel",
     "name": "Kirkuk Citadel",
+    "alternativeNames": [
+      "Arrapha",
+      "Qala of Kirkuk",
+      "قلعة كركوك"
+    ],
     "governorate": "Kirkuk",
     "category": "Citadel",
     "period": "",
@@ -2424,6 +2439,7 @@
     "id": "site-nineveh-al-nouri",
     "name": "Al-Nouri Mosque and al-Hadba Minaret",
     "governorate": "Nineveh",
+    "approximateLocation": "Old City, Mosul",
     "category": "Mosque and Minaret",
     "period": "",
     "period_status": "not-established",
@@ -2989,6 +3005,10 @@
   {
     "id": "site-001",
     "name": "Hatra",
+    "alternativeNames": [
+      "al-Hadr",
+      "الحضر"
+    ],
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "Parthian",
@@ -3517,6 +3537,7 @@
     "governorate": "Nineveh",
     "category": "Religious Complex",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "The main temple of the Yazidi religion and its central pilgrimage place, in a sacred valley in Sheikhan district, about 60 km north-west of Nineveh. The complex holds the tomb of Sheikh Uday bin Musafir.",
     "unesco": false,
@@ -3951,6 +3972,12 @@
   {
     "id": "site-nineveh-nimrud",
     "name": "Nimrud",
+    "alternativeNames": [
+      "Kalhu",
+      "Calah",
+      "النمرود",
+      "كالخو"
+    ],
     "governorate": "Nineveh",
     "category": "Archaeological City",
     "period": "Assyrian",
@@ -4346,6 +4373,7 @@
     "id": "site-nineveh-ancient-nineveh",
     "name": "The Ancient City of Nineveh",
     "governorate": "Nineveh",
+    "approximateLocation": "East bank of the Tigris, Mosul",
     "category": "Archaeological City",
     "period": "Assyrian",
     "description": "The Assyrian royal city on the east bank of the Tigris at Mosul, adopted as the empire’s political seat after its first religious capital, Ashur. Its walls, gateways, mounds and palace remains still outline the ancient city.",
@@ -4994,6 +5022,10 @@
   {
     "id": "site-sulaymaniyah-tell-shemshara",
     "name": "Tell Shemshara",
+    "alternativeNames": [
+      "Shusharra",
+      "Šušarrā"
+    ],
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Settlement",
     "period": "Multi-period, including Old Babylonian",
@@ -14923,6 +14955,7 @@
     "governorate": "Nineveh",
     "category": "Castle",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "Baadre is the historic seat of the Yazidi princes of Sheikhan, and the castle of the princely family stands there. The town, ancient Beth ʿEdrai, hosted a Church of the East synod in 485 AD.",
     "unesco": null,
@@ -15156,6 +15189,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A Yazidi shrine on a mountainside facing the Erbil–Duhok road near Bardarash.",
     "unesco": null,
@@ -18079,7 +18113,7 @@
       "Pashtabia",
       "باشطابيا"
     ],
-    "approximateLocation": "Tigris bank, north of the old city",
+    "approximateLocation": "Tigris bank, north of the old city, Mosul",
     "estimated_year": "12th century",
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
@@ -18321,7 +18355,7 @@
       "Bab al-Saray Market",
       "سوق باب السراي"
     ],
-    "approximateLocation": "Bab al-Saray",
+    "approximateLocation": "Bab al-Saray, Old City of Mosul",
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
     "latitude": 36.34298,
@@ -18455,7 +18489,7 @@
       "Khan al-Gumriq",
       "خان الكمرك"
     ],
-    "approximateLocation": "Bab al-Saray",
+    "approximateLocation": "Bab al-Saray, Old City of Mosul",
     "estimated_year": 1703,
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
@@ -22453,6 +22487,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A rebuilt mausoleum in Bahzani, the intellectual heart of Yazidism with neighbouring Bashiqa; Islamic State destroyed 22 mausoleums in the two towns in 2014–16.",
     "unesco": null,
@@ -22491,6 +22526,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A Yazidi mausoleum in Bashiqa destroyed by Islamic State and restored and reopened in January 2018.",
     "unesco": null,
@@ -22535,6 +22571,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "Medieval",
+    "civilization": "Yazidi",
     "description": "The only Yazidi building with geometric patterns inside its dome and drum, dated by style to the 14th century; destroyed in 1893 and rebuilt.",
     "unesco": null,
     "has3D": null,
@@ -22579,6 +22616,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A Yazidi mausoleum in the cemetery of Shexka on a hilltop with views over the plain.",
     "unesco": null,
@@ -22613,6 +22651,7 @@
     "governorate": "Nineveh",
     "category": "Shrine",
     "period": "20th century",
+    "civilization": "Yazidi",
     "description": "The mausoleum of the Yazidi prince Mîr Alî Beg (late 19th–early 20th century) in the cemetery of Baadre.",
     "unesco": null,
     "has3D": null,
@@ -22691,6 +22730,7 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A Yazidi temple of pale yellow stone with two cones, dedicated to Sheikh Sherfedin and held among the holiest Yazidi places. In August 2014 a small band of defenders held it against Islamic State.",
     "unesco": null,
@@ -22868,6 +22908,7 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A temple to the 12th-century Yazidi saint Sheikh Mand, whose emblem is a black snake, in Gedala village near Sinjar. Destroyed on 24 August 2014 and rebuilt from the ground by Nadia’s Initiative.",
     "unesco": null,
@@ -22916,6 +22957,7 @@
     "governorate": "Nineveh",
     "category": "Temple",
     "period": "",
+    "civilization": "Yazidi",
     "period_status": "not-established",
     "description": "A Yazidi temple in Sinjar destroyed by Islamic State and rehabilitated and reopened by Nadia’s Initiative.",
     "unesco": null,
@@ -24315,7 +24357,7 @@
       "Tepe Reshwa",
       "تل عربجية"
     ],
-    "approximateLocation": "Near Nineveh",
+    "approximateLocation": "Near Nineveh, on the outskirts of Mosul",
     "review_notes": "Wikidata Q1744863 gives 36.48, 42.95, west of the Tigris and far from Nineveh; coordinates left out until corrected."
   },
   {

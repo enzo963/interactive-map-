@@ -2,7 +2,7 @@ import { CARD_TYPES } from '../data/cardTypes';
 import { SPECIAL_COLLECTIONS, isCollectionMember } from '../data/collections';
 import { getGovernorateKey } from '../data/governorates';
 import { filterSites } from './filters';
-import { normalizeSearchText, searchSites, getSearchNames } from './search';
+import { normalizeSearchText, searchSites, getSearchNames, nameMatchShare } from './search';
 import { HERITAGE_CATEGORIES, getHeritageCategories } from './heritageCategories';
 import slugify from './slugify';
 import { t as tr } from '../i18n';
@@ -214,13 +214,15 @@ export function getFacets(sites, input) {
     })),
   };
 }
+/** 0 exact name, 1 name starts with the query, 2 name contains it; otherwise 3–4 by the share of query words in the names. */
 export function relevanceRank(site, query) {
   const q = fold(query);
-  return Math.min(
+  const rank = Math.min(
     ...getSearchNames(site).map((value) => {
       const name = fold(value);
       return name === q ? 0 : name.startsWith(q) ? 1 : name.includes(q) ? 2 : 3;
     }),
     3,
   );
+  return rank < 3 ? rank : 4 - nameMatchShare(site, q);
 }

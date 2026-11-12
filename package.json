@@ -12,7 +12,8 @@
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:cards": "node scripts/check-cards.mjs",
     "report:coverage": "node scripts/coverage-report.mjs",
-    "report:fields": "node scripts/field-queue.mjs"
+    "report:fields": "node scripts/field-queue.mjs",
+    "check:search": "node scripts/search-audit.mjs"
   },
   "dependencies": {
     "@google/model-viewer": "4.4.0",

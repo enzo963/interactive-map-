@@ -29,20 +29,14 @@
       "label": "Place description",
       "why": "Neither coordinates nor a place description: a reader cannot tell where in the governorate the site is.",
       "timeboxMinutes": 5,
-      "missing": 27,
+      "missing": 25,
       "settled": 0,
-      "open": 27,
+      "open": 25,
       "sites": [
         {
           "id": "site-kirkuk-kirkuk-citadel",
           "name": "Kirkuk Citadel",
           "governorate": "Kirkuk",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-ancient-nineveh",
-          "name": "The Ancient City of Nineveh",
-          "governorate": "Nineveh",
           "status": "approved"
         },
         {
@@ -115,12 +109,6 @@
           "id": "site-kirkuk-qaysariyah-market",
           "name": "Al-Qaysariyah Market, Kirkuk",
           "governorate": "Kirkuk",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-al-nouri",
-          "name": "Al-Nouri Mosque and al-Hadba Minaret",
-          "governorate": "Nineveh",
           "status": "approved"
         },
         {
@@ -2591,9 +2579,9 @@
       "label": "Historical period",
       "why": "The period was not established when the card was reviewed; a dated card can be found by era.",
       "timeboxMinutes": 10,
-      "missing": 299,
+      "missing": 298,
       "settled": 0,
-      "open": 299,
+      "open": 298,
       "sites": [
         {
           "id": "site-kirkuk-kirkuk-citadel",
@@ -2628,12 +2616,6 @@
         {
           "id": "site-erbil-qaysari-bazaar",
           "name": "Qaysari Bazaar, Erbil",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-shanidar-cave",
-          "name": "Shanidar Cave",
           "governorate": "Erbil",
           "status": "approved"
         },
@@ -5729,28 +5711,10 @@
       "label": "Alternative names",
       "why": "Other spellings and Arabic or Kurdish names make the card findable in search.",
       "timeboxMinutes": 5,
-      "missing": 215,
+      "missing": 209,
       "settled": 0,
-      "open": 215,
+      "open": 209,
       "sites": [
-        {
-          "id": "site-erbil-erbil-citadel",
-          "name": "Erbil Citadel",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-001",
-          "name": "Hatra",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-kirkuk-kirkuk-citadel",
-          "name": "Kirkuk Citadel",
-          "governorate": "Kirkuk",
-          "status": "approved"
-        },
         {
           "id": "site-nineveh-ancient-nineveh",
           "name": "The Ancient City of Nineveh",
@@ -5770,12 +5734,6 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-nimrud",
-          "name": "Nimrud",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-duhok-delal-bridge",
           "name": "Delal Bridge",
           "governorate": "Duhok",
@@ -5790,12 +5748,6 @@
         {
           "id": "site-erbil-choli-minaret",
           "name": "Choli Minaret",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-shanidar-cave",
-          "name": "Shanidar Cave",
           "governorate": "Erbil",
           "status": "approved"
         },
@@ -5844,12 +5796,6 @@
         {
           "id": "site-sulaymaniyah-qalatga-darband",
           "name": "Qalatga Darband",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-tell-shemshara",
-          "name": "Tell Shemshara",
           "governorate": "Sulaymaniyah",
           "status": "approved"
         },
@@ -17384,12 +17330,12 @@
   "byGapCount": {
     "0": 1,
     "1": 21,
-    "2": 76,
+    "2": 77,
     "3": 125,
-    "4": 137,
-    "5": 171,
-    "6": 134,
-    "7": 16,
+    "4": 136,
+    "5": 175,
+    "6": 133,
+    "7": 13,
     "8": 1
   },
   "nextBatch": [
@@ -17405,15 +17351,6 @@
       "kind": "enrichment",
       "id": "site-kirkuk-kirkuk-citadel",
       "name": "Kirkuk Citadel",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-nineveh-ancient-nineveh",
-      "name": "The Ancient City of Nineveh",
       "fields": [
         "location"
       ],
@@ -17529,15 +17466,6 @@
     },
     {
       "kind": "enrichment",
-      "id": "site-nineveh-al-nouri",
-      "name": "Al-Nouri Mosque and al-Hadba Minaret",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
       "id": "site-nineveh-dominican-church",
       "name": "Dominican Church and Clock Tower, Mosul",
       "fields": [
@@ -17612,6 +17540,24 @@
       "kind": "enrichment",
       "id": "site-sulaymaniyah-tell-shemshara",
       "name": "Tell Shemshara",
+      "fields": [
+        "location"
+      ],
+      "timeboxMinutes": 5
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-diyala-prophet-daniel-shrine-diyala",
+      "name": "Shrine of the Prophet Daniel (Diyala)",
+      "fields": [
+        "location"
+      ],
+      "timeboxMinutes": 5
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-diyala-tel-abu-uthaina",
+      "name": "Tel Abu Uthaina",
       "fields": [
         "location"
       ],
