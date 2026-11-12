@@ -1,4 +1,4 @@
-import { getGovernorateKey } from '../data/governorates';
+import { GOVERNORATE_NAMES, getGovernorateKey, governorateAlternativeNames } from '../data/governorates';
 
 /** Unicode folding is shared by search and exact-value filters. */
 export function normalizeSearchText(value) {
@@ -126,19 +126,6 @@ const SYNONYMS = [
   ['jewish', 'judaism', 'يهودي'],
 ];
 
-/** Every way a governorate is written in search: transliterations, Arabic and Kurdish names. */
-const GOVERNORATE_SEARCH_NAMES = {
-  nineveh: ['nineveh', 'ninawa', 'ninewa', 'ninevah', 'ninua', 'نينوى', 'نەینەوا'],
-  duhok: ['duhok', 'dohuk', 'dahuk', 'dihok', 'دهوك', 'دهۆک'],
-  erbil: ['erbil', 'arbil', 'irbil', 'hawler', 'hewler', 'هولير', 'أربيل', 'اربيل', 'هەولێر'],
-  sulaymaniyah: ['sulaymaniyah', 'sulaimaniyah', 'sulaymaniya', 'sulaimani', 'slemani', 'silemani', 'slimani', 'suleimaniya', 'السليمانية', 'سليمانية', 'سلێمانی'],
-  kirkuk: ['kirkuk', 'karkuk', 'kerkuk', 'كركوك', 'کەرکووک'],
-  salahaldin: ['salahaldin', 'salahuddin', 'salahaddin', 'saladin', 'صلاح الدين'],
-  diyala: ['diyala', 'dyala', 'ديالى'],
-  baghdad: ['baghdad', 'bagdad', 'بغداد'],
-  anbar: ['anbar', 'الأنبار', 'انبار'],
-};
-
 const SYNONYM_GROUP = new Map();
 SYNONYMS.forEach((words, group) => {
   for (const word of words) for (const token of searchTokens(word)) if (!STOPWORDS.has(token)) SYNONYM_GROUP.set(baseForm(token), group);
@@ -155,7 +142,8 @@ function siteIndex(site, includeMetadata) {
   if (includeMetadata === 'ranking') values.push(site.siteType);
   else if (includeMetadata) {
     values.push(site.city, site.approximateLocation, site.governorate, site.siteType, site.period, site.civilization, site.archiveNo, site.dateLabel);
-    values.push(...(GOVERNORATE_SEARCH_NAMES[getGovernorateKey(site.governorate)] ?? []));
+    const key = getGovernorateKey(site.governorate);
+    values.push(GOVERNORATE_NAMES[key], ...governorateAlternativeNames(key)); // Hawler, Slemani, نينوى …
   }
   const tokens = searchTokens(values.filter(Boolean).join(' '));
   const entry = {

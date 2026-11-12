@@ -299,3 +299,18 @@ Arabic, period in English and Arabic), plus the real-world searches in
 and did not. If a card cannot be found because a well-known name is missing, add it to the record's
 `alternativeNames`. `tests/search-discoverability.test.mjs` runs the same checks and guards against
 spelling tolerance returning unrelated cards.
+
+## Controlled values (governorate and site type)
+
+Each record stores one canonical governorate (`GOVERNORATE_NAMES` in `src/data/governorates.js`) and one
+controlled site type (`CATEGORIES` in `src/data/categories.js`). Alternative spellings never go into a
+record's `governorate` or `category`. They are listed once, in those files (`ALTERNATIVE_NAMES`,
+`CATEGORY_ALIASES`): Ninewa, Ninawa Governorate, Nīnawā, نينوى and هەولێر all resolve to their
+governorate, and "Mosque and Minaret" or "mosques" to Mosque. A site's own other names stay in its
+`alternativeNames`.
+
+The site adapter and the map editor's save API store or show the canonical value, so a variant never
+becomes a separate filter option. `npm run check:values` lists records whose value is a variant or unknown.
+`npm run check:values -- --write` stores the canonical value for recognised variants. Unknown values are never guessed: correct
+the record or add the spelling to the alias table. `tests/controlled-values.test.mjs` checks that every
+card appears under exactly its own governorate and type filters.

@@ -1,5 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { normalizeGovernorate } from '../src/data/governorates.js';
+import { normalizeCategory } from '../src/data/categories.js';
 
 /**
  * Dev-only API that writes map edits straight into src/data/sites.json.
@@ -52,15 +54,18 @@ function newSite(fields, sites) {
   const base = slugify(fields.name) || 'site';
   let slug = base;
   for (let n = 2; sites.some((s) => s.slug === slug); n += 1) slug = `${base}-${n}`;
-  const governorate = slugify(fields.governorate) || 'unknown';
+  // Controlled values are stored in their canonical spelling ("Ninewa" → "Nineveh", "mosques" → "Mosque").
+  const governorateName = normalizeGovernorate(fields.governorate) ?? fields.governorate ?? '';
+  const category = normalizeCategory(fields.category) ?? fields.category ?? '';
+  const governorate = slugify(governorateName) || 'unknown';
   let id = `site-${governorate}-${slug}`;
   for (let n = 2; sites.some((s) => s.id === id); n += 1) id = `site-${governorate}-${slug}-${n}`;
 
   return {
     id,
     name: fields.name,
-    governorate: fields.governorate ?? '',
-    category: fields.category ?? '',
+    governorate: governorateName,
+    category,
     period: fields.period ?? '',
     ...(fields.period ? {} : { period_status: 'not-established' }),
     description: fields.description ?? '',

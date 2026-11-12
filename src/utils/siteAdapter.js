@@ -1,7 +1,8 @@
 import { isCredibleSource, sourceTier } from './sourceCredibility';
 import { getCardType } from './getCardType';
 import { formatYearLabel, getSiteAgeYears } from './siteYears';
-import { getGovernorateCode } from '../data/governorates';
+import { getGovernorateCode, normalizeGovernorate } from '../data/governorates';
+import { normalizeCategory } from '../data/categories';
 import { resolveImage } from './resolveImage';
 import slugify from './slugify';
 import { normalizeModelResources } from './modelResources';
@@ -250,7 +251,8 @@ export function normalizeSites(input) {
     const documentationMeta = normalizeDocumentation(raw.documentation);
     const ourWorkTypes = unique([...toList(raw.our_work_types), ...(documentationMeta?.methods ?? [])]);
 
-    const siteType = text(raw.category ?? raw.site_type);
+    // Controlled values in their canonical spelling, so a variant never forms its own filter option.
+    const siteType = normalizeCategory(raw.category ?? raw.site_type) ?? text(raw.category ?? raw.site_type);
     const modelResources = normalizeModelResources(raw);
     const hasModel = hasValue(raw.has3D ?? raw.has_3d) || Boolean(modelUrl) || modelResources.length > 0;
 
@@ -259,7 +261,7 @@ export function normalizeSites(input) {
       slug,
       href: `/sites/${slug}`,
       name,
-      governorate: raw.governorate ?? '',
+      governorate: normalizeGovernorate(raw.governorate) ?? raw.governorate ?? '',
       city: raw.city ?? '',
       approximateLocation: text(raw.approximateLocation),
       country: raw.country ?? 'Iraq',
