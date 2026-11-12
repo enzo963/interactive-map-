@@ -1,0 +1,11 @@
+{
+ "reviewedAt": "2026-11-11",
+ "decisions": [
+  {"id": "site-erbil-rabban-boya-shrine", "flag": "identity-uncertain", "detail": "The item's only photograph is described by its uploader as 'probably the Shrine of Raban Boya'."},
+  {"id": "site-nineveh-imam-ibrahim-mosque", "flag": "only-unrelated-images", "detail": "The only files naming 'Ibrahim' and 'Mosul' are interview photographs of an army officer."},
+  {"id": "site-nineveh-al-umawi-mosque", "approve": 7, "reason": "The surviving minaret base of the Umayyad (al-Musaffi) Mosque of Mosul, named in the file."},
+  {"id": "site-nineveh-qara-saray", "approve": 1, "reason": "Qara Saray under restoration; the item's own image, named in the file."},
+  {"id": "site-nineveh-al-tahira-syriac-catholic-mosul", "approve": 1, "reason": "The entrance of al-Tahira church in Mosul; the item linked in the card's own sources."},
+  {"id": "site-sulaymaniyah-qizqapan-tomb", "approve": 1, "reason": "The rock-cut tomb of Qizqapan in its cliff; the item's own image."}
+ ]
+}

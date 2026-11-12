@@ -1,0 +1,13 @@
+{
+ "reviewedAt": "2026-11-11",
+ "decisions": [
+  {"id": "site-nineveh-sultan-wais-mosque", "approve": 1, "reason": "The al-Sultan Wais (Uwais) Mosque in Mosul, named in the file."},
+  {"id": "site-nineveh-khan-al-gumruk", "approve": 5, "reason": "The renovated facade of Khan al-Gumruk in the Old City of Mosul with its name inscription, named in the file."},
+  {"id": "site-nineveh-fort-shalmaneser", "flag": "only-unrelated-images", "detail": "The free files are glazed bricks and ivories from the fort, photographed as museum objects; none shows the site."},
+  {"id": "site-nineveh-khorsabad", "flag": "only-unrelated-images", "detail": "The free files are drawings, a map and reliefs now in museums; none shows the site."},
+  {"id": "site-nineveh-nimrud-northwest-palace", "flag": "only-unrelated-images", "detail": "The free files are palace reliefs and lamassu in museums; none shows the palace site."},
+  {"id": "site-nineveh-sinjar-old-city", "flag": "only-unrelated-images", "detail": "The photographs show the modern city centre of Sinjar after 2019, not the historic town or ancient Singara."},
+  {"id": "site-salah-al-din-akitu-house-ashur", "flag": "only-unrelated-images", "detail": "The matched item is the Akitu festival; its image shows a modern celebration in Duhok, not the festival house at Ashur."},
+  {"id": "site-baghdad-seleucia-on-tigris", "flag": "only-unrelated-images", "detail": "The free files are coins minted at Seleucia; none shows the site."}
+ ]
+}

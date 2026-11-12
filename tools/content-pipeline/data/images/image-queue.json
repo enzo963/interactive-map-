@@ -14,21 +14,6 @@
   "reason": "no-wikidata-item"
  },
  {
-  "id": "site-kirkuk-qaysariyah-market",
-  "name": "Al-Qaysariyah Market, Kirkuk",
-  "governorate": "Kirkuk",
-  "category": "Historic Market",
-  "band": "A",
-  "score": 130,
-  "why": [
-   "approved",
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "flagged",
-  "reason": "no-wikidata-item"
- },
- {
   "id": "site-kirkuk-mother-of-sorrows-church",
   "name": "Mother of Sorrows Church, Kirkuk Citadel",
   "governorate": "Kirkuk",
@@ -110,8 +95,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-razuk",
@@ -124,8 +109,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-ancient-anah",
@@ -138,8 +123,8 @@
    "2 components",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-anbar-telbis-island",
@@ -152,8 +137,8 @@
    "2 components",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-haradum",
@@ -166,8 +151,8 @@
    "tier 1 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-anbar-al-khaliliya",
@@ -179,8 +164,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-al-owaina-canals",
@@ -192,8 +177,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-al-zawiya-site",
@@ -205,8 +190,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-buttain-al-jannadiya",
@@ -218,8 +203,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-glaia",
@@ -231,8 +216,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-jafrin",
@@ -244,8 +229,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-mashhad-abu-reesha-mosque",
@@ -257,8 +242,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-hit-old-town",
@@ -271,8 +256,8 @@
    "1 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-anbar-rawa-ottoman-castle",
@@ -284,8 +269,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-ana-qala-island",
@@ -297,8 +282,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-rijan-island",
@@ -310,8 +295,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-shihma-cemetery",
@@ -323,8 +308,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-imam-habib-al-najjar",
@@ -336,8 +321,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-sur-jureh",
@@ -349,8 +334,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-tel-gubbain",
@@ -362,8 +347,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-tel-al-darrajiya",
@@ -375,8 +360,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-telbis-burial-ground",
@@ -388,8 +373,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-telbis-eastern-cemetery",
@@ -401,8 +386,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-shaikh-tayie-tomb",
@@ -414,8 +399,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-usiyeh",
@@ -428,218 +413,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-charsteen-cave",
-  "name": "Charsteen Cave",
-  "governorate": "Duhok",
-  "category": "Archaeological Cave",
-  "band": "B",
-  "score": 10,
-  "why": [
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-gunduk-cave-reliefs",
-  "name": "Gunduk Cave Reliefs",
-  "governorate": "Duhok",
-  "category": "Rock Relief",
-  "band": "B",
-  "score": 10,
-  "why": [
-   "tier 2 source",
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-kemune-palace",
-  "name": "Kemune Mittani Palace",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "B",
-  "score": 10,
-  "why": [
-   "tier 2 source",
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-aghaliq-quarter",
-  "name": "Aghaliq Quarter, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Historic Urban Area",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-al-aryan-mosque",
-  "name": "Al-Aryan Mosque",
-  "governorate": "Kirkuk",
-  "category": "Mosque",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-al-midan-quarter",
-  "name": "Al-Midan Quarter, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Historic Urban Area",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-bab-al-halloujia",
-  "name": "Bab al-Halloujia, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Gate",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-tob-qapi",
-  "name": "Bab al-Toub (Tob Qapi), Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Gate",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-great-mosque-kirkuk-citadel",
-  "name": "Great Mosque of Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Mosque",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-hammam-quarter",
-  "name": "Hammam Quarter, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Historic Urban Area",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-seven-girls-gate",
-  "name": "Seven Girls Gate, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Gate",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-stone-gate",
-  "name": "Stone Gate, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Gate",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-hasan-pakiz-mosque",
-  "name": "Hasan Pakiz Mosque",
-  "governorate": "Kirkuk",
-  "category": "Mosque",
-  "band": "B",
-  "score": 25,
-  "why": [
-   "UNESCO",
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-nuzi",
-  "name": "Nuzi (Yorghan Tepe)",
-  "governorate": "Kirkuk",
-  "category": "Archaeological City",
-  "band": "B",
-  "score": 25,
-  "why": [
-   "3 components",
-   "tier 2 source",
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-ottoman-military-cemetery",
-  "name": "Ottoman Military Cemetery, Kirkuk Citadel",
-  "governorate": "Kirkuk",
-  "category": "Cemetery",
-  "band": "B",
-  "score": 25,
-  "why": [
-   "UNESCO",
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-koya-old-town",
@@ -652,8 +427,8 @@
    "5 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-erbil-gund-i-topzawa",
@@ -667,8 +442,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-bestoon-cave",
@@ -680,8 +455,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-diyan-cave",
@@ -693,8 +468,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-erbil-citadel-hammam",
@@ -706,8 +481,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-great-mosque-erbil-citadel",
@@ -719,8 +494,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-kurd-qaburstan",
@@ -733,8 +508,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-rabban-boya-shrine",
@@ -746,8 +521,204 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "identity-uncertain"
+ },
+ {
+  "id": "site-duhok-charsteen-cave",
+  "name": "Charsteen Cave",
+  "governorate": "Duhok",
+  "category": "Archaeological Cave",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-gunduk-cave-reliefs",
+  "name": "Gunduk Cave Reliefs",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-kemune-palace",
+  "name": "Kemune Mittani Palace",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "B",
+  "score": 10,
+  "why": [
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-kirkuk-aghaliq-quarter",
+  "name": "Aghaliq Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-al-aryan-mosque",
+  "name": "Al-Aryan Mosque",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-al-midan-quarter",
+  "name": "Al-Midan Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-bab-al-halloujia",
+  "name": "Bab al-Halloujia, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-tob-qapi",
+  "name": "Bab al-Toub (Tob Qapi), Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-hammam-quarter",
+  "name": "Hammam Quarter, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Historic Urban Area",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "not-recognisable"
+ },
+ {
+  "id": "site-kirkuk-seven-girls-gate",
+  "name": "Seven Girls Gate, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-stone-gate",
+  "name": "Stone Gate, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Gate",
+  "band": "B",
+  "score": 30,
+  "why": [
+   "UNESCO",
+   "tier 1 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-hasan-pakiz-mosque",
+  "name": "Hasan Pakiz Mosque",
+  "governorate": "Kirkuk",
+  "category": "Mosque",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-nuzi",
+  "name": "Nuzi (Yorghan Tepe)",
+  "governorate": "Kirkuk",
+  "category": "Archaeological City",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "3 components",
+   "tier 2 source",
+   "ancient"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-kirkuk-ottoman-military-cemetery",
+  "name": "Ottoman Military Cemetery, Kirkuk Citadel",
+  "governorate": "Kirkuk",
+  "category": "Cemetery",
+  "band": "B",
+  "score": 25,
+  "why": [
+   "UNESCO",
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-rabana-merquly",
@@ -760,8 +731,8 @@
    "2 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-ashkawta-rash",
@@ -773,8 +744,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-dailaija-relief",
@@ -787,8 +758,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kur-u-kich-tomb",
@@ -801,8 +772,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-murad-rasu",
@@ -814,22 +785,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-sulaymaniyah-qizqapan-tomb",
-  "name": "Qizqapan Rock-cut Tomb",
-  "governorate": "Sulaymaniyah",
-  "category": "Mausoleum",
-  "band": "B",
-  "score": 10,
-  "why": [
-   "tier 2 source",
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-sara-palace-and-bathhouse",
@@ -841,8 +798,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-al-juwayjati-mosque",
@@ -855,8 +812,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-khuzam-mosque",
@@ -869,8 +826,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-umariyya-mosque",
@@ -883,8 +840,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-bab-al-qala",
@@ -897,8 +854,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-bab-al-sir",
@@ -911,8 +868,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-dawsat-ali-mosque",
@@ -925,8 +882,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-umm-al-tisa-mosque",
@@ -939,22 +896,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-qara-saray",
-  "name": "Qara Saray",
-  "governorate": "Nineveh",
-  "category": "Palace",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-abdal-mosque-madrasa",
@@ -967,8 +910,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-umar-al-aswad-mosque",
@@ -981,22 +924,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-al-umawi-mosque",
-  "name": "Umayyad Mosque of Mosul",
-  "governorate": "Nineveh",
-  "category": "Mosque",
-  "band": "B",
-  "score": 30,
-  "why": [
-   "UNESCO",
-   "tier 1 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-saray-police-station",
@@ -1009,22 +938,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-al-tahira-syriac-catholic-mosul",
-  "name": "Al-Tahira Syriac Catholic Church (old), Mosul",
-  "governorate": "Nineveh",
-  "category": "Church",
-  "band": "B",
-  "score": 25,
-  "why": [
-   "UNESCO",
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-tahira-kharijiya",
@@ -1037,8 +952,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sitt-nafisa-shrine",
@@ -1051,8 +966,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-hammam-al-umariya",
@@ -1065,8 +980,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-gorgis-chaldean-mosul",
@@ -1079,8 +994,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-ichaya-church",
@@ -1093,8 +1008,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-touma-syriac-catholic",
@@ -1107,8 +1022,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-imam-awn-al-din-shrine",
@@ -1121,8 +1036,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-al-ridwani-mosque",
@@ -1135,8 +1050,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-awlad-al-hasan-mosque",
@@ -1149,8 +1064,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-imam-ibrahim-mosque",
@@ -1163,8 +1078,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-imam-muhsin-mosque",
@@ -1177,8 +1092,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-abbas-mosque",
@@ -1191,8 +1106,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-zayd-ibn-ali-mosque",
@@ -1205,8 +1120,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-isa-dadah-mosque",
@@ -1219,8 +1134,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-nabi-daniyal-mosque",
@@ -1233,8 +1148,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-abariqi-mosque",
@@ -1247,8 +1162,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-qadib-al-ban-mosque",
@@ -1261,8 +1176,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-kharrazi-tomb",
@@ -1275,8 +1190,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-imam-muhammad-mosque",
@@ -1289,8 +1204,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mahmud-al-khidri-mosque",
@@ -1303,8 +1218,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-abu-al-ala-mosque",
@@ -1317,8 +1232,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-shamun-al-safa-church",
@@ -1331,8 +1246,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-shatt-al-jumi-mosque",
@@ -1345,8 +1260,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-abd-al-rahman-shrine",
@@ -1359,8 +1274,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ali-al-asghar-shrine",
@@ -1373,8 +1288,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-ali-al-hadi-shrine",
@@ -1387,8 +1302,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-hamid-and-mahmud-shrine",
@@ -1401,22 +1316,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-sultan-wais-mosque",
-  "name": "Sultan Wais Mosque",
-  "governorate": "Nineveh",
-  "category": "Mosque",
-  "band": "B",
-  "score": 25,
-  "why": [
-   "UNESCO",
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-muhammad-al-afghani-takiya",
@@ -1429,8 +1330,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-abu-al-hawawin-tomb",
@@ -1443,8 +1344,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ibn-al-athir-tomb",
@@ -1457,8 +1358,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-shaykh-ibrahim-tomb",
@@ -1471,8 +1372,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-shaykh-mansur-tomb",
@@ -1485,21 +1386,8 @@
    "UNESCO",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-khan-al-gumruk",
-  "name": "Khan al-Gumruk",
-  "governorate": "Nineveh",
-  "category": "Caravanserai",
-  "band": "B",
-  "score": 20,
-  "why": [
-   "UNESCO"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-ahudeni-church",
@@ -1511,8 +1399,8 @@
   "why": [
    "UNESCO"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mar-petion-church",
@@ -1524,8 +1412,8 @@
   "why": [
    "UNESCO"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-souq-bab-al-saray",
@@ -1537,8 +1425,8 @@
   "why": [
    "UNESCO"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-fort-shalmaneser",
@@ -1551,8 +1439,8 @@
    "tier 1 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-khorsabad",
@@ -1565,8 +1453,8 @@
    "tier 1 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-nimrud-northwest-palace",
@@ -1579,8 +1467,8 @@
    "tier 1 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-sinjar-old-city",
@@ -1593,8 +1481,8 @@
    "2 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-nimrud-burnt-palace",
@@ -1606,8 +1494,8 @@
   "why": [
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ashurbanipal-north-palace",
@@ -1620,8 +1508,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sennacherib-southwest-palace",
@@ -1634,8 +1522,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-tell-hassuna",
@@ -1648,8 +1536,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-nebi-yunus",
@@ -1662,8 +1550,8 @@
    "1 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-yarim-tepe",
@@ -1676,8 +1564,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-samarra-racecourses",
@@ -1690,8 +1578,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-istabulat",
@@ -1704,8 +1592,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-al-jafari-palace",
@@ -1718,8 +1606,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-balkuwara-palace",
@@ -1732,8 +1620,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-ashur-city-walls",
@@ -1746,8 +1634,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-german-expedition-house-ashur",
@@ -1760,8 +1648,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-husn-al-qadisiyya",
@@ -1774,8 +1662,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-ishtar-temple-ashur",
@@ -1788,8 +1676,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-akitu-house-ashur",
@@ -1802,8 +1690,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-salah-al-din-old-palace-ashur",
@@ -1816,8 +1704,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-ottoman-barracks-ashur",
@@ -1830,8 +1718,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-parthian-palace-ashur",
@@ -1844,8 +1732,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-qubbat-al-sulaybiyya",
@@ -1858,8 +1746,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-royal-tombs-ashur",
@@ -1872,8 +1760,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-tabira-gate",
@@ -1886,8 +1774,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-tell-al-alij",
@@ -1900,8 +1788,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-anu-adad-temple",
@@ -1914,8 +1802,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-ashur-temple",
@@ -1928,8 +1816,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-ashur-ziggurat",
@@ -1942,8 +1830,8 @@
    "UNESCO",
    "tier 1 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-salah-al-din-kar-tukulti-ninurta",
@@ -1956,8 +1844,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-round-city",
@@ -1970,8 +1858,8 @@
    "1 components",
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-seleucia-on-tigris",
@@ -1984,8 +1872,8 @@
    "tier 2 source",
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-diyala-hamrin-ababra",
@@ -1997,8 +1885,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-abu-gubab",
@@ -2010,8 +1898,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-abu-khazef",
@@ -2023,8 +1911,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-abu-samad",
@@ -2036,8 +1924,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-abu-shufeh",
@@ -2049,8 +1937,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-abu-tahin",
@@ -2062,8 +1950,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ahmed-al-hattu",
@@ -2075,8 +1963,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-imam-al-bairakdah",
@@ -2088,8 +1976,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ali-pasha",
@@ -2101,8 +1989,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-alwand-bridge",
@@ -2114,8 +2002,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-adhaim-ancient-dam",
@@ -2127,8 +2015,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-hamrin-aq-tepe",
@@ -2140,8 +2028,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ayyash",
@@ -2153,8 +2041,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-bustan",
@@ -2166,8 +2054,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-choga-mami",
@@ -2179,8 +2067,8 @@
   "why": [
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-hamrin-deshtaneh",
@@ -2192,8 +2080,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-eshnunna",
@@ -2205,8 +2093,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-diyala-eski-kifri",
@@ -2218,8 +2106,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-gauri",
@@ -2231,8 +2119,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-greish",
@@ -2244,8 +2132,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-hablayeh",
@@ -2257,8 +2145,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-halawa",
@@ -2270,8 +2158,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-harmaleh",
@@ -2283,8 +2171,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hawsh-kuri",
@@ -2296,8 +2184,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-hamrin-hikmeh",
@@ -2309,8 +2197,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-imam-ali",
@@ -2322,8 +2210,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-imleihiyeh",
@@ -2335,8 +2223,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-irsheidch",
@@ -2348,8 +2236,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-jeizalun",
@@ -2361,8 +2249,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-keshkul",
@@ -2374,8 +2262,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-khafajah",
@@ -2387,8 +2275,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-diyala-khan-bani-saad",
@@ -2400,8 +2288,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-diyala-khanaqin-war-cemetery",
@@ -2413,8 +2301,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-hamrin-kheit-genj",
@@ -2426,8 +2314,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-kheit-imneithir",
@@ -2439,8 +2327,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-kheit-qasim",
@@ -2452,8 +2340,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-kheit-al-imheidiyed",
@@ -2465,8 +2353,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-kheizif",
@@ -2478,8 +2366,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-khuzeifi",
@@ -2491,8 +2379,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-kifri-saray",
@@ -2504,8 +2392,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-kumeideh",
@@ -2517,8 +2405,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-mahmud-agha",
@@ -2530,8 +2418,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-nebi-ismail",
@@ -2543,8 +2431,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-baqubah-old-saray",
@@ -2556,8 +2444,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-sabra",
@@ -2569,8 +2457,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-seidalan",
@@ -2582,8 +2470,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-shor-tepe",
@@ -2595,8 +2483,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-prophet-daniel-shrine-diyala",
@@ -2608,8 +2496,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tejli",
@@ -2621,8 +2509,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tel-abu-uthaina",
@@ -2634,8 +2522,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tel-shihab",
@@ -2647,8 +2535,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-abada",
@@ -2660,8 +2548,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-abu-husaini",
@@ -2673,8 +2561,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-abu-qasim",
@@ -2686,8 +2574,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-agrab",
@@ -2699,8 +2587,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-ahmed-al-mughir",
@@ -2712,8 +2600,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-ajamat",
@@ -2725,8 +2613,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-gubba",
@@ -2738,8 +2626,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-hassan",
@@ -2751,8 +2639,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-ishchali",
@@ -2764,8 +2652,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-kesaran",
@@ -2777,8 +2665,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-madhur",
@@ -2790,8 +2678,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-rubeidheh",
@@ -2803,8 +2691,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-songor",
@@ -2816,8 +2704,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-suleimah",
@@ -2829,8 +2717,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-yelkhi",
@@ -2842,8 +2730,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-al-zendan",
@@ -2855,8 +2743,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tellul-hamediyat",
@@ -2868,8 +2756,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-baradan",
@@ -2881,8 +2769,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-beni-weis",
@@ -2894,8 +2782,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-umm-salim",
@@ -2907,8 +2795,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-al-bakhtariyah",
@@ -2920,8 +2808,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-al-khubari",
@@ -2933,8 +2821,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tulul-al-yarmet",
@@ -2946,8 +2834,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-tunneireh",
@@ -2959,8 +2847,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-baqa",
@@ -2972,8 +2860,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-daham",
@@ -2985,8 +2873,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-hafayir",
@@ -2998,8 +2886,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-mahatteh",
@@ -3011,8 +2899,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-al-zawiyah",
@@ -3024,8 +2912,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ar-raha",
@@ -3037,8 +2925,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-as-sara",
@@ -3050,8 +2938,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-as-saray",
@@ -3063,8 +2951,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ash-shair",
@@ -3076,8 +2964,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-ash-shoureh",
@@ -3089,8 +2977,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-hamrin-at-turah",
@@ -3102,8 +2990,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-kifri-bawa-shaswar",
@@ -3113,8 +3001,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-diyala-dastagird",
@@ -3124,8 +3012,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-dawood-zarifa-house",
@@ -3135,8 +3023,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-majid-pasha-palace-kifri",
@@ -3146,8 +3034,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-me-turan",
@@ -3157,8 +3045,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-kifri-qaysari-bazaar",
@@ -3168,8 +3056,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-diyala-tell-rashid",
@@ -3179,8 +3067,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-diyala-tell-saadiya",
@@ -3190,8 +3078,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-anbar-ancient-anbar",
@@ -3203,8 +3091,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-anbar-kifrin",
@@ -3216,8 +3104,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-yemniyeh",
@@ -3229,8 +3117,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-al-farouq-minaret-hit",
@@ -3240,8 +3128,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-anbar-bijan-island",
@@ -3251,8 +3139,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-hit-bitumen-springs",
@@ -3262,8 +3150,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-norias-of-hit",
@@ -3273,8 +3161,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-anbar-shaykh-rajab-mosque",
@@ -3284,8 +3172,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-anbar-tell-aswad-haditha",
@@ -3295,724 +3183,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-amedi-ancient-staircase",
-  "name": "Ancient Staircase, Amedi",
-  "governorate": "Duhok",
-  "category": "Historic Monument",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-yohanna-dawodiya",
-  "name": "Church of Mar Yohanna, Dawodiya",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-sultana-mahdokht-araden",
-  "name": "Church of Sultana Mahdokht, Araden",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-amedi-chaldean-archdiocese",
-  "name": "Former Chaldean Archdiocese, Amedi",
-  "governorate": "Duhok",
-  "category": "Historic Building",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-gali-zardak",
-  "name": "Gali Zardak Rock Sculptures",
-  "governorate": "Duhok",
-  "category": "Rock Relief",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-duhok-grand-mosque",
-  "name": "Grand Mosque of Duhok",
-  "governorate": "Duhok",
-  "category": "Mosque",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-kanisban",
-  "name": "Kanisban",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-ith-alaha-church",
-  "name": "Mar Ith-Alaha Church, Duhok",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mardaman-bassetki",
-  "name": "Mardaman (Bassetki)",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mosul-gate-amedi",
-  "name": "Mosul Gate, Amedi",
-  "governorate": "Duhok",
-  "category": "Gate",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-muqable-i",
-  "name": "Muqable I",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-muqable-iii",
-  "name": "Muqable III",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-nemrik-9",
-  "name": "Nemrik 9",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "ancient"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-duhok-old-bazaar",
-  "name": "Old Bazaar of Duhok",
-  "governorate": "Duhok",
-  "category": "Historic Market",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-zakho-old-bazaar",
-  "name": "Old Bazaar of Zakho",
-  "governorate": "Duhok",
-  "category": "Historic Market",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-amedi-parthian-reliefs",
-  "name": "Parthian Reliefs at Amedi",
-  "governorate": "Duhok",
-  "category": "Rock Relief",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-qubahan-madrasa",
-  "name": "Qubahan Madrasa",
-  "governorate": "Duhok",
-  "category": "Historic School",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mam-chevan-mausoleums",
-  "name": "Yazidi Mausoleums of Mam Chevan",
-  "governorate": "Duhok",
-  "category": "Shrine",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-zebari-gate-amedi",
-  "name": "Zebari Gate, Amedi",
-  "governorate": "Duhok",
-  "category": "Gate",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-akre-castle",
-  "name": "Akre Castle",
-  "governorate": "Duhok",
-  "category": "Castle",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-akre-qishla",
-  "name": "Akre Qishla",
-  "governorate": "Duhok",
-  "category": "Historic Building",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-asinkran",
-  "name": "Asinkran",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-bani-kondi-mosque",
-  "name": "Bani Kondi Mosque, Bamerne",
-  "governorate": "Duhok",
-  "category": "Mosque",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-betanure-synagogue",
-  "name": "Betanure Synagogue and Elijah Cave",
-  "governorate": "Duhok",
-  "category": "Synagogue",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-oudisho-kondak",
-  "name": "Church of Mar Oudisho, Kondak",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mart-shmune-bebadi",
-  "name": "Church of Mart Shmune, Bebadi",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-dehi-churches",
-  "name": "Churches of Dehi",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-komane-churches",
-  "name": "Churches of Komane",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-sharanish-churches",
-  "name": "Churches of Sharanish",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-dayrabun-monastery",
-  "name": "Dayrabun Monastery Site",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-issa-bridge",
-  "name": "Issa Bridge",
-  "governorate": "Duhok",
-  "category": "Historic Bridge",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-zakho-jewish-quarter",
-  "name": "Jewish Quarter of Zakho",
-  "governorate": "Duhok",
-  "category": "Historic Urban Area",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-khanke-hellenistic-tombs",
-  "name": "Khanke Hellenistic Tombs",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mangesh-mar-abraham",
-  "name": "Mangesh: Mar Gewargis Church and Mar Abraham Monastery Site",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-abdisho-monastery-dere",
-  "name": "Monastery of Mar Abdisho, Dere",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-atqen-monastery",
-  "name": "Monastery of Mar Atqen, Dera Shish",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-bakhetme-mar-daniel",
-  "name": "Monastery of Mar Daniel, Bakhetme",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-mar-qayyoma-dooreh",
-  "name": "Monastery of Mar Qayyoma, Dooreh",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-kalati-mosque-companions",
-  "name": "Mosque of the Companions, Kalati",
-  "governorate": "Duhok",
-  "category": "Mosque",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-akre-old-town",
-  "name": "Old Quarters of Akre",
-  "governorate": "Duhok",
-  "category": "Historic Town",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-qubad-pasha-castle",
-  "name": "Qubad Pasha Castle",
-  "governorate": "Duhok",
-  "category": "Castle",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-deraluk-st-luke",
-  "name": "Ruined Monastery of St Luke, Deraluk",
-  "governorate": "Duhok",
-  "category": "Monastery",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-avzrog-sourp-vartan",
-  "name": "Sourp Vartan Armenian Church, Avzrog",
-  "governorate": "Duhok",
-  "category": "Church",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-tell-gombass",
-  "name": "Tell Gombass",
-  "governorate": "Duhok",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-tomb-of-hazkiel",
-  "name": "Tomb of the Prophet Hazkiel, Amedi",
-  "governorate": "Duhok",
-  "category": "Shrine",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-sharya-yazidi-shrines",
-  "name": "Yazidi Shrines of Sharya",
-  "governorate": "Duhok",
-  "category": "Shrine",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-duhok-zakho-castle",
-  "name": "Zakho Castle",
-  "governorate": "Duhok",
-  "category": "Castle",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-nuzi-city-wall",
-  "name": "City Wall of Nuzi",
-  "governorate": "Kirkuk",
-  "category": "Historic Monument",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-mariam-al-adra-koria",
-  "name": "Mariam al-Adra Church, Koria",
-  "governorate": "Kirkuk",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-altun-kupri-bridges",
-  "name": "Ottoman Bridges of Altun Kupri",
-  "governorate": "Kirkuk",
-  "category": "Historic Bridge",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-nuzi-palace",
-  "name": "Palace of Nuzi",
-  "governorate": "Kirkuk",
-  "category": "Palace",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-sheikh-ismail-shrine",
-  "name": "Shrine of Sheikh Ismail, Hbejh",
-  "governorate": "Kirkuk",
-  "category": "Shrine",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-tahmazgerd-red-church",
-  "name": "Tahmazgerd Church (Red Church)",
-  "governorate": "Kirkuk",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-tell-arab-kumbet",
-  "name": "Tell Arab Kumbet",
-  "governorate": "Kirkuk",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-tell-al-fakhar",
-  "name": "Tell al-Fakhar",
-  "governorate": "Kirkuk",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-nuzi-temple",
-  "name": "Temple of Nuzi",
-  "governorate": "Kirkuk",
-  "category": "Temple",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-daquq-ottoman-bridge",
-  "name": "Ottoman Bridge of Daquq",
-  "governorate": "Kirkuk",
-  "category": "Historic Bridge",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-kirkuk-stone-bridge",
-  "name": "Ottoman Stone Bridge, Kirkuk",
-  "governorate": "Kirkuk",
-  "category": "Historic Bridge",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-salih-malli-house",
-  "name": "Salih Malli House",
-  "governorate": "Kirkuk",
-  "category": "Historic House",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-kirkuk-takiya-najib",
-  "name": "Takiya of Najib",
-  "governorate": "Kirkuk",
-  "category": "Shrine",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-dere-castle",
@@ -4024,8 +3196,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-dwin-castle",
@@ -4037,8 +3209,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-gird-i-dasht",
@@ -4050,8 +3222,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-grand-mosque-koya",
@@ -4063,8 +3235,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-house-b13-topkhana",
@@ -4076,8 +3248,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-kelashin-stele",
@@ -4089,21 +3261,8 @@
   "why": [
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-erbil-mar-bena-church-armota",
-  "name": "Mar Bena Church, Armota",
-  "governorate": "Erbil",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-mudjesir-haldi-temple",
@@ -4115,8 +3274,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-qalat-lokhan",
@@ -4128,8 +3287,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-qasr-shemamok",
@@ -4141,8 +3300,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-rashid-agha-house",
@@ -4154,8 +3313,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-selim-qaqa-house",
@@ -4167,8 +3326,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-topzawa-stele",
@@ -4180,8 +3339,8 @@
   "why": [
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-yaqub-aga-house",
@@ -4193,8 +3352,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-zawi-chemi-shanidar",
@@ -4206,8 +3365,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-aliawa",
@@ -4217,8 +3376,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-awena",
@@ -4228,8 +3387,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-bana-helk",
@@ -4239,8 +3398,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-bash-tapa",
@@ -4250,8 +3409,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-batas-harir-relief",
@@ -4261,8 +3420,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-erbil-gird-lashkir",
@@ -4272,8 +3431,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-gird-i-matrab",
@@ -4283,8 +3442,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-girdi-abdulaziz",
@@ -4294,8 +3453,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-daghan",
@@ -4305,8 +3464,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-gozka",
@@ -4316,8 +3475,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-helawa",
@@ -4327,8 +3486,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-khazna",
@@ -4338,8 +3497,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-peshka",
@@ -4349,8 +3508,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-girdi-qawagh",
@@ -4360,8 +3519,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-tomb-of-uzair",
@@ -4371,8 +3530,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-koya-qaysari-bazaar",
@@ -4382,8 +3541,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-erbil-jewish-cemetery",
@@ -4393,8 +3552,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-khalidiya-khanqah-mosque",
@@ -4404,8 +3563,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-mahmud-agha-khan-koya",
@@ -4415,8 +3574,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-mar-gewargis-bdeyal",
@@ -4426,8 +3585,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-mart-mariam-church-armota",
@@ -4437,8 +3596,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-erbil-mausoleum-sultan-muzaffar",
@@ -4448,8 +3607,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-melqi-mar-qardagh",
@@ -4459,8 +3618,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-mulla-abdul-majid-house",
@@ -4470,8 +3629,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-mulla-kura-house",
@@ -4481,8 +3640,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-plngan-cave",
@@ -4492,8 +3651,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-qalinj-agha",
@@ -4503,8 +3662,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-rawanduz-old-town",
@@ -4514,8 +3673,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-erbil-satu-qala",
@@ -4525,8 +3684,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-girdi-sheikh-ahmad",
@@ -4536,8 +3695,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-st-george-church-ankawa",
@@ -4547,8 +3706,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-tell-surezha",
@@ -4558,8 +3717,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-tell-abu-shita",
@@ -4569,8 +3728,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-tell-baqrta",
@@ -4580,8 +3739,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-tell-nader",
@@ -4591,8 +3750,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-erbil-tell-quri-beg",
@@ -4602,8 +3761,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-erbil-zaga",
@@ -4613,8 +3772,689 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-amedi-ancient-staircase",
+  "name": "Ancient Staircase, Amedi",
+  "governorate": "Duhok",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-mar-yohanna-dawodiya",
+  "name": "Church of Mar Yohanna, Dawodiya",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-amedi-chaldean-archdiocese",
+  "name": "Former Chaldean Archdiocese, Amedi",
+  "governorate": "Duhok",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-gali-zardak",
+  "name": "Gali Zardak Rock Sculptures",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-duhok-grand-mosque",
+  "name": "Grand Mosque of Duhok",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-kanisban",
+  "name": "Kanisban",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-mar-ith-alaha-church",
+  "name": "Mar Ith-Alaha Church, Duhok",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mardaman-bassetki",
+  "name": "Mardaman (Bassetki)",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mosul-gate-amedi",
+  "name": "Mosul Gate, Amedi",
+  "governorate": "Duhok",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-muqable-i",
+  "name": "Muqable I",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-muqable-iii",
+  "name": "Muqable III",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-nemrik-9",
+  "name": "Nemrik 9",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "ancient"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-duhok-old-bazaar",
+  "name": "Old Bazaar of Duhok",
+  "governorate": "Duhok",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-zakho-old-bazaar",
+  "name": "Old Bazaar of Zakho",
+  "governorate": "Duhok",
+  "category": "Historic Market",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-amedi-parthian-reliefs",
+  "name": "Parthian Reliefs at Amedi",
+  "governorate": "Duhok",
+  "category": "Rock Relief",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-qubahan-madrasa",
+  "name": "Qubahan Madrasa",
+  "governorate": "Duhok",
+  "category": "Historic School",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-mam-chevan-mausoleums",
+  "name": "Yazidi Mausoleums of Mam Chevan",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-zebari-gate-amedi",
+  "name": "Zebari Gate, Amedi",
+  "governorate": "Duhok",
+  "category": "Gate",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-akre-castle",
+  "name": "Akre Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-akre-qishla",
+  "name": "Akre Qishla",
+  "governorate": "Duhok",
+  "category": "Historic Building",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-asinkran",
+  "name": "Asinkran",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-bani-kondi-mosque",
+  "name": "Bani Kondi Mosque, Bamerne",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-betanure-synagogue",
+  "name": "Betanure Synagogue and Elijah Cave",
+  "governorate": "Duhok",
+  "category": "Synagogue",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mar-oudisho-kondak",
+  "name": "Church of Mar Oudisho, Kondak",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-mart-shmune-bebadi",
+  "name": "Church of Mart Shmune, Bebadi",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-dehi-churches",
+  "name": "Churches of Dehi",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-komane-churches",
+  "name": "Churches of Komane",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-sharanish-churches",
+  "name": "Churches of Sharanish",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "only-unrelated-images"
+ },
+ {
+  "id": "site-duhok-dayrabun-monastery",
+  "name": "Dayrabun Monastery Site",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-issa-bridge",
+  "name": "Issa Bridge",
+  "governorate": "Duhok",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-zakho-jewish-quarter",
+  "name": "Jewish Quarter of Zakho",
+  "governorate": "Duhok",
+  "category": "Historic Urban Area",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-khanke-hellenistic-tombs",
+  "name": "Khanke Hellenistic Tombs",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "only-unrelated-images"
+ },
+ {
+  "id": "site-duhok-mangesh-mar-abraham",
+  "name": "Mangesh: Mar Gewargis Church and Mar Abraham Monastery Site",
+  "governorate": "Duhok",
+  "category": "Church",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mar-abdisho-monastery-dere",
+  "name": "Monastery of Mar Abdisho, Dere",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mar-atqen-monastery",
+  "name": "Monastery of Mar Atqen, Dera Shish",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-bakhetme-mar-daniel",
+  "name": "Monastery of Mar Daniel, Bakhetme",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-mar-qayyoma-dooreh",
+  "name": "Monastery of Mar Qayyoma, Dooreh",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-kalati-mosque-companions",
+  "name": "Mosque of the Companions, Kalati",
+  "governorate": "Duhok",
+  "category": "Mosque",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-qubad-pasha-castle",
+  "name": "Qubad Pasha Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-deraluk-st-luke",
+  "name": "Ruined Monastery of St Luke, Deraluk",
+  "governorate": "Duhok",
+  "category": "Monastery",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "only-unrelated-images"
+ },
+ {
+  "id": "site-duhok-tell-gombass",
+  "name": "Tell Gombass",
+  "governorate": "Duhok",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-duhok-tomb-of-hazkiel",
+  "name": "Tomb of the Prophet Hazkiel, Amedi",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-sharya-yazidi-shrines",
+  "name": "Yazidi Shrines of Sharya",
+  "governorate": "Duhok",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-duhok-zakho-castle",
+  "name": "Zakho Castle",
+  "governorate": "Duhok",
+  "category": "Castle",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "only-unrelated-images"
+ },
+ {
+  "id": "site-kirkuk-nuzi-city-wall",
+  "name": "City Wall of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Historic Monument",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-mariam-al-adra-koria",
+  "name": "Mariam al-Adra Church, Koria",
+  "governorate": "Kirkuk",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-altun-kupri-bridges",
+  "name": "Ottoman Bridges of Altun Kupri",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-nuzi-palace",
+  "name": "Palace of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Palace",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-sheikh-ismail-shrine",
+  "name": "Shrine of Sheikh Ismail, Hbejh",
+  "governorate": "Kirkuk",
+  "category": "Shrine",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-tahmazgerd-red-church",
+  "name": "Tahmazgerd Church (Red Church)",
+  "governorate": "Kirkuk",
+  "category": "Church",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-tell-arab-kumbet",
+  "name": "Tell Arab Kumbet",
+  "governorate": "Kirkuk",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-tell-al-fakhar",
+  "name": "Tell al-Fakhar",
+  "governorate": "Kirkuk",
+  "category": "Archaeological Site",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-kirkuk-nuzi-temple",
+  "name": "Temple of Nuzi",
+  "governorate": "Kirkuk",
+  "category": "Temple",
+  "band": "C",
+  "score": 5,
+  "why": [
+   "tier 2 source"
+  ],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-daquq-ottoman-bridge",
+  "name": "Ottoman Bridge of Daquq",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-free-photograph"
+ },
+ {
+  "id": "site-kirkuk-kirkuk-stone-bridge",
+  "name": "Ottoman Stone Bridge, Kirkuk",
+  "governorate": "Kirkuk",
+  "category": "Historic Bridge",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-salih-malli-house",
+  "name": "Salih Malli House",
+  "governorate": "Kirkuk",
+  "category": "Historic House",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
+ },
+ {
+  "id": "site-kirkuk-takiya-najib",
+  "name": "Takiya of Najib",
+  "governorate": "Kirkuk",
+  "category": "Shrine",
+  "band": "C",
+  "score": 0,
+  "why": [],
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-alan-tepe",
@@ -4626,8 +4466,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-ali-awa",
@@ -4639,8 +4479,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-barbakh",
@@ -4652,8 +4492,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-barika-tanjarow",
@@ -4665,8 +4505,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-bin-gird-i-muan",
@@ -4678,8 +4518,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-bingird",
@@ -4691,8 +4531,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-boskin",
@@ -4704,8 +4544,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-caani-rash",
@@ -4717,8 +4557,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-darbandikhan-khan",
@@ -4730,8 +4570,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-duwanza-imam",
@@ -4743,8 +4583,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-bazar",
@@ -4756,21 +4596,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-sulaymaniyah-gird-i-qalrakh",
-  "name": "Gird-i Qalrakh",
-  "governorate": "Sulaymaniyah",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-qara-tepe",
@@ -4782,8 +4609,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-qulkhurd",
@@ -4795,8 +4622,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-rostam",
@@ -4808,8 +4635,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-gird-i-saraw",
@@ -4821,8 +4648,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-shakar",
@@ -4834,21 +4661,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-sulaymaniyah-gird-i-shamlu",
-  "name": "Gird-i Shamlu",
-  "governorate": "Sulaymaniyah",
-  "category": "Archaeological Site",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gird-i-sharif",
@@ -4860,8 +4674,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-gird-i-shatwan",
@@ -4873,8 +4687,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-girda-resh-barika",
@@ -4886,8 +4700,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-greza",
@@ -4899,8 +4713,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-gulalan",
@@ -4912,8 +4726,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-ibrahim-kachal",
@@ -4925,8 +4739,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kalespi",
@@ -4938,8 +4752,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kamalan",
@@ -4951,8 +4765,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kani-goma",
@@ -4964,8 +4778,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kani-jine",
@@ -4977,8 +4791,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kani-jine-cemetery",
@@ -4990,8 +4804,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kani-shaie",
@@ -5003,8 +4817,8 @@
   "why": [
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-kara-gol",
@@ -5016,8 +4830,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-karim-shahir",
@@ -5029,8 +4843,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-karima-swr",
@@ -5042,8 +4856,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kharajian",
@@ -5055,8 +4869,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-kozaraqa",
@@ -5068,8 +4882,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-lamar-kazi",
@@ -5081,8 +4895,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-maluan",
@@ -5094,8 +4908,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-manswr-awa",
@@ -5107,8 +4921,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-marif-tepe",
@@ -5120,8 +4934,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-paikuli-tower",
@@ -5133,8 +4947,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-sulaymaniyah-palegawra-cave",
@@ -5146,8 +4960,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-qadar-kamala",
@@ -5159,8 +4973,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qala-tepe",
@@ -5172,8 +4986,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qalaja",
@@ -5185,8 +4999,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qalat-said-ahmadan",
@@ -5198,8 +5012,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qalbaza-tepe",
@@ -5211,8 +5025,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qaratoghan",
@@ -5224,8 +5038,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-qisirt-saru",
@@ -5237,8 +5051,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-quchika-tepe",
@@ -5250,8 +5064,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-quruchiya",
@@ -5263,8 +5077,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-raziana",
@@ -5276,8 +5090,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-saidwa-shekhrash",
@@ -5289,8 +5103,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-sartka-castle",
@@ -5302,8 +5116,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-satubist",
@@ -5315,8 +5129,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-shekh-wisal-1",
@@ -5328,8 +5142,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-shekh-wisal-2",
@@ -5341,8 +5155,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-sutik-tepe",
@@ -5354,8 +5168,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-arbat",
@@ -5367,8 +5181,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-bengel",
@@ -5380,8 +5194,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-chragh",
@@ -5393,8 +5207,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-haji",
@@ -5406,8 +5220,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-hajji-abdallah",
@@ -5419,8 +5233,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-hassil",
@@ -5432,8 +5246,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tell-raza",
@@ -5445,8 +5259,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tepe-kal",
@@ -5458,8 +5272,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-sulaymaniyah-tepe-kurra",
@@ -5471,8 +5285,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tepe-sheshak-hagg-hussain",
@@ -5484,8 +5298,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-tholima",
@@ -5497,8 +5311,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-turkaka",
@@ -5510,8 +5324,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-yakhimali",
@@ -5523,8 +5337,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-yakhimali-sarchawa",
@@ -5536,8 +5350,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-yakmala",
@@ -5549,8 +5363,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-zarzi-rock-shelter",
@@ -5562,8 +5376,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-zrgwez-kwer",
@@ -5575,8 +5389,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-jasana-cave",
@@ -5586,8 +5400,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-pasha-palace-tazade",
@@ -5597,8 +5411,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-sulaymaniyah-sulaymaniyah-museum",
@@ -5608,8 +5422,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "not-recognisable"
  },
  {
   "id": "site-sulaymaniyah-tell-bazmusian",
@@ -5619,8 +5433,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-sulaymaniyah-tell-begum",
@@ -5630,8 +5444,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-adad-gate",
@@ -5643,8 +5457,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-al-tahira-chaldean-mosul",
@@ -5656,8 +5470,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-assur-gate",
@@ -5669,8 +5483,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-balawat",
@@ -5682,8 +5496,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-barood-khana",
@@ -5695,8 +5509,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-el-khan",
@@ -5708,8 +5522,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ezdin-mir-shexka",
@@ -5721,8 +5535,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-gir-e-gomel",
@@ -5734,8 +5548,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-nimrud-governors-palace",
@@ -5747,8 +5561,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ishtar-temple-nineveh",
@@ -5760,8 +5574,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-mam-rashan-shrine",
@@ -5773,8 +5587,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "identity-uncertain"
  },
  {
   "id": "site-nineveh-mar-addai-karamles",
@@ -5786,21 +5600,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-mar-gorgis-alqosh",
-  "name": "Mar Gorgis Church, Alqosh",
-  "governorate": "Nineveh",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-gorgis-baqofa",
@@ -5812,8 +5613,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-gorgis-bartella",
@@ -5825,8 +5626,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-gorgis-qaraqosh",
@@ -5838,8 +5639,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-gorgis-tell-esqof",
@@ -5851,8 +5652,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-mikha-alqosh",
@@ -5864,8 +5665,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-qouryakos-batnaya",
@@ -5877,8 +5678,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-sarkis-bakus-qaraqosh",
@@ -5890,8 +5691,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-yacoub-qaraqosh",
@@ -5903,8 +5704,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mart-barbara-karamles",
@@ -5916,8 +5717,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mart-mariam-bartella",
@@ -5929,8 +5730,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mart-mariam-bashiqa",
@@ -5942,8 +5743,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mart-shmoni-bartella",
@@ -5955,8 +5756,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mart-shmoni-bashiqa",
@@ -5968,8 +5769,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mart-shmoni-qaraqosh",
@@ -5981,8 +5782,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mashki-gate",
@@ -5994,8 +5795,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-melek-miran-bashiqa",
@@ -6007,8 +5808,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mir-ali-beg-baadre",
@@ -6020,8 +5821,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sheikh-bakeur-bahzani",
@@ -6033,8 +5834,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sheikh-suwar-beban",
@@ -6046,8 +5847,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mezra",
@@ -6059,8 +5860,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-qutb-al-din-minaret-sinjar",
@@ -6072,8 +5873,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-our-lady-of-the-seeds",
@@ -6085,34 +5886,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-nabi-shith-mosque",
-  "name": "Mosque of Nabi Shith",
-  "governorate": "Nineveh",
-  "category": "Mosque",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-english-war-cemetery-mosul",
-  "name": "Mosul War Cemetery",
-  "governorate": "Nineveh",
-  "category": "Cemetery",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mlefaat",
@@ -6124,21 +5899,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-nergal-gate",
-  "name": "Nergal Gate",
-  "governorate": "Nineveh",
-  "category": "Gate",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-adad-nerari-palace-nimrud",
@@ -6150,8 +5912,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-shamash-gate",
@@ -6163,8 +5925,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-sheikh-mand-temple",
@@ -6176,8 +5938,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-shaykh-fathi-shrine",
@@ -6189,8 +5951,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-sitt-zaynab-sinjar",
@@ -6202,8 +5964,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sin-gate",
@@ -6215,21 +5977,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-al-tahira-qaraqosh",
-  "name": "St Mary al-Tahira Church, Qaraqosh",
-  "governorate": "Nineveh",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-sultan-ezid-mahad",
@@ -6241,8 +5990,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-tell-arpachiyah",
@@ -6254,8 +6003,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-tell-billa",
@@ -6267,8 +6016,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-kuyunjik",
@@ -6280,8 +6029,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-tell-sotto",
@@ -6293,8 +6042,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-telul-eth-thalathat",
@@ -6306,8 +6055,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-nimrud-ninurta-temple",
@@ -6319,8 +6068,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-tepe-gawra",
@@ -6332,8 +6081,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-rashid-lolan-tomb",
@@ -6345,8 +6094,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-tomb-of-nahum",
@@ -6358,8 +6107,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-umm-dabaghiyah",
@@ -6371,8 +6120,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-baba-noah-hatara",
@@ -6384,8 +6133,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-bozan-mausoleums",
@@ -6397,8 +6146,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-sinjar-yazidi-mausoleums",
@@ -6410,8 +6159,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-ain-sifni-shrines",
@@ -6423,8 +6172,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-nimrud-ziggurat",
@@ -6436,19 +6185,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-nineveh-baadre-mir-castle",
-  "name": "Castle of the Mir, Baadre",
-  "governorate": "Nineveh",
-  "category": "Castle",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-ginnig",
@@ -6458,8 +6196,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-karamles-kar-mullissi",
@@ -6469,8 +6207,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-malak-sheikh-hassan-temple",
@@ -6480,8 +6218,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-nineveh-mar-oraha-monastery",
@@ -6491,8 +6229,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mar-gorgis-monastery-mosul",
@@ -6502,8 +6240,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-sharif-khan-palace",
@@ -6513,8 +6251,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-saad-ibn-aqil-shrine",
@@ -6524,8 +6262,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-mohamed-rashan-shrine",
@@ -6535,8 +6273,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-nineveh-tell-deir-situn",
@@ -6546,8 +6284,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-khoshi",
@@ -6557,8 +6295,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-maghzaliyah",
@@ -6568,8 +6306,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-taya",
@@ -6579,8 +6317,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-nineveh-tell-al-rimah",
@@ -6590,21 +6328,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-salah-al-din-sayyid-muhammad-shrine",
-  "name": "Shrine of Sayyid Muhammad ibn Ali al-Hadi, Balad",
-  "governorate": "Salah al-Din",
-  "category": "Shrine",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-tell-es-sawwan",
@@ -6616,19 +6341,8 @@
   "why": [
    "ancient"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-salah-al-din-al-arbaeen-mosque",
-  "name": "Al-Arba‘een Mosque, Tikrit",
-  "governorate": "Salah al-Din",
-  "category": "Mosque",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-salah-al-din-tikrit-citadel",
@@ -6638,8 +6352,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-al-muradiyya-mosque",
@@ -6651,21 +6365,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-baghdad-al-shaheed-monument",
-  "name": "Al-Shaheed Monument",
-  "governorate": "Baghdad",
-  "category": "Historic Monument",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-armenian-sacred-heart",
@@ -6677,8 +6378,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-bab-al-wastani",
@@ -6690,8 +6391,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-north-gate-war-cemetery",
@@ -6703,8 +6404,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-baghdad-chaldean-st-joseph-karrada",
@@ -6716,8 +6417,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-queen-of-the-rosary",
@@ -6729,8 +6430,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-baghdad-kokhe-church",
@@ -6742,8 +6443,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-baghdad-mar-gorgis-new-baghdad",
@@ -6755,8 +6456,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-baghdad-meir-taweig-synagogue",
@@ -6768,8 +6469,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-unknown-soldier-monument",
@@ -6781,21 +6482,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-baghdad-al-ahmadiyya-mosque",
-  "name": "Mosque-Madrasa of al-Ahmadiyya",
-  "governorate": "Baghdad",
-  "category": "Mosque",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-baghdad-sippar-amnanum",
@@ -6807,21 +6495,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-baghdad-sourp-asdvadzadzin",
-  "name": "Sourp Asdvadzadzin Church (Miskinta)",
-  "governorate": "Baghdad",
-  "category": "Church",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-syriac-catholic-immaculate",
@@ -6833,8 +6508,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-wikidata-item"
  },
  {
   "id": "site-baghdad-st-peter-and-paul-cathedral",
@@ -6846,8 +6521,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-talisman-gate",
@@ -6859,21 +6534,8 @@
   "why": [
    "tier 2 source"
   ],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-baghdad-university-of-baghdad-campus",
-  "name": "University of Baghdad Campus (Gropius)",
-  "governorate": "Baghdad",
-  "category": "Historic Building",
-  "band": "C",
-  "score": 5,
-  "why": [
-   "tier 2 source"
-  ],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-abd-al-karim-qasim-museum",
@@ -6883,8 +6545,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-adila-khatun-mosque",
@@ -6894,8 +6556,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-markaziyah-high-school",
@@ -6905,8 +6567,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-mustasim-billah-mosque",
@@ -6916,8 +6578,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-al-rehab-palace",
@@ -6927,8 +6589,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-adudi-hospital",
@@ -6938,8 +6600,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-arif-agha-mosque",
@@ -6949,8 +6611,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-bab-al-muadham",
@@ -6960,8 +6622,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-bab-al-sheikh-quarter",
@@ -6971,8 +6633,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-bataween",
@@ -6982,8 +6644,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-fattah-pasha-mosque",
@@ -6993,8 +6655,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-freedom-monument",
@@ -7004,8 +6666,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "not-recognisable"
  },
  {
   "id": "site-baghdad-kahramana",
@@ -7015,8 +6677,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "not-recognisable"
  },
  {
   "id": "site-baghdad-khuld-palace",
@@ -7026,8 +6688,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-shabandar-mosque",
@@ -7037,8 +6699,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-sippar",
@@ -7048,8 +6710,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "only-unrelated-images"
  },
  {
   "id": "site-baghdad-siraj-al-din-mosque",
@@ -7059,8 +6721,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-taj-palace",
@@ -7070,8 +6732,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-tell-harmal",
@@ -7081,8 +6743,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-tell-muhammad",
@@ -7092,8 +6754,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-tell-al-dhibai",
@@ -7103,19 +6765,8 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
- },
- {
-  "id": "site-baghdad-victory-arch",
-  "name": "Victory Arch (Swords of Qadisiyah)",
-  "governorate": "Baghdad",
-  "category": "Historic Monument",
-  "band": "C",
-  "score": 0,
-  "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  },
  {
   "id": "site-baghdad-white-palace",
@@ -7125,7 +6776,7 @@
   "band": "C",
   "score": 0,
   "why": [],
-  "status": "pending",
-  "reason": ""
+  "status": "flagged",
+  "reason": "no-free-photograph"
  }
 ]

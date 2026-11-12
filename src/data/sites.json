@@ -8283,9 +8283,90 @@
     "description": "The market on the eastern side of Kirkuk Citadel, more than 150 years old, with about 300 rooms and shops and an arched upper storey.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Qaysariyah Market, Kirkuk, Kirkuk",
+      "caption": "",
+      "credit": "Enasiqph",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-kirkuk-qaysariyah-market",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": null,
+        "matchedBy": "no Wikidata item; Commons files naming the site and its place; commons-file-search",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The vaulted interior corridor of the old Qaysariyah of Kirkuk, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Old Qaysariyah Market inside Kirkuk Citadel 04.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg",
+              "evidenceId": "wikimedia-commons-Old Qaysariyah Market inside Kirkuk Citadel 04.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-kirkuk-qaysariyah-market",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Qaysariyah_Market_inside_Kirkuk_Citadel_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/qaysariyah-market/e941465483",
+        "hash": "e941465483",
+        "width": 1280,
+        "height": 853,
+        "color": "#5d554a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre",
@@ -11221,9 +11302,89 @@
     "description": "A church at Armota near Koya linked to the Monastery of Mar Behnam, said to date from the 4th century. It was destroyed in 1988 and rebuilt in 1996.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/M%C4%81r_Bena_Church_in_Koysinjaq1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Mar Bena Church, Armota, Erbil",
+      "caption": "",
+      "credit": "Shko H. Omer",
+      "license": "CC BY 2.0",
+      "siteId": "site-erbil-mar-bena-church-armota",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C4%81r_Bena_Church_in_Koysinjaq1.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/M%C4%81r_Bena_Church_in_Koysinjaq1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 916,
+      "height": 587,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q4793768",
+        "matchedBy": "linked-in-sources; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "Mar Bena Church near Koya, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY 2.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/M%C4%81r_Bena_Church_in_Koysinjaq1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Mār Bena Church in Koysinjaq1.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:M%C4%81r_Bena_Church_in_Koysinjaq1.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/M%C4%81r_Bena_Church_in_Koysinjaq1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:M%C4%81r_Bena_Church_in_Koysinjaq1.jpg",
+              "evidenceId": "wikimedia-commons-Mār Bena Church in Koysinjaq1.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-erbil-mar-bena-church-armota",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/M%C4%81r_Bena_Church_in_Koysinjaq1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/mar-bena-church-armota/e05c963e74",
+        "hash": "e05c963e74",
+        "width": 916,
+        "height": 587,
+        "color": "#a79b90",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          916
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The Mar Bena church in Koy Sanjaq",
@@ -11972,9 +12133,90 @@
     "description": "An Armenian Apostolic church in Avzrog Miri, a village founded in 1933 by Armenian survivors from near Van; neighbouring Avzrog Shano has an Assyrian church of Mar Gewargis.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avzrog_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Sourp Vartan Armenian Church, Avzrog, Duhok",
+      "caption": "",
+      "credit": "Mar Sharb",
+      "license": "CC BY 2.0",
+      "siteId": "site-duhok-avzrog-sourp-vartan",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avzrog_church.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avzrog_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2048,
+      "height": 1536,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q4829588",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The Armenian church of Sourp Vartan in Avzrog, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY 2.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avzrog_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Avzrog church.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Avzrog_church.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avzrog_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Avzrog_church.jpg",
+              "evidenceId": "wikimedia-commons-Avzrog church.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-duhok-avzrog-sourp-vartan",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Avzrog_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/avzrog-sourp-vartan/76ce2de766",
+        "hash": "76ce2de766",
+        "width": 1280,
+        "height": 960,
+        "color": "#a19b95",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Avzrog",
@@ -12957,9 +13199,90 @@
     "description": "One of three old churches of Araden in the Sapna valley, with Mart Shmune and Mar Awda, possibly over a thousand years old. Local tradition says a pilgrim built it after finding a relic of the saint. Araden was a manuscript-copying centre from at least 1571.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kirchenwand_Sultan_Maducht.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Church of Sultana Mahdokht, Araden, Duhok",
+      "caption": "",
+      "credit": "Foto von Alef-Zeta persönlich aufgenommen",
+      "license": "Copyrighted free use",
+      "siteId": "site-duhok-sultana-mahdokht-araden",
+      "license_status": "verified",
+      "license_url": "",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirchenwand_Sultan_Maducht.jpeg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kirchenwand_Sultan_Maducht.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q624740",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "Outer wall of the church of Sultana Mahdokht in Araden, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "Copyrighted free use",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kirchenwand_Sultan_Maducht.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Kirchenwand Sultan Maducht.jpeg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Kirchenwand_Sultan_Maducht.jpeg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kirchenwand_Sultan_Maducht.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Kirchenwand_Sultan_Maducht.jpeg",
+              "evidenceId": "wikimedia-commons-Kirchenwand Sultan Maducht.jpeg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-duhok-sultana-mahdokht-araden",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kirchenwand_Sultan_Maducht.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/sultana-mahdokht-araden/0020da08db",
+        "hash": "0020da08db",
+        "width": 1280,
+        "height": 1707,
+        "color": "#6f6557",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments catalogue",
@@ -13633,9 +13956,90 @@
     "description": "Akre climbs a hillside in terraces of stone houses; most of the district’s 760 archaeological sites lie in its historic neighbourhoods. A Chaldean cathedral of the Virgin Mary also stands in the town.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Akre%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Old Quarters of Akre, Duhok",
+      "caption": "",
+      "credit": "Ara Qadir",
+      "license": "CC BY-SA 3.0",
+      "siteId": "site-duhok-akre-old-town",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akre,_Iraq.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Akre%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2588,
+      "height": 1456,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q421302",
+        "matchedBy": "linked-in-sources; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The old hillside town of Akre."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 3.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Akre%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Akre, Iraq.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Akre,_Iraq.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Akre%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Akre,_Iraq.jpg",
+              "evidenceId": "wikimedia-commons-Akre, Iraq.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-duhok-akre-old-town",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Akre%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/akre-old-town/d391df35b2",
+        "hash": "d391df35b2",
+        "width": 1280,
+        "height": 720,
+        "color": "#7d786b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Why Kurdistan’s Akre is becoming a year-round cultural destination",
@@ -14523,9 +14927,90 @@
     "description": "Baadre is the historic seat of the Yazidi princes of Sheikhan, and the castle of the princely family stands there. The town, ancient Beth ʿEdrai, hosted a Church of the East synod in 485 AD.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre%2C_near_Sheikhan%2C_in_the_Kurdistan_Region_of_Iraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Castle of the Mir, Baadre, Nineveh",
+      "caption": "",
+      "credit": "Levi Clancy",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-baadre-mir-castle",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre,_near_Sheikhan,_in_the_Kurdistan_Region_of_Iraq_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre%2C_near_Sheikhan%2C_in_the_Kurdistan_Region_of_Iraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4000,
+      "height": 6016,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q4837020",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The ruins of the Ottoman-era mansion of the Yezidi Mir Said Beg in Baadre, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre%2C_near_Sheikhan%2C_in_the_Kurdistan_Region_of_Iraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Ruins of the Ottoman-era mansion of Yezidi Mir Said Beg in Baadre, near Sheikhan, in the Kurdistan Region of Iraq 01.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre,_near_Sheikhan,_in_the_Kurdistan_Region_of_Iraq_01.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre%2C_near_Sheikhan%2C_in_the_Kurdistan_Region_of_Iraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre,_near_Sheikhan,_in_the_Kurdistan_Region_of_Iraq_01.jpg",
+              "evidenceId": "wikimedia-commons-Ruins of the Ottoman-era mansion of Yezidi Mir Said Beg in Baadre, near Sheikhan, in the Kurdistan Region of Iraq 01.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-baadre-mir-castle",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ruins_of_the_Ottoman-era_mansion_of_Yezidi_Mir_Said_Beg_in_Baadre%2C_near_Sheikhan%2C_in_the_Kurdistan_Region_of_Iraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/baadre-mir-castle/019619f781",
+        "hash": "019619f781",
+        "width": 1280,
+        "height": 1925,
+        "color": "#7e7165",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Baadre",
@@ -14990,9 +15475,90 @@
     "description": "An Ottoman mosque and shrine in south Mosul believed to hold the burial of Seth, son of Adam. Islamic State blew it up and turned the site into a car park.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mosque_of_the_Prophet_Shith_%2832533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Mosque of Nabi Shith, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-nabi-shith-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosque_of_the_Prophet_Shith_(32533).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mosque_of_the_Prophet_Shith_%2832533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q12204301",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The courtyard and arcades of the Mosque of the Prophet Shith, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mosque_of_the_Prophet_Shith_%2832533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Mosque of the Prophet Shith (32533).jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mosque_of_the_Prophet_Shith_(32533).jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mosque_of_the_Prophet_Shith_%2832533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Mosque_of_the_Prophet_Shith_(32533).jpg",
+              "evidenceId": "wikimedia-commons-Mosque of the Prophet Shith (32533).jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-nabi-shith-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mosque_of_the_Prophet_Shith_%2832533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/nabi-shith-mosque/1e85320d68",
+        "hash": "1e85320d68",
+        "width": 1280,
+        "height": 960,
+        "color": "#999a9b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Nabi Shith Mosque",
@@ -15696,9 +16262,90 @@
     "description": "A 17th-century Ottoman mosque on the site of a 14th-century tekke of the Jalayirid ruler Shaykh Uways, later wrongly linked to Uways al-Qarani.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-sultan_wis_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Sultan Wais Mosque, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-sultan-wais-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al-sultan_wis_mosque.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-sultan_wis_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q25450071",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The al-Sultan Wais (Uwais) Mosque in Mosul, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-sultan_wis_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Al-sultan wis mosque.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al-sultan_wis_mosque.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-sultan_wis_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Al-sultan_wis_mosque.jpg",
+              "evidenceId": "wikimedia-commons-Al-sultan wis mosque.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-sultan-wais-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-sultan_wis_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/sultan-wais-mosque/91cf400dcc",
+        "hash": "91cf400dcc",
+        "width": 1280,
+        "height": 960,
+        "color": "#838fa0",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Sultan Wais Mosque",
@@ -17134,9 +17781,90 @@
     "description": "The site of Mosul’s first congregational mosque (al-Jami‘ al-Umawi), cited in the UNESCO Tentative List dossier for the Old City.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-Umawi_Mosque_Minaret_Mosul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Umayyad Mosque of Mosul, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-al-umawi-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al-Umawi_Mosque_Minaret_Mosul.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-Umawi_Mosque_Minaret_Mosul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q12185312",
+        "matchedBy": "name match of an item in Iraq; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The surviving minaret base of the Umayyad (al-Musaffi) Mosque of Mosul, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-Umawi_Mosque_Minaret_Mosul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Al-Umawi Mosque Minaret Mosul.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Al-Umawi_Mosque_Minaret_Mosul.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-Umawi_Mosque_Minaret_Mosul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Al-Umawi_Mosque_Minaret_Mosul.jpg",
+              "evidenceId": "wikimedia-commons-Al-Umawi Mosque Minaret Mosul.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-al-umawi-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Al-Umawi_Mosque_Minaret_Mosul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-umawi-mosque/b2e50cbd63",
+        "hash": "b2e50cbd63",
+        "width": 1280,
+        "height": 960,
+        "color": "#938e86",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -17440,9 +18168,90 @@
     "description": "The ruined “Black Palace” on the Tigris, cited in the UNESCO dossier for the authenticity of Old Mosul.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Qara Saray, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-qara-saray",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q20420070",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "Qara Saray under restoration; the item's own image, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-قره سراي.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+              "evidenceId": "wikimedia-commons-قره سراي.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-qara-saray",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/qara-saray/9ff547a4e5",
+        "hash": "9ff547a4e5",
+        "width": 1280,
+        "height": 960,
+        "color": "#757a85",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -17529,9 +18338,90 @@
     "description": "A Jalili caravanserai of about 1703 in Bab al-Saray, endowed by three sons of Abdul-Jalil for their mosque and described as one of the few Mosul sites to survive in its original form.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019%2C_following_war_with_the_Islamic_State_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Khan al-Gumruk, Nineveh",
+      "caption": "",
+      "credit": "Levi Clancy",
+      "license": "CC0",
+      "siteId": "site-nineveh-khan-al-gumruk",
+      "license_status": "verified",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019,_following_war_with_the_Islamic_State_06.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019%2C_following_war_with_the_Islamic_State_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6240,
+      "height": 4160,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q110781171",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The renovated facade of Khan al-Gumruk in the Old City of Mosul with its name inscription, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019%2C_following_war_with_the_Islamic_State_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Views of the renovated Khan Al-Gumruk in the Old City of Mosul in the summer of 2019, following war with the Islamic State 06.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019,_following_war_with_the_Islamic_State_06.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019%2C_following_war_with_the_Islamic_State_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019,_following_war_with_the_Islamic_State_06.jpg",
+              "evidenceId": "wikimedia-commons-Views of the renovated Khan Al-Gumruk in the Old City of Mosul in the summer of 2019, following war with the Islamic State 06.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-khan-al-gumruk",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Views_of_the_renovated_Khan_Al-Gumruk_in_the_Old_City_of_Mosul_in_the_summer_of_2019%2C_following_war_with_the_Islamic_State_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/khan-al-gumruk/45fbf967d4",
+        "hash": "45fbf967d4",
+        "width": 1280,
+        "height": 853,
+        "color": "#616161",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Khan al-Gumruk",
@@ -17900,9 +18790,90 @@
     "description": "A cemetery founded in 1918 with more than 349 graves of Commonwealth and Turkish soldiers of both world wars and consular burials. It was levelled in spring 2015.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mosul_War_Cemetery_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Mosul War Cemetery, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-english-war-cemetery-mosul",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosul_War_Cemetery_3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mosul_War_Cemetery_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q70869546",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The entrance wall of the Mosul War Cemetery, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mosul_War_Cemetery_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Mosul War Cemetery 3.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Mosul_War_Cemetery_3.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mosul_War_Cemetery_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Mosul_War_Cemetery_3.jpg",
+              "evidenceId": "wikimedia-commons-Mosul War Cemetery 3.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-english-war-cemetery-mosul",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mosul_War_Cemetery_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/english-war-cemetery-mosul/3dc761751b",
+        "hash": "3dc761751b",
+        "width": 1280,
+        "height": 960,
+        "color": "#9f9786",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Czech Academy of Sciences, Oriental Institute — Mosul’s monuments deliberately destroyed by Islamic State (2014–2017)",
@@ -17982,9 +18953,90 @@
     "description": "First mentioned in 1672 and largely rebuilt in 1744 under an Ottoman firman; a newer church of 1859–62 stands beside it. Partly demolished by Islamic State; UNESCO led its reconstruction.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Tahira Syriac Catholic Church (old), Mosul, Nineveh",
+      "caption": "",
+      "credit": "Ali.tinbo",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q98608783",
+        "matchedBy": "linked-in-sources; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The entrance of al-Tahira church in Mosul; the item linked in the card's own sources."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-كنيسة الطاهرة في الموصل ٦ 02.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg",
+              "evidenceId": "wikimedia-commons-كنيسة الطاهرة في الموصل ٦ 02.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-al-tahira-syriac-catholic-mosul",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/%D9%83%D9%86%D9%8A%D8%B3%D8%A9_%D8%A7%D9%84%D8%B7%D8%A7%D9%87%D8%B1%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%84_%D9%A6_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-tahira-syriac-catholic-mosul/92f2913378",
+        "hash": "92f2913378",
+        "width": 1280,
+        "height": 1707,
+        "color": "#84888f",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The al-Tahira Syriac-Catholic church in Mosul",
@@ -20585,9 +21637,90 @@
     "description": "The most iconic building of Baghdede, with an “ancient” church supposed to be of the 13th century and the great new al-Tahira of the early 20th century. Islamic State used it as a firing range in 2014–16.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "St Mary al-Tahira Church, Qaraqosh, Nineveh",
+      "caption": "",
+      "credit": "Alli Khalil",
+      "license": "CC BY 4.0",
+      "siteId": "site-nineveh-al-tahira-qaraqosh",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 3024,
+      "height": 4032,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q12236331",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The courtyard and facade of the Immaculate (al-Tahira) Church in Bakhdida, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-The courtyard of the Immaculate Church in Bakhdida 3.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg",
+              "evidenceId": "wikimedia-commons-The courtyard of the Immaculate Church in Bakhdida 3.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-al-tahira-qaraqosh",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_courtyard_of_the_Immaculate_Church_in_Bakhdida_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-tahira-qaraqosh/cd1a2c5eab",
+        "hash": "cd1a2c5eab",
+        "width": 1280,
+        "height": 1707,
+        "color": "#8e8272",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — St Mary Al-Tahira church in Baghdede (Qaraqosh)",
@@ -21014,9 +22147,90 @@
     "description": "Considered the oldest church of Alqosh; restored in 1681 and rebuilt in 1906. Now a Chaldean cathedral.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Church_of_Saint_George_in_alQosh_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Mar Gorgis Church, Alqosh, Nineveh",
+      "caption": "",
+      "credit": "Levi Clancy",
+      "license": "CC0",
+      "siteId": "site-nineveh-mar-gorgis-alqosh",
+      "license_status": "verified",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Saint_George_in_alQosh_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Church_of_Saint_George_in_alQosh_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q111804052",
+        "matchedBy": "linked-in-sources; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The courtyard of the Church of Saint George in Alqosh; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Church_of_Saint_George_in_alQosh_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Church of Saint George in alQosh 02.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Church_of_Saint_George_in_alQosh_02.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Church_of_Saint_George_in_alQosh_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Church_of_Saint_George_in_alQosh_02.jpg",
+              "evidenceId": "wikimedia-commons-Church of Saint George in alQosh 02.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-mar-gorgis-alqosh",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Church_of_Saint_George_in_alQosh_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/mar-gorgis-alqosh/36bbff354a",
+        "hash": "36bbff354a",
+        "width": 1280,
+        "height": 853,
+        "color": "#68594c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — Mar Gorgis Church in Alqosh",
@@ -22308,9 +23522,90 @@
     "description": "A gate of Nineveh’s 12 km city wall guarded by lamassu; Islamic State bulldozed the gate in 2016.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nergal_gate_in_Nineveh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Nergal Gate, Nineveh",
+      "caption": "",
+      "credit": "JoAnn S. Makinano, U.S. Air Force",
+      "license": "Public domain",
+      "siteId": "site-nineveh-nergal-gate",
+      "license_status": "verified",
+      "license_url": "",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nergal_gate_in_Nineveh.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nergal_gate_in_Nineveh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2742,
+      "height": 3444,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q108515752",
+        "matchedBy": "name match of an item in Iraq; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The remains of the Nergal Gate of Nineveh, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "Public domain",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nergal_gate_in_Nineveh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Nergal gate in Nineveh.JPG",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Nergal_gate_in_Nineveh.JPG",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nergal_gate_in_Nineveh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Nergal_gate_in_Nineveh.JPG",
+              "evidenceId": "wikimedia-commons-Nergal gate in Nineveh.JPG",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-nergal-gate",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nergal_gate_in_Nineveh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/nergal-gate/eeb9e6c817",
+        "hash": "eeb9e6c817",
+        "width": 1280,
+        "height": 1608,
+        "color": "#898480",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Heidelberg University — Nergal Gate",
@@ -24413,9 +25708,90 @@
     "description": "An elaborately carved rock-cut tomb about 1 km west of Zarzi village, called Ishkewt-i Qizqapan (“Cave of the Ravisher”), probably for a local ruler of the Achaemenid or late Median period.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Qizqapan_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Qizqapan Rock-cut Tomb, Sulaymaniyah",
+      "caption": "",
+      "credit": "Ara Qadir",
+      "license": "CC BY-SA 3.0",
+      "siteId": "site-sulaymaniyah-qizqapan-tomb",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qizqapan_Cave.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Qizqapan_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2933,
+      "height": 2200,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q3412496",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The rock-cut tomb of Qizqapan in its cliff; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 3.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Qizqapan_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Qizqapan Cave.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Qizqapan_Cave.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Qizqapan_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Qizqapan_Cave.jpg",
+              "evidenceId": "wikimedia-commons-Qizqapan Cave.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-sulaymaniyah-qizqapan-tomb",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Qizqapan_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/qizqapan-tomb/957e27b682",
+        "hash": "957e27b682",
+        "width": 1280,
+        "height": 960,
+        "color": "#a78556",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Columbia University, Mapping Mesopotamian Monuments — Qyzqapan Tomb",
@@ -25943,9 +27319,90 @@
     "description": "A mound in Sulaymaniyah province studied by the German Archaeological Institute’s agrarian-worlds project.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Gird-i Shamlu, Sulaymaniyah",
+      "caption": "",
+      "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-sulaymaniyah-gird-i-shamlu",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6003,
+      "height": 2742,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q108131447",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The mound of Gird-i Shamlu in the Shahrizor Plain, named in the file; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-September 11, 2016. Gird-i Shamlu, Shahrizor Plain, Sulaymaniyah Governorate, Iraqi Kurdistan.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+              "evidenceId": "wikimedia-commons-September 11, 2016. Gird-i Shamlu, Shahrizor Plain, Sulaymaniyah Governorate, Iraqi Kurdistan.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-sulaymaniyah-gird-i-shamlu",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/gird-i-shamlu/27f966e361",
+        "hash": "27f966e361",
+        "width": 1280,
+        "height": 585,
+        "color": "#69775b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "German Archaeological Institute — Agrarwelten Mesopotamiens",
@@ -26761,9 +28218,90 @@
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Gird-i Qalrakh, Sulaymaniyah",
+      "caption": "",
+      "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-sulaymaniyah-gird-i-qalrakh",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6016,
+      "height": 2901,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q42896810",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The mound of Gird-i Qalrakh in the Shahrizor Plain, named in the file; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-September 11, 2016. The ancient mound of Gird-î Qalrakh, Shahrizor Plain, Sulaymaniyah Governrate, Iraqi Kurdistan.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+              "evidenceId": "wikimedia-commons-September 11, 2016. The ancient mound of Gird-î Qalrakh, Shahrizor Plain, Sulaymaniyah Governrate, Iraqi Kurdistan.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-sulaymaniyah-gird-i-qalrakh",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/gird-i-qalrakh/2cd4c96725",
+        "hash": "2cd4c96725",
+        "width": 1280,
+        "height": 617,
+        "color": "#9b967e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -28564,9 +30102,90 @@
     "description": "Originally a 7th-century church of the Virgin Mary, turned into a mosque in the early 13th century and rebuilt by the Seljuks in 1237 with a brick minaret; the Ottomans added a madrasa in 1657.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_%2Cnorthern_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Great Mosque of Kirkuk Citadel, Kirkuk",
+      "caption": "",
+      "credit": "Enasiqph",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-kirkuk-great-mosque-kirkuk-citadel",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_,northern_Iraq_02.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_%2Cnorthern_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6000,
+      "height": 4000,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q22685009",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "The dome of the Great Mosque (Ulu Camii) of Kirkuk Citadel, named in the file; a photograph of the mosque's sign confirms the name."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_%2Cnorthern_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Ulu Camii Mosque inside the Kirkuk Citadel -Kirkuk ,northern Iraq 02.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_,northern_Iraq_02.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_%2Cnorthern_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_,northern_Iraq_02.jpg",
+              "evidenceId": "wikimedia-commons-Ulu Camii Mosque inside the Kirkuk Citadel -Kirkuk ,northern Iraq 02.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-kirkuk-great-mosque-kirkuk-citadel",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ulu_Camii_Mosque_inside_the_Kirkuk_Citadel_-Kirkuk_%2Cnorthern_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/great-mosque-kirkuk-citadel/6748c16fda",
+        "hash": "6748c16fda",
+        "width": 1280,
+        "height": 853,
+        "color": "#a69680",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Great Mosque of the Citadel",
@@ -35819,9 +37438,90 @@
     "description": "A mosque and madrasa built in 1796 by Ahmad al-Katkhuda, deputy of the Mamluk ruler Sulayman the Great, on al-Rashid Street at al-Maidan.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Mosque-Madrasa of al-Ahmadiyya, Baghdad",
+      "caption": "",
+      "credit": "Hammody.90",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-al-ahmadiyya-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1701,
+      "height": 1701,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q12204184",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The minaret and dome of the al-Ahmadi (al-Ahmadiyya) mosque in Baghdad, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-جامع الأحمدي.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg",
+              "evidenceId": "wikimedia-commons-جامع الأحمدي.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-ahmadiyya-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%D8%AC%D8%A7%D9%85%D8%B9_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%AF%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-ahmadiyya-mosque/c8727cd373",
+        "hash": "c8727cd373",
+        "width": 1280,
+        "height": 1280,
+        "color": "#5a87c7",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Mosque-Madrasa of al-Ahmadiyya",
@@ -38205,9 +39905,90 @@
     "description": "Baghdad’s oldest church still in use, built in 1639–40 by an Armenian artillery officer of Sultan Murad IV after the conquest of Baghdad; rebuilt several times, last in 1967–70.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Sourp Asdvadzadzin Church (Miskinta), Baghdad",
+      "caption": "",
+      "credit": "Mar Sharb",
+      "license": "CC BY 2.0",
+      "siteId": "site-baghdad-sourp-asdvadzadzin",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1536,
+      "height": 2048,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q114342026",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The Armenian Church of Sourp Asdvadzadzin in Baghdad, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY 2.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Armenian Church Sourp Asdvadzadzin in Baghdad7.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg",
+              "evidenceId": "wikimedia-commons-Armenian Church Sourp Asdvadzadzin in Baghdad7.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-sourp-asdvadzadzin",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Armenian_Church_Sourp_Asdvadzadzin_in_Baghdad7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/sourp-asdvadzadzin/ca6af61b06",
+        "hash": "ca6af61b06",
+        "width": 1280,
+        "height": 1707,
+        "color": "#5d8797",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Mesopotamia Heritage — The church Sourp Asdvadzadzin in Baghdad",
@@ -40507,9 +42288,90 @@
     "description": "The Jadiriya campus planned by Walter Gropius and The Architects Collaborative, only partly built; its faculty office tower is among the surviving elements.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "University of Baghdad Campus (Gropius), Baghdad",
+      "caption": "",
+      "credit": "Ali.ph.98",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-university-of-baghdad-campus",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2448,
+      "height": 3264,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q550376",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The entrance arch of the University of Baghdad by Gropius, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-قوس جامعة بغداد - Arc University of Baghdad.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg",
+              "evidenceId": "wikimedia-commons-قوس جامعة بغداد - Arc University of Baghdad.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-university-of-baghdad-campus",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/%D9%82%D9%88%D8%B3_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_-_Arc_University_of_Baghdad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/university-of-baghdad-campus/b345be11d9",
+        "hash": "b345be11d9",
+        "width": 1280,
+        "height": 1707,
+        "color": "#969e98",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — University of Baghdad",
@@ -40963,9 +42825,90 @@
     "description": "Ismail Fatah al-Turk’s split turquoise dome of 1983 commemorating the dead of the Iran–Iraq War.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Shaheed Monument, Baghdad",
+      "caption": "",
+      "credit": "Mohmmd Abd",
+      "license": "CC0",
+      "siteId": "site-baghdad-al-shaheed-monument",
+      "license_status": "verified",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q310023",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "Al-Shaheed Monument, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-نصب الشهيد 2024.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg",
+              "evidenceId": "wikimedia-commons-نصب الشهيد 2024.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-al-shaheed-monument",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D9%86%D8%B5%D8%A8_%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%AF_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-shaheed-monument/bab02f5bca",
+        "hash": "bab02f5bca",
+        "width": 1280,
+        "height": 960,
+        "color": "#a8b9c4",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Shaheed Monument",
@@ -41064,9 +43007,89 @@
     "description": "Twin arches of hands holding crossed swords marking the entrances to the Grand Festivities Square, opened in 1989.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Victory Arch (Swords of Qadisiyah), Baghdad",
+      "caption": "",
+      "credit": "LeoPro89reg",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-baghdad-victory-arch",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1200,
+      "height": 800,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q1340523",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The Swords of Qadisiyah (Victory Arch), named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Мечи Кадисии.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg",
+              "evidenceId": "wikimedia-commons-Мечи Кадисии.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-baghdad-victory-arch",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/%D0%9C%D0%B5%D1%87%D0%B8_%D0%9A%D0%B0%D0%B4%D0%B8%D1%81%D0%B8%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/victory-arch/afe67eeaf6",
+        "hash": "afe67eeaf6",
+        "width": 960,
+        "height": 640,
+        "color": "#5e757a",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Victory Arch",
@@ -42318,9 +44341,90 @@
     "description": "The shrine of a son of Imam Ali al-Hadi who died in Samarra, a major Shi‘i pilgrimage site south of Samarra; pilgrims were killed in a 2016 attack, though the shrine itself survived.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Shrine of Sayyid Muhammad ibn Ali al-Hadi, Balad, Salah al-Din",
+      "caption": "",
+      "credit": "G M",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-sayyid-muhammad-shrine",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1600,
+      "height": 1200,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q1029645",
+        "matchedBy": "linked-in-sources; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The shrine of Sayyid Muhammad (Sab' al-Dujayl) in Balad; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-مرقد السيد سبع الدجيل.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg",
+              "evidenceId": "wikimedia-commons-مرقد السيد سبع الدجيل.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-sayyid-muhammad-shrine",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%D9%85%D8%B1%D9%82%D8%AF_%D8%A7%D9%84%D8%B3%D9%8A%D8%AF_%D8%B3%D8%A8%D8%B9_%D8%A7%D9%84%D8%AF%D8%AC%D9%8A%D9%84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/sayyid-muhammad-shrine/eefe511fec",
+        "hash": "eefe511fec",
+        "width": 1280,
+        "height": 960,
+        "color": "#636666",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Muhammad ibn Ali al-Hadi",
@@ -42428,9 +44532,90 @@
     "description": "An 11th-century five-domed mosque with the shrines of Amr ibn Jundab al-Ghifari and Sitt Nafisa, named for forty martyrs said to lie beneath it and used as an Islamic college in 1262. Islamic State destroyed it on 24 September 2014.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Al-Arba‘een Mosque, Tikrit, Salah al-Din",
+      "caption": "",
+      "credit": "الاعلامي رياض الجابر",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-salah-al-din-al-arbaeen-mosque",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2844,
+      "height": 2133,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q112666371",
+        "matchedBy": "linked-in-sources; commons-category",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The al-Arba'een mosque and shrine in Tikrit from above, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-مسجد ومزار الأربعين وسط مدينة تكريت العراقية يضم رفاة اربعين شهيداً من شهداء الفتح الاسلامي للمدينة.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg",
+              "evidenceId": "wikimedia-commons-مسجد ومزار الأربعين وسط مدينة تكريت العراقية يضم رفاة اربعين شهيداً من شهداء الفتح الاسلامي للمدينة.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-salah-al-din-al-arbaeen-mosque",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/%D9%85%D8%B3%D8%AC%D8%AF_%D9%88%D9%85%D8%B2%D8%A7%D8%B1_%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D9%88%D8%B3%D8%B7_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AA%D9%83%D8%B1%D9%8A%D8%AA_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A%D8%A9_%D9%8A%D8%B6%D9%85_%D8%B1%D9%81%D8%A7%D8%A9_%D8%A7%D8%B1%D8%A8%D8%B9%D9%8A%D9%86_%D8%B4%D9%87%D9%8A%D8%AF%D8%A7%D9%8B_%D9%85%D9%86_%D8%B4%D9%87%D8%AF%D8%A7%D8%A1_%D8%A7%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A_%D9%84%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/al-arbaeen-mosque/4299a0d58c",
+        "hash": "4299a0d58c",
+        "width": 1280,
+        "height": 960,
+        "color": "#9b8d7c",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Al-Arba'een Mosque",

@@ -1,0 +1,260 @@
+{
+ "reviewedAt": "2026-11-12",
+ "decisions": [
+  {
+   "id": "site-duhok-sultana-mahdokht-araden",
+   "approve": 2,
+   "reason": "Outer wall of the church of Sultana Mahdokht in Araden, named in the file."
+  },
+  {
+   "id": "site-duhok-akre-old-town",
+   "approve": 1,
+   "reason": "The old hillside town of Akre."
+  },
+  {
+   "id": "site-erbil-mar-bena-church-armota",
+   "approve": 1,
+   "reason": "Mar Bena Church near Koya, named in the file."
+  },
+  {
+   "id": "site-duhok-avzrog-sourp-vartan",
+   "approve": 1,
+   "reason": "The Armenian church of Sourp Vartan in Avzrog, named in the file."
+  },
+  {
+   "id": "site-sulaymaniyah-gird-i-qalrakh",
+   "approve": 1,
+   "reason": "The mound of Gird-i Qalrakh in the Shahrizor Plain, named in the file; the item's own image."
+  },
+  {
+   "id": "site-sulaymaniyah-gird-i-shamlu",
+   "approve": 1,
+   "reason": "The mound of Gird-i Shamlu in the Shahrizor Plain, named in the file; the item's own image."
+  },
+  {
+   "id": "site-nineveh-mar-gorgis-alqosh",
+   "approve": 1,
+   "reason": "The courtyard of the Church of Saint George in Alqosh; the item's own image."
+  },
+  {
+   "id": "site-nineveh-nabi-shith-mosque",
+   "approve": 7,
+   "reason": "The courtyard and arcades of the Mosque of the Prophet Shith, named in the file."
+  },
+  {
+   "id": "site-nineveh-english-war-cemetery-mosul",
+   "approve": 2,
+   "reason": "The entrance wall of the Mosul War Cemetery, named in the file."
+  },
+  {
+   "id": "site-nineveh-nergal-gate",
+   "approve": 1,
+   "reason": "The remains of the Nergal Gate of Nineveh, named in the file."
+  },
+  {
+   "id": "site-nineveh-al-tahira-qaraqosh",
+   "approve": 3,
+   "reason": "The courtyard and facade of the Immaculate (al-Tahira) Church in Bakhdida, named in the file."
+  },
+  {
+   "id": "site-nineveh-baadre-mir-castle",
+   "approve": 4,
+   "reason": "The ruins of the Ottoman-era mansion of the Yezidi Mir Said Beg in Baadre, named in the file."
+  },
+  {
+   "id": "site-salah-al-din-sayyid-muhammad-shrine",
+   "approve": 1,
+   "reason": "The shrine of Sayyid Muhammad (Sab' al-Dujayl) in Balad; the item's own image."
+  },
+  {
+   "id": "site-salah-al-din-al-arbaeen-mosque",
+   "approve": 1,
+   "reason": "The al-Arba'een mosque and shrine in Tikrit from above, named in the file."
+  },
+  {
+   "id": "site-baghdad-al-shaheed-monument",
+   "approve": 1,
+   "reason": "Al-Shaheed Monument, named in the file."
+  },
+  {
+   "id": "site-baghdad-al-ahmadiyya-mosque",
+   "approve": 3,
+   "reason": "The minaret and dome of the al-Ahmadi (al-Ahmadiyya) mosque in Baghdad, named in the file."
+  },
+  {
+   "id": "site-baghdad-sourp-asdvadzadzin",
+   "approve": 3,
+   "reason": "The Armenian Church of Sourp Asdvadzadzin in Baghdad, named in the file."
+  },
+  {
+   "id": "site-baghdad-university-of-baghdad-campus",
+   "approve": 4,
+   "reason": "The entrance arch of the University of Baghdad by Gropius, named in the file."
+  },
+  {
+   "id": "site-baghdad-victory-arch",
+   "approve": 6,
+   "reason": "The Swords of Qadisiyah (Victory Arch), named in the file."
+  },
+  {
+   "id": "site-diyala-eshnunna",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are statues and objects from the site in museums."
+  },
+  {
+   "id": "site-diyala-khafajah",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are museum objects and a soldier."
+  },
+  {
+   "id": "site-diyala-khan-bani-saad",
+   "flag": "only-unrelated-images",
+   "detail": "The only free file is a satellite view."
+  },
+  {
+   "id": "site-diyala-kifri-bawa-shaswar",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the town of Kifri; its image shows a mill, not the Bawa Shaswar quarter."
+  },
+  {
+   "id": "site-duhok-sharanish-churches",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the village; its image shows a waterfall."
+  },
+  {
+   "id": "site-duhok-khanke-hellenistic-tombs",
+   "flag": "only-unrelated-images",
+   "detail": "The only file shows children playing, not the tombs."
+  },
+  {
+   "id": "site-duhok-deraluk-st-luke",
+   "flag": "only-unrelated-images",
+   "detail": "The files show the town of Deraluk and its bridge, not the monastery."
+  },
+  {
+   "id": "site-duhok-zakho-castle",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the town of Zakho; its files show the town, a corniche and a map, not the castle."
+  },
+  {
+   "id": "site-erbil-batas-harir-relief",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the town of Harir; its files show landscapes, not the relief."
+  },
+  {
+   "id": "site-erbil-mart-mariam-church-armota",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the village of Armota; its image is the separate Mar Bena church."
+  },
+  {
+   "id": "site-erbil-rawanduz-old-town",
+   "flag": "only-unrelated-images",
+   "detail": "The files show the gorge, waterfalls and street scenes, not the old town."
+  },
+  {
+   "id": "site-sulaymaniyah-paikuli-tower",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are inscription blocks in a museum."
+  },
+  {
+   "id": "site-sulaymaniyah-tepe-kal",
+   "flag": "only-unrelated-images",
+   "detail": "The matched item is the Sardar castle of Bukan in Iran, a different place."
+  },
+  {
+   "id": "site-sulaymaniyah-sulaymaniyah-museum",
+   "flag": "not-recognisable",
+   "detail": "The free files show objects and packing work inside, not the museum."
+  },
+  {
+   "id": "site-nineveh-assur-gate",
+   "flag": "only-unrelated-images",
+   "detail": "The only file is a drawing of inscribed fragments."
+  },
+  {
+   "id": "site-nineveh-balawat",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are the Balawat gates and objects in museums."
+  },
+  {
+   "id": "site-nineveh-ishtar-temple-nineveh",
+   "flag": "only-unrelated-images",
+   "detail": "The only file is a figurine in a museum."
+  },
+  {
+   "id": "site-nineveh-mam-rashan-shrine",
+   "flag": "identity-uncertain",
+   "detail": "The files show the way to the shrine; none is described as the shrine itself."
+  },
+  {
+   "id": "site-nineveh-shamash-gate",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are reliefs and a tablet of the god Shamash, not the gate."
+  },
+  {
+   "id": "site-nineveh-sin-gate",
+   "flag": "only-unrelated-images",
+   "detail": "The only file is a Nowruz table setting."
+  },
+  {
+   "id": "site-nineveh-tell-arpachiyah",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are pottery in museums."
+  },
+  {
+   "id": "site-nineveh-tell-kuyunjik",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are tablets in museums."
+  },
+  {
+   "id": "site-nineveh-tepe-gawra",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are objects in museums."
+  },
+  {
+   "id": "site-nineveh-ain-sifni-shrines",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the town of Ain Sifni; its files show streets and a church, not the shrines."
+  },
+  {
+   "id": "site-nineveh-nimrud-ziggurat",
+   "flag": "only-unrelated-images",
+   "detail": "The only file shows the ziggurat of Borsippa (Birs Nimrud) near Hillah, a different site."
+  },
+  {
+   "id": "site-nineveh-sharif-khan-palace",
+   "flag": "only-unrelated-images",
+   "detail": "The only file is a map of Assyrian cities."
+  },
+  {
+   "id": "site-nineveh-mohamed-rashan-shrine",
+   "flag": "only-unrelated-images",
+   "detail": "The item is the town of Bardarash; its files show the town and a camp."
+  },
+  {
+   "id": "site-baghdad-north-gate-war-cemetery",
+   "flag": "only-unrelated-images",
+   "detail": "The only file shows the Maude memorial statue, not the cemetery."
+  },
+  {
+   "id": "site-baghdad-unknown-soldier-monument",
+   "flag": "only-unrelated-images",
+   "detail": "None of the files shows the Unknown Soldier monument."
+  },
+  {
+   "id": "site-baghdad-freedom-monument",
+   "flag": "not-recognisable",
+   "detail": "The only file is a portrait of a man with a flag in front of the monument."
+  },
+  {
+   "id": "site-baghdad-kahramana",
+   "flag": "not-recognisable",
+   "detail": "The only file shows a road junction where the fountain is too small to recognise."
+  },
+  {
+   "id": "site-baghdad-sippar",
+   "flag": "only-unrelated-images",
+   "detail": "The free files are tablets and objects from the site in museums."
+  }
+ ]
+}

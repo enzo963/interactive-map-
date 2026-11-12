@@ -99,1094 +99,2449 @@
   "file": "Kurdistan - Erbil - Qaysari Market.jpg"
  },
  "site-kirkuk-qaysariyah-market": {
+  "status": "approved",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "file": "Old Qaysariyah Market inside Kirkuk Citadel 04.jpg"
+ },
+ "site-erbil-great-mosque-erbil-citadel": {
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q141224441",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
+ },
+ "site-erbil-erbil-citadel-hammam": {
   "status": "flagged",
   "reason": "no-wikidata-item",
   "detail": "no-search-result",
   "checkedAt": "2026-11-11"
  },
- "site-erbil-great-mosque-erbil-citadel": {
-  "status": "pending"
- },
- "site-erbil-erbil-citadel-hammam": {
-  "status": "pending"
- },
  "site-erbil-house-b13-topkhana": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-rashid-agha-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-selim-qaqa-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-yaqub-aga-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-khalidiya-khanqah-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28715077",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mausoleum-sultan-muzaffar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-tomb-of-uzair": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-erbil-jewish-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-st-george-church-ankawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q25110442",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-melqi-mar-qardagh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-qasr-shemamok": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q25404315",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-kurd-qaburstan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q115521019",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-erbil-tell-baqrta": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q15882688",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-gird-i-matrab": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q140609018",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-gird-lashkir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-sheikh-ahmad": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-tell-surezha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108147342",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-tell-nader": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108147320",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-bash-tapa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108147277",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-satu-qala": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q15876602",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-daghan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-helawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-gozka": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-qalinj-agha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-khazna": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-tell-quri-beg": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-aliawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-abdulaziz": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-qawagh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-tell-abu-shita": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-girdi-peshka": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-zaga": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-awena": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-dwin-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q109259098",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-rabban-boya-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q105109794",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Shrine of Raban Boya",
+  "checkedAt": "2026-11-11",
+  "reason": "identity-uncertain",
+  "detail": "The item's only photograph is described by its uploader as 'probably the Shrine of Raban Boya'."
  },
  "site-erbil-batas-harir-relief": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q4122022",
+  "matchedBy": "linked-in-sources",
+  "category": "Harir",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Harir; its files show landscapes, not the relief."
  },
  "site-erbil-dere-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-rawanduz-old-town": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q579438",
+  "matchedBy": "linked-in-sources",
+  "category": "Rawanduz",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The files show the gorge, waterfalls and street scenes, not the old town."
  },
  "site-erbil-qalat-lokhan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-gird-i-dasht": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-gund-i-topzawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-erbil-topzawa-stele": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-kelashin-stele": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3849877",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mudjesir-haldi-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-bestoon-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q21032550",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-erbil-diyan-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-erbil-zawi-chemi-shanidar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-plngan-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-bana-helk": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mar-gewargis-bdeyal": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-koya-old-town": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q1778824",
+  "matchedBy": "linked-in-sources",
+  "category": "Koy Sanjaq",
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Koya; its photographs show the modern town and its gate, not the old quarter."
  },
  "site-erbil-grand-mosque-koya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-koya-qaysari-bazaar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mahmud-agha-khan-koya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mulla-abdul-majid-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mulla-kura-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-erbil-mar-bena-church-armota": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q4793768",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "file": "Mār Bena Church in Koysinjaq1.jpg"
  },
  "site-erbil-mart-mariam-church-armota": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q4793768",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the village of Armota; its image is the separate Mar Bena church."
  },
  "site-duhok-charsteen-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-duhok-mar-ith-alaha-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q98967701",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-duhok-grand-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-duhok-old-bazaar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-sharya-yazidi-shrines": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q59343124",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-khanke-hellenistic-tombs": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q59343218",
+  "matchedBy": "linked-in-sources",
+  "category": "Khanke",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file shows children playing, not the tombs."
  },
  "site-duhok-kemune-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q65007941",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-duhok-tell-gombass": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mardaman-bassetki": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q11935295",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-muqable-i": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-muqable-iii": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-nemrik-9": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q13708140",
+  "matchedBy": "linked-in-sources",
+  "category": "Nemrik 9",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-bakhetme-mar-daniel": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q30590774",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-avzrog-sourp-vartan": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q4829588",
+  "matchedBy": "linked-in-sources",
+  "category": "Avzrog",
+  "checkedAt": "2026-11-12",
+  "file": "Avzrog church.jpg"
  },
  "site-duhok-kanisban": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-asinkran": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-zakho-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q167800",
+  "matchedBy": "linked-in-sources",
+  "category": "Zakho",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Zakho; its files show the town, a corniche and a map, not the castle."
  },
  "site-duhok-qubad-pasha-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-zakho-old-bazaar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-zakho-jewish-quarter": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-sharanish-churches": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q7489412",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the village; its image shows a waterfall."
  },
  "site-duhok-mar-atqen-monastery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q24883709",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-dayrabun-monastery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q5243304",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-tomb-of-hazkiel": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q42801503",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mosul-gate-amedi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-zebari-gate-amedi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-amedi-ancient-staircase": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-amedi-parthian-reliefs": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-qubahan-madrasa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-amedi-chaldean-archdiocese": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-issa-bridge": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-bani-kondi-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q2123036",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-sultana-mahdokht-araden": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q624740",
+  "matchedBy": "linked-in-sources",
+  "category": "Araden",
+  "checkedAt": "2026-11-12",
+  "file": "Kirchenwand Sultan Maducht.jpeg"
  },
  "site-duhok-mar-abdisho-monastery-dere": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q24883512",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-komane-churches": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-dehi-churches": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q5252260",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mart-shmune-bebadi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4878295",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mar-yohanna-dawodiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mar-qayyoma-dooreh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28220077",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-betanure-synagogue": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4897358",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mangesh-mar-abraham": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q6748991",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-deraluk-st-luke": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q10950935",
+  "matchedBy": "linked-in-sources",
+  "category": "Deraluk",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The files show the town of Deraluk and its bridge, not the monastery."
  },
  "site-duhok-akre-qishla": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-akre-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-akre-old-town": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q421302",
+  "matchedBy": "linked-in-sources",
+  "category": "Aqrah",
+  "checkedAt": "2026-11-12",
+  "file": "Akre, Iraq.jpg"
  },
  "site-duhok-gunduk-cave-reliefs": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-duhok-mar-oudisho-kondak": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-kalati-mosque-companions": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-gali-zardak": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-baadre-mir-castle": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q4837020",
+  "matchedBy": "linked-in-sources",
+  "category": "Baadre",
+  "checkedAt": "2026-11-12",
+  "file": "Ruins of the Ottoman-era mansion of Yezidi Mir Said Beg in Baadre, near Sheikhan, in the Kurdistan Region of Iraq 01.jpg"
  },
  "site-nineveh-ain-sifni-shrines": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q4058903",
+  "matchedBy": "linked-in-sources",
+  "category": "Ain Sifni",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Ain Sifni; its files show streets and a church, not the shrines."
  },
  "site-nineveh-gir-e-gomel": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mohamed-rashan-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q4121860",
+  "matchedBy": "linked-in-sources",
+  "category": "Bardarash",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Bardarash; its files show the town and a camp."
  },
  "site-nineveh-nabi-shith-mosque": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q12204301",
+  "matchedBy": "linked-in-sources",
+  "category": "Mosque of the Prophet Shith",
+  "checkedAt": "2026-11-12",
+  "file": "Mosque of the Prophet Shith (32533).jpg"
  },
  "site-nineveh-imam-awn-al-din-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q112701911",
+  "matchedBy": "linked-in-sources",
+  "category": "Mausoleum of Imam Awn Al-Din",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-shaykh-fathi-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q30082298",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sultan-wais-mosque": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q25450071",
+  "matchedBy": "linked-in-sources",
+  "category": "Al-Sultan Wis Mosque",
+  "checkedAt": "2026-11-11",
+  "file": "Al-sultan wis mosque.jpg"
  },
  "site-nineveh-qadib-al-ban-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-ibn-al-athir-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-imam-ibrahim-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The only files naming 'Ibrahim' and 'Mosul' are interview photographs of an army officer."
  },
  "site-nineveh-abu-al-ala-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-nabi-daniyal-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-muhammad-al-afghani-takiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-ali-al-asghar-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q139619948",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-abd-al-rahman-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-ali-al-hadi-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-imam-muhsin-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-isa-dadah-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-ridwani-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-sitt-nafisa-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-abariqi-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-abbas-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-zayd-ibn-ali-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-umm-al-tisa-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-abdal-mosque-madrasa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-shaykh-mansur-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-abu-al-hawawin-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-awlad-al-hasan-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-imam-muhammad-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-rashid-lolan-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-hamid-and-mahmud-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-hammam-al-umariya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-shaykh-ibrahim-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mahmud-al-khidri-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-shatt-al-jumi-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-kharrazi-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-saray-police-station": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-juwayjati-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-umariyya-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-umar-al-aswad-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-umawi-mosque": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q12185312",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Al-Masfi Mosque",
+  "checkedAt": "2026-11-11",
+  "file": "Al-Umawi Mosque Minaret Mosul.jpg"
  },
  "site-nineveh-dawsat-ali-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-khuzam-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-bab-al-sir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-bab-al-qala": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-qara-saray": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q20420070",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "file": "قره سراي.jpg"
  },
  "site-nineveh-souq-bab-al-saray": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q131580117",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-khan-al-gumruk": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q110781171",
+  "matchedBy": "linked-in-sources",
+  "category": "Khan Al-Gumruk, Mosul",
+  "checkedAt": "2026-11-11",
+  "file": "Views of the renovated Khan Al-Gumruk in the Old City of Mosul in the summer of 2019, following war with the Islamic State 06.jpg"
  },
  "site-nineveh-ahmadeya-synagogue": {
   "status": "pending"
  },
  "site-nineveh-barood-khana": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q25450619",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-english-war-cemetery-mosul": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q70869546",
+  "matchedBy": "linked-in-sources",
+  "category": "Mosul War Cemetery",
+  "checkedAt": "2026-11-12",
+  "file": "Mosul War Cemetery 3.jpg"
  },
  "site-nineveh-al-tahira-kharijiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-al-tahira-syriac-catholic-mosul": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q98608783",
+  "matchedBy": "linked-in-sources",
+  "category": "Al-Tahera Church, Mosul",
+  "checkedAt": "2026-11-11",
+  "file": "كنيسة الطاهرة في الموصل ٦ 02.jpg"
  },
  "site-nineveh-al-tahira-chaldean-mosul": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q98640603",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-touma-syriac-catholic": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-shamun-al-safa-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q98835837",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mar-ichaya-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mar-gorgis-chaldean-mosul": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mar-gorgis-monastery-mosul": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q109927834",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-petion-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mar-ahudeni-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q141307302",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-our-lady-of-the-seeds": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q126726717",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-oraha-monastery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4117297",
+  "matchedBy": "linked-in-sources",
+  "category": "Mar Oraha Monastery",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-barbara-karamles": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tomb-of-nahum": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q110294532",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-al-tahira-qaraqosh": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q12236331",
+  "matchedBy": "linked-in-sources",
+  "category": "St Mary al-Tahira Church",
+  "checkedAt": "2026-11-12",
+  "file": "The courtyard of the Immaculate Church in Bakhdida 3.jpg"
  },
  "site-nineveh-mar-yacoub-qaraqosh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-shmoni-qaraqosh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-sarkis-bakus-qaraqosh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-gorgis-qaraqosh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-addai-karamles": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-gorgis-bartella": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-mariam-bartella": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-shmoni-bartella": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q98936348",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-shmoni-bashiqa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mart-mariam-bashiqa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-mikha-alqosh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-gorgis-alqosh": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q111804052",
+  "matchedBy": "linked-in-sources",
+  "category": "Chaldean Catholic cathedral of Saint George",
+  "checkedAt": "2026-11-12",
+  "file": "Church of Saint George in alQosh 02.jpg"
  },
  "site-nineveh-mar-gorgis-baqofa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-gorgis-tell-esqof": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mar-qouryakos-batnaya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-bozan-mausoleums": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-baba-noah-hatara": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sheikh-bakeur-bahzani": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-melek-miran-bashiqa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sheikh-suwar-beban": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q59347220",
+  "matchedBy": "name match near the card (0.4 km)",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-ezdin-mir-shexka": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mir-ali-beg-baadre": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sultan-ezid-mahad": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mam-rashan-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q106008987",
+  "matchedBy": "linked-in-sources",
+  "category": "Yazidi shrine Mame Reshan in Sinjar Mountains",
+  "checkedAt": "2026-11-12",
+  "reason": "identity-uncertain",
+  "detail": "The files show the way to the shrine; none is described as the shrine itself."
  },
  "site-nineveh-sheikh-mand-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-malak-sheikh-hassan-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sinjar-yazidi-mausoleums": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sinjar-old-city": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q955690",
+  "matchedBy": "linked-in-sources",
+  "category": "Sinjar",
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The photographs show the modern city centre of Sinjar after 2019, not the historic town or ancient Singara."
  },
  "site-nineveh-qutb-al-din-minaret-sinjar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q138647658",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sitt-zaynab-sinjar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-saad-ibn-aqil-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q60776398",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-sharif-khan-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q3818869",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file is a map of Assyrian cities."
  },
  "site-nineveh-tell-kuyunjik": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q856544",
+  "matchedBy": "linked-in-sources",
+  "category": "Library of Ashurbanipal",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are tablets in museums."
  },
  "site-nineveh-tell-nebi-yunus": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-sennacherib-southwest-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-ashurbanipal-north-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-ishtar-temple-nineveh": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file is a figurine in a museum."
  },
  "site-nineveh-nergal-gate": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q108515752",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Nergal gate",
+  "checkedAt": "2026-11-12",
+  "file": "Nergal gate in Nineveh.JPG"
  },
  "site-nineveh-mashki-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-adad-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-shamash-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are reliefs and a tablet of the god Shamash, not the gate."
  },
  "site-nineveh-sin-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file is a Nowruz table setting."
  },
  "site-nineveh-assur-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file is a drawing of inscribed fragments."
  },
  "site-nineveh-nimrud-northwest-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q14541284",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Palace of Ashurnasirpal II",
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are palace reliefs and lamassu in museums; none shows the palace site."
  },
  "site-nineveh-nimrud-burnt-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-fort-shalmaneser": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q141327534",
+  "matchedBy": "name match of an item in Iraq; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are glazed bricks and ivories from the fort, photographed as museum objects; none shows the site."
  },
  "site-nineveh-nimrud-governors-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-nimrud-ninurta-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-nimrud-ziggurat": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file shows the ziggurat of Borsippa (Birs Nimrud) near Hillah, a different site."
  },
  "site-nineveh-adad-nerari-palace-nimrud": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-khorsabad": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q253208",
+  "matchedBy": "linked-in-sources",
+  "category": "Dur-Sharrukin",
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are drawings, a map and reliefs now in museums; none shows the site."
  },
  "site-nineveh-balawat": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q1659846",
+  "matchedBy": "linked-in-sources",
+  "category": "Balawat",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are the Balawat gates and objects in museums."
  },
  "site-nineveh-tell-billa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3482023",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-karamles-kar-mullissi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4115974",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tepe-gawra": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q607583",
+  "matchedBy": "linked-in-sources",
+  "category": "Tepe Gawra",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are objects in museums."
  },
  "site-nineveh-tell-arpachiyah": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q1744863",
+  "matchedBy": "linked-in-sources",
+  "category": "Tell Arpachiyah",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are pottery in museums."
  },
  "site-nineveh-tell-hassuna": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q2733421",
+  "matchedBy": "linked-in-sources",
+  "category": "Tell Hassuna",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-mlefaat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3523239",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-yarim-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q25490472",
+  "matchedBy": "linked-in-sources",
+  "category": "Yarim Tepe",
+  "checkedAt": "2026-11-11"
  },
  "site-nineveh-tell-maghzaliyah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q17119019",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-telul-eth-thalathat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7697916",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tell-al-rimah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q195286",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tell-taya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7697518",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tell-khoshi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q14466961",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tell-deir-situn": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q123773705",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-ginnig": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q109829140",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-umm-dabaghiyah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q12180374",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-tell-sotto": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-mezra": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-nineveh-el-khan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-duhok-mam-chevan-mausoleums": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-sara-palace-and-bathhouse": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7423455",
+  "matchedBy": "name match near the card (0.0 km)",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-sulaymaniyah-museum": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q19414891",
+  "matchedBy": "linked-in-sources",
+  "category": "Sulaymaniyah Museum",
+  "checkedAt": "2026-11-12",
+  "reason": "not-recognisable",
+  "detail": "The free files show objects and packing work inside, not the museum."
  },
  "site-sulaymaniyah-jasana-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q115794268",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-dailaija-relief": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-paikuli-tower": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q7124764",
+  "matchedBy": "earlier-review",
+  "category": "Paikuli inscription",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are inscription blocks in a museum."
  },
  "site-sulaymaniyah-qizqapan-tomb": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q3412496",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Qyzqapan",
+  "checkedAt": "2026-11-11",
+  "file": "Qizqapan Cave.jpg"
  },
  "site-sulaymaniyah-kur-u-kich-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-zarzi-rock-shelter": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q134352211",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-palegawra-cave": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q109680516",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kani-shaie": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q113044671",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-darbandikhan-khan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-karim-shahir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q11735703",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-rabana-merquly": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q113159165",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-gird-i-rostam": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q133455889",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-begum": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q44075169",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-shamlu": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q108131447",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Gird-i Shamlu",
+  "checkedAt": "2026-11-12",
+  "file": "September 11, 2016. Gird-i Shamlu, Shahrizor Plain, Sulaymaniyah Governorate, Iraqi Kurdistan.jpg"
  },
  "site-sulaymaniyah-tell-bazmusian": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7697385",
+  "matchedBy": "linked-in-sources",
+  "category": "Tell Bazmusian",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-murad-rasu": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-sartka-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-ashkawta-rash": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-sulaymaniyah-gird-i-bazar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-pasha-palace-tazade": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tepe-kal": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q42860660",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Tepe Kal (Bukan)",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The matched item is the Sardar castle of Bukan in Iran, a different place."
  },
  "site-sulaymaniyah-marif-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-girda-resh-barika": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-greza": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-bin-gird-i-muan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-saraw": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-qalrakh": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q42896810",
+  "matchedBy": "name match of an item in Iraq",
+  "category": "Gird-i Qalrakh",
+  "checkedAt": "2026-11-12",
+  "file": "September 11, 2016. The ancient mound of Gird-î Qalrakh, Shahrizor Plain, Sulaymaniyah Governrate, Iraqi Kurdistan.jpg"
  },
  "site-sulaymaniyah-gird-i-shatwan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-hajji-abdallah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-quruchiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-qara-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-sharif": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q26841538",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-qulkhurd": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-lamar-kazi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kara-gol": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qalaja": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-sutik-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gird-i-shakar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qalbaza-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-alan-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-maluan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tepe-kurra": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tepe-sheshak-hagg-hussain": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-duwanza-imam": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tholima": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-chragh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-arbat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qadar-kamala": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kalespi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-bingird": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-raziana": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-satubist": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kani-goma": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-shekh-wisal-1": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-shekh-wisal-2": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-manswr-awa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-zrgwez-kwer": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-barbakh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-gulalan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-karima-swr": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-barika-tanjarow": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kamalan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-yakhimali": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qisirt-saru": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-saidwa-shekhrash": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-yakmala": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qaratoghan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kharajian": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-yakhimali-sarchawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kozaraqa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kani-jine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-kani-jine-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-raza": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-caani-rash": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-quchika-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-hassil": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-haji": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-tell-bengel": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qala-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-ibrahim-kachal": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-boskin": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-ali-awa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-qalat-said-ahmadan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-sulaymaniyah-turkaka": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-great-mosque-kirkuk-citadel": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q22685009",
+  "matchedBy": "linked-in-sources",
+  "category": "Ulu Camii Mosque inside the Kirkuk Citadel",
+  "checkedAt": "2026-11-11",
+  "file": "Ulu Camii Mosque inside the Kirkuk Citadel -Kirkuk ,northern Iraq 02.jpg"
  },
  "site-kirkuk-al-aryan-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-hasan-pakiz-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-al-midan-quarter": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-aghaliq-quarter": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-hammam-quarter": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": null,
+  "matchedBy": "no Wikidata item; Commons files naming the site and its place",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "reason": "not-recognisable",
+  "detail": "The only file naming the quarter shows a modern street front with no recognisable heritage feature."
  },
  "site-kirkuk-stone-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-tob-qapi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-seven-girls-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-bab-al-halloujia": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-ottoman-military-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-takiya-najib": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-kirkuk-stone-bridge": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-mariam-al-adra-koria": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-tahmazgerd-red-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-salih-malli-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-nuzi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q584605",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-kirkuk-nuzi-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-nuzi-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-nuzi-city-wall": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-tell-al-fakhar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q2740784",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-tell-arab-kumbet": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-altun-kupri-bridges": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-daquq-ottoman-bridge": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q115915275",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-kirkuk-sheikh-ismail-shrine": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-ancient-anah": {
-  "status": "to-review",
+  "status": "flagged",
   "qid": "Q2627750",
   "matchedBy": "linked-in-sources",
   "category": "Anah",
-  "checkedAt": "2026-11-11"
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The item's image is a modern mosque in Anah; the other files are satellite views, people and the separate minaret."
  },
  "site-anbar-ana-qala-island": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-mashhad-abu-reesha-mosque": {
   "status": "flagged",
@@ -1195,10 +2550,18 @@
   "checkedAt": "2026-11-11"
  },
  "site-anbar-shaykh-rajab-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q22686674",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-rawa-ottoman-castle": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-haradum": {
   "status": "flagged",
@@ -1209,19 +2572,34 @@
   "checkedAt": "2026-11-11"
  },
  "site-anbar-usiyeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-bijan-island": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-sur-jureh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-yemniyeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-kifrin": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-glaia": {
   "status": "flagged",
@@ -1236,19 +2614,34 @@
   "checkedAt": "2026-11-11"
  },
  "site-anbar-telbis-burial-ground": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-telbis-eastern-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-rijan-island": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-tel-gubbain": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-tel-al-darrajiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-buttain-al-jannadiya": {
   "status": "flagged",
@@ -1281,272 +2674,668 @@
   "checkedAt": "2026-11-11"
  },
  "site-anbar-shihma-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-shaikh-tayie-tomb": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-imam-habib-al-najjar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-anbar-tell-aswad-haditha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-hit-old-town": {
-  "status": "to-review",
+  "status": "flagged",
   "qid": "Q2422345",
   "matchedBy": "linked-in-sources",
   "category": "Hīt",
-  "checkedAt": "2026-11-11"
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The files show a bridge with soldiers, water wheels, satellite views and a painting; none shows the old town or citadel."
  },
  "site-anbar-al-farouq-minaret-hit": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q22686692",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-norias-of-hit": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-hit-bitumen-springs": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-anbar-ancient-anbar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q2829204",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-round-city": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q1191316",
+  "matchedBy": "linked-in-sources",
+  "category": "Round city of Baghdad",
+  "checkedAt": "2026-11-11"
  },
  "site-baghdad-khuld-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q65081154",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-taj-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q65069409",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-adudi-hospital": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4116635",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-seleucia-on-tigris": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q1136681",
+  "matchedBy": "linked-in-sources",
+  "category": "Seleucia on the Tigris",
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are coins minted at Seleucia; none shows the site."
  },
  "site-baghdad-kokhe-church": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-sippar": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q619707",
+  "matchedBy": "linked-in-sources",
+  "category": "Sippar",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are tablets and objects from the site in museums."
  },
  "site-baghdad-sippar-amnanum": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7525818",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-tell-harmal": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3481186",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-tell-muhammad": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q125343267",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-tell-al-dhibai": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28716833",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-bab-al-wastani": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q138647434",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-talisman-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q131377216",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-bab-al-muadham": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q4115517",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-mustasim-billah-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q42331281",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-arif-agha-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q125447828",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-al-muradiyya-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q12204288",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-al-ahmadiyya-mosque": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q12204184",
+  "matchedBy": "linked-in-sources",
+  "category": "Mosque-Madrasa of al-Ahmadiyya",
+  "checkedAt": "2026-11-12",
+  "file": "جامع الأحمدي.jpg"
  },
  "site-baghdad-adila-khatun-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28716074",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-siraj-al-din-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q22686675",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-shabandar-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q20424971",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-fattah-pasha-mosque": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q20410871",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-bab-al-sheikh-quarter": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28716948",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-bataween": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q130467025",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-sourp-asdvadzadzin": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q114342026",
+  "matchedBy": "linked-in-sources",
+  "category": "Church of Sourp Asdvadzadzin",
+  "checkedAt": "2026-11-12",
+  "file": "Armenian Church Sourp Asdvadzadzin in Baghdad7.jpg"
  },
  "site-baghdad-syriac-catholic-immaculate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-armenian-sacred-heart": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q131638554",
+  "matchedBy": "name match near the card (2.4 km)",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-chaldean-st-joseph-karrada": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q97622927",
+  "matchedBy": "name match near the card (0.0 km)",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-queen-of-the-rosary": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-st-peter-and-paul-cathedral": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q97653420",
+  "matchedBy": "name match near the card (0.0 km)",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-mar-gorgis-new-baghdad": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-meir-taweig-synagogue": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q5274677",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-abd-al-karim-qasim-museum": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q28716348",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-white-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q114773770",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-al-rehab-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q6831994",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-markaziyah-high-school": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q6770580",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-baghdad-university-of-baghdad-campus": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q550376",
+  "matchedBy": "linked-in-sources",
+  "category": "University of Baghdad",
+  "checkedAt": "2026-11-12",
+  "file": "قوس جامعة بغداد - Arc University of Baghdad.jpg"
  },
  "site-baghdad-north-gate-war-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q65242789",
+  "matchedBy": "linked-in-sources",
+  "category": "Baghdad (North Gate) War Cemetery",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only file shows the Maude memorial statue, not the cemetery."
  },
  "site-baghdad-freedom-monument": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q12248479",
+  "matchedBy": "linked-in-sources",
+  "category": "Freedom Monument (Baghdad)",
+  "checkedAt": "2026-11-12",
+  "reason": "not-recognisable",
+  "detail": "The only file is a portrait of a man with a flag in front of the monument."
  },
  "site-baghdad-kahramana": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q49006231",
+  "matchedBy": "linked-in-sources",
+  "category": "Kahramana",
+  "checkedAt": "2026-11-12",
+  "reason": "not-recognisable",
+  "detail": "The only file shows a road junction where the fountain is too small to recognise."
  },
  "site-baghdad-al-shaheed-monument": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q310023",
+  "matchedBy": "linked-in-sources",
+  "category": "Al-Shaheed Monument",
+  "checkedAt": "2026-11-12",
+  "file": "نصب الشهيد 2024.jpg"
  },
  "site-baghdad-unknown-soldier-monument": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q7752141",
+  "matchedBy": "linked-in-sources",
+  "category": "Monuments and memorials in Baghdad",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "None of the files shows the Unknown Soldier monument."
  },
  "site-baghdad-victory-arch": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q1340523",
+  "matchedBy": "linked-in-sources",
+  "category": "Swords of Qādisiyyah",
+  "checkedAt": "2026-11-12",
+  "file": "Мечи Кадисии.jpg"
  },
  "site-salah-al-din-qubbat-al-sulaybiyya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-balkuwara-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q141330886",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-istabulat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q139784348",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-al-jafari-palace": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q66057981",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-husn-al-qadisiyya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-samarra-racecourses": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-tell-al-alij": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-tell-es-sawwan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q7697547",
+  "matchedBy": "linked-in-sources",
+  "category": "Tell es-Sawwan",
+  "checkedAt": "2026-11-12"
  },
  "site-salah-al-din-sayyid-muhammad-shrine": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q1029645",
+  "matchedBy": "linked-in-sources",
+  "category": "Balad, Iraq",
+  "checkedAt": "2026-11-12",
+  "file": "مرقد السيد سبع الدجيل.jpg"
  },
  "site-salah-al-din-tikrit-citadel": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q109260815",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-salah-al-din-al-arbaeen-mosque": {
-  "status": "pending"
+  "status": "approved",
+  "qid": "Q112666371",
+  "matchedBy": "linked-in-sources",
+  "category": "Al-Arba'een Mosque",
+  "checkedAt": "2026-11-12",
+  "file": "مسجد ومزار الأربعين وسط مدينة تكريت العراقية يضم رفاة اربعين شهيداً من شهداء الفتح الاسلامي للمدينة.jpg"
  },
  "site-salah-al-din-kar-tukulti-ninurta": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q165841",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-ashur-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-ashur-ziggurat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-ishtar-temple-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-anu-adad-temple": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-old-palace-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-royal-tombs-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-parthian-palace-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-tabira-gate": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-ashur-city-walls": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-akitu-house-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q419358",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-11",
+  "reason": "only-unrelated-images",
+  "detail": "The matched item is the Akitu festival; its image shows a modern celebration in Duhok, not the festival house at Ashur."
  },
  "site-salah-al-din-ottoman-barracks-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-salah-al-din-german-expedition-house-ashur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-eshnunna": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q375685",
+  "matchedBy": "earlier-review",
+  "category": "Eshnunna",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are statues and objects from the site in museums."
  },
  "site-diyala-khafajah": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q1305112",
+  "matchedBy": "earlier-review",
+  "category": "Khafajah",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The free files are museum objects and a soldier."
  },
  "site-diyala-tell-agrab": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q1612336",
+  "matchedBy": "linked-in-sources",
+  "category": "Tell Agrab",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-ishchali": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3338309",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-choga-mami": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q3820171",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-tell-abada": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q56300816",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-rashid": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108022469",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-madhur": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108047815",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-saadiya": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q86671285",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-suleimah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q135441002",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-yelkhi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q125447682",
+  "matchedBy": "name match of an item in Iraq",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-me-turan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q86666193",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-razuk": {
   "status": "flagged",
@@ -1555,10 +3344,16 @@
   "checkedAt": "2026-11-11"
  },
  "site-diyala-tell-ahmed-al-mughir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-ajamat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-atiqeh": {
   "status": "flagged",
@@ -1567,243 +3362,503 @@
   "checkedAt": "2026-11-11"
  },
  "site-diyala-tell-gubba": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-songor": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108047701",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tellul-hamediyat": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-rubeidheh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q108047841",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-abu-husaini": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-hassan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-kesaran": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-kheit-qasim": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-abu-qasim": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-dastagird": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q112246696",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tell-al-zendan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-adhaim-ancient-dam": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q115679578",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hawsh-kuri": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q139901467",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-alwand-bridge": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q100258194",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-khan-bani-saad": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q4077311",
+  "matchedBy": "linked-in-sources",
+  "category": "Khan Bani Saad",
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The only free file is a satellite view."
  },
  "site-diyala-baqubah-old-saray": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tel-abu-uthaina": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-tel-shihab": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-prophet-daniel-shrine-diyala": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-khanaqin-war-cemetery": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-free-photograph",
+  "qid": "Q70633320",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-eski-kifri": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-kifri-bawa-shaswar": {
-  "status": "pending"
+  "status": "flagged",
+  "qid": "Q2626532",
+  "matchedBy": "linked-in-sources",
+  "category": null,
+  "checkedAt": "2026-11-12",
+  "reason": "only-unrelated-images",
+  "detail": "The item is the town of Kifri; its image shows a mill, not the Bawa Shaswar quarter."
  },
  "site-diyala-kifri-saray": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-kifri-qaysari-bazaar": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-majid-pasha-palace-kifri": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-dawood-zarifa-house": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-al-hafayir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-tulul-umm-salim": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-tulul-al-bakhtariyah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-deshtaneh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-al-daham": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-abu-khazef": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-kheit-imneithir": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-kheit-al-imheidiyed": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-at-turah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-aq-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-tulul-al-khubari": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-tulul-beni-weis": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-ayyash": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-hikmeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-ash-shair": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-mahmud-agha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-shor-tepe": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-nebi-ismail": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-al-zawiyah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-ar-raha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-imam-ali": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-al-mahatteh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-gauri": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-irsheidch": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-tulul-baradan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-imleihiyeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-al-imam-al-bairakdah": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-ababra": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-harmaleh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-kheit-genj": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-abu-shufeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-jeizalun": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-tunneireh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-hablayeh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-kumeideh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-khuzeifi": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-seidalan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-tejli": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-abu-tahin": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-bustan": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-keshkul": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-greish": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-halawa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-kheizif": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-ahmed-al-hattu": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-al-baqa": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-tulul-al-yarmet": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-ali-pasha": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-as-saray": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-abu-gubab": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-11"
  },
  "site-diyala-hamrin-ash-shoureh": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-search-result",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-sabra": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-as-sara": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-12"
  },
  "site-diyala-hamrin-abu-samad": {
-  "status": "pending"
+  "status": "flagged",
+  "reason": "no-wikidata-item",
+  "detail": "no-confirmed-match",
+  "checkedAt": "2026-11-11"
  }
 }
