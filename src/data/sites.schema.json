@@ -82,11 +82,250 @@
         "items": {
           "$ref": "#/definitions/image"
         }
-      }
+      },
+      "model_metadata": { "$ref": "#/definitions/modelMetadata" },
+      "digital_assets": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "allOf": [{
+            "if": { "properties": { "type": { "enum": ["3d", "3d-model", "model", "reconstruction", "digital-reconstruction"] } }, "required": ["type"] },
+            "then": { "$ref": "#/definitions/modelMetadata" }
+          }]
+        }
+      },
+      "photogrammetry_projects": { "type": "array", "items": { "$ref": "#/definitions/photogrammetryProject" } },
+      "comparisons": { "type": "array", "items": { "$ref": "#/definitions/comparison" } },
+      "preservation": { "$ref": "#/definitions/preservation" },
+      "story_sections": { "type": "array", "items": { "$ref": "#/definitions/storySection" } },
+      "historical_events": { "type": "array", "items": { "$ref": "#/definitions/historicalEvent" } },
+      "heritage_media": { "type": "array", "items": { "$ref": "#/definitions/heritageMedia" } }
     },
     "additionalProperties": true
   },
   "definitions": {
+    "claimDate": {
+      "anyOf": [{ "type": "string", "format": "date" }, { "type": "string", "format": "date-time" }]
+    },
+    "optionalClaimDate": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/claimDate" }] },
+    "heritageClaim": {
+      "type": "object",
+      "required": ["siteId", "verification_status", "reviewedBy", "reviewedAt", "sourceRefs"],
+      "properties": {
+        "siteId": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "verification_status": { "$ref": "#/definitions/reviewStatus" },
+        "verificationStatus": { "$ref": "#/definitions/reviewStatus" },
+        "verified": { "type": "boolean" },
+        "reviewedBy": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "reviewedAt": { "$ref": "#/definitions/claimDate" },
+        "sourceRefs": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1, "pattern": "\\S" },
+          "description": "Evidence IDs referencing this site's sources; publication additionally checks source credibility, dates and full-text evidence. References alone confer no approval."
+        }
+      }
+    },
+    "preservation": {
+      "anyOf": [
+        { "$ref": "#/definitions/preservationAssessment" },
+        {
+          "type": "object", "required": ["state", "verified"],
+          "properties": { "state": { "const": "unknown" }, "verified": { "const": false } },
+          "additionalProperties": false,
+          "description": "Blocked public sentinel emitted for a malformed explicit assessment; carries no review or source approval."
+        }
+      ]
+    },
+    "preservationAssessment": {
+      "type": "object", "allOf": [{ "$ref": "#/definitions/heritageClaim" }],
+      "required": ["state", "summary"],
+      "properties": {
+        "state": { "enum": ["preserved", "restored", "damaged", "heavily-damaged", "reconstructed", "endangered", "destroyed", "lost", "disappeared", "unknown"] },
+        "asOf": { "$ref": "#/definitions/optionalClaimDate" },
+        "summary": { "type": "string" }
+      }
+    },
+    "storySection": {
+      "type": "object", "allOf": [{ "$ref": "#/definitions/heritageClaim" }],
+      "required": ["id", "type", "text"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "type": { "enum": ["history", "architecture", "significance", "restoration", "destruction", "digital-documentation"] },
+        "text": { "type": "string" }
+      }
+    },
+    "historicalYear": { "type": "integer", "minimum": -9999, "maximum": 9999, "not": { "const": 0 } },
+    "historicalEvent": {
+      "type": "object", "allOf": [{ "$ref": "#/definitions/heritageClaim" }],
+      "required": ["id", "type", "title", "year"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "type": { "enum": ["construction", "renovation", "destruction", "excavation", "restoration", "reconstruction", "unesco-inscription", "damage"] },
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "year": { "$ref": "#/definitions/historicalYear" },
+        "endYear": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/historicalYear" }] },
+        "precision": { "enum": ["exact", "approximate"] },
+        "date": { "$ref": "#/definitions/optionalClaimDate" }
+      }
+    },
+    "heritageMedia": {
+      "type": "object", "allOf": [{ "$ref": "#/definitions/heritageClaim" }],
+      "required": ["id", "type", "title"],
+      "anyOf": [{ "required": ["url"] }, { "required": ["src"] }],
+      "description": "Explicit reviewed media claims. Authored historical dates retain their precision; rights review is independent from claim evidence.",
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "pattern": "\\S" },
+        "type": { "enum": ["photograph", "archival-image", "reconstruction", "panorama", "video", "3d"] },
+        "title": { "type": "string", "minLength": 1, "pattern": "^[^<>\\u0000-\\u001f\\u007f]*\\S[^<>\\u0000-\\u001f\\u007f]*$" },
+        "description": { "$ref": "#/definitions/mediaText" },
+        "creator": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/mediaText" }] },
+        "date": { "anyOf": [{ "type": "null" }, { "type": "string", "minLength": 1, "pattern": "^[^<>\\u0000-\\u001f\\u007f]+$" }] },
+        "year": { "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/historicalYear" }] },
+        "url": { "$ref": "#/definitions/assetUrl" }, "src": { "$ref": "#/definitions/assetUrl" },
+        "alt": { "$ref": "#/definitions/mediaText" }, "caption": { "$ref": "#/definitions/mediaText" },
+        "credit": { "$ref": "#/definitions/mediaText" }, "license": { "$ref": "#/definitions/mediaText" },
+        "license_status": { "enum": ["verified", "unverified", "restricted", "unknown"] },
+        "licenseStatus": { "enum": ["verified", "unverified", "restricted", "unknown"] },
+        "sourceName": { "type": "string" }, "source_name": { "type": "string" },
+        "sourceUrl": { "$ref": "#/definitions/mediaSourceUrl" }, "source_url": { "$ref": "#/definitions/mediaSourceUrl" },
+        "license_url": { "$ref": "#/definitions/mediaSourceUrl" },
+        "license_review": { "$ref": "#/definitions/mediaRightsReview" },
+        "license_tracking": { "$ref": "#/definitions/mediaRightsTracking" },
+        "publication_approval": { "$ref": "#/definitions/mediaPublicationApproval" },
+        "source_observations": { "type": "array", "items": { "$ref": "#/definitions/mediaRightsObservation" } },
+        "creationMethod": { "$ref": "#/definitions/mediaText" }, "format": { "type": "string", "maxLength": 32 },
+        "fileSizeBytes": { "type": ["integer", "null"], "minimum": 0, "maximum": 9007199254740991 }
+      }
+    },
+    "mediaSourceUrl": { "type": "string", "pattern": "^(https?://[^\\s\\\\]+|)$" },
+    "mediaRightsObservation": {
+      "type": "object", "properties": {
+        "sourceName": { "type": "string" }, "source_name": { "type": "string" },
+        "sourceUrl": { "$ref": "#/definitions/mediaSourceUrl" }, "source_url": { "$ref": "#/definitions/mediaSourceUrl" },
+        "credit": { "type": "string" }, "license": { "type": "string" },
+        "license_status": { "enum": ["verified", "unverified", "restricted", "unknown"] },
+        "licenseStatus": { "enum": ["verified", "unverified", "restricted", "unknown"] },
+        "license_review": { "$ref": "#/definitions/mediaRightsReview" }
+      }
+    },
+    "mediaRightsReview": {
+      "type": "object", "properties": {
+        "permission": { "type": "string" }, "reviewedBy": { "type": "string" },
+        "reviewedAt": { "$ref": "#/definitions/claimDate" }, "license": { "type": "string" },
+        "image_url": { "$ref": "#/definitions/assetUrl" }, "resource_url": { "$ref": "#/definitions/assetUrl" },
+        "evidence": { "type": "array", "items": {
+          "type": "object", "properties": {
+            "evidenceId": { "type": "string" }, "source_url": { "$ref": "#/definitions/mediaSourceUrl" },
+            "image_url": { "$ref": "#/definitions/assetUrl" }, "resource_url": { "$ref": "#/definitions/assetUrl" }
+          }
+        } }
+      }
+    },
+    "mediaRightsTracking": {
+      "type": "object", "properties": {
+        "evidence_valid": { "type": "boolean" }, "automatically_approved": { "type": "boolean" },
+        "evidence_checks": { "type": "array", "items": {
+          "type": "object", "properties": {
+            "valid": { "type": "boolean" }, "source": { "type": "object", "properties": {
+              "sourceName": { "type": "string" }, "evidenceId": { "type": "string" },
+              "url": { "$ref": "#/definitions/mediaSourceUrl" }, "accessedAt": { "$ref": "#/definitions/claimDate" }
+            } }
+          }
+        } }
+      }
+    },
+    "mediaPublicationApproval": {
+      "type": "object", "properties": {
+        "status": { "type": "string" }, "siteId": { "type": "string" }, "site_verified": { "type": "boolean" },
+        "reviewedBy": { "type": "string" }, "reviewedAt": { "$ref": "#/definitions/claimDate" },
+        "image_url": { "$ref": "#/definitions/assetUrl" }, "resource_url": { "$ref": "#/definitions/assetUrl" }
+      }
+    },
+    "mediaText": { "type": "string", "pattern": "^[^<>\\u0000-\\u001f\\u007f]*$" },
+    "assetUrl": { "type": "string", "pattern": "^(https://[^\\s\\\\]+|/(?!/)[^\\s\\\\]*)$" },
+    "reviewStatus": { "enum": ["verified", "approved", "draft", "needs-review", "rejected", "withdrawn", "unknown"] },
+    "modelMetadata": {
+      "type": "object",
+      "properties": {
+        "verified": { "type": "boolean" },
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "siteId": { "type": "string", "minLength": 1 },
+        "url": { "$ref": "#/definitions/assetUrl" },
+        "creator": { "type": ["string", "null"] },
+        "creationMethod": { "type": ["string", "null"] },
+        "year": { "type": ["integer", "null"], "minimum": 1, "maximum": 9999 },
+        "sourceName": { "type": ["string", "null"] },
+        "sourceUrl": { "type": ["string", "null"], "pattern": "^(https?://[^\\s\\\\]+|)$" },
+        "license": { "type": "string" },
+        "format": { "type": ["string", "null"], "maxLength": 32 },
+        "fileSizeBytes": { "type": ["integer", "null"], "minimum": 0, "maximum": 9007199254740991 },
+        "verificationStatus": { "$ref": "#/definitions/reviewStatus" },
+        "verification_status": { "$ref": "#/definitions/reviewStatus" }
+      },
+      "additionalProperties": true
+    },
+    "projectDocument": {
+      "type": "object", "required": ["title", "url", "verification_status"],
+      "properties": {
+        "verified": { "type": "boolean" },
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "$ref": "#/definitions/assetUrl" },
+        "siteId": { "type": "string" },
+        "verification_status": { "$ref": "#/definitions/reviewStatus" }
+      }, "additionalProperties": true
+    },
+    "photogrammetryProject": {
+      "type": "object", "required": ["id", "title", "siteId", "verification_status"],
+      "properties": {
+        "verified": { "type": "boolean" },
+        "id": { "type": "string", "minLength": 1, "pattern": "^\\S(?:.*\\S)?$" },
+        "title": { "type": "string", "minLength": 1 },
+        "siteId": { "type": "string", "minLength": 1 },
+        "verification_status": { "$ref": "#/definitions/reviewStatus" },
+        "our_work": { "type": "boolean" },
+        "status": { "enum": [null, "", "planned", "in-progress", "completed", "archived"] },
+        "creator": { "type": ["string", "null"] },
+        "organization": { "type": ["string", "null"] },
+        "method": { "type": ["string", "null"] },
+        "year": { "type": ["integer", "null"], "minimum": 1, "maximum": 9999 },
+        "description": { "type": "string" },
+        "modelUrls": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/assetUrl" } },
+        "photographUrls": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/definitions/assetUrl" } },
+        "documentation": { "type": "array", "items": { "$ref": "#/definitions/projectDocument" } },
+        "reconstruction": {
+          "type": "object", "properties": {
+            "description": { "type": "string" }, "evidence": { "type": "string" }, "uncertainties": { "type": "string" }
+          }, "additionalProperties": true
+        }
+      }, "additionalProperties": true
+    },
+    "comparisonSide": {
+      "type": "object", "required": ["image", "label"],
+      "properties": {
+        "image": { "$ref": "#/definitions/assetUrl" },
+        "label": { "type": "string", "minLength": 1 },
+        "date": { "type": ["string", "null"] },
+        "kind": { "enum": ["photograph", "reconstruction"] }
+      }, "additionalProperties": false
+    },
+    "comparison": {
+      "type": "object", "required": ["id", "title", "siteId", "type", "verification_status", "before", "after"],
+      "properties": {
+        "verified": { "type": "boolean" },
+        "id": { "type": "string", "minLength": 1 }, "title": { "type": "string", "minLength": 1 },
+        "siteId": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["historical-current", "reconstruction", "pre-post-destruction"] },
+        "verification_status": { "$ref": "#/definitions/reviewStatus" },
+        "before": { "$ref": "#/definitions/comparisonSide" }, "after": { "$ref": "#/definitions/comparisonSide" },
+        "notes": { "type": "string" }
+      },
+      "allOf": [{
+        "if": { "properties": { "type": { "const": "reconstruction" } }, "required": ["type"] },
+        "then": { "properties": { "before": { "required": ["kind"] }, "after": { "required": ["kind"] } } }
+      }], "additionalProperties": true
+    },
     "source": {
       "type": "object",
       "required": [
@@ -96,6 +335,9 @@
         "accessedAt"
       ],
       "properties": {
+        "accessLevel": { "enum": ["full-text", "search-snippet"] },
+        "sourceType": { "type": "string" },
+        "sourceTypeNote": { "type": "string" },
         "sourceName": {
           "type": "string",
           "minLength": 1

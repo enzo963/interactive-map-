@@ -2727,7 +2727,7 @@
       "مرقد النبي دانيال"
     ],
     "governorate": "Diyala",
-    "approximateLocation": "",
+    "approximateLocation": "Diyala; precise locality unresolved in consulted provincial inventory",
     "category": "shrine",
     "sources": [
       {
@@ -2744,7 +2744,7 @@
       }
     ],
     "verificationStatus": "candidate-needs-review",
-    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked. Locality unresolved; identity requires review before geocoding."
   },
   {
     "name": "Tel Abu Uthaina",
@@ -2753,7 +2753,7 @@
       "تل أبو أذينة"
     ],
     "governorate": "Diyala",
-    "approximateLocation": "",
+    "approximateLocation": "Diyala; precise locality unresolved in consulted provincial inventory",
     "category": "archaeological-tell",
     "sources": [
       {
@@ -2770,13 +2770,13 @@
       }
     ],
     "verificationStatus": "candidate-needs-review",
-    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked. Locality unresolved; identity requires review before geocoding."
   },
   {
     "name": "Tel Shihab",
     "alternativeNames": [],
     "governorate": "Diyala",
-    "approximateLocation": "",
+    "approximateLocation": "Diyala; precise locality unresolved in consulted provincial inventory",
     "category": "archaeological-tell",
     "sources": [
       {
@@ -2793,13 +2793,13 @@
       }
     ],
     "verificationStatus": "candidate-needs-review",
-    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked. Locality unresolved; identity requires review before geocoding."
   },
   {
     "name": "Zindan",
     "alternativeNames": [],
     "governorate": "Diyala",
-    "approximateLocation": "",
+    "approximateLocation": "Diyala; exact locality requires review against excavation records",
     "category": "archaeological-site",
     "sources": [
       {
@@ -2813,10 +2813,22 @@
           "name",
           "governorate"
         ]
+      },
+      {
+        "url": "https://blogs.ucl.ac.uk/nahrein/2023/12/05/the-zindan-archaeological-site-in-diyala/",
+        "title": "The Zindan Archaeological Site in Diyala",
+        "institution": "UCL Nahrein Network",
+        "sourceType": "university-project",
+        "accessLevel": "search-snippet",
+        "locator": "Site description",
+        "supports": [
+          "name",
+          "heritage-character"
+        ]
       }
     ],
     "verificationStatus": "candidate-needs-review",
-    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked."
+    "notes": "Government inventory names the site under Diyala, but precise locality and identity require review. For the Al-Uthaim dam, provincial border location must be checked. Locality unresolved; identity requires review before geocoding."
   },
   {
     "name": "Abbasid Dam on the Al-Uthaim",

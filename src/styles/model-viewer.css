@@ -1,0 +1,14 @@
+.hb-model__controls { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.hb-model__controls .hb-btn { min-height: 2.75rem; }
+.hb-model__controls p { flex-basis: 100%; }
+.hb-model__information { border: 1px solid var(--hb-rule); padding: .85rem 1rem; }
+.hb-model__information summary { cursor: pointer; font-weight: 600; }
+.hb-model__information dl { display: grid; grid-template-columns: auto 1fr; gap: .4rem 1rem; }
+.hb-model__information dd { margin: 0; overflow-wrap: anywhere; }
+.hb-model:fullscreen, .hb-model--expanded { box-sizing: border-box; padding: 1.25rem; background: var(--hb-paper); overflow: auto; }
+.hb-model--expanded { position: fixed; inset: 0; z-index: 2000; overscroll-behavior: contain; }
+.hb-model:fullscreen model-viewer, .hb-model--expanded model-viewer { height: min(65dvh, 50rem); min-height: 15rem; }
+@media (max-width: 40rem) {
+  .hb-model__controls .hb-btn { flex: 1 1 40%; }
+  .hb-model:fullscreen, .hb-model--expanded { padding: .75rem; }
+}

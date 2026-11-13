@@ -21,6 +21,7 @@ const slugify = (value) =>
 const EDITABLE = ['name', 'governorate', 'latitude', 'longitude', 'category', 'period', 'description'];
 
 function clean(body) {
+  if (!body || typeof body !== 'object' || Array.isArray(body)) throw new Error('body must be an object');
   const out = {};
   for (const key of EDITABLE) {
     if (!(key in body)) continue;
@@ -28,6 +29,8 @@ function clean(body) {
     if (key === 'latitude' || key === 'longitude') {
       value = value === '' || value === null ? null : Number(value);
       if (value !== null && !Number.isFinite(value)) throw new Error(`${key} must be a number`);
+      const limit = key === 'latitude' ? 90 : 180;
+      if (value !== null && Math.abs(value) > limit) throw new Error(`${key} is out of range`);
     } else {
       value = String(value ?? '').trim();
     }
@@ -83,8 +86,18 @@ function newSite(fields, sites) {
 const readBody = (req) =>
   new Promise((resolve, reject) => {
     let data = '';
-    req.on('data', (chunk) => { data += chunk; if (data.length > 1e6) reject(new Error('body too large')); });
-    req.on('end', () => { try { resolve(JSON.parse(data || '{}')); } catch { reject(new Error('invalid JSON')); } });
+    let bytes = 0;
+    let tooLarge = false;
+    req.on('data', (chunk) => {
+      if (tooLarge) return;
+      bytes += Buffer.byteLength(chunk);
+      if (bytes > 1e6) {
+        tooLarge = true;
+        data = '';
+        reject(Object.assign(new Error('body too large'), { status: 413 }));
+      } else data += chunk;
+    });
+    req.on('end', () => { if (!tooLarge) { try { resolve(JSON.parse(data || '{}')); } catch { reject(new Error('invalid JSON')); } } });
     req.on('error', reject);
   });
 
@@ -94,15 +107,31 @@ const send = (res, status, payload) => {
   res.end(JSON.stringify(payload));
 };
 
+const loopback = (host) => host === 'localhost' || host === '[::1]' || host === '::1'
+  || /^127\./.test(host) || /^::ffff:127\./i.test(host);
+
+/** Local editing is a browser-only, same-origin operation; never trust forwarded headers. */
+function localOrigin(req) {
+  if (!loopback(req.socket?.remoteAddress ?? '')) return false;
+  try {
+    const expected = new URL(`http://${req.headers.host}`);
+    return loopback(expected.hostname) && !expected.username && !expected.password
+      && req.headers.origin === expected.origin;
+  } catch { return false; }
+}
+
 export default function sitesApi() {
   return {
     name: 'heritage-sites-api',
     apply: 'serve',
     configureServer(server) {
       server.middlewares.use('/api/sites', async (req, res, next) => {
-        const id = decodeURIComponent((req.url ?? '/').replace(/^\/+|\/+$/g, ''));
-        if (!(req.method === 'POST' && !id) && !(req.method === 'PATCH' && id)) return next();
+        if (!['POST', 'PATCH'].includes(req.method)) return next();
+        if (!localOrigin(req)) return send(res, 403, { error: 'local same-origin editing required' });
+        if (!/^application\/json(?:\s*;|$)/i.test(req.headers['content-type'] ?? '')) return send(res, 415, { error: 'application/json required' });
         try {
+          const id = decodeURIComponent((req.url ?? '/').replace(/^\/+|\/+$/g, ''));
+          if (!(req.method === 'POST' && !id) && !(req.method === 'PATCH' && id)) return next();
           const fields = clean(await readBody(req));
           const sites = JSON.parse(await readFile(SITES_FILE, 'utf8'));
           let site;
@@ -119,7 +148,7 @@ export default function sitesApi() {
           await writeFile(SITES_FILE, `${JSON.stringify(sites, null, 2)}\n`);
           return send(res, req.method === 'POST' ? 201 : 200, site);
         } catch (error) {
-          return send(res, 400, { error: error.message });
+          return send(res, error.status ?? 400, { error: error.status === undefined && error.code ? 'unable to save local record' : error.message });
         }
       });
     },

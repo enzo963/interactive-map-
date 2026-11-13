@@ -29,18 +29,31 @@ const work = page(() => import('./pages/OurWork.jsx'));
 const contact = page(() => import('./pages/Contact.jsx'));
 const unesco = page(() => import('./pages/UnescoCollection.jsx'));
 const models = page(() => import('./pages/ThreeDArchive.jsx'));
+const timeline = page(() => import('./pages/Timeline.jsx'));
+const civilizations = page(() => import('./pages/Civilizations.jsx'));
+const disappeared = page(() => import('./pages/DisappearedHeritage.jsx'));
+const images = page(() => import('./pages/HistoricalImageArchive.jsx'));
+const collections = page(() => import('./pages/CuratedCollections.jsx'));
 
 export const routes = [
   { path: '/', ...home },
   { path: '/explore', ...explore },
+  { path: '/timeline', ...timeline },
+  { path: '/civilizations', ...civilizations },
+  { path: '/civilizations/:eraId', ...civilizations },
   { path: '/map', ...map },
   { path: '/decks', ...decks },
+  { path: '/collections', ...collections },
+  { path: '/collections/:collectionId', ...collections },
   { path: '/decks/unesco', ...unesco },
   { path: '/decks/3d', ...models },
+  { path: '/decks/lost', ...disappeared },
   { path: '/decks/:deckId', ...deck },
   { path: '/sites/:slug', ...site },
   { path: '/unesco', ...unesco },
   { path: '/3d-archive', ...models },
+  { path: '/disappeared-heritage', ...disappeared },
+  { path: '/image-archive', ...images },
   { path: '/about', ...about },
   { path: '/methodology', ...methodology },
   { path: '/our-work', ...work },

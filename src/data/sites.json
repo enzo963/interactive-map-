@@ -221,7 +221,7 @@
     "category": "Minaret",
     "period": "",
     "period_status": "not-established",
-    "description": "A 37 m historic minaret in Erbil, planned in 2025 for structural and exterior restoration.",
+    "description": "A historic minaret in Erbil, 37 m high, for which structural and exterior restoration was planned in 2025.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -411,7 +411,7 @@
     "category": "Archaeological Cave",
     "period": "",
     "period_status": "not-established",
-    "description": "A cave in the Zagros mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
+    "description": "A cave in the Zagros Mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -800,7 +800,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "Parthian",
-    "description": "A fortified city under Parthian influence, south-west of Mosul, whose thick walls and towers held off Roman sieges in 116 and 198 AD. Its temples blend Hellenistic and Roman architecture with Eastern decoration.",
+    "description": "A fortified city under Parthian influence, south-west of Mosul, whose thick walls and towers held off Roman sieges in 116 and 198 CE. Its temples blend Hellenistic and Roman architecture with Eastern decoration.",
     "unesco": true,
     "has3D": null,
     "coverImage": {
@@ -984,7 +984,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological City",
     "period": "Assyrian",
-    "description": "Ancient Kalhu, south of Mosul, which became the capital of the Assyrian Empire in the 9th century BC under Ashurnasirpal II. Its walls, raised palace platforms and royal tombs survive.",
+    "description": "Ancient Kalhu, south of Mosul, which became the capital of the Assyrian Empire in the 9th century BCE under Ashurnasirpal II. Its walls, raised palace platforms and royal tombs survive.",
     "unesco": false,
     "has3D": null,
     "coverImage": {
@@ -1199,7 +1199,7 @@
     "governorate": "Sulaymaniyah",
     "category": "Archaeological Settlement",
     "period": "Early Neolithic",
-    "description": "An Early Neolithic village of 7700–7100 BC in the Zagros foothills on the edge of the Shahrizor Plain, about 30 km south-east of Sulaymaniyah, whose mud-brick and pisé buildings show early village life.",
+    "description": "An Early Neolithic village of 7700–7100 BCE in the Zagros foothills on the edge of the Shahrizor Plain, about 30 km south-east of Sulaymaniyah, whose mud-brick and pisé buildings show early village life.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -1935,7 +1935,7 @@
     "governorate": "Salah al-Din",
     "category": "Mosque and Minaret",
     "period": "Abbasid",
-    "description": "The congregational mosque of Abbasid Samarra, built in 849–852 and, at 264 by 159 m, the largest mosque in the Islamic world when it was built. Its spiral minaret, al-Malwiya, is the most unusual minaret in the Islamic world.",
+    "description": "The congregational mosque of Abbasid Samarra, built in 849–852 and, at 264 by 159 m, the largest mosque in the Islamic world when it was built. It has a distinctive spiral minaret, al-Malwiya.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -2156,7 +2156,7 @@
     "governorate": "Salah al-Din",
     "category": "Archaeological City",
     "period": "Assyrian and Parthian",
-    "description": "The first capital of the Assyrian Empire and religious centre of the god Ashur, on the west bank of the Tigris. A city-state and trading hub from the 14th to the 9th century BC, it was revived under the Parthians in the 1st–2nd centuries AD.",
+    "description": "The first capital of the Assyrian Empire and religious centre of the god Ashur, on the west bank of the Tigris. A city-state and trading hub from the 14th to the 9th century BCE, it was revived under the Parthians in the 1st–2nd centuries CE.",
     "unesco": true,
     "has3D": null,
     "coverImage": {

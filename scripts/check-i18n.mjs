@@ -6,14 +6,20 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 import de from '../src/i18n/messages/de.js';
 
 const require = createRequire(import.meta.url);
 const espree = require('espree');
-const ROOT = new URL('../src/', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('../src/', import.meta.url));
 const DATA_FILES = new Set([
   'data/navigation.js', 'data/collections.js', 'data/specialDecks.js', 'data/drawFilters.js', 'data/cardTypeNotes.js',
   'utils/heritageCategories.js', 'utils/filterSites.js', 'utils/related.js', 'utils/documentation.js', 'utils/modelResources.js',
+  'utils/history.js',
+  'utils/mapLayers.js',
+  'utils/heritageExperience.js',
+  'utils/heritageMedia.js',
+  'data/curatedCollections.js',
   'components/home/AboutArchive.jsx', 'components/home/ArchiveStats.jsx', 'pages/About.jsx', 'pages/Methodology.jsx', 'pages/OurWork.jsx',
 ]);
 const DATA_PROPS = new Set(['label', 'title', 'shortTitle', 'blurb', 'description', 'rankLabel']);
@@ -29,7 +35,7 @@ walk(ROOT);
 const keys = new Map(); // key -> first file
 const add = (key, file) => { if (!keys.has(key)) keys.set(key, file.replace(ROOT, '')); };
 for (const file of files) {
-  const rel = file.replace(ROOT, '');
+  const rel = file.replace(ROOT, '').replaceAll('\\', '/');
   const ast = espree.parse(readFileSync(file, 'utf8'), { ecmaVersion: 'latest', sourceType: 'module', ecmaFeatures: { jsx: true } });
   const visit = (node, parentKey) => {
     if (!node || typeof node.type !== 'string') return;

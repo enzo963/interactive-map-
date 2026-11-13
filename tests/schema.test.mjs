@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
-import { execFileSync } from 'node:child_process';
 import { after, test } from 'node:test';
 import { createServer } from 'vite';
 
@@ -25,6 +24,22 @@ test('frontend data obeys the shared schema with unique IDs', () => {
   assert.ok(validate(frontend), JSON.stringify(validate.errors));
   assert.equal(new Set(frontend.map(record => record.id)).size, frontend.length);
   assert.equal(Object.hasOwn(frontend[0], 'images'), false);
+});
+
+test('3D and project contracts preserve unknowns and reject malformed canonical metadata', () => {
+  const record = { ...frontend[0], model_metadata: { creator: null, year: null, fileSizeBytes: null, verificationStatus: 'draft' } };
+  assert.ok(validate([record]), JSON.stringify(validate.errors));
+  for (const bad of [{ year: '2025' }, { year: 0 }, { fileSizeBytes: -1 }, { fileSizeBytes: 3.5 }, { verificationStatus: 'certain' }]) {
+    assert.equal(validate([{ ...record, model_metadata: bad }]), false, JSON.stringify(bad));
+  }
+  const project = { id: 'survey', title: 'Survey', siteId: record.id, verification_status: 'draft', status: 'planned', modelUrls: ['/survey.glb'] };
+  assert.ok(validate([{ ...record, photogrammetry_projects: [project] }]), JSON.stringify(validate.errors));
+  assert.equal(validate([{ ...record, photogrammetry_projects: [{ ...project, our_work: 'true' }] }]), false);
+  const pair = { id: 'pair', title: 'Reviewed pair', siteId: record.id, type: 'reconstruction', verification_status: 'verified',
+    before: { image: '/before.jpg', label: 'Photo', kind: 'photograph', date: null }, after: { image: '/after.jpg', label: 'Interpretation', kind: 'reconstruction' } };
+  assert.ok(validate([{ ...record, comparisons: [pair] }]), JSON.stringify(validate.errors));
+  const missingKind = structuredClone(pair); delete missingKind.after.kind;
+  assert.equal(validate([{ ...record, comparisons: [missingKind] }]), false);
 });
 
 // One place, one card: a name or alternative name shared by two records must be a
@@ -126,8 +141,9 @@ test('legacy combined and snake-case images stay readable', () => {
 });
 
 test('approved dataset import preserves Hatra identity and its existing route', () => {
-  const old = JSON.parse(execFileSync('git', ['show', 'HEAD:src/data/sites.json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }));
-  const before = normalizeSites(old).find((s) => s.id === 'site-001');
+  // Pin the existing public identity independently of checkout history, so the
+  // same regression runs in a recovered release source archive.
+  const before = { id: 'site-001', slug: 'hatra', href: '/sites/hatra', name: 'Hatra', governorate: 'Nineveh', siteType: 'Archaeological Site', period: 'Parthian', isUnesco: true };
   const current = normalizeSites(frontend).find((s) => s.id === 'site-001');
   for (const key of ['id', 'slug', 'href', 'name', 'governorate', 'siteType', 'period', 'isUnesco']) assert.deepEqual(current[key], before[key], key);
   // 34 approved records; later discovery batches are added as source-backed needs-review drafts.

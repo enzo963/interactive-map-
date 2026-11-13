@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import SearchAutocomplete from '../common/SearchAutocomplete';
 import { useLocation, useNavigate } from '../../router/RouterContext';
 import { PRIMARY_NAV, PROJECT_NAV } from '../../data/navigation';
 import { t } from '../../i18n';
@@ -36,8 +37,9 @@ export default function Navbar() {
   const projectMenu = useRef(null);
   const projectCurrent = PROJECT_NAV.some((item) => item.href === pathname);
   const isCurrent = (href) => {
-    const aliases = { '/decks/unesco': '/unesco', '/decks/3d': '/3d-archive' };
+    const aliases = { '/decks/unesco': '/unesco', '/decks/3d': '/3d-archive', '/decks/lost': '/disappeared-heritage' };
     const here = aliases[pathname] ?? (pathname.startsWith('/sites/') ? '/explore' : pathname);
+    if (href === '/civilizations' && here.startsWith('/civilizations/')) return true;
     return here === href || (href === '/decks' && here.startsWith('/decks/'));
   };
 
@@ -120,12 +122,12 @@ export default function Navbar() {
           <label className="sr-only" htmlFor="global-heritage-search">
             {t('Search heritage by name or alternative name')}
           </label>
-          <input
+          <SearchAutocomplete
             id="global-heritage-search"
             name="q"
             type="search"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={setQuery}
             placeholder={t('Find a heritage site')}
             enterKeyHint="search"
           />

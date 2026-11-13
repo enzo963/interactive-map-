@@ -21,6 +21,8 @@ const AREAS = [
 export default function OurWork() {
   useDocumentTitle('Our Work — History in Cards');
   const { documented } = getDocumentationSummary(getAllSites().filter(isApprovedSite));
+  const projects = getAllSites().filter(isApprovedSite).flatMap((site) => (site.photogrammetryProjects || [])
+    .filter((project) => project.ourWork).map((project) => ({ site, project })));
   return (
     <main id="main" tabIndex={-1} className="hb-page">
       <PageHeader eyebrow={t('Documentation and preservation')} title={t('Our Work')}
@@ -51,6 +53,18 @@ export default function OurWork() {
             <SmartLink className="hb-link" href="/decks/our-work">{t('Our Documentation collection')}</SmartLink>
             <SmartLink className="hb-link" href="/3d-archive">{t('Browse verified 3D resources')}</SmartLink>
           </div>
+        </section>
+
+        <section className="hb-project__section" aria-labelledby="work-photogrammetry">
+          <h2 id="work-photogrammetry" className="hb-section-title">{t('Photogrammetry projects')}</h2>
+          {projects.length ? <>
+            <p>{t('Reviewed project records are shown with their recorded status. A planned project is not completed fieldwork.')}</p>
+            <ul className="hb-project__cards">{projects.map(({ site, project }) => <li key={`${site.id}:${project.id}`}>
+              <h3><SmartLink href={`${site.href}#projects`}>{project.title}</SmartLink></h3>
+              <p>{site.name} · {project.status ? t(project.status) : t('Not recorded')}</p>
+            </li>)}</ul>
+          </> : <StatePanel title={t('No published photogrammetry projects yet')} headingLevel={3}
+            description={t('Reviewed project records will appear here when their site associations and supporting resources are ready.')} />}
         </section>
 
         <aside className="hb-project__callout" aria-labelledby="work-contribute">

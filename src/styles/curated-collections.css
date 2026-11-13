@@ -1,0 +1,12 @@
+.hb-curated__body { display: grid; gap: 2.5rem; padding-bottom: 3rem; }
+.hb-curated__overview { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 28rem); gap: 1.5rem; align-items: start; }
+.hb-curated__actions { display: grid; gap: .75rem; justify-items: start; }
+.hb-curated__cover, .hb-curated__illustration { min-width: 0; margin: 0; }
+.hb-curated__cover img { display: block; width: 100%; max-height: 24rem; object-fit: contain; background: var(--hb-paper-raised); }
+.hb-curated__cover figcaption, .hb-curated__illustration figcaption { padding-block: .75rem; overflow-wrap: anywhere; }
+.hb-curated__illustration > div { width: min(100%, 12rem); }
+.hb-curated__body .hb-search { max-width: 34rem; margin-block: 1rem; }
+.hb-curated__body .hb-grid { margin-top: 1.5rem; }
+.hb-curated__body .hb-sources { margin-top: 1rem; overflow-wrap: anywhere; }
+.hb-curated__body .hb-tiles { grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); }
+@media (max-width: 40rem) { .hb-curated__overview { grid-template-columns: minmax(0, 1fr); } }

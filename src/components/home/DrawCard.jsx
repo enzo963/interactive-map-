@@ -5,7 +5,7 @@ import FlipCard from '../cards/FlipCard';
 import DeckPile from '../decks/DeckPile';
 import SmartLink from '../common/SmartLink';
 import { getDrawPools } from '../../utils/decks';
-import { pickRandom } from '../../utils/random';
+import { pickDiscovery, rememberDiscovery } from '../../utils/random';
 import { formatCount } from '../../utils/archiveStats';
 import usePrefersReducedMotion from '../../hooks/usePrefersReducedMotion';
 import '../../styles/home.css';
@@ -26,7 +26,6 @@ export default function DrawCard({ sites }) {
   const [faceUp, setFaceUp] = useState(false);
   const reduced = usePrefersReducedMotion();
   const timers = useRef([]);
-  const lastId = useRef(null);
 
   const pools = useMemo(() => getDrawPools(sites), [sites]);
   const active = pools.find((pool) => pool.id === filterId) ?? pools[0];
@@ -47,10 +46,11 @@ export default function DrawCard({ sites }) {
   const draw = () => {
     if (phase === 'shuffling' || active.cards.length === 0) return;
     clearTimers();
-    const next = pickRandom(active.cards, lastId.current);
-    lastId.current = next.id;
+    const next = pickDiscovery(active.cards);
+    if (!next) return;
 
     if (reduced) {
+      rememberDiscovery(next);
       setDrawn(next);
       setFaceUp(true);
       setPhase('revealed');
@@ -61,6 +61,7 @@ export default function DrawCard({ sites }) {
     setPhase('shuffling');
     later(() => setDrawn(next), SHUFFLE_MS); // dealt face-down
     later(() => {
+      rememberDiscovery(next);
       setFaceUp(true);
       setPhase('revealed');
     }, SHUFFLE_MS + DEAL_DELAY_MS);
@@ -83,7 +84,8 @@ export default function DrawCard({ sites }) {
         <div className="hb-draw__intro">
           <p className="hb-eyebrow">{t('Not sure where to start?')}</p>
           <h2 id="draw-title" className="hb-draw__title">{t('Draw a card')}</h2>
-          <p className="hb-draw__lede">{t('Discover a random heritage site from the archive.')}</p>
+          <p className="hb-draw__lede">{t('Discover an approved heritage site. Draws give priority to places you haven’t seen in this session.')}</p>
+          {pools[0].cards.length === 0 && <p>{t('No approved cards are available to draw.')}</p>}
 
           <div className="hb-draw__filters" role="group" aria-label={t('Choose a deck to draw from')}>
             {pools.map((pool) => (

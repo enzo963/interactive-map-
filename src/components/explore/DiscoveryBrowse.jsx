@@ -1,4 +1,5 @@
 import SmartLink from '../common/SmartLink';
+import { PeriodEmblems } from '../common/CivilizationEmblem';
 import { HERITAGE_CATEGORIES } from '../../utils/heritageCategories';
 import { EMPTY_FILTERS, getFacets, serializeFilters } from '../../utils/filterSites';
 import { t, tn } from '../../i18n';
@@ -28,6 +29,7 @@ export default function DiscoveryBrowse({ sites }) {
           {facets.periods.map((p) => (
             <li key={p.id}>
               <SmartLink className="hb-tag" href={href({ periods: [p.id] })}>
+                <PeriodEmblems period={p.id} />
                 {p.label} <span>{p.count}</span>
               </SmartLink>
             </li>

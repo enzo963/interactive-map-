@@ -3,6 +3,9 @@ import { getGovernorateKey, GOVERNORATE_NAMES } from '../data/governorates';
 import { getThematicDefinitions } from '../services/deckService';
 import { groupByGovernorate } from './groupDecks';
 import { t } from '../i18n';
+import { isApprovedSite } from './modelResources';
+
+const collectionHref = (id) => ({ unesco: '/unesco', '3d': '/3d-archive', lost: '/disappeared-heritage' })[id] || `/decks/${id}`;
 
 /**
  * Collections API. Every deck returned has:
@@ -12,7 +15,7 @@ import { t } from '../i18n';
  */
 const withSites = (def, kind, sites) => {
   const members = sites.filter((site) => isCollectionMember(site, def));
-  return { ...def, kind, sites: members, count: members.length, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` };
+  return { ...def, kind, sites: members, count: members.length, href: collectionHref(def.id) };
 };
 
 export const getSpecialDecks = (sites) => SPECIAL_COLLECTIONS.map((def) => withSites(def, 'special', sites));
@@ -58,20 +61,21 @@ export function getDecksForSite(site) {
     decks.push({ id, title: t('{name} Deck', { name: t(site.governorate) }), href: `/decks/${id}` });
   }
   for (const def of SPECIAL_COLLECTIONS) {
-    if (isCollectionMember(site, def)) decks.push({ id: def.id, title: def.title, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` });
+    if (isCollectionMember(site, def)) decks.push({ id: def.id, title: def.title, href: collectionHref(def.id) });
   }
   for (const def of getThematicDefinitions()) {
-    if (site.deckIds.includes(def.id)) decks.push({ id: def.id, title: def.title, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` });
+    if (site.deckIds.includes(def.id)) decks.push({ id: def.id, title: def.title, href: collectionHref(def.id) });
   }
   return decks;
 }
 
 /** Pools for "Draw a Card": every non-empty collection plus the non-deck views. */
 export function getDrawPools(sites) {
+  const approved = sites.filter(isApprovedSite);
   return [
-    { id: 'all', label: 'All Cards', back: 'plain', cards: sites },
-    ...getSpecialDecks(sites).map((d) => ({ id: d.id, label: d.shortTitle ?? d.title, back: d.back, cards: d.sites })),
-    ...getThematicDecks(sites).filter((d) => d.count > 0).map((d) => ({ id: d.id, label: d.title, back: d.back, cards: d.sites })),
-    ...VIEW_FILTERS.map((v) => ({ id: v.id, label: v.label, back: v.back, cards: sites.filter(v.rule) })),
+    { id: 'all', label: 'All Cards', back: 'plain', cards: approved },
+    ...getSpecialDecks(approved).map((d) => ({ id: d.id, label: d.shortTitle ?? d.title, back: d.back, cards: d.sites })),
+    ...getThematicDecks(approved).filter((d) => d.count > 0).map((d) => ({ id: d.id, label: d.title, back: d.back, cards: d.sites })),
+    ...VIEW_FILTERS.map((v) => ({ id: v.id, label: v.label, back: v.back, cards: approved.filter(v.rule) })),
   ];
 }

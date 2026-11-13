@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Bakr Awa",
+    "alternativeNames": [],
+    "governorate": "Halabja",
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 10; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ],
+        "sourceId": "src-b594f36a8642"
+      },
+      {
+        "url": "https://www.anthropology.uw.edu.pl/11/bne-11-03.pdf",
+        "title": "Human remains from Bakr Awa, Iraqi Kurdistan, 2017",
+        "institution": "University of Warsaw / Bioarchaeology of the Near East 11",
+        "sourceType": "academic-publication",
+        "accessLevel": "search-snippet",
+        "locator": "p. 63 opening paragraph",
+        "supports": [
+          "governorate"
+        ],
+        "sourceId": "src-eb7bf336b1a1"
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites.",
+    "originFile": "parts/kurdistan.json",
+    "id": "c1-d0624c1529dd",
+    "discoveryDate": "2026-11-02",
+    "disposition": "outside-target-governorates",
+    "assignedGovernorateInHistoricalSource": "Sulaymaniyah",
+    "reviewReason": "University of Warsaw 2017 report explicitly places Bakr Awa in Halabja Province, outside the nine targets."
+  },
+  {
+    "name": "Gurga Chiya",
+    "alternativeNames": [],
+    "governorate": null,
+    "approximateLocation": "Shahrizor Plain",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/1382742/1/1382742_Radner%2520et%2520al_Iraq%252074%2520%282012%29%2520Shahrizor%2520Survey%2520Project%25202009-11.pdf",
+        "title": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
+        "institution": "University College London / Heidelberg / Leiden / Sulaymaniyah Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Fig. 1, SSP 11; introduction locates survey in Sulaymaniyah province",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ],
+        "sourceId": "src-b594f36a8642"
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "2012 provincial extent: modern Halabja/Sulaymaniyah boundary requires review, particularly southeastern sites.",
+    "originFile": "parts/kurdistan.json",
+    "id": "c1-ce29e00ded1d",
+    "discoveryDate": "2026-11-02",
+    "disposition": "hold-for-current-boundary-review",
+    "assignedGovernorateInHistoricalSource": "Sulaymaniyah",
+    "reviewReason": "Near Halabja; historical Sulaymaniyah assignment cannot establish the current governorate."
+  }
+]

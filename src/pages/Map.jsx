@@ -5,6 +5,7 @@ import SearchField from '../components/common/SearchField';
 import SmartLink from '../components/common/SmartLink';
 import HeritageCard from '../components/cards/HeritageCard';
 import MapCanvas from '../components/map/MapCanvas';
+import MapTools from '../components/map/MapTools';
 import PlaceForm from '../components/map/PlaceForm';
 import GovernorateMap from '../components/map/GovernorateMap';
 import RegionPanel from '../components/map/RegionPanel';
@@ -14,8 +15,10 @@ import useSiteFilters from '../hooks/useSiteFilters';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { useSearchParams } from '../router/RouterContext';
 import { getAllSites } from '../services/siteService';
+import { getCuratedCollection } from '../data/curatedCollections';
 import { getGovernorateKey } from '../data/governorates';
-import { applyFilters, getFacets, sortSites, serializeFilters } from '../utils/filterSites';
+import { applyFilters, getFacets, sortSites, serializeFilters, EMPTY_FILTERS } from '../utils/filterSites';
+import { readMapOptions, filterMapSites, getMapLayerCounts } from '../utils/mapLayers';
 import { cardsLabel } from '../utils/archiveStats';
 import { getGovernorateStats } from '../utils/governorateStats';
 import { getGovernorateGeometry } from '../utils/governorateGeometry';
@@ -68,8 +71,13 @@ export default function MapPage() {
   const sites = useMemo(() => getAllSites(), []);
   const stats = useMemo(() => getGovernorateStats(sites), [sites]);
   const geometry = useMemo(() => getGovernorateGeometry(), []);
-  const { filters, setFilters, clear, activeCount } = useSiteFilters();
+  const { filters, setFilters, activeCount } = useSiteFilters();
   const [params, setParams] = useSearchParams();
+  const mapOptions = useMemo(() => readMapOptions(params), [params]);
+  const collectionId = params.get('collection');
+  const collection = useMemo(() => getCuratedCollection(sites, collectionId), [sites, collectionId]);
+  const modeSites = useMemo(() => filterMapSites(collection?.sites ?? (collectionId ? [] : sites), { ...mapOptions, layers: [] }), [sites, mapOptions, collection, collectionId]);
+  const mapFilterActive = activeCount > 0 || mapOptions.layers.length > 0 || mapOptions.historical || Boolean(collectionId);
   const [panelOpen, setPanelOpen] = useState(false);
   const [listSize, setListSize] = useState(LIST_PAGE);
   const [previewKey, setPreviewKey] = useState(null);
@@ -83,12 +91,15 @@ export default function MapPage() {
     nextResult.current = null;
   }, [listSize]);
 
-  const facetSites = stats.byKey.get(params.get('region'))?.sites ?? sites;
+  const facetRegion = getGovernorateKey(params.get('region'));
+  const facetSites = useMemo(() => facetRegion ? modeSites.filter((site) => getGovernorateKey(site.governorate) === facetRegion) : modeSites, [modeSites, facetRegion]);
   const facets = useMemo(() => getFacets(facetSites, filters), [facetSites, filters]);
-  const results = useMemo(
-    () => sortSites(applyFilters(sites, filters), { ...filters, sort: filters.sort || 'name' }),
-    [sites, filters],
+  const baseResults = useMemo(
+    () => sortSites(applyFilters(modeSites, filters), { ...filters, sort: filters.sort || 'name' }),
+    [modeSites, filters],
   );
+  const results = useMemo(() => filterMapSites(baseResults, mapOptions), [baseResults, mapOptions]);
+  const layerCounts = useMemo(() => getMapLayerCounts(facetRegion ? baseResults.filter((site) => getGovernorateKey(site.governorate) === facetRegion) : baseResults), [baseResults, facetRegion]);
 
   const matchingByRegion = useMemo(() => {
     const counts = new Map();
@@ -117,6 +128,29 @@ export default function MapPage() {
       Object.entries(changes).forEach(([key, value]) => (value ? next.set(key, value) : next.delete(key)));
       return next;
     });
+  const changeMapOptions = (patch) => {
+    setListSize(LIST_PAGE);
+    if (patch.historical) { setEditing(null); setDraft(null); }
+    setParams((current) => {
+      const next = new URLSearchParams(current);
+      if (patch.layers !== undefined) {
+        next.delete('layer');
+        patch.layers.forEach((id) => next.append('layer', id));
+      }
+      if (patch.historical !== undefined) {
+        if (patch.historical) next.set('view', 'history'); else next.delete('view');
+      }
+      if (patch.era !== undefined) { if (patch.era) next.set('era', patch.era); else next.delete('era'); }
+      if (patch.clustered !== undefined) { if (patch.clustered) next.delete('cluster'); else next.set('cluster', 'off'); }
+      if (patch.layers !== undefined || patch.historical !== undefined || patch.era !== undefined) next.delete('site');
+      return next;
+    }, { replace: false });
+  };
+  const clear = () => setParams((current) => {
+    const next = serializeFilters(EMPTY_FILTERS, current);
+    ['layer', 'view', 'era', 'site', 'collection'].forEach((key) => next.delete(key));
+    return next;
+  });
   const selectRegion = (key) => {
     setListSize(LIST_PAGE);
     setPreviewKey(null);
@@ -156,6 +190,7 @@ export default function MapPage() {
     ...filters,
     governorates: shown ? [shown.key] : filters.governorates,
   });
+  const browsePath = collection?.href || '/explore';
   const showResults = () => {
     setPanelOpen(false);
     document.getElementById('map-result-heading')?.focus();
@@ -175,7 +210,7 @@ export default function MapPage() {
       <div className="hb-container hb-mapx__page">
         <div className="hb-mapx__filters">
           <div className="hb-mapx__searchrow">
-            <SearchField value={filters.q} onChange={(q) => setFilters({ q })} />
+            <SearchField value={filters.q} onChange={(q) => setFilters({ q })} suggestionSites={collection?.sites} />
             <button
               type="button"
               className="hb-explore__toggle hb-mapx__filterbtn"
@@ -185,7 +220,7 @@ export default function MapPage() {
             >
               {t('Filters')}{activeCount > 0 ? ` (${activeCount})` : ''}
             </button>
-            {CAN_EDIT && !editing && (
+            {CAN_EDIT && !editing && !mapOptions.historical && (
               <button type="button" className="hb-btn hb-btn--ink hb-mapx__addbtn" onClick={() => startEditing(null)}>
                 {t('+ Add a place')}
               </button>
@@ -206,6 +241,7 @@ export default function MapPage() {
           </div>
           <ActiveFilters filters={filters} facets={facets} onChange={setFilters} />
         </div>
+        <MapTools options={mapOptions} counts={layerCounts} onChange={changeMapOptions} />
 
         <section className="hb-mapx__governorates" aria-labelledby="map-governorates">
           <h2 id="map-governorates">{t('Choose a governorate')}</h2>
@@ -230,18 +266,22 @@ export default function MapPage() {
                 >
                   <span>{t(entry.name)}</span>
                   <span className="hb-region__count" aria-hidden="true">
-                    {activeCount > 0 ? `${matching} / ${entry.count}` : entry.count}
+                    {mapFilterActive ? `${matching} / ${entry.count}` : entry.count}
                   </span>
                 </button>
               );
             })}
           </div>
-          {activeCount > 0 && <p className="hb-map__caption">{t('Counts show matching cards / total cards.')}</p>}
+          {mapFilterActive && <p className="hb-map__caption">{t('Counts show matching cards / total cards.')}</p>}
         </section>
         {params.get('region') && !region && <StatePanel kind="unavailable" title={t('Governorate not found')} compact
           description={t('This governorate is not recognized. Results below show all governorates with your other filters preserved.')}>
           <button type="button" className="hb-btn" onClick={() => update({ region: null })}>{t('Remove invalid governorate')}</button>
         </StatePanel>}
+        {collectionId && <div className="hb-mapx__summary">
+          {collection ? <SmartLink className="hb-link" href={`${collection.href}?${browseParams}`}>{t(collection.title)}</SmartLink> : <p>{t('Collection not found')}</p>}
+          <button type="button" className="hb-btn" onClick={() => update({ collection: null })}>{t('Remove collection filter')}</button>
+        </div>}
         {requestedSite && !selected && <StatePanel kind="unavailable" compact
           title={knownSite ? t('Selected card is outside these results') : t('Selected card not found')}
           description={knownSite ? t('The selected site does not match this governorate or these filters. Clear the selection or adjust your filters.') : t('This site selection is not in the archive. You can clear it and continue browsing the current results.')}>
@@ -269,7 +309,22 @@ export default function MapPage() {
         </div>
         <div className="hb-mapx__grid-layout">
           <div>
-            {geometry ? (
+            <MapCanvas
+              allSites={sites}
+              visibleSites={results}
+              selectedSite={selected}
+              focusKey={region?.key ?? null}
+              onSelect={selectSite}
+              onSelectRegion={selectRegion}
+              onPreviewRegion={setPreviewKey}
+              picking={Boolean(editing)}
+              draft={draft}
+              onPick={setDraft}
+              clustered={mapOptions.clustered}
+              historical={mapOptions.historical}
+            />
+            {geometry && <details>
+              <summary>{t('Governorate boundaries')}</summary>
               <GovernorateMap
                 geometry={geometry}
                 statsByKey={stats.byKey}
@@ -277,27 +332,14 @@ export default function MapPage() {
                 onSelect={selectRegion}
                 onPreview={setPreviewKey}
               />
-            ) : (
-              <MapCanvas
-                allSites={sites}
-                visibleSites={results}
-                selectedSite={selected}
-                focusKey={region?.key ?? null}
-                onSelect={selectSite}
-                onSelectRegion={selectRegion}
-                onPreviewRegion={setPreviewKey}
-                picking={Boolean(editing)}
-                draft={draft}
-                onPick={setDraft}
-              />
-            )}
+            </details>}
           </div>
 
           <aside className="hb-mapx__side" aria-label={t('Governorates, selected card and results')}>
             <p className="sr-only" role="status">
               {region ? t('{name} selected. {cards}.', { name: t(region.name), cards: cardsLabel(region.count) }) : t('No governorate selected.')}
             </p>
-            {editing && (
+            {CAN_EDIT && editing && (
               <PlaceForm
                 key={editing.target}
                 sites={sites}
@@ -311,8 +353,8 @@ export default function MapPage() {
             <RegionPanel
               entry={shown}
               stats={stats}
-              matching={activeCount > 0 && shown ? (matchingByRegion.get(shown.key) ?? 0) : null}
-              browseHref={`/explore?${panelBrowseParams}`}
+              matching={mapFilterActive && shown ? (matchingByRegion.get(shown.key) ?? 0) : null}
+              browseHref={`${browsePath}?${panelBrowseParams}`}
             />
 
             {selected && (
@@ -360,10 +402,10 @@ export default function MapPage() {
                 ))}
               </ul>
             ) : (
-              <StatePanel kind={activeCount > 0 ? 'no-results' : 'empty'}
-                title={activeCount > 0 ? t('No cards match these filters') : t('No cards recorded here yet')}
-                description={activeCount > 0 ? t('Remove a filter or choose another governorate to continue exploring.') : t('Reviewed site records will appear here when available.')}>
-                {activeCount > 0 && (
+              <StatePanel kind={mapFilterActive ? 'no-results' : 'empty'}
+                title={mapFilterActive ? t('No cards match these filters') : t('No cards recorded here yet')}
+                description={mapFilterActive ? t('Remove a filter or choose another governorate to continue exploring.') : t('Reviewed site records will appear here when available.')}>
+                {mapFilterActive && (
                   <button type="button" className="hb-btn hb-btn--ink" onClick={clear}>
                     {t('Clear all filters')}
                   </button>
@@ -389,8 +431,8 @@ export default function MapPage() {
               </button>
             )}
             <p className="hb-mapx__more">
-              <SmartLink className="hb-link" href={`/explore?${browseParams}`}>
-                {t('Browse as a list of cards')}
+              <SmartLink className="hb-link" href={`${browsePath}?${browseParams}`}>
+                {collection ? t('Browse collection cards') : mapOptions.layers.length || mapOptions.historical ? t('Explore Cards') : t('Browse as a list of cards')}
               </SmartLink>
             </p>
           </aside>

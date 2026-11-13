@@ -52,6 +52,19 @@ test('facet counts omit only their own group; alias matches also receive relevan
   assert.equal(sortSites(sites, state({ q: 'Qasr Test' }))[0].id, 'a');
 });
 
+test('repeated and comma-separated selections combine without splitting a period label', () => {
+  const params = new URLSearchParams('gov=Arbil,Erbil&gov=Duhok&type=0,1&type=1,bad&kind=palace&kind=historic-bridge&sort=invalid');
+  params.append('period', 'Multi-period, including Ottoman');
+  params.append('period', 'Abbasid');
+  const filters = parseFilters(params);
+  assert.deepEqual(filters.governorates, ['erbil', 'duhok']);
+  assert.deepEqual(filters.types, ['0', '1']);
+  assert.deepEqual(filters.kinds, ['palace', 'historic-bridge']);
+  assert.deepEqual(filters.periods, ['Multi-period, including Ottoman', 'Abbasid']);
+  assert.equal(filters.sort, '');
+  assert.deepEqual(parseFilters(serializeFilters(filters)), filters);
+});
+
 
 test('legacy unrecorded flags remain unknown rather than becoming explicit negatives', () => {
   const [unknown] = normalizeSites([{ id: 'missing', name: 'Missing flags', unesco_status: 'unknown' }]);

@@ -2,7 +2,7 @@ import { CARD_TYPES } from '../data/cardTypes';
 import { SPECIAL_COLLECTIONS, isCollectionMember } from '../data/collections';
 import { getGovernorateKey } from '../data/governorates';
 import { filterSites } from './filters';
-import { normalizeSearchText, searchSites, getSearchNames } from './search';
+import { searchSites, searchSiteRank } from './search';
 import { HERITAGE_CATEGORIES, getHeritageCategories } from './heritageCategories';
 import slugify from './slugify';
 import { t as tr } from '../i18n';
@@ -51,22 +51,25 @@ const KEYS = {
   has3D: 'model',
   sort: 'sort',
 };
-const list = (value) => (value ? value.split(',').filter(Boolean) : []);
+const unique = (values) => [...new Set(values.filter(Boolean))];
+const list = (params, key, normalize = (value) => value.trim()) => unique(params.getAll(key).flatMap((value) => value.split(',')).map(normalize));
+const cardTiers = new Set(['0', ...CARD_TYPES.map((type) => String(type.tier))]);
+const sortModes = new Set(['relevance', ...SORTS.map((sort) => sort.id)]);
 const status = (value) => (STATUS_OPTIONS.some((option) => option.id === value) ? value : '');
 const complete = (filters) => ({ ...EMPTY_FILTERS, ...filters });
 export function parseFilters(params) {
   return {
     q: params.get('q') ?? '',
-    governorates: list(params.get('gov')).map(getGovernorateKey),
-    types: list(params.get('type')),
-    kinds: list(params.get('kind')),
-    flags: list(params.get('has')),
-    themes: list(params.get('category')),
+    governorates: list(params, 'gov', getGovernorateKey),
+    types: list(params, 'type').filter((type) => cardTiers.has(type)),
+    kinds: list(params, 'kind'),
+    flags: list(params, 'has'),
+    themes: list(params, 'category'),
     // Repeated parameters preserve labels containing commas, such as multi-period records.
-    periods: params.getAll('period').filter(Boolean),
+    periods: unique(params.getAll('period').map((value) => value.trim())),
     unesco: status(params.get('unesco')),
     has3D: status(params.get('model')),
-    sort: params.get('sort') ?? '',
+    sort: sortModes.has(params.get('sort')) ? params.get('sort') : '',
   };
 }
 export function serializeFilters(input, base = new URLSearchParams()) {
@@ -93,7 +96,6 @@ export function countActive(input) {
     Number(Boolean(f.has3D))
   );
 }
-const fold = normalizeSearchText;
 const flagValue = (value) =>
   value === 'yes' ? true : value === 'no' ? false : value === 'unknown' ? 'unknown' : null;
 export function applyFilters(sites, input, omit) {
@@ -137,9 +139,9 @@ export function sortSites(sites, filters) {
       out.sort((a, b) => b.cardType.tier - a.cardType.tier || byName(a, b));
       break;
     case 'relevance': {
-      const q = fold(filters.q).trim();
+      const q = filters.q;
       const rank = (s) => relevanceRank(s, q);
-      out.sort((a, b) => rank(a) - rank(b) || byName(a, b));
+      out.sort((a, b) => rank(a) - rank(b));
       break;
     }
     default:
@@ -215,12 +217,5 @@ export function getFacets(sites, input) {
   };
 }
 export function relevanceRank(site, query) {
-  const q = fold(query);
-  return Math.min(
-    ...getSearchNames(site).map((value) => {
-      const name = fold(value);
-      return name === q ? 0 : name.startsWith(q) ? 1 : name.includes(q) ? 2 : 3;
-    }),
-    3,
-  );
+  return searchSiteRank(site, query, { includeMetadata: true });
 }

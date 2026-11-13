@@ -1,7 +1,8 @@
 import '../../styles/pages.css';
 import { t, tn } from '../../i18n';
+import { PeriodEmblems } from '../common/CivilizationEmblem';
 const toggle = (list, id) => (list.includes(id) ? list.filter((item) => item !== id) : [...list, id]);
-function Group({ legend, options = [], selected = [], onToggle }) {
+function Group({ legend, options = [], selected = [], onToggle, periods = false }) {
   if (!options.length) return null;
   return (
     <fieldset className="hb-filters__group">
@@ -18,6 +19,7 @@ function Group({ legend, options = [], selected = [], onToggle }) {
                 onChange={() => onToggle(option.id)}
               />
               <span className="hb-check__text">
+                {periods && <PeriodEmblems period={option.id} />}
                 {option.label}
                 {option.hint && <span className="hb-check__hint">{option.hint}</span>}
               </span>
@@ -61,6 +63,7 @@ export default function FilterPanel({
       legend={legend}
       options={facets[key]}
       selected={filters[key]}
+      periods={key === 'periods'}
       onToggle={(id) => onChange({ [key]: toggle(filters[key] ?? [], id) })}
     />
   );

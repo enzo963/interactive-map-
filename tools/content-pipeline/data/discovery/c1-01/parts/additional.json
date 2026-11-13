@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Gunduk Reliefs",
+    "alternativeNames": [
+      "Nerem",
+      "Guppa d Mar Yohanan"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Northwest of Aqrah",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/gunduk-reliefs",
+        "title": "Gunduk Reliefs",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site Profile; Province/Region",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: Columbia assigns Nineveh; modern administrative assignment requires review."
+  },
+  {
+    "name": "Jerwan Aqueduct",
+    "alternativeNames": [],
+    "governorate": "Ninewa",
+    "approximateLocation": "North of Nineveh",
+    "category": "bridge",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/jerwan-aqueduct",
+        "title": "Jerwan Aqueduct",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site Profile; Province/Region",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: Columbia assigns Nineveh; Duhok archaeological park management is a different jurisdictional context."
+  },
+  {
+    "name": "Khinnis Rock Reliefs",
+    "alternativeNames": [
+      "Bavian",
+      "Khunusa",
+      "Khinnes",
+      "Khannis"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Gomel River northeast of Mosul",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/khinnis-rock-reliefs",
+        "title": "Khinnis Rock Reliefs",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site Profile; Province/Region",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      },
+      {
+        "url": "https://www.undp.org/iraq/stories/reviving-khinnis-preserving-heritage",
+        "title": "Reviving Khinnis, preserving heritage",
+        "institution": "United Nations Development Programme",
+        "sourceType": "international-organization",
+        "accessLevel": "search-snippet",
+        "locator": "Opening location description",
+        "supports": [
+          "approximateLocation",
+          "conflicting-governorate-label"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: Columbia assigns Nineveh but UNDP 2022 describes Duhok; conflicting provincial sources."
+  },
+  {
+    "name": "Ain Baydha",
+    "alternativeNames": [
+      "Kaniya Spi"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Lalish valley",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/ain-baydha",
+        "title": "Ain Baydha",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site Profile; Province/Region",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Lalish sacred complex."
+  },
+  {
+    "name": "Mausoleum of Shaykh Shams",
+    "alternativeNames": [
+      "Shaykh Shamsi Temple"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Lalish valley",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/mausoleum-shaykh-shams",
+        "title": "Mausoleum of Shaykh Shams",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Site Profile; Province/Region",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Lalish sacred complex."
+  },
+  {
+    "name": "Lalish Temple",
+    "alternativeNames": [
+      "Lalesh",
+      "Sanctuary of Sheikh Adi"
+    ],
+    "governorate": "Ninewa",
+    "approximateLocation": "Sheikhan district",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6467/",
+        "title": "Lalish Temple tentative dossier",
+        "institution": "Iraqi Ministry of Culture / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Province and Description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Complex includes Sheikh Adi sanctuary; tentative listing is not inscription."
+  },
+  {
+    "name": "Nazarke Fortress",
+    "alternativeNames": [],
+    "governorate": "Duhok",
+    "approximateLocation": "Duhok",
+    "category": "castle-fortress",
+    "sources": [
+      {
+        "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/october/from-fortress-to-museum-preserving-the-memory-of-nazarke-and-the-victims-of-anfal/",
+        "title": "From Fortress to Museum: Nazarke and victims of Anfal",
+        "institution": "KRG Department of Media and Information",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "4 October 2025 statement",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern detention site of historical significance; restoration announcement does not establish completed works."
+  },
+  {
+    "name": "Kemune",
+    "alternativeNames": [
+      "Zakhiku"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Eastern Tigris bank, Mosul reservoir",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://uni-tuebingen.de/universitaet/aktuelles-und-publikationen/pressemitteilungen/archiv/archivfullview-pressemitteilungen/article/archaeologen-entdecken-einen-palast-aus-der-zeit-des-mittani-reichs-in-der-provinz-duhok-der-region-kurdistan-irak/",
+        "title": "Mitanni palace in Duhok province",
+        "institution": "University of Tübingen",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "27 June 2019 press release",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: source provincial label retained; reservoir site, present exposure unconfirmed. Ancient name identification requires further corroboration."
+  },
+  {
+    "name": "Asingeran",
+    "alternativeNames": [
+      "Gre Asngaran",
+      "Gire Asingeran"
+    ],
+    "governorate": "Duhok",
+    "approximateLocation": "Navkur Plain, west of Rovia",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://dium.uniud.it/it/ricerca/progetti-corso/nuove-tecnologie-per-i-beni-artistici-architettonici-archeologici-e-monumentali/asingeran-excavation-project-aep/",
+        "title": "Asingeran Excavation Project",
+        "institution": "University of Udine / Duhok Antiquities",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Project description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: Navkur/Rovia modern provincial administration requires review."
+  },
+  {
+    "name": "Sippar",
+    "alternativeNames": [
+      "Abu Habba",
+      "Tell Abu Habbah",
+      "Sippar-Yahrurum"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Abu Habba, southwest of Baghdad",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/550498538",
+        "title": "Sippar, Oxford Classical Dictionary",
+        "institution": "Oxford University Press / Amélie Kuhrt",
+        "sourceType": "institutional-publication",
+        "accessLevel": "published-extract",
+        "locator": "Published extract",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Boundary review: Baghdad assignment provisional; check modern Baghdad/Babylon boundary before promotion. Only published extract accessed."
+  }
+]

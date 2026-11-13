@@ -5,6 +5,7 @@ import { GOVERNORATE_CENTRES } from '../../data/geo/governorateCentres';
 import { cardsLabel } from '../../utils/archiveStats';
 import '../../styles/map-explorer.css';
 import { t } from '../../i18n';
+import { clusterRadius } from '../../utils/mapLayers';
 
 const IRAQ_BOUNDS = [[29.0, 38.7], [37.4, 48.6]];
 // Free OpenStreetMap tiles: no key, attribution required (https://operations.osmfoundation.org/policies/tiles/).
@@ -17,22 +18,29 @@ const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(
 const escapeHtml = (text) =>
   String(text ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
-const pinIcon = (site, selected) =>
+const pinIcon = (site, selected, historical = false) =>
   L.divIcon({
     className: 'hb-pin-wrap',
-    html: `<span class="hb-pin" data-tier="${site.cardType.tier}" data-selected="${selected}"></span>`,
+    html: `<span class="hb-pin" data-tier="${site.cardType.tier}" data-selected="${selected}" data-history="${historical}"></span>`,
     iconSize: [24, 24],
     iconAnchor: [12, 12],
   });
 
 const draftIcon = L.divIcon({ className: 'hb-pin-wrap', html: '<span class="hb-pin hb-pin--draft"></span>', iconSize: [28, 28], iconAnchor: [14, 14] });
 
-const clusterIcon = (cluster) =>
-  L.divIcon({
+const clusterIcon = (cluster) => {
+  cluster.options.title = t('{n} nearby sites. Activate to zoom or separate overlapping markers.', { n: cluster.getChildCount() });
+  return L.divIcon({
     className: 'hb-cluster-wrap',
-    html: `<span class="hb-cluster">${cluster.getChildCount()}</span>`,
+    html: `<span class="hb-cluster" aria-hidden="true">${cluster.getChildCount()}</span>`,
     iconSize: [38, 38],
   });
+};
+const createPinGroup = (clustered) => clustered ? L.markerClusterGroup({
+  iconCreateFunction: clusterIcon, showCoverageOnHover: false, maxClusterRadius: clusterRadius,
+  spiderfyOnMaxZoom: true, zoomToBoundsOnClick: true, removeOutsideVisibleBounds: true,
+  animate: !window.matchMedia?.('(prefers-reduced-motion: reduce)').matches,
+}) : L.layerGroup();
 
 /** One label per governorate with cards: at its capital (data/geo/governorateCentres.js), else above its pins. */
 function governorateGroups(sites) {
@@ -86,6 +94,8 @@ export default function MapCanvas({
   onPick,
   size = 'full',
   caption,
+  clustered = true,
+  historical = false,
 }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
@@ -105,9 +115,9 @@ export default function MapCanvas({
     const map = L.map(containerRef.current, { minZoom: 5, maxZoom: 18, zoomSnap: 0.5 });
     L.tileLayer(TILE_URL, { attribution: ATTRIBUTION, maxZoom: 19 }).addTo(map);
 
-    const clusters = L.markerClusterGroup({ iconCreateFunction: clusterIcon, showCoverageOnHover: false, maxClusterRadius: 40 }).addTo(map);
+    const clusters = createPinGroup(clustered).addTo(map);
     const labels = L.layerGroup().addTo(map);
-    layersRef.current = { clusters, labels };
+    layersRef.current = { clusters, labels, clustered };
 
     focusRef.current = null;
     homeRef.current = archiveBounds(allSites);
@@ -144,7 +154,15 @@ export default function MapCanvas({
 
   // Pins + governorate count labels for the filtered cards.
   useEffect(() => {
-    const { clusters, labels } = layersRef.current;
+    let { clusters } = layersRef.current;
+    const { labels } = layersRef.current;
+    if (layersRef.current.clustered !== clustered) {
+      clusters.clearLayers();
+      mapRef.current.removeLayer(clusters);
+      clusters = createPinGroup(clustered).addTo(mapRef.current);
+      layersRef.current.clusters = clusters;
+      layersRef.current.clustered = clustered;
+    }
     clusters.clearLayers();
     labels.clearLayers();
     markersRef.current.clear();
@@ -153,11 +171,11 @@ export default function MapCanvas({
     for (const site of visibleSites) {
       if (!hasPosition(site)) continue;
       // keyboard: true makes each pin a focusable role="button" (Enter selects); the label names the card.
-      const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false), keyboard: true });
-      const label = `${site.name}, ${[t(site.cardType.shortLabel), t(site.governorate)].filter(Boolean).join(', ')}`;
+      const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false, historical), keyboard: true });
+      const label = `${site.name}, ${[t(site.cardType.shortLabel), t(site.governorate), historical && t(site.period || site.civilization)].filter(Boolean).join(', ')}`;
       marker.on('add', () => marker.getElement()?.setAttribute('aria-label', label));
       marker.bindTooltip(
-        `<strong>${escapeHtml(site.name)}</strong><br><span>${escapeHtml([t(site.cardType.shortLabel), t(site.siteType)].filter(Boolean).join(' · '))}</span>`,
+        `<strong>${escapeHtml(site.name)}</strong><br><span>${escapeHtml([t(site.cardType.shortLabel), t(site.siteType), historical && t(site.period || site.civilization)].filter(Boolean).join(' · '))}</span>`,
         { direction: 'top', offset: [0, -10], className: 'hb-map-tip' },
       );
       marker.on('click', () => { if (!handlers.current.picking) handlers.current.onSelect?.(site); });
@@ -169,7 +187,8 @@ export default function MapCanvas({
       markersRef.current.set(site.id, marker);
       pins.push(marker);
     }
-    clusters.addLayers(pins);
+    if (clustered) clusters.addLayers(pins);
+    else pins.forEach((marker) => clusters.addLayer(marker));
 
     const selectable = Boolean(handlers.current.onSelectRegion);
     governorateGroups(visibleSites).forEach((group) => {
@@ -187,7 +206,7 @@ export default function MapCanvas({
       label.on('mouseover', () => handlers.current.onPreviewRegion?.(group.key));
       label.on('mouseout', () => handlers.current.onPreviewRegion?.(null));
     });
-  }, [visibleSites]);
+  }, [visibleSites, clustered, historical]);
 
   // Mark the selected governorate's label.
   useEffect(() => {
@@ -217,11 +236,12 @@ export default function MapCanvas({
 
   // Highlight the selected card and bring it into view.
   useEffect(() => {
+    const byId = new Map(visibleSites.map((site) => [site.id, site]));
     markersRef.current.forEach((marker, id) => {
-      const site = visibleSites.find((s) => s.id === id);
+      const site = byId.get(id);
       if (site) {
         const label = marker.getElement()?.getAttribute('aria-label');
-        marker.setIcon(pinIcon(site, selectedSite?.id === id));
+        marker.setIcon(pinIcon(site, selectedSite?.id === id, historical));
         if (label) marker.getElement()?.setAttribute('aria-label', label);
       }
       marker.setZIndexOffset(selectedSite?.id === id ? 1000 : 0);
@@ -232,13 +252,29 @@ export default function MapCanvas({
     if (!marker) return undefined;
     const map = mapRef.current;
     const { clusters } = layersRef.current;
+    // In reduced-motion mode, a coincident cluster can finish zooming without
+    // the plugin's animation-end callback. Explicitly reveal it at maximum zoom.
+    const revealAtMaxZoom = () => {
+      if (!clustered || map.getZoom() < map.getMaxZoom()) return;
+      const parent = clusters.getVisibleParent(marker);
+      if (parent !== marker) parent?.spiderfy?.();
+    };
+    map.on('zoomend moveend', revealAtMaxZoom);
+    if (clustered) clusters.on('animationend', revealAtMaxZoom);
     const timer = setTimeout(() => {
-      if (!map.getBounds().contains(marker.getLatLng()) || clusters.getVisibleParent(marker) !== marker) {
+      if (clustered && (!map.getBounds().contains(marker.getLatLng()) || clusters.getVisibleParent(marker) !== marker)) {
         clusters.zoomToShowLayer(marker);
+        revealAtMaxZoom();
+      } else if (!map.getBounds().contains(marker.getLatLng())) {
+        map.panTo(marker.getLatLng());
       }
     }, 0);
-    return () => clearTimeout(timer);
-  }, [selectedSite, visibleSites]);
+    return () => {
+      clearTimeout(timer);
+      map.off('zoomend moveend', revealAtMaxZoom);
+      if (clustered) clusters.off('animationend', revealAtMaxZoom);
+    };
+  }, [selectedSite, visibleSites, clustered, historical]);
 
   // Draft pin for the place being added / moved.
   useEffect(() => {
@@ -270,6 +306,8 @@ export default function MapCanvas({
         className="hb-mapx__leaflet"
         data-picking={picking}
         data-size={size}
+        data-map-mode={historical ? 'history' : 'modern'}
+        data-clustered={clustered}
         role="region"
         aria-label={t('Map of card positions. The governorate list and the list of cards beside the map offer the same information.')}
       />
@@ -281,6 +319,7 @@ export default function MapCanvas({
               ? t('{n} of {total} cards have recorded coordinates and appear as pins. Colour shows the card type; governorate labels show all cards.', { n: placed, total: visibleSites.length })
               : t('No card in the archive has recorded coordinates yet. Use the governorate list to browse without map positions.'))}
       </p>
+      {historical && <p className="hb-map__caption">{t('Round markers identify historical mode. Colors retain the card types; the modern basemap is unchanged.')}</p>}
     </div>
   );
 }

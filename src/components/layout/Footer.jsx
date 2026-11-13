@@ -21,6 +21,7 @@ export default function Footer() {
                 <SmartLink href={item.href}>{t(item.label)}</SmartLink>
               </li>
             ))}
+            <li><SmartLink href="/collections">{t('Curated collections')}</SmartLink></li>
           </ul>
         </nav>
         <nav aria-label={t('About the project')}>

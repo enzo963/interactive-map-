@@ -1,0 +1,19 @@
+.hb-civilization-emblem { display: inline-block; width: 2rem; height: 2rem; flex: 0 0 auto; vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; stroke-linecap: round; }
+.hb-civilization-emblem__frame { stroke-width: 1; opacity: .65; }
+.hb-period-emblems { display: inline-flex; flex: 0 0 auto; gap: .2rem; align-items: center; vertical-align: middle; margin-inline-end: .4rem; }
+.hb-period-emblems .hb-civilization-emblem { width: 1.25rem; height: 1.25rem; }
+.hb-history__eras button > span:first-child { display: flex; align-items: center; gap: .7rem; }
+.hb-history__eras button > span:first-child .hb-civilization-emblem { width: 1.7rem; height: 1.7rem; }
+.hb-history__tiles h3 a { display: inline-flex; align-items: center; gap: .75rem; }
+.hb-history__tiles .hb-civilization-emblem { width: 2.5rem; height: 2.5rem; }
+.hb-history .hb-pagehead__title .hb-civilization-emblem { width: .85em; height: .85em; margin-inline-end: .3em; vertical-align: -.04em; }
+.hb-history__results h2 .hb-civilization-emblem { width: 1em; height: 1em; margin-inline-end: .35em; vertical-align: -.07em; }
+.hb-history__period-label { display: flex; align-items: center; gap: .4rem; }
+.hb-history__period-label .hb-period-emblems { margin: 0; }
+.hb-card.hb-card--refined .hb-card__body .hb-card__period { display: flex; align-items: center; gap: 1cqw; }
+.hb-card__period .hb-period-emblems { margin: 0; gap: .5cqw; }
+.hb-card__period .hb-civilization-emblem { width: clamp(.75rem, 6cqw, 1.25rem); height: clamp(.75rem, 6cqw, 1.25rem); }
+.hb-card__period-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hb-check__text .hb-period-emblems { margin-block: .1rem; }
+.hb-discovery__periods .hb-tag { display: inline-flex; align-items: center; gap: .2rem; }
+@media (forced-colors: active) { .hb-civilization-emblem__frame { opacity: 1; } }

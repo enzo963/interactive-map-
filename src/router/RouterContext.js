@@ -27,7 +27,7 @@ export function useSearchParams() {
       const value = typeof next === 'function' ? next(current) : next;
       const resolved = value instanceof URLSearchParams ? value : new URLSearchParams(value);
       const query = resolved.toString();
-      navigate(`${window.location.pathname}${query ? `?${query}` : ''}`, { replace, scroll: false });
+      navigate(`${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`, { replace, scroll: false });
     },
     [navigate],
   );

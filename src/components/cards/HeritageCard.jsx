@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import { PeriodEmblems } from '../common/CivilizationEmblem';
+import { mediaLicenseState } from '../../utils/mediaAttribution';
 import '../../styles/heritage-card.css';
 import { t, tDate } from '../../i18n';
 import { approvedCover } from '../../utils/coverApproval';
@@ -10,9 +12,12 @@ const cardRefinementStyles = `
 .hb-card.hb-card--refined {
   max-width: 100%;
   min-width: 0;
+  aspect-ratio: var(--hb-card-ratio);
   isolation: isolate;
 }
 .hb-card--refined .hb-card__frame {
+  position: absolute;
+  inset: 3.5cqw;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto auto;
   gap: 2.5cqw;
@@ -30,7 +35,15 @@ const cardRefinementStyles = `
 .hb-card--refined .hb-card__rank { font-size: clamp(.5rem, 2.6cqw, .75rem); letter-spacing: .07em; }
 .hb-card--refined .hb-card__code,
 .hb-card--refined .hb-card__type-name { font-size: clamp(.5625rem, 3.2cqw, .9375rem); }
-.hb-card--refined .hb-card__media { margin: 0; min-width: 0; }
+.hb-card--refined .hb-card__media { margin: 0; min-width: 0; border: 0; background: transparent; }
+.hb-card--refined .hb-card__photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--card-rule);
+  background: var(--hb-sand);
+}
 .hb-card--refined .hb-card__image {
   position: absolute;
   inset: 0;
@@ -39,6 +52,7 @@ const cardRefinementStyles = `
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transform: none;
 }
 .hb-card--refined .hb-card__placeholder {
   padding: 2cqw;
@@ -131,12 +145,24 @@ const cardRefinementStyles = `
   font-size: clamp(.4375rem, 2.4cqw, .6875rem);
   letter-spacing: .08em;
 }
+/* Miniatures scale all typography with their card, preserving the photo's share. */
+.hb-stack .hb-card--refined .hb-card__label,
+.hb-stack .hb-card--refined .hb-card__rank { font-size: 2.6cqw; }
+.hb-stack .hb-card--refined .hb-card__code,
+.hb-stack .hb-card--refined .hb-card__type-name { font-size: 3.2cqw; }
+.hb-stack .hb-card--refined .hb-card__title { font-size: 7cqw; }
+.hb-stack .hb-card--refined .hb-card__category { font-size: 3.6cqw; }
+.hb-stack .hb-card--refined .hb-card__place,
+.hb-stack .hb-card--refined .hb-card__period { font-size: 2.9cqw; }
+.hb-stack .hb-card--refined .hb-card__foot { font-size: 3cqw; }
+.hb-stack .hb-card--refined .hb-card__brand { font-size: 2.4cqw; }
+.hb-stack .hb-card__period .hb-civilization-emblem { width: 6cqw; height: 6cqw; }
 /* Decorative and specimen cards should not suggest a clickable surface. */
 .hb-card--refined[data-linked='false']:hover { transform: none; }
 .hb-card--refined[data-linked='false']:hover .hb-card__image { transform: none; }
 @media (hover: hover) and (pointer: fine) {
   .hb-card--refined[data-linked='true']:hover { transform: translateY(-4px); }
-  .hb-card--refined[data-linked='true']:hover .hb-card__image { transform: scale(1.025); }
+  .hb-card--refined[data-linked='true']:hover .hb-card__image { transform: none; }
 }
 @media (hover: none), (pointer: coarse) {
   .hb-card--refined:hover { transform: none; }
@@ -203,7 +229,9 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
   const { cardType } = site;
 
   const place = [t(site.governorate), t(site.country)].filter(Boolean).join(' · ');
-  const cover = approvedCover(site);
+  const approved = approvedCover(site);
+  // Require current, bound licensing evidence as well as the image/site approval.
+  const cover = approved && mediaLicenseState(approved) === 'verified' ? approved : null;
   const linked = interactive && Boolean(site.href);
 
   return (
@@ -222,20 +250,22 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
         </header>
 
         <figure className="hb-card__media">
-          <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} siteType={site.siteType} priority={priority} />
+          <div className="hb-card__photo">
+            <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} siteType={site.siteType} priority={priority} />
 
-          {(site.isUnesco || site.hasModel) && (
-            <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
-              {site.isUnesco && <li>UNESCO</li>}
-              {site.hasModel && <li>3D</li>}
-            </ul>
-          )}
+            {(site.isUnesco || site.hasModel) && (
+              <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
+                {site.isUnesco && <li>UNESCO</li>}
+                {site.hasModel && <li>3D</li>}
+              </ul>
+            )}
 
-          {showCta && linked && (
-            <span className="hb-card__cta" aria-hidden="true">
-              {t('View card')} ↗
-            </span>
-          )}
+            {showCta && linked && (
+              <span className="hb-card__cta" aria-hidden="true">
+                {t('View card')} ↗
+              </span>
+            )}
+          </div>
         </figure>
 
         <div className="hb-card__body">
@@ -250,7 +280,9 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
           </Heading>
           {site.siteType && <p className="hb-card__category" title={t(site.siteType)}>{t(site.siteType)}</p>}
           {place && <p className="hb-card__place" title={place}>{place}</p>}
-          {site.period && <p className="hb-card__period" title={t(site.period)}>{t(site.period)}</p>}
+          {(site.period || site.civilization) && <p className="hb-card__period" title={t(site.period || site.civilization)}>
+            <PeriodEmblems site={site} /><span className="hb-card__period-text">{t(site.period || site.civilization)}</span>
+          </p>}
         </div>
 
         <footer className="hb-card__foot">

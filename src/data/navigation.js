@@ -3,8 +3,12 @@ export const PRIMARY_NAV = [
   { label: 'Explore Cards', href: '/explore' },
   { label: 'Map', href: '/map' },
   { label: 'Decks', href: '/decks' },
+  { label: 'Timeline', href: '/timeline' },
+  { label: 'Civilizations', href: '/civilizations' },
   { label: 'UNESCO', href: '/unesco' },
   { label: '3D Archive', href: '/3d-archive' },
+  { label: 'Image Archive', href: '/image-archive' },
+  { label: 'Disappeared Heritage', href: '/disappeared-heritage' },
 ];
 
 export const PROJECT_NAV = [

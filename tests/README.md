@@ -1,5 +1,50 @@
 # P5-00 integration tests
 
+## P6-31 / P6-32: production build and browsers
+
+`npm run validate:production` builds the real app and runs HTTP/Playwright checks.
+Browser installation and executable overrides are described in
+`docs/P6-31-32-VALIDATION.md`. The audit covers Chrome, Edge, Firefox, WebKit and
+Android/iPhone emulation, including a real built 3D renderer/cache retry fixture.
+Reports and screenshots go to ignored `.validation/p6-31-32/`; fixture routes are
+local to the audit server and never enter the deployment build.
+
+Final local results: 582 browser assertions passed across six profiles; 54 generated
+routes and 41 local assets passed HTTP checks. The frontend suite has 118 passing
+tests and one optional export skipped. Production chunk budgets pass and the build
+has no warnings. Mobile emulation is not physical-device or retail Safari testing.
+
+## P6-29 / P6-30: attribution and production security
+
+Coverage checks the current published references/photos, stale or malformed media
+evidence, card/gallery/model/video/download attribution, unsafe URLs, local editor
+Origin/content-type/body/coordinate checks, and production exclusion of drafts,
+editor code and source maps. The built metadata chunk is initialized to catch
+asset-loading cycles. Editor tests copy the plugin into a temporary project and
+never send write requests to the real archive.
+
+On 2026-11-03, 118 frontend tests passed with one optional export test skipped;
+228 Python pipeline tests passed after the Requests update. Lint, translations and
+production build passed. Eight headless Edge checks covered Home, Explore, Site
+Details and Map at 390/1440 px with the static-host CSP explicitly applied. See
+`docs/P6-29-30-AUDIT.md` for evidence, policy limits and pending host/domain settings.
+
+## P6-28: social sharing previews
+
+`social-sharing.test.mjs` builds and serves production HTML, then checks Home and
+every approved heritage URL as a sharing crawler without executing JavaScript.
+It checks page-specific titles/descriptions, Open Graph/Twitter metadata, absolute
+URLs, and the actual served preview PNG. The test uses an isolated temporary build
+and a test-only origin; it never configures the public project domain.
+
+## P6-27: SEO and metadata
+
+Coverage includes page/site metadata, domain configuration, publication rules,
+canonical aliases, query variants, escaping, generated HTML/robots/sitemap files,
+and metadata replacement during navigation and language switching. On 2026-11-03,
+110 tests passed and one optional export test skipped. See `docs/SEO.md` for
+domain setup and the hosting requirements for generated route metadata.
+
 ## P6-22 through P6-26: resilience, accessibility and performance
 
 Regression coverage includes invalid routes and map selections, known-empty
@@ -44,8 +89,8 @@ and jsdom. It covers Home, Explore/Cards, Map, Decks, Site Details, and the exis
 - Broken images, missing records, empty datasets, and shared stylesheet deduplication.
 - History URL restoration through simulated popstate events.
 
-The real dataset contains one record. Additional records and empty datasets are
-in-memory fixtures; tests never write to sites.json or pipeline storage. Real network
+Count-sensitive tests select one baseline record from the real catalog. Additional
+records and empty datasets are in-memory fixtures; tests never write to sites.json or pipeline storage. Real network
 requests and external media are not loaded. Gallery native-dialog methods, matchMedia,
 scrolling, and pointer capture are simulated where needed.
 
