@@ -1,3 +1,5 @@
+import { withBasePath } from './basePath';
+
 /**
  * Responsive renditions written by tools/content-pipeline/optimize_images.py.
  * An image's `variants` = { base, width, height, color, avif: [widths], webp: [...], jpeg: [...] };
@@ -29,7 +31,7 @@ const valid = (variants) => Boolean(variants && typeof variants.base === 'string
 /** srcset for one format, limited to the widths a display may use. */
 function srcSet(variants, format, maxWidth) {
   const widths = (Array.isArray(variants[format]) ? variants[format] : []).filter((width) => width <= maxWidth);
-  return widths.map((width) => `${variants.base}-${width}.${format} ${width}w`).join(', ');
+  return widths.map((width) => `${withBasePath(variants.base)}-${width}.${format} ${width}w`).join(', ');
 }
 
 /**
@@ -47,7 +49,7 @@ export function pictureSources(image, role = 'card') {
   const fallbackWidth = fallbackWidths.at(-1) ?? (variants[fallbackFormat] ?? [])[0];
   return {
     sources,
-    src: fallbackWidth ? `${variants.base}-${fallbackWidth}.${fallbackFormat}` : null,
+    src: fallbackWidth ? `${withBasePath(variants.base)}-${fallbackWidth}.${fallbackFormat}` : null,
     width: variants.width,
     height: variants.height,
     color: typeof variants.color === 'string' ? variants.color : undefined,

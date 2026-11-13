@@ -3,22 +3,23 @@ import { RouterContext, useRouter } from './RouterContext';
 import { matchRoute } from './matchRoute';
 import RouteBoundary from '../components/common/RouteBoundary';
 import PageLoading from '../components/common/PageLoading';
+import { appPathname, withBasePath } from '../utils/basePath';
 
 const readLocation = () => ({
-  pathname: window.location.pathname,
+  pathname: appPathname(window.location.pathname),
   search: window.location.search,
   hash: window.location.hash,
 });
 
 /**
  * Minimal History-API router (no dependency).
- * Production hosting must serve index.html for unknown paths (SPA fallback).
+ * App routes are relative to the deployment's Vite base.
  */
 export function RouterProvider({ children }) {
   const [state, setState] = useState(() => ({ location: readLocation(), type: 'init', scroll: false }));
 
   const navigate = useCallback((to, { replace = false, scroll = true } = {}) => {
-    const url = new URL(to, window.location.href);
+    const url = new URL(withBasePath(to), window.location.href);
     if (url.origin !== window.location.origin) {
       window.location.assign(url.href);
       return;

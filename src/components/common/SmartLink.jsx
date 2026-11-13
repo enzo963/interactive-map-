@@ -1,4 +1,5 @@
 import { useNavigate } from '../../router/RouterContext';
+import { withBasePath } from '../../utils/basePath';
 
 /**
  * Internal links navigate without a page reload. External links, new-tab clicks,
@@ -18,7 +19,7 @@ export default function SmartLink({ href, children, onClick, target, ...rest }) 
   };
 
   return (
-    <a href={href} target={target} onClick={handleClick} {...rest}>
+    <a href={withBasePath(href)} target={target} onClick={handleClick} {...rest}>
       {children}
     </a>
   );

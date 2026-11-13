@@ -1,9 +1,8 @@
-import { useContext, useEffect, useMemo, useRef, useState } from 'react';
+import { lazy, Suspense, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import useHeaderHeight from '../../hooks/useHeaderHeight';
 import CardBack from '../cards/CardBack';
 import FlipCard from '../cards/FlipCard';
 import HeritageCard from '../cards/HeritageCard';
-import MapCanvas from '../map/MapCanvas';
 import SmartLink from '../common/SmartLink';
 import StatePanel from '../common/StatePanel';
 import ArchiveStats from './ArchiveStats';
@@ -17,6 +16,8 @@ import { pickRandom } from '../../utils/random';
 import '../../styles/map-first.css';
 import '../../styles/home-landing.css';
 import { t, tn } from '../../i18n';
+
+const MapCanvas = lazy(() => import('../map/MapCanvas'));
 
 const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
 
@@ -82,16 +83,18 @@ export default function HomeMap({ sites, stats }) {
   return (
     <section className="hb-mapfirst hb-mapfirst--home" aria-labelledby="hero-title">
       <div className="hb-mapfirst__map">
-        <MapCanvas
-          allSites={sites}
-          visibleSites={visible}
-          selectedSite={selected}
-          focusKey={focusKey}
-          onSelect={select}
-          onSelectRegion={focusRegion}
-          size="fill"
-          caption={t('{n} of {total} cards shown as pins from recorded coordinates. Select a pin to see its card.', { n: plotted, total: visible.length })}
-        />
+        <Suspense fallback={<div className="hb-mapfirst__map-loading" role="status">{t('Loading page')}</div>}>
+          <MapCanvas
+            allSites={sites}
+            visibleSites={visible}
+            selectedSite={selected}
+            focusKey={focusKey}
+            onSelect={select}
+            onSelectRegion={focusRegion}
+            size="fill"
+            caption={t('{n} of {total} cards shown as pins from recorded coordinates. Select a pin to see its card.', { n: plotted, total: visible.length })}
+          />
+        </Suspense>
       </div>
 
       <aside className="hb-mapfirst__panel" aria-label={t('Map controls')}>
@@ -135,10 +138,10 @@ export default function HomeMap({ sites, stats }) {
           {selected || visible.length > 0 ? (
             <div className="hb-mapfirst__preview-grid">
               <div className="hb-mapfirst__stack" data-stacked={visible.length > 1}>
-                {selected ? <HeritageCard site={selected} headingLevel={3} /> : (
+                {selected ? <HeritageCard site={selected} headingLevel={3} priority /> : (
                   <FlipCard
                     flipped={Boolean(drawn)}
-                    front={drawn && <HeritageCard site={drawn} headingLevel={3} />}
+                    front={drawn && <HeritageCard site={drawn} headingLevel={3} priority />}
                     back={(
                       <>
                         <CardBack variant={region?.back} label={t(region?.name ?? 'All of Iraq')} />

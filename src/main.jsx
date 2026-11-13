@@ -6,6 +6,7 @@ import { applyDocumentLanguage, detectLanguage } from './i18n/detectLanguage';
 import { routes } from './routes';
 import { matchRoute } from './router/matchRoute';
 import { preloadInitialRoute } from './router/preloadInitialRoute';
+import { appPathname } from './utils/basePath';
 
 // Set <html lang dir> before the first paint so right-to-left pages never flash left-to-right.
 applyDocumentLanguage(detectLanguage());
@@ -13,7 +14,7 @@ applyDocumentLanguage(detectLanguage());
 // Give the requested route a short head start. If it stalls, mount navigation
 // and the genuine loading state after at most 150 ms instead of waiting forever.
 try {
-  await preloadInitialRoute(matchRoute(routes, window.location.pathname)?.route.load);
+  await preloadInitialRoute(matchRoute(routes, appPathname(window.location.pathname))?.route.load);
 } catch {
   // Render normally so the route boundary can show actionable import recovery.
 }

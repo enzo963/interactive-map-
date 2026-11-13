@@ -14,6 +14,7 @@
 
 /* map: everything left of the panel */
 .hb-mapfirst__map { position: relative; min-width: 0; min-height: 0; }
+.hb-mapfirst__map-loading { position: absolute; inset: 0; display: grid; place-items: center; }
 .hb-mapfirst__map .hb-mapx { position: absolute; inset: 0; }
 .hb-mapfirst__map .hb-mapx__leaflet[data-size='fill'] { height: 100%; border: 0; }
 .hb-mapfirst__map .hb-map__caption {

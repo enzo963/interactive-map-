@@ -1,4 +1,5 @@
 import { IMAGE_SIZES, pictureSources } from '../../utils/imageVariants';
+import { withBasePath } from '../../utils/basePath';
 
 /**
  * An optimized heritage image: AVIF and WebP sources with a JPEG fallback, sized by `role`
@@ -13,7 +14,7 @@ export default function ResponsiveImage({ image, alt, role = 'card', priority = 
   const loading = priority ? 'eager' : 'lazy';
   const fetchPriority = priority ? 'high' : undefined;
   if (!picture?.src) {
-    return <img className={className} src={image.src} alt={alt} loading={loading} decoding="async"
+    return <img className={className} src={withBasePath(image.src)} alt={alt} loading={loading} decoding="async"
       fetchPriority={fetchPriority} style={position ?? undefined} onLoad={onLoad} onError={onError} />;
   }
   return (
