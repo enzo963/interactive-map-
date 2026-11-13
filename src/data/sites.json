@@ -3,7 +3,7 @@
     "id": "site-duhok-amedy-city",
     "name": "Amedy city",
     "governorate": "Duhok",
-    "category": "Historic City",
+    "category": "Historic Town",
     "period": "",
     "period_status": "not-established",
     "description": "A historic town on a high plateau about 70 km north of Duhok, with ancient gates and a minaret, which Iraq describes as one of the most important historic cities of northern Iraq.",
@@ -1547,15 +1547,21 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "erbil-citadel",
-    "historical_background": "The original walls were replaced over time by houses whose continuous 19th-century façades still read as a fortress. The nomination claimed continuous occupation over six millennia, but ICOMOS found too little physical evidence from the ancient periods to support it; the property was inscribed in June 2014 for its Ottoman urban fabric. Later UNESCO reports follow work to map buried remains, stabilise the mound’s slopes and keep residents living on the citadel."
+    "historical_background": "The original walls were replaced over time by houses whose continuous 19th-century façades still read as a fortress. The nomination claimed continuous occupation over six millennia, but ICOMOS found too little physical evidence from the ancient periods to support it; the property was inscribed in June 2014 for its Ottoman urban fabric. Later UNESCO reports follow work to map buried remains, stabilise the mound’s slopes and keep residents living on the citadel.",
+    "coordinates_precision": "site",
+    "alternativeNames": [
+      "Arbela",
+      "Qelay Hewlêr",
+      "قلعة أربيل"
+    ],
+    "coordinates_source": "wikidata:Q206236"
   },
   {
     "id": "site-erbil-shanidar-cave",
     "name": "Shanidar Cave",
     "governorate": "Erbil",
     "category": "Archaeological Cave",
-    "period": "",
-    "period_status": "not-established",
+    "period": "Middle Palaeolithic",
     "description": "A cave in the Zagros mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
     "unesco": null,
     "has3D": null,
@@ -1901,7 +1907,13 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "shanidar-cave",
-    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites."
+    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites.",
+    "review_notes": "Period set to Middle Palaeolithic from the recorded Neanderthal remains (2026-11-12 search audit).",
+    "alternativeNames": [
+      "Shanidar",
+      "Şaneder",
+      "كهف شانيدر"
+    ]
   },
   {
     "id": "site-kirkuk-kirkuk-citadel",
@@ -2338,7 +2350,12 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "kirkuk-citadel",
-    "historical_background": "Iraq placed the citadel on its Tentative List on 6 April 2021. The submission describes quarters such as Hammam, Aghaliq and al-Midan, and buildings including the Prophet Daniel Mosque, the Green Dome, the Mother of Sorrows Church and the Qaysariyah market."
+    "historical_background": "Iraq placed the citadel on its Tentative List on 6 April 2021. The submission describes quarters such as Hammam, Aghaliq and al-Midan, and buildings including the Prophet Daniel Mosque, the Green Dome, the Mother of Sorrows Church and the Qaysariyah market.",
+    "alternativeNames": [
+      "Arrapha",
+      "Qala of Kirkuk",
+      "قلعة كركوك"
+    ]
   },
   {
     "id": "site-kirkuk-mother-of-sorrows-church",
@@ -2667,7 +2684,7 @@
     "id": "site-nineveh-al-nouri",
     "name": "Al-Nouri Mosque and al-Hadba Minaret",
     "governorate": "Nineveh",
-    "category": "Mosque and Minaret",
+    "category": "Mosque",
     "period": "",
     "period_status": "not-established",
     "description": "The mosque of Mosul’s Old City and its al-Hadba minaret, 44 m high, the city’s icon. Excavations have found rooms of a 12th-century mosque on the site.",
@@ -3112,7 +3129,8 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "al-nouri-mosque-and-al-hadba-minaret",
-    "historical_background": "UNESCO’s Tentative List entry for the Old City names the mosque and minaret its most significant landmarks. ISIL/Daesh largely destroyed the minaret in June 2017. Both were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative; during the work, excavations uncovered four stone-and-plaster rooms of the 12th-century mosque."
+    "historical_background": "UNESCO’s Tentative List entry for the Old City names the mosque and minaret its most significant landmarks. ISIL/Daesh largely destroyed the minaret in June 2017. Both were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative; during the work, excavations uncovered four stone-and-plaster rooms of the 12th-century mosque.",
+    "approximateLocation": "Old City, Mosul"
   },
   {
     "id": "site-nineveh-dominican-church",
@@ -3752,13 +3770,19 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "hatra",
-    "historical_background": "The central temple complex was dedicated to several Hatrene gods, chief among them the sun god Shamash. UNESCO inscribed Hatra on the World Heritage List in 1985. After damage by armed groups it was added to the List of World Heritage in Danger in 2015, where the Committee retained it in 2026."
+    "historical_background": "The central temple complex was dedicated to several Hatrene gods, chief among them the sun god Shamash. UNESCO inscribed Hatra on the World Heritage List in 1985. After damage by armed groups it was added to the List of World Heritage in Danger in 2015, where the Committee retained it in 2026.",
+    "coordinates_precision": "site",
+    "alternativeNames": [
+      "al-Hadr",
+      "الحضر"
+    ],
+    "coordinates_source": "wikidata:Q466614"
   },
   {
     "id": "site-nineveh-lalish",
     "name": "Lalish Temple",
     "governorate": "Nineveh",
-    "category": "Religious Complex",
+    "category": "Temple",
     "period": "",
     "period_status": "not-established",
     "description": "The main temple of the Yazidi religion and its central pilgrimage place, in a sacred valley in Sheikhan district, about 60 km north-west of Nineveh. The complex holds the tomb of Sheikh Uday bin Musafir.",
@@ -4189,7 +4213,8 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "lalish-temple",
-    "historical_background": "Iraq placed Lalish on its Tentative List on 15 April 2020, describing the valley, the temple architecture and the tomb. The sources consulted do not date the buildings."
+    "historical_background": "Iraq placed Lalish on its Tentative List on 15 April 2020, describing the valley, the temple architecture and the tomb. The sources consulted do not date the buildings.",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-nimrud",
@@ -4468,7 +4493,13 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "nimrud",
-    "historical_background": "Nimrud has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. In 2015 extremist armed groups deliberately and severely damaged the city, including the north-west part of the Palace of Ashurnasirpal II."
+    "historical_background": "Nimrud has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. In 2015 extremist armed groups deliberately and severely damaged the city, including the north-west part of the Palace of Ashurnasirpal II.",
+    "alternativeNames": [
+      "Kalhu",
+      "Calah",
+      "النمرود",
+      "كالخو"
+    ]
   },
   {
     "id": "site-nineveh-old-mosul",
@@ -4771,13 +4802,14 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "the-ancient-city-of-nineveh",
-    "historical_background": "Nineveh has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. UNESCO reports that the site has been greatly damaged through acts of deliberate destruction."
+    "historical_background": "Nineveh has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. UNESCO reports that the site has been greatly damaged through acts of deliberate destruction.",
+    "approximateLocation": "East bank of the Tigris, Mosul"
   },
   {
     "id": "site-sulaymaniyah-bestansur",
     "name": "Bestansur Neolithic settlement",
     "governorate": "Sulaymaniyah",
-    "category": "Archaeological Settlement",
+    "category": "Archaeological Site",
     "period": "Early Neolithic",
     "description": "An Early Neolithic village of 7700–7100 BC in the Zagros foothills on the edge of the Shahrizor Plain, about 30 km south-east of Sulaymaniyah, whose mud-brick and pisé buildings show early village life.",
     "unesco": null,
@@ -5238,7 +5270,7 @@
     "id": "site-sulaymaniyah-tell-shemshara",
     "name": "Tell Shemshara",
     "governorate": "Sulaymaniyah",
-    "category": "Archaeological Settlement",
+    "category": "Archaeological Site",
     "period": "Multi-period, including Old Babylonian",
     "description": "An early urban settlement on the Rania Plain near Lake Dukan, where tablets of the Old Babylonian period were found.",
     "unesco": null,
@@ -5258,7 +5290,11 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "tell-shemshara",
-    "historical_background": "The Kurdistan Regional Government presents it among the region’s main archaeological sites."
+    "historical_background": "The Kurdistan Regional Government presents it among the region’s main archaeological sites.",
+    "alternativeNames": [
+      "Shusharra",
+      "Šušarrā"
+    ]
   },
   {
     "id": "site-baghdad-mustansiriya-madrasa",
@@ -6159,7 +6195,7 @@
     "id": "site-baghdad-al-qishla",
     "name": "Al-Qishla and Clock Tower",
     "governorate": "Baghdad",
-    "category": "Historic Complex",
+    "category": "Historic Building",
     "period": "Ottoman and British periods",
     "description": "The Ottoman barracks and clock tower on the Tigris in Baghdad, whose architecture also records additions made under British rule.",
     "unesco": null,
@@ -7021,7 +7057,7 @@
     "id": "site-salah-al-din-great-mosque",
     "name": "Great Mosque of Samarra and Malwiya Minaret",
     "governorate": "Salah al-Din",
-    "category": "Mosque and Minaret",
+    "category": "Mosque",
     "period": "Abbasid",
     "description": "The congregational mosque of Abbasid Samarra, built in 849–852 and, at 264 by 159 m, the largest mosque in the Islamic world when it was built. Its spiral minaret, al-Malwiya, is the most unusual minaret in the Islamic world.",
     "unesco": null,
@@ -8293,7 +8329,9 @@
       "Ashur",
       "Assur"
     ],
-    "historical_background": "The site preserves temples, palaces and royal burials. Babylonian forces destroyed the Assyrian city. UNESCO inscribed Ashur on 5 July 2003 and at the same time placed it on the List of World Heritage in Danger, chiefly because of the planned Makhool Dam and erosion by the Tigris; it remains on that list."
+    "historical_background": "The site preserves temples, palaces and royal burials. Babylonian forces destroyed the Assyrian city. UNESCO inscribed Ashur on 5 July 2003 and at the same time placed it on the List of World Heritage in Danger, chiefly because of the planned Makhool Dam and erosion by the Tigris; it remains on that list.",
+    "coordinates_precision": "site",
+    "coordinates_source": "wikidata:Q200200"
   },
   {
     "id": "site-erbil-qaysari-bazaar",
@@ -8410,7 +8448,7 @@
     "id": "site-sulaymaniyah-red-terror-museum",
     "name": "Red Terror Museum, Slemani",
     "governorate": "Sulaymaniyah",
-    "category": "Memorial Museum",
+    "category": "Museum",
     "period": "Modern",
     "description": "A museum in Sulaymaniyah documenting repression under Ba’athist rule, a place to learn about the region’s modern history.",
     "unesco": null,
@@ -9628,7 +9666,7 @@
     "id": "site-erbil-melqi-mar-qardagh",
     "name": "Melqi (Mar Qardagh tradition), Ankawa",
     "governorate": "Erbil",
-    "category": "Religious Heritage Site",
+    "category": "Shrine",
     "period": "",
     "period_status": "not-established",
     "description": "Ankawa has been linked to the Neo-Assyrian town of Milqia, seat of an Akitu house of Ishtar near Arbela. Melqi is the martyrdom and burial place of Saint Mar Qardagh in the Syriac History of Mar Qardagh, and the saint is still venerated in Ankawa.",
@@ -11444,7 +11482,7 @@
     "latitude": 36.9,
     "longitude": 44.933333,
     "coordinates_source": "wikidata:Q3849877",
-    "coordinates_precision": "site",
+    "coordinates_precision": "approximate",
     "review_notes": "The stele sits on the Iraq–Iran border; sources disagree on its present custody."
   },
   {
@@ -16081,7 +16119,8 @@
     "longitude": 43.254444,
     "coordinates_source": "wikidata:Q4837020",
     "coordinates_precision": "settlement",
-    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate.",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-ain-sifni-shrines",
@@ -16311,7 +16350,8 @@
     "coordinates_source": "wikidata:Q4121860",
     "coordinates_precision": "settlement",
     "administrative_note": "Bardarash district: administered by the Kurdistan Region; de jure part of Nineveh Governorate.",
-    "review_notes": "Distinct from the Mam Rashan shrine in Sinjar."
+    "review_notes": "Distinct from the Mam Rashan shrine in Sinjar.",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-nabi-yunus-mosque",
@@ -20075,7 +20115,7 @@
       "Pashtabia",
       "باشطابيا"
     ],
-    "approximateLocation": "Tigris bank, north of the old city",
+    "approximateLocation": "Tigris bank, north of the old city, Mosul",
     "estimated_year": "12th century",
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
@@ -20164,9 +20204,90 @@
     "description": "The ruined “Black Palace” on the Tigris, cited in the UNESCO dossier for the authenticity of Old Mosul.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Qara Saray, Nineveh",
+      "caption": "",
+      "credit": "الدبوني",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-nineveh-qara-saray",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 3024,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q20420070",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "note": "Qara Saray under restoration; the item's own image, named in the file."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-قره سراي.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg",
+              "evidenceId": "wikimedia-commons-قره سراي.jpg",
+              "accessedAt": "2026-11-11"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-nineveh-qara-saray",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D9%82%D8%B1%D9%87_%D8%B3%D8%B1%D8%A7%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-11",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/qara-saray/9ff547a4e5",
+        "hash": "9ff547a4e5",
+        "width": 1280,
+        "height": 960,
+        "color": "#757a85",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "UNESCO World Heritage Centre — Tentative List: Old City of Mosul",
@@ -20316,7 +20437,7 @@
       "Bab al-Saray Market",
       "سوق باب السراي"
     ],
-    "approximateLocation": "Bab al-Saray",
+    "approximateLocation": "Bab al-Saray, Old City of Mosul",
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
     "latitude": 36.34298,
@@ -20450,7 +20571,7 @@
       "Khan al-Gumriq",
       "خان الكمرك"
     ],
-    "approximateLocation": "Bab al-Saray",
+    "approximateLocation": "Bab al-Saray, Old City of Mosul",
     "estimated_year": 1703,
     "parentSite": "site-nineveh-old-mosul",
     "heritage_status": "Within the Old City of Mosul (UNESCO Tentative List); no separate listing.",
@@ -25434,7 +25555,8 @@
     "latitude": 36.466758,
     "longitude": 43.328836,
     "coordinates_source": "mesopotamiaheritage:sheikh-bakeur",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-melek-miran-bashiqa",
@@ -25478,7 +25600,8 @@
     "latitude": 36.457625,
     "longitude": 43.346536,
     "coordinates_source": "mesopotamiaheritage:melek-miran",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-sheikh-suwar-beban",
@@ -25522,7 +25645,8 @@
     "latitude": 36.701617,
     "longitude": 43.153767,
     "coordinates_source": "mesopotamiaheritage:sheikh-suwar",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-ezdin-mir-shexka",
@@ -25556,7 +25680,8 @@
     "longitude": 43.448003,
     "coordinates_source": "mesopotamiaheritage:ezdin-mir",
     "coordinates_precision": "site",
-    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate.",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-mir-ali-beg-baadre",
@@ -25588,8 +25713,9 @@
     "latitude": 36.718056,
     "longitude": 43.254167,
     "coordinates_source": "mesopotamiaheritage:mir-ali-beg",
-    "coordinates_precision": "site",
-    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate."
+    "coordinates_precision": "settlement",
+    "administrative_note": "Shekhan district: administered by the Kurdistan Region from Duhok; de jure part of Nineveh Governorate.",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-sultan-ezid-mahad",
@@ -25759,7 +25885,8 @@
     "latitude": 36.429444,
     "longitude": 41.868889,
     "coordinates_source": "wikidata:Q106345829",
-    "coordinates_precision": "site"
+    "coordinates_precision": "site",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-mam-rashan-shrine",
@@ -25939,7 +26066,8 @@
       "Sheikh Mend"
     ],
     "approximateLocation": "Gedala, Sinjar",
-    "destruction_status": "Destroyed (24 August 2014); rebuilt"
+    "destruction_status": "Destroyed (24 August 2014); rebuilt",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-malak-sheikh-hassan-temple",
@@ -25973,7 +26101,8 @@
       "Şêx Hesen"
     ],
     "approximateLocation": "Sinjar",
-    "destruction_status": "Destroyed 2015; rebuilt"
+    "destruction_status": "Destroyed 2015; rebuilt",
+    "civilization": "Yazidi"
   },
   {
     "id": "site-nineveh-sinjar-yazidi-mausoleums",
@@ -27989,7 +28118,7 @@
       "Tepe Reshwa",
       "تل عربجية"
     ],
-    "approximateLocation": "Near Nineveh",
+    "approximateLocation": "Near Nineveh, on the outskirts of Mosul",
     "review_notes": "Wikidata Q1744863 gives 36.48, 42.95, west of the Tigris and far from Nineveh; coordinates left out until corrected."
   },
   {
@@ -28042,7 +28171,7 @@
     "latitude": 36.166667,
     "longitude": 43.1,
     "coordinates_source": "wikidata:Q2733421",
-    "coordinates_precision": "site"
+    "coordinates_precision": "approximate"
   },
   {
     "id": "site-nineveh-mlefaat",
@@ -28093,7 +28222,7 @@
     "latitude": 36.3,
     "longitude": 43.55,
     "coordinates_source": "wikidata:Q3523239",
-    "coordinates_precision": "site",
+    "coordinates_precision": "approximate",
     "review_notes": "Near the Khazir boundary; governorate to confirm."
   },
   {
@@ -31313,9 +31442,90 @@
     "description": "A mound in Sulaymaniyah province studied by the German Archaeological Institute’s agrarian-worlds project.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Gird-i Shamlu, Sulaymaniyah",
+      "caption": "",
+      "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-sulaymaniyah-gird-i-shamlu",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6003,
+      "height": 2742,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q108131447",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The mound of Gird-i Shamlu in the Shahrizor Plain, named in the file; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-September 11, 2016. Gird-i Shamlu, Shahrizor Plain, Sulaymaniyah Governorate, Iraqi Kurdistan.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._Gird-i_Shamlu,_Shahrizor_Plain,_Sulaymaniyah_Governorate,_Iraqi_Kurdistan.jpg",
+              "evidenceId": "wikimedia-commons-September 11, 2016. Gird-i Shamlu, Shahrizor Plain, Sulaymaniyah Governorate, Iraqi Kurdistan.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-sulaymaniyah-gird-i-shamlu",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/September_11%2C_2016._Gird-i_Shamlu%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governorate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/gird-i-shamlu/27f966e361",
+        "hash": "27f966e361",
+        "width": 1280,
+        "height": 585,
+        "color": "#69775b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "German Archaeological Institute — Agrarwelten Mesopotamiens",
@@ -32131,9 +32341,90 @@
     "description": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Gird-i Qalrakh, Sulaymaniyah",
+      "caption": "",
+      "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-sulaymaniyah-gird-i-qalrakh",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 6016,
+      "height": 2901,
+      "identity": {
+        "method": "wikidata-image-of-site-item",
+        "item": "Q42896810",
+        "matchedBy": "name match of an item in Iraq; P18",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "note": "The mound of Gird-i Qalrakh in the Shahrizor Plain, named in the file; the item's own image."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-September 11, 2016. The ancient mound of Gird-î Qalrakh, Shahrizor Plain, Sulaymaniyah Governrate, Iraqi Kurdistan.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:September_11,_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh,_Shahrizor_Plain,_Sulaymaniyah_Governrate,_Iraqi_Kurdistan.jpg",
+              "evidenceId": "wikimedia-commons-September 11, 2016. The ancient mound of Gird-î Qalrakh, Shahrizor Plain, Sulaymaniyah Governrate, Iraqi Kurdistan.jpg",
+              "accessedAt": "2026-11-12"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-sulaymaniyah-gird-i-qalrakh",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/September_11%2C_2016._The_ancient_mound_of_Gird-%C3%AE_Qalrakh%2C_Shahrizor_Plain%2C_Sulaymaniyah_Governrate%2C_Iraqi_Kurdistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-12",
+        "method": "Candidate = the image (P18) or a Commons-category photograph of the card’s own Wikidata item, matched through the card’s sources, an earlier review, or a name search confirmed by coordinates or by an exact name in Iraq; free licenses only; approved after visual review only when it shows the site itself, recognisably, at card size."
+      },
+      "variants": {
+        "base": "/images/sites/gird-i-qalrakh/2cd4c96725",
+        "hash": "2cd4c96725",
+        "width": 1280,
+        "height": 617,
+        "color": "#9b967e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "New Investigations in the Environment, History, and Archaeology of the Iraqi Hilly Flanks: Shahrizor Survey Project 2009–2011",
@@ -45987,7 +46278,7 @@
     "latitude": 33.3201,
     "longitude": 44.4205,
     "coordinates_source": "wikidata:Q7487432",
-    "coordinates_precision": "site"
+    "coordinates_precision": "settlement"
   },
   {
     "id": "site-baghdad-habibiyah-jewish-cemetery",

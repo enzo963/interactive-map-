@@ -14,6 +14,7 @@ import ShareSite from '../components/site/ShareSite';
 import { getSiteShareUrl } from '../utils/siteLinks';
 import { getRelatedSiteMatches } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
+import { hasVerifiedPosition, MAP_POSITION_LABELS, MAP_POSITION_NOTES } from '../utils/mapPosition';
 import '../styles/site-details.css';
 import '../styles/phase4.css';
 import { t, tn, tDate } from '../i18n';
@@ -163,6 +164,17 @@ function DocumentationGroups({ resources, site }) {
  * The page renders it, and the "On this page" list is generated from the same array,
  * so neither can drift out of sync.
  */
+/** Whether the card has a pin, and why not when it has none. */
+function MapPositionNote({ site }) {
+  const status = site.mapPosition ?? 'none';
+  return (
+    <span className={`hb-mappos hb-mappos--${status}`}>
+      <strong>{t(MAP_POSITION_LABELS[status])}</strong>{' '}
+      <span>{t(MAP_POSITION_NOTES[status])}</span>
+    </span>
+  );
+}
+
 export default function SiteDetails({ params }) {
   const sites = useMemo(() => getAllSites(), []);
   const site = useMemo(() => sites.find((s) => s.slug === params.slug) ?? null, [sites, params.slug]);
@@ -177,7 +189,7 @@ export default function SiteDetails({ params }) {
 
   const { cardType } = site;
   const decks = getDecksForSite(site);
-  const hasLocation = Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
+  const hasLocation = hasVerifiedPosition(site);
   const hasDocumentation =
     site.ourWorkTypes.length > 0 || site.ourWorkNote || site.documentationMeta || site.digitalAssets.length > 0;
   const authoredMedia = [site.coverImage, ...site.galleryImages];
@@ -205,7 +217,11 @@ export default function SiteDetails({ params }) {
     },
     {
       title: t('Place'),
-      rows: [[t('Governorate'), t(site.governorate) || t('Governorate not recorded')], [t('City'), site.city], [t('Country'), t(site.country)]],
+      rows: [
+        [t('Governorate'), t(site.governorate) || t('Governorate not recorded')], [t('City'), site.city], [t('Country'), t(site.country)],
+        [t('Location'), site.approximateLocation],
+        [t('Map position'), <MapPositionNote site={site} />],
+      ],
     },
     {
       title: t('Status and verification'),

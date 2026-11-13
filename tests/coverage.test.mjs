@@ -19,7 +19,7 @@ test('totals agree with the published archive', () => {
   const published = getAllSites();
   assert.equal(totals.published, published.length);
   assert.equal(totals.image, published.filter((site) => approvedCover(site)).length);
-  assert.equal(totals.coordinates, published.filter((site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude)).length);
+  assert.equal(totals.coordinates, published.filter((site) => site.mapPosition === 'verified').length, 'coordinates count verified positions only');
   assert.equal(totals.archived, records.length, 'every record belongs to one of the nine governorates');
   assert.equal(totals.approved + totals.review, records.filter((record) => ['approved', 'needs-review', 'draft'].includes(record.status)).length);
 });

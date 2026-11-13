@@ -1,0 +1,11 @@
+{
+ "reviewedAt": "2026-11-11",
+ "decisions": [
+  {"id": "site-kirkuk-qaysariyah-market", "approve": 4, "reason": "The vaulted interior corridor of the old Qaysariyah of Kirkuk, named in the file."},
+  {"id": "site-kirkuk-great-mosque-kirkuk-citadel", "approve": 1, "reason": "The dome of the Great Mosque (Ulu Camii) of Kirkuk Citadel, named in the file; a photograph of the mosque's sign confirms the name."},
+  {"id": "site-erbil-koya-old-town", "flag": "only-unrelated-images", "detail": "The item is the town of Koya; its photographs show the modern town and its gate, not the old quarter."},
+  {"id": "site-kirkuk-hammam-quarter", "flag": "not-recognisable", "detail": "The only file naming the quarter shows a modern street front with no recognisable heritage feature."},
+  {"id": "site-anbar-ancient-anah", "flag": "only-unrelated-images", "detail": "The item's image is a modern mosque in Anah; the other files are satellite views, people and the separate minaret."},
+  {"id": "site-anbar-hit-old-town", "flag": "only-unrelated-images", "detail": "The files show a bridge with soldiers, water wheels, satellite views and a painting; none shows the old town or citadel."}
+ ]
+}

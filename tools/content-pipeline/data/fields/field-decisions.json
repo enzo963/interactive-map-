@@ -1,0 +1,4 @@
+{
+  "about": "Enrichment gaps that were researched within their time box and could not be filled from a credible source. Each entry removes that field of that card from the field queue (npm run report:fields) so nobody retries it. Shape: decisions[siteId][field] = { outcome: 'not-found', note, decidedAt (YYYY-MM-DD) }. Fields: location, coordinates, period, corroboration, alternativeNames, date, preservation, unesco. Blocking problems cannot be settled here; they must be fixed.",
+  "decisions": {}
+}

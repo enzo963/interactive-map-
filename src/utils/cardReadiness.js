@@ -1,5 +1,6 @@
 import { GOVERNORATE_NAMES, getGovernorateKey } from '../data/governorates';
 import { approvedCover } from './coverApproval';
+import { hasVerifiedPosition } from './mapPosition';
 import { bestTier, crediblePublishers, isCredibleSource, sourceTier } from './sourceCredibility';
 
 /**
@@ -50,7 +51,7 @@ const REQUIRED = [
 ];
 
 const ENRICHMENT = [
-  ['coordinates', (raw) => Number.isFinite(raw.latitude) && Number.isFinite(raw.longitude)],
+  ['coordinates', (raw) => hasVerifiedPosition(raw)],
   ['alternativeNames', (raw) => Array.isArray(raw.alternativeNames) && raw.alternativeNames.some((name) => text(name))],
   ['civilization', (raw) => Boolean(text(raw.civilization)) || Boolean(text(raw.period))],
   ['unesco', (raw) => typeof raw.unesco === 'boolean'],

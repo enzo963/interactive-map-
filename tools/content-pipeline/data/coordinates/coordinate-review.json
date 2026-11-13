@@ -1,0 +1,1836 @@
+{
+  "checkedAt": "2026-11-13",
+  "checked": 286,
+  "flagged": 55,
+  "records": {
+    "site-erbil-erbil-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q206236",
+      "flags": [],
+      "decision": "keep"
+    },
+    "site-001": {
+      "precision": "site",
+      "source": "wikidata:Q466614",
+      "flags": [],
+      "decision": "keep"
+    },
+    "site-salah-al-din-samarra": {
+      "precision": "approximate",
+      "source": "wikidata:Q20717633",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-ashur": {
+      "precision": "site",
+      "source": "wikidata:Q200200",
+      "flags": [],
+      "decision": "keep"
+    },
+    "site-erbil-great-mosque-erbil-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q141224441",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-erbil-kurdish-textile-museum": {
+      "precision": "site",
+      "source": "wikidata:Q2302612",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-erbil-civilization-museum": {
+      "precision": "site",
+      "source": "wikidata:Q28716288",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-khalidiya-khanqah-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q28715077",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-mart-shmoni-church-ankawa": {
+      "precision": "site",
+      "source": "wikidata:Q98917963",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-qasr-shemamok": {
+      "precision": "site",
+      "source": "wikidata:Q25404315",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-kurd-qaburstan": {
+      "precision": "site",
+      "source": "wikidata:Q115521019",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-tell-baqrta": {
+      "precision": "site",
+      "source": "wikidata:Q15882688",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-gird-i-matrab": {
+      "precision": "site",
+      "source": "wikidata:Q140609018",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-tell-surezha": {
+      "precision": "site",
+      "source": "wikidata:Q108147342",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-tell-nader": {
+      "precision": "site",
+      "source": "wikidata:Q108147320",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-bash-tapa": {
+      "precision": "site",
+      "source": "wikidata:Q108147277",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-kelik-mishik": {
+      "precision": "site",
+      "source": "wikidata:Q108147157",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-satu-qala": {
+      "precision": "site",
+      "source": "wikidata:Q15876602",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-khanzad-castle": {
+      "precision": "site",
+      "source": "wikidata:Q5989037",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-dwin-castle": {
+      "precision": "site",
+      "source": "wikidata:Q109259098",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-erbil-batas-harir-relief": {
+      "precision": "settlement",
+      "source": "wikidata:Q4122022",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-rawanduz-old-town": {
+      "precision": "settlement",
+      "source": "wikidata:Q579438",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-kelashin-stele": {
+      "precision": "approximate",
+      "source": "wikidata:Q3849877",
+      "flags": [],
+      "decision": "downgrade"
+    },
+    "site-erbil-bestoon-cave": {
+      "precision": "site",
+      "source": "wikidata:Q21032550",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-koya-old-town": {
+      "precision": "settlement",
+      "source": "wikidata:Q1778824",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-mar-bena-church-armota": {
+      "precision": "settlement",
+      "source": "wikidata:Q4793768",
+      "flags": [
+        "shares-point:site-erbil-mart-mariam-church-armota"
+      ],
+      "decision": "keep"
+    },
+    "site-erbil-mart-mariam-church-armota": {
+      "precision": "settlement",
+      "source": "wikidata:Q4793768",
+      "flags": [
+        "shares-point:site-erbil-mar-bena-church-armota"
+      ],
+      "decision": "keep"
+    },
+    "site-duhok-maltai-reliefs": {
+      "precision": "site",
+      "source": "wikidata:Q106371911",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-ith-alaha-church": {
+      "precision": "site",
+      "source": "wikidata:Q98967701",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-sharya-yazidi-shrines": {
+      "precision": "settlement",
+      "source": "wikidata:Q59343124",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-khanke-hellenistic-tombs": {
+      "precision": "settlement",
+      "source": "wikidata:Q59343218",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mardaman-bassetki": {
+      "precision": "site",
+      "source": "wikidata:Q11935295",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-nemrik-9": {
+      "precision": "site",
+      "source": "wikidata:Q13708140",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-bakhetme-mar-daniel": {
+      "precision": "settlement",
+      "source": "wikidata:Q30590774",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-avzrog-sourp-vartan": {
+      "precision": "settlement",
+      "source": "wikidata:Q4829588",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-zakho-castle": {
+      "precision": "settlement",
+      "source": "wikidata:Q167800",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-gorgis-cathedral-zakho": {
+      "precision": "site",
+      "source": "wikidata:Q98967700",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-sharanish-churches": {
+      "precision": "settlement",
+      "source": "wikidata:Q7489412",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-atqen-monastery": {
+      "precision": "settlement",
+      "source": "wikidata:Q24883709",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-dayrabun-monastery": {
+      "precision": "settlement",
+      "source": "wikidata:Q5243304",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-great-mosque-amedi": {
+      "precision": "site",
+      "source": "wikidata:Q20410224",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-duhok-bani-kondi-mosque": {
+      "precision": "settlement",
+      "source": "wikidata:Q2123036",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-sultana-mahdokht-araden": {
+      "precision": "settlement",
+      "source": "wikidata:Q624740",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-abdisho-monastery-dere": {
+      "precision": "settlement",
+      "source": "wikidata:Q24883512",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-dehi-churches": {
+      "precision": "settlement",
+      "source": "wikidata:Q5252260",
+      "flags": [
+        "item-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-duhok-mart-shmune-bebadi": {
+      "precision": "settlement",
+      "source": "wikidata:Q4878295",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-yohanna-dawodiya": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:dawoodia",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mar-qayyoma-dooreh": {
+      "precision": "settlement",
+      "source": "wikidata:Q28220077",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-betanure-synagogue": {
+      "precision": "settlement",
+      "source": "wikidata:Q4897358",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mangesh-mar-abraham": {
+      "precision": "settlement",
+      "source": "wikidata:Q6748991",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-deraluk-st-luke": {
+      "precision": "settlement",
+      "source": "wikidata:Q10950935",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-akre-old-town": {
+      "precision": "settlement",
+      "source": "wikidata:Q421302",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-khinnis-reliefs": {
+      "precision": "site",
+      "source": "wikidata:Q104874183",
+      "flags": [
+        "item-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-jerwan-aqueduct": {
+      "precision": "site",
+      "source": "wikidata:Q17064815",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-baadre-mir-castle": {
+      "precision": "settlement",
+      "source": "wikidata:Q4837020",
+      "flags": [
+        "shares-point:site-nineveh-mir-ali-beg-baadre"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-ain-sifni-shrines": {
+      "precision": "settlement",
+      "source": "wikidata:Q4058903",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mohamed-rashan-shrine": {
+      "precision": "settlement",
+      "source": "wikidata:Q4121860",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-nabi-yunus-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204304",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-nabi-jirjis-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204298",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-nabi-shith-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204301",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-hamu-al-qadu-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204323",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-al-mujahidi-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204228",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-imam-al-bahir-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q25450322",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-imam-awn-al-din-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q112701911",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-yahya-abu-al-qasim-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q30082979",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-shaykh-fathi-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q30082298",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-sultan-wais-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q25450071",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-al-basha-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204202",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-aghawat-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q25450633",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-bash-tapia-castle": {
+      "precision": "site",
+      "source": "wikidata:Q19968534",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-souq-bab-al-saray": {
+      "precision": "site",
+      "source": "wikidata:Q131580117",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-khan-al-gumruk": {
+      "precision": "site",
+      "source": "wikidata:Q110781171",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-beit-al-tutunji": {
+      "precision": "site",
+      "source": "wikidata:Q109637949",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mosul-museum": {
+      "precision": "site",
+      "source": "wikidata:Q387292",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-english-war-cemetery-mosul": {
+      "precision": "site",
+      "source": "wikidata:Q70869546",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-al-tahira-syriac-catholic-mosul": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:al-tahira-syriac-catholic",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-al-tahira-chaldean-mosul": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:al-tahira-chaldean",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-touma-syriac-orthodox": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-touma-syriac-orthodox",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-touma-syriac-catholic": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-touma-syriac-catholic",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-shamun-al-safa-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:shamun-al-safa",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-meskinta-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-meskinta",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-ichaya-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-ichaya",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-gorgis-chaldean-mosul": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-mosul",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-dair-mar-elia": {
+      "precision": "site",
+      "source": "wikidata:Q4120608",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-mattai-monastery": {
+      "precision": "site",
+      "source": "wikidata:Q2062054",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-rabban-hormizd-monastery": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:rabban-hormizd",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-our-lady-of-the-seeds": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:our-lady-of-the-seeds",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-mar-behnam-monastery": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-behnam-convent",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-oraha-monastery": {
+      "precision": "site",
+      "source": "wikidata:Q4117297",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-dailam-monastery": {
+      "precision": "site",
+      "source": "wikidata:Q6898335",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-barbara-karamles": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-barbara",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tomb-of-nahum": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:tomb-of-nahum",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-al-tahira-qaraqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:al-tahira-qaraqosh",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-yacoub-qaraqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-yacoub-qaraqosh",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-shmoni-qaraqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-shmoni-qaraqosh",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-sarkis-bakus-qaraqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-sarkis-bakus",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-gorgis-qaraqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-qaraqosh",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-addai-karamles": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-addai",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-gorgis-bartella": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-bartella",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-mariam-bartella": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-mariam-bartella",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-shmoni-bartella": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-shmoni-bartella",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-shmoni-bashiqa": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-shmoni-bashiqa",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mart-mariam-bashiqa": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mart-mariam-bashiqa",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-mikha-alqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-mikha-alqosh",
+      "flags": [
+        "nearest-capital-in-other-governorate",
+        "shares-point:site-nineveh-mar-gorgis-alqosh"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-mar-gorgis-alqosh": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-alqosh",
+      "flags": [
+        "nearest-capital-in-other-governorate",
+        "shares-point:site-nineveh-mar-mikha-alqosh"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-mar-gorgis-baqofa": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-baqofa",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-gorgis-tell-esqof": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-gorgis-tell-esqof",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mar-qouryakos-batnaya": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mar-qouryakos-batnaya",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-bozan-mausoleums": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:bozan",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-baba-noah-hatara": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:baba-noah",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-sheikh-bakeur-bahzani": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:sheikh-bakeur",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-melek-miran-bashiqa": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:melek-miran",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-sheikh-suwar-beban": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:sheikh-suwar",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-ezdin-mir-shexka": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:ezdin-mir",
+      "flags": [
+        "nearest-capital-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-mir-ali-beg-baadre": {
+      "precision": "settlement",
+      "source": "mesopotamiaheritage:mir-ali-beg",
+      "flags": [
+        "nearest-capital-in-other-governorate",
+        "shares-point:site-nineveh-baadre-mir-castle"
+      ],
+      "decision": "downgrade"
+    },
+    "site-nineveh-sultan-ezid-mahad": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:sultan-ezid",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-sharfadin-temple": {
+      "precision": "site",
+      "source": "wikidata:Q106345829",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-mam-rashan-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q106008987",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-sinjar-yazidi-mausoleums": {
+      "precision": "settlement",
+      "source": "mesopotamiaheritage:sinjar-mausoleums",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-sinjar-old-city": {
+      "precision": "settlement",
+      "source": "wikidata:Q955690",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-qutb-al-din-minaret-sinjar": {
+      "precision": "site",
+      "source": "wikidata:Q138647658",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-tal-afar-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q20031993",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-saad-ibn-aqil-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q60776398",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-kuyunjik": {
+      "precision": "site",
+      "source": "wikidata:Q856544",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-khorsabad": {
+      "precision": "site",
+      "source": "wikidata:Q253208",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-balawat": {
+      "precision": "site",
+      "source": "wikidata:Q1659846",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-billa": {
+      "precision": "site",
+      "source": "wikidata:Q3482023",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-karamles-kar-mullissi": {
+      "precision": "settlement",
+      "source": "wikidata:Q4115974",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tepe-gawra": {
+      "precision": "site",
+      "source": "wikidata:Q607583",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-hassuna": {
+      "precision": "approximate",
+      "source": "wikidata:Q2733421",
+      "flags": [],
+      "decision": "downgrade"
+    },
+    "site-nineveh-mlefaat": {
+      "precision": "approximate",
+      "source": "wikidata:Q3523239",
+      "flags": [],
+      "decision": "downgrade"
+    },
+    "site-nineveh-yarim-tepe": {
+      "precision": "site",
+      "source": "wikidata:Q25490472",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-maghzaliyah": {
+      "precision": "site",
+      "source": "wikidata:Q17119019",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-telul-eth-thalathat": {
+      "precision": "site",
+      "source": "wikidata:Q7697916",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-al-rimah": {
+      "precision": "site",
+      "source": "wikidata:Q195286",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-taya": {
+      "precision": "site",
+      "source": "wikidata:Q7697518",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-khoshi": {
+      "precision": "site",
+      "source": "wikidata:Q14466961",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-tell-deir-situn": {
+      "precision": "site",
+      "source": "wikidata:Q123773705",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-ginnig": {
+      "precision": "site",
+      "source": "wikidata:Q109829140",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-umm-dabaghiyah": {
+      "precision": "site",
+      "source": "wikidata:Q12180374",
+      "flags": [],
+      "decision": null
+    },
+    "site-duhok-mam-chevan-mausoleums": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mam-chevan",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-great-mosque-sulaymaniyah": {
+      "precision": "site",
+      "source": "wikidata:Q5989794",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-sulaymaniyah-sara-palace-and-bathhouse": {
+      "precision": "settlement",
+      "source": "wikidata:Q7423455",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-sulaymaniyah-museum": {
+      "precision": "site",
+      "source": "wikidata:Q19414891",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-sulaymaniyah-jasana-cave": {
+      "precision": "site",
+      "source": "wikidata:Q115794268",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-sulaymaniyah-darband-i-gawr-relief": {
+      "precision": "site",
+      "source": "wikidata:Q108861369",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-darband-i-belula-relief": {
+      "precision": "site",
+      "source": "wikidata:Q108861386",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-zarzi-rock-shelter": {
+      "precision": "site",
+      "source": "wikidata:Q134352211",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-palegawra-cave": {
+      "precision": "site",
+      "source": "wikidata:Q109680516",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-kani-shaie": {
+      "precision": "site",
+      "source": "wikidata:Q113044671",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-tell-kunara": {
+      "precision": "site",
+      "source": "wikidata:Q65151623",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-jarmo": {
+      "precision": "site",
+      "source": "wikidata:Q1000577",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-karim-shahir": {
+      "precision": "site",
+      "source": "wikidata:Q11735703",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-barda-balka": {
+      "precision": "site",
+      "source": "wikidata:Q4860065",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-rabana-merquly": {
+      "precision": "site",
+      "source": "wikidata:Q113159165",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-rabana-rock-relief": {
+      "precision": "site",
+      "source": "wikidata:Q108142747",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-merquly-rock-relief": {
+      "precision": "site",
+      "source": "wikidata:Q108860639",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-srochik-castle": {
+      "precision": "settlement",
+      "source": "wikidata:Q31794260",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-yasin-tepe": {
+      "precision": "site",
+      "source": "wikidata:Q108128170",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-gird-i-kazhaw": {
+      "precision": "site",
+      "source": "wikidata:Q108131426",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-tell-begum": {
+      "precision": "site",
+      "source": "wikidata:Q44075169",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-tell-bazmusian": {
+      "precision": "site",
+      "source": "wikidata:Q7697385",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-usu-aska": {
+      "precision": "site",
+      "source": "wikidata:Q108142297",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-qalat-i-dinka": {
+      "precision": "site",
+      "source": "wikidata:Q104176940",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-sherwana-castle": {
+      "precision": "site",
+      "source": "wikidata:Q3944781",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-great-mosque-kirkuk-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q22685009",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-kirkuk-qishla-of-kirkuk": {
+      "precision": "site",
+      "source": "wikidata:Q7267921",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-mariam-al-adra-koria": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:mariam-al-adra-kirkuk",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-tahmazgerd-red-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:tahmazgerd",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-nuzi": {
+      "precision": "site",
+      "source": "wikidata:Q584605",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-daquq-ottoman-bridge": {
+      "precision": "site",
+      "source": "wikidata:Q115915275",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-anbar-ancient-anah": {
+      "precision": "settlement",
+      "source": "wikidata:Q2627750",
+      "flags": [],
+      "decision": null
+    },
+    "site-anbar-minaret-of-anah": {
+      "precision": "site",
+      "source": "wikidata:Q12233450",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-anbar-shaykh-rajab-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q22686674",
+      "flags": [],
+      "decision": null
+    },
+    "site-anbar-haradum": {
+      "precision": "approximate",
+      "source": "wikidata:Q3127717",
+      "flags": [],
+      "decision": null
+    },
+    "site-anbar-hit-old-town": {
+      "precision": "settlement",
+      "source": "wikidata:Q2422345",
+      "flags": [
+        "shares-point:site-anbar-norias-of-hit"
+      ],
+      "decision": "keep"
+    },
+    "site-anbar-al-farouq-minaret-hit": {
+      "precision": "site",
+      "source": "wikidata:Q22686692",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-anbar-norias-of-hit": {
+      "precision": "settlement",
+      "source": "wikidata:Q2422345",
+      "flags": [
+        "shares-point:site-anbar-hit-old-town"
+      ],
+      "decision": "keep"
+    },
+    "site-anbar-ancient-anbar": {
+      "precision": "approximate",
+      "source": "wikidata:Q2829204",
+      "flags": [
+        "item-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-round-city": {
+      "precision": "approximate",
+      "source": "wikidata:Q1191316",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-khuld-palace": {
+      "precision": "approximate",
+      "source": "wikidata:Q65081154",
+      "flags": [
+        "shares-point:site-baghdad-adudi-hospital"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-taj-palace": {
+      "precision": "approximate",
+      "source": "wikidata:Q65069409",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-adudi-hospital": {
+      "precision": "approximate",
+      "source": "wikidata:Q4116635",
+      "flags": [
+        "shares-point:site-baghdad-khuld-palace"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-ctesiphon": {
+      "precision": "site",
+      "source": "wikidata:Q192541",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-taq-kasra": {
+      "precision": "site",
+      "source": "wikidata:Q1486703",
+      "flags": [
+        "item-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-seleucia-on-tigris": {
+      "precision": "approximate",
+      "source": "wikidata:Q1136681",
+      "flags": [
+        "item-in-other-governorate"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-kokhe-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:kokhe-church",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-dur-kurigalzu": {
+      "precision": "site",
+      "source": "wikidata:Q622719",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-sippar": {
+      "precision": "site",
+      "source": "wikidata:Q619707",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-sippar-amnanum": {
+      "precision": "site",
+      "source": "wikidata:Q7525818",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-tell-harmal": {
+      "precision": "approximate",
+      "source": "wikidata:Q3481186",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-tell-muhammad": {
+      "precision": "approximate",
+      "source": "wikidata:Q125343267",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-tell-al-dhibai": {
+      "precision": "approximate",
+      "source": "wikidata:Q28716833",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-bab-al-wastani": {
+      "precision": "site",
+      "source": "wikidata:Q138647434",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-abu-hanifa-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q334716",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-kadhimiya-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q154116",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-hadhrat-al-qadiriyya": {
+      "precision": "site",
+      "source": "wikidata:Q12186500",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-khulafa-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204233",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-qamariyya-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q20410890",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-zumurrud-khatun-mausoleum": {
+      "precision": "site",
+      "source": "wikidata:Q22689849",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-suhrawardi-mausoleum": {
+      "precision": "site",
+      "source": "wikidata:Q28716432",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-mustasim-billah-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q42331281",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-arif-agha-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q125447828",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-buratha-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204312",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-mirjan-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204368",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-al-sarai-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204245",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-muradiyya-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204288",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-uzbek-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204185",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-ahmadiyya-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204184",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-haydar-khana-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204223",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-adila-khatun-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q28716074",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-al-khilani-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q6756164",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-siraj-al-din-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q22686675",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-sayyid-sultan-ali-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q25450463",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-shabandar-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q20424971",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-fattah-pasha-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q20410871",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-shawy-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q28714673",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-ibn-bunnieh-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12242715",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-umm-al-tabul-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q12204308",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-salman-al-farsi-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q40376648",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-baba-nanak-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q65951969",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-khan-mirjan": {
+      "precision": "site",
+      "source": "wikidata:Q6400089",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-souk-al-safafeer": {
+      "precision": "site",
+      "source": "wikidata:Q6802795",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-shorja-market": {
+      "precision": "site",
+      "source": "wikidata:Q6807626",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-mutanabbi-street": {
+      "precision": "site",
+      "source": "wikidata:Q2562384",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-rashid-street": {
+      "precision": "site",
+      "source": "wikidata:Q4704687",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-al-maidan-square": {
+      "precision": "site",
+      "source": "wikidata:Q120765111",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-bataween": {
+      "precision": "settlement",
+      "source": "wikidata:Q130467025",
+      "flags": [
+        "shares-point:site-baghdad-shamash-school"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-sourp-asdvadzadzin": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:sourp-asdvadzadzin",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-om-al-ahzan-church": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:om-al-ahzan-church",
+      "flags": [
+        "shares-point:site-baghdad-syriac-catholic-immaculate"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-latin-st-joseph": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:latin-st-joseph",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-syriac-catholic-immaculate": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:syriac-catholic-immaculate",
+      "flags": [
+        "shares-point:site-baghdad-om-al-ahzan-church"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-armenian-sacred-heart": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:armenian-sacred-heart",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-st-gregory-armenian-cathedral": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:st-gregory-armenian-cathedral",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-chaldean-st-joseph-karrada": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:chaldean-st-joseph-karrada",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-queen-of-the-rosary": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:queen-of-the-rosary",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-st-peter-and-paul-cathedral": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:st-peter-and-paul-cathedral",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-sayidat-al-nejat": {
+      "precision": "site",
+      "source": "mesopotamiaheritage:sayidat-al-nejat",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-great-synagogue": {
+      "precision": "site",
+      "source": "wikidata:Q5600071",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-meir-taweig-synagogue": {
+      "precision": "site",
+      "source": "wikidata:Q5274677",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-shamash-school": {
+      "precision": "settlement",
+      "source": "wikidata:Q7487432",
+      "flags": [
+        "shares-point:site-baghdad-bataween"
+      ],
+      "decision": "downgrade"
+    },
+    "site-baghdad-habibiyah-jewish-cemetery": {
+      "precision": "site",
+      "source": "wikidata:Q130218654",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-baghdadi-museum": {
+      "precision": "site",
+      "source": "wikidata:Q10424690",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-abd-al-karim-qasim-museum": {
+      "precision": "site",
+      "source": "wikidata:Q28716348",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-iraq-museum": {
+      "precision": "site",
+      "source": "wikidata:Q521251",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-white-palace": {
+      "precision": "site",
+      "source": "wikidata:Q114773770",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-rehab-palace": {
+      "precision": "site",
+      "source": "wikidata:Q6831994",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-republican-palace": {
+      "precision": "site",
+      "source": "wikidata:Q3564887",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-royal-cemetery": {
+      "precision": "site",
+      "source": "wikidata:Q16128350",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-baghdad-central-station": {
+      "precision": "site",
+      "source": "wikidata:Q3544831",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-markaziyah-high-school": {
+      "precision": "site",
+      "source": "wikidata:Q6770580",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-university-of-baghdad-campus": {
+      "precision": "site",
+      "source": "wikidata:Q550376",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-baghdad-gymnasium": {
+      "precision": "site",
+      "source": "wikidata:Q7397664",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-sarafiya-bridge": {
+      "precision": "site",
+      "source": "wikidata:Q310579",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-north-gate-war-cemetery": {
+      "precision": "site",
+      "source": "wikidata:Q65242789",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-freedom-monument": {
+      "precision": "site",
+      "source": "wikidata:Q12248479",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-kahramana": {
+      "precision": "site",
+      "source": "wikidata:Q49006231",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-al-shaheed-monument": {
+      "precision": "site",
+      "source": "wikidata:Q310023",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-unknown-soldier-monument": {
+      "precision": "site",
+      "source": "wikidata:Q7752141",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-victory-arch": {
+      "precision": "site",
+      "source": "wikidata:Q1340523",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-al-askari-shrine": {
+      "precision": "site",
+      "source": "wikidata:Q309484",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-qasr-al-ashiq": {
+      "precision": "site",
+      "source": "wikidata:Q5940359",
+      "flags": [
+        "far-from-parent:13.4km"
+      ],
+      "decision": "keep"
+    },
+    "site-salah-al-din-istabulat": {
+      "precision": "site",
+      "source": "wikidata:Q139784348",
+      "flags": [
+        "far-from-parent:32.5km"
+      ],
+      "decision": "keep"
+    },
+    "site-salah-al-din-tell-es-sawwan": {
+      "precision": "approximate",
+      "source": "wikidata:Q7697547",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-sayyid-muhammad-shrine": {
+      "precision": "settlement",
+      "source": "wikidata:Q1029645",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-tikrit-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q109260815",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-salah-al-din-al-arbaeen-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q112666371",
+      "flags": [],
+      "decision": null
+    },
+    "site-salah-al-din-kar-tukulti-ninurta": {
+      "precision": "site",
+      "source": "wikidata:Q165841",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-agrab": {
+      "precision": "approximate",
+      "source": "wikidata:Q1612336",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-ishchali": {
+      "precision": "site",
+      "source": "wikidata:Q3338309",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-choga-mami": {
+      "precision": "approximate",
+      "source": "wikidata:Q3820171",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-abada": {
+      "precision": "approximate",
+      "source": "wikidata:Q56300816",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-rashid": {
+      "precision": "approximate",
+      "source": "wikidata:Q108022469",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-madhur": {
+      "precision": "approximate",
+      "source": "wikidata:Q108047815",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-saadiya": {
+      "precision": "approximate",
+      "source": "wikidata:Q86671285",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-suleimah": {
+      "precision": "site",
+      "source": "wikidata:Q135441002",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-me-turan": {
+      "precision": "site",
+      "source": "wikidata:Q86666193",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-songor": {
+      "precision": "approximate",
+      "source": "wikidata:Q108047701",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-tell-rubeidheh": {
+      "precision": "approximate",
+      "source": "wikidata:Q108047841",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-dastagird": {
+      "precision": "site",
+      "source": "wikidata:Q112246696",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-adhaim-ancient-dam": {
+      "precision": "site",
+      "source": "wikidata:Q115679578",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-hawsh-kuri": {
+      "precision": "site",
+      "source": "wikidata:Q139901467",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-alwand-bridge": {
+      "precision": "site",
+      "source": "wikidata:Q100258194",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-khan-bani-saad": {
+      "precision": "settlement",
+      "source": "wikidata:Q4077311",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-khanaqin-war-cemetery": {
+      "precision": "site",
+      "source": "wikidata:Q70633320",
+      "flags": [],
+      "decision": null
+    },
+    "site-diyala-kifri-bawa-shaswar": {
+      "precision": "settlement",
+      "source": "wikidata:Q2626532",
+      "flags": [],
+      "decision": null
+    }
+  }
+}

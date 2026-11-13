@@ -154,3 +154,8 @@
   .hb-mapx__grid-layout { grid-template-columns: minmax(0, 1fr); }
   .hb-mapx__list { max-height: 20rem; }
 }
+
+/* Map position status: a card without a verified position is listed, never pinned (utils/mapPosition.js). */
+.hb-mappos { display: inline-block; font-size: 0.75rem; line-height: 1.4; }
+.hb-mapx__item .hb-mappos { margin-top: 0.25rem; padding: 0.0625rem 0.375rem; border: 1px dashed currentColor; border-radius: 999px; color: var(--hb-earth-text); }
+.hb-mappos--verified strong { color: var(--hb-ink, inherit); }

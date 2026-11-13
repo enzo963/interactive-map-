@@ -264,3 +264,70 @@ the next day's run shows the change in brackets. Definitions live in `src/utils/
 the same rules as the site (card contract, approved covers, credible sources), and
 `tests/coverage.test.mjs` checks that the totals match the published archive. Use `-- --no-write` to print
 without updating the files.
+
+## Field-completeness queue
+
+`npm run report:fields` (rules in `src/utils/fieldQueue.js`) writes `reports/fields/field-queue.md` and
+`field-queue.json`. It separates two kinds of gap:
+
+- **Blocking**: a required field of the card contract is missing (description, category, period or
+  `period_status: not-established`, a credible source, a recognised governorate, ID, name, status, image
+  status), or an image the site shows lacks its credit, licence, source page or, for Creative Commons, its
+  licence link. Blocking problems are fixed first and cannot be waived.
+- **Enrichment**: place description, coordinates, period, a second credible source, alternative names,
+  primary image (worked in the image queue), estimated year, preservation status, UNESCO status. These never
+  hide a card. They are worked in passes, one field across all cards, highest-value cards first, each
+  attempt time-boxed. A gap that cannot be filled in its time box is recorded as `not-found` in
+  `tools/content-pipeline/data/fields/field-decisions.json` and leaves the queue.
+
+The report's next batch lists each card at most once, so a batch never becomes perfecting one card.
+`tests/field-queue.test.mjs` checks the rules; the script exits 1 if an approved record is blocked.
+
+## Search discoverability
+
+Search (`src/utils/search.js`) matches every query word against the start of a word in a card's
+names, aliases, governorate, location text, type, period and tradition. It folds punctuation,
+apostrophes and Arabic letter forms, tolerates common transliterations (Tell/Tal, Sheikh/Shaykh,
+Qal'at/Kalat, Kadhimiya/Kazimiya, Ashur/Assur) and knows equivalent terms in English, transliterated
+Arabic, Kurdish and Arabic (mosque/masjid/جامع, castle/qala/قلعة, Abbasid/عباسي). Every governorate
+is searchable however it is written (Hawler, Slemani, Ninawa, دهوك …).
+
+`npm run check:search` runs, for every record from a discovery batch, the searches a visitor would
+type (name and its variants, each alias, name plus governorate spellings, category and its plural and
+Arabic, period in English and Arabic), plus the real-world searches in
+`tests/fixtures/search-expectations.json`. Add a line there whenever a search should have found a card
+and did not. If a card cannot be found because a well-known name is missing, add it to the record's
+`alternativeNames`. `tests/search-discoverability.test.mjs` runs the same checks and guards against
+spelling tolerance returning unrelated cards.
+
+## Controlled values (governorate and site type)
+
+Each record stores one canonical governorate (`GOVERNORATE_NAMES` in `src/data/governorates.js`) and one
+controlled site type (`CATEGORIES` in `src/data/categories.js`). Alternative spellings never go into a
+record's `governorate` or `category`. They are listed once, in those files (`ALTERNATIVE_NAMES`,
+`CATEGORY_ALIASES`): Ninewa, Ninawa Governorate, Nīnawā, نينوى and هەولێر all resolve to their
+governorate, and "Mosque and Minaret" or "mosques" to Mosque. A site's own other names stay in its
+`alternativeNames`.
+
+The site adapter and the map editor's save API store or show the canonical value, so a variant never
+becomes a separate filter option. `npm run check:values` lists records whose value is a variant or unknown.
+`npm run check:values -- --write` stores the canonical value for recognised variants. Unknown values are never guessed: correct
+the record or add the spelling to the alias table. `tests/controlled-values.test.mjs` checks that every
+card appears under exactly its own governorate and type filters.
+
+## Map positions
+
+Only a verified position becomes a pin (`src/utils/mapPosition.js`): a point of the site itself
+(`coordinates_precision: "site"`) with a recorded `coordinates_source`. A point known only to the town,
+neighbourhood or area (`settlement` or `approximate`) is kept in the record but not drawn. A card without
+a verified position is still published: the Map list and Site Details say "Approximate area only" or "No
+map position yet". Coverage and the field queue count verified positions only.
+
+`python3 tools/content-pipeline/verify_coordinates.py` checks every recorded point. It checks that the
+source and precision are recorded and that the point is in Iraq. For a Wikidata source, it checks that
+the item still gives the same point, is the site itself and lies in the card's governorate. It also
+flags points shared with an unrelated card, components far from their parent site, and site points
+rounded to one decimal. Each flag needs a manual decision in
+`tools/content-pipeline/data/coordinates/coordinate-decisions.json`: `keep` (with the reason),
+`downgrade` (precision lowered so the point is no pin) or `remove`. `tests/map-position.test.mjs` fails
+while a flag is undecided or two unrelated pins share a point.

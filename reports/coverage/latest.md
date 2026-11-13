@@ -1,27 +1,27 @@
-# Governorate coverage — 2026-11-11
+# Governorate coverage — 2026-11-13
 
-**Lagging: Diyala** — ranked last on the mean of its approved, primary-image, gallery, coordinate and multiple-source shares of published cards (8%).
-No earlier snapshot yet; changes appear from the next day the report is run.
+**Lagging: Diyala** — ranked last on the mean of its approved, primary-image, gallery, coordinate and multiple-source shares of published cards (5%).
+Changes in brackets are since 2026-11-11.
 
 | Rank | Governorate | Score | Discovered | Approved | Published | Primary image | Gallery | Coordinates | Multiple sources | Needs review |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Baghdad | 38% | 91 | 6 · 7% | 91 | 44 · 48% | 13 · 14% | 81 · 89% | 31 · 34% | 85 |
-| 2 | Salah al-Din | 23% | 34 | 5 · 15% | 33 | 8 · 24% | 6 · 18% | 10 · 30% | 9 · 27% | 28 |
-| 3 | Nineveh | 22% | 167 | 7 · 4% | 166 | 28 · 17% | 11 · 7% | 89 · 54% | 51 · 31% | 160 |
-| 4 | Duhok | 19% | 57 | 3 · 5% | 57 | 6 · 11% | 2 · 4% | 26 · 46% | 16 · 28% | 54 |
-| 5 | Erbil | 17% | 69 | 4 · 6% | 69 | 8 · 12% | 2 · 3% | 24 · 35% | 22 · 32% | 65 |
-| 6 | Kirkuk | 16% | 32 | 5 · 16% | 32 | 3 · 9% | 1 · 3% | 6 · 19% ▼ | 10 · 31% | 27 |
-| 7 | Anbar | 12% | 33 | 0 · 0% ▼ | 33 | 1 · 3% | 0 · 0% ▼ | 8 · 24% | 10 · 30% | 33 |
-| 8 | Sulaymaniyah | 11% | 105 | 4 · 4% | 105 | 18 · 17% | 1 · 1% | 24 · 23% | 10 · 10% ▼ | 101 |
-| 9 | Diyala | 8% | 96 | 0 · 0% ▼ | 96 | 0 · 0% ▼ | 0 · 0% ▼ | 18 · 19% ▼ | 18 · 19% | 96 |
-|  | All nine |  | 684 | 34 | 682 | 116 | 36 | 286 | 177 | 649 |
+| 1 | Baghdad | 38% | 91 | 6 · 7% | 91 | 52 · 57% (+8) | 13 · 14% | 71 · 78% (-10) | 31 · 34% | 85 |
+| 2 | Nineveh | 23% | 167 | 7 · 4% | 166 | 41 · 25% (+13) | 11 · 7% | 80 · 48% (-9) | 51 · 31% | 160 |
+| 3 | Salah al-Din | 22% | 34 | 5 · 15% | 33 | 10 · 30% (+2) | 6 · 18% | 7 · 21% (-3) | 9 · 27% | 28 |
+| 4 | Kirkuk | 18% | 32 | 5 · 16% | 32 | 6 · 19% (+3) | 1 · 3% | 6 · 19% | 10 · 31% | 27 |
+| 5 | Erbil | 16% | 69 | 4 · 6% | 69 | 10 · 14% (+2) | 2 · 3% | 18 · 26% (-6) | 22 · 32% | 65 |
+| 6 | Duhok | 13% | 57 | 3 · 5% | 57 | 9 · 16% (+3) | 2 · 4% | 8 · 14% (-18) | 16 · 28% | 54 |
+| 7 | Sulaymaniyah | 11% | 105 | 4 · 4% | 105 | 21 · 20% (+3) | 1 · 1% | 22 · 21% (-2) | 10 · 10% ▼ | 101 |
+| 8 | Anbar | 8% | 33 | 0 · 0% ▼ | 33 | 1 · 3% | 0 · 0% ▼ | 3 · 9% (-5) | 10 · 30% | 33 |
+| 9 | Diyala | 5% | 96 | 0 · 0% ▼ | 96 | 0 · 0% ▼ | 0 · 0% ▼ | 8 · 8% (-10) ▼ | 18 · 19% | 96 |
+|  | All nine |  | 684 | 34 | 682 | 150 | 36 | 223 | 177 | 649 |
 
 Percentages are shares of the governorate’s published cards; ▼ marks the weakest governorate on that measure.
 
 ## To bring Diyala to the median governorate
 
-- Primary image: 12 more cards (median 12%)
-- Coordinates: 12 more cards (median 30%)
+- Primary image: 18 more cards (median 19%)
+- Coordinates: 13 more cards (median 21%)
 - Multiple sources: 12 more cards (median 30%)
 - Approved: 6 more cards (median 5%)
 - Gallery: 3 more cards (median 3%)
@@ -31,7 +31,7 @@ Percentages are shares of the governorate’s published cards; ▼ marks the wea
 - Approved: Diyala (0 of 96, 0%); Anbar (0 of 33, 0%)
 - Primary image: Diyala (0 of 96, 0%)
 - Gallery: Diyala (0 of 96, 0%); Anbar (0 of 33, 0%)
-- Coordinates: Kirkuk (6 of 32, 19%); Diyala (18 of 96, 19%)
+- Coordinates: Diyala (8 of 96, 8%)
 - Multiple sources: Sulaymaniyah (10 of 105, 10%)
 
 ## Definitions

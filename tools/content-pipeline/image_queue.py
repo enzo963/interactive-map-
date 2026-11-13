@@ -60,6 +60,7 @@ REASONS = {
     'no-free-photograph': 'The site’s item has no freely licensed photograph of usable size (P18 or Commons category).',
     'only-unrelated-images': 'The available free images do not show the site itself (other places, objects, maps or people).',
     'not-recognisable': 'The free photographs are too distant, dark, small or obstructed to recognise the site at card size.',
+    'identity-uncertain': 'A free photograph exists, but its own description does not establish that it shows this site.',
 }
 
 
@@ -217,7 +218,11 @@ def is_settlement_card(record):
 GENERIC = set('mosque church shrine tomb mausoleum castle citadel market bazaar souk suq house palace tell tepe temple monastery '
               'school madrasa bridge gate minaret tower clock old city great site ruins archaeological cave reliefs relief rock '
               'canal hill mound dome cemetery museum building quarter street square khan baths bath hammam convent cathedral '
-              'chaldean syriac orthodox catholic armenian assyrian imam prophet nabi sheikh shaykh mar saint st'.split())
+              'chaldean syriac orthodox catholic armenian assyrian imam prophet nabi sheikh shaykh mar saint st '
+              # place names: two different sites in one city share them, so they never identify a site
+              'iraq kurdistan nineveh ninawa mosul duhok dohuk zakho amedi amadiya akre erbil arbil hawler hewler koya shaqlawa '
+              'ankawa sulaymaniyah slemani halabja kirkuk salah din tikrit samarra baiji anbar ramadi fallujah anah hit rawa haditha '
+              'diyala baqubah khanaqin baghdad kadhimiya adhamiya rusafa karkh'.split())
 IRAQ = (29.0, 37.5, 38.7, 48.8)
 
 
@@ -242,7 +247,11 @@ def in_iraq(entity):
     coords = [(c['latitude'], c['longitude']) for c in claim_values(entity, 'P625') if isinstance(c, dict)]
     if coords:
         return any(IRAQ[0] <= lat <= IRAQ[1] and IRAQ[2] <= lon <= IRAQ[3] for lat, lon in coords)
-    return 'Q796' in claim_values(entity, 'P17') or 'iraq' in json.dumps(entity.get('descriptions', {})).lower()
+    return 'Q796' in claim_values(entity, 'P17')  # a description mentioning Iraq is not enough
+
+
+def nearest_governorate(point):
+    return min(CENTRES, key=lambda gov: km(point, CENTRES[gov]))
 
 
 def card_names(record):
@@ -297,9 +306,8 @@ def resolve_item(record, prior_qid):
             how = f'name match near the card ({distance:.1f} km)'
             needed = 0.34
         else:
-            centre = CENTRES.get(record.get('governorate'))
-            if coords and centre and min(km(centre, c) for c in coords) > 160:
-                continue
+            if coords and not any(nearest_governorate(c) == record.get('governorate') for c in coords):
+                continue  # an item with the same name in another governorate is a different place
             how = 'name match of an item in Iraq'
             needed = 0.6  # without coordinates to confirm, the names must agree closely
         if score >= needed and score > best_score:

@@ -21,6 +21,10 @@ class NameMatch(unittest.TestCase):
     def test_a_shared_generic_word_is_not_a_match(self):
         self.assertEqual(iq.name_match(['Great Mosque of Amedi'], entity(['Great Mosque of Samarra'])), 0)
 
+    def test_a_shared_city_name_is_not_a_match(self):
+        # Mar Touma and Al-Tahira are different Syriac Catholic churches in Mosul.
+        self.assertEqual(iq.name_match(['Mar Touma Syriac Catholic Church, Mosul'], entity(['Al-Tahira Syriac Catholic Church Mosul'])), 0)
+
     def test_a_distinctive_word_matches(self):
         self.assertGreater(iq.name_match(['Al-Wazir Mosque'], entity(['Al-Wazeer Mosque', 'Wazir Mosque'])), 0.5)
 
@@ -35,10 +39,15 @@ class Place(unittest.TestCase):
         self.assertFalse(iq.in_iraq(entity(['Qishla'], coords=(38.1, 46.3))))
         self.assertTrue(iq.in_iraq(entity(['Qushla'], coords=(33.34, 44.39))))
         self.assertTrue(iq.in_iraq(entity(['X'], country='Q796')))
+        self.assertFalse(iq.in_iraq(entity(['Bukan castle'], description='castle in Iran near the Iraqi border')))
 
     def test_settlements_are_only_for_settlement_cards(self):
         self.assertFalse(iq.is_settlement_card({'category': 'Mosque'}))
         self.assertTrue(iq.is_settlement_card({'category': 'Historic City'}))
+
+    def test_a_same_name_item_in_another_governorate_is_not_the_site(self):
+        self.assertEqual(iq.nearest_governorate((35.4688, 44.3955)), 'Kirkuk')  # Prophet Daniel mosque, Kirkuk Citadel
+        self.assertEqual(iq.nearest_governorate((36.34, 43.13)), 'Nineveh')
 
     def test_distance(self):
         self.assertAlmostEqual(iq.km((33.34, 44.38), (33.34, 44.38)), 0)
@@ -57,7 +66,7 @@ class Importance(unittest.TestCase):
         self.assertIn('tier 1 source', why)
 
     def test_flag_reasons_are_explained(self):
-        for key in ('no-wikidata-item', 'no-free-photograph', 'only-unrelated-images', 'not-recognisable'):
+        for key in ('no-wikidata-item', 'no-free-photograph', 'only-unrelated-images', 'not-recognisable', 'identity-uncertain'):
             self.assertTrue(iq.REASONS[key])
 
 
