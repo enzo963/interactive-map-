@@ -138,6 +138,7 @@
   background: var(--hb-sand);
   border: 1px solid var(--card-rule);
 }
+.hb-card__photo { position: absolute; inset: 0; }
 .hb-card__media picture { display: contents; }
 .hb-card__image {
   position: absolute;
@@ -288,7 +289,6 @@
     border-color: var(--hb-terracotta);
     box-shadow: 0 1px 0 rgba(29, 33, 30, 0.2), 0 18px 22px -16px rgba(29, 33, 30, 0.55);
   }
-  .hb-card[data-linked='true']:hover .hb-card__image { transform: scale(1.03); }
   .hb-card[data-linked='true']:hover .hb-card__cta { opacity: 1; transform: none; }
 }
 .hb-card[data-linked='true']:focus-within { border-color: var(--hb-terracotta); }
@@ -299,6 +299,12 @@
 /* Small cards (two-column phone grids, hero stacks): the whole card is the link, so the label
    would only cover the image; letter-spacing tightens so header and footer text fit whole. */
 @container (max-width: 13rem) {
+  .hb-card__frame { inset: 1.75cqw; padding: 1.5cqw; gap: .75cqw; }
+  .hb-card__top { padding-bottom: 1cqw; }
+  .hb-card__foot { padding-top: 1cqw; }
+  .hb-card__body { gap: .5cqw; }
+  .hb-card__title { font-size: clamp(.75rem, 7cqw, .875rem); }
+  .hb-card__category { font-size: .5rem; }
   .hb-card__cta { display: none; }
   .hb-card__type-name, .hb-card__rank, .hb-card__brand { letter-spacing: 0.04em; }
 }

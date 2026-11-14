@@ -7,6 +7,12 @@ import { mapPosition } from './mapPosition';
 import { resolveImage } from './resolveImage';
 import slugify from './slugify';
 import { normalizeModelResources } from './modelResources';
+import { normalizePhotogrammetryProjects } from './photogrammetry';
+import { normalizeComparisons } from './comparisons';
+import { normalizeHeritageExperience } from './heritageExperience';
+import { normalizeHeritageMedia, getRestrictedHeritageMediaUrls, MEDIA_TYPES } from './heritageMedia';
+import { safeUrl } from './urls';
+import { attributionFields, mediaKey } from './mediaAttribution';
 
 /**
  * Maps canonical sites.json fields to the existing component API. Legacy field
@@ -39,12 +45,6 @@ const toCoordinate = (v) => {
   if (v === null || v === undefined || v === '') return null;
   const n = Number(v);
   return Number.isFinite(n) ? n : null;
-};
-
-const safeUrl = (url, { allowRelative = false } = {}) => {
-  const value = text(url);
-  if (/^https?:\/\//i.test(value)) return value;
-  return allowRelative && value.startsWith('/') && !value.startsWith('//') ? value : '';
 };
 
 const unique = (items) => {
@@ -94,10 +94,11 @@ function normalizeGallery(gallery, name) {
         credit: isObject ? text(item.credit) : '',
         license: isObject ? text(item.license ?? item.licence) : '',
         // Preserve explicit image review metadata for publication-aware consumers.
-        ...(isObject ? Object.fromEntries(
-          ['siteId', 'license_status', 'licenseStatus', 'license_url', 'license_review', 'license_tracking', 'publication_approval', 'sourceName', 'sourceUrl', 'source_name', 'source_url', 'source_observations', 'variants', 'focus']
-            .filter((key) => Object.hasOwn(item, key)).map((key) => [key, item[key]]),
-        ) : {}),
+        ...(isObject ? {
+          ...attributionFields(item),
+          ...(Object.hasOwn(item, 'variants') ? { variants: item.variants } : {}),
+          ...(Object.hasOwn(item, 'focus') ? { focus: item.focus } : {}),
+        } : {}),
       };
     })
     .filter(Boolean);
@@ -135,25 +136,12 @@ function normalizeSources(sources) {
       url: safeUrl(item.url ?? item.link),
       evidenceId: text(item.evidenceId) || null,
       accessedAt: sourceAccessDate(item.accessedAt),
+      accessLevel: ['search-snippet', 'full-text'].includes(item.accessLevel) ? item.accessLevel : null,
       // Compatibility fields keep the existing Sources component unchanged.
       title: text(item.title) || sourceName,
       detail: text(item.detail) || [item.author, item.publisher, item.year].filter(Boolean).join(', '),
     };
   }).filter(Boolean);
-}
-
-/** Optional. Only renders if sites.json actually has a `timeline` array. */
-function normalizeTimeline(timeline) {
-  if (!Array.isArray(timeline)) return [];
-  return timeline
-    .map((item) => {
-      if (!item || typeof item !== 'object') return null;
-      const when = item.year ?? item.date ?? item.period ?? '';
-      const title = item.title ?? item.label ?? item.event ?? '';
-      if (!title && !when) return null;
-      return { when: String(when), title: String(title), description: item.description ?? '' };
-    })
-    .filter(Boolean);
 }
 
 /**
@@ -178,6 +166,7 @@ function normalizeDigitalAssets(assets) {
         description: text(item.description),
         credit: text(item.credit),
         license: text(item.license ?? item.licence),
+        ...attributionFields(item),
       };
     })
     .filter(Boolean);
@@ -197,6 +186,20 @@ function normalizeDocumentation(doc) {
 }
 
 const pad = (n, length = 4) => String(n).padStart(length, '0');
+
+/** Optional. Only renders if sites.json actually has a `timeline` array. */
+function normalizeTimeline(timeline) {
+  if (!Array.isArray(timeline)) return [];
+  return timeline
+    .map((item) => {
+      if (!item || typeof item !== 'object') return null;
+      const when = item.year ?? item.date ?? item.period ?? '';
+      const title = item.title ?? item.label ?? item.event ?? '';
+      if (!title && !when) return null;
+      return { when: String(when), title: String(title), description: item.description ?? '' };
+    })
+    .filter(Boolean);
+}
 
 /** Normalizes the whole dataset. Accepts [..] or { sites: [..] }. */
 export function normalizeSites(input) {
@@ -221,10 +224,15 @@ export function normalizeSites(input) {
     const galleryInput = separateImages
       ? (Array.isArray(raw.galleryImages) ? raw.galleryImages : [])
       : legacyImages ? raw.images : (Array.isArray(raw.gallery) ? raw.gallery : []);
-    const gallery = normalizeGallery(galleryInput, name);
+    const restrictedMedia = getRestrictedHeritageMediaUrls(raw);
+    const gallery = normalizeGallery(galleryInput, name).filter((image) => !restrictedMedia.has(mediaKey(image.src)));
     const coverInput = separateImages ? raw.coverImage : legacyImages ? raw.images[0] : raw.main_image || galleryInput[0];
-    const coverImage = normalizeGallery(coverInput ? [coverInput] : [], name)[0] ?? null;
+    const coverImage = normalizeGallery(coverInput ? [coverInput] : [], name).find((image) => !restrictedMedia.has(mediaKey(image.src))) ?? null;
     const images = [coverImage, ...gallery].filter((image, i, all) => image && all.findIndex((other) => other?.src === image.src) === i);
+    const heritageMedia = normalizeHeritageMedia(raw);
+    for (const resource of heritageMedia.filter((item) => MEDIA_TYPES.find((type) => type.id === item.type)?.isImage)) {
+      if (!images.some((image) => image.src === resource.src)) images.push(resource);
+    }
     const deckIds = normalizeDeckIds(raw.decks ?? raw.deck_ids);
     const ageYears = getSiteAgeYears(raw);
 
@@ -236,8 +244,9 @@ export function normalizeSites(input) {
     const canonicalUnesco = typeof unescoValue === 'boolean' ? unescoValue : isUnesco ? true
       : UNESCO_NEGATIVE_VALUES.includes(unescoText) && !['', 'unknown', 'n/a', 'na'].includes(unescoText) ? false : null;
 
-    const heritageStatus = String(raw.heritage_status ?? '').toLowerCase();
-    const isLost = deckIds.includes('lost') || deckIds.includes('lost-heritage') || /\b(lost|destroyed)\b/.test(heritageStatus);
+    const { preservation, storySections, historicalEvents } = normalizeHeritageExperience(raw);
+    const isLost = (preservation.verified && ['destroyed', 'lost', 'disappeared', 'heavily-damaged'].includes(preservation.state))
+      || historicalEvents.some((event) => event.type === 'destruction');
 
     // Digital assets: evidence-based flags
     const digitalAssets = normalizeDigitalAssets(raw.digital_assets);
@@ -250,11 +259,17 @@ export function normalizeSites(input) {
       digitalAssets.find((a) => VIDEO_ASSET_TYPES.has(a.typeKey) && a.url)?.url ||
       '';
     const documentationMeta = normalizeDocumentation(raw.documentation);
-    const ourWorkTypes = unique([...toList(raw.our_work_types), ...(documentationMeta?.methods ?? [])]);
 
-    // Controlled values in their canonical spelling, so a variant never forms its own filter option.
     const siteType = normalizeCategory(raw.category ?? raw.site_type) ?? text(raw.category ?? raw.site_type);
-    const modelResources = normalizeModelResources(raw);
+    const modelResources = normalizeModelResources({ ...raw, digital_assets: [
+      ...(Array.isArray(raw.digital_assets) ? raw.digital_assets : []),
+      ...heritageMedia.filter((resource) => resource.type === '3d'),
+    ] });
+    const photogrammetryProjects = normalizePhotogrammetryProjects(raw, { images, modelResources });
+    const ownProjects = photogrammetryProjects.filter((project) => project.ourWork && project.status !== 'planned'
+      && (project.models.length || project.images.length || project.documents.length));
+    const ourWorkTypes = unique([...toList(raw.our_work_types), ...(documentationMeta?.methods ?? []), ...(ownProjects.length ? ['Photogrammetry'] : [])]);
+    const comparisons = normalizeComparisons(raw, images);
     const hasModel = hasValue(raw.has3D ?? raw.has_3d) || Boolean(modelUrl) || modelResources.length > 0;
 
     return {
@@ -275,6 +290,7 @@ export function normalizeSites(input) {
       siteType,
       category: siteType,
       period: raw.period ?? raw.historical_period ?? raw.civilization ?? '',
+      recordedPeriod: raw.period ?? raw.historical_period ?? '',
       civilization: raw.civilization ?? '',
       dateLabel: formatYearLabel(raw.estimated_year),
       ageYears,
@@ -293,6 +309,9 @@ export function normalizeSites(input) {
       heritageStatus: raw.heritage_status ?? '',
       unescoStatus: typeof raw.unesco_status === 'string' ? raw.unesco_status : '',
       preservationStatus: text(raw.preservation_status),
+      preservation,
+      storySections,
+      historicalEvents,
       status: raw.status ?? raw.verification_status ?? '',
       verificationStatus: raw.verification_status ?? raw.status ?? '',
       lastVerified: formatDate(raw.last_verified ?? raw.verified_on),
@@ -306,7 +325,11 @@ export function normalizeSites(input) {
       images,
       modelUrl,
       modelResources,
+      photogrammetryProjects,
+      comparisons,
+      heritageMedia,
       videoUrl,
+      videoResource: digitalAssets.find((asset) => asset.url === videoUrl) || { url: videoUrl },
       digitalAssets,
       documentationMeta,
       ourWorkTypes,
@@ -324,7 +347,7 @@ export function normalizeSites(input) {
       hasModel,
       has3D: hasModel ? true : typeof (raw.has3D ?? raw.has_3d) === 'boolean' ? false : null,
       hasVideo: hasValue(raw.has_video) || Boolean(videoUrl),
-      hasOurWork: hasValue(raw.our_work) || ourWorkTypes.length > 0 || documentationMeta !== null,
+      hasOurWork: hasValue(raw.our_work) || ourWorkTypes.length > 0 || documentationMeta !== null || ownProjects.length > 0,
       isFeatured: raw.featured === true,
     };
   });

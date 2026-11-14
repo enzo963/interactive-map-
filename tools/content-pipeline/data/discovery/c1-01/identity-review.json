@@ -1,0 +1,352 @@
+{
+  "exactMerges": [],
+  "possibleIdentityPairs": [
+    {
+      "candidateIds": [
+        "c1-3ce9c4d1d40c",
+        "c1-c6372fc6c143"
+      ],
+      "names": [
+        "Muqable I",
+        "Muqable III"
+      ],
+      "governorate": "Duhok",
+      "reason": "similar primary names",
+      "similarity": 0.889,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-d906d74a90ed",
+        "c1-741cd1177add"
+      ],
+      "names": [
+        "Telul eth-Thalathat",
+        "Telul eth-Thalathat I"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.971,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-d906d74a90ed",
+        "c1-0f542528d761"
+      ],
+      "names": [
+        "Telul eth-Thalathat",
+        "Telul eth-Thalathat II"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.944,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-d906d74a90ed",
+        "c1-6fed0b54cf98"
+      ],
+      "names": [
+        "Telul eth-Thalathat",
+        "Telul eth-Thalathat V"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.971,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-741cd1177add",
+        "c1-0f542528d761"
+      ],
+      "names": [
+        "Telul eth-Thalathat I",
+        "Telul eth-Thalathat II"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.973,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-741cd1177add",
+        "c1-6fed0b54cf98"
+      ],
+      "names": [
+        "Telul eth-Thalathat I",
+        "Telul eth-Thalathat V"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.944,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-0f542528d761",
+        "c1-6fed0b54cf98"
+      ],
+      "names": [
+        "Telul eth-Thalathat II",
+        "Telul eth-Thalathat V"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.919,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-79e28d1ca9d6",
+        "c1-f8aa856b13e9"
+      ],
+      "names": [
+        "Yarim Tepe",
+        "Yarim Tepe I"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.947,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-79e28d1ca9d6",
+        "c1-e67a376e3b24"
+      ],
+      "names": [
+        "Yarim Tepe",
+        "Yarim Tepe II"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.9,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-f8aa856b13e9",
+        "c1-e67a376e3b24"
+      ],
+      "names": [
+        "Yarim Tepe I",
+        "Yarim Tepe II"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.952,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-f8aa856b13e9",
+        "c1-560ebcad0bc4"
+      ],
+      "names": [
+        "Yarim Tepe I",
+        "Yarim Tepe III"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-e67a376e3b24",
+        "c1-560ebcad0bc4"
+      ],
+      "names": [
+        "Yarim Tepe II",
+        "Yarim Tepe III"
+      ],
+      "governorate": "Ninewa",
+      "reason": "similar primary names",
+      "similarity": 0.957,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-eab29c39ca5c",
+        "c1-80adcbc269e1"
+      ],
+      "names": [
+        "Shekh Wisal 1",
+        "Shekh Wisal 2"
+      ],
+      "governorate": "Sulaymaniyah",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-8121393787db",
+        "c1-53520677343e"
+      ],
+      "names": [
+        "as-Sara",
+        "as-Saray"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.923,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-e44efc1d7e44",
+        "c1-966dc4acb5c8"
+      ],
+      "names": [
+        "Kheit Qasim",
+        "Kheit Qasim I"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.952,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-e44efc1d7e44",
+        "c1-e9699c8bf7c1"
+      ],
+      "names": [
+        "Kheit Qasim",
+        "Kheit Qasim II"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-966dc4acb5c8",
+        "c1-e9699c8bf7c1"
+      ],
+      "names": [
+        "Kheit Qasim I",
+        "Kheit Qasim II"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.957,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-966dc4acb5c8",
+        "c1-9ae90a189d7a"
+      ],
+      "names": [
+        "Kheit Qasim I",
+        "Kheit Qasim III"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.917,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-e9699c8bf7c1",
+        "c1-9ae90a189d7a"
+      ],
+      "names": [
+        "Kheit Qasim II",
+        "Kheit Qasim III"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.96,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-ea31a82ada92",
+        "c1-01080f5f2d73"
+      ],
+      "names": [
+        "Tell Songor A",
+        "Tell Songor B"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-ea31a82ada92",
+        "c1-fc2ec87fe074"
+      ],
+      "names": [
+        "Tell Songor A",
+        "Tell Songor C"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-01080f5f2d73",
+        "c1-fc2ec87fe074"
+      ],
+      "names": [
+        "Tell Songor B",
+        "Tell Songor C"
+      ],
+      "governorate": "Diyala",
+      "reason": "similar primary names",
+      "similarity": 0.909,
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-3624d24da0b8",
+        "c1-0d82fd255bbc"
+      ],
+      "names": [
+        "Khibet al-Qasim",
+        "Tell Abu Qasim"
+      ],
+      "governorate": "Diyala",
+      "reason": "Possible transcription/identity conflict flagged in regional research.",
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-adf1c430decc",
+        "c1-96a7b546bc14"
+      ],
+      "names": [
+        "Kumeideh",
+        "ar-Rubeideh"
+      ],
+      "governorate": "Diyala",
+      "reason": "Map number 44/prose Rubeidheh versus map number 69: inspect original map; do not merge by spelling.",
+      "resolution": "needs-human-review; not merged"
+    },
+    {
+      "candidateIds": [
+        "c1-b6d19bc7c661",
+        "c1-41a6649837c1"
+      ],
+      "names": [
+        "Quchika Tepe",
+        "Tell Haji"
+      ],
+      "governorate": "Sulaymaniyah",
+      "reason": "Compare survey identifiers across inventories; equivalence not established.",
+      "resolution": "needs-human-review; not merged"
+    }
+  ]
+}

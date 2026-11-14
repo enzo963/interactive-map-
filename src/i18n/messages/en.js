@@ -260,7 +260,7 @@ export default {
   'about.eyebrow': 'About the archive',
   'about.title': 'A digital heritage archive, one card at a time',
   'about.lede':
-    'Heritage Bridge is an interactive archive of historical, archaeological, architectural and cultural heritage sites in Iraq, beginning with the north.',
+    'History in Cards is an interactive archive of historical, archaeological, architectural and cultural heritage sites in Iraq, beginning with the north.',
   'about.readTitle': 'How to read a card',
   'about.legend.archive.term': 'Archive number',
   'about.legend.archive.text':

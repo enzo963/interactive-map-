@@ -1,0 +1,2104 @@
+[
+  {
+    "name": "Rusafa Tigris heritage ensemble",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Description",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Ensemble; tentative nomination, not inscription."
+  },
+  {
+    "name": "Al-Mustansiriya Madrasa",
+    "alternativeNames": [
+      "Mustansiriyya",
+      "Al-Mustansiriya School"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Al-Mustansiriya school",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Asifiyah Mosque",
+    "alternativeNames": [
+      "Alasifyah Mosque"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Alasifyah Mosque",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Wazir Mosque",
+    "alternativeNames": [
+      "Al-Wazeer Mosque"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Al-wazir Mosque",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Arashdiya Military School",
+    "alternativeNames": [
+      "Old Courts",
+      "Al-Rushdiya Military School"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Al-Arashdiya military school",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Old Saray complex",
+    "alternativeNames": [
+      "Asaray",
+      "Al-Saray"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Old ASaray buildings complex",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Parent complex."
+  },
+  {
+    "name": "Al-Qishla",
+    "alternativeNames": [
+      "Al-Qushla",
+      "Al-Qishleh"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Al-Qushla Building",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Old Saray complex."
+  },
+  {
+    "name": "Qishla Clock Tower",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Tower and clock of Al-Qishleh",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Al-Qishla."
+  },
+  {
+    "name": "Old Council of Ministers building",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Old building of Council of Ministers",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Old Saray complex."
+  },
+  {
+    "name": "Saray Gateway",
+    "alternativeNames": [
+      "Iwan Asaray",
+      "Ewan Asaray"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "ASaray Gateway",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Old Saray complex."
+  },
+  {
+    "name": "Old General Police building",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Building of old General Police",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Old Saray complex."
+  },
+  {
+    "name": "Dar al-Wali",
+    "alternativeNames": [
+      "Governor House",
+      "Ministry of Knowledge"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saray",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Al-Wali House",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Old Saray complex."
+  },
+  {
+    "name": "House of Wisdom building",
+    "alternativeNames": [
+      "Bait al-Hikma",
+      "Industries School",
+      "Al-Sanai School",
+      "Al-Aliya School"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Industries School (House of Wisdom)",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Ottoman building; distinct from the lost Abbasid institution."
+  },
+  {
+    "name": "Abbasid Palace",
+    "alternativeNames": [
+      "Al-Qasr al-Abbasi",
+      "Sharabiyya School"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa riverfront",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/5880/",
+        "title": "Baghdad Rusafa tentative ensemble 5880",
+        "institution": "Iraqi Ministry of Tourism and Antiquities / UNESCO WHC",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Abbasid palace",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Khulafa Mosque",
+    "alternativeNames": [
+      "Jami al-Khulafa",
+      "Mosque of the Caliphs"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Murjan Madrasa and Mosque",
+    "alternativeNames": [
+      "Mirjaniyah",
+      "Al-Madrasa al-Mirjaniyah"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Abd al-Qadir al-Gilani complex",
+    "alternativeNames": [
+      "Sheikh Abdul-Qadir al-Gailani",
+      "Qadiriyya"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Zumurrud Khatun Mausoleum",
+    "alternativeNames": [
+      "Zumurrat Khatun",
+      "Sitta Zubayda Mausoleum"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Sheikh Maarouf shrine",
+    "alternativeNames": [
+      "Maruf al-Karkhi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Sheikh Junayd shrine",
+    "alternativeNames": [
+      "Junayd al-Baghdadi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Hallaj shrine",
+    "alternativeNames": [
+      "Al-Halaj"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Babbek shrine",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical site; present survival and exact identity require review."
+  },
+  {
+    "name": "Umar al-Suhrawardi shrine",
+    "alternativeNames": [
+      "Sheikh Omar al-Sahrwardi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Kadhimiyya shrine",
+    "alternativeNames": [
+      "Kadhimain",
+      "Al-Kazimiyya",
+      "Kadhimiya Mosque"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "City of Baghdad",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Khan al-Mahmudiyah",
+    "alternativeNames": [
+      "Khan al-Mahmoudiyah"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Mahmudiyah",
+    "category": "caravanserai",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Khans",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Bab al-Wastani",
+    "alternativeNames": [
+      "Al-Bab al-Wastani",
+      "Middle Gate"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Palaces, Castles, Forts and Walls",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Bab al-Tilsam site",
+    "alternativeNames": [
+      "Bab at-Talsum",
+      "Talisman Gate"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "gate-wall",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Palaces, Castles, Forts and Walls",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historical site; present survival and exact identity require review."
+  },
+  {
+    "name": "Tell al-Dhibai",
+    "alternativeNames": [
+      "Tell al-Dhibayi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Major Excavated Sites",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Tell Muhammad",
+    "alternativeNames": [
+      "Tell Mohammed"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Major Excavated Sites",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      },
+      {
+        "url": "https://buap.unict.it/?page_id=1610",
+        "title": "Tell Muhammad",
+        "institution": "University of Catania / Baghdad Urban Archaeological Project",
+        "sourceType": "university-project",
+        "accessLevel": "search-snippet",
+        "locator": "Project aims",
+        "supports": [
+          "name",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Tell Harmal",
+    "alternativeNames": [
+      "Shaduppum",
+      "Tell Harmel"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "archaeological-tell",
+    "sources": [
+      {
+        "url": "https://iraqheritage.org/other-sites.php",
+        "title": "Other Sites: Iraq heritage inventory",
+        "institution": "Iraq Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Sites with Standing Buildings",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Khan Marjan",
+    "alternativeNames": [
+      "Khan Murjan",
+      "Khan al-Mirjan",
+      "Khan al-Yatim"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Samu al Street, Rusafa",
+    "category": "caravanserai",
+    "sources": [
+      {
+        "url": "https://www.archnet.org/sites/15578",
+        "title": "Khan Marjan",
+        "institution": "Archnet / MIT and Aga Khan documentation",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Location and Additional Names",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Distinct from Murjan Madrasa and Mosque."
+  },
+  {
+    "name": "Aqar Quf",
+    "alternativeNames": [
+      "Dur-Kurigalzu"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Abu Ghraib, west of Baghdad",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "AQAR QUF",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      },
+      {
+        "url": "https://whc.unesco.org/en/tentativelists/6797/",
+        "title": "Archaeological site of Aqar Quf tentative dossier",
+        "institution": "Permanent Delegation of Iraq / UNESCO WHC",
+        "sourceType": "government-submission",
+        "accessLevel": "search-snippet",
+        "locator": "State, Province or Region",
+        "supports": [
+          "name",
+          "governorate"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Aqar Quf Ziggurat",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Aqar Quf",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "AQAR QUF",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Aqar Quf."
+  },
+  {
+    "name": "Tell al-Abyad palace",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Aqar Quf",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "AQAR QUF",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Aqar Quf."
+  },
+  {
+    "name": "Ctesiphon",
+    "alternativeNames": [
+      "Al-Madain",
+      "Al-Mada in"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "South of Baghdad",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "CTESIPHON",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Al-Madain denotes a wider conurbation; alias scope requires review."
+  },
+  {
+    "name": "Seleucia on the Tigris",
+    "alternativeNames": [
+      "Tell Umar",
+      "Seleukeia"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "South of Baghdad",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "CTESIPHON",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Part of the wider Al-Madain conurbation."
+  },
+  {
+    "name": "Veh Ardashir",
+    "alternativeNames": [
+      "Weh Ardashir"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Al-Madain",
+    "category": "ancient-city",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "CTESIPHON",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Part of the wider Al-Madain conurbation."
+  },
+  {
+    "name": "Taq Kisra",
+    "alternativeNames": [
+      "Taq-i Kisra",
+      "Arch of Ctesiphon"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Ctesiphon",
+    "category": "palace",
+    "sources": [
+      {
+        "url": "https://opencontext.org/projects/b0a915f3-43cd-1d81-cc89-043d7e11e7c9",
+        "title": "Iraq Heritage Program",
+        "institution": "Global Heritage Fund / Open Context",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "CTESIPHON",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Component of Ctesiphon."
+  },
+  {
+    "name": "Buratha Mosque",
+    "alternativeNames": [
+      "Baratha"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 22",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Abu Hanifa Mosque",
+    "alternativeNames": [
+      "Imam al-Adham Mosque"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Adhamiya",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 23",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Haydar-Khana Mosque",
+    "alternativeNames": [
+      "Haidar Khana"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 24",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Uthman ibn Said shrine",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Midan",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Muhammad ibn Uthman shrine",
+    "alternativeNames": [
+      "Al-Khillani Mosque"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Khilani Square",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Husayn ibn Ruh shrine",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Shorja",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Ali ibn Muhammad al-Samari shrine",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "shrine",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 27",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Royal Cemetery",
+    "alternativeNames": [
+      "Royal Mausoleum"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Adhamiya",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 34",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "St Teresa Church",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Sinak",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 36",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Armenian White Church",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Tayaran Square",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 37",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "St George Greek Orthodox Church",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Camp Sarah",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 38",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Mandaean Mandi",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Qadisiyah",
+    "category": "other",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 40",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Our Lady of Salvation Church",
+    "alternativeNames": [
+      "Sayidat al-Najat"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Karrada",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 41",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "King Faisal I statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Salhiya",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 43",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Al-Shaheed Monument",
+    "alternativeNames": [
+      "Martyr Monument"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 45",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Kahramana statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Saadoun Street",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 48",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Abd al-Muhsin al-Saadoun statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Nasr Square",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 49",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Abd al-Muhsin al-Kadhimi statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Kadhimiya",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 50",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Mother statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Umma Garden",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 51",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Maruf al-Rusafi statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 52",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Abu Nuwas statue",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Abu Nuwas Street",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 53",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Freedom Monument",
+    "alternativeNames": [
+      "Nasb al-Hurriyah"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Tahrir Square",
+    "category": "monument",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 55",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Hussein Pasha Mosque",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 56",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Souq Haraj",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 56",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Souq al-Saray",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 56",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Shabandar Cafe",
+    "alternativeNames": [
+      "Shahbandar Cafe"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Mutanabbi Street",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 58",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Baghdad Central Railway Station",
+    "alternativeNames": [
+      "World Station"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Karkh",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-5e9720e1-7580-409b-9794-33e444feac15/product-documents/pro-3ee9e8df-820e-460d-903a-5125b2b2f331/4fbd95cf-3eb7-4bed-9b06-4486c0911337.pdf",
+        "title": "Baghdad Tourist Guide 2025",
+        "institution": "Iraqi Tourism Authority (publication hosted by exhibition platform)",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "PDF page 64",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Guide identifies place; dates and present condition not adopted."
+  },
+  {
+    "name": "Iraq Museum",
+    "alternativeNames": [
+      "National Museum of Iraq"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Allawi, Baghdad",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://sbah.gov.iq/museums/",
+        "title": "Museums",
+        "institution": "State Board of Antiquities and Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Iraq Museum",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic museum building; collections are not separate location candidates."
+  },
+  {
+    "name": "Al-Mutanabbi Street",
+    "alternativeNames": [
+      "Mutanabbi Street"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa, Baghdad",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://tourism.gov.iq/en/posts/1a38a5c5-c2ef-46fd-b6a0-d2a119b761aa",
+        "title": "Al Mutanabbi Street",
+        "institution": "Iraqi Tourism Authority",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Named destination",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Al-Rashid Street",
+    "alternativeNames": [
+      "Rasheed Street"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rusafa, Baghdad",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://ina.iq/ar/local/248497-4.html",
+        "title": "Municipality conservation of heritage buildings",
+        "institution": "Iraqi News Agency, quoting Amanat Baghdad",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Rashid Street restoration",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Historic street extent requires mapping."
+  },
+  {
+    "name": "Al-Bataween historic district",
+    "alternativeNames": [
+      "Batawin"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "historic-district",
+    "sources": [
+      {
+        "url": "https://ina.iq/ar/local/248497-4.html",
+        "title": "Municipality conservation of heritage buildings",
+        "institution": "Iraqi News Agency, quoting Amanat Baghdad",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Bataween conservation proposals",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "District extent requires review."
+  },
+  {
+    "name": "Al-Wattar heritage house",
+    "alternativeNames": [
+      "Bayt al-Wattar"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://baghdad.gov.iq/tours-and-meetings/6372.html",
+        "title": "Governor visits Al-Wattar heritage house",
+        "institution": "Baghdad Governorate",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "17 December 2024 statement",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Baghdadi Museum",
+    "alternativeNames": [
+      "Al-Matḥaf al-Baghdadi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://baghdad.gov.iq/tours-and-meetings/5778.html",
+        "title": "Governor and Greek ambassador visit archaeological places",
+        "institution": "Baghdad Governorate",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Museum visit",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Museum building heritage merits require individual review."
+  },
+  {
+    "name": "Mary Mother of Sorrows Church",
+    "alternativeNames": [
+      "Um al-Ahzan",
+      "Om Al-Ahzan"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Aqd al-Nasara, Shorja",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/leglise-om-al-ahzane-mere-des-douleurs-de-bagdad/",
+        "title": "Church of Mary Mother of Sorrows",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Location; Name",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Possible identity overlap with guide designation Chaldean Virgin Mary; not entered twice."
+  },
+  {
+    "name": "Our Lady of Narek Cathedral",
+    "alternativeNames": [
+      "Our Lady of the Rosary"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Karrada",
+    "category": "church",
+    "sources": [
+      {
+        "url": "https://www.mesopotamiaheritage.org/en/monuments/la-cathedrale-armenienne-catholique-notre-dame-de-narek-notre-dame-du-rosaire-de-bagdad/",
+        "title": "Armenian Catholic Cathedral Our Lady of Narek",
+        "institution": "Mesopotamia Heritage",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Location; introduction",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Modern religious architecture documented by a heritage organization; designation unconfirmed."
+  },
+  {
+    "name": "Meir Tweig Synagogue",
+    "alternativeNames": [
+      "Meir Taweig",
+      "Meir Tweg"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "other",
+    "sources": [
+      {
+        "url": "https://www.foundationforjewishheritage.com/post/unprecedented-mapping-of-the-endangered-jewish-heritage-of-iraq-and-syria",
+        "title": "Mapping endangered Jewish heritage",
+        "institution": "Foundation for Jewish Heritage / ASOR",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Four priority sites",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Synagogue; detailed locality and present condition require review."
+  },
+  {
+    "name": "Al-Habibiyah Jewish Cemetery",
+    "alternativeNames": [
+      "Habibiya Jewish Cemetery"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.foundationforjewishheritage.com/post/unprecedented-mapping-of-the-endangered-jewish-heritage-of-iraq-and-syria",
+        "title": "Mapping endangered Jewish heritage",
+        "institution": "Foundation for Jewish Heritage / ASOR",
+        "sourceType": "institutional-publication",
+        "accessLevel": "full-text",
+        "locator": "Four priority sites",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Baghdad North Gate War Cemetery",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "North Baghdad",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.cwgc.org/media/ym4d5nqj/annual-report-2021-2022.pdf",
+        "title": "Annual Report 2021–2022",
+        "institution": "Commonwealth War Graves Commission",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "A new legacy in Iraq, p24",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Alwiya Indian War Cemetery",
+    "alternativeNames": [
+      "Alwiyah"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Baghdad",
+    "category": "cemetery",
+    "sources": [
+      {
+        "url": "https://www.cwgc.org/media/noantj4i/report-of-the-special-committee-to-review-historical-inequalities-in-commemoration.pdf",
+        "title": "Historical inequalities in commemoration",
+        "institution": "Commonwealth War Graves Commission",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Appendix 1 p59",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": "Exact locality requires review."
+  },
+  {
+    "name": "Tawfiq al-Suwaidi house",
+    "alternativeNames": [
+      "Bayt Tawfiq al-Suwaydi"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Karimat, Haifa Street",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://iasj.rdd.edu.iq/journals/uploads/2025/04/13/6fa91710680074c999bf3907c3cf2e98.pdf",
+        "title": "Rehabilitation of heritage interiors: Tawfiq al-Suwaidi house",
+        "institution": "Iraqi Academic Scientific Journals / Educational Studies 68",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Research spatial scope",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Sultan Ali Mosque",
+    "alternativeNames": [
+      "Sayyid Sultan Ali"
+    ],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://ninanews.com/website/News/Details?key=1317242",
+        "title": "Heritage Directorate documents Rashid Street buildings",
+        "institution": "National Iraqi News Agency, reporting Ministry of Culture",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Named documentation subjects",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Abd al-Rahman al-Naqib house",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Rashid Street",
+    "category": "historic-building",
+    "sources": [
+      {
+        "url": "https://ninanews.com/website/News/Details?key=1317242",
+        "title": "Heritage Directorate documents Rashid Street buildings",
+        "institution": "National Iraqi News Agency, reporting Ministry of Culture",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Named documentation subjects",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  },
+  {
+    "name": "Salman al-Naqib Mosque",
+    "alternativeNames": [],
+    "governorate": "Baghdad",
+    "approximateLocation": "Sinak",
+    "category": "mosque",
+    "sources": [
+      {
+        "url": "https://ninanews.com/website/News/Details?Key=1313376",
+        "title": "Heritage Directorate documents Baghdad buildings",
+        "institution": "National Iraqi News Agency, reporting Ministry of Culture",
+        "sourceType": "institutional-publication",
+        "accessLevel": "search-snippet",
+        "locator": "Named mosque",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "heritage-character"
+        ]
+      }
+    ],
+    "verificationStatus": "candidate-needs-review",
+    "notes": ""
+  }
+]

@@ -5,6 +5,10 @@ export const PRIMARY_NAV = [
   { id: 'decks', label: 'Decks', href: '/decks' },
   { id: 'unesco', label: 'UNESCO', href: '/unesco' },
   { id: 'archive3d', label: '3D Archive', href: '/3d-archive' },
+  { label: 'Timeline', href: '/timeline' },
+  { label: 'Civilizations', href: '/civilizations' },
+  { label: 'Image Archive', href: '/image-archive' },
+  { label: 'Disappeared Heritage', href: '/disappeared-heritage' },
 ];
 
 export const PROJECT_NAV = [

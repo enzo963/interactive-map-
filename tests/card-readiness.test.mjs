@@ -114,6 +114,17 @@ test('cards list their strongest evidence first, keeping the recorded order with
   assert.deepEqual(site.sources.map(({ sourceName }) => sourceName), ['UNESCO', 'Encyclopaedia', 'Second article', 'Lookup', 'Blog']);
 });
 
+test('source normalization preserves recorded access limits and valid dates without inventing access', () => {
+  const [site] = normalizeSites([candidate({ sources: [
+    cite('https://en.wikipedia.org/wiki/X', { accessLevel: 'search-snippet', accessedAt: '2026-11-03' }),
+    cite('https://en.wikipedia.org/wiki/Y', { accessLevel: 'full-text', accessedAt: '2026-11-03T08:30:00Z' }),
+    cite('https://en.wikipedia.org/wiki/Z', { accessedAt: '2026-02-30' }),
+    cite('https://en.wikipedia.org/wiki/A', { accessLevel: 'unknown', accessedAt: 'not a date' }),
+  ] })]);
+  assert.deepEqual(site.sources.map(({ accessLevel }) => accessLevel), ['search-snippet', 'full-text', null, null]);
+  assert.deepEqual(site.sources.map(({ accessedAt }) => accessedAt), ['2026-11-03', '2026-11-03T08:30:00Z', null, null]);
+});
+
 test('the review queue marks weak or uncorroborated evidence without hiding the card', () => {
   const wikipediaOnly = candidate({ sources: [cite('https://en.wikipedia.org/wiki/X')] });
   assert.deepEqual(verificationFlags(wikipediaOnly), ['reference-only']);

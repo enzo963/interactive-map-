@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { getVideoEmbed } from '../../utils/media';
 import { formatDuration } from '../../utils/siteVideos';
+import MediaAttribution from './MediaAttribution';
+import { mediaLicenseState } from '../../utils/mediaAttribution';
 import '../../styles/site-details.css';
 import '../../styles/phase4.css';
 import { currentLocale, t } from '../../i18n';
@@ -90,9 +92,14 @@ export function Timeline({ items }) {
 
 export { default as ModelViewer } from './ModelViewer';
 
-export function VideoPlayer({ url, name }) {
+export function VideoPlayer({ url, name, resource = { url } }) {
   const embed = getVideoEmbed(url);
   if (!embed) return null;
+  if (mediaLicenseState(resource) === 'restricted') return <MediaAttribution media={resource} />;
+  return <><VideoContent embed={embed} name={name} /><MediaAttribution media={resource} /></>;
+}
+
+function VideoContent({ embed, name }) {
   if (embed.type === 'iframe') {
     return (
       <div className="hb-embed">
@@ -247,7 +254,7 @@ export function Documentation({ types, note, meta, assets }) {
           {assets.map((asset, i) => (
             <li key={`${asset.url}${asset.title}${i}`}>
               <p className="hb-assets__title">
-                {asset.url ? (
+                {asset.url && mediaLicenseState(asset) !== 'restricted' ? (
                   <a href={asset.url} {...(isExternal(asset.url) ? { target: '_blank', rel: 'noopener noreferrer' } : { download: true })}>
                     {asset.title || t(asset.type) || t('Digital asset')}
                     {isExternal(asset.url) && <span className="sr-only"> ({t('opens in a new tab')})</span>}
@@ -257,31 +264,10 @@ export function Documentation({ types, note, meta, assets }) {
                 )}
               </p>
               <p className="hb-assets__meta">
-                {[asset.type, asset.format, asset.credit && `${t('Credit:')} ${asset.credit}`, asset.license && `${t('Licence:')} ${asset.license}`].filter(Boolean).join(' · ')}
+                {[asset.type, asset.format].filter(Boolean).join(' · ')}
               </p>
+              <MediaAttribution media={asset} />
               {asset.description && <p className="hb-assets__text">{asset.description}</p>}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
-
-/** Image credits and media licensing: shown only when the record carries any. */
-export function Credits({ imageCredit, mediaLicense, gallery }) {
-  const items = gallery.filter((image) => image.credit || image.license);
-  return (
-    <div className="hb-prose">
-      {imageCredit && <p>{t('Main image:')} {imageCredit}</p>}
-      {mediaLicense && <p>{t('Media licence:')} {mediaLicense}</p>}
-      {items.length > 0 && (
-        <ul className="hb-credits">
-          {items.map((image) => (
-            <li key={image.src}>
-              {image.alt}
-              {image.credit && <>. {t('Credit:')} {image.credit}</>}
-              {image.license && <>. {t('Licence:')} {image.license}</>}
             </li>
           ))}
         </ul>
@@ -303,6 +289,8 @@ export function Sources({ items }) {
             source.title
           )}
           {source.detail && <span className="hb-sources__detail">, {source.detail}</span>}
+          {source.accessLevel === 'search-snippet' && <span className="hb-sources__detail"> · {t('Search excerpt only')}</span>}
+          {source.accessedAt && <span className="hb-sources__detail"> · {t('Accessed:')} <time dateTime={source.accessedAt}>{source.accessedAt.slice(0, 10)}</time></span>}
         </li>
       ))}
     </ol>

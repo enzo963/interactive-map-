@@ -15,6 +15,11 @@ const ROOT = fileURLToPath(new URL('../src/', import.meta.url));
 const DATA_FILES = new Set([
   'data/navigation.js', 'data/collections.js', 'data/specialDecks.js', 'data/drawFilters.js', 'data/cardTypeNotes.js',
   'utils/heritageCategories.js', 'utils/filterSites.js', 'utils/related.js', 'utils/documentation.js', 'utils/modelResources.js',
+  'utils/history.js',
+  'utils/mapLayers.js',
+  'utils/heritageExperience.js',
+  'utils/heritageMedia.js',
+  'data/curatedCollections.js',
   'components/home/AboutArchive.jsx', 'components/home/ArchiveStats.jsx', 'pages/About.jsx', 'pages/Methodology.jsx', 'pages/OurWork.jsx',
 ]);
 const DATA_PROPS = new Set(['label', 'title', 'shortTitle', 'blurb', 'description', 'rankLabel']);

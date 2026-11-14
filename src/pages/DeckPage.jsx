@@ -1,18 +1,20 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import CardGrid from '../components/common/CardGrid';
 import DeckPile from '../components/decks/DeckPile';
 import SmartLink from '../components/common/SmartLink';
 import NotFound from './NotFound';
 import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
+import useSiteFilters from '../hooks/useSiteFilters';
 import { useNavigate } from '../router/RouterContext';
-import { CARD_TYPES } from '../data/cardTypes';
+import { CARD_TYPES, UNCLASSIFIED_TYPE } from '../data/cardTypes';
 import { getAllSites } from '../services/siteService';
 import { getDeckById } from '../utils/decks';
 import { cardsLabel, formatCount } from '../utils/archiveStats';
 import { deckThickness } from '../utils/groupDecks';
-import { pickRandom } from '../utils/random';
-import { SORTS } from '../utils/filterSites';
+import { pickDiscovery, rememberDiscovery } from '../utils/random';
+import { isApprovedSite } from '../utils/modelResources';
+import { SORTS, sortSites } from '../utils/filterSites';
 import '../styles/pages.css';
 import { t } from '../i18n';
 
@@ -57,41 +59,40 @@ const deckPageStyles = `
 
 const DECK_KIND_LABEL = { governorate: 'Governorate Deck', special: 'Special Deck', thematic: 'Thematic Deck' };
 
-const SORT_FNS = {
-  archive: (a, b) => a.archiveNo.localeCompare(b.archiveNo, undefined, { numeric: true }),
-  name: (a, b) => a.name.localeCompare(b.name),
-  oldest: (a, b) => (b.ageYears ?? -1) - (a.ageYears ?? -1),
-  newest: (a, b) => (a.ageYears ?? Infinity) - (b.ageYears ?? Infinity),
-  type: (a, b) => b.cardType.tier - a.cardType.tier || a.name.localeCompare(b.name),
-};
-
 /** /decks/:deckId — also used for /3d-archive via the `deckId` prop. */
 export default function DeckPage({ params, deckId }) {
   const id = deckId ?? params.deckId;
   const sites = useMemo(() => getAllSites(), []);
   const deck = useMemo(() => getDeckById(sites, id), [sites, id]);
   const navigate = useNavigate();
-  const [tier, setTier] = useState('all');
-  const [sort, setSort] = useState('archive');
+  const { filters, setFilters } = useSiteFilters();
+  const { types } = filters;
+  const sort = SORTS.some((item) => item.id === filters.sort) ? filters.sort : 'archive';
 
   useDocumentTitle(deck ? `${t(deck.title)} — History in Cards` : 'Deck not found — History in Cards');
 
   const tiers = useMemo(
-    () => (deck ? CARD_TYPES.map((type) => ({ type, count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),
+    () => (deck ? [...CARD_TYPES, UNCLASSIFIED_TYPE].map((type) => ({ type, count: deck.sites.filter((s) => s.cardType.tier === type.tier).length })).filter((t) => t.count > 0) : []),
     [deck],
   );
   const shown = useMemo(() => {
     if (!deck) return [];
-    const base = tier === 'all' ? deck.sites : deck.sites.filter((s) => String(s.cardType.tier) === tier);
-    return [...base].sort(SORT_FNS[sort]);
-  }, [deck, tier, sort]);
+    const base = types.length === 0 ? deck.sites : deck.sites.filter((site) => types.includes(String(site.cardType.tier)));
+    return sortSites(base, { sort });
+  }, [deck, types, sort]);
 
   if (!deck) return <NotFound title={t('Deck not found')} message={t('That deck is not in the archive.')} />;
 
   const drawFromDeck = () => {
-    const pick = pickRandom(deck.sites);
-    if (pick) navigate(pick.href);
+    const pick = pickDiscovery(shown);
+    if (!pick) return;
+    rememberDiscovery(pick);
+    navigate(pick.href);
   };
+  const canDraw = shown.some(isApprovedSite);
+  const toggleType = (tier) => setFilters(({ types }) => ({
+    types: types.includes(tier) ? types.filter((item) => item !== tier) : [...types, tier],
+  }));
 
   return (
     <main id="main" tabIndex={-1} className="hb-page hb-deck-page">
@@ -120,9 +121,9 @@ export default function DeckPage({ params, deckId }) {
                 ))}
               </ul>
             )}
-            {deck.count > 0 && (
+            {canDraw ? (
               <button type="button" className="hb-btn hb-btn--ink" onClick={drawFromDeck}>{t('Draw from this deck')}</button>
-            )}
+            ) : deck.count > 0 && <p>{t('No approved cards match this selection.')}</p>}
           </div>
         </header>
 
@@ -132,16 +133,16 @@ export default function DeckPage({ params, deckId }) {
               <h2 id="deck-cards" className="hb-section-title hb-decks__title">{t('Cards in this deck')}</h2>
               <label className="hb-sort">
                 <span>{t('Sort by')}</span>
-                <select value={sort} onChange={(event) => setSort(event.target.value)}>
+                <select value={sort} onChange={(event) => setFilters({ sort: event.target.value })}>
                   {SORTS.map((s) => <option value={s.id} key={s.id}>{t(s.label)}</option>)}
                 </select>
               </label>
             </div>
-            {tiers.length > 1 && (
+            {(tiers.length > 1 || types.length > 0) && (
               <div className="hb-chips hb-chips--row" role="group" aria-label={t('Filter by card type')}>
-                <button type="button" className="hb-tag" aria-pressed={tier === 'all'} onClick={() => setTier('all')}>{t('All types')}</button>
+                <button type="button" className="hb-tag" aria-pressed={types.length === 0} onClick={() => setFilters({ types: [] })}>{t('All types')}</button>
                 {tiers.map(({ type }) => (
-                  <button type="button" className="hb-tag" aria-pressed={tier === String(type.tier)} onClick={() => setTier(String(type.tier))} key={type.id}>
+                  <button type="button" className="hb-tag" aria-pressed={types.includes(String(type.tier))} onClick={() => toggleType(String(type.tier))} key={type.id}>
                     {t(type.shortLabel)}
                   </button>
                 ))}
@@ -151,10 +152,10 @@ export default function DeckPage({ params, deckId }) {
               {t('{cards} in this selection · {n} in the deck', { cards: cardsLabel(shown.length), n: formatCount(deck.count) })}
             </p>
             {shown.length > 0 ? (
-              <CardGrid key={`${tier}-${sort}`} sites={shown} />
+              <CardGrid key={`${types.join(',')}-${sort}`} sites={shown} />
             ) : (
               <StatePanel kind="no-results" title={t('No cards match this type')} description={t('Choose all types to see the cards available in this deck.')} headingLevel={3}>
-                <button type="button" className="hb-btn hb-btn--ink" onClick={() => setTier('all')}>{t('Show all types')}</button>
+                <button type="button" className="hb-btn hb-btn--ink" onClick={() => setFilters({ types: [] })}>{t('Show all types')}</button>
               </StatePanel>
             )}
           </section>

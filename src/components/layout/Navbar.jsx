@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import SearchAutocomplete from '../common/SearchAutocomplete';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
 import { useI18n } from '../../i18n/I18nContext';
@@ -41,7 +42,7 @@ export default function Navbar({ query, setQuery }) {
   }
   const menuToggle = useRef(null);
   const currentPage = pathname.startsWith('/sites/') || pathname.startsWith('/decks/') ||
-    ['/decks', '/unesco', '/3d-archive'].includes(pathname) ? '/explore' : pathname;
+    ['/decks', '/unesco', '/3d-archive', '/timeline', '/civilizations', '/image-archive', '/disappeared-heritage', '/collections'].includes(pathname) ? '/explore' : pathname;
 
   useEffect(() => {
     if (!open) return;
@@ -96,12 +97,12 @@ export default function Navbar({ query, setQuery }) {
           <label className="sr-only" htmlFor="global-heritage-search">
             {t('Search heritage by name or alternative name')}
           </label>
-          <input
+          <SearchAutocomplete
             id="global-heritage-search"
             name="q"
             type="search"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={setQuery}
             placeholder={isHome ? t('Name, place or period') : t('Find a heritage site')}
             enterKeyHint="search"
           />

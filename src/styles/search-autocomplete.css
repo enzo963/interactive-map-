@@ -1,0 +1,12 @@
+.hb-autocomplete { position: relative; min-width: 0; width: 100%; }
+.hb-global-search > .hb-autocomplete { flex: 1; }
+.hb-global-search .hb-autocomplete > input { width: 100%; }
+.hb-autocomplete__list {
+  position: absolute; z-index: 80; inset-inline: 0; top: calc(100% + .25rem);
+  margin: 0; padding: .25rem; list-style: none; max-height: min(24rem, 55dvh); overflow-y: auto;
+  border: 1px solid var(--hb-rule-strong); border-radius: 2px;
+  background: var(--hb-paper-raised); color: var(--hb-ink); box-shadow: 0 .4rem 1rem #0002;
+}
+.hb-autocomplete__option { display: flex; justify-content: space-between; align-items: center; gap: .75rem; padding: .65rem .75rem; min-height: 2.75rem; cursor: pointer; overflow-wrap: anywhere; }
+.hb-autocomplete__option[aria-selected='true'] { background: var(--hb-paper); outline: 1px solid var(--hb-rule-strong); }
+.hb-autocomplete__option small { flex-shrink: 0; max-width: 45%; color: var(--hb-earth-text); font-size: .75rem; }

@@ -1,23 +1,30 @@
 import { useMemo } from 'react';
 import HeritageCard from '../components/cards/HeritageCard';
 import SmartLink from '../components/common/SmartLink';
-import Gallery from '../components/site/Gallery';
+import HeritageMediaGallery from '../components/site/HeritageMediaGallery';
+import BeforeAfterComparison from '../components/site/BeforeAfterComparison';
+import PhotogrammetryProjects from '../components/site/PhotogrammetryProjects';
 import SiteLocation from '../components/site/SiteLocation';
 import SectionNav from '../components/site/SectionNav';
 import { Documentation, ModelViewer, Overview, Sources, SiteSection, SiteVideos, Timeline, VideoPlayer } from '../components/site/SiteSections';
+import { PreservationAssessment, HistoricalNarrative, SiteHistoricalTimeline } from '../components/site/HeritageStory';
+import { preservationLabel } from '../utils/heritageExperience';
 import NotFound from './NotFound';
 import StatePanel from '../components/common/StatePanel';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 import { getAllSites } from '../services/siteService';
 import { getDecksForSite } from '../utils/decks';
 import ShareSite from '../components/site/ShareSite';
-import { getSiteShareUrl } from '../utils/siteLinks';
 import { getRelatedSiteMatches } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
 import { hasVerifiedPosition, MAP_POSITION_LABELS, MAP_POSITION_NOTES } from '../utils/mapPosition';
+import MediaAttribution from '../components/site/MediaAttribution';
+import { mediaLicenseState } from '../utils/mediaAttribution';
+import { safeUrl } from '../utils/urls';
+import { useLocation } from '../router/RouterContext';
 import '../styles/site-details.css';
 import '../styles/phase4.css';
-import { t, tn, tDate } from '../i18n';
+import { t, tDate } from '../i18n';
 
 const siteDetailsStyles = `
 .hb-site--structured .hb-crumbs li { min-width: 0; overflow-wrap: anywhere; }
@@ -73,50 +80,8 @@ const siteDetailsStyles = `
 `;
 
 
-const safeImageLink = (value, local = false) => {
-  if (typeof value !== 'string' || !value || /[\s\\]/.test(value)) return '';
-  if (local && value.startsWith('/') && !value.startsWith('//')) return value;
-  try {
-    const url = new URL(value);
-    return ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password ? url.href : '';
-  } catch { return ''; }
-};
-const imageLicenseState = (image) => {
-  const states = [image.license_status, image.licenseStatus].filter(Boolean);
-  if (states.includes('restricted') || image.license_review?.permission === 'restricted'
-    || (Array.isArray(image.source_observations) && image.source_observations.some((item) => item
-      && (item.license_status === 'restricted' || item.licenseStatus === 'restricted' || item.license_review?.permission === 'restricted')))) return 'restricted';
-  if (states.length && states.every((state) => state === 'verified') && image.license_tracking?.evidence_valid === true
-    && Array.isArray(image.license_tracking.evidence_checks) && image.license_tracking.evidence_checks.length > 0
-    && image.license_tracking.evidence_checks.every((check) => check?.valid === true)
-    && image.license_review?.permission === 'publication-permitted'
-    && typeof image.license_review.reviewedBy === 'string' && image.license_review.reviewedBy.trim()
-    && Number.isFinite(Date.parse(image.license_review.reviewedAt))
-    && safeImageLink(image.license_review.image_url, true) === safeImageLink(image.src, true)
-    && Array.isArray(image.license_review.evidence) && image.license_review.evidence.length > 0) return 'verified';
-  return states.includes('unverified') || states.includes('verified') ? 'unverified' : 'unknown';
-};
 function ImageAttribution({ image }) {
-  const observations = [image, ...(Array.isArray(image.source_observations) ? image.source_observations : [])];
-  const clean = (value) => typeof value === 'string' ? value.trim() : '';
-  const sources = observations.filter((item) => item && typeof item === 'object').map((item) => {
-    const url = safeImageLink(item.sourceUrl || item.source_url);
-    const name = clean(item.sourceName) || clean(item.source_name) || (url ? new URL(url).hostname : '');
-    return { url, name, credit: clean(item.credit) };
-  }).filter((item, index, all) => (item.url || item.name || item.credit)
-    && all.findIndex((other) => other.url === item.url && other.name === item.name && other.credit === item.credit) === index);
-  const state = imageLicenseState(image);
-  return <div className="hb-image-attribution">
-    {sources.map((source, i) => <p key={i}>
-      {source.credit && <span>{t('Credit:')} {source.credit}. </span>}
-      {(source.url || source.name) && <>{t('Source:')} {source.url
-        ? <a href={source.url} target="_blank" rel="noopener noreferrer">{source.name || t('Image source')}<span className="sr-only"> ({t('opens in a new tab')})</span></a>
-        : source.name}</>}
-    </p>)}
-    <p>{state === 'verified' && image.license ? <>{t('License:')} {safeImageLink(image.license_url)
-      ? <a href={safeImageLink(image.license_url)} target="_blank" rel="noopener noreferrer">{image.license}</a> : image.license}</>
-      : state === 'restricted' ? t('Image use is restricted.') : state === 'unverified' ? t('License unverified; reuse permission has not been confirmed.') : t('License unknown; reuse permission has not been confirmed.')}</p>
-  </div>;
+  return <MediaAttribution media={image} image />;
 }
 
 // Values that only say a fact is not recorded are treated as missing, so their rows disappear.
@@ -176,6 +141,7 @@ function MapPositionNote({ site }) {
 }
 
 export default function SiteDetails({ params }) {
+  const { resultsHref } = useLocation();
   const sites = useMemo(() => getAllSites(), []);
   const site = useMemo(() => sites.find((s) => s.slug === params.slug) ?? null, [sites, params.slug]);
   const related = useMemo(() => (site ? getRelatedSiteMatches(site, sites, 4) : []), [site, sites]);
@@ -193,9 +159,9 @@ export default function SiteDetails({ params }) {
   const hasDocumentation =
     site.ourWorkTypes.length > 0 || site.ourWorkNote || site.documentationMeta || site.digitalAssets.length > 0;
   const authoredMedia = [site.coverImage, ...site.galleryImages];
-  const restrictedUrls = new Set(authoredMedia.filter((image) => image && imageLicenseState(image) === 'restricted').map((image) => image.src));
+  const restrictedUrls = new Set(authoredMedia.filter((image) => image && mediaLicenseState(image) === 'restricted').map((image) => image.src));
   const media = authoredMedia.filter((image, index, all) => image
-    && safeImageLink(image.src, true) && !restrictedUrls.has(image.src)
+    && safeUrl(image.src, { allowRelative: true }) && !restrictedUrls.has(image.src)
     && (!image.siteId || image.siteId === site.id) && all.findIndex((other) => other?.src === image.src) === index);
   const hasCredits = media.length > 0 || site.imageCredit;
   // The description leads the page; a longer overview section appears only when there is more to say.
@@ -227,7 +193,7 @@ export default function SiteDetails({ params }) {
       title: t('Status and verification'),
       rows: [
         [t('Heritage status'), known(site.heritageStatus) && <LinkedRecordText text={t(site.heritageStatus)} sites={sites} />],
-        [t('Preservation'), known(site.preservationStatus)],
+        [t('Preservation'), `${t(preservationLabel(site.preservation?.verified ? site.preservation.state : site.preservation?.reportedState))} · ${site.preservation?.verified ? t('Source-backed assessment') : t('Unverified')}`],
         [t('UNESCO status'), t(known(site.unescoStatus)) || (site.isUnesco ? t('Yes') : '')],
         [t('Verification'), VERIFICATION_LABELS[site.verificationStatus] ? t(VERIFICATION_LABELS[site.verificationStatus]) : t(known(site.verificationStatus))],
         [t('Last verified'), site.lastVerified],
@@ -239,8 +205,13 @@ export default function SiteDetails({ params }) {
     overviewText
       ? { id: 'overview', title: t('Historical overview'), body: <Overview text={overviewText} background={site.historicalBackground} /> }
       : site.historicalBackground && { id: 'overview', title: t('Historical background'), body: <Overview text={site.historicalBackground} /> },
-    site.timeline.length > 0 && { id: 'timeline', title: t('Historical timeline'), body: <Timeline items={site.timeline} /> },
-    media.length > 0 && { id: 'gallery', title: t('Gallery'), body: <><p className="hb-site__section-intro">{tn('{n} image. Select an image to open the viewer.', '{n} images. Select an image to open the viewer.', media.length)}</p><Gallery key={site.id} images={media} renderAttribution={(image) => <ImageAttribution image={image} />} /></> },
+    { id: 'preservation', title: t('Preservation and condition'), body: <PreservationAssessment assessment={site.preservation} /> },
+    ...(site.storySections || []).map((section) => ({ id: `story-${section.type}`, title: t(section.title), body: <HistoricalNarrative section={section} /> })),
+    site.historicalEvents?.length > 0 && { id: 'timeline', title: t('Historical timeline'), body: <SiteHistoricalTimeline events={site.historicalEvents} /> },
+    (media.length > 0 || site.heritageMedia?.length > 0 || site.modelResources.length > 0 || (site.videoUrl && mediaLicenseState(site.videoResource) !== 'restricted')) && { id: 'gallery', title: t('Gallery'), body: <HeritageMediaGallery key={site.id} site={site} images={media} /> },
+    site.comparisons?.length > 0 && { id: 'comparisons', title: t('Before and after'), body: site.comparisons.map((comparison) => <BeforeAfterComparison key={comparison.id} comparison={comparison} />) },
+    site.photogrammetryProjects?.length > 0 && { id: 'projects', title: t('Photogrammetry projects'), body: <PhotogrammetryProjects projects={site.photogrammetryProjects} /> },
+    !site.historicalEvents?.length && site.timeline.length > 0 && { id: 'timeline', title: t('Historical timeline'), body: <Timeline items={site.timeline} /> },
     // Governorate, city and country are always in the hero facts; the map appears only for verified coordinates.
     hasLocation && { id: 'location', title: t('Location'), body: <SiteLocation site={site} neighbours={neighbours} /> },
     site.modelResources.length > 0 && {
@@ -253,7 +224,7 @@ export default function SiteDetails({ params }) {
     // Optional: shown only when a card has videos; a card without one is complete without this section.
     site.videos?.length > 0
       ? { id: 'video', title: site.videos.length > 1 ? t('Videos') : t('Video'), body: <SiteVideos videos={site.videos} name={site.name} /> }
-      : site.videoUrl && { id: 'video', title: t('Video'), body: <VideoPlayer url={site.videoUrl} name={site.name} /> },
+      : site.videoUrl && { id: 'video', title: t('Video'), body: <VideoPlayer url={site.videoUrl} resource={site.videoResource} name={site.name} /> },
     hasDocumentation && {
       id: 'documentation',
       title: t('Digital documentation'),
@@ -288,11 +259,10 @@ export default function SiteDetails({ params }) {
   return (
     <main id="main" tabIndex={-1} className="hb-page hb-site hb-site--structured">
       <style href="hb-site-details-structure" precedence="components">{siteDetailsStyles}</style>
-      <link rel="canonical" href={getSiteShareUrl(site)} />
       <div className="hb-container">
         <nav className="hb-crumbs" aria-label={t('Breadcrumb')}>
           <ol>
-            <li><SmartLink href="/explore">{t('Explore Cards')}</SmartLink></li>
+            <li><SmartLink href={resultsHref || '/explore'}>{resultsHref ? t('Return to results') : t('Explore Cards')}</SmartLink></li>
             {firstDeck && <li><SmartLink href={firstDeck.href}>{t(firstDeck.title)}</SmartLink></li>}
             <li aria-current="page">{site.name}</li>
           </ol>

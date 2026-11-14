@@ -1,12 +1,15 @@
 import { useId } from 'react';
 import '../../styles/pages.css';
 import { t } from '../../i18n';
+import SearchAutocomplete from './SearchAutocomplete';
 
 export default function SearchField({
   value,
   onChange,
   label = t('Search heritage sites'),
   placeholder = t('Site name, alternative name or place'),
+  suggestions = true,
+  suggestionSites,
 }) {
   const id = useId();
   return (
@@ -15,12 +18,14 @@ export default function SearchField({
         {label}
       </label>
       <div className="hb-search__control">
-        <input
+        <SearchAutocomplete
           id={id}
           className="hb-search__input"
           type="search"
           value={value}
-          onChange={(event) => onChange(event.target.value)}
+          onChange={onChange}
+          suggestions={suggestions}
+          sites={suggestionSites}
           placeholder={placeholder}
           enterKeyHint="search"
           autoComplete="off"

@@ -7,7 +7,7 @@ import '../../styles/pages.css';
 import { t } from '../../i18n';
 
 function UnavailablePage() {
-  useDocumentTitle(t('Content unavailable — History in Cards'));
+  useDocumentTitle(t('Content unavailable — History in Cards'), { unavailable: true });
   useEffect(() => { document.getElementById('main')?.focus({ preventScroll: true }); }, []);
   return <main id="main" tabIndex={-1} className="hb-page">
     <PageHeader eyebrow={t('Please try again')} title={t('Content unavailable')} lede={t('This page could not be displayed. A connection problem or an outdated page download may be responsible.')} />

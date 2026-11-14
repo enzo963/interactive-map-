@@ -2593,7 +2593,7 @@
     "name": "Dailaija Relief",
     "alternativeNames": [],
     "governorate": "Sulaymaniyah",
-    "approximateLocation": "",
+    "approximateLocation": "Dailaija / Darband-i Basara, southeast of Sulaymaniyah",
     "category": "monument",
     "sources": [
       {
@@ -2607,6 +2607,19 @@
           "name",
           "governorate",
           "category"
+        ]
+      },
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/dailaija-relief",
+        "title": "Dailaija Relief site profile",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Site Profile",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "governorate"
         ]
       }
     ],
@@ -2641,7 +2654,7 @@
     "name": "Darband-i Gawr Relief",
     "alternativeNames": [],
     "governorate": "Sulaymaniyah",
-    "approximateLocation": "",
+    "approximateLocation": "Darband-i Gawr gorge, Qara Dagh",
     "category": "monument",
     "sources": [
       {
@@ -2655,6 +2668,19 @@
           "name",
           "governorate",
           "category"
+        ]
+      },
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/darband-i-gawr-relief",
+        "title": "Darband-i Gawr Relief site profile",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Site Profile",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "governorate"
         ]
       }
     ],
@@ -2689,7 +2715,7 @@
     "name": "Kur u Kich Tomb",
     "alternativeNames": [],
     "governorate": "Sulaymaniyah",
-    "approximateLocation": "",
+    "approximateLocation": "Banzad cliffs near Shornakh",
     "category": "cemetery",
     "sources": [
       {
@@ -2703,6 +2729,19 @@
           "name",
           "governorate",
           "category"
+        ]
+      },
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/kur-u-kich-tomb",
+        "title": "Kur u Kich Tomb site profile",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Site Profile",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "governorate"
         ]
       }
     ],
@@ -2739,7 +2778,7 @@
     "name": "Paikuli Monument",
     "alternativeNames": [],
     "governorate": "Sulaymaniyah",
-    "approximateLocation": "",
+    "approximateLocation": "West of Darbandikhan, Qara Dagh pass",
     "category": "monument",
     "sources": [
       {
@@ -2754,6 +2793,19 @@
           "governorate",
           "category"
         ]
+      },
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/paikuli-monument",
+        "title": "Paikuli Monument site profile",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Site Profile",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "governorate"
+        ]
       }
     ],
     "verificationStatus": "candidate-needs-review",
@@ -2765,7 +2817,7 @@
       "Qizqapan"
     ],
     "governorate": "Sulaymaniyah",
-    "approximateLocation": "",
+    "approximateLocation": "West of Zarzi village",
     "category": "cemetery",
     "sources": [
       {
@@ -2779,6 +2831,19 @@
           "name",
           "governorate",
           "category"
+        ]
+      },
+      {
+        "url": "https://mcid.mcah.columbia.edu/mapping-mesopotamian-monuments/qyzqapan-tomb",
+        "title": "Qyzqapan Tomb site profile",
+        "institution": "Columbia University Mapping Mesopotamian Monuments",
+        "sourceType": "institutional-catalogue",
+        "accessLevel": "full-text",
+        "locator": "Site Profile",
+        "supports": [
+          "name",
+          "approximateLocation",
+          "governorate"
         ]
       }
     ],

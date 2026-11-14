@@ -65,7 +65,9 @@ export default function Decks() {
         eyebrow={t('Decks')}
         title={t('Collections of cards')}
         lede={t('Every card belongs to a governorate deck, and can also sit in special and thematic decks. A card has one type but can be in many decks.')}
-      />
+      >
+        <p className="hb-pagehead__lede"><SmartLink className="hb-link" href="/collections">{t('Browse curated collections')}</SmartLink></p>
+      </PageHeader>
       <div className="hb-container hb-decks">
         <DeckSection
           id="decks-gov"

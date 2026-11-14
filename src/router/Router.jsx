@@ -5,10 +5,19 @@ import RouteBoundary from '../components/common/RouteBoundary';
 import PageLoading from '../components/common/PageLoading';
 import { appPathname, withBasePath } from '../utils/basePath';
 
+const resultsPath = /^\/(?:explore|map|timeline|civilizations(?:\/[^/]+)?|(?:decks|collections)(?:\/[^/]+)?|unesco|3d-archive|image-archive|disappeared-heritage)\/?$/;
+const sitePath = /^\/sites\/[^/]+\/?$/;
+
+function getResultsHref(value) {
+  if (typeof value !== 'string' || !value.startsWith('/') || /[\\\s]/.test(value)) return null;
+  return resultsPath.test(value.split(/[?#]/, 1)[0]) ? value : null;
+}
+
 const readLocation = () => ({
   pathname: appPathname(window.location.pathname),
   search: window.location.search,
   hash: window.location.hash,
+  resultsHref: getResultsHref(window.history.state?.resultsHref),
 });
 
 /**
@@ -24,7 +33,11 @@ export function RouterProvider({ children }) {
       window.location.assign(url.href);
       return;
     }
-    window.history[replace ? 'replaceState' : 'pushState'](null, '', `${url.pathname}${url.search}${url.hash}`);
+    const current = readLocation();
+    const resultsHref = sitePath.test(appPathname(url.pathname))
+      ? getResultsHref(`${current.pathname}${current.search}${current.hash}`) || (sitePath.test(current.pathname) ? current.resultsHref : null)
+      : null;
+    window.history[replace ? 'replaceState' : 'pushState'](resultsHref ? { resultsHref } : null, '', `${url.pathname}${url.search}${url.hash}`);
     setState({ location: readLocation(), type: replace ? 'replace' : 'push', scroll });
   }, []);
 

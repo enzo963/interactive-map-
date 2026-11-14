@@ -1,3 +1,5 @@
+import { safeUrl } from './urls';
+
 const ORIGIN = 'https://history-in-cards.invalid';
 
 function parse(url) {
@@ -10,14 +12,14 @@ function parse(url) {
 
 /** Video URL -> how to show it: privacy-friendly embed, native player, or plain link. */
 export function getVideoEmbed(url) {
-  if (!url) return null;
+  if (!safeUrl(url, { allowRelative: true, httpsOnly: true })) return null;
   const u = parse(url);
   if (!u) return null;
   const host = u.hostname.replace(/^www\./, '');
 
   let youtubeId = null;
   if (host === 'youtu.be') youtubeId = u.pathname.slice(1);
-  else if (host.endsWith('youtube.com'))
+  else if (['youtube.com', 'm.youtube.com', 'youtube-nocookie.com'].includes(host))
     youtubeId = u.searchParams.get('v') ?? u.pathname.match(/\/(?:embed|shorts)\/([\w-]+)/)?.[1];
   if (youtubeId && /^[\w-]{6,}$/.test(youtubeId)) {
     return {

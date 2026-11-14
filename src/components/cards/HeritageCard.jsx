@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import SmartLink from '../common/SmartLink';
+import { PeriodEmblems } from '../common/CivilizationEmblem';
 import '../../styles/heritage-card.css';
 import { t, tDate } from '../../i18n';
 import { approvedCover } from '../../utils/coverApproval';
+import { mediaLicenseState } from '../../utils/mediaAttribution';
 import ResponsiveImage from '../common/ResponsiveImage';
 
 // Intentional fallback for a card without a verified photograph of the site itself: the Heritage
@@ -51,9 +53,10 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
 
   const place = [t(site.governorate), t(site.country)].filter(Boolean).join(' · ');
   const category = site.siteType ? t(site.siteType) : '';
-  const period = site.period ? t(site.period) : '';
+  const period = (site.period || site.civilization) ? t(site.period || site.civilization) : '';
   const date = tDate(site.dateLabel);
-  const cover = approvedCover(site);
+  const approved = approvedCover(site);
+  const cover = approved && mediaLicenseState(approved) === 'verified' ? approved : null;
   const linked = interactive && Boolean(site.href);
 
   return (
@@ -72,20 +75,22 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
         </header>
 
         <figure className="hb-card__media">
-          <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} siteType={site.siteType} priority={priority} />
+          <div className="hb-card__photo">
+            <CardImage key={`${site.id}:${cover?.src ?? 'pending'}`} cover={cover} name={site.name} siteType={site.siteType} priority={priority} />
 
-          {(site.isUnesco || site.hasModel) && (
-            <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
-              {site.isUnesco && <li>UNESCO</li>}
-              {site.hasModel && <li>3D</li>}
-            </ul>
-          )}
+            {(site.isUnesco || site.hasModel) && (
+              <ul className="hb-card__badges" aria-label={t('Digital and designation indicators')}>
+                {site.isUnesco && <li>UNESCO</li>}
+                {site.hasModel && <li>3D</li>}
+              </ul>
+            )}
 
-          {showCta && linked && (
-            <span className="hb-card__cta" aria-hidden="true">
-              {t('View card')} ↗
-            </span>
-          )}
+            {showCta && linked && (
+              <span className="hb-card__cta" aria-hidden="true">
+                {t('View card')} ↗
+              </span>
+            )}
+          </div>
         </figure>
 
         <div className="hb-card__body">
@@ -101,8 +106,8 @@ export default function HeritageCard({ site, headingLevel = 3, showCta = false, 
           {/* Every line is always rendered so all cards share one rhythm; long values end in an ellipsis. */}
           <p className="hb-card__category" title={category || undefined}>{category}</p>
           <p className="hb-card__place" title={place || undefined}>{place}</p>
-          {site.period
-            ? <p className="hb-card__period" title={period}>{period}</p>
+          {period
+            ? <p className="hb-card__period" title={period}><PeriodEmblems site={site} /><span className="hb-card__era-label">{period}</span></p>
             : <p className="hb-card__period hb-card__period--missing">{t('Period not recorded')}</p>}
         </div>
 
