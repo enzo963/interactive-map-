@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import SmartLink from '../common/SmartLink';
 import MapCanvas from '../map/MapCanvas';
 import { useNavigate } from '../../router/RouterContext';
+import { hasPosition } from '../../utils/coordinates';
 import '../../styles/home-sections.css';
 import '../../styles/site-details.css';
 import { t, tn } from '../../i18n';
@@ -15,10 +16,10 @@ const fmt = (n) => n.toFixed(4);
 export default function SiteLocation({ site, neighbours }) {
   const navigate = useNavigate();
   const mapSites = useMemo(() => [site, ...neighbours], [site, neighbours]);
-  if (!Number.isFinite(site.latitude) || !Number.isFinite(site.longitude)) return null;
+  if (!hasPosition(site)) return null;
 
   const osm = `https://www.openstreetmap.org/?mlat=${site.latitude}&mlon=${site.longitude}#map=13/${site.latitude}/${site.longitude}`;
-  const withCoords = neighbours.filter((n) => Number.isFinite(n.latitude) && Number.isFinite(n.longitude));
+  const withCoords = neighbours.filter(hasPosition);
 
   return (
     <div className="hb-location">
