@@ -13,13 +13,13 @@ import { cardsLabel } from '../../utils/archiveStats';
 import { groupByGovernorate } from '../../utils/groupDecks';
 import '../../styles/home.css'; // archive numbers (hb-stats) and shared hero action styles
 import { pickRandom } from '../../utils/random';
+import { hasPosition } from '../../utils/coordinates';
 import '../../styles/map-first.css';
 import '../../styles/home-landing.css';
 import { t, tn } from '../../i18n';
 
 const MapCanvas = lazy(() => import('../map/MapCanvas'));
 
-const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
 
 /**
  * The landing page's first screen: the archive map fills the window and a control panel on the right

@@ -3,6 +3,7 @@ import L from '../../lib/leaflet';
 import { getGovernorateKey } from '../../data/governorates';
 import { GOVERNORATE_CENTRES } from '../../data/geo/governorateCentres';
 import { cardsLabel } from '../../utils/archiveStats';
+import { hasPosition } from '../../utils/coordinates';
 import '../../styles/map-explorer.css';
 import { t } from '../../i18n';
 
@@ -13,7 +14,6 @@ const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">Op
 const LABEL_MAX_ZOOM = 9;
 const REGION_ZOOM = 8;
 
-const hasPosition = (site) => Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
 const escapeHtml = (text) =>
   String(text ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 

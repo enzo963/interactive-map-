@@ -14,6 +14,7 @@ import ShareSite from '../components/site/ShareSite';
 import { getSiteShareUrl } from '../utils/siteLinks';
 import { getRelatedSiteMatches } from '../utils/related';
 import { getGovernorateKey } from '../data/governorates';
+import { hasPosition } from '../utils/coordinates';
 import '../styles/site-details.css';
 import '../styles/phase4.css';
 import { t, tn, tDate } from '../i18n';
@@ -177,7 +178,7 @@ export default function SiteDetails({ params }) {
 
   const { cardType } = site;
   const decks = getDecksForSite(site);
-  const hasLocation = Number.isFinite(site.latitude) && Number.isFinite(site.longitude);
+  const hasLocation = hasPosition(site);
   const hasDocumentation =
     site.ourWorkTypes.length > 0 || site.ourWorkNote || site.documentationMeta || site.digitalAssets.length > 0;
   const authoredMedia = [site.coverImage, ...site.galleryImages];
