@@ -22,58 +22,258 @@
     },
     {
       "action": "distinct",
-      "sites": ["site-nineveh-mar-addai-karamles", "site-nineveh-karamles-kar-mullissi"],
+      "sites": [
+        "site-nineveh-mar-addai-karamles",
+        "site-nineveh-karamles-kar-mullissi"
+      ],
       "reason": "A church in the modern town and the ancient mounds; they share only the town's name Karemlash."
     },
     {
       "action": "distinct",
-      "sites": ["site-nineveh-mohamed-rashan-shrine", "site-nineveh-mam-rashan-shrine"],
+      "sites": [
+        "site-nineveh-mohamed-rashan-shrine",
+        "site-nineveh-mam-rashan-shrine"
+      ],
       "reason": "Two shrines of Pir Mehmed Reshan, near Bardarash and on Mount Sinjar, about 150 km apart."
     },
     {
       "action": "distinct",
-      "sites": ["site-nineveh-mar-gorgis-qaraqosh", "site-nineveh-mar-gorgis-alqosh"],
+      "sites": [
+        "site-nineveh-mar-gorgis-qaraqosh",
+        "site-nineveh-mar-gorgis-alqosh"
+      ],
       "reason": "Churches of the same saint in two towns."
     },
     {
       "action": "distinct",
-      "sites": ["site-erbil-girdi-helawa", "site-erbil-aliawa"],
+      "sites": [
+        "site-erbil-girdi-helawa",
+        "site-erbil-aliawa"
+      ],
       "reason": "Separate entries in the Erbil archaeological site list."
     },
     {
       "action": "distinct",
-      "sites": ["site-duhok-muqable-i", "site-duhok-muqable-iii"],
+      "sites": [
+        "site-duhok-muqable-i",
+        "site-duhok-muqable-iii"
+      ],
       "reason": "Numbered sites of the same survey."
     },
     {
       "action": "distinct",
-      "sites": ["site-sulaymaniyah-shekh-wisal-1", "site-sulaymaniyah-shekh-wisal-2"],
+      "sites": [
+        "site-sulaymaniyah-shekh-wisal-1",
+        "site-sulaymaniyah-shekh-wisal-2"
+      ],
       "reason": "Survey sites TJ 11 and TJ 12 of the Kokushikan Tanjarow survey."
     },
     {
       "action": "distinct",
-      "sites": ["site-anbar-bijan-island", "site-anbar-rijan-island"],
+      "sites": [
+        "site-anbar-bijan-island",
+        "site-anbar-rijan-island"
+      ],
       "reason": "Different islands of the Haditha reservoir survey."
     },
     {
       "action": "distinct",
-      "sites": ["site-diyala-tell-suleimah", "site-diyala-tell-yelkhi"],
+      "sites": [
+        "site-diyala-tell-suleimah",
+        "site-diyala-tell-yelkhi"
+      ],
       "reason": "Different excavated Hamrin tells; only their proposed ancient names (Awal, Awalki) look alike."
     },
     {
       "action": "distinct",
-      "sites": ["site-diyala-hamrin-ababra", "site-diyala-hamrin-sabra"],
+      "sites": [
+        "site-diyala-hamrin-ababra",
+        "site-diyala-hamrin-sabra"
+      ],
       "reason": "Separate numbered entries on Yaseen's Hamrin map."
     },
     {
       "action": "distinct",
-      "sites": ["site-diyala-hamrin-as-saray", "site-diyala-hamrin-as-sara"],
+      "sites": [
+        "site-diyala-hamrin-as-saray",
+        "site-diyala-hamrin-as-sara"
+      ],
       "reason": "Sites 61 and 68 on Yaseen's Hamrin map."
     },
     {
       "action": "distinct",
-      "sites": ["site-diyala-hamrin-khuzeifi", "site-diyala-hamrin-kheizif"],
+      "sites": [
+        "site-diyala-hamrin-khuzeifi",
+        "site-diyala-hamrin-kheizif"
+      ],
       "reason": "Sites 45 and 56 on Yaseen's Hamrin map."
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-anbar-al-zawiya-site",
+        "site-anbar-buttain-al-jannadiya",
+        "site-anbar-imam-habib-al-najjar",
+        "site-anbar-tel-al-darrajiya",
+        "site-anbar-tel-gubbain"
+      ],
+      "reason": "Different Haditha Dam survey records at different places (Sur Jur‘eh, Anah, Haditha, New Ma‘atheed); they share only the survey’s short description.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-diyala-dawood-zarifa-house",
+        "site-diyala-majid-pasha-palace-kifri"
+      ],
+      "reason": "Two different buildings named in Kifri’s heritage list; only the short description is shared.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-diyala-tell-abu-husaini",
+        "site-diyala-tell-hassan",
+        "site-diyala-tell-kesaran"
+      ],
+      "reason": "Different Hamrin tells worked by the Italian CRAST mission (Ubaid, Halaf and unstated periods).",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-erbil-bash-tapa",
+        "site-erbil-kelik-mishik"
+      ],
+      "reason": "Two Erbil Plain tells at different positions (about 30 km apart); the descriptions follow one template.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-anbar-shaykh-rajab-mosque",
+        "site-baghdad-al-sarai-mosque"
+      ],
+      "reason": "Different mosques in Rawa and Baghdad; the names share only \"al-… Mosque\".",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-anbar-shaykh-rajab-mosque",
+        "site-kirkuk-al-aryan-mosque"
+      ],
+      "reason": "Different mosques in Rawa and Kirkuk Citadel.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-baghdad-al-sarai-mosque",
+        "site-nineveh-imam-muhammad-mosque"
+      ],
+      "reason": "Different mosques in Baghdad and Mosul.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-baghdad-al-sarai-mosque",
+        "site-salah-al-din-al-askari-shrine"
+      ],
+      "reason": "A Baghdad mosque and the Samarra shrine of the Imams.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-baghdad-al-ahmadiyya-mosque",
+        "site-baghdad-al-maidan-square"
+      ],
+      "reason": "The mosque stands on al-Maidan square; the square card covers the whole quarter.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-baghdad-al-rashid-street",
+        "site-baghdad-haydar-khana-mosque"
+      ],
+      "reason": "The mosque stands on al-Rashid Street; the street card covers the whole avenue.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-baghdad-latin-st-joseph",
+        "site-baghdad-syriac-catholic-immaculate",
+        "site-baghdad-om-al-ahzan-church"
+      ],
+      "reason": "Three neighbouring churches of the old Christian quarter (Aqd al-Nasara); the Syriac Catholic church was built next to Om al-Ahzan.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-nineveh-mar-gorgis-alqosh",
+        "site-nineveh-mar-mikha-alqosh"
+      ],
+      "reason": "Two churches 40 m apart in the old quarter of Alqosh.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-nineveh-mart-mariam-bashiqa",
+        "site-nineveh-mart-shmoni-bashiqa"
+      ],
+      "reason": "A Syriac Catholic and a Syriac Orthodox church 60 m apart in Bashiqa.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-diyala-hamrin-al-baqa",
+        "site-diyala-hamrin-aq-tepe"
+      ],
+      "reason": "Different tells on the Hamrin map; the names differ in their distinctive word.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-duhok-dehi-churches",
+        "site-duhok-mar-qayyoma-dooreh"
+      ],
+      "reason": "Different villages about 28 km apart (Dehi in the Sapna valley, Dooreh in Barwari Bala); each has a church named after Mar Qayouma.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-erbil-aliawa",
+        "site-sulaymaniyah-ali-awa"
+      ],
+      "reason": "Different survey sites: Aliawa on the Erbil plain and Ali Awa on the Ranya–Pshdar plains; Ali Awa is a common village name.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-erbil-bash-tapa",
+        "site-nineveh-bash-tapia-castle"
+      ],
+      "reason": "A tell south of Erbil and a castle of Mosul’s city wall.",
+      "decidedAt": "2026-11-14"
+    },
+    {
+      "action": "distinct",
+      "sites": [
+        "site-kirkuk-kirkuk-citadel",
+        "site-kirkuk-qishla-of-kirkuk"
+      ],
+      "reason": "The citadel (قلعة) and the Ottoman barracks (قشلة) in the city centre; the Arabic names differ by two letters.",
+      "decidedAt": "2026-11-14"
     }
   ]
 }

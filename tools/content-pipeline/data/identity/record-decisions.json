@@ -1,0 +1,96 @@
+{
+  "about": "Decisions on single-record findings of audit_identity.py. keep: the finding is explained (note says why). fixed: the record was corrected (note says how).",
+  "decisions": {
+    "site-baghdad-bab-al-muadham": {
+      "describes-other": {
+        "action": "keep",
+        "note": "The gate is described by what it led to (the Abu Hanifa mosque); the description is of the gate itself.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-diyala-eshnunna": {
+      "describes-other": {
+        "action": "keep",
+        "note": "Eshnunna ruled Ishchali; the description is of Eshnunna (Tell Asmar).",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-duhok-muqable-i": {
+      "describes-other": {
+        "action": "keep",
+        "note": "Muqable I is a mound of the Bassetki cluster; the cluster names its place.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-duhok-muqable-iii": {
+      "describes-other": {
+        "action": "keep",
+        "note": "Muqable III is a mound of the Bassetki cluster; the cluster names its place.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-kirkuk-takiya-najib": {
+      "describes-other": {
+        "action": "keep",
+        "note": "The lodge stands on the edge of Kirkuk Citadel; the citadel names its place.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-nineveh-el-khan": {
+      "describes-other": {
+        "action": "keep",
+        "note": "Located by reference to M’lefaat on the Khazir.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-nineveh-tell-maghzaliyah": {
+      "describes-other": {
+        "action": "keep",
+        "note": "Located by reference to Yarim Tepe and compared with Jarmo.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-nineveh-gir-e-gomel": {
+      "other-governorate": {
+        "action": "keep",
+        "note": "Navkur plain lies in Shekhan district: Nineveh de jure, administered from Duhok, as for Khinnis.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-nineveh-mohamed-rashan-shrine": {
+      "other-governorate": {
+        "action": "keep",
+        "note": "Bardarash: Nineveh de jure, administered by the Kurdistan Region; Erbil and Duhok name the road.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-salah-al-din-great-mosque": {
+      "parent-missing": {
+        "action": "fixed",
+        "note": "parentSite now links Samarra, as the heritage status already said.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-salah-al-din-abu-dulaf": {
+      "parent-missing": {
+        "action": "fixed",
+        "note": "parentSite now links Samarra, as the heritage status already said.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-salah-al-din-caliphal-palace": {
+      "parent-missing": {
+        "action": "fixed",
+        "note": "parentSite now links Samarra, as the heritage status already said.",
+        "decidedAt": "2026-11-14"
+      }
+    },
+    "site-kirkuk-qaysariyah-market": {
+      "parent-missing": {
+        "action": "fixed",
+        "note": "parentSite now links Kirkuk Citadel, as the heritage status already said.",
+        "decidedAt": "2026-11-14"
+      }
+    }
+  }
+}

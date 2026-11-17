@@ -1,0 +1,734 @@
+{
+  "checkedAt": "2026-11-14",
+  "records": 683,
+  "pairs": [
+    {
+      "ids": [
+        "site-anbar-al-zawiya-site",
+        "site-anbar-buttain-al-jannadiya"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 89% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-al-zawiya-site",
+        "site-anbar-imam-habib-al-najjar"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 83% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-al-zawiya-site",
+        "site-anbar-tel-al-darrajiya"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 81% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-bijan-island",
+        "site-anbar-rijan-island"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name",
+        "\"bijan island\" ~ \"rijan island\" (0.92)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-buttain-al-jannadiya",
+        "site-anbar-imam-habib-al-najjar"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 90% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-buttain-al-jannadiya",
+        "site-anbar-tel-al-darrajiya"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 91% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-buttain-al-jannadiya",
+        "site-anbar-tel-gubbain"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 82% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-imam-habib-al-najjar",
+        "site-anbar-tel-al-darrajiya"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 85% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-anbar-tel-al-darrajiya",
+        "site-anbar-tel-gubbain"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 88% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-baghdad-al-ahmadiyya-mosque",
+        "site-baghdad-al-maidan-square"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 97 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-baghdad-al-rashid-street",
+        "site-baghdad-haydar-khana-mosque"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 72 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-baghdad-latin-st-joseph",
+        "site-baghdad-syriac-catholic-immaculate"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 93 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-baghdad-om-al-ahzan-church",
+        "site-baghdad-syriac-catholic-immaculate"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 35 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-dawood-zarifa-house",
+        "site-diyala-majid-pasha-palace-kifri"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 83% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-hamrin-ababra",
+        "site-diyala-hamrin-sabra"
+      ],
+      "checks": [
+        "name"
+      ],
+      "details": [
+        "similar_name, shared_source_url"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-hamrin-al-baqa",
+        "site-diyala-hamrin-aq-tepe"
+      ],
+      "checks": [
+        "similar-name"
+      ],
+      "details": [
+        "\"aq hamrin\" ~ \"baqa hamrin\" (0.90)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-hamrin-as-sara",
+        "site-diyala-hamrin-as-saray"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name, shared_source_url",
+        "\"as saray hamrin\" ~ \"as sara hamrin\" (0.97)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-tell-abu-husaini",
+        "site-diyala-tell-hassan"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 92% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-tell-hassan",
+        "site-diyala-tell-kesaran"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 80% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-diyala-tell-suleimah",
+        "site-diyala-tell-yelkhi"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name",
+        "\"awal proposed\" ~ \"awalki proposed\" (0.93)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-duhok-dehi-churches",
+        "site-duhok-mar-qayyoma-dooreh"
+      ],
+      "checks": [
+        "similar-name"
+      ],
+      "details": [
+        "\"qayouma\" ~ \"qayuma\" (0.92)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-duhok-muqable-i",
+        "site-duhok-muqable-iii"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name, shared_source_url",
+        "\"muqable i\" ~ \"muqable iii\" (0.90)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-erbil-aliawa",
+        "site-erbil-girdi-helawa"
+      ],
+      "checks": [
+        "name"
+      ],
+      "details": [
+        "similar_name, shared_source_url"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-erbil-aliawa",
+        "site-sulaymaniyah-ali-awa"
+      ],
+      "checks": [
+        "similar-name"
+      ],
+      "details": [
+        "\"aliawa\" ~ \"ali awa\" (0.92); Erbil / Sulaymaniyah"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-erbil-bash-tapa",
+        "site-erbil-kelik-mishik"
+      ],
+      "checks": [
+        "reused-text"
+      ],
+      "details": [
+        "descriptions 86% alike"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-erbil-bash-tapa",
+        "site-nineveh-bash-tapia-castle"
+      ],
+      "checks": [
+        "similar-name"
+      ],
+      "details": [
+        "\"bash tapa\" ~ \"bash tapia\" (0.95); Erbil / Nineveh"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-kirkuk-kirkuk-citadel",
+        "site-kirkuk-qishla-of-kirkuk"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name",
+        "\"قلعة كركوك\" ~ \"قشلة كركوك\" (0.90)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-nineveh-karamles-kar-mullissi",
+        "site-nineveh-mar-addai-karamles"
+      ],
+      "checks": [
+        "name"
+      ],
+      "details": [
+        "alternative_name"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-nineveh-mar-gorgis-alqosh",
+        "site-nineveh-mar-gorgis-qaraqosh"
+      ],
+      "checks": [
+        "name"
+      ],
+      "details": [
+        "similar_name"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-nineveh-mar-gorgis-alqosh",
+        "site-nineveh-mar-mikha-alqosh"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 41 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-nineveh-mart-mariam-bashiqa",
+        "site-nineveh-mart-shmoni-bashiqa"
+      ],
+      "checks": [
+        "same-place"
+      ],
+      "details": [
+        "positions 61 m apart"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-nineveh-nabi-yunus-mosque",
+        "site-nineveh-tell-nebi-yunus"
+      ],
+      "checks": [
+        "name"
+      ],
+      "details": [
+        "alternative_name (component)"
+      ],
+      "decided": true
+    },
+    {
+      "ids": [
+        "site-sulaymaniyah-shekh-wisal-1",
+        "site-sulaymaniyah-shekh-wisal-2"
+      ],
+      "checks": [
+        "name",
+        "similar-name"
+      ],
+      "details": [
+        "similar_name, shared_source_url",
+        "\"shekh wisal 1\" ~ \"shekh wisal 2\" (0.92)"
+      ],
+      "decided": true
+    }
+  ],
+  "recordChecks": [
+    {
+      "id": "site-baghdad-bab-al-muadham",
+      "check": "describes-other",
+      "detail": "names \"abu hanifa mosque\" (site-baghdad-abu-hanifa-mosque) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-diyala-eshnunna",
+      "check": "describes-other",
+      "detail": "names \"ishchali\" (site-diyala-tell-ishchali) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-duhok-muqable-i",
+      "check": "describes-other",
+      "detail": "names \"bassetki\" (site-duhok-mardaman-bassetki) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-duhok-muqable-iii",
+      "check": "describes-other",
+      "detail": "names \"bassetki\" (site-duhok-mardaman-bassetki) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-kirkuk-takiya-najib",
+      "check": "describes-other",
+      "detail": "names \"kirkuk citadel\" (site-kirkuk-kirkuk-citadel) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-nineveh-el-khan",
+      "check": "describes-other",
+      "detail": "names \"m lefaat\" (site-nineveh-mlefaat) but none of its own names",
+      "decision": "keep"
+    },
+    {
+      "id": "site-nineveh-gir-e-gomel",
+      "check": "other-governorate",
+      "detail": "names Duhok (Duhok), not a town of Nineveh",
+      "decision": "keep"
+    },
+    {
+      "id": "site-nineveh-mohamed-rashan-shrine",
+      "check": "other-governorate",
+      "detail": "names Erbil (Erbil), not a town of Nineveh",
+      "decision": "keep"
+    },
+    {
+      "id": "site-nineveh-tell-maghzaliyah",
+      "check": "describes-other",
+      "detail": "names \"yarim tepe\" (site-nineveh-yarim-tepe) but none of its own names",
+      "decision": "keep"
+    }
+  ],
+  "sharedDescriptions": [
+    {
+      "cards": 54,
+      "text": "A tell named on Yaseen’s map of Hamrin basin settlements (2005). Its period, extent and exact position are not documented in the sources found.",
+      "ids": [
+        "site-diyala-hamrin-al-hafayir",
+        "site-diyala-hamrin-tulul-umm-salim",
+        "site-diyala-hamrin-tulul-al-bakhtariyah",
+        "site-diyala-hamrin-deshtaneh",
+        "site-diyala-hamrin-al-daham",
+        "site-diyala-hamrin-abu-khazef",
+        "site-diyala-hamrin-kheit-imneithir",
+        "site-diyala-hamrin-kheit-al-imheidiyed",
+        "site-diyala-hamrin-at-turah",
+        "site-diyala-hamrin-aq-tepe",
+        "site-diyala-hamrin-tulul-al-khubari",
+        "site-diyala-hamrin-tulul-beni-weis",
+        "site-diyala-hamrin-ayyash",
+        "site-diyala-hamrin-hikmeh",
+        "site-diyala-hamrin-ash-shair",
+        "site-diyala-hamrin-mahmud-agha",
+        "site-diyala-hamrin-shor-tepe",
+        "site-diyala-hamrin-nebi-ismail",
+        "site-diyala-hamrin-al-zawiyah",
+        "site-diyala-hamrin-ar-raha",
+        "site-diyala-hamrin-imam-ali",
+        "site-diyala-hamrin-al-mahatteh",
+        "site-diyala-hamrin-gauri",
+        "site-diyala-hamrin-irsheidch",
+        "site-diyala-hamrin-tulul-baradan",
+        "site-diyala-hamrin-imleihiyeh",
+        "site-diyala-hamrin-al-imam-al-bairakdah",
+        "site-diyala-hamrin-ababra",
+        "site-diyala-hamrin-harmaleh",
+        "site-diyala-hamrin-kheit-genj",
+        "site-diyala-hamrin-abu-shufeh",
+        "site-diyala-hamrin-jeizalun",
+        "site-diyala-hamrin-tunneireh",
+        "site-diyala-hamrin-hablayeh",
+        "site-diyala-hamrin-kumeideh",
+        "site-diyala-hamrin-khuzeifi",
+        "site-diyala-hamrin-seidalan",
+        "site-diyala-hamrin-tejli",
+        "site-diyala-hamrin-abu-tahin",
+        "site-diyala-hamrin-bustan",
+        "site-diyala-hamrin-keshkul",
+        "site-diyala-hamrin-greish",
+        "site-diyala-hamrin-halawa",
+        "site-diyala-hamrin-kheizif",
+        "site-diyala-hamrin-ahmed-al-hattu",
+        "site-diyala-hamrin-al-baqa",
+        "site-diyala-hamrin-tulul-al-yarmet",
+        "site-diyala-hamrin-ali-pasha",
+        "site-diyala-hamrin-as-saray",
+        "site-diyala-hamrin-abu-gubab",
+        "site-diyala-hamrin-ash-shoureh",
+        "site-diyala-hamrin-sabra",
+        "site-diyala-hamrin-as-sara",
+        "site-diyala-hamrin-abu-samad"
+      ]
+    },
+    {
+      "cards": 23,
+      "text": "An archaeological site (Shahrizor Plain) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
+      "ids": [
+        "site-sulaymaniyah-tepe-kal",
+        "site-sulaymaniyah-marif-tepe",
+        "site-sulaymaniyah-girda-resh-barika",
+        "site-sulaymaniyah-greza",
+        "site-sulaymaniyah-bin-gird-i-muan",
+        "site-sulaymaniyah-gird-i-saraw",
+        "site-sulaymaniyah-gird-i-qalrakh",
+        "site-sulaymaniyah-gird-i-shatwan",
+        "site-sulaymaniyah-tell-hajji-abdallah",
+        "site-sulaymaniyah-quruchiya",
+        "site-sulaymaniyah-gird-i-qara-tepe",
+        "site-sulaymaniyah-gird-i-sharif",
+        "site-sulaymaniyah-gird-i-qulkhurd",
+        "site-sulaymaniyah-lamar-kazi",
+        "site-sulaymaniyah-kara-gol",
+        "site-sulaymaniyah-qalaja",
+        "site-sulaymaniyah-sutik-tepe",
+        "site-sulaymaniyah-gird-i-shakar",
+        "site-sulaymaniyah-qalbaza-tepe",
+        "site-sulaymaniyah-alan-tepe",
+        "site-sulaymaniyah-maluan",
+        "site-sulaymaniyah-tepe-kurra",
+        "site-sulaymaniyah-tepe-sheshak-hagg-hussain"
+      ]
+    },
+    {
+      "cards": 23,
+      "text": "An archaeological site (Baban Highway / Tanjarow River, southwest of Sulaymaniyah) recorded by the Kokushikan University surveys (Tsuneki et al.).",
+      "ids": [
+        "site-sulaymaniyah-qadar-kamala",
+        "site-sulaymaniyah-kalespi",
+        "site-sulaymaniyah-bingird",
+        "site-sulaymaniyah-raziana",
+        "site-sulaymaniyah-satubist",
+        "site-sulaymaniyah-kani-goma",
+        "site-sulaymaniyah-shekh-wisal-1",
+        "site-sulaymaniyah-shekh-wisal-2",
+        "site-sulaymaniyah-manswr-awa",
+        "site-sulaymaniyah-zrgwez-kwer",
+        "site-sulaymaniyah-barbakh",
+        "site-sulaymaniyah-gulalan",
+        "site-sulaymaniyah-karima-swr",
+        "site-sulaymaniyah-barika-tanjarow",
+        "site-sulaymaniyah-kamalan",
+        "site-sulaymaniyah-yakhimali",
+        "site-sulaymaniyah-qisirt-saru",
+        "site-sulaymaniyah-saidwa-shekhrash",
+        "site-sulaymaniyah-yakmala",
+        "site-sulaymaniyah-qaratoghan",
+        "site-sulaymaniyah-kharajian",
+        "site-sulaymaniyah-yakhimali-sarchawa",
+        "site-sulaymaniyah-kozaraqa"
+      ]
+    },
+    {
+      "cards": 10,
+      "text": "A tell recorded by the Erbil Plain Archaeological Survey.",
+      "ids": [
+        "site-erbil-girdi-daghan",
+        "site-erbil-girdi-gozka",
+        "site-erbil-girdi-khazna",
+        "site-erbil-tell-quri-beg",
+        "site-erbil-girdi-abdulaziz",
+        "site-erbil-girdi-qawagh",
+        "site-erbil-tell-abu-shita",
+        "site-erbil-girdi-peshka",
+        "site-erbil-zaga",
+        "site-erbil-awena"
+      ]
+    },
+    {
+      "cards": 5,
+      "text": "A historic mosque of Old Mosul cited in the UNESCO Tentative List dossier.",
+      "ids": [
+        "site-nineveh-al-juwayjati-mosque",
+        "site-nineveh-al-umariyya-mosque",
+        "site-nineveh-umar-al-aswad-mosque",
+        "site-nineveh-dawsat-ali-mosque",
+        "site-nineveh-al-khuzam-mosque"
+      ]
+    },
+    {
+      "cards": 5,
+      "text": "An archaeological site (Shahrizor Plain) recorded by the Kokushikan University surveys (Tsuneki et al.).",
+      "ids": [
+        "site-sulaymaniyah-tell-raza",
+        "site-sulaymaniyah-caani-rash",
+        "site-sulaymaniyah-quchika-tepe",
+        "site-sulaymaniyah-tell-hassil",
+        "site-sulaymaniyah-tell-haji"
+      ]
+    },
+    {
+      "cards": 5,
+      "text": "An archaeological site (Ranya–Pshdar Plains) recorded by the Kokushikan University surveys (Tsuneki et al.).",
+      "ids": [
+        "site-sulaymaniyah-tell-bengel",
+        "site-sulaymaniyah-qala-tepe",
+        "site-sulaymaniyah-ibrahim-kachal",
+        "site-sulaymaniyah-boskin",
+        "site-sulaymaniyah-ali-awa"
+      ]
+    },
+    {
+      "cards": 4,
+      "text": "An archaeological site (Shahrizor region) recorded by the Shahrizor Survey Project (Radner et al. 2012).",
+      "ids": [
+        "site-sulaymaniyah-duwanza-imam",
+        "site-sulaymaniyah-tholima",
+        "site-sulaymaniyah-tell-chragh",
+        "site-sulaymaniyah-tell-arbat"
+      ]
+    },
+    {
+      "cards": 4,
+      "text": "Known only from a line in the National Investment Commission’s list of Diyala historical sites; locality, period and present condition are not documented in the sources found.",
+      "ids": [
+        "site-diyala-baqubah-old-saray",
+        "site-diyala-tel-abu-uthaina",
+        "site-diyala-tel-shihab",
+        "site-diyala-prophet-daniel-shrine-diyala"
+      ]
+    },
+    {
+      "cards": 3,
+      "text": "A historic house in Erbil documented in Columbia University’s Mapping Mesopotamian Monuments catalogue.",
+      "ids": [
+        "site-erbil-rashid-agha-house",
+        "site-erbil-selim-qaqa-house",
+        "site-erbil-yaqub-aga-house"
+      ]
+    },
+    {
+      "cards": 3,
+      "text": "A gate of Kirkuk Citadel named in the UNESCO dossier.",
+      "ids": [
+        "site-kirkuk-stone-gate",
+        "site-kirkuk-seven-girls-gate",
+        "site-kirkuk-bab-al-halloujia"
+      ]
+    },
+    {
+      "cards": 2,
+      "text": "A numbered mound in the Bassetki settlement cluster investigated by the University of Tübingen.",
+      "ids": [
+        "site-duhok-muqable-i",
+        "site-duhok-muqable-iii"
+      ]
+    },
+    {
+      "cards": 2,
+      "text": "One of the gates of Nineveh’s city wall.",
+      "ids": [
+        "site-nineveh-sin-gate",
+        "site-nineveh-assur-gate"
+      ]
+    },
+    {
+      "cards": 2,
+      "text": "A tell at Uch Tepe excavated by the Chicago–Copenhagen expedition.",
+      "ids": [
+        "site-diyala-tell-ahmed-al-mughir",
+        "site-diyala-tell-ajamat"
+      ]
+    }
+  ]
+}
