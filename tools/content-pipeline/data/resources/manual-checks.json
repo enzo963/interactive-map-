@@ -1,0 +1,13 @@
+{
+  "about": "Links a person has checked after check_resources.py flagged them. result: ok (works in a browser), dead (gone; newUrl is the archived copy or replacement, if any) or moved (newUrl is the page's current address). The queue keeps dead and moved links until the record is updated.",
+  "checks": {
+    "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html": {"result": "moved", "newUrl": "https://oracc.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html", "note": "Certificate is issued for oracc.museum.upenn.edu; the same page answers there.", "checkedAt": "2026-11-14"},
+    "https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404": {"result": "dead", "newUrl": "https://web.archive.org/web/20250719052411/https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404", "note": "404 on the university site; archived copy of July 2025.", "checkedAt": "2026-11-14"},
+    "https://uod.ac/about/duhok-city": {"result": "dead", "newUrl": "https://web.archive.org/web/20241214204610/https://www.uod.ac/about/duhok-city/", "note": "404 with and without www; archived copy of December 2024.", "checkedAt": "2026-11-14"},
+    "https://tika.gov.tr/en/detail-a_collective_opening_ceremony_was_held_for_tika%27s_projects_in_iraq/": {"result": "dead", "newUrl": "https://web.archive.org/web/20260519001529/https://tika.gov.tr/en/detail-a_collective_opening_ceremony_was_held_for_tika%27s_projects_in_iraq/", "note": "404; archived copy of May 2026.", "checkedAt": "2026-11-14"},
+    "https://mcid.mcah.columbia.edu/node/87269": {"result": "dead", "note": "404 and no archived copy: replace with another source for the Zebari Gate.", "checkedAt": "2026-11-14"},
+    "https://mcid.mcah.columbia.edu/cataloging-viewer/1314_iraq2013_houseb13_img_010": {"result": "dead", "note": "404 and no archived copy: the card keeps its other source; remove or replace this one.", "checkedAt": "2026-11-14"},
+    "https://asor.org/?p=53066": {"result": "dead", "note": "404 and no archived copy.", "checkedAt": "2026-11-14"},
+    "https://www.asor.org/wp-content/uploads/2019/09/ASOR_CHI_Weekly_Report_16–17r.pdf": {"result": "dead", "note": "404 (also percent-encoded) and no archived copy.", "checkedAt": "2026-11-14"}
+  }
+}

@@ -1,0 +1,1655 @@
+{
+  "checkedAt": "2026-11-14",
+  "cards": 682,
+  "images": 300,
+  "links": 2044,
+  "items": [
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-anbar-minaret-of-anah",
+      "field": "sources[1].url",
+      "target": "https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
+      "detail": "manual check 2026-11-14: 404 on the university site; archived copy of July 2025. → https://web.archive.org/web/20250719052411/https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-duhok-duhok-old-bazaar",
+      "field": "sources[0].url",
+      "target": "https://uod.ac/about/duhok-city",
+      "detail": "manual check 2026-11-14: 404 with and without www; archived copy of December 2024. → https://web.archive.org/web/20241214204610/https://www.uod.ac/about/duhok-city/",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-duhok-zebari-gate-amedi",
+      "field": "sources[0].url",
+      "target": "https://mcid.mcah.columbia.edu/node/87269",
+      "detail": "manual check 2026-11-14: 404 and no archived copy: replace with another source for the Zebari Gate.",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-erbil-house-b13-topkhana",
+      "field": "sources[1].url",
+      "target": "https://mcid.mcah.columbia.edu/cataloging-viewer/1314_iraq2013_houseb13_img_010",
+      "detail": "manual check 2026-11-14: 404 and no archived copy: the card keeps its other source; remove or replace this one.",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-kirkuk-ottoman-military-cemetery",
+      "field": "sources[1].url",
+      "target": "https://tika.gov.tr/en/detail-a_collective_opening_ceremony_was_held_for_tika%27s_projects_in_iraq/",
+      "detail": "manual check 2026-11-14: 404; archived copy of May 2026. → https://web.archive.org/web/20260519001529/https://tika.gov.tr/en/detail-a_collective_opening_ceremony_was_held_for_tika%27s_projects_in_iraq/",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-kirkuk-sheikh-ismail-shrine",
+      "field": "sources[0].url",
+      "target": "https://www.asor.org/wp-content/uploads/2019/09/ASOR_CHI_Weekly_Report_16–17r.pdf",
+      "detail": "manual check 2026-11-14: 404 (also percent-encoded) and no archived copy.",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P2",
+      "kind": "link-dead",
+      "siteId": "site-nineveh-tal-afar-citadel",
+      "field": "sources[1].url",
+      "target": "https://asor.org/?p=53066",
+      "detail": "manual check 2026-11-14: 404 and no archived copy.",
+      "action": "Find the page again (publisher site, Wayback Machine) and update the URL, or replace the source."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-001",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/277/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-anbar-hit-old-town",
+      "field": "sources[2].url",
+      "target": "https://www.investpromo.gov.iq/wp-content/uploads/2018/06/anbar-Tourism-Sector-1.pdf",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-anbar-kifrin",
+      "field": "sources[0].url",
+      "target": "https://www.mdpi.com/2072-4292/13/4/786",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-anbar-usiyeh",
+      "field": "sources[1].url",
+      "target": "https://www.mdpi.com/2072-4292/13/4/786",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-abbasid-palace",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-ahmadiyya-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3852",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-asifiyah-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-khulafa-mosque",
+      "field": "sources[3].url",
+      "target": "https://www.archnet.org/sites/3842",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-muradiyya-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3850",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-qishla",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-al-wazir-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-bab-al-wastani",
+      "field": "sources[3].url",
+      "target": "https://www.archnet.org/sites/4326",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-baghdad-gymnasium",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/345",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-ctesiphon",
+      "field": "sources[2].url",
+      "target": "https://www.iranicaonline.org/articles/ctesiphon/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-ctesiphon",
+      "field": "sources[3].url",
+      "target": "https://www.iranicaonline.org/articles/madaen-sasanian-metropolitan-area/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-dur-kurigalzu",
+      "field": "sources[2].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6797/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-hadhrat-al-qadiriyya",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3849",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-haydar-khana-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3854",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-house-of-wisdom-building",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-kadhimiya-shrine",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3848",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-khan-mirjan",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/15578",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-khan-mirjan",
+      "field": "sources[3].url",
+      "target": "https://www.archnet.org/publications/373",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-mirjan-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3844",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5880/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-mustansiriya-madrasa",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3836",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-north-gate-war-cemetery",
+      "field": "sources[2].url",
+      "target": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/57303/baghdad-north-gate-war-cemetery/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-round-city",
+      "field": "sources[2].url",
+      "target": "https://www.iranicaonline.org/articles/baghdad/baghdad-iranian-connection-i-pr-mongol/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-seleucia-on-tigris",
+      "field": "sources[2].url",
+      "target": "https://www.iranicaonline.org/articles/ctesiphon/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-suhrawardi-mausoleum",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/4329",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-talisman-gate",
+      "field": "sources[1].url",
+      "target": "https://www.archnet.org/sites/3832",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-taq-kasra",
+      "field": "sources[2].url",
+      "target": "https://www.iranicaonline.org/articles/ctesiphon",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-university-of-baghdad-campus",
+      "field": "sources[2].url",
+      "target": "https://archnet.org/sites/15908",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-unknown-soldier-monument",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/693",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-zumurrud-khatun-mausoleum",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/1696",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-baghdad-zumurrud-khatun-mausoleum",
+      "field": "sources[3].url",
+      "target": "https://www.archnet.org/sites/4358",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-adhaim-ancient-dam",
+      "field": "sources[1].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-baqubah-old-saray",
+      "field": "sources[0].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-eski-kifri",
+      "field": "sources[0].url",
+      "target": "https://sjh.univsul.edu.iq/article?id=2012",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-khanaqin-war-cemetery",
+      "field": "sources[0].url",
+      "target": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/2090521/baghdad-north-gate-khanaqin-memorial/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-kifri-saray",
+      "field": "sources[1].url",
+      "target": "https://sjh.univsul.edu.iq/article?id=2012",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-prophet-daniel-shrine-diyala",
+      "field": "sources[0].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-tel-abu-uthaina",
+      "field": "sources[0].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-tel-shihab",
+      "field": "sources[0].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-diyala-tell-al-zendan",
+      "field": "sources[1].url",
+      "target": "https://investpromo.gov.iq/investment-map/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-amedy-city",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/5601/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-charsteen-cave",
+      "field": "sources[0].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/april/first-phase-of-charsteen-cave-restoration-in-duhok-completed/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-delal-bridge",
+      "field": "sources[0].url",
+      "target": "https://us.gov.krd/visit-kurdistan/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-delal-bridge",
+      "field": "sources[1].url",
+      "target": "https://gov.krd/boi-en/why-kurdistan/region/history/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-delal-bridge",
+      "field": "sources[2].url",
+      "target": "http://bot.gov.krd/duhok-province-zakho/history-and-heritage/dalal-bridge",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-duhok-faida-canal-reliefs",
+      "field": "sources[0].url",
+      "target": "https://gov.krd/momt-en/activities/news-and-press-releases/2022/october/krg-inaugurated-the-first-archaeological-park-with-carvings-dating-back-2-700-years-in-duhok-province/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-aliawa",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-awena",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-batas-harir-relief",
+      "field": "sources[0].url",
+      "target": "https://www.worldhistory.org/image/3086/rock-relief-of-mountain-hareer/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-choli-minaret",
+      "field": "sources[0].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-erbil-citadel",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1437/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-erbil-citadel",
+      "field": "sources[1].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-erbil-citadel",
+      "field": "sources[2].url",
+      "target": "https://whc.unesco.org/document/152675",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-erbil-citadel-hammam",
+      "field": "sources[1].url",
+      "target": "https://whoseculture.hsites.harvard.edu/erbil",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-erbil-citadel-hammam",
+      "field": "sources[2].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/january/erbil-citadel-renovation-to-be-accelerated-reviving-the-world-s-oldest-inhabited-landmark-with-global-heritage-standards/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-gird-i-dasht",
+      "field": "sources[0].url",
+      "target": "https://www.academia.edu/6884640",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-gird-i-matrab",
+      "field": "sources[2].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-abdulaziz",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-daghan",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-gozka",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-helawa",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-khazna",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-peshka",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-girdi-qawagh",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-great-mosque-erbil-citadel",
+      "field": "sources[1].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-kurd-qaburstan",
+      "field": "sources[3].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-qalinj-agha",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-qasr-shemamok",
+      "field": "sources[1].url",
+      "target": "https://www.iranicaonline.org/articles/kilizu/kilizu-i-the-site/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-qasr-shemamok",
+      "field": "sources[2].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-qaysari-bazaar",
+      "field": "sources[0].url",
+      "target": "https://gov.krd/english/news-and-announcements/posts/2024/may/krg-s-council-of-ministers-deliberates-on-critical-issues/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-shanidar-cave",
+      "field": "sources[0].url",
+      "target": "https://us.gov.krd/visit-kurdistan/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-tell-abu-shita",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-tell-baqrta",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-tell-nader",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-tell-quri-beg",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-tell-surezha",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-erbil-zaga",
+      "field": "sources[0].url",
+      "target": "https://www.kurdipedia.org/files/relatedfiles/2022/452119/0001.PDF",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-aghaliq-quarter",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-al-aryan-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-al-midan-quarter",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-bab-al-halloujia",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-great-mosque-kirkuk-citadel",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-green-dome",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-hammam-quarter",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-kirkuk-citadel",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-mother-of-sorrows-church",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-prophet-daniel-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-qaysariyah-market",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-seven-girls-gate",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-stone-gate",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-kirkuk-tob-qapi",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6522/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-abdal-mosque-madrasa",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-basha-mosque",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-juwayjati-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-khuzam-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-nouri",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-umariyya-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-al-umawi-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-ancient-nineveh",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/1465/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-bab-al-qala",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-bab-al-sir",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-barood-khana",
+      "field": "sources[0].url",
+      "target": "https://penntoday.upenn.edu/news/penn-team-expands-cultural-heritage-work-iraq-backed-new-funding",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-bash-tapia-castle",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-dawsat-ali-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-dominican-church",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-lalish",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6467/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-nimrud",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/1463/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-old-mosul",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-qara-saray",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-umar-al-aswad-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-nineveh-umm-al-tisa-mosque",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6355/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-abu-dulaf",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-akitu-house-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-al-jafari-palace",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-anu-adad-temple",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ashur-city-walls",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ashur-temple",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ashur-ziggurat",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-balkuwara-palace",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/document/8815",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-balkuwara-palace",
+      "field": "sources[1].url",
+      "target": "https://www.metmuseum.org/essays/ernst-emil-herzfeld-1879-1948-in-samarra",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-caliphal-palace",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-german-expedition-house-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-great-mosque",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-great-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/3828",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-green-church-tikrit",
+      "field": "sources[1].url",
+      "target": "https://unpo.org/?p=9696",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-husn-al-qadisiyya",
+      "field": "sources[0].url",
+      "target": "https://www.academia.edu/59904629/The_1986_Survey_Season_at_S%C4%81marr%C4%81",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ishtar-temple-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-istabulat",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/document/8815",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-old-palace-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-ottoman-barracks-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-parthian-palace-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-qasr-al-ashiq",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-qubbat-al-sulaybiyya",
+      "field": "sources[0].url",
+      "target": "https://www.archnet.org/sites/3831",
+      "detail": "HTTP 429",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-qubbat-al-sulaybiyya",
+      "field": "sources[1].url",
+      "target": "https://whc.unesco.org/document/8815",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-royal-tombs-ashur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-samarra",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/276/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-samarra-racecourses",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/document/205820",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-tabira-gate",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/list/1130/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-salah-al-din-tell-al-alij",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/document/8815",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-bestansur",
+      "field": "sources[0].url",
+      "target": "https://whc.unesco.org/en/tentativelists/6172/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-dailaija-relief",
+      "field": "sources[1].url",
+      "target": "https://www.worldhistory.org/article/1235/the-lullubian-rock-relief-of-darband-i-basara/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-qalatga-darband",
+      "field": "sources[0].url",
+      "target": "https://us.gov.krd/visit-kurdistan/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-red-terror-museum",
+      "field": "sources[0].url",
+      "target": "https://us.gov.krd/visit-kurdistan/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-sara-palace-and-bathhouse",
+      "field": "sources[1].url",
+      "target": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/september/historic-bathhouse-from-baban-principality-rediscovered-in-slemani/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "blocked",
+      "siteId": "site-sulaymaniyah-tell-shemshara",
+      "field": "sources[0].url",
+      "target": "https://us.gov.krd/visit-kurdistan/",
+      "detail": "HTTP 403",
+      "action": "The site refuses automated clients. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "connection-reset",
+      "siteId": "site-erbil-grand-mosque-koya",
+      "field": "sources[1].url",
+      "target": "https://aafu.journals.ekb.eg/article_6102.html",
+      "detail": "curl 56; archived copy: https://web.archive.org/web/20251014035114/https://aafu.journals.ekb.eg/article_6102.html",
+      "action": "The server drops automated connections. Open it in a browser from another network; use the archived copy if it is gone."
+    },
+    {
+      "priority": "P3",
+      "kind": "connection-reset",
+      "siteId": "site-kirkuk-tell-arab-kumbet",
+      "field": "sources[1].url",
+      "target": "https://aafu.journals.ekb.eg/article_30093.html",
+      "detail": "curl 56; archived copy: https://web.archive.org/web/20251112023010/https://aafu.journals.ekb.eg/article_30093.html",
+      "action": "The server drops automated connections. Open it in a browser from another network; use the archived copy if it is gone."
+    },
+    {
+      "priority": "P3",
+      "kind": "moved",
+      "siteId": "site-anbar-haradum",
+      "field": "sources[2].url",
+      "target": "https://cdli.mpiwg-berlin.mpg.de/artifacts/525505",
+      "detail": "HTTP 200 → https://cdli.earth/artifacts/525505",
+      "action": "The link redirects permanently: update it to the new address."
+    },
+    {
+      "priority": "P3",
+      "kind": "moved",
+      "siteId": "site-nineveh-adad-nerari-palace-nimrud",
+      "field": "sources[0].url",
+      "target": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "detail": "manual check 2026-11-14: Certificate is issued for oracc.museum.upenn.edu; the same page answers there. → https://oracc.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "action": "The link redirects permanently: update it to the new address."
+    },
+    {
+      "priority": "P3",
+      "kind": "moved",
+      "siteId": "site-nineveh-nimrud-ninurta-temple",
+      "field": "sources[0].url",
+      "target": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "detail": "manual check 2026-11-14: Certificate is issued for oracc.museum.upenn.edu; the same page answers there. → https://oracc.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "action": "The link redirects permanently: update it to the new address."
+    },
+    {
+      "priority": "P3",
+      "kind": "moved",
+      "siteId": "site-nineveh-nimrud-ziggurat",
+      "field": "sources[0].url",
+      "target": "https://oracc2.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "detail": "manual check 2026-11-14: Certificate is issued for oracc.museum.upenn.edu; the same page answers there. → https://oracc.museum.upenn.edu/saao/aebp/Essentials/Cities/Kalhu/index.html",
+      "action": "The link redirects permanently: update it to the new address."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-baghdad-al-khulafa-mosque",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/27",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-baghdad-al-shaheed-monument",
+      "field": "sources[2].url",
+      "target": "https://www.archnet.org/sites/433",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-baghdad-university-of-baghdad-campus",
+      "field": "sources[4].url",
+      "target": "https://www.archnet.org/sites/15908",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-kirkuk-nuzi",
+      "field": "sources[2].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordeach.php?-action=find&-recid=27",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-balawat",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-el-khan",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-khorsabad",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-mezra",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-mlefaat",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-qutb-al-din-minaret-sinjar",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-sinjar-old-city",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-sitt-zaynab-sinjar",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-tell-arpachiyah",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-tell-billa",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-tell-hassuna",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-tell-sotto",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-telul-eth-thalathat",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-tepe-gawra",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-umm-dabaghiyah",
+      "field": "sources[0].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    },
+    {
+      "priority": "P3",
+      "kind": "timeout",
+      "siteId": "site-nineveh-yarim-tepe",
+      "field": "sources[1].url",
+      "target": "https://umdb.um.u-tokyo.ac.jp/DKoukoga/iraq/recordlist.php?-max=all&-skip=0",
+      "detail": "curl 28",
+      "action": "No answer in time. Open it in a browser; record the result in manual-checks.json."
+    }
+  ]
+}
