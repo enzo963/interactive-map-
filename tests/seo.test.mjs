@@ -5,7 +5,7 @@ import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildSeo } from '../scripts/build-seo.mjs';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import { publicOrigin, resolveMetadata, STATIC_PAGES } from '../src/seo/metadata.js';
 import { applyMetadata, renderMetadata, renderRobots, renderSitemap, replaceMetadata } from '../src/seo/head.js';
 
@@ -14,7 +14,7 @@ const site = { status: 'approved', slug: 'hatra', name: 'Hatra', governorate: 'N
 const get = (pathname, options = {}) => resolveMetadata({ pathname, siteUrl: origin, ...options });
 
 test('release metadata uses the same explicit record scope as its client build', async () => {
-  const server = await createServer({ configFile: false, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+  const server = await createTestServer(import.meta.url, { configFile: false });
   try {
     const { metadataPaths, metadataForLocation } = await server.ssrLoadModule('/src/seo/context.js');
     const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');

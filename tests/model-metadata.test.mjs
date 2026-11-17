@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { test, after } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 after(() => server.close());
 const models = await server.ssrLoadModule('/src/utils/modelResources.js');
 const approved = (extra = {}) => ({ id: 'site-a', status: 'approved', ...extra });

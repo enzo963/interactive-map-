@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 after(() => server.close());
 const { searchSites } = await server.ssrLoadModule('/src/utils/search.js');
 const { sortSites } = await server.ssrLoadModule('/src/utils/filterSites.js');

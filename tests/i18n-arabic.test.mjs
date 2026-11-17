@@ -2,9 +2,9 @@
 // counts use Arabic plural forms, and keyed strings from ar.js keep working.
 import assert from 'node:assert/strict';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const i18n = await server.ssrLoadModule('/src/i18n/index.js');
 after(async () => { i18n.setCurrentLanguage('en'); await server.close(); });
 

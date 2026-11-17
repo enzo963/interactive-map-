@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ configFile: false, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url, { configFile: false });
 after(async () => server.close());
 const load = () => server.ssrLoadModule('/src/utils/heritageExperience.js');
 const source = { evidenceId: 'report', sourceName: 'UNESCO', title: 'Condition report', url: 'https://whc.unesco.org/en/list/1', accessedAt: '2020-02-29', accessLevel: 'full-text' };

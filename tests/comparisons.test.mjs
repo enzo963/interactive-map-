@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+import { createTestServer } from './helpers/vite-server.mjs';
+const server = await createTestServer(import.meta.url);
 const { normalizeComparisons } = await server.ssrLoadModule('/src/utils/comparisons.js');
 after(async () => server.close());
 

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import { JSDOM } from 'jsdom';
 import React, { act } from 'react';
 
@@ -11,7 +11,7 @@ for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'HTMLInputE
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 const { createRoot } = await import('react-dom/client');
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 after(() => server.close());
 test('suggestions come from local visible fields, require two characters, deduplicate and bound the limit', async () => {
   const module = await server.ssrLoadModule('/src/utils/searchSuggestions.js').catch(() => ({}));

@@ -1,13 +1,13 @@
 import assert from 'node:assert/strict';
 import { after, afterEach, beforeEach, test } from 'node:test';
 import { JSDOM } from 'jsdom';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import React, { act } from 'react';
 const dom = new JSDOM('<div id="root"></div>', { url: 'http://localhost/', pretendToBeVisual: true });
 for (const key of ['window', 'document', 'navigator', 'HTMLElement', 'Element']) Object.defineProperty(globalThis, key, { configurable: true, value: dom.window[key] });
 globalThis.IS_REACT_ACT_ENVIRONMENT = true;
 const { createRoot } = await import('react-dom/client');
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const ModelViewer = (await server.ssrLoadModule('/src/components/site/ModelViewer.jsx')).default;
 const resource = { url: '/fixture.glb', verified: true, siteId: 'fixture', title: 'Synthetic fixture', credit: 'Fixture author', sourceUrl: 'https://example.org/provenance', sourceName: 'Fixture catalogue' };
 const $ = (s) => document.querySelector(s);

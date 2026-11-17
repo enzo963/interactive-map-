@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test, after } from 'node:test';
-import { createServer } from 'vite';
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+import { createTestServer } from './helpers/vite-server.mjs';
+const server = await createTestServer(import.meta.url);
 after(() => server.close());
 const { normalizeSites } = await server.ssrLoadModule('/src/utils/siteAdapter.js');
 const { getModelEmbed, getVideoEmbed } = await server.ssrLoadModule('/src/utils/media.js');

@@ -4,9 +4,9 @@ import { readFileSync } from 'node:fs';
 import { after, test } from 'node:test';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { videosForSite, formatDuration, MAX_VIDEOS_PER_SITE } = await server.ssrLoadModule('/src/utils/siteVideos.js');
 const { SiteVideos } = await server.ssrLoadModule('/src/components/site/SiteSections.jsx');
 const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
