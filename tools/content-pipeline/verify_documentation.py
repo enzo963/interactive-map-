@@ -26,16 +26,33 @@ UA = 'HistoryInCards-research/1.0'
 RELATIONS = {'site', 'part', 'context'}
 
 
-def model(uid):
+def fetch_model(uid, run=subprocess.run, sleep=time.sleep):
+    """Return ('public', payload), ('missing', reason) or ('unknown', reason).
+
+    Only an explicit HTTP 404 (removed or made private) confirms a model is gone. Rate limits, other
+    HTTP errors, timeouts, connection failures and unreadable payloads are inconclusive: they are retried,
+    then reported as unverified, never as removed.
+    """
+    reason = 'no response'
     for attempt in range(3):
-        result = subprocess.run(['curl', '-s', '-f', '-A', UA, '--max-time', '30', f'https://api.sketchfab.com/v3/models/{uid}'],
-                                capture_output=True, check=False)
-        if result.returncode == 0:
-            return json.loads(result.stdout)
-        if result.returncode == 22:  # 404: removed or made private
-            return None
-        time.sleep(3 * (attempt + 1))
-    return None
+        result = run(['curl', '-s', '-A', UA, '--max-time', '30', '-w', '\n%{http_code}',
+                      f'https://api.sketchfab.com/v3/models/{uid}'], capture_output=True, check=False)
+        body, _, code = result.stdout.rpartition(b'\n')
+        status = int(code) if code.strip().isdigit() else 0
+        if result.returncode != 0 or status == 0:
+            reason = f'curl exit {result.returncode} (no HTTP response)'
+        elif status == 404:
+            return 'missing', 'HTTP 404'
+        elif status == 200:
+            try:
+                return 'public', json.loads(body)
+            except ValueError:
+                reason = 'unreadable API response'
+        else:
+            reason = f'HTTP {status}'
+        if attempt < 2:
+            sleep(3 * (attempt + 1))
+    return 'unknown', reason
 
 
 def main():
@@ -61,9 +78,12 @@ def main():
                 problems.append(f"{label}: no card {link['siteId']}")
             if link['relation'] not in RELATIONS or (link['relation'] != 'site' and not link.get('note')):
                 problems.append(f"{label}: relation {link['relation']} needs a note")
-        found = model(resource['modelId'])
-        if found is None:
-            problems.append(f'{label}: no longer public on Sketchfab')
+        state, found = fetch_model(resource['modelId'])
+        if state == 'missing':
+            problems.append(f'{label}: no longer public on Sketchfab ({found})')
+            continue
+        if state == 'unknown':
+            problems.append(f'{label}: could not verify on Sketchfab ({found}); inconclusive, not treated as removed')
             continue
         if found['name'].strip() != resource['title'].strip():
             problems.append(f"{label}: title is now {found['name']!r}")

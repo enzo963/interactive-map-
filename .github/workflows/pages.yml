@@ -27,7 +27,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/configure-pages@v5
+        id: pages
       - run: npm run build:pages
+        env:
+          VITE_SITE_URL: ${{ steps.pages.outputs.origin }}
+          HB_PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

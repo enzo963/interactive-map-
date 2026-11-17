@@ -526,8 +526,8 @@ test('project navigation: repeated global searches retain input value and keyboa
   await mount('/explore');
   for (const value of ['Hatra', 'Erbil']) {
     const input = $('#global-heritage-search');
-    input.focus();
     await act(async () => {
+      input.focus();
       Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set.call(input, value);
       input.dispatchEvent(new window.Event('input', { bubbles: true }));
     });

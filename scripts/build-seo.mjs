@@ -23,8 +23,9 @@ export async function buildSeo({ outDir = join(root, 'dist'), siteUrl = '', base
     const { metadataPaths, metadataForLocation } = await server.ssrLoadModule('/src/seo/context.js');
     const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
     const sites = getAllSites().filter((site) => !approvedOnly || site.status === 'approved');
-    pages = metadataPaths(sites).map((path) => ({ path, meta: metadataForLocation(path, '', origin, false, sites, base) }));
-    pages.push({ path: '/404', meta: metadataForLocation('/404', '', origin) });
+    pages = metadataPaths(sites, { includeNonIndexable: directoryIndexes })
+      .map((path) => ({ path, meta: metadataForLocation(path, '', origin, false, sites, base) }));
+    pages.push({ path: '/404', meta: metadataForLocation('/404', '', origin, false, sites, base) });
   } finally {
     await server.close();
   }

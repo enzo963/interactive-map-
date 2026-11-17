@@ -11,6 +11,7 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const output = resolve(root, process.env.HB_DIGITAL_OUT || '.validation/digital-heritage');
 assert.ok(output.startsWith(join(root, '.validation')), 'Fixtures remain outside deployment files.');
 const source = join(output, 'source'); const fixtureOut = join(output, 'fixture-build');
+const fixtureBase = '/__digital';
 await mkdir(source, { recursive: true });
 await writeFile(join(source, 'index.html'), '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Digital heritage validation fixture</title></head><body><div id="root"></div><script type="module" src="./fixture.jsx"></script></body></html>');
 await writeFile(join(source, 'fixture.jsx'), `import React from 'react';import {createRoot} from 'react-dom/client';
@@ -26,9 +27,9 @@ raw.story_sections=[{...claim,id:'architecture',type:'architecture',text:'Synthe
 raw.historical_events=[{...claim,id:'restore',type:'restoration',title:'Synthetic restoration event',year:2020},{...claim,id:'loss',type:'destruction',title:'Synthetic destruction event',year:2015},{...claim,id:'build',type:'construction',title:'Synthetic approximate early construction',year:-500,endYear:-400,precision:'approximate'},{...claim,id:'draft-event',type:'excavation',title:'PRIVATE DRAFT EVENT',year:1900,verified:false}];
 raw.heritage_media=[...['photograph','archival-image','reconstruction','panorama'].map((type,index)=>({...image('/__digital/'+['d','a','b','c'][index]+'.svg','Original '+type+' test graphic'),...claim,id:'typed-'+type,type,title:'Synthetic '+type,date:type==='archival-image'?'c. 1920':null,description:'Original interface test drawing, not historical media.'})),{...claim,id:'typed-video',type:'video',title:'Synthetic video resource',url:'/__digital/video.mp4'},{...claim,id:'typed-model',type:'3d',title:'Synthetic model resource',url:'/__digital/model.glb',date:'2020',description:'Synthetic model evidence text.'},{...image('/__digital/a.svg','Unreviewed archival type'),...claim,id:'draft-archive',type:'archival-image',title:'PRIVATE ARCHIVE DRAFT',verification_status:'draft'}];
 const entries=normalizeSites([raw,{id:'exact-search-fixture',name:'Validation alias',status:'approved',governorate:'Erbil',category:'Building',period:'Modern',description:'Synthetic exact-name search ranking record.'},...Array.from({length:8},(_,index)=>({id:'suggestion-'+index,name:'Suggestion test '+index,status:'approved',governorate:'Erbil',category:'Building',period:'Modern',description:'Synthetic autocomplete record.'})),{id:'synthetic-draft',name:'Unapproved fixture site',status:'needs-review',digital_assets:[{type:'3d',url:'/__digital/unapproved.glb',verification_status:'verified'}]}]);
-const cache=getAllSites();cache.splice(0,cache.length,...entries);history.replaceState(null,'','/3d-archive');
+const cache=getAllSites();cache.splice(0,cache.length,...entries);history.replaceState(null,'','${fixtureBase}/3d-archive');
 createRoot(document.getElementById('root')).render(<><aside role="note">Local QA only: synthetic model, project and image data.</aside><App/></>);`);
-await build({ root, base: '/__digital/', publicDir: false, logLevel: 'error', build: { outDir: fixtureOut, emptyOutDir: false, rolldownOptions: { input: join(source, 'index.html') } } });
+await build({ root, base: `${fixtureBase}/`, publicDir: false, logLevel: 'error', build: { outDir: fixtureOut, emptyOutDir: false, rolldownOptions: { input: join(source, 'index.html') } } });
 const assets = new Map(); let html;
 for (const path of await readdir(fixtureOut, { recursive: true })) {
   if (!(await stat(join(fixtureOut, path))).isFile()) continue;
@@ -41,7 +42,7 @@ const headers = Object.fromEntries(headerText.split('\n').map((line) => /^  ([^:
 const server = await preview({ root, configFile: false, logLevel: 'error', preview: { host: '127.0.0.1', port: 0, headers } });
 const graphic = (color, label) => `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="800" height="600" fill="${color}"/><rect x="160" y="120" width="480" height="360" rx="20" fill="none" stroke="#f1ede4" stroke-width="12"/><text x="400" y="320" fill="#f1ede4" text-anchor="middle" font-size="40">${label}</text></svg>`;
 let modelRequests = 0;
-server.middlewares.stack.unshift({ route: '/__digital', handle(req, res) {
+server.middlewares.stack.unshift({ route: fixtureBase, handle(req, res) {
   for (const [name, value] of Object.entries(headers)) res.setHeader(name, value);
   const path = new URL(req.url, 'http://fixture.invalid').pathname;
   if (path === '/fixture.html') { res.setHeader('Content-Type', 'text/html; charset=utf-8'); res.end(html); return; }
@@ -80,7 +81,14 @@ try {
       async function fits(label) { await page.waitForFunction(() => document.documentElement.scrollWidth <= innerWidth + 1); check(true, label); }
       for (const path of ['/3d-archive', '/decks/3d']) {
         await page.goto(base + path, { waitUntil: 'domcontentloaded' }); await heading('3D Model Library');
-        check(await page.getByRole('heading', { name: 'No verified 3D resources yet', exact: true }).isVisible(), `${path} honest empty library`);
+        const hatraModel = page.locator('.hb-model-library__entry a[href="/sites/hatra#model"]').first();
+        check(await hatraModel.isVisible(), `${path} links published Hatra model documentation`);
+        check(await page.locator('main model-viewer, main iframe').count() === 0, `${path} does not instantiate viewers`);
+        await page.locator('.hb-model-library .hb-search input').fill('no-such-model-for-validation');
+        await page.getByRole('heading', { name: 'No models match these filters', exact: true }).waitFor();
+        await page.getByRole('button', { name: 'Reset model filters', exact: true }).click();
+        await hatraModel.waitFor();
+        check(new URL(page.url()).search === '', `${path} resets a model search with no results`);
       }
       for (const path of ['/disappeared-heritage', '/decks/lost']) {
         await page.goto(base + path, { waitUntil: 'domcontentloaded' }); await heading('Disappeared Heritage');
@@ -93,7 +101,7 @@ try {
       await fits('Home fits the browser viewport after restoring card dimensions');
       const cardProportions = async () => page.locator('main .hb-card').evaluateAll((cards) => cards.every((card) => card.offsetWidth === 0 || Math.abs(card.offsetHeight-card.offsetWidth*7.4/5) < 2));
       check(await cardProportions(), 'Home cards retain their original proportions');
-      await page.goto(`${base}/__digital/fixture.html`, { waitUntil: 'domcontentloaded' }); await heading('3D Model Library');
+      await page.goto(`${base}${fixtureBase}/fixture.html`, { waitUntil: 'domcontentloaded' }); await heading('3D Model Library');
       check(await page.evaluate(() => Math.abs(innerWidth - screen.width) <= 1 || !matchMedia('(pointer: coarse)').matches), 'mobile fixture uses device viewport width');
       await page.waitForFunction(() => document.querySelectorAll('.hb-model-library__entry').length === 2);
       check(true, 'library contains two verified model entries and excludes drafts');
@@ -114,7 +122,7 @@ try {
       check((await page.locator('.hb-model-library__entry .hb-model__information').first().textContent()).includes('License unknown'), 'model verification does not imply license verification');
       check(modelRequests === 0 && await page.locator('model-viewer, iframe').count() === 0, 'library does not eagerly load models or embeds');
       await fits('model library fits viewport');
-      await page.locator('.hb-model-library__entry a[href="/sites/synthetic-documentation-fixture#model"]').first().click();
+      await page.locator(`.hb-model-library__entry a[href="${fixtureBase}/sites/synthetic-documentation-fixture#model"]`).first().click();
       await heading('Synthetic documentation fixture');
       check((await page.locator('#preservation').textContent()).includes('Synthetic restored condition'), 'site shows reviewed current condition separately from historical events');
       check((await page.locator('#story-architecture').textContent()).includes('Synthetic architecture narrative'), 'optional architecture narrative renders');
@@ -143,9 +151,9 @@ try {
       await fits('site documentation and comparisons fit viewport');
       if (project.name === 'chrome') for (const width of [320, 768, 1280, 1440]) { await page.setViewportSize({ width, height: 1000 }); await fits(`comparison layout at ${width}px`); }
       await page.locator('.hb-comparison').screenshot({ path: join(output, `${project.name}-comparison.png`) });
-      await page.locator('.hb-footer a[href="/our-work"]').first().click(); await heading('Our Work');
-      check(await page.locator('section[aria-labelledby="work-photogrammetry"] a[href="/sites/synthetic-documentation-fixture#projects"]').count() === 1, 'Our Work links the reviewed owned project');
-      await page.locator('.hb-footer a[href="/disappeared-heritage"]').first().click(); await heading('Disappeared Heritage');
+      await page.locator(`.hb-footer a[href="${fixtureBase}/our-work"]`).first().click(); await heading('Our Work');
+      check(await page.locator(`section[aria-labelledby="work-photogrammetry"] a[href="${fixtureBase}/sites/synthetic-documentation-fixture#projects"]`).count() === 1, 'Our Work links the reviewed owned project');
+      await page.locator(`.hb-footer a[href="${fixtureBase}/disappeared-heritage"]`).first().click(); await heading('Disappeared Heritage');
       await page.locator('.hb-loss__entry').waitFor();
       check((await page.locator('.hb-loss__entry').textContent()).includes('Restored') && (await page.locator('.hb-loss__entry').textContent()).includes('Synthetic destruction event'), 'collection keeps restored condition alongside historical destruction');
       await page.getByLabel('Current recorded condition', { exact: true }).selectOption('destroyed');
@@ -158,7 +166,7 @@ try {
       await page.getByRole('button', { name: 'Reset heritage filters', exact: true }).click();
       await fits('disappeared heritage fits the viewport');
       await page.locator('.hb-loss__entry').screenshot({ path: join(output, `${project.name}-loss-entry.png`) });
-      await page.locator('.hb-loss__entry a[href="/sites/synthetic-documentation-fixture#preservation"]').click();
+      await page.locator(`.hb-loss__entry a[href="${fixtureBase}/sites/synthetic-documentation-fixture#preservation"]`).click();
       await heading('Synthetic documentation fixture');
       check(new URL(page.url()).hash === '#preservation', 'collection links directly to site condition and evidence');
       check(await page.locator('#gallery .hb-gallery img').count() === 4, 'mixed gallery contains four explicitly identified image types');
@@ -173,7 +181,7 @@ try {
       check(await page.locator('#gallery video, #gallery iframe').count() === 0 && await page.getByRole('button', { name: 'Load video', exact: true }).isVisible(), 'video remains opt-in without eager downloads');
       await page.locator('#gallery [data-media-type="3d"]').click();
       check((await page.locator('#gallery').textContent()).includes('Synthetic model evidence text.'), 'typed model retains its descriptive evidence');
-      await page.locator('.hb-footer a[href="/image-archive"]').first().click(); await heading('Historical Image Archive');
+      await page.locator(`.hb-footer a[href="${fixtureBase}/image-archive"]`).first().click(); await heading('Historical Image Archive');
       check(await page.locator('.hb-archive .hb-gallery img').count() === 1, 'historical image archive contains reviewed archival media only');
       await page.locator('.hb-archive .hb-search input').fill('no archive matches');
       await page.getByRole('heading', { name: 'No archival images match', exact: true }).waitFor();
@@ -186,7 +194,7 @@ try {
       await globalSearch.fill('Validation al');
       await page.locator('.hb-global-search [role="option"]').first().waitFor();
       await globalSearch.press('ArrowDown'); await globalSearch.press('Enter');
-      check(await globalSearch.inputValue() === 'Validation alias' && new URL(page.url()).pathname === '/image-archive', 'keyboard autocomplete selects an alias without submitting prematurely');
+      check(await globalSearch.inputValue() === 'Validation alias' && new URL(page.url()).pathname === `${fixtureBase}/image-archive`, 'keyboard autocomplete selects an alias without submitting prematurely');
       await globalSearch.press('Enter'); await heading('Search the archive');
       const rankedNames = await page.locator('.hb-grid .hb-card__title').allTextContents();
       check(rankedNames[0] === 'Validation alias' && rankedNames[1] === 'Synthetic documentation fixture', 'exact primary name ranks before an exact alternative name');

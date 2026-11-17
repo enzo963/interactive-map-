@@ -2,6 +2,7 @@ import { getAllSites } from '../services/siteService.js';
 import { getAllCollections, getDeckById } from '../utils/decks.js';
 import { getHistoryGroups } from '../utils/history.js';
 import { getCuratedCollection, CURATED_COLLECTIONS } from '../data/curatedCollections.js';
+import { GOVERNORATE_NAMES } from '../data/governorates.js';
 import { approvedSite, normalizePath, publishedDeck, resolveMetadata, ROUTE_ALIASES, STATIC_PAGES } from './metadata.js';
 
 export function metadataForLocation(pathname, search, siteUrl, unavailable = false, sites = getAllSites(), base = '/') {
@@ -19,12 +20,13 @@ export function metadataForLocation(pathname, search, siteUrl, unavailable = fal
 }
 
 /** Use the same normalized services as the UI. Research candidates are never read. */
-export function metadataPaths(sites = getAllSites()) {
+export function metadataPaths(sites = getAllSites(), { includeNonIndexable = false } = {}) {
   return [...new Set([
     ...Object.keys(STATIC_PAGES), ...Object.keys(ROUTE_ALIASES),
     ...getHistoryGroups(sites).map((era) => `/civilizations/${era.id}`),
     ...CURATED_COLLECTIONS.map(({ id }) => `/collections/${id}`),
-    ...sites.filter(approvedSite).map((site) => `/sites/${encodeURIComponent(site.slug)}`),
-    ...getAllCollections(sites).filter(publishedDeck).map((deck) => deck.href),
+    ...sites.filter((site) => includeNonIndexable || approvedSite(site)).map((site) => `/sites/${encodeURIComponent(site.slug)}`),
+    ...getAllCollections(sites).filter((deck) => includeNonIndexable || publishedDeck(deck)).map((deck) => deck.href),
+    ...(includeNonIndexable ? Object.keys(GOVERNORATE_NAMES).map((key) => `/decks/${key}`) : []),
   ])];
 }

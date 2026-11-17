@@ -159,3 +159,39 @@ test('SEO generator builds crawler-readable route HTML and a canonical-only publ
     await rm(dir, { recursive: true, force: true });
   }
 });
+
+test('Pages directory indexes preserve metadata for visible records and non-indexable decks', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'history-pages-seo-'));
+  try {
+    const base = '/archive/';
+    await writeFile(join(dir, 'index.html'), '<head><!-- seo:start --><title>Old</title><!-- seo:end --></head>');
+    await buildSeo({ outDir: dir, siteUrl: origin, base, directoryIndexes: true });
+    const approved = await readFile(join(dir, 'sites', 'hatra', 'index.html'), 'utf8');
+    assert.ok(approved.includes(`${origin}${base}sites/hatra`));
+    const provisional = await readFile(join(dir, 'sites', 'ahmadeya-synagogue', 'index.html'), 'utf8');
+    assert.match(provisional, /<title data-seo>Ahmadeya Synagogue — History in Cards<\/title>/);
+    assert.match(provisional, /content="noindex, follow"/);
+    assert.doesNotMatch(provisional, /rel="canonical"/);
+    const emptyDeck = await readFile(join(dir, 'decks', 'basra', 'index.html'), 'utf8');
+    assert.match(emptyDeck, /<title data-seo>Basra Deck — History in Cards<\/title>/);
+    assert.match(emptyDeck, /content="noindex, follow"/);
+    const sitemap = await readFile(join(dir, 'sitemap.xml'), 'utf8');
+    assert.doesNotMatch(sitemap, /ahmadeya-synagogue|\/decks\/basra/);
+  } finally {
+    assert.ok(dir.startsWith(join(tmpdir(), 'history-pages-seo-')));
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test('the generated Pages 404 points to the social image under the project base', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'history-pages-404-'));
+  try {
+    await writeFile(join(dir, 'index.html'), '<head><!-- seo:start --><title>Old</title><!-- seo:end --></head>');
+    await buildSeo({ outDir: dir, siteUrl: origin, base: '/archive/' });
+    const html = await readFile(join(dir, '404.html'), 'utf8');
+    assert.ok(html.includes(`property="og:image" content="${origin}/archive/social-card.png"`));
+  } finally {
+    assert.ok(dir.startsWith(join(tmpdir(), 'history-pages-404-')));
+    await rm(dir, { recursive: true, force: true });
+  }
+});

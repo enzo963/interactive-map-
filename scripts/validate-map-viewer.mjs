@@ -22,7 +22,7 @@ import L from '/src/lib/leaflet.js';
 import '/src/styles/global.css';
 import '/src/styles/pages.css';
 const resource={url:'/__viewer/triangle.glb'+location.search,siteId:'synthetic-validation',verified:true,title:'Original validation triangle (not heritage data)',credit:'Original validation fixture'};
-const points=Array.from({length:20},(_,i)=>({id:'validation-point-'+i,name:'Synthetic point '+i,latitude:35.5872,longitude:42.7185,governorate:'Nineveh',cardType:{tier:0,shortLabel:'Unclassified'}}));
+const points=Array.from({length:20},(_,i)=>({id:'validation-point-'+i,name:'Synthetic point '+i,latitude:35.5872,longitude:42.7185,coordinatesPrecision:'site',coordinatesSource:'Synthetic fixture coordinates',governorate:'Nineveh',cardType:{tier:0,shortLabel:'Unclassified'}}));
 L.Map.addInitHook(function(){window.__fixtureMap=this;});
 function Fixture(){const [selected,setSelected]=React.useState(null);return <main id="main" className="hb-container"><h1>Local viewer and clustering validation</h1><h2>Twenty overlapping synthetic points, not heritage records</h2><button onClick={()=>setSelected(points[0])}>Select overlapping test marker</button><MapCanvas allSites={points} visibleSites={points} selectedSite={selected} onSelect={setSelected} size="compact"/><ModelViewer resource={resource} siteId="synthetic-validation" name="Synthetic triangle" /></main>}
 createRoot(document.getElementById('root')).render(<Fixture/>);`);
@@ -65,6 +65,8 @@ server.middlewares.stack.unshift({ route: '/__viewer', handle(req, res) {
   if (url.pathname === '/model.html') { res.setHeader('Content-Type', 'text/html'); res.end(fixtureHtml); return; }
   if (url.pathname === '/triangle.glb') {
     const count = (attempts.get(url.search) || 0) + 1; attempts.set(url.search, count);
+    // The fixture's first response is transient. Test renderer cache eviction independently of HTTP caching.
+    res.setHeader('Cache-Control', 'no-store');
     if (count === 1) { res.statusCode = 404; res.end('Expected first model failure'); return; }
     res.setHeader('Content-Type', 'model/gltf-binary'); res.end(triangleGlb()); return;
   }
@@ -84,7 +86,7 @@ const projects = [
   { name: 'iphone-emulated', engine: webkit, device: devices['iPhone 13'] },
 ];
 const requested = process.env.HB_FEATURE_BROWSERS?.split(',');
-const report = { date: new Date().toISOString(), buildSha256: digest.digest('hex'), browsers: [], limits: ['Mobile profiles are emulation; Windows WebKit is not retail Safari.', 'The model is original synthetic test geometry. The archive currently has no verified 3D models.', 'Hosting and domain remain unconfigured.'] };
+const report = { date: new Date().toISOString(), buildSha256: digest.digest('hex'), browsers: [], limits: ['Mobile profiles are emulation; Windows WebKit is not retail Safari.', 'Viewer retry and camera controls use original synthetic test geometry.', 'Headers are applied by the local validation server.'] };
 try {
   for (const project of projects.filter((item) => !requested || requested.includes(item.name))) {
     const result = { name: project.name, checks: [], errors: [], consoleErrors: [] };
@@ -130,10 +132,15 @@ try {
       await page.waitForFunction(() => document.querySelectorAll('.hb-mapx__item').length === 4);
       check(await page.locator('.hb-mapx__leaflet').getAttribute('data-map-mode') === 'history', 'historical mode retains map and shows four approved Assyrian records');
       await page.locator('.hb-map-tools input[value="3d"]').check();
+      await page.getByRole('button', { name: /^Nimrud/ }).waitFor();
+      check(await page.locator('.hb-mapx__item').count() === 1, 'Assyrian 3D layer shows only the documented Nimrud record');
+      const mapSearch = page.locator('main .hb-search input');
+      await mapSearch.fill('no-such-heritage-place');
       await page.getByRole('heading', { name: 'No cards match these filters', exact: true }).waitFor();
-      check(await page.locator('.hb-mapx__item').count() === 0, 'unavailable 3D layer stays honestly empty');
+      check(await page.locator('.hb-mapx__item').count() === 0, 'search and the 3D layer intersect and show an empty result');
+      await mapSearch.fill('');
       await page.locator('.hb-map-tools input[value="archaeological"]').check();
-      await page.waitForFunction(() => document.querySelectorAll('.hb-mapx__item').length > 0);
+      await page.waitForFunction(() => document.querySelectorAll('.hb-mapx__item').length === 4);
       check(new URL(page.url()).searchParams.getAll('layer').length === 2, 'layer union and era survive in URL');
       await page.reload({ waitUntil: 'domcontentloaded' }); await page.locator('.hb-map-tools').waitFor();
       check(await page.locator('.hb-map-tools input[value="archaeological"]').isChecked(), 'reload restores layer selections');
@@ -190,6 +197,7 @@ try {
       result.status = 'passed';
     } catch (error) {
       result.status = 'failed'; result.failure = error.stack; result.url = page?.url();
+      result.fixtureModelRequests = attempts.get(`?browser=${project.name}`) ?? 0;
       result.fixtureMap = await page?.evaluate(() => { const map = window.__fixtureMap; if (!map) return null; let group; map.eachLayer((layer) => { if (layer.getVisibleParent) group = layer; }); const marker = group?.getLayers()[0]; const parent = marker && group.getVisibleParent(marker); return { zoom: map.getZoom(), maxZoom: map.getMaxZoom(), visibleMarkers: document.querySelectorAll('.leaflet-marker-pane .hb-pin-wrap').length, parentCount: parent?.getChildCount?.(), markerOnMap: marker && map.hasLayer(marker) }; }).catch(() => null);
       await page?.screenshot({ path: join(output, `${project.name}-failure.png`) }).catch(() => {});
     } finally { await context?.close(); await browser?.close(); }

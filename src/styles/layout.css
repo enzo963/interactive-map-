@@ -86,6 +86,8 @@
   background: var(--hb-paper-raised);
 }
 
+.hb-global-search input::placeholder { color: var(--hb-earth-text); opacity: 1; }
+
 .hb-tools { grid-area: tools; display: flex; align-items: center; gap: 0.5rem; }
 .hb-lang { position: relative; display: inline-flex; align-items: center; }
 .hb-lang__select {

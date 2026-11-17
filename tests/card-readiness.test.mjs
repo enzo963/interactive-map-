@@ -7,7 +7,7 @@ const server = await createServer({ server: { middlewareMode: true, hmr: false, 
 const { checkCardReadiness, isVisibleCard, verificationFlags } = await server.ssrLoadModule('/src/utils/cardReadiness.js');
 const { sourceTier, bestTier } = await server.ssrLoadModule('/src/utils/sourceCredibility.js');
 const { normalizeSites } = await server.ssrLoadModule('/src/utils/siteAdapter.js');
-const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
+const { getAllSites, getSiteBySlug } = await server.ssrLoadModule('/src/services/siteService.js');
 after(async () => { await server.close(); });
 const records = JSON.parse(readFileSync(new URL('../src/data/sites.json', import.meta.url), 'utf8'));
 
@@ -74,6 +74,13 @@ test('drafts and withdrawn records stay hidden even when complete', () => {
 test('every approved record meets the contract', () => {
   const failing = records.filter((record) => record.status === 'approved' && !isVisibleCard(record));
   assert.deepEqual(failing.map(({ id }) => id), []);
+});
+
+test('the Mosul Heritage project citation makes Ahmadeya Synagogue discoverable', () => {
+  const site = getSiteBySlug('ahmadeya-synagogue');
+  assert.equal(site?.name, 'Ahmadeya Synagogue');
+  assert.equal(site.status, 'needs-review');
+  assert.ok(site.sources.some(({ url }) => url === 'https://mosul-heritage.com/historic-buildings'));
 });
 
 test('the site service shows exactly the records that meet the contract', () => {

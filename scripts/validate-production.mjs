@@ -138,6 +138,8 @@ async function browserValidation(project) {
   let expected404Seen = false;
   const expectedConsoleKinds = new Set();
   const pendingConsole = new Set();
+  const pendingLocalAssets = new Set();
+  let routeAttempt;
   const fixtureModelUrl = `${base}/__validation/retry.glb?run=${project.name}`;
   const visitedScripts = new Set();
   const check = (condition, message) => { assert.ok(condition, `${project.name}: ${message}`); result.checks.push(message); };
@@ -175,6 +177,10 @@ async function browserValidation(project) {
       const task = captureConsole(message).catch((error) => result.errors.push({ kind: 'audit-console', message: error.message }));
       pendingConsole.add(task); task.finally(() => pendingConsole.delete(task));
     });
+    page.on('request', (request) => {
+      if (new URL(request.url()).origin === base && request.resourceType() !== 'document') pendingLocalAssets.add(request);
+    });
+    page.on('requestfinished', (request) => pendingLocalAssets.delete(request));
     page.on('response', (response) => {
       const url = response.url();
       if (response.request().resourceType() === 'script') visitedScripts.add(url);
@@ -187,6 +193,7 @@ async function browserValidation(project) {
       else if (!url.startsWith(base)) result.externalFailures.push(entry);
     });
     page.on('requestfailed', (request) => {
+      pendingLocalAssets.delete(request);
       const failure = request.failure()?.errorText || '';
       if (/ABORTED|NS_BINDING_ABORTED|cancelled/i.test(failure)) return;
       const entry = { kind: 'network', url: request.url(), message: failure };
@@ -207,12 +214,22 @@ async function browserValidation(project) {
 
     // P6-34: a connected visitor journey uses only the controls visible to visitors.
     // Deep-link coverage above is complementary; no page.goto shortcuts inside this journey.
-    async function waitForRoute(path) {
-      await page.waitForFunction((expected) => location.pathname === expected && document.querySelector('main h1') && !document.querySelector('.hb-route-loading'), path);
+    async function waitForRoute(path, heading, link = null) {
+      routeAttempt = { path, heading, link };
+      await page.waitForFunction(({ path, heading }) => {
+        const title = document.querySelector('main h1');
+        return location.pathname === path && !document.querySelector('.hb-route-loading')
+          && title?.textContent.trim() === heading && title.getClientRects().length > 0
+          && getComputedStyle(title).visibility === 'visible';
+      }, routeAttempt);
+      routeAttempt = null;
     }
-    async function footerLink(path) {
-      await page.locator(`.hb-footer a[href="${path}"]`).first().click();
-      await waitForRoute(path);
+    async function footerLink(path, heading) {
+      const link = page.locator(`.hb-footer a[href="${path}"]`).first();
+      routeAttempt = { path, heading, link: await link.getAttribute('href') };
+      await link.click();
+      await waitForRoute(path, heading, routeAttempt.link);
+      check(true, `footer: ${path} renders ${heading}`);
     }
     await navigate('/');
     await page.locator('#global-heritage-search').fill('Abbasid Palace');
@@ -226,7 +243,7 @@ async function browserValidation(project) {
     if (await page.locator('.hb-filters__done').isVisible()) await page.locator('.hb-filters__done').click();
     check(await page.locator('.hb-grid .hb-card__link[href="/sites/abbasid-palace"]').isVisible(), 'journey: governorate filter retains the matching card');
     await page.locator('.hb-explore__context a').click();
-    await waitForRoute('/map');
+    await waitForRoute('/map', 'Cards on the map');
     const mapQuery = new URL(page.url()).searchParams;
     check(mapQuery.get('q') === 'Abbasid Palace' && mapQuery.get('gov') === 'baghdad' && mapQuery.get('region') === 'baghdad', 'journey: map preserves the search and filter URL state');
     await page.getByRole('button', { name: 'Show all governorates', exact: true }).click();
@@ -237,7 +254,7 @@ async function browserValidation(project) {
     await page.locator('.hb-mapx__list').getByRole('button', { name: /^Abbasid Palace/ }).click();
     await page.waitForFunction(() => new URLSearchParams(location.search).get('site') === 'abbasid-palace');
     await page.locator('.hb-mapx__selected .hb-card__link').click();
-    await waitForRoute('/sites/abbasid-palace');
+    await waitForRoute('/sites/abbasid-palace', 'Abbasid Palace');
     check(await page.locator('main h1').textContent() === 'Abbasid Palace', 'journey: selected map card opens its details');
     check(await page.getByRole('heading', { name: 'Site information', exact: true }).isVisible(), 'journey: details expose site information');
     await page.locator('.hb-sectionnav a[href="#gallery"]').click();
@@ -253,16 +270,16 @@ async function browserValidation(project) {
     check(await source.isVisible() && /^https:\/\//.test(await source.getAttribute('href')), 'journey: Sources exposes a usable provenance link');
     check(await source.getAttribute('target') === '_blank' && (await source.getAttribute('rel')).includes('noopener'), 'source links open a protected new tab');
     check(await page.locator('#model').count() === 0, 'journey: sites with no recorded model omit the 3D section');
-    await footerLink('/3d-archive');
+    await footerLink('/3d-archive', '3D Model Library');
     const modelSite = page.locator('.hb-model-library__entry a[href="/sites/hatra#model"]').first();
     await modelSite.click();
-    await waitForRoute('/sites/hatra');
+    await waitForRoute('/sites/hatra', 'Hatra');
     check(await page.locator('#model').isVisible(), 'journey: the model library links to verified site documentation');
     check(await page.locator('#model').getByRole('button', { name: 'Load 3D viewer' }).first().isVisible(), 'journey: visitors can choose to load the 3D viewer');
     check(await page.locator('#model model-viewer, #model iframe').count() === 0, '3D viewer waits for visitor activation');
-    await footerLink('/decks');
+    await footerLink('/decks', 'Collections of cards');
     await page.locator('.hb-tile__link[href="/decks/baghdad"]').click();
-    await waitForRoute('/decks/baghdad');
+    await waitForRoute('/decks/baghdad', 'Baghdad Deck');
     const deckCard = page.locator('.hb-grid .hb-card__link[href="/sites/abbasid-palace"]');
     while (await deckCard.count() === 0 && await page.locator('.hb-grid__more button').isVisible()) {
       const before = await page.locator('.hb-grid .hb-card__link').count();
@@ -270,20 +287,25 @@ async function browserValidation(project) {
       await page.waitForFunction((count) => document.querySelectorAll('.hb-grid .hb-card__link').length > count, before);
     }
     check(await deckCard.count() > 0, 'journey: Decks opens the matching governorate collection');
-    await footerLink('/about');
+    await footerLink('/about', 'About History in Cards');
     check(await page.locator('main h1').textContent() === 'About History in Cards', 'journey: About explains the project');
-    await footerLink('/our-work');
+    await footerLink('/our-work', 'Our Work');
     check(await page.locator('main h1').textContent() === 'Our Work', 'journey: Our Work is reachable from the connected visitor journey');
     result.journey = 'Home → Search → Filter → Map → Governorate → Card → Details → Gallery → Sources → 3D Model Library → Site model → Decks → About → Our Work';
 
-    // Back and empty-results recovery remain separate release-blocker checks.
+    // Exercise history restoration and search recovery after the connected journey.
     await navigate('/explore?q=Hatra');
     await page.locator('.hb-grid .hb-card__link[href="/sites/hatra"]').click();
-    await waitForRoute('/sites/hatra');
+    await waitForRoute('/sites/hatra', 'Hatra');
     await page.goBack({ waitUntil: 'domcontentloaded' });
     await page.waitForFunction(() => location.pathname === '/explore' && new URLSearchParams(location.search).get('q') === 'Hatra');
     await page.locator('.hb-grid .hb-card__link').first().waitFor();
     check(await page.locator('.hb-grid .hb-card__link').count() > 0, 'browser Back restores filtered results');
+    await page.goForward({ waitUntil: 'domcontentloaded' });
+    await waitForRoute('/sites/hatra', 'Hatra');
+    check(true, 'browser Forward restores the selected site');
+    await page.goBack({ waitUntil: 'domcontentloaded' });
+    await waitForRoute('/explore', 'Search the archive');
     await page.locator('.hb-search input').fill('no-such-heritage-place');
     await page.locator('.hb-state').getByRole('button', { name: 'Clear search', exact: true }).click();
     await page.locator('.hb-grid .hb-card__link').first().waitFor();
@@ -302,12 +324,35 @@ async function browserValidation(project) {
         });
       }, expectedBodyColor);
     }
+    async function checkControlContrast(theme) {
+      const ratios = await page.evaluate(() => {
+        const channels = (color) => color.match(/[\d.]+/g).map(Number);
+        const luminance = (components) => components.slice(0, 3).map((component) => {
+          const channel = component / 255;
+          return channel <= .04045 ? channel / 12.92 : ((channel + .055) / 1.055) ** 2.4;
+        }).reduce((sum, channel, index) => sum + channel * [.2126, .7152, .0722][index], 0);
+        return [...document.querySelectorAll('#global-heritage-search, .hb-share__actions .hb-btn')].map((node) => {
+          const style = getComputedStyle(node);
+          const placeholder = node.matches('input') ? getComputedStyle(node, '::placeholder') : null;
+          const text = channels(placeholder?.color || style.color);
+          const surface = channels(style.backgroundColor);
+          const opacity = (text[3] ?? 1) * Number(placeholder?.opacity ?? 1);
+          const foreground = luminance(text.slice(0, 3).map((value, index) => value * opacity + surface[index] * (1 - opacity)));
+          const background = luminance(surface);
+          return (Math.max(foreground, background) + .05) / (Math.min(foreground, background) + .05);
+        });
+      });
+      check(ratios.length === 3 && ratios.every((ratio) => ratio >= 4.5),
+        `${theme} search placeholder and share controls meet 4.5:1 text contrast (${ratios.map((ratio) => ratio.toFixed(2)).join(', ')})`);
+    }
     const themeBefore = await page.locator('html').getAttribute('data-theme');
     const bodyColorBefore = await page.locator('body').evaluate((node) => getComputedStyle(node).color);
+    await checkControlContrast('light');
     await page.locator('.hb-theme').click();
     await page.waitForFunction((before) => getComputedStyle(document.body).color !== before, bodyColorBefore);
     const expectedBodyColor = await page.locator('body').evaluate((node) => getComputedStyle(node).color);
     await waitForInheritedTheme(expectedBodyColor);
+    await checkControlContrast('dark');
     check(await page.locator('html').getAttribute('data-theme') !== themeBefore, 'theme toggle updates body and inherited text colors');
     await page.locator('.hb-lang__select').selectOption('de');
     await page.waitForFunction(() => document.documentElement.lang === 'de');
@@ -356,7 +401,24 @@ async function browserValidation(project) {
     check(result.errors.length === 0, 'no unexpected console, local asset or runtime errors');
     result.status = 'passed';
   } catch (error) {
-    result.status = 'failed'; result.failure = error.stack; result.failureUrl = page?.url();
+    result.status = !browser && /Executable doesn't exist/.test(error.message) ? 'unavailable' : 'failed';
+    result.failure = error.stack; result.failureUrl = page?.url();
+    if (page && routeAttempt) {
+      result.routeFailure = {
+        expected: routeAttempt,
+        pendingLocalAssets: [...pendingLocalAssets].map((request) => ({ url: request.url(), type: request.resourceType() })),
+        observed: await page.evaluate(() => {
+          const main = document.querySelector('main');
+          const heading = main?.querySelector('h1');
+          return {
+            url: location.href, pathname: location.pathname, readyState: document.readyState,
+            main: Boolean(main), mainHeading: Boolean(heading), loading: Boolean(document.querySelector('.hb-route-loading')),
+            heading: heading?.textContent.trim(), visible: Boolean(heading?.getClientRects().length && getComputedStyle(heading).visibility === 'visible'),
+            mainHtml: main?.outerHTML.slice(0, 5000), visibilityState: document.visibilityState,
+          };
+        }).catch((diagnosticError) => ({ error: diagnosticError.message })),
+      };
+    }
     if (page) await page.screenshot({ path: join(output, `${project.name}-failure.png`) }).catch(() => {});
   } finally {
     await context?.close(); await browser?.close();

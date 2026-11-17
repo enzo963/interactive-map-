@@ -13,6 +13,7 @@
 .hb-model__credit, .hb-model__hint { color: var(--hb-earth-text); font-size: .9rem; }
 .hb-share { margin-top: 1rem; display: grid; gap: .5rem; }
 .hb-share__actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.hb-share__actions button { color: var(--hb-ink); background: var(--hb-paper-raised); }
 .hb-share [role='status'] { font-size: .9rem; min-height: 1.4em; }
 .hb-share__manual { display: grid; gap: .5rem; }
 .hb-share input { width: 100%; min-width: 0; min-height: 2.75rem; font: inherit; padding: .5rem; }
