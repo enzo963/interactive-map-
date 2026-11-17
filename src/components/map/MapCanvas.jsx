@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import L from '../../lib/leaflet';
 import { getGovernorateKey } from '../../data/governorates';
-import { hasVerifiedPosition } from '../../utils/mapPosition';
+import { hasVerifiedPosition } from '../../utils/mapPosition'; // only verified positions become pins
 import { GOVERNORATE_CENTRES } from '../../data/geo/governorateCentres';
 import { cardsLabel } from '../../utils/archiveStats';
 import '../../styles/map-explorer.css';
@@ -15,8 +15,6 @@ const ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">Op
 const LABEL_MAX_ZOOM = 9;
 const REGION_ZOOM = 8;
 
-// Only a verified position is drawn as a pin (utils/mapPosition.js).
-const hasPosition = hasVerifiedPosition;
 const escapeHtml = (text) =>
   String(text ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -52,7 +50,7 @@ function governorateGroups(sites) {
     if (!key) continue;
     const group = groups.get(key) ?? { key, name: site.governorate, count: 0, north: -90, lng: 0, placed: 0 };
     group.count += 1;
-    if (hasPosition(site)) {
+    if (hasVerifiedPosition(site)) {
       group.north = Math.max(group.north, site.latitude);
       group.lng += site.longitude;
       group.placed += 1;
@@ -69,7 +67,7 @@ function governorateGroups(sites) {
 
 /** The whole archive: every positioned card plus the capital of every governorate that has cards. */
 function archiveBounds(sites) {
-  const points = sites.filter(hasPosition).map((s) => [s.latitude, s.longitude]);
+  const points = sites.filter(hasVerifiedPosition).map((s) => [s.latitude, s.longitude]);
   governorateGroups(sites).forEach((group) => points.push(group.at));
   return points.length > 1 ? L.latLngBounds(points).pad(0.2) : L.latLngBounds(IRAQ_BOUNDS);
 }
@@ -171,7 +169,7 @@ export default function MapCanvas({
 
     const pins = [];
     for (const site of visibleSites) {
-      if (!hasPosition(site)) continue;
+      if (!hasVerifiedPosition(site)) continue;
       // keyboard: true makes each pin a focusable role="button" (Enter selects); the label names the card.
       const marker = L.marker([site.latitude, site.longitude], { icon: pinIcon(site, false, historical), keyboard: true });
       const label = `${site.name}, ${[t(site.cardType.shortLabel), t(site.governorate), historical && t(site.period || site.civilization)].filter(Boolean).join(', ')}`;
@@ -224,7 +222,7 @@ export default function MapCanvas({
     const map = mapRef.current;
     // The governorate's pins together with its capital, so its label stays in view.
     const points = focusKey
-      ? allSites.filter((s) => getGovernorateKey(s.governorate) === focusKey && hasPosition(s)).map((s) => [s.latitude, s.longitude])
+      ? allSites.filter((s) => getGovernorateKey(s.governorate) === focusKey && hasVerifiedPosition(s)).map((s) => [s.latitude, s.longitude])
       : [];
     if (focusKey && GOVERNORATE_CENTRES[focusKey]) points.push(GOVERNORATE_CENTRES[focusKey]);
     let target;
@@ -300,7 +298,7 @@ export default function MapCanvas({
 
   useEffect(() => () => draftRef.current?.remove(), []);
 
-  const placed = visibleSites.filter(hasPosition).length;
+  const placed = visibleSites.filter(hasVerifiedPosition).length;
   return (
     <div className="hb-mapx">
       <div
@@ -317,7 +315,7 @@ export default function MapCanvas({
         {picking
           ? t('Click the map to place the pin, then drag it to fine-tune.')
           : caption ??
-            (allSites.some(hasPosition)
+            (allSites.some(hasVerifiedPosition)
               ? t('{n} of {total} cards have a verified position and appear as pins. Colour shows the card type; governorate labels count all cards, including those not yet on the map.', { n: placed, total: visibleSites.length })
               : t('No card in the archive has a verified position yet. Use the governorate list to browse without map positions.'))}
       </p>

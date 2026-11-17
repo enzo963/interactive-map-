@@ -1,3 +1,5 @@
+import { hasPosition } from './coordinates';
+
 /**
  * Whether a card has a safe map position. Only a verified position is drawn as a pin; a card without
  * one is still published and listed, and says why it is not on the map.
@@ -23,7 +25,7 @@ export const MAP_POSITION_NOTES = {
 };
 
 export function mapPosition(record) {
-  if (!Number.isFinite(record?.latitude) || !Number.isFinite(record?.longitude)) return 'none';
+  if (!hasPosition(record)) return 'none';
   const precision = record.coordinatesPrecision ?? record.coordinates_precision;
   const source = record.coordinatesSource ?? record.coordinates_source;
   return precision === 'site' && typeof source === 'string' && source.trim() ? 'verified' : 'approximate';

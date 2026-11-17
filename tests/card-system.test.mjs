@@ -13,7 +13,7 @@ const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js
 const { RouterContext } = await server.ssrLoadModule('/src/router/RouterContext.js');
 after(async () => { await server.close(); });
 
-const css = readFileSync(new URL('../src/styles/heritage-card.css', import.meta.url), 'utf8');
+const css = readFileSync(new URL('../src/styles/heritage-card.css', import.meta.url), 'utf8').replaceAll('\r\n', '\n'); // Windows checkouts use CRLF
 const sites = await getAllSites();
 const router = { location: { pathname: '/', search: '', hash: '' }, navigate: () => {} };
 const render = (site, props = {}) => renderToStaticMarkup(

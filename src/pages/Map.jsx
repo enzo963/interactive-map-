@@ -21,53 +21,20 @@ import { hasVerifiedPosition, MAP_POSITION_LABELS } from '../utils/mapPosition';
 import { applyFilters, getFacets, sortSites, serializeFilters, EMPTY_FILTERS } from '../utils/filterSites';
 import { readMapOptions, filterMapSites, getMapLayerCounts } from '../utils/mapLayers';
 import { cardsLabel } from '../utils/archiveStats';
+import { hasPosition } from '../utils/coordinates';
 import { getGovernorateStats } from '../utils/governorateStats';
 import { getGovernorateGeometry } from '../utils/governorateGeometry';
 import '../styles/map-explorer.css';
 import '../styles/map-first.css';
 import '../styles/phase4.css';
+import '../styles/map-page.css';
 import { t } from '../i18n';
 
 const LIST_PAGE = 30;
 // Editing writes to src/data/sites.json through the Vite dev server, so it only exists in development.
 const CAN_EDIT = import.meta.env.DEV;
 
-const mapPageStyles = `
-/* Inside the map-first panel (src/styles/map-first.css): a single column of controls that scrolls on its own. */
-.hb-map-page .hb-mapx__filters { display: grid; gap: .6rem; }
-.hb-map-page .hb-mapx__searchrow { align-items: stretch; }
-.hb-map-page .hb-mapx__searchrow .hb-search { flex: 1 1 auto; min-width: 0; }
-.hb-map-page .hb-mapx__addbtn { justify-self: start; }
-.hb-map-page .hb-mapx__governorates { display: grid; gap: .6rem; }
-.hb-map-page .hb-regions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
-.hb-map-page .hb-region { justify-content: space-between; gap: .4rem; padding: .45rem .55rem; font-size: .875rem; }
-.hb-map-page .hb-region > span:first-child { min-width: 0; overflow-wrap: break-word; hyphens: auto; }
-.hb-map-page .hb-region__count { flex-shrink: 0; }
-.hb-map-page .hb-mapx__results { display: grid; gap: .6rem; }
-.hb-map-page .hb-mapx__list { max-height: none; }
-.hb-map-page .hb-mapx__summary { margin-bottom: 0; }
-.hb-map-page .hb-region { min-height: 2.75rem; text-align: start; }
-.hb-map-page .hb-region__count { min-width: 1.75rem; padding: .15rem .4rem; border-radius: 2px; background: color-mix(in srgb, var(--hb-earth) 10%, transparent); text-align: center; font-variant-numeric: tabular-nums; }
-.hb-map-page .hb-region[aria-pressed='true'] { border-width: 2px; padding: calc(.45rem - 1px) calc(.55rem - 1px); }
-.hb-map-page .hb-region[aria-pressed='true'] .hb-region__count { background: #ffffff20; }
-.hb-map-page .hb-region:focus-visible { outline-offset: 3px; }
-.hb-map-page .hb-geomap__area[data-selected='true'] { fill: var(--hb-terracotta); stroke: var(--hb-ink); stroke-width: 2; }
-.hb-map-page .hb-mapx__summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding: .875rem 1rem; background: var(--hb-paper-raised); border-left: 3px solid var(--hb-terracotta); margin-bottom: 1rem; }
-.hb-map-page .hb-mapx__summary p { line-height: 1.6; }
-.hb-map-page .hb-mapx__selected-name { margin-top: .5rem; }
-.hb-map-page .hb-mapx__item { padding: .75rem; gap: .25rem; overflow-wrap: anywhere; }
-.hb-map-page .hb-mapx__item[aria-pressed='true'] { background: var(--hb-paper-raised); }
-.hb-map-page .hb-mapx__selected-card { width: min(100%, 14rem); }
-.hb-map-page .hb-empty { padding: 1.25rem; }
-@media (hover: hover) {
-  .hb-map-page .hb-region:hover:not([aria-pressed='true']) { background: var(--hb-sand); border-color: var(--hb-ink); }
-}
-@media (max-width: 40rem) {
-  .hb-map-page .hb-mapx__searchrow { flex-wrap: wrap; }
-  .hb-map-page .hb-mapx__searchrow .hb-search { flex-basis: 100%; }
-  .hb-map-page .hb-mapx__filterbtn { width: 100%; justify-content: center; }
-}
-`;
+
 
 /**
  * Map page. URL state: ?region=<governorate key>&site=<slug> plus the shared filters (q, type, gov, kind, has).
@@ -183,7 +150,7 @@ export default function MapPage() {
 
   const startEditing = (site) => {
     setEditing({ target: site?.id ?? 'new' });
-    setDraft(site && Number.isFinite(site.latitude) ? { lat: site.latitude, lng: site.longitude } : null);
+    setDraft(site && hasPosition(site) ? { lat: site.latitude, lng: site.longitude } : null);
   };
   const stopEditing = () => { setEditing(null); setDraft(null); };
   const onSaved = (raw) => {
@@ -233,9 +200,6 @@ export default function MapPage() {
 
   return (
     <main id="main" tabIndex={-1} className="hb-map-page">
-      <style href="hb-map-page-interactions" precedence="components">
-        {mapPageStyles}
-      </style>
       {/* Map first, as on the home page: the map fills the window and every control sits in the panel on the right. */}
       <section className="hb-mapfirst" aria-labelledby="map-page-title">
         <div className="hb-mapfirst__map">{mapSurface}</div>
@@ -380,7 +344,7 @@ export default function MapPage() {
                 </button>
                 {CAN_EDIT && !mapOptions.historical && (
                   <button type="button" className="hb-link hb-mapx__deselect" onClick={() => startEditing(selected)}>
-                    {Number.isFinite(selected.latitude) ? t('Move this pin') : t('Place on the map')}
+                    {hasPosition(selected) ? t('Move this pin') : t('Place on the map')}
                   </button>
                 )}
               </div>

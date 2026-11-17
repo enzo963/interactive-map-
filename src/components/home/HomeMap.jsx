@@ -11,16 +11,15 @@ import { getGovernorateKey } from '../../data/governorates';
 import { applyFilters } from '../../utils/filterSites';
 import { cardsLabel } from '../../utils/archiveStats';
 import { groupByGovernorate } from '../../utils/groupDecks';
-import { hasVerifiedPosition } from '../../utils/mapPosition';
 import '../../styles/home.css'; // archive numbers (hb-stats) and shared hero action styles
 import { pickRandom } from '../../utils/random';
+import { hasVerifiedPosition } from '../../utils/mapPosition';
 import '../../styles/map-first.css';
 import '../../styles/home-landing.css';
 import { t, tn } from '../../i18n';
 
 const MapCanvas = lazy(() => import('../map/MapCanvas'));
 
-const hasPosition = hasVerifiedPosition;
 
 /**
  * The landing page's first screen: the archive map fills the window and a control panel on the right
@@ -54,7 +53,7 @@ export default function HomeMap({ sites, stats }) {
     [focusKey, matches],
   );
   const drawn = draws.at(-1);
-  const plotted = visible.filter(hasPosition).length;
+  const plotted = visible.filter(hasVerifiedPosition).length;
   const region = regions.find((item) => item.id === focusKey);
 
   useEffect(() => { if (selected) selectedHeading.current?.focus(); }, [selected]);
