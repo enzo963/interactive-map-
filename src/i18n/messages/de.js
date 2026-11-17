@@ -1161,5 +1161,9 @@ export default {
   "The pin marks the site itself, from a checked source.": "Die Stecknadel markiert die Stätte selbst, nach einer geprüften Quelle.",
   "The recorded point is the town or area, not the site itself, so it is not shown as a pin.": "Der erfasste Punkt ist der Ort oder das Gebiet, nicht die Stätte selbst, daher wird er nicht als Stecknadel gezeigt.",
   "No reliable position has been recorded yet, so the card is not shown on the map.": "Es ist noch keine verlässliche Position erfasst, daher erscheint die Karte nicht auf der Karte.",
-  "Verified position, shown with {n} other card from the same governorate. Select a pin to open that card.|Verified position, shown with {n} other cards from the same governorate. Select a pin to open that card.": {"one": "Geprüfte Position, gezeigt mit {n} weiteren Karte aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen.", "other": "Geprüfte Position, gezeigt mit {n} weiteren Karten aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen."}
+  "Verified position, shown with {n} other card from the same governorate. Select a pin to open that card.|Verified position, shown with {n} other cards from the same governorate. Select a pin to open that card.": {"one": "Geprüfte Position, gezeigt mit {n} weiteren Karte aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen.", "other": "Geprüfte Position, gezeigt mit {n} weiteren Karten aus demselben Gouvernement. Wähle eine Stecknadel, um diese Karte zu öffnen."},
+  "Start with the Highlights": "Mit den Highlights beginnen",
+  "Highlights": "Highlights",
+  "The most fully documented sites of each governorate, with photographs, history, sources and maps: the best place to start.": "Die am vollständigsten dokumentierten Stätten jedes Gouvernements, mit Fotos, Geschichte, Quellen und Karten: der beste Einstieg.",
+  "Recommended order": "Empfohlene Reihenfolge"
 };

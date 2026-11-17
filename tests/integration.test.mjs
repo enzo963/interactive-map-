@@ -803,13 +803,13 @@ test('advanced filters combine governorate, period and explicit unknown statuses
   assert.match($('.hb-empty').textContent, /No sites match/);
   await navigate('/explore?unesco=yes');
   assert.equal(all('.hb-grid > li').length, 4);
-  // 9 of the 34 approved sites carry classified 3D documentation (src/data/digital-documentation.json).
+  // 10 of the 34 approved sites carry classified 3D documentation (src/data/digital-documentation.json);
+  // the other 24 fill exactly one page.
   await navigate('/explore?model=unknown');
   assert.equal(all('.hb-grid > li').length, 24);
-  await click(button('Show 1 more'));
-  assert.equal(all('.hb-grid > li').length, 25);
+  assert.ok(!all('button').some((b) => /^Show \d+ more$/.test(b.textContent.trim())));
   await navigate('/explore?model=yes');
-  assert.equal(all('.hb-grid > li').length, 9);
+  assert.equal(all('.hb-grid > li').length, 10);
 });
 
 test('category and recorded-period discovery links open meaningful results', async () => {
@@ -889,8 +889,8 @@ test('3D collection lists approved sites with classified 3D documentation', asyn
   sites.splice(0, sites.length, ...structuredClone(importedSites));
   await mount('/3d-archive');
   const titles = all('.hb-grid .hb-card__title').map((title) => title.textContent);
-  assert.equal(titles.length, 9);
-  assert.ok(titles.includes('Hatra') && titles.includes('Al-Nouri Mosque and al-Hadba Minaret'));
+  assert.equal(titles.length, 10);
+  assert.ok(titles.includes('Hatra') && titles.includes('Al-Nouri Mosque and al-Hadba Minaret') && titles.includes('Choli Minaret'));
 });
 
 test('3D collection has an honest empty state and accepts only verified resources', async () => {

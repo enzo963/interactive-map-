@@ -331,3 +331,44 @@ rounded to one decimal. Each flag needs a manual decision in
 `tools/content-pipeline/data/coordinates/coordinate-decisions.json`: `keep` (with the reason),
 `downgrade` (precision lowered so the point is no pin) or `remove`. `tests/map-position.test.mjs` fails
 while a flag is undecided or two unrelated pins share a point.
+
+## Resource health (repair queue)
+
+`python3 tools/content-pipeline/check_resources.py` checks everything a published card uses. It runs the
+same checks as `images.test.mjs` (every local rendition exists, is not empty, decodes and has its recorded width). It
+also checks that every remote original answers with an image, every Commons file page still exists (one
+batched API query), that licence and source links answer, and that every linked video (YouTube oEmbed) and
+3D model (Sketchfab API) is still public. It writes `reports/resources/repair-queue.md`, with the full list
+in `tools/content-pipeline/data/resources/repair-queue.json`:
+
+- **P1**: a visitor would see something broken (image file, image, video, model).
+- **P2**: a link a visitor follows is dead (404/410, unreachable host, a page that now lands on a home or
+  error page, a deleted Commons file, an invalid URL).
+- **P3**: a person must look. The site refuses automated clients (401/403/429; never worked around), timed
+  out, failed on the server, or moved permanently.
+
+Record what a person found in `data/resources/manual-checks.json` (`ok`, `dead` or `moved` with
+`newUrl`). Link results are cached for 7 days (`--refresh` rechecks everything). Run it before presenting
+the site; `tests/resource-queue.test.mjs` fails while a P1 item is open.
+
+## Identity audit (duplicates and copied information)
+
+`python3 tools/content-pipeline/audit_identity.py` (about a minute) lists candidates for a person to decide.
+It writes `reports/identity/identity-audit.md` and `tools/content-pipeline/data/identity/identity-audit.json`.
+
+- Pairs: the same or alternative name in one governorate, a shared Wikidata site item, or a shared primary
+  source (`dedupe_sites.py`). Also names at least 90 % alike in any governorate, compared without generic
+  words such as "al-", "Mosque" or "Tell"; two site positions less than 100 m apart; the same Wikidata item
+  behind two positions or covers; and two specific descriptions at least 80 % alike. Decide each pair in
+  `data/site-identity-decisions.json` (`merge`, `component` or `distinct`, with a reason).
+- Records: a description or location that names a town of another governorate and none of its own.
+  Distances, directions, the Mosul Dam lake and boundary areas under dispute are not counted. Also a
+  description that names another card's site but not its own, an ID whose governorate part differs from
+  the governorate, and a heritage status that names the parent site while `parentSite` does not link it.
+  Decide each in `data/identity/record-decisions.json` (`keep` or `fixed`, with a note).
+- Shared descriptions: survey cards whose description is the same template. These are not errors, but
+  they are listed so the cards can be enriched.
+
+Run it after every discovery batch. `tests/identity-audit.test.mjs` fails while a finding of the
+committed audit is undecided. On every run it also checks unique IDs, primary names unique within a
+governorate, IDs that match their governorate, and parent links.

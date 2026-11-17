@@ -305,6 +305,31 @@
       "action": "downgrade",
       "note": "Source point is rounded to one decimal (error up to ~5 km): precision set to approximate, no pin.",
       "decidedAt": "2026-11-13"
+    },
+    "site-duhok-amedy-city": {
+      "action": "keep",
+      "note": "Item Q460736 is the town of Amedi itself (Amedy/Amedi are spellings of one name); the card is the historic town.",
+      "decidedAt": "2026-11-14"
+    },
+    "site-kirkuk-kirkuk-citadel": {
+      "action": "keep",
+      "note": "Item Q1144137 is Kirkuk Citadel; its name has only words the matcher treats as generic. Point on the citadel mound.",
+      "decidedAt": "2026-11-14"
+    },
+    "site-baghdad-mustansiriya-madrasa": {
+      "action": "keep",
+      "note": "Item Q15260416 is the Mustansiriyya Madrasa (another spelling); point on the building by the Tigris.",
+      "decidedAt": "2026-11-14"
+    },
+    "site-salah-al-din-great-mosque": {
+      "action": "keep",
+      "note": "Item Q593115 is the Great Mosque of Samarra. Component of Samarra Archaeological City, about 40 km long; the parent point marks the Abbasid city to the north.",
+      "decidedAt": "2026-11-14"
+    },
+    "site-sulaymaniyah-red-terror-museum": {
+      "action": "keep",
+      "note": "Item Q106864613 is Amna Suraka; its point lies in central Sulaymaniyah city, and Wikidata names the governorate another way.",
+      "decidedAt": "2026-11-14"
     }
   }
 }

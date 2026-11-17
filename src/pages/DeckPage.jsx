@@ -72,7 +72,10 @@ export default function DeckPage({ params, deckId }) {
   const deck = useMemo(() => getDeckById(sites, id), [sites, id]);
   const navigate = useNavigate();
   const [tier, setTier] = useState('all');
-  const [sort, setSort] = useState('archive');
+  const ordered = Array.isArray(deck?.order);
+  // A deck with a set order (Highlights) opens in that order; it is also offered as a sort option.
+  const [sort, setSort] = useState(ordered ? 'deck' : 'archive');
+  const sorts = ordered ? [{ id: 'deck', label: 'Recommended order' }, ...SORTS] : SORTS;
 
   useDocumentTitle(deck ? `${t(deck.title)} — History in Cards` : 'Deck not found — History in Cards');
 
@@ -83,6 +86,7 @@ export default function DeckPage({ params, deckId }) {
   const shown = useMemo(() => {
     if (!deck) return [];
     const base = tier === 'all' ? deck.sites : deck.sites.filter((s) => String(s.cardType.tier) === tier);
+    if (sort === 'deck') return base;
     return [...base].sort(SORT_FNS[sort]);
   }, [deck, tier, sort]);
 
@@ -133,7 +137,7 @@ export default function DeckPage({ params, deckId }) {
               <label className="hb-sort">
                 <span>{t('Sort by')}</span>
                 <select value={sort} onChange={(event) => setSort(event.target.value)}>
-                  {SORTS.map((s) => <option value={s.id} key={s.id}>{t(s.label)}</option>)}
+                  {sorts.map((s) => <option value={s.id} key={s.id}>{t(s.label)}</option>)}
                 </select>
               </label>
             </div>

@@ -12,6 +12,8 @@ import { t } from '../i18n';
  */
 const withSites = (def, kind, sites) => {
   const members = sites.filter((site) => isCollectionMember(site, def));
+  // A deck with a set order (Highlights) lists its cards in that order.
+  if (Array.isArray(def.order)) members.sort((a, b) => def.order.indexOf(a.id) - def.order.indexOf(b.id));
   return { ...def, kind, sites: members, count: members.length, href: def.id === 'unesco' ? '/unesco' : def.id === '3d' ? '/3d-archive' : `/decks/${def.id}` };
 };
 

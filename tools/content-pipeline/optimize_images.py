@@ -75,11 +75,23 @@ def candidates(image_record):
         yield f'{root}/thumb/{a}/{ab}/{name}/{buckets[-1]}px-{name}'
 
 
+def complete(path):
+    try:
+        with Image.open(path) as image:
+            image.load()
+        return True
+    except OSError:
+        return False
+
+
 def download(image_record, path):
     for url in candidates(image_record):
         for attempt in range(2):
-            subprocess.run(['curl', '-s', '-L', '-A', UA, '--max-time', '60', '-o', str(path), url], check=False)
-            if path.exists() and path.read_bytes()[:3] in (b'\xff\xd8\xff', b'\x89PN', b'GIF', b'RIF'):
+            result = subprocess.run(['curl', '-s', '-f', '-L', '-A', UA, '--max-time', '300', '-o', str(path), url], check=False)
+            # A transfer cut short by the time limit still starts with a valid header: require success and a
+            # complete image, not just the first bytes.
+            if result.returncode == 0 and path.exists() and path.read_bytes()[:3] in (b'\xff\xd8\xff', b'\x89PN', b'GIF', b'RIF') \
+                    and complete(path):
                 return url
             path.unlink(missing_ok=True)
             time.sleep(6)
@@ -136,7 +148,11 @@ def optimize(image_record, slug, check_only=False):
         time.sleep(1.5)
     raw = cached.read_bytes()
     digest = hashlib.sha256(raw + SETTINGS.encode()).hexdigest()[:10]
-    image = to_srgb(Image.open(io.BytesIO(raw)))
+    try:
+        image = to_srgb(Image.open(io.BytesIO(raw)))
+    except OSError as error:  # a download cut short (rate limit, dropped connection): discard and retry later
+        cached.unlink(missing_ok=True)
+        raise RuntimeError(f'download of {url.rsplit("/", 1)[-1][:60]} was incomplete ({error})') from error
     folder = OUT / slug
     variants = {'base': f'{PUBLIC_PREFIX}/{slug}/{digest}', 'hash': digest,
                 'width': min(image.width, ROLES['full']),

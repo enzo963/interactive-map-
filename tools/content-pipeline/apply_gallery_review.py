@@ -55,7 +55,7 @@ def gallery_image(record, entry, review):
         'original_url': entry['url'],
         'width': entry['width'],
         'height': entry['height'],
-        'identity': {'method': 'commons-category-of-site-item', 'item': entry['qid'], 'category': entry['category'],
+        'identity': {'method': entry.get('method', 'commons-category-of-site-item'), 'item': entry['qid'], 'category': entry['category'],
                      'reviewedBy': review['reviewer'], 'reviewedAt': reviewed, 'note': entry['reason']},
         'license_review': {
             'permission': 'publication-permitted', 'license': entry['license'],

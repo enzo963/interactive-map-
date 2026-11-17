@@ -2,7 +2,16 @@
   {
     "id": "site-duhok-amedy-city",
     "name": "Amedy city",
+    "alternativeNames": [
+      "Amedi",
+      "Amadiya",
+      "العمادية"
+    ],
     "governorate": "Duhok",
+    "latitude": 37.0919,
+    "longitude": 43.487,
+    "coordinates_source": "wikidata:Q460736",
+    "coordinates_precision": "site",
     "category": "Historic Town",
     "period": "",
     "period_status": "not-established",
@@ -510,18 +519,34 @@
         "url": "https://whc.unesco.org/en/tentativelists/5601/",
         "evidenceId": "unesco-20261031T182918Z-2ac18a6a26",
         "accessedAt": "2026-10-31T18:29:18+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Amedi",
+        "url": "https://en.wikipedia.org/wiki/Amedi",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "amedy-city",
-    "historical_background": "Amedy has been on Iraq’s Tentative List since 2 February 2011 as a mixed cultural and natural site; it is not an inscribed World Heritage Site."
+    "historical_background": "Amedi sits on a flat-topped rock above the valleys of the Bahdinan region. It appears in Assyrian records after Ashurnasirpal I conquered the area in the 11th century BC, and it was later the seat of the Bahdinan emirate. The Mosul (Bahdinan) gate, a minaret and the old quarters survive on the plateau. Amedy has been on Iraq’s Tentative List since 2 February 2011 as a mixed cultural and natural site; it is not an inscribed World Heritage Site."
   },
   {
     "id": "site-duhok-delal-bridge",
     "name": "Delal Bridge",
+    "alternativeNames": [
+      "Pira Delal",
+      "Zakho Bridge",
+      "جسر دلال"
+    ],
     "governorate": "Duhok",
+    "latitude": 37.136111,
+    "longitude": 42.695,
+    "coordinates_source": "wikidata:Q2571655",
+    "coordinates_precision": "site",
     "category": "Historic Bridge",
     "period": "",
     "period_status": "not-established",
@@ -878,13 +903,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Delal Bridge",
+        "url": "https://en.wikipedia.org/wiki/Delal_Bridge",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "delal-bridge",
-    "historical_background": "The Kurdistan Regional Government lists it among the region’s architectural heritage; the sources disagree on when it was first built, so no period is given."
+    "historical_background": "The Kurdistan Regional Government lists the bridge among the region’s architectural heritage; the sources disagree on when it was first built, so no period is given. Its Kurdish name, Pira Delal, means “the dear (unique) bridge”, and local legend says its builder lost his hands so that he could never make another like it. It is a gathering place for Zakho’s families and a symbol of the town."
   },
   {
     "id": "site-duhok-faida-canal-reliefs",
@@ -915,11 +947,21 @@
   {
     "id": "site-erbil-choli-minaret",
     "name": "Choli Minaret",
+    "alternativeNames": [
+      "Mudhafaria Minaret",
+      "Cholî Minare",
+      "المنارة المظفرية",
+      "منارة جولي"
+    ],
     "governorate": "Erbil",
+    "latitude": 36.18751,
+    "longitude": 43.99979,
+    "coordinates_source": "wikidata:Q6931750",
+    "coordinates_precision": "site",
     "category": "Minaret",
-    "period": "",
-    "period_status": "not-established",
-    "description": "A 37 m historic minaret in Erbil, planned in 2025 for structural and exterior restoration.",
+    "period": "Atabeg",
+    "estimated_year": "c. 1200",
+    "description": "A brick minaret about 36 m high in Erbil’s Minaret Park, built between 1190 and 1233 under Muzaffar al-Din Gökböri, ruler of Erbil: the sole survivor of a vanished mosque, with an octagonal base and a shaft wrapped in interlocking brick patterns.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -1003,7 +1045,336 @@
       },
       "focus": "50% 0%"
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mudhafaria_Minaret_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Choli Minaret: the minaret lit at night",
+        "caption": "The minaret lit at night",
+        "credit": "DiyarKamaran",
+        "license": "CC0",
+        "siteId": "site-erbil-choli-minaret",
+        "license_status": "verified",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_night.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mudhafaria_Minaret_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3024,
+        "height": 4032,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q6931750",
+          "category": "Mudhafaria Minaret",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the floodlit shaft and base, a view the daytime cover cannot give."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mudhafaria_Minaret_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Mudhafaria Minaret at night.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_night.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mudhafaria_Minaret_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_night.jpg",
+                "evidenceId": "wikimedia-commons-Mudhafaria Minaret at night.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-erbil-choli-minaret",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mudhafaria_Minaret_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/choli-minaret/3a9dfa5fd5",
+          "hash": "3a9dfa5fd5",
+          "width": 1280,
+          "height": 1707,
+          "color": "#3b3b40",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detail._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Choli Minaret: the balcony and the top of the octagonal base",
+        "caption": "The balcony and the top of the octagonal base",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-erbil-choli-minaret",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detail._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6016,
+        "height": 4016,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q6931750",
+          "category": "Mudhafaria Minaret",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Close view of the balcony ring and the niches below it."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detail._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Detail. Mudhafaria Minaret, Minaret Park, Erbil.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Detail._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detail._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Detail._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+                "evidenceId": "wikimedia-commons-Detail. Mudhafaria Minaret, Minaret Park, Erbil.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-erbil-choli-minaret",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detail._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/choli-minaret/fc7daf2a33",
+          "hash": "fc7daf2a33",
+          "width": 1280,
+          "height": 854,
+          "color": "#b4ab97",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Detail_9._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Choli Minaret: a decorated niche of the octagonal base",
+        "caption": "A decorated niche of the octagonal base",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-erbil-choli-minaret",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail_9._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Detail_9._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4016,
+        "height": 6016,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q6931750",
+          "category": "Mudhafaria Minaret",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the carved brick panels of the base."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Detail_9._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Detail 9. Mudhafaria Minaret, Minaret Park, Erbil.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Detail_9._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Detail_9._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Detail_9._Mudhafaria_Minaret,_Minaret_Park,_Erbil.jpg",
+                "evidenceId": "wikimedia-commons-Detail 9. Mudhafaria Minaret, Minaret Park, Erbil.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-erbil-choli-minaret",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Detail_9._Mudhafaria_Minaret%2C_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/choli-minaret/1770fe0b1d",
+          "hash": "1770fe0b1d",
+          "width": 1280,
+          "height": 1917,
+          "color": "#ab8f69",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mudhafaria_Minaret_at_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Choli Minaret: the minaret in Minaret Park",
+        "caption": "The minaret in Minaret Park",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-erbil-choli-minaret",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_Minaret_Park,_Erbil.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mudhafaria_Minaret_at_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6016,
+        "height": 4016,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q6931750",
+          "category": "Mudhafaria Minaret",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows its setting at the end of the park avenue."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mudhafaria_Minaret_at_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Mudhafaria Minaret at Minaret Park, Erbil.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_Minaret_Park,_Erbil.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mudhafaria_Minaret_at_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Mudhafaria_Minaret_at_Minaret_Park,_Erbil.jpg",
+                "evidenceId": "wikimedia-commons-Mudhafaria Minaret at Minaret Park, Erbil.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-erbil-choli-minaret",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mudhafaria_Minaret_at_Minaret_Park%2C_Erbil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/choli-minaret/0de29e0749",
+          "hash": "0de29e0749",
+          "width": 1280,
+          "height": 854,
+          "color": "#8b9383",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -1011,13 +1382,20 @@
         "url": "https://gov.krd/dmi-en/activities/news-and-press-releases/2025/august/erbil-citadel-and-choli-minaret-undergo-major-restoration-to-preserve-historic-identity/",
         "evidenceId": "krg-20261031T172031Z-6fdcb793a0",
         "accessedAt": "2026-10-31T17:20:31+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Mudhafaria Minaret",
+        "url": "https://en.wikipedia.org/wiki/Mudhafaria_Minaret",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "choli-minaret",
-    "historical_background": "An August 2025 KRG report describes planned structural and exterior restoration alongside work on Erbil Citadel; it does not show whether the work is complete. The sources consulted do not date the minaret."
+    "historical_background": "The minaret was built during the rule of Muzaffar al-Din Gökböri, an ally of Saladin who married Saladin’s sister. It is believed to be the only remnant of a mosque that has since disappeared. A tall octagonal base with two tiers of pointed-arch niches on each face carries a balcony and a tapering cylindrical shaft decorated with bands of hazar-baf (“thousand weaves”) brickwork and Kufic inscriptions; an upper balcony has collapsed. An August 2025 report of the Kurdistan Regional Government describes structural and exterior restoration planned alongside work on Erbil Citadel."
   },
   {
     "id": "site-erbil-erbil-citadel",
@@ -1025,7 +1403,8 @@
     "alternativeNames": [
       "Arbela",
       "Qelay Hewlêr",
-      "قلعة أربيل"
+      "قلعة أربيل",
+      "Urbilum"
     ],
     "governorate": "Erbil",
     "category": "Citadel",
@@ -1465,6 +1844,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Pleiades — Arbela (Erbil Citadel)",
+        "url": "https://pleiades.stoa.org/places/949325354",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "inscribed",
@@ -1486,9 +1872,14 @@
       "كهف شانيدر"
     ],
     "governorate": "Erbil",
+    "latitude": 36.8006,
+    "longitude": 44.2433,
+    "coordinates_source": "wikidata:Q909799",
+    "coordinates_precision": "site",
     "category": "Archaeological Cave",
     "period": "Middle Palaeolithic",
-    "description": "A cave in the Zagros mountains of Erbil Governorate where the remains of Neanderthals were found, a key site for the study of early human history.",
+    "estimated_year": -63000,
+    "description": "A cave on Bradost Mountain above the Great Zab where Ralph Solecki found the remains of at least nine Neanderthals, buried between about 65,000 and 35,000 years ago: one of the most important Neanderthal sites in the world.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -1827,13 +2218,27 @@
         "url": "https://us.gov.krd/visit-kurdistan/",
         "evidenceId": "krg-20261031T172034Z-34d8a5812e",
         "accessedAt": "2026-10-31T17:20:34+00:00"
+      },
+      {
+        "sourceName": "Pleiades — Shanidar Cave",
+        "url": "https://pleiades.stoa.org/places/493567306",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Shanidar Cave",
+        "url": "https://en.wikipedia.org/wiki/Shanidar_Cave",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "shanidar-cave",
-    "historical_background": "The Kurdistan Regional Government presents it as one of the region’s main archaeological sites.",
+    "historical_background": "Ralph Solecki first sounded the cave in 1951 and excavated it in four seasons until 1960, for the University of Michigan, the Smithsonian Institution and Iraq’s Directorate General of Antiquities. Its Mousterian layers held the remains of seven adult and two infant Neanderthals, among them Shanidar 1, a man who survived serious injuries, possibly with the care of his group, and Shanidar 4, the so-called flower burial, whose pollen some researchers now attribute to natural causes. Later layers record Baradostian, Zarzian and Neolithic occupation, including a Neolithic burial of a woman and an infant. The Kurdistan Regional Government presents the cave as one of the region’s main archaeological sites.",
     "review_notes": "Period set to Middle Palaeolithic from the recorded Neanderthal remains (2026-11-12 search audit)."
   },
   {
@@ -1845,9 +2250,12 @@
       "قلعة كركوك"
     ],
     "governorate": "Kirkuk",
+    "latitude": 35.469722222222,
+    "longitude": 44.395833333333,
+    "coordinates_source": "wikidata:Q1144137",
+    "coordinates_precision": "site",
     "category": "Citadel",
-    "period": "",
-    "period_status": "not-established",
+    "period": "Multi-period, including Ottoman",
     "description": "The raised historic town at the centre of Kirkuk, whose traditional quarters, gates, market, mosques and church record the city’s Muslim and Christian communities.",
     "unesco": false,
     "has3D": null,
@@ -2270,13 +2678,20 @@
         "url": "https://whc.unesco.org/en/tentativelists/6522/",
         "evidenceId": "unesco-20261031T185441Z-b226471f6a",
         "accessedAt": "2026-10-31T18:54:41+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Kirkuk Citadel",
+        "url": "https://en.wikipedia.org/wiki/Kirkuk_Citadel",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "kirkuk-citadel",
-    "historical_background": "Iraq placed the citadel on its Tentative List on 6 April 2021. The submission describes quarters such as Hammam, Aghaliq and al-Midan, and buildings including the Prophet Daniel Mosque, the Green Dome, the Mother of Sorrows Church and the Qaysariyah market."
+    "historical_background": "Tablets found near the citadel show that the mound was occupied by at least the 2nd millennium BC, and Kirkuk is generally identified with ancient Arrapha; who first fortified it is disputed, and later tradition credits Seleucus I with a rampart of 72 towers. Excavations in 2000 by the Kirkuk Directorate of Antiquities found thick mud-brick walls on its northern side. Iraq placed the citadel on its Tentative List on 6 April 2021. The submission describes quarters such as Hammam, Aghaliq and al-Midan, and buildings including the Prophet Daniel Mosque, the Green Dome, the Mother of Sorrows Church and the Qaysariyah market."
   },
   {
     "id": "site-kirkuk-mother-of-sorrows-church",
@@ -2440,12 +2855,23 @@
   {
     "id": "site-nineveh-al-nouri",
     "name": "Al-Nouri Mosque and al-Hadba Minaret",
+    "alternativeNames": [
+      "Great Mosque of al-Nuri",
+      "al-Hadba Minaret",
+      "جامع النوري",
+      "الجامع الكبير النوري",
+      "منارة الحدباء"
+    ],
     "governorate": "Nineveh",
+    "latitude": 36.343193,
+    "longitude": 43.126872,
+    "coordinates_source": "wikidata:Q5599605",
+    "coordinates_precision": "site",
     "approximateLocation": "Old City, Mosul",
     "category": "Mosque",
-    "period": "",
-    "period_status": "not-established",
-    "description": "The mosque of Mosul’s Old City and its al-Hadba minaret, 44 m high, the city’s icon. Excavations have found rooms of a 12th-century mosque on the site.",
+    "period": "Zengid",
+    "estimated_year": 1172,
+    "description": "The great mosque of Mosul’s Old City, founded by Nur al-Din Zangi in 1172–73, and its leaning al-Hadba minaret, 44 m high, the city’s emblem. Destroyed in 2017, both were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -2881,13 +3307,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Great Mosque of al-Nuri, Mosul",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_al-Nuri,_Mosul",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "al-nouri-mosque-and-al-hadba-minaret",
-    "historical_background": "UNESCO’s Tentative List entry for the Old City names the mosque and minaret its most significant landmarks. ISIL/Daesh largely destroyed the minaret in June 2017. Both were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative; during the work, excavations uncovered four stone-and-plaster rooms of the 12th-century mosque."
+    "historical_background": "Tradition and the chronicler Ibn al-Athir credit Nur al-Din Zangi with ordering the mosque in 1172–73, shortly before his death; it was renovated many times over the following eight and a half centuries. The minaret’s pronounced lean gave Mosul its nickname al-Hadba, “the hunchback”. UNESCO’s Tentative List entry for the Old City names the mosque and minaret its most significant landmarks. ISIL/Daesh largely destroyed both in June 2017. They were rebuilt under UNESCO’s Revive the Spirit of Mosul initiative; during the work, excavations uncovered four stone-and-plaster rooms of the 12th-century mosque."
   },
   {
     "id": "site-nineveh-dominican-church",
@@ -3014,6 +3447,7 @@
     "governorate": "Nineveh",
     "category": "Archaeological Site",
     "period": "Parthian",
+    "estimated_year": "3rd–2nd century BC",
     "description": "A fortified city under Parthian influence, south-west of Mosul, whose thick walls and towers held off Roman sieges in 116 and 198 AD. Its temples blend Hellenistic and Roman architecture with Eastern decoration.",
     "unesco": true,
     "has3D": null,
@@ -3523,6 +3957,20 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Pleiades — Hatra",
+        "url": "https://pleiades.stoa.org/places/894004",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Hatra",
+        "url": "https://en.wikipedia.org/wiki/Hatra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "inscribed",
@@ -3533,12 +3981,20 @@
     "status": "approved",
     "verification_status": "approved",
     "slug": "hatra",
-    "historical_background": "The central temple complex was dedicated to several Hatrene gods, chief among them the sun god Shamash. UNESCO inscribed Hatra on the World Heritage List in 1985. After damage by armed groups it was added to the List of World Heritage in Danger in 2015, where the Committee retained it in 2026."
+    "historical_background": "Hatra was probably founded in the 3rd or 2nd century BC under the Seleucids and flourished in the 1st and 2nd centuries AD as the capital of the Kingdom of Araba, a semi-independent state on the caravan routes between the Roman and Parthian worlds. Its fortified walls withstood the sieges of the emperors Trajan in 116 and Septimius Severus in 198. The central temple complex was dedicated to several Hatrene gods, chief among them the sun god Shamash. The Sasanian king Shapur I took and destroyed the city in 241. UNESCO inscribed Hatra on the World Heritage List in 1985. After damage by armed groups it was added to the List of World Heritage in Danger in 2015, where the Committee retained it in 2026."
   },
   {
     "id": "site-nineveh-lalish",
     "name": "Lalish Temple",
+    "alternativeNames": [
+      "Lalish",
+      "لالش"
+    ],
     "governorate": "Nineveh",
+    "latitude": 36.771397,
+    "longitude": 43.303344,
+    "coordinates_source": "wikidata:Q1017666",
+    "coordinates_precision": "site",
     "category": "Temple",
     "period": "",
     "civilization": "Yazidi",
@@ -3965,13 +4421,20 @@
         "url": "https://whc.unesco.org/en/tentativelists/6467/",
         "evidenceId": "unesco-20261031T184446Z-8092d8404a",
         "accessedAt": "2026-10-31T18:44:46+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Lalish",
+        "url": "https://en.wikipedia.org/wiki/Lalish",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "lalish-temple",
-    "historical_background": "Iraq placed Lalish on its Tentative List on 15 April 2020, describing the valley, the temple architecture and the tomb. The sources consulted do not date the buildings."
+    "historical_background": "Lalish lies in a narrow valley among three mountains, about 60 km north of Mosul. The complex stands around the tomb of Sheikh Adi ibn Musafir, the 12th-century figure the Yazidis venerate, beneath the highest of its conical domes; its grounds also hold shrines of other holy figures, springs used for ritual cleansing, caves and sacred trees. The date of the buildings is not established, and accounts of the sanctuary before the 12th century differ. Yazidis are asked to make the pilgrimage at least once, and the main autumn festival lasts seven days. Iraq placed Lalish on its Tentative List on 15 April 2020."
   },
   {
     "id": "site-nineveh-nimrud",
@@ -3983,8 +4446,13 @@
       "كالخو"
     ],
     "governorate": "Nineveh",
+    "latitude": 36.098055555556,
+    "longitude": 43.328888888889,
+    "coordinates_source": "wikidata:Q237614",
+    "coordinates_precision": "site",
     "category": "Archaeological City",
     "period": "Assyrian",
+    "estimated_year": "9th century BC",
     "description": "Ancient Kalhu, south of Mosul, which became the capital of the Assyrian Empire in the 9th century BC under Ashurnasirpal II. Its walls, raised palace platforms and royal tombs survive.",
     "unesco": false,
     "has3D": null,
@@ -4250,13 +4718,27 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Pleiades — Kalhu/Calah (Nimrud)",
+        "url": "https://pleiades.stoa.org/places/894019",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Nimrud",
+        "url": "https://en.wikipedia.org/wiki/Nimrud",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "nimrud",
-    "historical_background": "Nimrud has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. In 2015 extremist armed groups deliberately and severely damaged the city, including the north-west part of the Palace of Ashurnasirpal II."
+    "historical_background": "A trading settlement had stood at Kalhu since the reign of Shalmaneser I (1274–1245 BC). Ashurnasirpal II chose it as his new capital in the 9th century BC, cleared the ruins and built a new city with a royal palace meant to surpass those of earlier kings; it remained the capital of the Assyrian Empire until Sargon II moved the court to Khorsabad. Excavations began in 1845 and resumed from 1949, recovering the reliefs, ivories and royal tombs now in museums in Iraq and abroad. Nimrud has been on Iraq’s Tentative List since 7 July 2000; it is not an inscribed World Heritage Site. In 2015 extremist armed groups deliberately and severely damaged the city, including the north-west part of the Palace of Ashurnasirpal II."
   },
   {
     "id": "site-nineveh-old-mosul",
@@ -4672,10 +5154,18 @@
   {
     "id": "site-sulaymaniyah-qalatga-darband",
     "name": "Qalatga Darband",
+    "alternativeNames": [
+      "قلعة دربند"
+    ],
     "governorate": "Sulaymaniyah",
+    "latitude": 36.2135,
+    "longitude": 44.9773,
+    "coordinates_source": "wikidata:Q41314028",
+    "coordinates_precision": "site",
     "category": "Archaeological City",
     "period": "Hellenistic",
-    "description": "A Hellenistic city in Sulaymaniyah Governorate, identified through drone surveys and excavated by the British Museum.",
+    "estimated_year": "2nd–1st century BC",
+    "description": "A fortified town of the late Hellenistic to early Parthian period above Lake Dukan, first noticed on declassified 1960s Corona satellite images and excavated since 2016 by the British Museum with Iraqi archaeologists.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -5015,13 +5505,20 @@
         "url": "https://us.gov.krd/visit-kurdistan/",
         "evidenceId": "krg-20261031T183626Z-ff9cb8fdbf",
         "accessedAt": "2026-10-31T18:36:26+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Qalatga Darband",
+        "url": "https://en.wikipedia.org/wiki/Qalatga_Darband",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
     "status": "approved",
     "verification_status": "approved",
     "slug": "qalatga-darband",
-    "historical_background": "The Kurdistan Regional Government presents it among the region’s main archaeological sites."
+    "historical_background": "The site was recognised on Corona reconnaissance images taken in the 1960s and declassified in the 1990s. A French mission led by Jessica Giraud surveyed it in 2013, and in 2016 the British Museum chose it for excavation and for the training of Iraqi archaeologists in archaeology and site protection, a programme supported by the British government. The finds date the town to the late Hellenistic period or the transition to Parthian rule. The Kurdistan Regional Government presents it among the region’s main archaeological sites."
   },
   {
     "id": "site-sulaymaniyah-tell-shemshara",
@@ -5057,8 +5554,13 @@
     "id": "site-baghdad-mustansiriya-madrasa",
     "name": "Al-Mustansiriya Madrasa",
     "governorate": "Baghdad",
+    "latitude": 33.3385,
+    "longitude": 44.3896,
+    "coordinates_source": "wikidata:Q15260416",
+    "coordinates_precision": "site",
     "category": "Historic School",
     "period": "Abbasid",
+    "estimated_year": 1227,
     "description": "The college founded on the Tigris in 1227 by the Abbasid caliph al-Mustansir, with rooms and iwans arranged around a great courtyard on the eastern bank in Baghdad.",
     "unesco": null,
     "has3D": null,
@@ -5491,6 +5993,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Wikipedia — Mustansiriyya Madrasa",
+        "url": "https://en.wikipedia.org/wiki/Mustansiriyya_Madrasa",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "mustansiriya-madrasa",
@@ -5503,17 +6012,23 @@
     "alternativeNames": [
       "AL- Mustansiriya School",
       "Mustansiriya Madrasah",
-      "Munstansiriya Madrasah"
+      "Munstansiriya Madrasah",
+      "المدرسة المستنصرية"
     ],
-    "historical_background": "It is the southern anchor of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014). After restoration it opened as a museum of Islamic art and culture in 1960."
+    "historical_background": "Caliph al-Mustansir founded the college in 1227 and opened it for teaching on 6 April 1233 with a great celebration; it cost some 700,000 dinars. It was the first madrasa to teach all four Sunni schools of law under one roof, alongside medicine, mathematics, grammar and philosophy, and it housed, fed and paid its students. It declined after the Mongol siege of 1258 and revived in later periods. It is the southern anchor of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014). After restoration it opened as a museum of Islamic art and culture in 1960."
   },
   {
     "id": "site-baghdad-abbasid-palace",
     "name": "Abbasid Palace",
     "governorate": "Baghdad",
+    "latitude": 33.34307,
+    "longitude": 44.38352,
+    "coordinates_source": "wikidata:Q20669819",
+    "coordinates_precision": "site",
     "category": "Historic Building",
     "period": "Abbasid",
-    "description": "A surviving Abbasid building on the Rusafa bank of the Tigris, attributed by researchers to Caliph al-Nasir li-Din Allah and admired for its ornamental brickwork.",
+    "estimated_year": "c. 1200",
+    "description": "A late Abbasid building of the late 12th or early 13th century on the Rusafa bank of the Tigris, identified either as a palace of Caliph al-Nasir li-Din Allah or as the Sharabiyya Madrasa, and admired for its carved brick and muqarnas.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -5933,6 +6448,13 @@
         "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Palace.jpg",
         "evidenceId": "wikimedia-commons-20261031T235642Z-fc4a106afc-17837d",
         "accessedAt": "2026-10-31T23:56:42.764141+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Abbasid Palace",
+        "url": "https://en.wikipedia.org/wiki/Abbasid_Palace",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "abbasid-palace",
@@ -5944,9 +6466,10 @@
     "verification_status": "approved",
     "alternativeNames": [
       "ASharabeyaschool",
-      "القصر العباسي"
+      "القصر العباسي",
+      "Sharabiyya Madrasa"
     ],
-    "historical_background": "It marks the northern end of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014), which notes that parts of it lie buried under later riverbank deposits."
+    "historical_background": "Its original identity is disputed: researchers have read it as a palace of the caliph al-Nasir or as the Sharabiyya Madrasa, and it is generally dated to the late 12th or early 13th century. With the Mustansiriya Madrasa it is one of the few Abbasid buildings left in Baghdad. It marks the northern end of Iraq’s Tentative List entry for the historic Rusafa riverfront (submitted 28 March 2014), which notes that parts of it lie buried under later riverbank deposits."
   },
   {
     "id": "site-baghdad-al-qishla",
@@ -6434,6 +6957,7 @@
     "governorate": "Salah al-Din",
     "category": "Archaeological City",
     "period": "Abbasid",
+    "estimated_year": 836,
     "description": "The ruins of the Abbasid capital of 836–892, stretching some 41.5 km along the Tigris at Samarra. As the caliphate’s second capital after Baghdad, it preserves the largest mosques and palaces of the Islamic world of its time.",
     "unesco": true,
     "has3D": null,
@@ -6800,10 +7324,10 @@
       "Surra Man Ra’a",
       "سامراء العباسية"
     ],
-    "latitude": 34.361667,
-    "longitude": 43.801944,
+    "latitude": 34.361666666666665,
+    "longitude": 43.801944444444445,
     "coordinates_source": "wikidata:Q20717633",
-    "coordinates_precision": "approximate",
+    "coordinates_precision": "site",
     "mergedFrom": [
       "site-salah-al-din-abbasid-samarra-ruinfield"
     ],
@@ -6814,8 +7338,14 @@
     "id": "site-salah-al-din-great-mosque",
     "name": "Great Mosque of Samarra and Malwiya Minaret",
     "governorate": "Salah al-Din",
+    "latitude": 34.206195,
+    "longitude": 43.87985,
+    "coordinates_source": "wikidata:Q593115",
+    "coordinates_precision": "site",
+    "parentSite": "site-salah-al-din-samarra",
     "category": "Mosque",
     "period": "Abbasid",
+    "estimated_year": 849,
     "description": "The congregational mosque of Abbasid Samarra, built in 849–852 and, at 264 by 159 m, the largest mosque in the Islamic world when it was built. Its spiral minaret, al-Malwiya, is the most unusual minaret in the Islamic world.",
     "unesco": null,
     "has3D": null,
@@ -7241,6 +7771,20 @@
         "url": "https://commons.wikimedia.org/wiki/File:Samrraa_01.jpg",
         "evidenceId": "wikimedia-commons-20261101T121033Z-b45f9ad27e-7d5393",
         "accessedAt": "2026-11-01T12:10:33.576160+00:00"
+      },
+      {
+        "sourceName": "Archnet — Great Mosque of al-Mutawakkil, Samarra",
+        "url": "https://www.archnet.org/sites/3828",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Great Mosque of Samarra",
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Samarra",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "al-din-great-mosque",
@@ -7250,7 +7794,10 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Spiral Minaret of samrraa mosque",
-      "Malwiya Minaret"
+      "Malwiya Minaret",
+      "Malwiya",
+      "المسجد الجامع في سامراء",
+      "الملوية"
     ],
     "historical_background": "The mosque lies within Samarra Archaeological City, a World Heritage Site since 2007. UNESCO counts it with Abu Dulaf as one of the two largest mosques preserved in the city. Earlier reconstruction work at the Great Mosque used reinforced concrete, one of the conservation problems UNESCO cites for the site."
   },
@@ -7258,6 +7805,7 @@
     "id": "site-salah-al-din-abu-dulaf",
     "name": "Abu Dulaf Mosque",
     "governorate": "Salah al-Din",
+    "parentSite": "site-salah-al-din-samarra",
     "category": "Mosque",
     "period": "Abbasid",
     "description": "One of the two great Abbasid mosques that survive at Samarra, capital of the caliphate in 836–892, known for its unusual minaret and its planning.",
@@ -7620,6 +8168,7 @@
     "id": "site-salah-al-din-caliphal-palace",
     "name": "Caliphal Palace (Qasr al-Khalifa)",
     "governorate": "Salah al-Din",
+    "parentSite": "site-salah-al-din-samarra",
     "category": "Palace",
     "period": "Abbasid",
     "description": "The palace of the Abbasid caliphs at Samarra, capital in 836–892, which UNESCO counts among the largest palaces of the Islamic world.",
@@ -7652,6 +8201,7 @@
     "governorate": "Salah al-Din",
     "category": "Archaeological City",
     "period": "Assyrian and Parthian",
+    "estimated_year": "c. 2600 BC",
     "description": "The first capital of the Assyrian Empire and religious centre of the god Ashur, on the west bank of the Tigris. A city-state and trading hub from the 14th to the 9th century BC, it was revived under the Parthians in the 1st–2nd centuries AD.",
     "unesco": true,
     "has3D": null,
@@ -8074,6 +8624,20 @@
         "url": "https://whc.unesco.org/en/list/1130/",
         "evidenceId": "unesco-20261101T120911Z-dbd9292fc8-17df06",
         "accessedAt": "2026-11-01T12:09:11.000258+00:00"
+      },
+      {
+        "sourceName": "Pleiades — Assur",
+        "url": "https://pleiades.stoa.org/places/893945",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Wikipedia — Assur",
+        "url": "https://en.wikipedia.org/wiki/Assur",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "al-din-ashur",
@@ -8086,7 +8650,10 @@
     "verification_status": "approved",
     "alternativeNames": [
       "Ashur",
-      "Assur"
+      "Assur",
+      "Qal'at Sherqat",
+      "آشور",
+      "قلعة الشرقاط"
     ],
     "historical_background": "The site preserves temples, palaces and royal burials. Babylonian forces destroyed the Assyrian city. UNESCO inscribed Ashur on 5 July 2003 and at the same time placed it on the List of World Heritage in Danger, chiefly because of the planned Makhool Dam and erosion by the Tigris; it remains on that list."
   },
@@ -8205,9 +8772,13 @@
     "id": "site-sulaymaniyah-red-terror-museum",
     "name": "Red Terror Museum, Slemani",
     "governorate": "Sulaymaniyah",
+    "latitude": 35.562222222222225,
+    "longitude": 45.425555555555555,
+    "coordinates_source": "wikidata:Q106864613",
+    "coordinates_precision": "site",
     "category": "Museum",
     "period": "Modern",
-    "description": "A museum in Sulaymaniyah documenting repression under Ba’athist rule, a place to learn about the region’s modern history.",
+    "description": "Amna Suraka, the “Red Security” building in Sulaymaniyah: from 1979 to 1991 the northern headquarters and prison of Ba’athist Iraq’s security directorate, where Kurdish students and dissidents were held and tortured, and since 2003 a museum of that repression and of the Anfal campaign.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -8292,7 +8863,336 @@
         ]
       }
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Red Terror Museum, Slemani: the façade scarred by the 1991 fighting",
+        "caption": "The façade scarred by the 1991 fighting",
+        "credit": "Adam Jones, Ph.D.",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-sulaymaniyah-red-terror-museum",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3456,
+        "height": 2304,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106864613",
+          "category": "Amna Sur",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Bullet and shell damage left as found."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 3.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Facade of Amna Suraca-Red House - Saddam-Era Prison and Torture Center Destroyed in 1991 Uprising - Sulaiman-Suleimaniya - Kurdistan - Iraq.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg",
+                "evidenceId": "wikimedia-commons-Facade of Amna Suraca-Red House - Saddam-Era Prison and Torture Center Destroyed in 1991 Uprising - Sulaiman-Suleimaniya - Kurdistan - Iraq.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-red-terror-museum",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Facade_of_Amna_Suraca-Red_House_-_Saddam-Era_Prison_and_Torture_Center_Destroyed_in_1991_Uprising_-_Sulaiman-Suleimaniya_-_Kurdistan_-_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/red-terror-museum/69d4ddb19d",
+          "hash": "69d4ddb19d",
+          "width": 1280,
+          "height": 853,
+          "color": "#76786b",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/101._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Red Terror Museum, Slemani: a barred cell block inside the former prison",
+        "caption": "A barred cell block inside the former prison",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-red-terror-museum",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:101._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/101._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4288,
+        "height": 2848,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106864613",
+          "category": "Amna Sur",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The interior the museum preserves."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/101._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-101. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:101._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/101._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:101._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+                "evidenceId": "wikimedia-commons-101. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-red-terror-museum",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/101._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/red-terror-museum/e2f26834e4",
+          "hash": "e2f26834e4",
+          "width": 1280,
+          "height": 850,
+          "color": "#865934",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/100._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Red Terror Museum, Slemani: a drawing left by a prisoner on a cell wall",
+        "caption": "A drawing left by a prisoner on a cell wall",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-red-terror-museum",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:100._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/100._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4288,
+        "height": 2848,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106864613",
+          "category": "Amna Sur",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Detail of the cells."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/100._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-100. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:100._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/100._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:100._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+                "evidenceId": "wikimedia-commons-100. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-red-terror-museum",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/100._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/red-terror-museum/31dd8bd003",
+          "hash": "31dd8bd003",
+          "width": 1280,
+          "height": 850,
+          "color": "#bd7e46",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/1._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Red Terror Museum, Slemani: the courtyard with the Ba’athist army vehicles on display",
+        "caption": "The courtyard with the Ba’athist army vehicles on display",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-red-terror-museum",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/1._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4288,
+        "height": 2848,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106864613",
+          "category": "Amna Sur",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The open-air part of the museum."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/1._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-1. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:1._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/1._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:1._Amna_Suraka_Museum_(the_Red_Security_Museum),_Sulaymaniyah,_Iraq.jpg",
+                "evidenceId": "wikimedia-commons-1. Amna Suraka Museum (the Red Security Museum), Sulaymaniyah, Iraq.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-red-terror-museum",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/1._Amna_Suraka_Museum_%28the_Red_Security_Museum%29%2C_Sulaymaniyah%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/red-terror-museum/d14e8b5f94",
+          "hash": "d14e8b5f94",
+          "width": 1280,
+          "height": 850,
+          "color": "#8f8c8a",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -8300,6 +9200,13 @@
         "url": "https://us.gov.krd/visit-kurdistan/",
         "evidenceId": "krg-20261031T172034Z-34d8a5812e",
         "accessedAt": "2026-10-31T17:20:34+00:00"
+      },
+      {
+        "sourceName": "Wikipedia — Amna Suraka",
+        "url": "https://en.wikipedia.org/wiki/Amna_Suraka",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "slug": "red-terror-museum",
@@ -8307,14 +9214,19 @@
     "status": "approved",
     "verification_status": "approved",
     "alternativeNames": [
-      "Red Terror Museum"
+      "Red Terror Museum",
+      "Amna Suraka",
+      "Red Security",
+      "متحف الأمن الأحمر",
+      "آمنة سوركه"
     ],
-    "historical_background": "The Kurdistan Regional Government presents it among the region’s main places for learning about its modern history."
+    "historical_background": "Peshmerga forces stormed the compound during the March 1991 uprising, and the building still carries the marks of the fighting. The museum opened in 2003 and keeps the cells and interrogation rooms largely as they were. Its Hall of Mirrors holds some 182,000 shards for the Kurds killed in the Anfal campaign and 4,500 lights for the villages destroyed; other galleries document Anfal and the Peshmerga killed in the war against ISIS. The Kurdistan Regional Government presents it among the region’s main places for learning about its modern history."
   },
   {
     "id": "site-kirkuk-qaysariyah-market",
     "name": "Al-Qaysariyah Market, Kirkuk",
     "governorate": "Kirkuk",
+    "parentSite": "site-kirkuk-kirkuk-citadel",
     "category": "Historic Market",
     "period": "",
     "period_status": "not-established",
@@ -11508,6 +12420,7 @@
     "category": "Rock Relief",
     "period": "Neo-Assyrian",
     "description": "Four Neo-Assyrian reliefs on Mount Zawa, about 7 km south-west of Duhok above Geverke village. Each shows a procession of nine figures: the Assyrian king, most likely Sennacherib (704–681 BC), before gods standing on animals. They belong to his northern canal system. Gertrude Bell photographed them in 1909; they were vandalised in 2016 and again in 2023.",
+    "historical_background": "The four panels, each about 6 m long and 2 m high, belong to the canal works Sennacherib built to carry water to Nineveh, like the reliefs at Khinnis. Unusually for Assyrian royal art, the king gestures before gods in human form rather than before their symbols; the gods stand on the animals sacred to them. Gertrude Bell photographed the reliefs in 1909. They were spray-painted in 2016, and part of a carving was stolen in February 2018. In 2023 Duhok’s antiquities directorate opened an archaeological park at Faida and Khinnis, with Halamata planned for its second phase.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -11592,7 +12505,336 @@
         ]
       }
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Maltai Rock Reliefs (Halamata Cave): the procession panel cut into the cliff",
+        "caption": "The procession panel cut into the cliff",
+        "credit": "J.Merena",
+        "license": "CC BY 3.0",
+        "siteId": "site-duhok-maltai-reliefs",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1728,
+        "height": 1152,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106371911",
+          "category": "Halamata cave",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The whole row of figures, which the cover shows only in part."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 3.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Assyrian bas relief located over Dohuk in Iraq - panoramio.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg",
+                "evidenceId": "wikimedia-commons-Assyrian bas relief located over Dohuk in Iraq - panoramio.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-duhok-maltai-reliefs",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Assyrian_bas_relief_located_over_Dohuk_in_Iraq_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/maltai-reliefs/42356b4fce",
+          "hash": "42356b4fce",
+          "width": 1280,
+          "height": 853,
+          "color": "#817f73",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Maltai Rock Reliefs (Halamata Cave): a deity standing on an animal",
+        "caption": "A deity standing on an animal",
+        "credit": "Levi Clancy",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-duhok-maltai-reliefs",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 6016,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106371911",
+          "category": "Halamata cave",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Close view of one divine figure."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 02.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_02.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_02.jpg",
+                "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 02.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-duhok-maltai-reliefs",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/maltai-reliefs/38d6934400",
+          "hash": "38d6934400",
+          "width": 1280,
+          "height": 1925,
+          "color": "#9a806a",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Maltai Rock Reliefs (Halamata Cave): the animal beneath a deity",
+        "caption": "The animal beneath a deity",
+        "credit": "Levi Clancy",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-duhok-maltai-reliefs",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_22.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6016,
+        "height": 4000,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106371911",
+          "category": "Halamata cave",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Detail of the animal mount carved under a god."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 22.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_22.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_22.jpg",
+                "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 22.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-duhok-maltai-reliefs",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/maltai-reliefs/fce009e498",
+          "hash": "fce009e498",
+          "width": 1280,
+          "height": 851,
+          "color": "#82776a",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Maltai Rock Reliefs (Halamata Cave): figures marked by the 2016 spray-paint vandalism",
+        "caption": "Figures marked by the 2016 spray-paint vandalism",
+        "credit": "Levi Clancy",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-duhok-maltai-reliefs",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_03.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 6016,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q106371911",
+          "category": "Halamata cave",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Records the damage the card describes."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 03.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_03.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok,_Kurdistan_Region_of_Iraq_03.jpg",
+                "evidenceId": "wikimedia-commons-Neo-Assyrian archaeological Halamata reliefs overlooking modern-day Duhok, Kurdistan Region of Iraq 03.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-duhok-maltai-reliefs",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Neo-Assyrian_archaeological_Halamata_reliefs_overlooking_modern-day_Duhok%2C_Kurdistan_Region_of_Iraq_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/maltai-reliefs/cc4ef1c6b6",
+          "hash": "cc4ef1c6b6",
+          "width": 1280,
+          "height": 1925,
+          "color": "#716155",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -11634,7 +12876,8 @@
       "Halamata Cave",
       "Maltai Reliefs",
       "Malthai",
-      "Gali Maltai"
+      "Gali Maltai",
+      "كهف هلامتا"
     ],
     "approximateLocation": "Mount Zawa, south-west of Duhok",
     "estimated_year": "c. 700 BC",
@@ -27901,6 +29144,7 @@
     "category": "Castle",
     "period": "Ottoman (Jaff)",
     "description": "The castle of the Jaff chiefs on a mound at the edge of Kalar, built by Mohamed Pasha Jaff in the 19th century (some sources say 18th) with an octagonal hall and a small museum. A 2017 earthquake damaged a third of it; a University of Glasgow project led its restoration.",
+    "historical_background": "Mohamed Pasha Jaff, a Kurdish pasha serving the Ottomans, raised the fortress on the bank of the Shirwan river around 1866 to guard the Jaff confederation against its rivals, after the Jaff had gained the run of the Shahrizor plain. His son Mohammed Ali Beg Jaff later lived there. The castle was damaged by military activity in the 1990s and by heavy rain in 2014; an earthquake in 2017 damaged about a third of it, including the partly collapsed cupola, and it was restored in 2018. It now holds a small museum.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -27986,7 +29230,336 @@
       },
       "focus": "90% 50%"
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Qalay_Sherwana%2C_Kalar_%2C_As_Sulaymanyah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sherwana Castle: aerial view of the castle and the stairway up its mound",
+        "caption": "Aerial view of the castle and the stairway up its mound",
+        "credit": "Sherko Abdulla",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-sherwana-castle",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qalay_Sherwana,_Kalar_,_As_Sulaymanyah.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Qalay_Sherwana%2C_Kalar_%2C_As_Sulaymanyah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4000,
+        "height": 2250,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q3944781",
+          "category": "Sherwana Castle",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the plan and the mound over Kalar."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Qalay_Sherwana%2C_Kalar_%2C_As_Sulaymanyah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Qalay Sherwana, Kalar , As Sulaymanyah.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Qalay_Sherwana,_Kalar_,_As_Sulaymanyah.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Qalay_Sherwana%2C_Kalar_%2C_As_Sulaymanyah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Qalay_Sherwana,_Kalar_,_As_Sulaymanyah.jpg",
+                "evidenceId": "wikimedia-commons-Qalay Sherwana, Kalar , As Sulaymanyah.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-sherwana-castle",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Qalay_Sherwana%2C_Kalar_%2C_As_Sulaymanyah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/sherwana-castle/6a4ade25a7",
+          "hash": "6a4ade25a7",
+          "width": 1280,
+          "height": 720,
+          "color": "#576f75",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sherwana_Castle_kalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sherwana Castle: a window with coloured glass and brick arches",
+        "caption": "A window with coloured glass and brick arches",
+        "credit": "Chealiadnan",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-sherwana-castle",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sherwana_Castle_kalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4928,
+        "height": 3264,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q3944781",
+          "category": "Sherwana Castle",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Detail of the façade."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sherwana_Castle_kalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Sherwana Castle kalar.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sherwana_Castle_kalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar.jpg",
+                "evidenceId": "wikimedia-commons-Sherwana Castle kalar.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-sherwana-castle",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sherwana_Castle_kalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/sherwana-castle/5ff373543f",
+          "hash": "5ff373543f",
+          "width": 1280,
+          "height": 848,
+          "color": "#7c6a6d",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sherwana_Castle_kalar_iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sherwana Castle: the corner tower and the brick façade",
+        "caption": "The corner tower and the brick façade",
+        "credit": "Chealiadnan",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-sulaymaniyah-sherwana-castle",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar_iraq.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sherwana_Castle_kalar_iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4747,
+        "height": 3264,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q3944781",
+          "category": "Sherwana Castle",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the octagonal corner tower."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sherwana_Castle_kalar_iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Sherwana Castle kalar iraq.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar_iraq.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sherwana_Castle_kalar_iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_kalar_iraq.jpg",
+                "evidenceId": "wikimedia-commons-Sherwana Castle kalar iraq.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-sherwana-castle",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sherwana_Castle_kalar_iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/sherwana-castle/c8a628ff47",
+          "hash": "c8a628ff47",
+          "width": 1280,
+          "height": 880,
+          "color": "#6b7071",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sherwana_Castle_view_from_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Sherwana Castle: the castle on its mound seen from the park below",
+        "caption": "The castle on its mound seen from the park below",
+        "credit": "ئاسۆ",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-sulaymaniyah-sherwana-castle",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_view_from_park_1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sherwana_Castle_view_from_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1273,
+        "height": 1080,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q3944781",
+          "category": "Sherwana Castle",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the setting from street level."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 3.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sherwana_Castle_view_from_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Sherwana Castle view from park 1.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_view_from_park_1.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sherwana_Castle_view_from_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Sherwana_Castle_view_from_park_1.jpg",
+                "evidenceId": "wikimedia-commons-Sherwana Castle view from park 1.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-sulaymaniyah-sherwana-castle",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sherwana_Castle_view_from_park_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/sherwana-castle/d7b95ceb79",
+          "hash": "d7b95ceb79",
+          "width": 1273,
+          "height": 1080,
+          "color": "#949693",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1273
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -30685,6 +32258,7 @@
     "category": "Historic Building",
     "period": "Ottoman",
     "description": "The Ottoman army headquarters built in 1863 on about 6 acres in the city centre. Part of it collapsed in 2016; a folk museum occupies the upper floor, and a UN assessment and a 30-billion-dinar plan target its restoration with the citadel.",
+    "historical_background": "The Ottomans built the Qishla in 1863 as the army headquarters of Kirkuk, a two-storey block of arcades around a courtyard on about six acres in the city centre. Part of the building collapsed in 2016. A folk museum occupies the upper floor, and a UN assessment visit and a provincial plan of some 30 billion dinars aim to restore it together with the citadel.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -30767,7 +32341,418 @@
         ]
       }
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kirkuk_Qishla_%281863%29_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq._02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Qishla of Kirkuk: the street façade",
+        "caption": "The street façade",
+        "credit": "Enasiqph",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-kirkuk-qishla-of-kirkuk",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_(1863)_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq._02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kirkuk_Qishla_%281863%29_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq._02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q7267921",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The building as it faces the city centre."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kirkuk_Qishla_%281863%29_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq._02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Kirkuk Qishla (1863) – Historic landmark in central Kirkuk,Iraq. 02.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_(1863)_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq._02.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kirkuk_Qishla_%281863%29_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq._02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_(1863)_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq._02.jpg",
+                "evidenceId": "wikimedia-commons-Kirkuk Qishla (1863) – Historic landmark in central Kirkuk,Iraq. 02.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-kirkuk-qishla-of-kirkuk",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kirkuk_Qishla_%281863%29_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq._02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/qishla-of-kirkuk/0c3b9238aa",
+          "hash": "0c3b9238aa",
+          "width": 1280,
+          "height": 853,
+          "color": "#978a7d",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Qishla of Kirkuk: the two-storey arcades of the courtyard",
+        "caption": "The two-storey arcades of the courtyard",
+        "credit": "Enasiqph",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-kirkuk-qishla-of-kirkuk",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q7267921",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The plan around the inner court."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 04.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg",
+                "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 04.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-kirkuk-qishla-of-kirkuk",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/qishla-of-kirkuk/762324fef8",
+          "hash": "762324fef8",
+          "width": 1280,
+          "height": 853,
+          "color": "#867d6b",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Qishla of Kirkuk: the collapsed wing",
+        "caption": "The collapsed wing",
+        "credit": "Enasiqph",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-kirkuk-qishla-of-kirkuk",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q7267921",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The damage of 2016 that the card describes."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 02.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg",
+                "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 02.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-kirkuk-qishla-of-kirkuk",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/qishla-of-kirkuk/8dfd21b8c6",
+          "hash": "8dfd21b8c6",
+          "width": 1280,
+          "height": 853,
+          "color": "#8a7c6f",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Qishla of Kirkuk: a vaulted corridor inside",
+        "caption": "A vaulted corridor inside",
+        "credit": "Enasiqph",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-kirkuk-qishla-of-kirkuk",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q7267921",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The interior construction."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 07.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg",
+                "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk 07.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-kirkuk-qishla-of-kirkuk",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/qishla-of-kirkuk/24f407e5b3",
+          "hash": "24f407e5b3",
+          "width": 1280,
+          "height": 853,
+          "color": "#86837f",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Qishla of Kirkuk: the corner with its outside stair",
+        "caption": "The corner with its outside stair",
+        "credit": "Enasiqph",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-kirkuk-qishla-of-kirkuk",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq_01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 6000,
+        "height": 4000,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q7267921",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "A side of the building the other views do not show."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk,Iraq 01.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq_01.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk,Iraq_01.jpg",
+                "evidenceId": "wikimedia-commons-Kirkuk Qishla – Historic landmark in central Kirkuk,Iraq 01.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-kirkuk-qishla-of-kirkuk",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kirkuk_Qishla_%E2%80%93_Historic_landmark_in_central_Kirkuk%2CIraq_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/qishla-of-kirkuk/98e1f4d3aa",
+          "hash": "98e1f4d3aa",
+          "width": 1280,
+          "height": 853,
+          "color": "#948173",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -31540,6 +33525,7 @@
     "category": "Minaret",
     "period": "Uqaylid (late Abbasid)",
     "description": "A 28 m, eight-level minaret built by an Uqaylid ruler between 996 and 1096. It was taken down in at least 28 pieces and rebuilt on safer ground before the reservoir rose, destroyed twice in the 21st century and rebuilt; it reopened in 2023.",
+    "historical_background": "Inscriptions and building features date the minaret to between 996 and 1096, the period of the Uqaylid emirs. When the Haditha Dam reservoir threatened the old town in the 1980s, Iraqi specialists took it down in at least 28 pieces and rebuilt it on higher ground. It was blown up in 2006 and rebuilt in 2013 from the plans kept by the Ministry of Tourism, destroyed again by ISIL in 2016, and reconstructed in 2022, reopening in 2023.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -31624,7 +33610,90 @@
         ]
       }
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Manarat_Anah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Minaret of Anah: the minaret in the open country of its new site",
+        "caption": "The minaret in the open country of its new site",
+        "credit": "Mahmoudalrawi",
+        "license": "CC BY-SA 3.0",
+        "siteId": "site-anbar-minaret-of-anah",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manarat_Anah.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Manarat_Anah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 3264,
+        "height": 1836,
+        "identity": {
+          "method": "commons-category-of-site-item",
+          "item": "Q12233450",
+          "category": "Minaret of Anah",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the relocated minaret in its wider setting."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 3.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Manarat_Anah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Manarat Anah.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Manarat_Anah.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Manarat_Anah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Manarat_Anah.jpg",
+                "evidenceId": "wikimedia-commons-Manarat Anah.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-minaret-of-anah",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Manarat_Anah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/minaret-of-anah/fa50402332",
+          "hash": "fa50402332",
+          "width": 1280,
+          "height": 720,
+          "color": "#728998",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
     "image_status": "approved",
     "sources": [
       {
@@ -31639,7 +33708,9 @@
         "url": "https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
         "evidenceId": null,
         "accessedAt": "2026-11-02",
-        "accessLevel": "search-snippet"
+        "accessLevel": "search-snippet",
+        "archiveUrl": "https://web.archive.org/web/20250719052411/https://uebdc.uoanbar.edu.iq/English/News_Print.php?ID=404",
+        "note": "The original page answers 404 (checked 2026-11-14); the archived copy keeps the text."
       },
       {
         "sourceName": "Wikidata Q12233450 (coordinates)",
@@ -32653,11 +34724,504 @@
     "category": "Historic Monument",
     "period": "Ottoman and later",
     "description": "Wooden water wheels that lifted Euphrates water to fields and palm groves, some over 400 years old; fewer than 20 survive. Iraq seeks UNESCO listing, and the Hit Waterwheel Park was restored in 2024.",
+    "historical_background": "Norias are wooden wheels turned by the current of the river, lifting water into stone aqueducts that carried it to fields and palm groves when the Euphrates ran low. Hit is famous for its still-working wheels, and others stood at Haditha, Anah and al-Qa‘im. Fewer than twenty survive along the Iraqi Euphrates. Iraq seeks UNESCO recognition for them, and the waterwheel park at Hit was restored in 2024.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "image_status": "none",
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hit_Waterwheels_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im), Anbar",
+      "caption": "",
+      "credit": "Alli Khalil",
+      "license": "CC BY 4.0",
+      "siteId": "site-anbar-norias-of-hit",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_20.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hit_Waterwheels_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 7728,
+      "height": 5152,
+      "identity": {
+        "method": "commons-search-named-file",
+        "item": null,
+        "matchedBy": "commons-search; file named after the waterwheels of Hit",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "note": "The norias of Hit beside their stone aqueduct on the Euphrates; the file names them."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hit_Waterwheels_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Hit Waterwheels 20.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_20.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hit_Waterwheels_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_20.jpg",
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 20.jpg",
+              "accessedAt": "2026-11-14"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-anbar-norias-of-hit",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hit_Waterwheels_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "method": "Visual review of named Commons files for showcase records whose item has no image (P18); approved only when the photograph shows the site itself and the file names it."
+      },
+      "variants": {
+        "base": "/images/sites/norias-of-hit/37b497bdec",
+        "hash": "37b497bdec",
+        "width": 1280,
+        "height": 853,
+        "color": "#96908e",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hit_Waterwheels_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im): the wheels from the riverbank",
+        "caption": "The wheels from the riverbank",
+        "credit": "Alli Khalil",
+        "license": "CC BY 4.0",
+        "siteId": "site-anbar-norias-of-hit",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_24.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hit_Waterwheels_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 7728,
+        "height": 5152,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": null,
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Close view of the wooden wheels on their stone piers."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hit_Waterwheels_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 24.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_24.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hit_Waterwheels_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_24.jpg",
+                "evidenceId": "wikimedia-commons-Hit Waterwheels 24.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-norias-of-hit",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hit_Waterwheels_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/norias-of-hit/575bd04c5d",
+          "hash": "575bd04c5d",
+          "width": 1280,
+          "height": 853,
+          "color": "#6f6f73",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hit_Waterwheels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im): the wooden hub and spokes of a wheel",
+        "caption": "The wooden hub and spokes of a wheel",
+        "credit": "Alli Khalil",
+        "license": "CC BY 4.0",
+        "siteId": "site-anbar-norias-of-hit",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_04.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hit_Waterwheels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 7728,
+        "height": 5152,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": null,
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "How the wheels are built."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hit_Waterwheels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 04.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_04.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hit_Waterwheels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_04.jpg",
+                "evidenceId": "wikimedia-commons-Hit Waterwheels 04.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-norias-of-hit",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hit_Waterwheels_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/norias-of-hit/7f5d55e33b",
+          "hash": "7f5d55e33b",
+          "width": 1280,
+          "height": 853,
+          "color": "#967b63",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hit_Waterwheels_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im): the stone aqueduct that carried the water",
+        "caption": "The stone aqueduct that carried the water",
+        "credit": "Alli Khalil",
+        "license": "CC BY 4.0",
+        "siteId": "site-anbar-norias-of-hit",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_18.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hit_Waterwheels_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 7728,
+        "height": 5152,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": null,
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The channel the wheels fed."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hit_Waterwheels_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 18.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_18.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hit_Waterwheels_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_18.jpg",
+                "evidenceId": "wikimedia-commons-Hit Waterwheels 18.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-norias-of-hit",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hit_Waterwheels_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/norias-of-hit/43819b0920",
+          "hash": "43819b0920",
+          "width": 1280,
+          "height": 853,
+          "color": "#948b89",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hit_Waterwheels_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im): ruined noria piers standing in the Euphrates",
+        "caption": "Ruined noria piers standing in the Euphrates",
+        "credit": "Alli Khalil",
+        "license": "CC BY 4.0",
+        "siteId": "site-anbar-norias-of-hit",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_13.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hit_Waterwheels_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 7728,
+        "height": 5152,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": null,
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The older wheels that no longer turn."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hit_Waterwheels_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 13.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_13.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hit_Waterwheels_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_13.jpg",
+                "evidenceId": "wikimedia-commons-Hit Waterwheels 13.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-norias-of-hit",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hit_Waterwheels_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/norias-of-hit/d7e55e3859",
+          "hash": "d7e55e3859",
+          "width": 1280,
+          "height": 853,
+          "color": "#97adbf",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hit_Waterwheels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Norias of the Euphrates (Hit, Haditha, Anah, al-Qa‘im): the norias along the Euphrates at Hit",
+        "caption": "The norias along the Euphrates at Hit",
+        "credit": "Alli Khalil",
+        "license": "CC BY 4.0",
+        "siteId": "site-anbar-norias-of-hit",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hit_Waterwheels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 7728,
+        "height": 5152,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": null,
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "The river setting with palms and the town."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hit_Waterwheels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-Hit Waterwheels 01.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_01.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hit_Waterwheels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:Hit_Waterwheels_01.jpg",
+                "evidenceId": "wikimedia-commons-Hit Waterwheels 01.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-anbar-norias-of-hit",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Hit_Waterwheels_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/norias-of-hit/33dd09383d",
+          "hash": "33dd09383d",
+          "width": 1280,
+          "height": 853,
+          "color": "#9398a4",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Shafaq News, 28 June 2025 — Centuries-old Al-Anbar waterwheels spin a comeback",
@@ -32689,7 +35253,9 @@
     "alternativeNames": [
       "Nawa‘ir",
       "نواعير الفرات",
-      "Hit water wheels"
+      "Hit water wheels",
+      "Waterwheels of Hit",
+      "نواعير هيت"
     ],
     "approximateLocation": "Euphrates at Hit and upstream",
     "latitude": 33.641667,
@@ -33309,6 +35875,7 @@
     "category": "Palace",
     "period": "Sasanian",
     "description": "The great brick iwan that formed the façade of the main Sasanian palace at Ctesiphon, the only visible structure of the capital and a landmark in the history of vaulted architecture.",
+    "historical_background": "Ctesiphon was the capital of the Parthian and Sasanian empires for some nine centuries, from the 2nd century BC to the 7th century AD. The iwan, the façade of the palace’s audience hall, is dated to the reign of Shapur I (242–272) by some historians and to Khosrow I after his campaign of 540 by others. About 37 m high, 26 m wide and 50 m deep, the vault of unreinforced brick was built without centring and was the largest free-standing vault until modern times. Arab forces took the city in 637 and used the hall for a time as a mosque; in the early 10th century the caliph al-Muktafi took its bricks for the Taj Palace in Baghdad. A flood in 1888 brought down much of the building. A restoration completed in 2017 was followed by a partial collapse on 7 March 2019.",
     "unesco": null,
     "has3D": null,
     "coverImage": {
@@ -33738,6 +36305,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "full-text"
+      },
+      {
+        "sourceName": "Encyclopaedia Iranica — Ctesiphon",
+        "url": "https://www.iranicaonline.org/articles/ctesiphon",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
@@ -33853,7 +36427,8 @@
     "governorate": "Baghdad",
     "category": "Archaeological City",
     "period": "Kassite",
-    "description": "A Kassite royal city founded by Kurigalzu I (d. c. 1375 BC) 30 km west of central Baghdad, whose ziggurat core still stands at Aqar Quf.",
+    "description": "The Kassite royal city founded by Kurigalzu I (d. c. 1375 BC) 30 km west of central Baghdad. The core of its ziggurat, about 52 m high, still stands at Aqar Quf and has long marked the approach to Baghdad.",
+    "historical_background": "Kurigalzu I founded the city in the early 14th century BC on a limestone ridge between the Euphrates and the Tigris, with a ziggurat to Enlil, temples and a royal palace covering some 420,000 square metres. It served as the capital of Babylonia under its founder and remained an important city until the fall of the Kassite dynasty in the 12th century BC, when it was largely abandoned; its name appears even on the toponym lists of the Egyptian pharaoh Amenhotep III. Western travellers long mistook the ziggurat for the Tower of Babel. Taha Baqir and Seton Lloyd excavated the site in 1942–45, recovering more than 100 Kassite tablets now in the Iraq Museum. It is on Iraq’s Tentative List.",
     "unesco": false,
     "has3D": null,
     "coverImage": {
@@ -34290,6 +36865,13 @@
         "evidenceId": null,
         "accessedAt": "2026-11-03",
         "accessLevel": "search-snippet"
+      },
+      {
+        "sourceName": "Pleiades — Dur-Kurigalzu",
+        "url": "https://pleiades.stoa.org/places/893988",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
@@ -45252,6 +47834,7 @@
     "category": "Archaeological City",
     "period": "Early Dynastic to Old Babylonian",
     "description": "A Sumerian and Akkadian city-state of the Diyala valley with Tishpak as its patron god; under its Old Babylonian kings it ruled Khafajah, Ishchali and the Hamrin. It was excavated by the University of Chicago’s Diyala project in the 1930s.",
+    "historical_background": "Inhabited from around 3000 BC, Eshnunna was a major city of the Early Dynastic period and was governed for the kings of Ur III before its rulers declared themselves kings after Ur’s fall. In the Old Babylonian period it became a regional power that fought and made treaties with its neighbours until Hammurabi of Babylon captured it. The Laws of Eshnunna are among the oldest written legal codes. The University of Chicago’s Diyala project excavated the city in the 1930s, whose finds include the hoard of worshipper statues from the temple of Abu.",
     "unesco": null,
     "has3D": null,
     "coverImage": null,
@@ -45272,6 +47855,13 @@
         "accessedAt": "2026-11-02",
         "accessLevel": "full-text",
         "locator": "Overview"
+      },
+      {
+        "sourceName": "Pleiades — Eshnunna",
+        "url": "https://pleiades.stoa.org/places/90720956",
+        "evidenceId": null,
+        "accessedAt": "2026-11-14",
+        "accessLevel": "full-text"
       }
     ],
     "unesco_status": "unknown",
@@ -46551,14 +49141,179 @@
     "name": "Alwand Bridge, Khanaqin",
     "governorate": "Diyala",
     "category": "Historic Bridge",
-    "period": "",
-    "period_status": "not-established",
-    "description": "The historic bridge in the centre of Khanaqin joining the two banks of the Alwand (Helwan) river, named after Mount Alwand.",
+    "period": "Qajar era (19th century)",
+    "estimated_year": "mid-19th century",
+    "description": "The historic brick bridge of Khanaqin, with twelve arches on piers up to 12 m high, joining the two banks of the Alwand (Helwan) river at the centre of the town. It replaced an older bridge on the road from Baghdad to Khorasan.",
+    "historical_background": "Persian sources attribute the first bridge on this crossing to the Sasanians, on the road from Baghdad to Khorasan; Yaqut al-Hamawi described a bridge of 24 arches, later ruined by floods. Local and regional sources date the present bridge to the 1850s–1860s, when a Qajar princess from Kermanshah, finding no safe crossing on her way to the shrines of Karbala and Najaf, had it built with architects from Isfahan. After 2003 its stone parapet was rebuilt and heavy vehicles were barred to protect it.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
-    "galleryImages": [],
-    "image_status": "none",
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Alwand Bridge, Khanaqin, Diyala",
+      "caption": "",
+      "credit": "Hammody.90",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-diyala-alwand-bridge",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 4032,
+      "height": 2268,
+      "identity": {
+        "method": "commons-search-named-file",
+        "item": "Q100258194",
+        "matchedBy": "commons-search; file named after the bridge in Khanaqin",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "note": "The whole bridge and its arches over the Alwand river by day; the file names the bridge."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-جسر الوند الأثري في مدينة خانقين.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+              "evidenceId": "wikimedia-commons-جسر الوند الأثري في مدينة خانقين.jpg",
+              "accessedAt": "2026-11-14"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-diyala-alwand-bridge",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A3%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "method": "Visual review of named Commons files for showcase records whose item has no image (P18); approved only when the photograph shows the site itself and the file names it."
+      },
+      "variants": {
+        "base": "/images/sites/alwand-bridge/1412dbe603",
+        "hash": "1412dbe603",
+        "width": 1280,
+        "height": 720,
+        "color": "#588398",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
+    "galleryImages": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "alt": "Alwand Bridge, Khanaqin: the bridge lit at night",
+        "caption": "The bridge lit at night",
+        "credit": "Hammody.90",
+        "license": "CC BY-SA 4.0",
+        "siteId": "site-diyala-alwand-bridge",
+        "license_status": "verified",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 4032,
+        "height": 2268,
+        "identity": {
+          "method": "commons-search-named-file",
+          "item": "Q100258194",
+          "category": "named files (Commons search)",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "note": "Shows the arches and the river front at night."
+        },
+        "license_review": {
+          "permission": "publication-permitted",
+          "license": "CC BY-SA 4.0",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "evidence": [
+            {
+              "evidenceId": "wikimedia-commons-جسر الوند الاثري في مدينة خانقين.jpg",
+              "source_url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+              "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+          ]
+        },
+        "license_tracking": {
+          "evidence_valid": true,
+          "automatically_approved": false,
+          "evidence_checks": [
+            {
+              "valid": true,
+              "source": {
+                "sourceId": "wikimedia-commons",
+                "sourceName": "Wikimedia Commons",
+                "url": "https://commons.wikimedia.org/wiki/File:%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg",
+                "evidenceId": "wikimedia-commons-جسر الوند الاثري في مدينة خانقين.jpg",
+                "accessedAt": "2026-11-14"
+              }
+            }
+          ]
+        },
+        "publication_approval": {
+          "status": "approved",
+          "siteId": "site-diyala-alwand-bridge",
+          "site_verified": true,
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D8%AC%D8%B3%D8%B1_%D8%A7%D9%84%D9%88%D9%86%D8%AF_%D8%A7%D9%84%D8%A7%D8%AB%D8%B1%D9%8A_%D9%81%D9%8A_%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%AE%D8%A7%D9%86%D9%82%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+          "reviewedAt": "2026-11-14",
+          "method": "Contact-sheet review of candidates from gallery_candidates.py (Commons category of the site item, or files named after a Commons search when the item has none). Approved only when the image shows the site itself and adds a viewpoint the cover does not."
+        },
+        "variants": {
+          "base": "/images/sites/alwand-bridge/b1abea4f4f",
+          "hash": "b1abea4f4f",
+          "width": 1280,
+          "height": 720,
+          "color": "#3c3431",
+          "avif": [
+            320,
+            640
+          ],
+          "webp": [
+            320,
+            640,
+            960,
+            1280
+          ],
+          "jpeg": [
+            640
+          ]
+        }
+      }
+    ],
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Wikipedia — Alwand Bridge",
@@ -46592,7 +49347,8 @@
     "alternativeNames": [
       "Khanaqin bridge",
       "جسر الوند",
-      "جسر خانقين"
+      "جسر خانقين",
+      "Kopri"
     ],
     "approximateLocation": "Khanaqin",
     "latitude": 34.34169,
@@ -46944,12 +49700,95 @@
     "governorate": "Diyala",
     "category": "Historic Market",
     "period": "Ottoman",
-    "description": "The traditional arched bazaar of Kifri with its khans.",
+    "estimated_year": 1850,
+    "description": "Kifri’s covered market, built around 1850 with about 150 shops under brick arches for tea-houses, bakeries, crafts and trade. Part of it has collapsed and most shops stand empty; Kifri’s antiquities department began a restoration campaign in 2024–25.",
+    "historical_background": "The bazaar is privately owned and once held some 150 shops. A restoration design was completed in 2018 and seven billion dinars were allocated, but work did not start because of the financial crisis. In 2025 the director of Kifri’s antiquities department named the Qaysari among the district’s heritage sites in a phased restoration campaign that also covers the Kifri Saray and the Majid Pasha Baban Palace.",
     "unesco": null,
     "has3D": null,
-    "coverImage": null,
+    "coverImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kifri_Qaysari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Qaysari Bazaar, Kifri, Diyala",
+      "caption": "",
+      "credit": "Unknown author",
+      "license": "CC BY-SA 4.0",
+      "siteId": "site-diyala-kifri-qaysari-bazaar",
+      "license_status": "verified",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kifri_Qaysari.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kifri_Qaysari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 2268,
+      "height": 4032,
+      "identity": {
+        "method": "commons-search-named-file",
+        "item": null,
+        "matchedBy": "commons-search; file named after the Qaysari of Kifri",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "note": "The arched passage of the Qaysari bazaar of Kifri with its fallen sections; the file names it."
+      },
+      "license_review": {
+        "permission": "publication-permitted",
+        "license": "CC BY-SA 4.0",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kifri_Qaysari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "evidence": [
+          {
+            "evidenceId": "wikimedia-commons-Kifri Qaysari.jpg",
+            "source_url": "https://commons.wikimedia.org/wiki/File:Kifri_Qaysari.jpg",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kifri_Qaysari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+          }
+        ]
+      },
+      "license_tracking": {
+        "evidence_valid": true,
+        "automatically_approved": false,
+        "evidence_checks": [
+          {
+            "valid": true,
+            "source": {
+              "sourceId": "wikimedia-commons",
+              "sourceName": "Wikimedia Commons",
+              "url": "https://commons.wikimedia.org/wiki/File:Kifri_Qaysari.jpg",
+              "evidenceId": "wikimedia-commons-Kifri Qaysari.jpg",
+              "accessedAt": "2026-11-14"
+            }
+          }
+        ]
+      },
+      "publication_approval": {
+        "status": "approved",
+        "siteId": "site-diyala-kifri-qaysari-bazaar",
+        "site_verified": true,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kifri_Qaysari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "reviewedBy": "Claude (Anthropic), visual review of contact sheets",
+        "reviewedAt": "2026-11-14",
+        "method": "Visual review of named Commons files for showcase records whose item has no image (P18); approved only when the photograph shows the site itself and the file names it."
+      },
+      "variants": {
+        "base": "/images/sites/kifri-qaysari-bazaar/fe3960f89b",
+        "hash": "fe3960f89b",
+        "width": 1280,
+        "height": 2276,
+        "color": "#7f766b",
+        "avif": [
+          320,
+          640
+        ],
+        "webp": [
+          320,
+          640,
+          960,
+          1280
+        ],
+        "jpeg": [
+          640
+        ]
+      }
+    },
     "galleryImages": [],
-    "image_status": "none",
+    "image_status": "approved",
     "sources": [
       {
         "sourceName": "Kurdistan24 — Kifri launches campaign to restore historical heritage sites",
@@ -46973,7 +49812,8 @@
     "discovery_batch": "diyala-2026-11-03",
     "evidence_level": "limited",
     "alternativeNames": [
-      "Kifri Keiseri"
+      "Kifri Keiseri",
+      "قيصرية كفري"
     ],
     "approximateLocation": "Kifri",
     "review_notes": "Condition reported as neglected."

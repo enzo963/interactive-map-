@@ -41,7 +41,7 @@ def cover_for(record, entry, review):
         'original_url': entry['url'],
         'width': entry['width'],
         'height': entry['height'],
-        'identity': {'method': 'wikidata-image-of-site-item', 'item': entry['qid'], 'matchedBy': entry['how'],
+        'identity': {'method': entry.get('method', 'wikidata-image-of-site-item'), 'item': entry['qid'], 'matchedBy': entry['how'],
                      'reviewedBy': review['reviewer'], 'reviewedAt': reviewed, 'note': entry['reason']},
         'license_review': {
             'permission': 'publication-permitted', 'license': entry['license'],

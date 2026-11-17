@@ -77,6 +77,17 @@ FLAGSHIPS = {
     'site-duhok-amedy-city': None,
     'site-duhok-delal-bridge': None,
     'site-sulaymaniyah-qalatga-darband': None,
+    # Showcase records (2026-11-14): galleries for the demonstration set.
+    'site-erbil-choli-minaret': 'Q6931750',
+    'site-duhok-maltai-reliefs': 'Q106371911',
+    'site-sulaymaniyah-sherwana-castle': 'Q3944781',
+    'site-sulaymaniyah-red-terror-museum': 'Q106864613',
+    'site-kirkuk-qishla-of-kirkuk': 'Q7267921',
+    'site-anbar-minaret-of-anah': 'Q12233450',
+    'site-diyala-eshnunna': 'Q2402184',
+    'site-diyala-alwand-bridge': 'Q100258194',
+    'site-anbar-norias-of-hit': None,
+    'site-diyala-kifri-qaysari-bazaar': None,
 }
 FREE = re.compile(r'^(CC0( 1\.0)?|CC BY(-SA)? \d\.\d( [a-z]{2}| igo)?|Public domain|PD[- ].*|Copyrighted free use|Attribution)$', re.I)
 NOT_A_PHOTO = re.compile(r'\b(map|plan|drawing|diagram|sketch|logo|coin|stamp|banknote|seal|engraving|lithograph|painting|illustration|reconstruction|model)\b', re.I)
@@ -192,13 +203,18 @@ def candidate(title, info):
     }
 
 
-def collect(site, qid):
-    category = commons_category(qid)
-    if not category:
+def collect(site, qid, named=None):
+    """Candidates from the item's Commons category or, when the item has none, from files named by a
+    person after a Commons search (`named`); both pass the same license, size and content filters."""
+    category = commons_category(qid) if not named else None
+    if not category and not named:
         return {'id': site['id'], 'qid': qid, 'category': None, 'candidates': []}
-    titles = members(category, 'file')
-    for sub in members(category, 'subcat')[:SUBCATEGORIES]:
-        titles += members(sub[len('Category:'):], 'file')
+    if named:
+        titles = [title if title.startswith('File:') else f'File:{title}' for title in named]
+    else:
+        titles = members(category, 'file')
+        for sub in members(category, 'subcat')[:SUBCATEGORIES]:
+            titles += members(sub[len('Category:'):], 'file')
     titles = list(dict.fromkeys(titles))
     infos = file_info(titles)
     cover = site.get('coverImage') or {}
@@ -243,7 +259,7 @@ def collect(site, qid):
         hashes.append(signature)
         entry['orientation'] = 'landscape' if entry['width'] >= entry['height'] else 'portrait'
         kept.append(entry)
-    return {'id': site['id'], 'name': site['name'], 'qid': qid, 'category': category,
+    return {'id': site['id'], 'name': site['name'], 'qid': qid, 'category': category or 'named files (Commons search)',
             'files_in_category': len(titles), 'eligible': len(pool), 'candidates': kept}
 
 
@@ -275,16 +291,18 @@ def main():
     parser.add_argument('--date', required=True)
     parser.add_argument('--sheets', type=Path, help='folder for the contact sheets')
     parser.add_argument('--only', help='comma-separated card ids')
+    parser.add_argument('--files', type=Path, help='JSON {card id: [Commons file titles]} for items without a Commons category')
     args = parser.parse_args()
     sites = {site['id']: site for site in json.loads(SITES.read_text(encoding='utf-8'))}
     out = BASE / 'data' / 'images' / f'gallery-candidates-{args.date}.json'
     previous = json.loads(out.read_text(encoding='utf-8'))['sites'] if out.exists() else []
     results = {result['id']: result for result in previous}
-    wanted = args.only.split(',') if args.only else list(FLAGSHIPS)
+    named = json.loads(args.files.read_text(encoding='utf-8')) if args.files else {}
+    wanted = args.only.split(',') if args.only else (list(named) if named else list(FLAGSHIPS))
     for site_id in wanted:
         site = sites[site_id]
-        qid = FLAGSHIPS[site_id] or ((site.get('coverImage') or {}).get('identity') or {}).get('item')
-        result = collect(site, qid)
+        qid = FLAGSHIPS.get(site_id) or ((site.get('coverImage') or {}).get('identity') or {}).get('item')
+        result = collect(site, qid, named.get(site_id))
         results[site_id] = result
         print(f"{site_id}: {result.get('category')} — {len(result['candidates'])} candidates "
               f"of {result.get('eligible', 0)} eligible / {result.get('files_in_category', 0)} files")

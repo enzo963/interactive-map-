@@ -122,7 +122,8 @@ export default function HomeMap({ sites, stats }) {
         <ArchiveStats stats={stats} />
 
         <div className="hb-mapfirst__actions hb-hero__actions">
-          <SmartLink href="/explore" className="hb-btn hb-btn--ink">{t('Explore Cards')}</SmartLink>
+          <SmartLink href="/decks/highlights" className="hb-btn hb-btn--ink">{t('Start with the Highlights')}</SmartLink>
+          <SmartLink href="/explore" className="hb-btn">{t('Explore Cards')}</SmartLink>
           <a href="#draw" className="hb-btn">{t('Draw a Card')}</a>
           <SmartLink href="/map" className="hb-link">{t('Full map with filters')}</SmartLink>
         </div>

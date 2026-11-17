@@ -1,0 +1,40 @@
+{
+  "about": "Showcase records (the Highlights deck): the strongest sites of the nine governorates, each with a verified cover, a gallery, a historical background, two or more credible publishers and, where one exists, a verified map position, video or 3D resource. They lead public demonstrations. tests/showcase.test.mjs keeps every record at that standard; replace a record rather than lower it.",
+  "sites": [
+    "site-001",
+    "site-nineveh-nimrud",
+    "site-nineveh-al-nouri",
+    "site-nineveh-lalish",
+    "site-salah-al-din-ashur",
+    "site-salah-al-din-samarra",
+    "site-salah-al-din-great-mosque",
+    "site-erbil-erbil-citadel",
+    "site-erbil-shanidar-cave",
+    "site-erbil-choli-minaret",
+    "site-duhok-amedy-city",
+    "site-duhok-delal-bridge",
+    "site-duhok-maltai-reliefs",
+    "site-sulaymaniyah-qalatga-darband",
+    "site-sulaymaniyah-sherwana-castle",
+    "site-sulaymaniyah-red-terror-museum",
+    "site-kirkuk-kirkuk-citadel",
+    "site-kirkuk-qishla-of-kirkuk",
+    "site-baghdad-taq-kasra",
+    "site-baghdad-dur-kurigalzu",
+    "site-baghdad-mustansiriya-madrasa",
+    "site-baghdad-abbasid-palace",
+    "site-diyala-alwand-bridge",
+    "site-diyala-kifri-qaysari-bazaar",
+    "site-anbar-minaret-of-anah",
+    "site-anbar-norias-of-hit"
+  ],
+  "exceptions": {
+    "site-diyala-kifri-qaysari-bazaar": {
+      "gallery": "Only one free photograph of the bazaar exists on Wikimedia Commons (searched 2026-11-14); the other files show people or the wider town.",
+      "position": "No published coordinates for the bazaar itself; Wikidata has no item for it, so no pin until a survey point is recorded."
+    },
+    "site-anbar-norias-of-hit": {
+      "position": "The card covers waterwheels at Hit, Haditha, Anah and al-Qa‘im, so a single pin would misplace most of them; the town point of Hit is kept as an approximate area."
+    }
+  }
+}

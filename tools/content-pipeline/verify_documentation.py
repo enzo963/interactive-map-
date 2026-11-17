@@ -26,16 +26,22 @@ UA = 'HistoryInCards-research/1.0'
 RELATIONS = {'site', 'part', 'context'}
 
 
+UNREACHABLE = 'unreachable'
+
+
 def model(uid):
-    for attempt in range(3):
-        result = subprocess.run(['curl', '-s', '-f', '-A', UA, '--max-time', '30', f'https://api.sketchfab.com/v3/models/{uid}'],
-                                capture_output=True, check=False)
-        if result.returncode == 0:
-            return json.loads(result.stdout)
-        if result.returncode == 22:  # 404: removed or made private
+    """The model's API record; None when Sketchfab says it is gone (404/410); UNREACHABLE when no clear answer
+    came (rate limit, timeout), which is never reported as a removed model."""
+    for attempt in range(4):
+        result = subprocess.run(['curl', '-s', '-A', UA, '--max-time', '30', '-w', '\n%{http_code}',
+                                 f'https://api.sketchfab.com/v3/models/{uid}'], capture_output=True, check=False)
+        body, _, code = result.stdout.rpartition(b'\n')
+        if code == b'200':
+            return json.loads(body)
+        if code in (b'404', b'410'):
             return None
-        time.sleep(3 * (attempt + 1))
-    return None
+        time.sleep(10 * (attempt + 1))
+    return UNREACHABLE
 
 
 def main():
@@ -65,6 +71,9 @@ def main():
         if found is None:
             problems.append(f'{label}: no longer public on Sketchfab')
             continue
+        if found == UNREACHABLE:
+            print(f'{label}: Sketchfab did not answer; not checked this run', file=sys.stderr)
+            continue
         if found['name'].strip() != resource['title'].strip():
             problems.append(f"{label}: title is now {found['name']!r}")
         if found['user']['username'] != resource['creator']:
@@ -74,7 +83,7 @@ def main():
             problems.append(f"{label}: license is now {license_label}")
         if not problems and stamp:
             resource['verification']['checkedAt'] = datetime.date.today().isoformat()
-        time.sleep(0.4)
+        time.sleep(2)
     if stamp and not problems:
         DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('\n'.join(problems) or f"{len(data['resources'])} resources verified")

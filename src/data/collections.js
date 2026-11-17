@@ -1,5 +1,6 @@
 import { isApprovedSite, hasVerifiedModel } from '../utils/modelResources';
 import { getGovernorateKey } from './governorates';
+import showcase from './showcase.json';
 
 /**
  * COLLECTION DEFINITIONS — single source of truth.
@@ -37,7 +38,12 @@ export const getGovernorateBack = (governorateName) =>
  * special deck if its `deckIds` explicitly include the deck id.
  * `flag: true` also exposes the deck as a "must have" filter on Explore and the Map.
  */
+/** Showcase records, in presentation order (src/data/showcase.json). */
+export const SHOWCASE_IDS = showcase.sites;
+const SHOWCASE = new Set(SHOWCASE_IDS);
+
 export const SPECIAL_COLLECTIONS = [
+  { id: 'highlights', title: 'Highlights', blurb: 'The most fully documented sites of each governorate, with photographs, history, sources and maps: the best place to start.', back: 'formal', order: SHOWCASE_IDS, rule: (site) => SHOWCASE.has(site.id) },
   { id: 'unesco', title: 'UNESCO Heritage', shortTitle: 'UNESCO', blurb: 'Approved records for inscribed UNESCO World Heritage properties.', back: 'formal', flag: true, rule: (site) => isApprovedSite(site) && site.isUnesco === true },
   { id: 'lost', title: 'Lost Heritage', blurb: 'Sites recorded as lost or destroyed.', back: 'fragment', flag: true, rule: (site) => site.isLost },
   { id: 'our-work', title: 'Our Documentation', blurb: 'Sites documented first-hand by the project.', back: 'survey', flag: true, rule: (site) => site.hasOurWork },

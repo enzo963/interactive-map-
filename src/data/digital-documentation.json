@@ -110,6 +110,18 @@
       "name": "MaxP",
       "type": "independent",
       "profileUrl": "https://sketchfab.com/MaxP7"
+    },
+    "mediacenterforarthistory": {
+      "name": "Media Center for Art History, Columbia University",
+      "type": "university",
+      "profileUrl": "https://sketchfab.com/mediacenterforarthistory",
+      "note": "Columbia University’s art-history media centre, whose Mapping Mesopotamian Monuments project recorded Assyrian rock reliefs in the Kurdistan Region."
+    },
+    "ibrahimrzgar": {
+      "name": "Ibrahim Rzgar",
+      "type": "independent",
+      "profileUrl": "https://sketchfab.com/ibrahimrzgar",
+      "note": "Independent creator publishing photo-textured models of Erbil monuments."
     }
   },
   "resources": [
@@ -1716,6 +1728,87 @@
       "verification": {
         "method": "sketchfab-api",
         "checkedAt": "2026-11-09"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "3539e1de41104a158634e624a11b53d6",
+      "url": "https://sketchfab.com/3d-models/3539e1de41104a158634e624a11b53d6",
+      "title": "Aqar-Qūf ziggurat",
+      "creator": "techforheritage",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "aerial-photogrammetry",
+      "methodEvidence": "stated",
+      "methodNote": "Tagged photogrammetry by its creator; a photo-textured terrain model captured from the air.",
+      "depicts": "The ziggurat core, its modern restored base and the surrounding ground as recorded in 2021.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2021-09-19",
+      "faceCount": 200104,
+      "sites": [
+        {
+          "siteId": "site-baghdad-dur-kurigalzu",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-14"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "93de944eea64405389e125eadbb5d6b6",
+      "url": "https://sketchfab.com/3d-models/93de944eea64405389e125eadbb5d6b6",
+      "title": "Maltai",
+      "creator": "mediacenterforarthistory",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh of the rock face that records its weathering, holes and paint marks as found.",
+      "depicts": "One of the Maltai relief panels with its procession of figures, as recorded in 2015.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2015-05-26",
+      "faceCount": 92888,
+      "sites": [
+        {
+          "siteId": "site-duhok-maltai-reliefs",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-14"
+      }
+    },
+    {
+      "provider": "sketchfab",
+      "modelId": "7b0f0782bd6c450ab435139d154f5dbe",
+      "url": "https://sketchfab.com/3d-models/7b0f0782bd6c450ab435139d154f5dbe",
+      "title": "The Mudhafaria Minaret of Erbil",
+      "creator": "ibrahimrzgar",
+      "type": "3d-model",
+      "documentation": "measured",
+      "method": "photogrammetry",
+      "methodEvidence": "inferred",
+      "methodNote": "A photo-textured mesh that records the brick patterns and the broken top of the shaft as they are.",
+      "depicts": "The minaret as it stands, with its octagonal base and truncated shaft.",
+      "license": "All rights reserved",
+      "licenseUrl": "",
+      "published": "2024-07-30",
+      "faceCount": 91529,
+      "sites": [
+        {
+          "siteId": "site-erbil-choli-minaret",
+          "relation": "site"
+        }
+      ],
+      "verification": {
+        "method": "sketchfab-api",
+        "checkedAt": "2026-11-14"
       }
     }
   ]

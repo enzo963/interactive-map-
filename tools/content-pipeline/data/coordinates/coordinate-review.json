@@ -1,13 +1,53 @@
 {
-  "checkedAt": "2026-11-13",
-  "checked": 286,
-  "flagged": 55,
+  "checkedAt": "2026-11-14",
+  "checked": 299,
+  "flagged": 60,
   "records": {
+    "site-duhok-amedy-city": {
+      "precision": "site",
+      "source": "wikidata:Q460736",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-duhok-delal-bridge": {
+      "precision": "site",
+      "source": "wikidata:Q2571655",
+      "flags": [],
+      "decision": null
+    },
+    "site-erbil-choli-minaret": {
+      "precision": "site",
+      "source": "wikidata:Q6931750",
+      "flags": [],
+      "decision": null
+    },
     "site-erbil-erbil-citadel": {
       "precision": "site",
       "source": "wikidata:Q206236",
       "flags": [],
       "decision": "keep"
+    },
+    "site-erbil-shanidar-cave": {
+      "precision": "site",
+      "source": "wikidata:Q909799",
+      "flags": [],
+      "decision": null
+    },
+    "site-kirkuk-kirkuk-citadel": {
+      "precision": "site",
+      "source": "wikidata:Q1144137",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-nineveh-al-nouri": {
+      "precision": "site",
+      "source": "wikidata:Q5599605",
+      "flags": [],
+      "decision": null
     },
     "site-001": {
       "precision": "site",
@@ -15,16 +55,65 @@
       "flags": [],
       "decision": "keep"
     },
+    "site-nineveh-lalish": {
+      "precision": "site",
+      "source": "wikidata:Q1017666",
+      "flags": [],
+      "decision": null
+    },
+    "site-nineveh-nimrud": {
+      "precision": "site",
+      "source": "wikidata:Q237614",
+      "flags": [],
+      "decision": null
+    },
+    "site-sulaymaniyah-qalatga-darband": {
+      "precision": "site",
+      "source": "wikidata:Q41314028",
+      "flags": [],
+      "decision": null
+    },
+    "site-baghdad-mustansiriya-madrasa": {
+      "precision": "site",
+      "source": "wikidata:Q15260416",
+      "flags": [
+        "item-not-the-site"
+      ],
+      "decision": "keep"
+    },
+    "site-baghdad-abbasid-palace": {
+      "precision": "site",
+      "source": "wikidata:Q20669819",
+      "flags": [],
+      "decision": null
+    },
     "site-salah-al-din-samarra": {
-      "precision": "approximate",
+      "precision": "site",
       "source": "wikidata:Q20717633",
       "flags": [],
       "decision": null
+    },
+    "site-salah-al-din-great-mosque": {
+      "precision": "site",
+      "source": "wikidata:Q593115",
+      "flags": [
+        "item-not-the-site",
+        "far-from-parent:18.7km"
+      ],
+      "decision": "keep"
     },
     "site-salah-al-din-ashur": {
       "precision": "site",
       "source": "wikidata:Q200200",
       "flags": [],
+      "decision": "keep"
+    },
+    "site-sulaymaniyah-red-terror-museum": {
+      "precision": "site",
+      "source": "wikidata:Q106864613",
+      "flags": [
+        "item-in-other-governorate"
+      ],
       "decision": "keep"
     },
     "site-erbil-great-mosque-erbil-citadel": {

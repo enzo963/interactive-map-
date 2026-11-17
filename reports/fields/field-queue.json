@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "totals": {
     "records": 683,
     "published": 682,
@@ -29,44 +29,14 @@
       "label": "Place description",
       "why": "Neither coordinates nor a place description: a reader cannot tell where in the governorate the site is.",
       "timeboxMinutes": 5,
-      "missing": 26,
+      "missing": 15,
       "settled": 0,
-      "open": 26,
+      "open": 15,
       "sites": [
-        {
-          "id": "site-salah-al-din-samarra",
-          "name": "Samarra Archaeological City",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
-          "id": "site-kirkuk-kirkuk-citadel",
-          "name": "Kirkuk Citadel",
-          "governorate": "Kirkuk",
-          "status": "approved"
-        },
         {
           "id": "site-nineveh-old-mosul",
           "name": "Old City of Mosul",
           "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-amedy-city",
-          "name": "Amedy city",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-nimrud",
-          "name": "Nimrud",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-delal-bridge",
-          "name": "Delal Bridge",
-          "governorate": "Duhok",
           "status": "approved"
         },
         {
@@ -76,20 +46,8 @@
           "status": "approved"
         },
         {
-          "id": "site-erbil-choli-minaret",
-          "name": "Choli Minaret",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
           "id": "site-erbil-qaysari-bazaar",
           "name": "Qaysari Bazaar, Erbil",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-shanidar-cave",
-          "name": "Shanidar Cave",
           "governorate": "Erbil",
           "status": "approved"
         },
@@ -124,12 +82,6 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-lalish",
-          "name": "Lalish Temple",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-salah-al-din-abu-dulaf",
           "name": "Abu Dulaf Mosque",
           "governorate": "Salah al-Din",
@@ -142,26 +94,8 @@
           "status": "approved"
         },
         {
-          "id": "site-salah-al-din-great-mosque",
-          "name": "Great Mosque of Samarra and Malwiya Minaret",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
           "id": "site-sulaymaniyah-bestansur",
           "name": "Bestansur Neolithic settlement",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-qalatga-darband",
-          "name": "Qalatga Darband",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-red-terror-museum",
-          "name": "Red Terror Museum, Slemani",
           "governorate": "Sulaymaniyah",
           "status": "approved"
         },
@@ -197,22 +131,10 @@
       "label": "Verified position",
       "why": "Without a verified position of the site itself the card has no pin; town- or area-level points count as missing.",
       "timeboxMinutes": 10,
-      "missing": 459,
+      "missing": 445,
       "settled": 0,
-      "open": 459,
+      "open": 445,
       "sites": [
-        {
-          "id": "site-salah-al-din-samarra",
-          "name": "Samarra Archaeological City",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
-          "id": "site-kirkuk-kirkuk-citadel",
-          "name": "Kirkuk Citadel",
-          "governorate": "Kirkuk",
-          "status": "approved"
-        },
         {
           "id": "site-nineveh-ancient-nineveh",
           "name": "The Ancient City of Nineveh",
@@ -223,24 +145,6 @@
           "id": "site-nineveh-old-mosul",
           "name": "Old City of Mosul",
           "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-amedy-city",
-          "name": "Amedy city",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-nimrud",
-          "name": "Nimrud",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-baghdad-abbasid-palace",
-          "name": "Abbasid Palace",
-          "governorate": "Baghdad",
           "status": "approved"
         },
         {
@@ -268,38 +172,14 @@
           "status": "approved"
         },
         {
-          "id": "site-baghdad-mustansiriya-madrasa",
-          "name": "Al-Mustansiriya Madrasa",
-          "governorate": "Baghdad",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-delal-bridge",
-          "name": "Delal Bridge",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
           "id": "site-duhok-faida-canal-reliefs",
           "name": "Faida Archaeological Canal and Reliefs",
           "governorate": "Duhok",
           "status": "approved"
         },
         {
-          "id": "site-erbil-choli-minaret",
-          "name": "Choli Minaret",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
           "id": "site-erbil-qaysari-bazaar",
           "name": "Qaysari Bazaar, Erbil",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-shanidar-cave",
-          "name": "Shanidar Cave",
           "governorate": "Erbil",
           "status": "approved"
         },
@@ -328,20 +208,8 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-al-nouri",
-          "name": "Al-Nouri Mosque and al-Hadba Minaret",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-nineveh-dominican-church",
           "name": "Dominican Church and Clock Tower, Mosul",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-lalish",
-          "name": "Lalish Temple",
           "governorate": "Nineveh",
           "status": "approved"
         },
@@ -358,26 +226,8 @@
           "status": "approved"
         },
         {
-          "id": "site-salah-al-din-great-mosque",
-          "name": "Great Mosque of Samarra and Malwiya Minaret",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
           "id": "site-sulaymaniyah-bestansur",
           "name": "Bestansur Neolithic settlement",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-qalatga-darband",
-          "name": "Qalatga Darband",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-red-terror-museum",
-          "name": "Red Terror Museum, Slemani",
           "governorate": "Sulaymaniyah",
           "status": "approved"
         },
@@ -2963,16 +2813,10 @@
       "label": "Historical period",
       "why": "The period was not established when the card was reviewed; a dated card can be found by era.",
       "timeboxMinutes": 10,
-      "missing": 298,
+      "missing": 294,
       "settled": 0,
-      "open": 298,
+      "open": 294,
       "sites": [
-        {
-          "id": "site-kirkuk-kirkuk-citadel",
-          "name": "Kirkuk Citadel",
-          "governorate": "Kirkuk",
-          "status": "approved"
-        },
         {
           "id": "site-nineveh-old-mosul",
           "name": "Old City of Mosul",
@@ -2992,12 +2836,6 @@
           "status": "approved"
         },
         {
-          "id": "site-erbil-choli-minaret",
-          "name": "Choli Minaret",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
           "id": "site-erbil-qaysari-bazaar",
           "name": "Qaysari Bazaar, Erbil",
           "governorate": "Erbil",
@@ -3007,12 +2845,6 @@
           "id": "site-kirkuk-qaysariyah-market",
           "name": "Al-Qaysariyah Market, Kirkuk",
           "governorate": "Kirkuk",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-al-nouri",
-          "name": "Al-Nouri Mosque and al-Hadba Minaret",
-          "governorate": "Nineveh",
           "status": "approved"
         },
         {
@@ -3247,12 +3079,6 @@
           "id": "site-anbar-kifrin",
           "name": "Kifrin",
           "governorate": "Anbar",
-          "status": "needs-review"
-        },
-        {
-          "id": "site-diyala-alwand-bridge",
-          "name": "Alwand Bridge, Khanaqin",
-          "governorate": "Diyala",
           "status": "needs-review"
         },
         {
@@ -4763,50 +4589,14 @@
       "label": "Second credible source",
       "why": "Best evidence is an encyclopaedia or news report, or a complex site cites fewer than two credible publishers.",
       "timeboxMinutes": 15,
-      "missing": 220,
+      "missing": 213,
       "settled": 0,
-      "open": 220,
+      "open": 213,
       "sites": [
-        {
-          "id": "site-salah-al-din-ashur",
-          "name": "Ashur (Qal'at Sherqat)",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
-          "id": "site-001",
-          "name": "Hatra",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-kirkuk-kirkuk-citadel",
-          "name": "Kirkuk Citadel",
-          "governorate": "Kirkuk",
-          "status": "approved"
-        },
         {
           "id": "site-nineveh-ancient-nineveh",
           "name": "The Ancient City of Nineveh",
           "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-amedy-city",
-          "name": "Amedy city",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
-          "id": "site-nineveh-nimrud",
-          "name": "Nimrud",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-qalatga-darband",
-          "name": "Qalatga Darband",
-          "governorate": "Sulaymaniyah",
           "status": "approved"
         },
         {
@@ -5340,12 +5130,6 @@
         {
           "id": "site-baghdad-taj-palace",
           "name": "Taj Palace (site)",
-          "governorate": "Baghdad",
-          "status": "needs-review"
-        },
-        {
-          "id": "site-baghdad-taq-kasra",
-          "name": "Taq Kasra (Arch of Ctesiphon)",
           "governorate": "Baghdad",
           "status": "needs-review"
         },
@@ -6095,9 +5879,9 @@
       "label": "Alternative names",
       "why": "Other spellings and Arabic or Kurdish names make the card findable in search.",
       "timeboxMinutes": 5,
-      "missing": 209,
+      "missing": 203,
       "settled": 0,
-      "open": 209,
+      "open": 203,
       "sites": [
         {
           "id": "site-nineveh-ancient-nineveh",
@@ -6112,27 +5896,9 @@
           "status": "approved"
         },
         {
-          "id": "site-duhok-amedy-city",
-          "name": "Amedy city",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
-          "id": "site-duhok-delal-bridge",
-          "name": "Delal Bridge",
-          "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
           "id": "site-duhok-faida-canal-reliefs",
           "name": "Faida Archaeological Canal and Reliefs",
           "governorate": "Duhok",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-choli-minaret",
-          "name": "Choli Minaret",
-          "governorate": "Erbil",
           "status": "approved"
         },
         {
@@ -6154,32 +5920,14 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-al-nouri",
-          "name": "Al-Nouri Mosque and al-Hadba Minaret",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-nineveh-dominican-church",
           "name": "Dominican Church and Clock Tower, Mosul",
           "governorate": "Nineveh",
           "status": "approved"
         },
         {
-          "id": "site-nineveh-lalish",
-          "name": "Lalish Temple",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-sulaymaniyah-bestansur",
           "name": "Bestansur Neolithic settlement",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-qalatga-darband",
-          "name": "Qalatga Darband",
           "governorate": "Sulaymaniyah",
           "status": "approved"
         },
@@ -7372,32 +7120,14 @@
       "label": "Estimated year",
       "why": "Places the card on the timeline.",
       "timeboxMinutes": 5,
-      "missing": 511,
+      "missing": 498,
       "settled": 0,
-      "open": 511,
+      "open": 498,
       "sites": [
-        {
-          "id": "site-salah-al-din-ashur",
-          "name": "Ashur (Qal'at Sherqat)",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
-          "id": "site-salah-al-din-samarra",
-          "name": "Samarra Archaeological City",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
         {
           "id": "site-erbil-erbil-citadel",
           "name": "Erbil Citadel",
           "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-001",
-          "name": "Hatra",
-          "governorate": "Nineveh",
           "status": "approved"
         },
         {
@@ -7425,18 +7155,6 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-nimrud",
-          "name": "Nimrud",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
-          "id": "site-baghdad-abbasid-palace",
-          "name": "Abbasid Palace",
-          "governorate": "Baghdad",
-          "status": "approved"
-        },
-        {
           "id": "site-baghdad-al-asifiyah-mosque",
           "name": "Al-Asifiyah Mosque",
           "governorate": "Baghdad",
@@ -7461,12 +7179,6 @@
           "status": "approved"
         },
         {
-          "id": "site-baghdad-mustansiriya-madrasa",
-          "name": "Al-Mustansiriya Madrasa",
-          "governorate": "Baghdad",
-          "status": "approved"
-        },
-        {
           "id": "site-duhok-delal-bridge",
           "name": "Delal Bridge",
           "governorate": "Duhok",
@@ -7479,20 +7191,8 @@
           "status": "approved"
         },
         {
-          "id": "site-erbil-choli-minaret",
-          "name": "Choli Minaret",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
           "id": "site-erbil-qaysari-bazaar",
           "name": "Qaysari Bazaar, Erbil",
-          "governorate": "Erbil",
-          "status": "approved"
-        },
-        {
-          "id": "site-erbil-shanidar-cave",
-          "name": "Shanidar Cave",
           "governorate": "Erbil",
           "status": "approved"
         },
@@ -7521,12 +7221,6 @@
           "status": "approved"
         },
         {
-          "id": "site-nineveh-al-nouri",
-          "name": "Al-Nouri Mosque and al-Hadba Minaret",
-          "governorate": "Nineveh",
-          "status": "approved"
-        },
-        {
           "id": "site-nineveh-dominican-church",
           "name": "Dominican Church and Clock Tower, Mosul",
           "governorate": "Nineveh",
@@ -7551,20 +7245,8 @@
           "status": "approved"
         },
         {
-          "id": "site-salah-al-din-great-mosque",
-          "name": "Great Mosque of Samarra and Malwiya Minaret",
-          "governorate": "Salah al-Din",
-          "status": "approved"
-        },
-        {
           "id": "site-sulaymaniyah-bestansur",
           "name": "Bestansur Neolithic settlement",
-          "governorate": "Sulaymaniyah",
-          "status": "approved"
-        },
-        {
-          "id": "site-sulaymaniyah-qalatga-darband",
-          "name": "Qalatga Darband",
           "governorate": "Sulaymaniyah",
           "status": "approved"
         },
@@ -8046,12 +7728,6 @@
           "id": "site-baghdad-university-of-baghdad-campus",
           "name": "University of Baghdad Campus (Gropius)",
           "governorate": "Baghdad",
-          "status": "needs-review"
-        },
-        {
-          "id": "site-diyala-alwand-bridge",
-          "name": "Alwand Bridge, Khanaqin",
-          "governorate": "Diyala",
           "status": "needs-review"
         },
         {
@@ -10011,12 +9687,6 @@
           "status": "needs-review"
         },
         {
-          "id": "site-diyala-kifri-qaysari-bazaar",
-          "name": "Qaysari Bazaar, Kifri",
-          "governorate": "Diyala",
-          "status": "needs-review"
-        },
-        {
           "id": "site-diyala-majid-pasha-palace-kifri",
           "name": "Majid Pasha Baban Palace, Kifri",
           "governorate": "Diyala",
@@ -11027,6 +10697,12 @@
         {
           "id": "site-baghdad-suhrawardi-mausoleum",
           "name": "Mausoleum of Umar al-Suhrawardi",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-taq-kasra",
+          "name": "Taq Kasra (Arch of Ctesiphon)",
           "governorate": "Baghdad",
           "status": "needs-review"
         },
@@ -13005,12 +12681,6 @@
           "status": "needs-review"
         },
         {
-          "id": "site-baghdad-taq-kasra",
-          "name": "Taq Kasra (Arch of Ctesiphon)",
-          "governorate": "Baghdad",
-          "status": "needs-review"
-        },
-        {
           "id": "site-baghdad-tell-al-dhibai",
           "name": "Tell al-Dhiba‘i",
           "governorate": "Baghdad",
@@ -14555,6 +14225,12 @@
         {
           "id": "site-baghdad-talisman-gate",
           "name": "Talisman Gate (site)",
+          "governorate": "Baghdad",
+          "status": "needs-review"
+        },
+        {
+          "id": "site-baghdad-taq-kasra",
+          "name": "Taq Kasra (Arch of Ctesiphon)",
           "governorate": "Baghdad",
           "status": "needs-review"
         },
@@ -16965,12 +16641,6 @@
           "status": "needs-review"
         },
         {
-          "id": "site-baghdad-taq-kasra",
-          "name": "Taq Kasra (Arch of Ctesiphon)",
-          "governorate": "Baghdad",
-          "status": "needs-review"
-        },
-        {
           "id": "site-baghdad-tell-al-dhibai",
           "name": "Tell al-Dhiba‘i",
           "governorate": "Baghdad",
@@ -17713,14 +17383,13 @@
   ],
   "byGapCount": {
     "0": 1,
-    "1": 20,
-    "2": 69,
-    "3": 114,
+    "1": 27,
+    "2": 76,
+    "3": 111,
     "4": 138,
-    "5": 177,
-    "6": 149,
-    "7": 13,
-    "8": 1
+    "5": 173,
+    "6": 146,
+    "7": 10
   },
   "nextBatch": [
     {
@@ -17733,53 +17402,8 @@
     },
     {
       "kind": "enrichment",
-      "id": "site-salah-al-din-samarra",
-      "name": "Samarra Archaeological City",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-kirkuk-kirkuk-citadel",
-      "name": "Kirkuk Citadel",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
       "id": "site-nineveh-old-mosul",
       "name": "Old City of Mosul",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-duhok-amedy-city",
-      "name": "Amedy city",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-nineveh-nimrud",
-      "name": "Nimrud",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-duhok-delal-bridge",
-      "name": "Delal Bridge",
       "fields": [
         "location"
       ],
@@ -17796,26 +17420,8 @@
     },
     {
       "kind": "enrichment",
-      "id": "site-erbil-choli-minaret",
-      "name": "Choli Minaret",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
       "id": "site-erbil-qaysari-bazaar",
       "name": "Qaysari Bazaar, Erbil",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-erbil-shanidar-cave",
-      "name": "Shanidar Cave",
       "fields": [
         "location"
       ],
@@ -17868,15 +17474,6 @@
     },
     {
       "kind": "enrichment",
-      "id": "site-nineveh-lalish",
-      "name": "Lalish Temple",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
       "id": "site-salah-al-din-abu-dulaf",
       "name": "Abu Dulaf Mosque",
       "fields": [
@@ -17895,35 +17492,8 @@
     },
     {
       "kind": "enrichment",
-      "id": "site-salah-al-din-great-mosque",
-      "name": "Great Mosque of Samarra and Malwiya Minaret",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
       "id": "site-sulaymaniyah-bestansur",
       "name": "Bestansur Neolithic settlement",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-sulaymaniyah-qalatga-darband",
-      "name": "Qalatga Darband",
-      "fields": [
-        "location"
-      ],
-      "timeboxMinutes": 5
-    },
-    {
-      "kind": "enrichment",
-      "id": "site-sulaymaniyah-red-terror-museum",
-      "name": "Red Terror Museum, Slemani",
       "fields": [
         "location"
       ],
@@ -17946,6 +17516,105 @@
         "location"
       ],
       "timeboxMinutes": 5
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-diyala-tel-abu-uthaina",
+      "name": "Tel Abu Uthaina",
+      "fields": [
+        "location"
+      ],
+      "timeboxMinutes": 5
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-diyala-tel-shihab",
+      "name": "Tel Shihab",
+      "fields": [
+        "location"
+      ],
+      "timeboxMinutes": 5
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-nineveh-ancient-nineveh",
+      "name": "The Ancient City of Nineveh",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-baghdad-al-asifiyah-mosque",
+      "name": "Al-Asifiyah Mosque",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-baghdad-al-qishla",
+      "name": "Al-Qishla and Clock Tower",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-baghdad-al-wazir-mosque",
+      "name": "Al-Wazir Mosque",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-baghdad-house-of-wisdom-building",
+      "name": "House of Wisdom (Industries School Building)",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-erbil-koya-old-town",
+      "name": "Old Town of Koya",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-anbar-ancient-anah",
+      "name": "Ancient Anah (Anat)",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-anbar-telbis-island",
+      "name": "Telbis Island",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
+    },
+    {
+      "kind": "enrichment",
+      "id": "site-nineveh-sinjar-old-city",
+      "name": "Sinjar Historic Town (Singara)",
+      "fields": [
+        "coordinates"
+      ],
+      "timeboxMinutes": 10
     }
   ]
 }
