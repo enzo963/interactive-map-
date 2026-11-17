@@ -3,9 +3,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
 const { applyFilters, EMPTY_FILTERS } = await server.ssrLoadModule('/src/utils/filterSites.js');
 const { searchTokens, looseKey } = await server.ssrLoadModule('/src/utils/search.js');

@@ -3,9 +3,9 @@ import { existsSync, readFileSync, statSync } from 'node:fs';
 import { after, test } from 'node:test';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { pictureSources, IMAGE_ROLES } = await server.ssrLoadModule('/src/utils/imageVariants.js');
 const ResponsiveImage = (await server.ssrLoadModule('/src/components/common/ResponsiveImage.jsx')).default;
 after(async () => { await server.close(); });

@@ -5,9 +5,9 @@ import { readFileSync } from 'node:fs';
 import { after, test } from 'node:test';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { documentationForSite, MAX_DOCUMENTATION_PER_SITE } = await server.ssrLoadModule('/src/utils/digitalDocumentation.js');
 const ModelViewer = (await server.ssrLoadModule('/src/components/site/ModelViewer.jsx')).default;
 const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');

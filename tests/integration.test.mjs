@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import process from 'node:process';
 import { after, afterEach, beforeEach, test } from 'node:test';
 import { JSDOM } from 'jsdom';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import React, { act } from 'react';
 
 const dom = new JSDOM('<!doctype html><html><head></head><body><div id="root"></div></body></html>', { url: 'http://localhost/', pretendToBeVisual: true });
@@ -21,7 +21,7 @@ window.matchMedia = (media) => ({ media, matches: media.includes('prefers-reduce
 window.HTMLDialogElement.prototype.showModal = function () { this.open = true; };
 window.HTMLDialogElement.prototype.close = function () { this.open = false; this.dispatchEvent(new window.Event('close')); };
 const { createRoot } = await import('react-dom/client');
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const App = (await server.ssrLoadModule('/src/App.jsx')).default;
 const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
 const { normalizeSites } = await server.ssrLoadModule('/src/utils/siteAdapter.js');

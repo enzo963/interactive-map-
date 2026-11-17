@@ -4,7 +4,8 @@ import { mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { build, createServer } from 'vite';
+import { build } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 import publishedSites from '../vite/publishedSites.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -23,7 +24,7 @@ for (const approvedOnly of [false, true]) {
       if (originalNodeEnv === undefined) delete process.env.NODE_ENV;
       else process.env.NODE_ENV = originalNodeEnv;
     };
-    const server = await createServer({ root, configFile: false, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+    const server = await createTestServer(import.meta.url, { root, configFile: false });
     let visible;
     let normalized;
     try {
@@ -51,7 +52,7 @@ for (const approvedOnly of [false, true]) {
       const archives = new Map(normalized.map((site) => [site.id, site.archiveNo]));
       for (const record of emitted) assert.equal(record.archive_no, archives.get(record.id), `${record.id}: stable archive number`);
       // Renormalizing exactly the filtered client JSON must preserve full-source numbering.
-      const checkServer = await createServer({ root, configFile: false, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+      const checkServer = await createTestServer(import.meta.url, { root, configFile: false });
       try {
         const { normalizeSites } = await checkServer.ssrLoadModule('/src/utils/siteAdapter.js');
         for (const site of normalizeSites(emitted)) assert.equal(site.archiveNo, archives.get(site.id), `${site.id}: client archive number`);

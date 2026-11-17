@@ -2,9 +2,9 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { coverageByGovernorate, COVERAGE_GOVERNORATES } = await server.ssrLoadModule('/src/utils/coverage.js');
 const { getAllSites } = await server.ssrLoadModule('/src/services/siteService.js');
 const { approvedCover } = await server.ssrLoadModule('/src/utils/coverApproval.js');

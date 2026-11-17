@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
+import { createTestServer } from './helpers/vite-server.mjs';
 
 const require = createRequire(import.meta.url);
 const Ajv = require('ajv');
@@ -12,7 +12,7 @@ const frontend = read('../src/data/sites.json');
 const catalogPath = new URL('../tools/content-pipeline/data/prepared/heritage-sites.json', import.meta.url);
 const catalog = existsSync(catalogPath) ? JSON.parse(readFileSync(catalogPath, 'utf8')) : null;
 const validate = new Ajv({ allErrors: true }).compile(schema);
-const server = await createServer({ server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+const server = await createTestServer(import.meta.url);
 const { normalizeSites } = await server.ssrLoadModule('/src/utils/siteAdapter.js');
 after(async () => { await server.close(); });
 const cover = { src: '/cover.jpg', alt: 'Cover view', caption: '', credit: 'Cover credit', license: 'CC BY' };

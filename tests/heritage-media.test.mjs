@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { after, test } from 'node:test';
-import { createServer } from 'vite';
-const server = await createServer({ configFile: false, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' });
+import { createTestServer } from './helpers/vite-server.mjs';
+const server = await createTestServer(import.meta.url, { configFile: false });
 after(() => server.close());
 const load = () => server.ssrLoadModule('/src/utils/heritageMedia.js');
 const source = { evidenceId: 'report', sourceName: 'UNESCO', url: 'https://whc.unesco.org/en/list/1', accessedAt: '2020-02-29', accessLevel: 'full-text' };
