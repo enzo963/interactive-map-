@@ -4,6 +4,14 @@
  * Plural sets use Arabic's six forms: zero, one, two, few, many, other.
  */
 export default {
+  "Archive tools": "أدوات الأرشيف",
+  "About us": "من نحن",
+  "DocH Project": "مشروع DocH",
+  "Cards": "البطاقات",
+  "Next": "التالي",
+  "Previous": "السابق",
+  "Flip through history": "تصفّح التاريخ",
+  "Select the card to reveal a random site.": "اختر البطاقة لاكتشاف موقع عشوائي.",
   'Map controls': 'أدوات الخريطة',
   'Map controls, governorates, selected card and results': 'أدوات الخريطة والمحافظات والبطاقة المختارة والنتائج',
   'Every pin is a heritage card from Iraq’s archaeological, architectural and cultural record.': 'كل دبوس على الخريطة بطاقة تراثية من التراث الأثري والمعماري والثقافي في العراق.',

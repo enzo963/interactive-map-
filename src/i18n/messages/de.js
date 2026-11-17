@@ -1,5 +1,10 @@
 /** German interface text. Keys are the English source texts (see src/i18n/index.js). */
 export default {
+  "Archive tools": "Archivfunktionen",
+  "About us": "Über uns",
+  "DocH Project": "DocH-Projekt",
+  "Flip through history": "Geschichte Karte für Karte",
+  "Select the card to reveal a random site.": "Wählen Sie die Karte aus, um einen zufälligen Ort zu entdecken.",
   'brand.name': 'History in Cards',
   'common.skip': 'Zum Inhalt springen',
   'common.unknown': 'Unbekannt',
