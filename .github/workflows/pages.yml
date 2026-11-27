@@ -15,7 +15,14 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Lint, tests and data checks (ci.yml) must pass before anything is published.
+  checks:
+    permissions:
+      contents: read
+    uses: ./.github/workflows/ci.yml
+
   deploy:
+    needs: checks
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -1,0 +1,49 @@
+name: CI
+
+# Runs on every pull request, and is called by pages.yml so nothing is
+# deployed from main unless the same checks pass first.
+on:
+  pull_request:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  web:
+    name: Web checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # tests/card-square-layout.test.mjs measures real layout in a browser.
+      - run: npx playwright install --with-deps chromium
+      - run: npm run lint
+      - run: npm test
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - run: npm run check:cards
+      - run: npm run check:i18n
+      - run: npm run check:values
+      - run: npm run check:search
+
+  pipeline:
+    name: Content pipeline tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/content-pipeline
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: tools/content-pipeline/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests

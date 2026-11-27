@@ -29,3 +29,11 @@ dist-ssr
 
 # Source downloads for image optimization (tools/content-pipeline/optimize_images.py)
 tools/content-pipeline/data/image-cache/
+
+# Python bytecode and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Archives: keep the source folders in git, never zipped copies of them
+*.zip
